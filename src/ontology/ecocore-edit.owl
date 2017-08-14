@@ -1,0 +1,23 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/ecocore.owl>
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl>)
+Annotation(rdfs:comment "An ontology of core ecological entities")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000000>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000000> "ecocore"@en)
+)
