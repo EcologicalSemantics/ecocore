@@ -1,16 +1,19 @@
 [![Build Status](https://travis-ci.org/EcologicalSemantics/an-ontology-of-core-ecological-entities.svg?branch=master)](https://travis-ci.org/EcologicalSemantics/an-ontology-of-core-ecological-entities)
 [![DOI](https://zenodo.org/badge/13996/EcologicalSemantics/an-ontology-of-core-ecological-entities.svg)](https://zenodo.org/badge/latestdoi/13996/EcologicalSemantics/an-ontology-of-core-ecological-entities)
 
-# an-ontology-of-core-ecological-entities
+# ecoCore: An ontology of core ecological entities
 
-This ontology... YOUR DESCRIPTION HERE
+This ontology aims to provide core semantics for ecological entities, such as ecological functions (for predators, prey, etc)  closely interoperating with existing OBO ontologies such as the Environment Ontology, the Population and Community Ontology (PCO), the Gene Ontology (for biological processes etc), the Phenotype and Quality Ontology (PATO), the Plant Ontology (PO), and many others.
 
 ## Versions
+
+pre-alpha: first release pending
 
 ### Stable release versions
 
 The latest version of the ontology can always be found at:
 
+:warning: not live yet!
 http://purl.obolibrary.org/obo/ecocore.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
