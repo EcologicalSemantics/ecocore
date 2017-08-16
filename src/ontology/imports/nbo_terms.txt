@@ -1,0 +1,17 @@
+http://purl.obolibrary.org/obo/NBO_0000743 # social aggression behavior
+http://purl.obolibrary.org/obo/NBO_0000633 # territorial aggressive behavior
+http://purl.obolibrary.org/obo/NBO_0000078 # post-mating behavior
+http://purl.obolibrary.org/obo/NBO_0000060 # copulation
+http://purl.obolibrary.org/obo/NBO_0000548 # male sexual activity
+http://purl.obolibrary.org/obo/NBO_0000549 # female sexual activity
+http://purl.obolibrary.org/obo/NBO_0000014 # mating behavior
+http://purl.obolibrary.org/obo/NBO_0000077 # courtship behavior
+http://purl.obolibrary.org/obo/NBO_0000637 # male courtship behavior
+http://purl.obolibrary.org/obo/NBO_0000638 # female courtship behavior
+http://purl.obolibrary.org/obo/NBO_0000146 # mating receptivity
+http://purl.obolibrary.org/obo/NBO_0000147 # sexual display behavior
+http://purl.obolibrary.org/obo/NBO_0000285 # altruism behavior
+http://purl.obolibrary.org/obo/NBO_0000288 # reciprocal altruism
+http://purl.obolibrary.org/obo/NBO_0000287 # helping behavior 
+http://purl.obolibrary.org/obo/NBO_0000286 # prosocial behavior
+http://purl.obolibrary.org/obo/NBO_0000613 # nonverbal communication behavior

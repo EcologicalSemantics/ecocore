@@ -1,0 +1,9 @@
+http://purl.obolibrary.org/obo/IDO_0000403 # parasite role
+http://purl.obolibrary.org/obo/IDO_0000400 # symbiont role
+http://purl.obolibrary.org/obo/IDO_0000662 # life-sustaining process
+http://purl.obolibrary.org/obo/IDO_0000401 # mutualist role
+http://purl.obolibrary.org/obo/IDO_0000405 # pathogen role
+http://purl.obolibrary.org/obo/IDO_0000404 # infectious agent role
+http://purl.obolibrary.org/obo/IDO_0000408 # symbiont host role
+http://purl.obolibrary.org/obo/IDO_0000629 # host role
+http://purl.obolibrary.org/obo/IDO_0000415 # pathogen host role

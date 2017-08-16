@@ -1,6 +1,31 @@
-http://purl.obolibrary.org/obo/XXX_0000001 ## Optional Label
-http://purl.obolibrary.org/obo/BFO_0000050 ## part of
-http://purl.obolibrary.org/obo/CHEBI_24431 ## chemical entity
-http://purl.obolibrary.org/obo/UBERON_0002048 ## lung
-http://purl.obolibrary.org/obo/CL_0000540 ## neuron
-http://purl.obolibrary.org/obo/GO_0008150 ## biological_process
+http://purl.obolibrary.org/obo/GO_0008150 # biological_process
+http://purl.obolibrary.org/obo/GO_0015979 # photosynthesis
+http://purl.obolibrary.org/obo/GO_0015975 # energy derivation by oxidation of reduced inorganic compounds (lithotrophy)
+http://purl.obolibrary.org/obo/GO_0006091 # generation of precursor metabolites and energy
+http://purl.obolibrary.org/obo/GO_0019331 # anaerobic respiration, using ammonium as electron donor
+http://purl.obolibrary.org/obo/GO_0019332 # aerobic respiration, using nitrite as electron donor
+http://purl.obolibrary.org/obo/GO_0019409 # aerobic respiration, using ammonia as electron donor
+http://purl.obolibrary.org/obo/GO_0019410 # aerobic respiration, using carbon monoxide as electron donor
+http://purl.obolibrary.org/obo/GO_0019412 # aerobic respiration, using hydrogen as electron donor
+http://purl.obolibrary.org/obo/GO_0019414 # aerobic respiration, using sulfur or sulfate as electron donor
+http://purl.obolibrary.org/obo/GO_0043554 # aerobic respiration, using arsenite as electron donor
+http://purl.obolibrary.org/obo/GO_0015980 # energy derivation by oxidation of organic compounds
+http://purl.obolibrary.org/obo/GO_0006113 # fermentation
+http://purl.obolibrary.org/obo/GO_0045333 # cellular respiration
+http://purl.obolibrary.org/obo/GO_0006112 # energy reserve metabolic process
+http://purl.obolibrary.org/obo/GO_0005977 # glycogen metabolic process
+http://purl.obolibrary.org/obo/GO_0019252 # starch biosynthetic process
+http://purl.obolibrary.org/obo/GO_0040011 # locomotion
+http://purl.obolibrary.org/obo/GO_0042330 # taxis
+http://purl.obolibrary.org/obo/GO_0009453 # energy taxis
+http://purl.obolibrary.org/obo/GO_0009454 # aerotaxis 
+http://purl.obolibrary.org/obo/GO_0016265 # death
+http://purl.obolibrary.org/obo/GO_0032502 # developmental process
+http://purl.obolibrary.org/obo/GO_0040007 # growth
+http://purl.obolibrary.org/obo/GO_0044411 # entry into host through host barriers
+http://purl.obolibrary.org/obo/GO_0085031 # commensalism
+http://purl.obolibrary.org/obo/GO_0085030 # mutualism
+http://purl.obolibrary.org/obo/GO_0000003 # reproduction
+http://purl.obolibrary.org/obo/GO_0072519 # parasitism
+
+

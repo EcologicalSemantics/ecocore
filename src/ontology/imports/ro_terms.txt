@@ -9,3 +9,22 @@ http://purl.obolibrary.org/obo/RO_0002574 # participates in a biotic-biotic inte
 http://purl.obolibrary.org/obo/RO_0002437 # biotically interacts with
 http://purl.obolibrary.org/obo/RO_0002434 # interacts with
 http://purl.obolibrary.org/obo/RO_0002446 # participates in a abiotic-biotic interaction with
+http://purl.obolibrary.org/obo/RO_0002216 # capable of part of
+http://purl.obolibrary.org/obo/RO_0002215 # capable of
+http://purl.obolibrary.org/obo/RO_0000085 # has function
+http://purl.obolibrary.org/obo/RO_0002233 # has input
+http://purl.obolibrary.org/obo/RO_0002234 # has output
+http://purl.obolibrary.org/obo/RO_0002297 # results in formation of
+http://purl.obolibrary.org/obo/RO_0002552 # results in ending of
+
+
+http://purl.obolibrary.org/obo/RO_0009501 # realized in response to
+http://purl.obolibrary.org/obo/RO_0002608 # has causal agent
+http://purl.obolibrary.org/obo/RO_0002584 # has part structure that is capable of
+http://purl.obolibrary.org/obo/RO_0002418 # causally upstream of or within
+http://purl.obolibrary.org/obo/RO_0002427 # causally downstream of or within
+http://purl.obolibrary.org/obo/RO_0002559 # causally influenced by (material entity to material entity)
+http://purl.obolibrary.org/obo/RO_0002509 # determined by part of
+http://purl.obolibrary.org/obo/RO_0002507 # determined by
+http://purl.obolibrary.org/obo/RO_0002508 # determines
+http://purl.obolibrary.org/obo/RO_0002218 # has active participant

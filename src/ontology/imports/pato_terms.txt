@@ -1,6 +1,8 @@
-http://purl.obolibrary.org/obo/XXX_0000001 ## Optional Label
-http://purl.obolibrary.org/obo/BFO_0000050 ## part of
-http://purl.obolibrary.org/obo/CHEBI_24431 ## chemical entity
-http://purl.obolibrary.org/obo/UBERON_0002048 ## lung
-http://purl.obolibrary.org/obo/CL_0000540 ## neuron
-http://purl.obolibrary.org/obo/GO_0008150 ## biological_process
+http://purl.obolibrary.org/obo/PATO_0001422 # dead
+http://purl.obolibrary.org/obo/PATO_0001421 # alive
+http://purl.obolibrary.org/obo/PATO_0000719 # viable
+http://purl.obolibrary.org/obo/PATO_0001770 # semi-viable
+http://purl.obolibrary.org/obo/PATO_0001497 # brood viability
+http://purl.obolibrary.org/obo/PATO_0001432 # decayed
+http://purl.obolibrary.org/obo/PATO_0000955 # fertile
+http://purl.obolibrary.org/obo/PATO_0000956 # sterile
