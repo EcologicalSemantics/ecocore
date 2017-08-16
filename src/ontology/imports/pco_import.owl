@@ -47,6 +47,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -149,8 +155,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">occurrent</rdfs:label>
     </owl:Class>
     
 
@@ -170,6 +187,23 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/017-002"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">process</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/083-003"/>
     </owl:Axiom>
     
 
@@ -253,6 +287,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Material anatomical entity that is a member of an individual species or is a viral or viroid particle.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism or virus or viroid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CARO_0010004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0010004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0001010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An individual member of a clade.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism</rdfs:label>
     </owl:Class>
     
 
@@ -346,6 +390,46 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A denotator type indicates how a term should be interpreted from an ontological perspective.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">denotator type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0010004"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eucaryotes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucarya</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eucaryotae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukarya</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryotae</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eukaryotes</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_33208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_33208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metazoans</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular animals</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Animalia</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">animals</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metazoa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_33208"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">man</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:label>
     </owl:Class>
     
 
@@ -543,6 +627,56 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PCO_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process that has as primary participant a population. </obo:IAO_0000115>
+        <rdfs:label xml:lang="en">population process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">The number of different species represented in an ecological community.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">community species richness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000005"/>
+        <obo:IAO_0000115>A process that leads to a change in the number of individuals (positive or negative) in a population.</obo:IAO_0000115>
+        <rdfs:label>population growth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000011"/>
+        <obo:IAO_0000115>A population process that leads to an increase in the numbers of individuals in a population following a logistic (S-shaped) curve. Generally occurs when the population has a carrying capacity in a particular habitat.</obo:IAO_0000115>
+        <rdfs:label>logistic population growth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000011"/>
+        <obo:IAO_0000115>A population growth process that leads to an exponential increase in the number of individuals in a population.</obo:IAO_0000115>
+        <rdfs:label>exponential population growth</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PCO_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000017">
@@ -613,6 +747,85 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PCO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">The number of different species that are represented in a given community, weighted by their abundance. Community species diversity can be calculated in different ways, but consists of two components: species richness and species evenness.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">community species diversity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000005"/>
+        <obo:IAO_0000115 xml:lang="en">A population process that ultimately leads to the death of all individuals in a population.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">population extinction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A process that ultimately leads to the death of all individuals in a population.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">species extinction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">A quality of a community that reflects how close in abundance all species in a community are.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">community species evenness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000027">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCO_0000018"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection of organisms of the same species that has as members only humans.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">collection of humans</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PCO_0000028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0000028">
@@ -662,6 +875,67 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>A material entity that is one or more organisms, viruses or viroids.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">organismal entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CARO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/CARO_0001010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pair of interacting organisms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PCO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PCO_0001001">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PCO_0001000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                        <owl:allValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/PCO_0000017"/>
+                            </owl:Restriction>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0001000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:allValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/PCO_0000017"/>
+                    </owl:Restriction>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">pair of interacting organisms of the same species</rdfs:label>
     </owl:Class>
     
 

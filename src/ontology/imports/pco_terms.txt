@@ -1,2 +1,14 @@
 http://purl.obolibrary.org/obo/PCO_0000002 # ecological community
 http://purl.obolibrary.org/obo/PCO_0000004 # ecological population
+http://purl.obolibrary.org/obo/PCO_0000019 # community species diversity
+http://purl.obolibrary.org/obo/PCO_0000023 # community species evenness
+http://purl.obolibrary.org/obo/PCO_0000010 # community species richness
+http://purl.obolibrary.org/obo/PCO_0000027 # collection of humans
+http://purl.obolibrary.org/obo/PCO_0001001 # pair of interacting organisms of the same species
+http://purl.obolibrary.org/obo/PCO_0001000 # pair of interacting organisms
+http://purl.obolibrary.org/obo/PCO_0000005 # population process
+http://purl.obolibrary.org/obo/PCO_0000011 # population growth
+http://purl.obolibrary.org/obo/PCO_0000012 # logistic population growth
+http://purl.obolibrary.org/obo/PCO_0000013 # exponential population growth
+http://purl.obolibrary.org/obo/PCO_0000021 # population extinction
+http://purl.obolibrary.org/obo/PCO_0000022 # species extinction

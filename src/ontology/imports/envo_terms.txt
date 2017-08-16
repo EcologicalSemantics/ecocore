@@ -5,3 +5,4 @@ http://purl.obolibrary.org/obo/ENVO_01000947 # ecotone
 http://purl.obolibrary.org/obo/ENVO_02500009 # biogeochemical cycling
 http://purl.obolibrary.org/obo/ENVO_01000276 # ecoregion
 http://purl.obolibrary.org/obo/ENVO_01000280 # ecozone
+http://purl.obolibrary.org/obo/ENVO_01001103 # detritus

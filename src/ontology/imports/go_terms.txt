@@ -27,5 +27,18 @@ http://purl.obolibrary.org/obo/GO_0085031 # commensalism
 http://purl.obolibrary.org/obo/GO_0085030 # mutualism
 http://purl.obolibrary.org/obo/GO_0000003 # reproduction
 http://purl.obolibrary.org/obo/GO_0072519 # parasitism
-
+http://purl.obolibrary.org/obo/GO_0051704 # multi-organism process
+http://purl.obolibrary.org/obo/GO_0009405 # pathogenesis
+http://purl.obolibrary.org/obo/GO_0035636 # multi-organism signaling
+http://purl.obolibrary.org/obo/GO_0035821 # modification of morphology or physiology of other organism
+http://purl.obolibrary.org/obo/GO_0052214 # metabolism of substance in other organism involved in symbiotic interaction
+http://purl.obolibrary.org/obo/GO_0044034 # multi-organism biosynthetic process
+http://purl.obolibrary.org/obo/GO_0052002 # metabolism by symbiont of substance in host
+http://purl.obolibrary.org/obo/GO_0052226 # biosynthesis of substance in other organism involved in symbiotic interaction
+http://purl.obolibrary.org/obo/GO_0044419 # interspecies interaction between organisms
+http://purl.obolibrary.org/obo/GO_0044402 # competition with other organism
+http://purl.obolibrary.org/obo/GO_0044764 # multi-organism cellular process
+http://purl.obolibrary.org/obo/GO_0044766 # multi-organism transport
+http://purl.obolibrary.org/obo/GO_0051703 # intraspecies interaction between organisms
+http://purl.obolibrary.org/obo/GO_0044402 # competition with other organism
 

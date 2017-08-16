@@ -1,1 +1,2 @@
 http://purl.obolibrary.org/obo/BFO_0000034 # function
+http://purl.obolibrary.org/obo/BFO_0000182 # history

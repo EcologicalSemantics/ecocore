@@ -40,6 +40,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000018>))
 ############################
 #   Annotation Properties
 ############################
@@ -220,6 +221,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000017>
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0015979>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0045333>))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000018> (life history)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "ISBN 13: 9781305967335") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "ISBN: 130596733X") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "A history which includes all the processes during which resources are used by an organism to grow, survive, and reproduce over its lifetime.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "http://orcid.org/0000-0002-4364-7715")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000018> "life history"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000018> <http://purl.obolibrary.org/obo/BFO_0000182>)
 
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
