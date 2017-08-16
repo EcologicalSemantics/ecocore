@@ -23,7 +23,7 @@ $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 
-IMPORTS = pco ro bfo pato envo chebi go uberon po iao
+IMPORTS = pco ro bfo pato envo chebi go uberon po iao sdgio
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -41,6 +41,23 @@ imports/%_import.obo: imports/%_import.owl
 mirror/%.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
+
+#mirror/ro.owl: mirror/ro-relations.owl mirror/ro-classes.owl
+#	$(OWLTOOLS) $^ --merge-support-ontologies -o $@
+mirror/ro.owl:
+	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
+.PRECIOUS: mirror/ro.owl
+
+mirror/ro-relations.owl: ecocore-edit.owl
+	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure --remove-tbox --remove-dangling -o $@
+mirror/ro-classes.owl: ecocore-edit.owl
+	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure --make-subset-by-properties -f // --remove-external-classes -k RO --remove-annotation-assertions -l -s -d  -o $@
+
+mirror/sdgio.owl: $(SRC)
+	$(OWLTOOLS) http://purl.unep.org/sdg/sdgio.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
+.PRECIOUS: mirror/sdgio.owl
+	
+# Release routines 
 
 release: $(ONT).owl $(ONT).obo
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports

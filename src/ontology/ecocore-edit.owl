@@ -1,3 +1,4 @@
+Prefix(:=<http://purl.obolibrary.org/obo/ecocore.owl/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,18 +7,59 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ecocore.owl>
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/sdgio_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
 Annotation(rdfs:comment "An ontology of core ecological entities")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000001>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000119> (definition source)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "definition source")
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000000> (ecocore)
+
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000000> "ecocore"@en)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000001> (food web)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Food_web") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000001> "")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000001> "consumer-resource system")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000001> "food web"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000001> <http://purl.obolibrary.org/obo/ECOCORE_00000000>)
+
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000116> "editor note")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000117> "term editor")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative term")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0010000> "has axiom label")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001900> "temporal interpretation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002581> "is a defining property chain axiom")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002582> "is a defining property chain axiom where second argument is reflexive")
 )
