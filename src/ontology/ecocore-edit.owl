@@ -41,6 +41,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000021>))
 ############################
 #   Annotation Properties
 ############################
@@ -175,7 +178,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000012> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000012> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000012> "mixotroph"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectUnionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000009> <http://purl.obolibrary.org/obo/ECOCORE_00000011>))))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000012> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000009>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000011>))))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000012> <http://purl.obolibrary.org/obo/OBI_0100026>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000013> (photoautotrophy)
@@ -206,11 +209,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000015> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000016> (fungivory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "A process during which a living entity acquires food and energy from consuming fungal material, living or dead.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "A process during which a living entity acquires food and energy from primarily consuming living fungal material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000016> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000016> "fungivory"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000016> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000016> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000017> (phototrophy)
 
@@ -229,6 +233,35 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000018> "life history"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000018> <http://purl.obolibrary.org/obo/BFO_0000182>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000019> (herbivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "An organism which consumes plants and macroalgae.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000019> "There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000019> "herbivore"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0010004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000016>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> <http://purl.obolibrary.org/obo/OBI_0100026>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000011>))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000020> (herbivory)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "A process during which a living entity acquires food and energy from primarily consuming living plant- or macro-algal material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000020> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000020> "herbivory"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000020> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000021> (carnivory)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "A process during which a living entity acquires food and energy from primarily consuming living metazoan (animal) material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000021> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000021> "carnivory"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000021> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
