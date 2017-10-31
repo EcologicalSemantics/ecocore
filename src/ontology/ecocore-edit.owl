@@ -196,7 +196,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000013> ObjectSomeValuesFro
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Lithotroph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000014> "A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000014> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000014> "lithotrophy"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000015> (fungivore)
 
@@ -222,7 +222,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000017> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000017> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000017> "phototrophy"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0015979>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0045333>))
 
