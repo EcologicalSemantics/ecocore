@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/ecocore.owl#>)
+Prefix(:=<http://purl.obolibrary.org/obo/ecocore.owl/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -44,6 +44,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000023>))
 ############################
 #   Annotation Properties
 ############################
@@ -262,6 +263,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000021> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000021> "carnivory"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000021> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000023> (autotroph)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "An organism which is capable of incorporating inorganic carbon into its biomass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000023> "autotroph"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000023> <http://purl.obolibrary.org/obo/OBI_0100026>)
 
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
