@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/ecocore.owl/>)
+Prefix(:=<http://purl.obolibrary.org/obo/ecocore.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -45,6 +45,31 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000049>))
+Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
 #   Annotation Properties
 ############################
@@ -272,6 +297,188 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000023> "autotroph"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000023> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000024> (area to mass ratio)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000024> "Quotient (or ratio) of surface area of an organism divided by the mass of the same organism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000024> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000024> "area to mass ratio")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000024> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000025> (larval development)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "The process by which a larvae transforms into an adult.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000025> "larval development")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://purl.obolibrary.org/obo/GO_0032502>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000026> (prenatal development)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "The duration of the development from fertilized, deposited or implanted egg to hatching/birth. Corresponds to egg incubation duration in oviparous animals and to gestation period duration in viviparous animals.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "gestation")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "incubation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000026> "prenatal development")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000026> <http://purl.obolibrary.org/obo/GO_0032502>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000027> (primary diet)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000027> "Type of food comprising the majority of the diet of an organism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000027> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000027> "primary diet")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000027> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000028> (oviparous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000028> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce offspring that develop inside a shelled egg, with a large food supply in yolk, after internal fertilization")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000028> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000028> "oviparous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000028> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000029> (viviparous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000029> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce offspring that are born live, or where the development of the offspring is supported by either parent in or on any part of their body")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000029> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000029> "viviparous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000029> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000030> (ovoviviparous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000030> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce offspring that are born live after retaining the eggs inside the body of the female")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000030> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000030> "ovoviviparous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000030> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000031> (ovuliparous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000031> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce offspring via external fertilization, the oocytes being released and fertilized outside the female's body by the male")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000031> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000031> "ovuliparous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000031> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000032> (histrotrophic viviparity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000032> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce zygotes that develop in the female's oviducts, but find their nutriments from other tissues, whether skin or glandular tissue")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000032> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000032> "histrotrophic viviparity")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000032> <http://purl.obolibrary.org/obo/ECOCORE_00000029>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000033> (hemotrophic viviparity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000033> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce offspring that receive nutriments from the female during prenatal development via a specialized structure, such as a placenta")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000033> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000033> "hemotrophic viviparity")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000033> <http://purl.obolibrary.org/obo/ECOCORE_00000029>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000034> (copepodid stage 2)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000034> "The second post-naupliar life stage of a copepod")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000034> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000034> "copepodid stage 2")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000034> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000034> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/ECOCORE_00000035>))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000035> (copepodid stage 3)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000035> "The third post-naupliar life stage of a copepod")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000035> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000035> "copepodid stage 3")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000035> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000035> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/ECOCORE_00000036>))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000036> (copepodid stage 4)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000036> "The fourth post-naupliar life stage of a copepod")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000036> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000036> "copepodid stage 4")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000036> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary/obo/ECOCORE_00000037>))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000038> (copepodid stage 6)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000038> "The sixth post-naupliar life stage of a copepod")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000038> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000038> "copepodid stage 6")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000038> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000039> (cursorial)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000039> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for running")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000039> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000039> "cursorial")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000039> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000040> (fossorial)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000040> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for digging and living underground")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000040> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000040> "fossorial")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000040> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000041> (arboreal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000041> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for living in trees")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000041> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000041> "arboreal")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000041> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000042> (hermaphroditic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000042> "hermaphroditic")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000042> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000043> (protogynous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000043> "a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to male reproductive organs")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000043> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000043> "protogynous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000043> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000044> (direct development)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000044> "The process by which a larvae transforms into an adult wherein the larvae looks like a smaller adult form")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000044> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000044> "direct development")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000044> <http://purl.obolibrary.org/obo/ECOCORE_00000025>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000046> (endophyte)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000046> "An organism bearing a symbiont role and capable of living within a plant for at least part of its life cycle without causing apparent disease")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000046> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000046> "endophyte")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolibrary.org/obo/ECOCORE_00000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolibrary.org/obo/IDO_0000522>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000047> (larva)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "anatomical entity that comprises the organism in a distinct juvenile form before metamorphosing into an adult")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000047> "larva")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://purl.obolibrary.org/obo/UBERON_0000468>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000048> (lecithotrophic larva)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000048> "anatomical entity that comprises the organism in a distinct juvenile form that is provided with a source of nutrition, usually a yolk sac, to use before metamorphosing into an adult")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000048> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000048> "lecithotrophic larva")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000048> <http://purl.obolibrary.org/obo/ECOCORE_00000047>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000049> (microphytobenthos)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000049> "a community of microscopic, unicellular eukaryotic algae and the prokaryotic Cyanobacteria which live on sediment surfaces")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000049> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000049> "microphytobenthos")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000049> <http://purl.obolibrary.org/obo/PCO_0000002>)
+
+# Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary/obo/ECOCORE_00000037> "The fifth post-naupliar life stage of a copepod")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary/obo/ECOCORE_00000037> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary/obo/ECOCORE_00000037> "copepodid stage 5")
+SubClassOf(<http://purl.obolibrary/obo/ECOCORE_00000037> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+SubClassOf(<http://purl.obolibrary/obo/ECOCORE_00000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/ECOCORE_00000038>))
 
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
