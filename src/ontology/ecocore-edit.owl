@@ -65,10 +65,37 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000042>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000046>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000048>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000075>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
 #   Annotation Properties
@@ -185,6 +212,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000009> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000010> "An organism which acquires biomass and energy from living or dead material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000010> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000010> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000010> "consumer")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000010> "heterotroph"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> <http://purl.obolibrary.org/obo/OBI_0100026>)
@@ -294,6 +322,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000021> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "An organism which is capable of incorporating inorganic carbon into its biomass.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "primary producer")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000023> "autotroph"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000023> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000023> <http://purl.obolibrary.org/obo/OBI_0100026>)
@@ -426,8 +455,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000041> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "monoecious")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000042> "hermaphroditic")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000042> <http://purl.obolibrary.org/obo/PATO_0001434>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000042> <http://purl.obolibrary.org/obo/ECOCORE_00000061>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000043> (protogynous)
 
@@ -443,6 +473,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000044> "direct development")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000044> <http://purl.obolibrary.org/obo/ECOCORE_00000025>)
 
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000045> (symbiotroph)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000045> "Organism that acquires nutrition from a symbiont")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000045> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000045> "symbiotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000045> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000060>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000045> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000046> (endophyte)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000046> "An organism bearing a symbiont role and capable of living within a plant for at least part of its life cycle without causing apparent disease")
@@ -455,6 +493,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "anatomical entity that comprises the organism in a distinct juvenile form before metamorphosing into an adult")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "http://purl.obolibrary.org/obo/UBERON_0002548")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000047> "larva")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://purl.obolibrary.org/obo/UBERON_0000468>)
 
@@ -471,6 +510,194 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000049> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000049> "microphytobenthos")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000049> <http://purl.obolibrary.org/obo/PCO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000050> (deposit feeder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000050> "Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000050> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000050> "deposit feeder")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000050> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000051> (suspension feeder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "Organism that acquires nutrition by consuming particles suspended in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000051> "suspension feeder")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000051> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000052> (subsurface deposit feeder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000052> "Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water. The organism lives beneath the surface of the bottom sediment and retrieves food particles without coming into direct contact with the sediment surface.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000052> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000052> "subsurface deposit feeder")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000052> <http://purl.obolibrary.org/obo/ECOCORE_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000053> (surface deposit feeder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000053> "Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water. The organism lives on or in the bottom sediment and uses a part of its body to retrieve the food particles directly from the surface.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000053> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000053> "surface deposit feeder")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000053> <http://purl.obolibrary.org/obo/ECOCORE_00000050>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000054> (decomposer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000054> "Organism that obtains nutrition by breaking down dead or decaying organisms")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000054> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000054> "decomposer")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000054> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000055> (detritivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000055> "An organism which obtains nutrition by consuming detritus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000055> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000055> "detritivore")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000057>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000055> <http://purl.obolibrary.org/obo/ECOCORE_00000054>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000056> (saprotroph)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000056> "Organism that obtains nutrition through extracellular digestion of decaying organic matter")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000056> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000056> "saprotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000059>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000056> <http://purl.obolibrary.org/obo/ECOCORE_00000054>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000057> (detritivory)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "A process during which a living entity acquires food and energy from primarily consuming detritus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000057> "detritivory")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000057> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000058> (decomposition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000058> "A process during which a living entity acquires food and energy by breaking down organic substances into simpler matter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000058> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000058> "decomposition")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000058> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000059> (saprotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000059> "A process during which a living entity acquires food and energy through extracellular digestion of decaying organic matter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000059> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000059> "saprotrophy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000059> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000060> (symbiotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000060> "A process during which a living entity acquires food and energy through a symbiotic relationship with another organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000060> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000060> "symbiotrophy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000060> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000061> (sexual system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000061> "An organismal quality inhering in a bearer by virtue of the organization of the systems of organs involved with sexual reproduction amongst the bearer's conspecifics.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000061> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000061> "sexual system")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000061> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000062> (mating system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000062> "An organismal quality inhering in a bearer by virtue of the structure of the bearer's conspecifics in relation to sexual behavior.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000062> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000062> "mating system")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000062> <http://purl.obolibrary.org/obo/PATO_0001434>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000063> (monogamous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000063> "One male and one female have an exclusive mating relationship")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000063> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000063> "monogamous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000063> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000064> (polyandrous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000064> "One female has an exclusive mating relationship with two or more males")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000064> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000064> "polyandrous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000064> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000065> (polygynous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000065> "One male has an exclusive mating relationship with two or more females")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000065> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000065> "polygynous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000065> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000066> (polygynandrous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000066> "Two or more males have an exclusive mating relationship with two or more females")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000066> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000066> "polygynandrous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000066> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000067> (promiscuity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000067> "a member of one sex mates with any member of the opposite sex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000067> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000067> "promiscuity")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000067> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000068> (endemic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000068> "The ecological state of a species being unique to a defined geographic location, such as an island, nation, or other defined zone or habitat type.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000068> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000068> "endemic")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000068> <http://purl.obolibrary.org/obo/PCO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000069> (extinct)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000069> "The ecological state of a species or population wherein all individuals are dead.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000069> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000069> "extinct")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000069> <http://purl.obolibrary.org/obo/PCO_0000003>)
+DisjointClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000069> <http://purl.obolibrary.org/obo/ECOCORE_00000072>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000070> (indigenous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000070> "The ecological state of a species living in a region where its presence is the result of only natural process, with no human intervention")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000070> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000070> "native")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000070> "indigenous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000070> <http://purl.obolibrary.org/obo/PCO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000071> (introduced)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000071> "The ecological state of a species living outside its native distributional range, which has arrived there by human activity, either deliberate or accidental.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000071> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000071> "exotic")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000071> "introduced")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000071> <http://purl.obolibrary.org/obo/PCO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000072> (extant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000072> "The ecological state that is not the extinct state")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000072> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000072> "extant")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000072> <http://purl.obolibrary.org/obo/PCO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000073> (cosmopolitan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000073> "The ecological state of a species being found across all or most of the world in appropriate habitats.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000073> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000073> "cosmopolitan")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000073> <http://purl.obolibrary.org/obo/PCO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000074> (microendemic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000074> "The ecological state of a species being unique to a very small and specific location, such as the side of a mountain or a single lake.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000074> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000074> "microendemic")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000074> <http://purl.obolibrary.org/obo/ECOCORE_00000068>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000075> (annual survival rate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000075> "The estimated proportion of members of a population alive in year t that is still alive in year t + 1")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000075> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000075> "annual survival rate")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000075> <http://purl.obolibrary.org/obo/PCO_0000003>)
 
 # Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
 
