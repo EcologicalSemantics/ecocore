@@ -96,6 +96,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000074>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000081>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
 #   Annotation Properties
@@ -464,7 +470,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000042> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000043> "a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to male reproductive organs")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000043> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000043> "protogynous")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000043> <http://purl.obolibrary.org/obo/PATO_0001434>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000043> <http://purl.obolibrary.org/obo/ECOCORE_00000061>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000044> (direct development)
 
@@ -509,6 +515,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000048> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000049> "a community of microscopic, unicellular eukaryotic algae and the prokaryotic Cyanobacteria which live on sediment surfaces")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000049> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000049> "microphytobenthos")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000049> ObjectUnionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000077> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/ECOCORE_00000076>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000049> <http://purl.obolibrary.org/obo/PCO_0000002>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000050> (deposit feeder)
@@ -698,6 +705,51 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000075> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000075> "annual survival rate")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000075> <http://purl.obolibrary.org/obo/PCO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000076> (algae)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000076> "A polyphyletic group of diverse photosynthetic organisms that excludes vascular plants and mosses and includes cyanobacteria, seaweed, and some single-celled organisms.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000076> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000076> "algae")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000076> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0015979>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000076> ObjectUnionOf(<http://purl.obolibrary.org/obo/NCBITaxon_2759> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/ECOCORE_00000077>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000076> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000077> (cyanobacteria)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000077> "Bacteria that are able to obtain their energy through photosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000077> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000077> "cyanobacteria")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000077> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_2> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0015979>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000077> <http://purl.obolibrary.org/obo/NCBITaxon_2>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000078> (crepuscular)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000078> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for being active primarily during dawn and dusk")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000078> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000078> "crepuscular")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000078> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000079> (nocturnal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000079> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for being active during the hours of darkness")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000079> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000079> "nocturnal")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000079> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000080> (diurnal)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000080> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for being active during the hours of daylight")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000080> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000080> "diurnal")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000080> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000081> (migratory)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000081> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for participating in long-distance movement of conspecifics, usually on a seasonal basis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000081> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000081> "migratory")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000081> <http://purl.obolibrary.org/obo/PATO_0001995>)
 
 # Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
 
