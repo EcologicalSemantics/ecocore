@@ -24,13 +24,11 @@ Working in ecological semantics? Please join ECOCORE's efforts by sending an e-m
 
 ## Versions
 
-pre-alpha: first release pending
+Alpha release online. Some minor bugs, but content is available.
 
 ### Stable release versions
 
 The latest version of the ontology can always be found at:
-
-:warning: not live yet!
 http://purl.obolibrary.org/obo/ecocore.owl
 
 Note: The PURL will not resolve until [our request for listing](https://groups.google.com/forum/#!topic/obo-discuss/uG1ETKYPfDA) has been approved by [the OBO Foundry and Library](obofoundry.org).
