@@ -7,7 +7,7 @@ ROBOT= robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
 
-all: all_imports $(ONT).owl $(ONT).obo
+all: all_imports $(ONT).owl # removed $(ONT).obo 
 test: all
 prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\ # removed $(ONT).obo 
