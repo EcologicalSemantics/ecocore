@@ -34,11 +34,9 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
-#imports/%_import
+#imports/%_import.obo: imports/%_import.owl
+#        $(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
-
-: imports/%_import.owl
-#	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
