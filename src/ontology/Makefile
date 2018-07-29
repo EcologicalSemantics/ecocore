@@ -9,12 +9,14 @@ USECAT= --use-catalog
 
 all: all_imports $(ONT).owl # removed $(ONT).obo 
 test: all
+
+# Below, modifed *{owl,obo} to *{owl} and removed $(ONT).obo wherever $(ONT).owl occurs
 prepare_release: all
-	cp $(ONT).owl $(RELEASEDIR) &&\ # removed $(ONT).obo 
+	cp $(ONT).owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
-	cp imports/*{owl} $(RELEASEDIR)/imports &&\ # modifed *{owl,obo} to *{owl}
-	git add $(RELEASEDIR)/imports/*{owl} &&\ # modifed *{owl,obo} to *{owl}
-	(test -f subsets/*owl && cp subsets/*{owl} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\ # modifed *{owl,obo} to *{owl}
+	cp imports/*{owl} $(RELEASEDIR)/imports &&\ 
+	git add $(RELEASEDIR)/imports/*{owl} &&\ 
+	(test -f subsets/*owl && cp subsets/*{owl} $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\ 
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 $(ONT).owl: $(SRC)
