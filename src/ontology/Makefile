@@ -14,9 +14,9 @@ test: all
 prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
-	cp imports/*owl $(RELEASEDIR)/imports &&\ 
-	git add $(RELEASEDIR)/imports/*owl &&\ 
-	(test -f subsets/*owl && cp subsets/*owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\ 
+	cp imports/*owl $(RELEASEDIR)/imports &&\
+	git add $(RELEASEDIR)/imports/*owl &&\
+	(test -f subsets/*owl && cp subsets/*owl $(RELEASEDIR)/subsets && git add $(RELEASEDIR)/subsets/* || echo "no subsets") &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 
 $(ONT).owl: $(SRC)
