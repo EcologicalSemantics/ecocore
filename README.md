@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/EcologicalSemantics/an-ontology-of-core-ecological-entities.svg?branch=master)](https://travis-ci.org/EcologicalSemantics/an-ontology-of-core-ecological-entities)
+[![Build Status](https://travis-ci.org/EcologicalSemantics/ecocore.svg?branch=master)](https://travis-ci.org/EcologicalSemantics/ecocore)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.846451.svg)](https://zenodo.org/record/846451)
 
 # ecoCore: An ontology of core ecological entities
