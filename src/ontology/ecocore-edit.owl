@@ -101,6 +101,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082/omnivore>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
 #   Annotation Properties
@@ -744,6 +745,10 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000081> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000081> "migratory")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000081> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ecocore_00000082/omnivore> (<http://purl.obolibrary.org/obo/ecocore_00000082/omnivore>)
+
+SubClassOf(<http://purl.obolibrary.org/obo/ecocore_00000082/omnivore> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
 
