@@ -101,7 +101,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000081>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082/omnivore>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000083>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000084>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000085>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000088>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
 #   Annotation Properties
@@ -259,6 +266,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "An organism which consumes fungi.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "mycophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000015> "fungivore"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0010004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000016>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000015> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
@@ -746,9 +754,62 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000081> "migratory")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000081> <http://purl.obolibrary.org/obo/PATO_0001995>)
 
-# Class: <http://purl.obolibrary.org/obo/ecocore_00000082/omnivore> (<http://purl.obolibrary.org/obo/ecocore_00000082/omnivore>)
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000083> (graminivore)
 
-SubClassOf(<http://purl.obolibrary.org/obo/ecocore_00000082/omnivore> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000083> "An herbivore which primarily consumes grasses.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000083> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ECOCORE_00000083> "https://en.wikipedia.org/wiki/Graminivore")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000083> "graminivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000083> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000084> (folivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "An herbivore that primarily consumes leaves")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "https://en.wikipedia.org/wiki/Folivore")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000084> "folivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000084> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000085> (rhizovore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "An herbivore that primarily consumes roots")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "root herbivore")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000085> "rhizovore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000085> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000086> (algivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000086> "An herbivore that primarily consumes algae")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000086> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000086> "algivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000086> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000087> (parasitoid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000087> "A heterotroph with a temporary parasitic association with another organism that leads to the death of the host. After which, the parasitoid can continue without the host or can move on to a new host. These organisms are considered partly parasites and partly predators.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000087> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000087> "parasitoid")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000087> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000088> (carnivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "A heterotroph that consumes animals in whole or in part, causing their immediate or immenent death")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000088> "carnivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000089> (predator)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "a carnivore that actively captures and consumes other animals")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000089> "predator")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000089> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
+
+# Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore_00000082> "omnivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ecocore_00000082> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
 
