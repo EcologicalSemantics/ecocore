@@ -108,6 +108,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000086>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000087>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000088>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
@@ -300,9 +305,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000018> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000019> (herbivore)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "An organism which consumes plants and macroalgae.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "An organism which consumes plants or macroalgae via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "primary consumer")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000019> "There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000019> "herbivore"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0010004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)))
@@ -794,17 +800,52 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000087> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000088> (carnivore)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "A heterotroph that consumes animals in whole or in part, causing their immediate or immenent death")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000088> "carnivore")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000089> (predator)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "a carnivore that actively captures and consumes other animals")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "a carnivore that actively captures and consumes other animals, causing their immediate or immenent death")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000089> "predator")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000089> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000090> (scavenger)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "A carnivore that feeds on dead and decaying animal matter")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000090> "scavenger")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000090> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000091> (insectivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "A predator that primarily eats insects")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000091> "insectivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000091> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000092> (secondary consumer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000092> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000092> "A predator that eats primary consumers or herbivores")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000092> "secondary consumer")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000092> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000093> (tertiary consumer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000093> "A predator that eats secondary consumers")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000093> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000093> "tertiary consumer")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000093> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000094> (quaternary consumer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000094> "A predator that eats tertiary consumers")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000094> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000094> "quaternary consumer")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000094> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
 
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
