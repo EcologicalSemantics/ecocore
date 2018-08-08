@@ -126,6 +126,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000106>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000108>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000109>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000110>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
@@ -257,6 +263,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "This should be axiomatised and made a defined class: any trophic interaction which has as input some organic material (living or dead) that is the only source of carbon or reducing equivalents source is a autotrophic process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "consumption")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000011> "heterotrophy"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 
@@ -953,6 +960,50 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000107> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000107> "oophagy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000107> <http://purl.obolibrary.org/obo/ECOCORE_00000105>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000108> (insectivory)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000108> "A predation process during which a living entity acquires food and energy by consuming insects.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000108> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000108> "insectivory")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000108> <http://purl.obolibrary.org/obo/ECOCORE_00000102>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000109> (egg predation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000109> "A predation process during which a living entity acquires food and energy by consuming eggs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000109> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000109> "egg predation")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000109> <http://purl.obolibrary.org/obo/ECOCORE_00000102>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000110> (social predation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000110> "A predation process during which a group of predators cooperates to kill creatures larger than those they could overpower singly.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000110> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ECOCORE_00000110> "https://en.wikipedia.org/wiki/Predation#Social_predation")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000110> "social predation")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000110> <http://purl.obolibrary.org/obo/ECOCORE_00000102>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000111> (monophagy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000111> "A heterotrophic process during which a living entity acquires food and energy by consuming a very narrow range of food items, sometimes only one.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000111> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000111> "monophagy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000111> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000112> (oligophagy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000112> "A heterotrophic process during which a living entity acquires food and energy by consuming a few, very specific food items.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000112> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ECOCORE_00000112> "https://en.wikipedia.org/wiki/Oligophagy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000112> "oligophagy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000112> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000113> (polyphagy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000113> "A heterotrophic process during which a living entity acquires food and energy by consuming a wide range of food items.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000113> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000113> "polyphagy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000113> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
