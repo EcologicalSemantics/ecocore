@@ -122,6 +122,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000099>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000107>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
@@ -920,6 +924,35 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000102> "The definition of predation can be controversial.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000102> "predation")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000102> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000104> (cannibalism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000104> "A predation process during which a living entity acquires food and energy by consuming all or part of another individual of the same species as food.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000104> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000104> "cannibalism")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000104> <http://purl.obolibrary.org/obo/ECOCORE_00000102>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000105> (intrauterine cannibalism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000105> "A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling while both are still in the uterus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000105> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000105> "intrauterine cannibalism")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000105> <http://purl.obolibrary.org/obo/ECOCORE_00000104>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000106> (adelphophagy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000106> "A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000106> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000106> "embryophagy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000106> "adelphophagy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000106> <http://purl.obolibrary.org/obo/ECOCORE_00000105>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000107> (oophagy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000107> "A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling eggs while both are still in the uterus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000107> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000107> "oophagy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000107> <http://purl.obolibrary.org/obo/ECOCORE_00000105>)
 
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
