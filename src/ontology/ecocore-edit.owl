@@ -22,6 +22,7 @@ Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
 Annotation(rdfs:comment "An ontology of core ecological entities")
 
+Declaration(Class(<http://obolibrary.org/obo/ECOCORE_00000103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000003>))
@@ -118,6 +119,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000099>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
@@ -146,6 +150,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "def
 ############################
 #   Classes
 ############################
+
+# Class: <http://obolibrary.org/obo/ECOCORE_00000103> (scavenging)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://obolibrary.org/obo/ECOCORE_00000103> "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://obolibrary.org/obo/ECOCORE_00000103> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://obolibrary.org/obo/ECOCORE_00000103> "scavenging")
+SubClassOf(<http://obolibrary.org/obo/ECOCORE_00000103> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000001> (food web)
 
@@ -283,7 +294,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000015> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000016> (fungivory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "A heterotrophic process during which a living entity acquires food and energy from primarily consuming living fungal material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "A heterotrophic process during which a living entity acquires food and energy by consuming living fungal material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "mycophagy")
@@ -323,7 +334,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFro
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000020> (herbivory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "A heterotrophic process during which a living entity acquires food and energy from primarily consuming living plant- or macro-algal material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "A heterotrophic process during which a living entity acquires food and energy by consuming living plant- or macro-algal material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000020> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet.")
@@ -332,7 +343,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000020> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000021> (carnivory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "A heterotrophic process during which a living entity acquires food and energy from primarily consuming living metazoan (animal) material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "A heterotrophic process during which a living entity acquires food and energy from consuming living metazoan (animal) material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000021> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.")
@@ -587,7 +598,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000056> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000057> (detritivory)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "A decomposition process during which a living entity acquires food and energy from primarily consuming detritus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "A decomposition process during which a living entity acquires food and energy by consuming detritus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000057> "detritivory")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000057> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
@@ -883,9 +894,32 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000098> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000099> (herbivorous grazing)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000099> "A herbivorous process during which a living entity acquires food and energy from primarily consuming grasses, leaves, and other soft plant material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000099> "A herbivorous process during which a living entity acquires food and energy by consuming grasses, leaves, and other soft plant material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000099> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000099> "herbivorous grazing")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000099> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000100> (seed predation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000100> "seed predation")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000100> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000101> (herbivorous browsing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000101> "A herbivorous process during which a living entity acquires food and energy by consuming twigs, leaves, and bark of trees and shrubs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000101> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000101> "herbivorous browsing")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000101> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000102> (predation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000102> "A carnivorous process during which a living entity acquires food and energy by consuming other animals while they are stil alive. Predation leads directly to the imminent death of the prey organism(s).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000102> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000102> "The definition of predation can be controversial.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000102> "predation")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000102> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
