@@ -133,6 +133,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000111>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000112>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000113>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000114>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000115>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000116>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000117>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000119>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000120>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
@@ -498,7 +504,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000041> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000042> (hermaphroditic)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes at the same time")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000042> "monoecious")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000042> "hermaphroditic")
@@ -509,7 +515,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000042> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000043> "a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to male reproductive organs")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000043> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000043> "protogynous")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000043> <http://purl.obolibrary.org/obo/ECOCORE_00000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000043> <http://purl.obolibrary.org/obo/ECOCORE_00000120>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000044> (direct development)
 
@@ -1018,13 +1024,56 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000114> "bactivory")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000114> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000115> (broadcast spawn)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000115> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce offspring via external fertilisation, the oocytes being scattered into the environment and fertilised outside the female's body by the male.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000115> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000115> "broadcast spawn")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000115> <http://purl.obolibrary.org/obo/ECOCORE_00000031>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000116> (sac spawn)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000116> "A reproductive quality inhering in a bearer by virtue of the bearer's ability to produce offspring via external fertilisation, the oocytes being released in an ovigerous sac and fertilised outside the female's body by the male.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000116> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000116> "sac spawn")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000116> <http://purl.obolibrary.org/obo/ECOCORE_00000031>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000117> (protandrous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000117> "a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to female reproductive organs")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000117> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000117> "protandrous")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000117> <http://purl.obolibrary.org/obo/ECOCORE_00000120>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000118> (protogynous hermaphroditism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000118> "a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to being a hermaphrodite")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000118> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000118> "protogynous hermaphroditism")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000118> <http://purl.obolibrary.org/obo/ECOCORE_00000120>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000119> (protandrous hermaphroditism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000119> "a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to being a hermaphrodite")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000119> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000119> "protandrous hermaphroditism")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000119> <http://purl.obolibrary.org/obo/ECOCORE_00000120>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000120> (sequentially hermaphroditic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "Sequential hermaphroditism occurs when the individual changes sex at some point in its life.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "dichogamy")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000120> "sequentially hermaphroditic")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000120> <http://purl.obolibrary.org/obo/ECOCORE_00000061>)
+
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ecocore_00000082> "A heterotroph that consumes plant and animal matter either in whole or in part via ingestion through a type of \"mouth\". Animal and plant matter is broken down through an internal digestion process")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ecocore_00000082> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore_00000082> "omnivore")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore_00000082> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0010004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)))
-EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore_00000082> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0010004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore_00000082> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0010004> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000020>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000021>))))
 SubClassOf(<http://purl.obolibrary.org/obo/ecocore_00000082> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
