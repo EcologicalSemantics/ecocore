@@ -36,8 +36,8 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 	$(ROBOT) extract -i $< -T imports/$*_terms.txt --method BOT -O $(BASE)/$@ -o $@
 .PRECIOUS: imports/%_import.owl
 
-#imports/%_import.obo: imports/%_import.owl
-#        $(OWLTOOLS) $(USECAT) $< -o -f obo $@
+imports/%_import.obo: imports/%_import.owl
+        $(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
@@ -45,8 +45,8 @@ mirror/%.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
 
-#mirror/ro.owl: mirror/ro-relations.owl mirror/ro-classes.owl
-#	$(OWLTOOLS) $^ --merge-support-ontologies -o $@
+mirror/ro.owl: mirror/ro-relations.owl mirror/ro-classes.owl
+	$(OWLTOOLS) $^ --merge-support-ontologies -o $@
 mirror/ro.owl:
 	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure -o $@
 .PRECIOUS: mirror/ro.owl
