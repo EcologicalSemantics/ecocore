@@ -21,8 +21,8 @@ prepare_release: all
 
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-#$(ONT).obo: $(ONT).owl
-#	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
+$(ONT).obo: $(ONT).owl
+	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 
 IMPORTS = pco ro bfo pato envo chebi go uberon po iao sdgio nbo ido
