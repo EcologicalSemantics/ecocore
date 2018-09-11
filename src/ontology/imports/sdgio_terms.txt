@@ -1,6 +1,0 @@
-http://purl.unep.org/sdg/SDGIO_00000013 # resource
-http://purl.unep.org/sdg/SDGIO_00010017 # resource role
-http://purl.unep.org/sdg/SDGIO_00000033 # supporting ecosystem service
-http://purl.unep.org/sdg/SDGIO_00000032 # regulating ecosystem service
-http://purl.unep.org/sdg/SDGIO_00000031 # provisioning ecosystem service 
-http://purl.unep.org/sdg/SDGIO_00000034 # cultural ecosystem service

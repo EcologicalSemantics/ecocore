@@ -202,12 +202,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002215 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002215"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002297 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002297">
@@ -246,6 +240,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+            </owl:Restriction>
+        </owl:disjointWith>
         <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">continuant</rdfs:label>
     </owl:Class>
@@ -256,6 +256,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <owl:disjointWith>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+            </owl:Restriction>
+        </owl:disjointWith>
         <obo:IAO_0000115 xml:lang="en">An entity that has temporal parts and that happens, unfolds or develops through time.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">occurrent</rdfs:label>
     </owl:Class>
@@ -266,6 +272,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
         <rdfs:label xml:lang="en">independent continuant</rdfs:label>
@@ -320,6 +328,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
@@ -328,14 +337,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
+        <owl:annotatedTarget xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/050-003"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/050-003"/>
+        <owl:annotatedTarget xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
     </owl:Axiom>
     
 
@@ -386,12 +395,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CARO_0010004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955">
@@ -416,7 +419,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044403">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051704"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interaction between two organisms living together in more or less intimate association. The term host is usually used for the larger (macro) of the two members of a symbiosis. The smaller (micro) member is called the symbiont organism. Microscopic symbionts are often referred to as endosymbionts. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interaction between two organisms living together in more or less intimate association. Microscopic symbionts are often referred to as endosymbionts. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">symbiosis, encompassing mutualism through parasitism</rdfs:label>
     </owl:Class>
     
@@ -426,7 +429,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0051234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of a cell, substance or cellular entity, such as a protein complex or organelle, to a specific location.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation.</obo:IAO_0000115>
         <rdfs:label>establishment of localization</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">establishment of localization</rdfs:label>
     </owl:Class>
@@ -440,12 +443,6 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biological process which involves another organism of the same or different species.</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-organism process</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0072519 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072519"/>
     
 
 
@@ -1026,7 +1023,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000522"/>
         <obo:IAO_0000115 xml:lang="en">An organism bearing a mutualist role.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">mutualist</rdfs:label>
     </owl:Class>
@@ -1047,7 +1044,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000522"/>
         <obo:IAO_0000115 xml:lang="en">An organism bearing a commensal role.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">commensal</rdfs:label>
     </owl:Class>
@@ -1060,19 +1057,15 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000403"/>
                     </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0072519"/>
-                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000522"/>
         <obo:IAO_0000115 xml:lang="en">A organism bearing a parasite role.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">parasite</rdfs:label>
     </owl:Class>
@@ -1156,7 +1149,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000531"/>
         <obo:IAO_0000115 xml:lang="en">An organism bearing a pathogen host role.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pathogen host</rdfs:label>
     </owl:Class>
@@ -1177,6 +1170,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115 xml:lang="en">An organism that has an infectious disposition.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">infectious agent</rdfs:label>
@@ -1360,9 +1354,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virus</rdfs:label>
         <rdfs:label>Viruses</rdfs:label>
-        <rdfs:label xml:lang="en">Viruses</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</rdfs:label>
     </owl:Class>
     
@@ -1372,7 +1364,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label xml:lang="en">Bacteria</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bacteria</rdfs:label>
     </owl:Class>
     
@@ -1382,7 +1373,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label xml:lang="en">Archaea</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archaea</rdfs:label>
     </owl:Class>
     
@@ -1392,7 +1382,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:label xml:lang="en">Eukaryota</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eukaryota</rdfs:label>
     </owl:Class>
     
@@ -1414,7 +1403,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
-        <obo:IAO_0000115>An organism is material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">organism</rdfs:label>
     </owl:Class>
     
@@ -1679,5 +1667,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
 

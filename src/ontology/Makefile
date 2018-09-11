@@ -25,7 +25,7 @@ $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 
-IMPORTS = pco ro bfo pato envo chebi go uberon po iao sdgio nbo ido
+IMPORTS = pco ro bfo pato envo chebi go uberon po iao nbo ido
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) #$(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -56,9 +56,9 @@ mirror/ro-relations.owl: ecocore-edit.owl
 mirror/ro-classes.owl: ecocore-edit.owl
 	$(OWLTOOLS) $(OBO)/ro.owl --merge-imports-closure --make-subset-by-properties -f // --remove-external-classes -k RO --remove-annotation-assertions -l -s -d  -o $@
 
-mirror/sdgio.owl: $(SRC)
-	$(OWLTOOLS) http://purl.unep.org/sdg/sdgio.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
-.PRECIOUS: mirror/sdgio.owl
+#mirror/sdgio.owl: $(SRC)
+#	$(OWLTOOLS) http://purl.unep.org/sdg/sdgio.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
+#.PRECIOUS: mirror/sdgio.owl
 	
 # Release routines 
 

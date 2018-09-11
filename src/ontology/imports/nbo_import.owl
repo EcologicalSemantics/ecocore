@@ -3,10 +3,10 @@
      xml:base="http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl"/>
     
 
@@ -22,9 +22,21 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
     
 
 
@@ -39,11 +51,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <oboInOwl:hasExactSynonym>affective behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mood</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">emotional behavior</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavior related to the actions or interactions of an organism that are associated with reproduction.&quot; [GOC:jl]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">reproduction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>reproductive behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive behavior</rdfs:label>
     </owl:Class>
     
@@ -53,7 +77,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;A behavior that involves two or more individuals.&quot; [Wikipedia:Social_behavior]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>social behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social behavior</rdfs:label>
     </owl:Class>
     
@@ -63,7 +87,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
-        <obo:IAO_0000115>&quot;Behavior related to the interactions between organisms for the purpose of mating.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>mating behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating behavior</rdfs:label>
     </owl:Class>
     
@@ -72,8 +96,10 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <obo:IAO_0000115>&quot;A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means.&quot; [wikipedia:Aggression]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
+        <oboInOwl:hasExactSynonym>aggression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>aggressive behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>agonism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior</rdfs:label>
     </owl:Class>
     
@@ -83,7 +109,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
-        <obo:IAO_0000115>&quot;Behaviour related to the activity which primary purpose is the sexual reproduction.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual actions</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual activity</rdfs:label>
     </owl:Class>
     
@@ -93,7 +119,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
-        <obo:IAO_0000115>&quot;The act of sexual union between male and female, involving the transfer of sperm.&quot; [ISBN:0721662544]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">copulate</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copulation</rdfs:label>
     </owl:Class>
     
@@ -103,7 +129,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000014"/>
-        <obo:IAO_0000115>&quot;The behavioral interactions between organisms for the purpose of attracting sexual partners.&quot; [GOC:dph]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">courtship</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>courtship behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">courtship behavior</rdfs:label>
     </owl:Class>
     
@@ -113,7 +140,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
-        <obo:IAO_0000115>&quot;Behavior related to the specific actions or reactions of an organism following mating.&quot; [GOC:bf]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>post mating behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">post-copulatory behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>post-mating behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-mating behavior</rdfs:label>
     </owl:Class>
     
@@ -123,7 +152,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000105">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000740"/>
-        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards animals.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>aggressive behavior towards animals</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aggressive behavior towards animals</rdfs:label>
     </owl:Class>
     
@@ -132,8 +161,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000121 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">agonism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agonistic behavior</rdfs:label>
     </owl:Class>
     
@@ -152,6 +182,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000014"/>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mate attraction behavior</oboInOwl:hasNarrowSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual display behavior</rdfs:label>
     </owl:Class>
     
@@ -161,7 +192,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000286"/>
-        <obo:IAO_0000115>&quot;A helping behavior (without expectation of extrinsic rewards and sometimes involving personal risk or sacrifice) that benefits individuals or society.&quot; [NBO:GVG]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">altruism behavior</rdfs:label>
     </owl:Class>
     
@@ -171,7 +201,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
-        <obo:IAO_0000115>&quot;Prosocial behavior is caring about the welfare and rights of others, feeling concern and empathy for them, and acting in ways that benefit others.&quot; [wikipedia:Prosocial_behavior]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prosocial behavior</rdfs:label>
     </owl:Class>
     
@@ -181,7 +210,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000286"/>
-        <obo:IAO_0000115>&quot;Helping behavior refers to voluntary actions intended to help the others, with reward regarded or disregarded.&quot; [wikipedia:Helping_behavior]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helping behavior</rdfs:label>
     </owl:Class>
     
@@ -191,7 +219,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000286"/>
-        <obo:IAO_0000115>&quot;Reciprocal altruism is the idea that the incentive for an individual to help in the present is based on the expectation of the potential receipt in the future.&quot; [wikipedia:Helping_behavior]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reciprocal altruism</rdfs:label>
     </owl:Class>
     
@@ -200,8 +227,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000313">
-        <obo:IAO_0000115>&quot;The action, reaction, or performance of an organism in response to external or internal stimuli.&quot; [GO:GO\:0007610]</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior</rdfs:label>
+        <oboInOwl:hasExactSynonym>behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>behaviour</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavior process</rdfs:label>
     </owl:Class>
     
 
@@ -210,7 +238,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000548">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
-        <obo:IAO_0000115>&quot;Behaviour related to the male activity which primary purpose is the sexual reproduction.&quot; [NBO:GVG]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male sexual activity</rdfs:label>
     </owl:Class>
     
@@ -220,7 +247,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000549">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
-        <obo:IAO_0000115>&quot;Behaviour related to the female activity which primary purpose is the sexual reproduction.&quot; [NBO:GVG]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female sexual activity</rdfs:label>
     </owl:Class>
     
@@ -230,7 +256,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000612">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
-        <obo:IAO_0000115>&quot;A social behavior related to the activity of conveying information.&quot; [wikipedia:Communication]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>communicating</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal exchange</oboInOwl:hasNarrowSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communication behavior</rdfs:label>
     </owl:Class>
     
@@ -240,7 +267,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000613">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000612"/>
-        <obo:IAO_0000115>&quot;Communication behavior related to the process of conveying meaning in the form of non-word messages through for example gesture, body language or posture; facial expression and eye contact etc.&quot; [wikipedia:.wikipedia.org/wiki/Nonverbal_communication]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>non-verbal communication behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nonverbal communication behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonverbal communication behavior</rdfs:label>
     </owl:Class>
     
@@ -250,7 +278,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000633">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000105"/>
-        <obo:IAO_0000115>&quot;Aggressive behavior related to the defence of a fixed area against intruders, typically conspecifics.&quot; [GOC:hjd]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>territorial aggression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>territorial aggressive behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">territorial aggressive behavior</rdfs:label>
     </owl:Class>
     
@@ -260,7 +289,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000637">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000077"/>
-        <obo:IAO_0000115>&quot;The actions or reactions of a male, for the purpose of attracting a sexual partner.&quot; [GOC:bf]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>male courtship behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male courtship behavior</rdfs:label>
     </owl:Class>
     
@@ -270,7 +299,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000638">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000077"/>
-        <obo:IAO_0000115>&quot;The actions or reactions of a female, for the purpose of attracting a sexual partner.&quot; [GOC:bf]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>female courtship behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">female courtship behavior</rdfs:label>
     </owl:Class>
     
@@ -290,12 +319,163 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000743">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000105"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <obo:IAO_0000115>&quot;An aggressive behavior towards other members of the society.&quot; [NBO:RH]</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social aggression behavior</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
+        <rdfs:label xml:lang="en">facilitating oviposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
+        <rdfs:label xml:lang="en">gamete release function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
+        <rdfs:label xml:lang="en">mate finding behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000077"/>
+        <rdfs:label xml:lang="en">courtship begging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000077"/>
+        <rdfs:label xml:lang="en">sexual cannibalism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000077"/>
+        <rdfs:label xml:lang="en">mating appeasement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
+        <rdfs:label xml:lang="en">sexual harassment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000077"/>
+        <rdfs:label xml:lang="en">courtship feeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000014"/>
+        <rdfs:label xml:lang="en">breeding site selection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
+        <rdfs:label xml:lang="en">sexual interference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
+        <rdfs:label xml:lang="en">mate rejection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000014"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000034"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000078"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020084"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020254"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020298"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020299"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000060"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000548"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000549"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020048"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020066"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000077"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000146"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000147"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020273"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000637"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000638"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020098"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020101"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020253"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020264"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
 
