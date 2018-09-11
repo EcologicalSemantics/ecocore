@@ -5,7 +5,6 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:sdg="http://purl.unep.org/sdg/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -13,10 +12,9 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecocore.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2018-07-29/ecocore.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2018-09-10/ecocore.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecocore/imports/sdgio_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl"/>
@@ -83,6 +81,17 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://obolibrary.org/obo/ECOCORE_00000103 -->
+
+    <owl:Class rdf:about="http://obolibrary.org/obo/ECOCORE_00000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
+        <obo:IAO_0000115>A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>scavenging</rdfs:label>
+    </owl:Class>
     
 
 
@@ -302,6 +311,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134179 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_134179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_138103 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_138103">
@@ -442,6 +459,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_17790 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134179"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15734"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50584"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64708"/>
@@ -2697,6 +2715,7 @@
         <obo:IAO_0000116>This should be axiomatised and made a defined class: any trophic interaction which has as input some organic material (living or dead) that is the only source of carbon or reducing equivalents source is a autotrophic process.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>consumption</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">heterotrophy</rdfs:label>
     </owl:Class>
     
@@ -2794,6 +2813,7 @@
         <obo:IAO_0000115>An organism which consumes fungi.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>mycophage</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">fungivore</rdfs:label>
     </owl:Class>
     
@@ -2803,9 +2823,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
-        <obo:IAO_0000115>A process during which a living entity acquires food and energy from primarily consuming living fungal material.</obo:IAO_0000115>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming living fungal material.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>mycophagy</oboInOwl:hasExactSynonym>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.</rdfs:comment>
         <rdfs:label xml:lang="en">fungivory</rdfs:label>
     </owl:Class>
@@ -2877,9 +2898,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An organism which consumes plants and macroalgae.</obo:IAO_0000115>
+        <obo:IAO_0000115>An organism which consumes plants or macroalgae via ingestion through a type of &quot;mouth&quot;. Animal matter is broken down through an internal digestion process.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>primary consumer</oboInOwl:hasExactSynonym>
         <rdfs:comment>There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore</rdfs:comment>
         <rdfs:label xml:lang="en">herbivore</rdfs:label>
     </owl:Class>
@@ -2890,7 +2912,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
-        <obo:IAO_0000115>A process during which a living entity acquires food and energy from primarily consuming living plant- or macro-algal material.</obo:IAO_0000115>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming living plant- or macro-algal material.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet.</rdfs:comment>
@@ -2903,7 +2925,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
-        <obo:IAO_0000115>A process during which a living entity acquires food and energy from primarily consuming living metazoan (animal) material.</obo:IAO_0000115>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy from consuming living metazoan (animal) material.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.</rdfs:comment>
@@ -3057,6 +3079,7 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3074,6 +3097,7 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3091,6 +3115,7 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3153,7 +3178,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000061"/>
-        <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes</obo:IAO_0000115>
+        <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes at the same time</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <oboInOwl:hasRelatedSynonym>monoecious</oboInOwl:hasRelatedSynonym>
         <rdfs:label>hermaphroditic</rdfs:label>
@@ -3164,7 +3189,7 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000061"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000120"/>
         <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to male reproductive organs</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>protogynous</rdfs:label>
@@ -3360,7 +3385,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000057"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An organism which obtains nutrition by consuming detritus.</obo:IAO_0000115>
+        <obo:IAO_0000115>An decomposer which obtains nutrition by consuming detritus.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>detritivore</rdfs:label>
     </owl:Class>
@@ -3388,7 +3413,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>Organism that obtains nutrition through extracellular digestion of decaying organic matter</obo:IAO_0000115>
+        <obo:IAO_0000115>A decomposer that obtains nutrition through extracellular digestion of decaying organic matter</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>saprotroph</rdfs:label>
     </owl:Class>
@@ -3399,7 +3424,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000058"/>
-        <obo:IAO_0000115>A process during which a living entity acquires food and energy from primarily consuming detritus.</obo:IAO_0000115>
+        <obo:IAO_0000115>A decomposition process during which a living entity acquires food and energy by consuming detritus.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>detritivory</rdfs:label>
     </owl:Class>
@@ -3410,7 +3435,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
-        <obo:IAO_0000115>A process during which a living entity acquires food and energy by breaking down organic substances into simpler matter.</obo:IAO_0000115>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by breaking down organic substances into simpler matter.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>decomposition</rdfs:label>
     </owl:Class>
@@ -3421,7 +3446,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000058"/>
-        <obo:IAO_0000115>A process during which a living entity acquires food and energy through extracellular digestion of decaying organic matter.</obo:IAO_0000115>
+        <obo:IAO_0000115>A decomposition process during which a living entity acquires food and energy through extracellular digestion of decaying organic matter.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>saprotrophy</rdfs:label>
     </owl:Class>
@@ -3432,7 +3457,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
-        <obo:IAO_0000115>A process during which a living entity acquires food and energy through a symbiotic relationship with another organism.</obo:IAO_0000115>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy through a symbiotic relationship with another organism.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>symbiotrophy</rdfs:label>
     </owl:Class>
@@ -3713,6 +3738,509 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000019"/>
+        <obo:IAO_0000115>An herbivore which primarily consumes grasses.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Graminivore</obo:IAO_0000119>
+        <rdfs:label>graminivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000019"/>
+        <obo:IAO_0000115>An herbivore that primarily consumes leaves</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Folivore</obo:IAO_0000119>
+        <rdfs:label>folivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000019"/>
+        <obo:IAO_0000115>An herbivore that primarily consumes roots</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>root herbivore</oboInOwl:hasExactSynonym>
+        <rdfs:label>rhizovore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000019"/>
+        <obo:IAO_0000115>An herbivore that primarily consumes algae</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>algivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
+        <obo:IAO_0000115>A heterotroph with a temporary parasitic association with another organism that leads to the death of the host. After which, the parasitoid can continue without the host or can move on to a new host. These organisms are considered partly parasites and partly predators.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>parasitoid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000088">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0010004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A heterotroph that consumes animals in whole or in part via ingestion through a type of &quot;mouth&quot;. Animal matter is broken down through an internal digestion process.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>carnivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000089">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000102"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a carnivore that actively captures and consumes other animals, causing their immediate or immenent death</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>predator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000090">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://obolibrary.org/obo/ECOCORE_00000103"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000088"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://obolibrary.org/obo/ECOCORE_00000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A carnivore that feeds on dead and decaying animal matter</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>scavenger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000091">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000108"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A predator that primarily eats insects</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>insectivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>A predator that eats primary consumers or herbivores</rdfs:label>
+        <rdfs:label>secondary consumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
+        <obo:IAO_0000115>A predator that eats secondary consumers</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>tertiary consumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
+        <obo:IAO_0000115>A predator that eats tertiary consumers</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>quaternary consumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
+        <obo:IAO_0000115>a predator residing at the top of a food chain upon which no other creatures prey.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>top predator</oboInOwl:hasExactSynonym>
+        <rdfs:label>apex predator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
+        <obo:IAO_0000115>a predator that captures or traps prey by stealth or strategy, rather than by speed or strength.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>ambush predator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000055"/>
+        <obo:IAO_0000115>a detritivore that consumes leaf litter</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>litter transformer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000098">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0010004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>a heterotroph that consumes bacteria</obo:IAO_0000115>
+        <rdfs:label>bacterivore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000020"/>
+        <obo:IAO_0000115>A herbivorous process during which a living entity acquires food and energy by consuming grasses, leaves, and other soft plant material.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>herbivorous grazing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000020"/>
+        <obo:IAO_0000115>A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>seed predation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000020"/>
+        <obo:IAO_0000115>A herbivorous process during which a living entity acquires food and energy by consuming twigs, leaves, and bark of trees and shrubs.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>herbivorous browsing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
+        <obo:IAO_0000115>A carnivorous process during which a living entity acquires food and energy by consuming other animals while they are stil alive. Predation leads directly to the imminent death of the prey organism(s).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:comment>The definition of predation can be controversial.</rdfs:comment>
+        <rdfs:label>predation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000102"/>
+        <obo:IAO_0000115>A predation process during which a living entity acquires food and energy by consuming all or part of another individual of the same species as food.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>cannibalism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000104"/>
+        <obo:IAO_0000115>A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling while both are still in the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>intrauterine cannibalism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000105"/>
+        <obo:IAO_0000115>A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>embryophagy</oboInOwl:hasExactSynonym>
+        <rdfs:label>adelphophagy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000105"/>
+        <obo:IAO_0000115>A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling eggs while both are still in the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>oophagy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000102"/>
+        <obo:IAO_0000115>A predation process during which a living entity acquires food and energy by consuming insects.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>insectivory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000102"/>
+        <obo:IAO_0000115>A predation process during which a living entity acquires food and energy by consuming eggs.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>egg predation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000102"/>
+        <obo:IAO_0000115>A predation process during which a group of predators cooperates to kill creatures larger than those they could overpower singly.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Predation#Social_predation</obo:IAO_0000119>
+        <rdfs:label>social predation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming a very narrow range of food items, sometimes only one.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>monophagy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming a few, very specific food items.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Oligophagy</obo:IAO_0000119>
+        <rdfs:label>oligophagy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming a wide range of food items.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>polyphagy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy from consuming bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>bactivory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000031"/>
+        <obo:IAO_0000115>A reproductive quality inhering in a bearer by virtue of the bearer&apos;s ability to produce offspring via external fertilisation, the oocytes being scattered into the environment and fertilised outside the female&apos;s body by the male.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>broadcast spawn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000031"/>
+        <obo:IAO_0000115>A reproductive quality inhering in a bearer by virtue of the bearer&apos;s ability to produce offspring via external fertilisation, the oocytes being released in an ovigerous sac and fertilised outside the female&apos;s body by the male.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>sac spawn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000120"/>
+        <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to female reproductive organs</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>protandrous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000120"/>
+        <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to being a hermaphrodite</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>protogynous hermaphroditism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000120"/>
+        <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to being a hermaphrodite</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>protandrous hermaphroditism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000061"/>
+        <obo:IAO_0000115>Sequential hermaphroditism occurs when the individual changes sex at some point in its life.</obo:IAO_0000115>
+        <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>dichogamy</oboInOwl:hasExactSynonym>
+        <rdfs:label>sequentially hermaphroditic</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00000000 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00000000">
@@ -3886,15 +4414,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002001 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002186"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002264"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_00002005 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002005">
@@ -3931,22 +4450,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002010"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002186 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002006"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_00002264 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002264">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
     </rdf:Description>
     
 
@@ -4269,14 +4772,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000648 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000648">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_01000703 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000703">
@@ -4297,38 +4792,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000739">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000741 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000741">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000742 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000742">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000093"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000769 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000769">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000742"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000770 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000770">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000797"/>
     </rdf:Description>
     
 
@@ -4386,7 +4849,7 @@
     <!-- http://purl.obolibrary.org/obo/ENVO_01000815 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000815">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000648"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
     </rdf:Description>
     
 
@@ -4478,14 +4941,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000982">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000981"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500031"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_01000983 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01000983">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000813"/>
     </rdf:Description>
     
 
@@ -4790,22 +5245,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ENVO_02500036 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_02500036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_02500039 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_02500039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500036"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ENVO_03000010 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_03000010">
@@ -4826,22 +5265,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_03000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_03000092 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_03000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000010"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ENVO_03000093 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_03000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000092"/>
     </rdf:Description>
     
 
@@ -5806,54 +6229,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000007 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000009 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000010 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000015 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
@@ -5870,66 +6245,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000037 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000038 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000309"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000064 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000078 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000098 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000101 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000308"/>
     </rdf:Description>
     
 
@@ -5942,82 +6261,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000104">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000178 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000179 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000180 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000180">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000183 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000183">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000184 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000184">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000225 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000308 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000308">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000309 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000308"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
     </rdf:Description>
     
 
@@ -6877,597 +7124,10 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000014 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000017"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000017 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000018 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000947"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000023 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000112 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000112">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000450 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000450">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000456 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000456">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000457 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000457">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000458 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000458">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000571 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000571">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000648 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000648">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000659">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000663 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000663">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000684 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000684">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000700 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000700">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000663"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000704 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000704">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000707 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000707">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000713 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000713">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000010"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000726 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000726">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000727 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000727">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200171"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200175"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000749 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000749">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000707"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000792 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000792">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200171"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000835 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000835">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000947 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000947">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000953 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000953">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000963 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000963">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0001000 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001930">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0001933 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001933">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002076 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002205 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002205">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002210 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002215 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002216 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002219 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002219">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002215"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002224 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002232 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002243 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002243">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002256 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002256">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002270 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002279 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002279">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002284 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002284">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002287 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002287">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002290 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002290">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002298 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002298">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002306 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002306">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002310 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002310">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002314 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002314">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002326 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002326">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002341 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002341">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002356 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002356">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002357 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002357">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0002363 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002356"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200033 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000792"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200041 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200171"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200175"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200042 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200175"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200050 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200175"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200051 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200050"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200111 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200111">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200166 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200171 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200171">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200172 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200175 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200175">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200178 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200178">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200179 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200188 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200188">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200172"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0200190 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200111"/>
     </rdf:Description>
     
 
@@ -7590,14 +7250,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000186 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001237"/>
     </rdf:Description>
     
 
@@ -7960,38 +7612,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0002201 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000186"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0002202 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002202">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002201"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0002203 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002203">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002201"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0002204 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002204">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002201"/>
     </rdf:Description>
     
 
@@ -13776,89 +13396,41 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UO_0000001 -->
+    <!-- http://purl.obolibrary.org/obo/ecocore_00000082 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000002 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000003 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000005 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000006 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000051 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000095 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000105 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000270 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UO_0000280 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UO_0000280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-    </rdf:Description>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ecocore_00000082">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CARO_0010004"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000020"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000088"/>
+        <obo:IAO_0000115>A heterotroph that consumes plant and animal matter either in whole or in part via ingestion through a type of &quot;mouth&quot;. Animal and plant matter is broken down through an internal digestion process</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>omnivore</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary/obo/ECOCORE_00000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary/obo/ECOCORE_00000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -13870,126 +13442,6 @@
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>copepodid stage 5</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000000 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000001 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000002 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000003 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000013 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000021 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000031 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000031">
-        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010072"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000032 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000032">
-        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010072"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000033 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000033">
-        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010072"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00000034 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00000034">
-        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010072"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00010017 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00010017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00010033 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00010033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PCO_0000001"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00010053 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00010053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00010071 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00010071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.unep.org/sdg/SDGIO_00010072 -->
-
-    <rdf:Description rdf:about="http://purl.unep.org/sdg/SDGIO_00010072">
-        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00010071"/>
-    </rdf:Description>
     
 
 
@@ -14037,5 +13489,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 1.1.0) https://github.com/owlcs/owlapi -->
 
