@@ -335,6 +335,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000017> ObjectSomeValuesFro
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "ISBN 13: 9781305967335") Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "ISBN: 130596733X") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "A history which includes all the processes during which resources are used by an organism to grow, survive, and reproduce over its lifetime.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "http://orcid.org/0000-0002-4364-7715")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000018> "http://vocab.lternet.edu?tema=298")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000018> "life history"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000018> <http://purl.obolibrary.org/obo/BFO_0000182>)
 
@@ -355,6 +356,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFro
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "A heterotrophic process during which a living entity acquires food and energy by consuming living plant- or macro-algal material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://vocab.lternet.edu?tema=244")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000020> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000020> "herbivory"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000020> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
@@ -396,6 +398,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "The duration of the development from fertilized, deposited or implanted egg to hatching/birth. Corresponds to egg incubation duration in oviparous animals and to gestation period duration in viviparous animals.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "http://vocab.lternet.edu?tema=264")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "gestation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "incubation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000026> "prenatal development")
@@ -940,6 +943,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000101> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000102> "A carnivorous process during which a living entity acquires food and energy by consuming other animals while they are stil alive. Predation leads directly to the imminent death of the prey organism(s).")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000102> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000102> "http://vocab.lternet.edu?tema=444")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000102> "The definition of predation can be controversial.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000102> "predation")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000102> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
@@ -1068,6 +1072,10 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000120> "sequentially hermaphroditic")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000120> <http://purl.obolibrary.org/obo/ECOCORE_00000061>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0015979> (photosynthesis)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0015979> "http://vocab.lternet.edu?tema=417")
+
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ecocore_00000082> "A heterotroph that consumes plant and animal matter either in whole or in part via ingestion through a type of \"mouth\". Animal and plant matter is broken down through an internal digestion process")
@@ -1085,6 +1093,8 @@ SubClassOf(<http://purl.obolibrary/obo/ECOCORE_00000037> <http://purl.obolibrary
 SubClassOf(<http://purl.obolibrary/obo/ECOCORE_00000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/ECOCORE_00000038>))
 
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0000003> "http://vocab.lternet.edu?tema=465")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0040007> "http://vocab.lternet.edu?tema=236")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000114> "has curation status")
