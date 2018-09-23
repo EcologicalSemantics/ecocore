@@ -9,7 +9,7 @@ Key|Value
 ---|---
 Title | Ecology Core Ontology
 Home page | https://github.com/EcologicalSemantics/ecocore 
-Main contact | [PL Buttigieg](http://orcid.org/0000-0002-4366-3088) @pbuttigieg
+Main contacts | [A Thesen](http://orcid.org/0000-0002-2908-3327) @diatomsRcool & [PL Buttigieg](http://orcid.org/0000-0002-4366-3088) @pbuttigieg
 Discussion mailing-list | [click here](mailto:ecology-core-ontology@googlegroups.com)
 Forum | https://groups.google.com/d/forum/ecology-core-ontology 
 Issue tracker link | https://github.com/EcologicalSemantics/ecocore/issues 
