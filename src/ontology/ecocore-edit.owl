@@ -139,6 +139,16 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000117>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000118>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000119>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000122>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000124>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000126>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000128>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000129>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
@@ -370,7 +380,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000021> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000023> (autotroph)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "An organism which is capable of incorporating inorganic carbon into its biomass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "An organism which is capable of incorporating abiogenic (inorganic) carbon into its biomass.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "primary producer")
@@ -1067,6 +1077,60 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "dichogamy")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000120> "sequentially hermaphroditic")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000120> <http://purl.obolibrary.org/obo/ECOCORE_00000061>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000121> (photoorganoautotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000121> "photoorganoautotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000121> <http://purl.obolibrary.org/obo/ECOCORE_00000130>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000122> (photolithoautotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000122> "photolithoautotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000122> <http://purl.obolibrary.org/obo/ECOCORE_00000130>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000123> (chemoorganoautotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000123> "chemoorganoautotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000123> <http://purl.obolibrary.org/obo/ECOCORE_00000129>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000124> (chemolithoautotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000124> "chemolithoautotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000124> <http://purl.obolibrary.org/obo/ECOCORE_00000129>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000125> (photoorganoheterotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000125> "photoorganoheterotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000125> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000126> (photolithoheterotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000126> "photolithoheterotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000126> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000127> (chemoorganoheterotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000127> "chemoorganoheterotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000127> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000128> (chemolithoheterotroph)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000128> "chemolithoheterotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000128> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000129> (chemoautotroph)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000129> "An autotroph which is capable of obtaining energy from the bonds in a chemical compound.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000129> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000129> "chemoautotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000129> <http://purl.obolibrary.org/obo/ECOCORE_00000023>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000130> (photoautotroph)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000130> "An autotroph which is capable of transforming light into chemical energy.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000130> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000130> "photoautotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000130> <http://purl.obolibrary.org/obo/ECOCORE_00000023>)
 
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
