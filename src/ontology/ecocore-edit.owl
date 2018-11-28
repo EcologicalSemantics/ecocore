@@ -607,7 +607,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000053> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000054> "Organism that obtains nutrition by breaking down dead or decaying organisms")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000054> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000054> "decomposer")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000054> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000055> (detritivore)
@@ -615,7 +615,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000054> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000055> "An decomposer which obtains nutrition by consuming detritus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000055> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000055> "detritivore")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000057>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000055> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000057>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000055> <http://purl.obolibrary.org/obo/ECOCORE_00000054>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000056> (saprotroph)
