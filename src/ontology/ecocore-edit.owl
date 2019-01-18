@@ -152,6 +152,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000131>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000132>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
 #   Annotation Properties
@@ -1171,6 +1172,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore_00000082> "omnivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore_00000082> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CARO_0010004> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000020>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000021>))))
 SubClassOf(<http://purl.obolibrary.org/obo/ecocore_00000082> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ecocore_00000133> (territory)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ecocore_00000133> "An environmental zone which an animal consistently defends against conspecifics or, occasionally, animals of other species")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ecocore_00000133> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore_00000133> "territory")
+SubClassOf(<http://purl.obolibrary.org/obo/ecocore_00000133> <http://purl.obolibrary.org/obo/ENVO_01000408>)
 
 # Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
 
