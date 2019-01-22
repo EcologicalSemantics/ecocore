@@ -1149,6 +1149,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000129> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000130> "An autotroph which is capable of transforming light into chemical energy.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000130> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000130> "photoautotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000130> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000013>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000130> <http://purl.obolibrary.org/obo/ECOCORE_00000023>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000131> (photoheterotroph)
