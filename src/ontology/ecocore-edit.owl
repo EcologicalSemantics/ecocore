@@ -353,7 +353,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000018> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000019> (herbivore)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "An organism which consumes plants or macroalgae via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "An organism which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "primary consumer")
@@ -1149,7 +1149,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000129> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000130> "An autotroph which is capable of transforming light into chemical energy.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000130> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000130> "photoautotroph")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000130> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000013>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000130> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000013>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000130> <http://purl.obolibrary.org/obo/ECOCORE_00000023>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000131> (photoheterotroph)
