@@ -576,7 +576,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000050> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000051> (suspension feeder)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "Organism that acquires nutrition by consuming particles suspended in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "A heterotroph that acquires nutrition by consuming particles suspended in water.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000051> "suspension feeder")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000051> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
