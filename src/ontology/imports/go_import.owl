@@ -2116,6 +2116,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0062097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0062097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044237"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cellular metabolic process in which organic chemical compounds are synthesized from carbon-containing molecules and nutrients using energy obtained from the oxidation of inorganic compounds or methane.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosynthesis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0062097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cellular metabolic process in which organic chemical compounds are synthesized from carbon-containing molecules and nutrients using energy obtained from the oxidation of inorganic compounds or methane.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:25050523</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0071704 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071704">

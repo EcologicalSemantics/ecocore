@@ -67,7 +67,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000046>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000048>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000050>))
@@ -404,6 +403,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000024> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "The process by which a larvae transforms into an adult.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000025> "larval development")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0032502> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/UBERON_0000069>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/UBERON_0000066>))))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://purl.obolibrary.org/obo/GO_0032502>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000026> (prenatal development)
@@ -553,20 +553,11 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000046> "endophyte")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolibrary.org/obo/IDO_0000522>)
 
-# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000047> (larva)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "anatomical entity that comprises the organism in a distinct juvenile form before metamorphosing into an adult")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "http://purl.obolibrary.org/obo/UBERON_0002548")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000047> "larva")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://purl.obolibrary.org/obo/UBERON_0000468>)
-
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000048> (lecithotrophic larva)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000048> "anatomical entity that comprises the organism in a distinct juvenile form that is provided with a source of nutrition, usually a yolk sac, to use before metamorphosing into an adult")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000048> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000048> "lecithotrophic larva")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000048> <http://purl.obolibrary.org/obo/ECOCORE_00000047>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000048> <http://purl.obolibrary.org/obo/UBERON_0002548>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000049> (microphytobenthos)
 
@@ -1094,6 +1085,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000121> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000122> "A photoautotroph which is capable of using an abiogenic organic compound as an electron donor.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000122> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000122> "photolithoautotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000122> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0015979>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000122> <http://purl.obolibrary.org/obo/ECOCORE_00000130>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000123> (chemoorganoautotroph)
@@ -1101,6 +1093,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000122> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000123> "A chemoautotroph which is capable of using a biogenic organic compound as an electron donor.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000123> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000123> "chemoorganoautotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000123> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0062097>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000123> <http://purl.obolibrary.org/obo/ECOCORE_00000129>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000124> (chemolithoautotroph)
@@ -1108,6 +1101,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000123> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000124> "A chemoautotroph which is capable of using an abiogenic organic compound as an electron donor.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000124> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000124> "chemolithoautotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000124> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0062097>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000124> <http://purl.obolibrary.org/obo/ECOCORE_00000129>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000125> (photoorganoheterotroph)
@@ -1199,4 +1193,5 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0010000> "has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0001900> "temporal interpretation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002581> "is a defining property chain axiom")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002582> "is a defining property chain axiom where second argument is reflexive")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/UBERON_0007197> "monoecious organism")
 )

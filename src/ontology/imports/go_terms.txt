@@ -41,4 +41,4 @@ http://purl.obolibrary.org/obo/GO_0044764 # multi-organism cellular process
 http://purl.obolibrary.org/obo/GO_0044766 # multi-organism transport
 http://purl.obolibrary.org/obo/GO_0051703 # intraspecies interaction between organisms
 http://purl.obolibrary.org/obo/GO_0044402 # competition with other organism
-
+http://purl.obolibrary.org/obo/GO_0062097 # chemosynthesis
