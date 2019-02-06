@@ -43,3 +43,5 @@ http://purl.obolibrary.org/obo/GO_0051703 # intraspecies interaction between org
 http://purl.obolibrary.org/obo/GO_0044402 # competition with other organism
 http://purl.obolibrary.org/obo/GO_0062097 # chemosynthesis
 http://purl.obolibrary.org/obo/GO_0060756 # foraging behavior
+http://purl.obolibrary.org/obo/GO_0007631 # feeding behavior
+http://purl.obolibrary.org/obo/GO_0036377 # arbuscular mycorrhizal association

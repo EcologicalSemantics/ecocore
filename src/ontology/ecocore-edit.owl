@@ -150,6 +150,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000131>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000132>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000134>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000135>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000136>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000137>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000139>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
@@ -616,7 +622,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000055> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000056> "A decomposer that obtains nutrition through extracellular digestion of decaying organic matter")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000056> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000056> "saprotroph")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/OBI_0100026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000059>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000056> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000059>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000056> <http://purl.obolibrary.org/obo/ECOCORE_00000054>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000057> (detritivory)
@@ -1160,6 +1166,56 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000132> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000132> "chemoheterotroph")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000132> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000134> (extremophile)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000134> "An organism that thrives in physically or geochemically extreme conditions that are detrimental to most life on Earth")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000134> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ECOCORE_00000134> "https://en.wikipedia.org/wiki/Extremophile")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000134> "extremophile")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000134> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000135> (epigeic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000135> "An organismal quality inhering in a bearer by virtue of the bearer's ability to live on the surface of the soil and in leaf litter")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000135> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000135> "https://orcid.org/0000-0002-1434-9495")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000135> "surface dwelling")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000135> "epigeic")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000135> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000136> (frugivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "An herbivore that primarily consumes fruits or fruit-like vegetables")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "https://www.wikidata.org/entity/Q1470764")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "fruit eater")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000136> "frugivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000136> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000137> (palynivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000137> "An herbivore that primarily consumes pollen")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000137> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000137> "https://www.wikidata.org/entity/Q3805698")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000137> "pollen eater")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000137> "palynivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000137> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000139> (grazing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000139> "A heterotrophic process during which a living entity acquires food and energy by eating food off of a surface while slowly moving through the environment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000139> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000139> "grazing")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000139> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000140> (nectarivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000140> "An herbivore that primarily consumes nectar")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000140> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000140> "https://www.wikidata.org/entry/Q120880")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000140> "nectarivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000140> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
 
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 
