@@ -172,6 +172,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000153>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000154>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000155>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000157>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000158>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
@@ -599,7 +601,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000050> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000051> (suspension feeder)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "A heterotroph that acquires nutrition by consuming particles suspended in water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "A heterotroph that acquires nutrition by consuming particles suspended in water or air.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000051> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000051> "suspension feeder")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000051> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
@@ -1375,6 +1377,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000156> "fish eater")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000156> "piscivore")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000156> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000157> (filter feeder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000157> "A suspension feeder that acquires nutrition by consuming particles using a filtering apparatus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000157> "filter feeder")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000157> <http://purl.obolibrary.org/obo/ECOCORE_00000051>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000158> (planktivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000158> "A suspension feeder that acquires nutrition by consuming plankton.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000158> "planktivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000158> <http://purl.obolibrary.org/obo/ECOCORE_00000051>)
 
 # Class: <http://purl.obolibrary.org/obo/ecocore_00000082> (omnivore)
 

@@ -7,3 +7,7 @@ http://purl.obolibrary.org/obo/ENVO_02500009 # biogeochemical cycling
 http://purl.obolibrary.org/obo/ENVO_01000276 # ecoregion
 http://purl.obolibrary.org/obo/ENVO_01000280 # ecozone
 http://purl.obolibrary.org/obo/ENVO_01001103 # detritus
+http://purl.obolibrary.org/obo/ENVO_01000063 # planktonic material
+http://purl.obolibrary.org/obo/ENVO_00002040 # wood
+http://purl.obolibrary.org/obo/ENVO_01000349 # root material
+http://purl.obolibrary.org/obo/ENVO_01001189 # algal material

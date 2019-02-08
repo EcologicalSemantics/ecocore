@@ -2938,9 +2938,8 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000952"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature
-resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature&apos;resulting from the influence of human beings on nature.</obo:IAO_0000115>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">man-made feature</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manmade feature</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anthropogenic geographic feature</rdfs:label>
@@ -2948,14 +2947,13 @@ resulting from the influence of human beings on nature.</obo:IAO_0000115>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature
-resulting from the influence of human beings on nature.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000002"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature resulting from the influence of human beings on nature.</owl:annotatedTarget>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An anthropogenic geographic feature is a geographic feature&apos;resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4051,6 +4049,16 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000814"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wood</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002149 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002149">
@@ -4294,6 +4302,16 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN-10:0618455043</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORCID:0000-0002-4366-3088</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <obo:IAO_0000115>A portion of planktonic material is a portion of environmental material primarily composed of plankton.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">planktonic material</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4989,6 +5007,22 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An altitudinal condition is an environmental condition in which ranges of factors such as temperature, humidity, soil composition, solar irradiation, and tree density vary with ranges in altitude.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Altitudinal_zonation</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0009005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organic material primarily composed of a portion of plant root.</obo:IAO_0000115>
+        <rdfs:label>root matter</rdfs:label>
+    </owl:Class>
     
 
 
@@ -6546,6 +6580,15 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An environment which has its properties and composition largely determined by the presence of a metazoan which lacks a vetebral column and which has a habitat that is found in an aquatic environmental system.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">environment associated with an aquatic invertebrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000155"/>
+        <rdfs:label xml:lang="en">algal material</rdfs:label>
     </owl:Class>
     
 
@@ -9276,6 +9319,37 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0009005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ra&amp;#237z (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radices (exact, plural)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">radix (exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">根 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aerial root (narrow)</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">climbing root (narrow)</oboInOwl:hasNarrowSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0009008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A multi-tissue plant structure (PO:0025496) that is a functional unit, is a proper part of a whole plant (PO:0000003), and includes portions of plant tissue (PO:0009007) of at least two different types that derive from a common developmental path.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organ (broad)</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&amp;#243rgano vegetal (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 器官 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compound plant organ (related)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple plant organ (related)</oboInOwl:hasRelatedSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant organ</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0009011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009011">
@@ -9289,6 +9363,19 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PO_0025004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An axial plant organ (PO:0009008).</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eje de la planta (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant axes (exact, plural)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物軸（軸柱） (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant axis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PO_0025131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
@@ -9297,6 +9384,18 @@ resulting from the influence of human beings on nature.</owl:annotatedTarget>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad anat&amp;#243mica vegetal (Spanish, exact)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">植物 解剖学（形態）的実体 (Japanese, exact)</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plant anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PO_0025496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estructura vegetal con m&amp;#250ltiples tejidos (Spanish, exact)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">複数の組織からなる植物構造 (Japanese, exact)</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multi-tissue plant structure</rdfs:label>
     </owl:Class>
     
 
