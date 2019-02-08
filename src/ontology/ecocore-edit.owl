@@ -179,6 +179,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000160>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000161>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000162>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000163>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000164>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
@@ -848,6 +850,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "https://en.wikipedia.org/wiki/Folivore")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "leaf eater")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000084> "folivore")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000084> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0025034>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000084> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000085> (rhizovore)
@@ -887,7 +890,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000089> (predator)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "a carnivore that actively captures and consumes other animals, causing their immediate or immenent death")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "A carnivore that actively captures and consumes other animals, causing their immediate or immenent death")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000089> "predator")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000089> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000102>)))
@@ -973,6 +976,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000099> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000100> "seed predation")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/PO_0009010>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000100> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000101> (herbivorous browsing)
@@ -1240,6 +1244,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "https://www.wikidata.org/entity/Q1470764")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "fruit eater")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000136> "frugivore")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0009001>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000136> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000137> (palynivore)
@@ -1291,6 +1296,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000143> "seed eater")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000143> "granivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000143> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000100>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000143> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0009010>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000143> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000144> (xylophage)
@@ -1447,6 +1453,22 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000162> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000163> "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000163> "chemotrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000163> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000164> (sanguivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "A carnivore that consumes blood, during a brief, temporary interaction.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "blood eater")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000164> "sanguivore")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000165>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000164> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000165> (hematophagy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000165> "A carnivorous process during which a living entity acquires food and energy from consuming blood.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000165> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000165> "hematophagy")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000165> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_01000063> (planktonic material)
 
