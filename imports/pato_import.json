@@ -254,6 +254,15 @@
       "type" : "PROPERTY",
       "lbl" : "has_part"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/pato#cell_quality",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "cell_quality"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001985",
       "meta" : {
         "definition" : {
@@ -272,6 +281,24 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#consider",
       "type" : "PROPERTY",
       "lbl" : "consider"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000414",
+      "meta" : {
+        "definition" : {
+          "val" : "A branchiness quality inhering in a bearer by virtue of the bearer's lacking branches.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#cell_quality" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000402"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unbranched"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "type" : "PROPERTY",
@@ -1977,6 +2004,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000414",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002009"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to"
@@ -2085,13 +2116,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000117"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0000964",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000957"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000068",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000964",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000957"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002181",
       "pred" : "is_a",

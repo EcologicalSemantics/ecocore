@@ -51,7 +51,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  nbo bfo go uberon ro chebi envo pato iao ido pco po
+IMPORTS =  nbo bfo go uberon ro chebi envo pato iao pco po
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl $(n).obo $(n).json)

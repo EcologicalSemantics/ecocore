@@ -183,7 +183,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 id: BFO:0000020
 name: specifically dependent continuant
 def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
-def: "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/131-004"}
+def: "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])" []
 def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
 is_a: BFO:0000002 ! continuant
 disjoint_from: BFO:0000031 ! generically dependent continuant
@@ -202,7 +202,6 @@ property_value: example_of_usage "the pink color of a medium rare piece of grill
 property_value: example_of_usage "the role of being a doctor" xsd:string
 property_value: example_of_usage "the shape of this hole." xsd:string
 property_value: example_of_usage "the smell of this portion of mozzarella" xsd:string
-property_value: IAO:0000602 "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/131-004"}
 property_value: IAO:0000602 "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
@@ -230,7 +229,6 @@ id: BFO:0000024
 name: fiat object
 name: fiat object part
 is_a: BFO:0000040 ! material entity
-property_value: BFO:0000179 "fiat-object" xsd:string
 property_value: BFO:0000179 "fiat-object-part" xsd:string
 property_value: BFO:0000180 "FiatObjectPart" xsd:string
 property_value: editor_note "BFO 2 Reference: Most examples of fiat object parts are associated with theoretically drawn divisions" xsd:string
@@ -417,10 +415,7 @@ property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 [Term]
 id: CARO:0000000
 name: anatomical entity
-def: "A part of a multicellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex.  Or, a substance produced by a multicellular organism with granularity above the level of a protein complex." []
-is_a: BFO:0000040 ! material entity
 is_a: CARO:0030000 ! biological entity
-disjoint_from: IDO:0000528 ! pathogen
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/caro.owl
 
 [Term]
@@ -1615,7 +1610,6 @@ synonym: "molecular entity" EXACT IUPAC_NAME [IUPAC]
 synonym: "molekulare Entitaet" RELATED [ChEBI]
 is_a: BFO:0000040 ! material entity
 is_a: CHEBI:24431 ! chemical entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/chebi.owl
 
 [Term]
 id: CHEBI:23888
@@ -5137,8 +5131,6 @@ property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCC1=C(C)C2=[N+]3C1
 [Term]
 id: CL:0000000
 name: cell
-def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." []
-is_a: CARO:0000000 ! anatomical entity
 is_a: CARO:0000003 ! anatomical structure
 relationship: directly_develops_from CL:0000000 ! cell
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
@@ -8711,7 +8703,6 @@ subset: goslim_plant
 synonym: "reproductive physiological process" EXACT []
 xref: Wikipedia:Reproduction
 is_a: GO:0008150 ! biological_process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0000271
@@ -9096,9 +9087,7 @@ namespace: biological_process
 def: "Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat." [GO_REF:0000022, GOC:add, GOC:mtg_15nov05]
 comment: This term was improved by GO_REF:0000022. It was redefined and moved.
 is_a: GO:0002376 ! immune system process
-is_a: GO:0008150 ! biological_process
 is_a: GO:0050896 ! response to stimulus
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0007154
@@ -9205,7 +9194,6 @@ synonym: "single organism process" RELATED []
 synonym: "single-organism process" RELATED []
 xref: Wikipedia:Biological_process
 is_a: BFO:0000015 ! process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 created_by: janelomax
 creation_date: 2012-09-19T15:05:24Z
 
@@ -10378,7 +10366,6 @@ subset: goslim_pir
 synonym: "development" NARROW []
 synonym: "single-organism developmental process" RELATED []
 is_a: GO:0008150 ! biological_process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 created_by: janelomax
 creation_date: 2012-12-19T12:21:31Z
 
@@ -10583,7 +10570,6 @@ subset: goslim_plant
 synonym: "growth pattern" RELATED []
 synonym: "non-developmental growth" RELATED [GOC:mah]
 is_a: GO:0008150 ! biological_process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0040008
@@ -11081,7 +11067,6 @@ alt_id: GO:0044404
 alt_id: GO:0072519
 alt_id: GO:0085031
 def: "A process carried out by symbiont gene products that enables a symbiotic interaction with a host organism. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs. Microscopic symbionts are often referred to as endosymbionts." [GOC:cc, https://study.com/academy/lesson/symbiont-definition-lesson-quiz.html]
-def: "An interaction between two organisms living together in more or less intimate association. Microscopic symbionts are often referred to as endosymbionts. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs." []
 comment: Changed term, definition see https://github.com/geneontology/go-ontology/issues/14807
 subset: goslim_chembl
 subset: goslim_generic
@@ -11095,8 +11080,6 @@ synonym: "symbiotic interaction between host and organism" RELATED []
 synonym: "symbiotic interaction between organisms" RELATED []
 synonym: "symbiotic interaction between species" RELATED []
 is_a: GO:0044419 ! interspecies interaction between organisms
-is_a: GO:0051704 ! multi-organism process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0044409
@@ -11107,9 +11090,7 @@ synonym: "host invasion" EXACT []
 synonym: "invasion into host" EXACT []
 synonym: "invasion of host" EXACT []
 synonym: "invasive growth" RELATED []
-is_a: GO:0051704 ! multi-organism process
 is_a: GO:0051828 ! entry into other organism involved in symbiotic interaction
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0044411
@@ -11118,7 +11099,6 @@ namespace: biological_process
 def: "Penetration by an organism into its host organism via active breaching of the physical barriers of the host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:cc]
 is_a: GO:0044409 ! entry into host
 is_a: GO:0051830 ! entry into other organism through barriers of other organism involved in symbiotic interaction
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0044419
@@ -11532,11 +11512,9 @@ synonym: "inhibition of immune response" NARROW []
 is_a: GO:0002683 ! negative regulation of immune system process
 is_a: GO:0048585 ! negative regulation of response to stimulus
 is_a: GO:0050776 ! regulation of immune response
-is_a: GO:0065007 ! biological regulation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0006955 ! immune response
 relationship: negatively_regulates GO:0006955 ! immune response
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0050778
@@ -11731,11 +11709,9 @@ synonym: "downregulation of developmental process" EXACT []
 synonym: "inhibition of developmental process" NARROW []
 is_a: GO:0048519 ! negative regulation of biological process
 is_a: GO:0050793 ! regulation of developmental process
-is_a: GO:0065007 ! biological regulation
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0032502 ! developmental process
 relationship: negatively_regulates GO:0032502 ! developmental process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0051094
@@ -11881,10 +11857,7 @@ subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_pir
 synonym: "establishment of localisation" EXACT [GOC:mah]
-is_a: GO:0008150 ! biological_process
 is_a: GO:0051179 ! localization
-property_value: IAO:0000412 "Gene Ontology: http://purl.obolibrary.org/obo/go.owl" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0051239
@@ -12006,7 +11979,6 @@ synonym: "interaction between organisms" EXACT []
 synonym: "physiological interaction between organisms" EXACT []
 synonym: "physiological interaction with other organism" EXACT []
 is_a: GO:0008150 ! biological_process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0051716
@@ -12190,9 +12162,7 @@ def: "Any process that modulates a measurable attribute of any biological proces
 subset: gocheck_do_not_annotate
 subset: goslim_pir
 synonym: "regulation" BROAD []
-is_a: BFO:0000015 ! process
 is_a: GO:0008150 ! biological_process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 
 [Term]
 id: GO:0065009
@@ -12287,10 +12257,8 @@ name: mutualism
 name: symbiont process benefiting host
 namespace: biological_process
 def: "A process carried out by symbiont gene products that enables a symbiotic interaction with a host organism, that is beneficial to the host organism." [GOC:pdt]
-def: "An interaction between two organisms living together in more or less intimate association in a relationship in which both organisms benefit from each other." []
 synonym: "mutualism" RELATED []
 is_a: GO:0044403 ! symbiont process
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 created_by: janelomax
 creation_date: 2010-07-27T01:25:21Z
 
@@ -12841,369 +12809,6 @@ property_value: IAO:0000117 "Alan Ruttenberg" xsd:string
 property_value: IAO:0000119 "Barry Smith, Werner Ceusters" xsd:string
 
 [Term]
-id: IDO:0000400
-name: symbiont role
-def: "A role borne by an organism in symbiosis." []
-comment: The role is realized in symbiosis.
-is_a: BFO:0000023 ! role
-disjoint_from: IDO:0000405 ! pathogen role
-disjoint_from: IDO:0000629 ! host role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000401
-name: mutualist role
-def: "A symbiont role borne by an organism in virtue of the fact that both symbionts derive a growth, survival, or fitness advantage from symbiosis." []
-comment: The role is realized in processes that result in the growth, survival, or fitness advantage of either organism.
-is_a: IDO:0000400 ! symbiont role
-disjoint_from: IDO:0000402 ! commensal role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000402
-name: commensal role
-def: "A symbiont role borne by an organism in virtue of the fact that it derives a growth, survival, or fitness advantage from symbiosis, but the other symbiont is neither advantaged nor disadvantaged." []
-comment: The role is realized in processes that result in the commensal's growth, survival, or fitness advantage.
-is_a: IDO:0000400 ! symbiont role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000403
-name: parasite role
-def: "A symbiont role borne by an organism in virtue of the fact that it derives a growth, survival, or fitness advantage from symbiosis while the other symbiont's growth, survival, or fitness is reduced." []
-comment: In the medical community, the term 'parasite' is used with the narrower meaning of eukaryotic pathogen.
-comment: The role is realized in processes that result in the parasite's growth, survival, or fitness advantage or in the other organism's growth, survival, or fitness reduction.
-is_a: IDO:0000400 ! symbiont role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000404
-name: infectious agent role
-def: "A role borne by an infectious agent when contained in a host in which its infectious disposition can be realized." []
-is_a: IDO:0000405 ! pathogen role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000405
-name: pathogen role
-def: "A role borne by pathogen in virtue of the fact that it or one of its products is sufficiently close to an organism towards which it has the pathogenic disposition to allow realization of the pathogenic disposition." []
-comment: Clostridium botulinum is an example of an entity with the capability to bear the pathogen role but that does not have the capability to bear the infectious agent role or the parasite role.  The influenza viruses are examples of organisms that can bear both the infectious agent and pathogen roles.
-is_a: BFO:0000023 ! role
-disjoint_from: IDO:0000629 ! host role
-relationship: RO:0000052 IDO:0000528 ! inheres in pathogen
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000406
-name: opportunistic infectious disposition
-def: "An infectious disposition to become part of a disorder only in organisms whose defenses are compromised." []
-comment: The disposition is realized in a process by which the bearer becomes part of a disorder in an immunocompromised host.
-comment: This includes individuals who are immunocompromised or who have damaged barriers that normally protect against infection (e.g. skin).
-is_a: IDO:0000452 ! infectious disposition
-disjoint_from: IDO:0000407 ! primary infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-property_value: IAO:0000118 "opportunitistic pathogenic disposition" xsd:string
-
-[Term]
-id: IDO:0000407
-name: primary infectious disposition
-def: "An infectious disposition to become part of a disorder in organisms that have intact defenses." []
-comment: A pathogen with a primary infectious disposition can cause disease or death in both immunocompromised and immunocompetent hosts.
-comment: A quote from page 3 of Mandell's "Principles and Practice of Infectious Diseases" (Sixth edition): "It is useful to distinguish "principal" pathogens, which regularly cause disease in some proportion of susceptible individuals with apparently intact defense systems, from other potentially pathogenic microorganisms.  ... even for most organisms classified as principal pathogens, for example, Staphylococcus aureus and the pneumococcus, some impairment or local breakdown in normal host defense mechanisms must occur for these bacteria to cause disease.  ... Thus, it seems clear that the capacity of certain microorganisms to cause disease in seemingly uncompromised human hosts on a regular basis reflects some fundamental difference in their virulence capabilities from those of opportunists and the more numerous commensal species that rarely, if ever, cause disease."
-is_a: IDO:0000452 ! infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000408
-name: symbiont host role
-def: "A host role borne by an organism in virtue of the fact that its extended organism contains a second organism and provides an environment supportive for the survival, growth, maturation, or reproduction of that organism.  " []
-comment: The relevant environmental resources may include nutrient resources, warmth, or moisture.
-comment: The role is realized in processes in which the host makes the relevant environmental resources available to its partner in symbiosis.  A bearer of a symbiont host role is bearer also of a symbiont role.
-is_a: IDO:0000629 ! host role
-disjoint_from: IDO:0000415 ! pathogen host role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000415
-name: pathogen host role
-def: "A host role borne by an organism in virtue of the fact that its extended organism contains a pathogen." []
-comment: Bearing the infectious agent host role implies bearing the pathogen host role, but the reverse is not true.  See comment for infectious agent host role.
-is_a: IDO:0000629 ! host role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000450
-name: pathogenic disposition
-def: "A disposition to initiate processes that result in a disorder." []
-comment: A pathogenic disposition is realized in processes that create a disorder.
-comment: The use of 'initiates' is intended to convey that a pathogenic disposition is realized when processes resulting in a disorder begin because of some action on the part of the bearer of the disposition.  By this interpretation of 'initiates', disorder-causing entities such as glass, UV light, and toxins do not have a pathogenic disposition.
-is_a: BFO:0000016 ! disposition
-disjoint_from: IDO:0000618 ! immunocompetence
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-property_value: IAO:0000118 "pathogenicity" xsd:string
-
-[Term]
-id: IDO:0000452
-name: infectious disposition
-def: "A pathogenic disposition that inheres in an organism and is a disposition for that organism (1) to be transmitted to a host, (2) to establish itself in the host, (3) to initiate processes that result in a disorder in the host, and (4) to become part of that disorder." []
-comment: The disposition is realized in a process that has as part a transmission process, an establishment in host process, a process that results in a disorder, and a process in which the bearer of the disposition becomes part of that disorder.  The infectious disposition has a complementary disposition that inheres in an organism and is the capability to be host to an organism with an infectious disposition and to undergo processes initiated by that infectious organism that result in a disorder.
-is_a: IDO:0000450 ! pathogenic disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000453
-name: zoonotic disposition
-def: "An infectious disposition that is the disposition to be transmitted from an infected, non-human host to a human host." []
-comment: An infectious disease associated with an infectious agent that bears the zoonotic disposition is referred to as a zoonosis.
-is_a: IDO:0000452 ! infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000454
-name: reverse zoonotic disposition
-def: "An infectious disposition that is the disposition to be transmitted from an infected, human host to a non-human host." []
-comment: An infectious disease associated with an infectious agent that bears the reverse zoonotic disposition is referred to as a reverse zoonosis.
-is_a: IDO:0000452 ! infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000457
-name: immunocompetent organism
-def: "An organism that has immunocompetence." []
-is_a: OBI:0100026 ! organism
-intersection_of: OBI:0100026 ! organism
-intersection_of: RO:0000091 IDO:0000618 ! has disposition immunocompetence
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000522
-name: symbiont
-def: "An organism bearing a symbiont role." []
-is_a: OBI:0100026 ! organism
-intersection_of: OBI:0100026 ! organism
-intersection_of: has_role IDO:0000400 ! symbiont role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000524
-name: mutualist
-def: "An organism bearing a mutualist role." []
-is_a: IDO:0000522 ! symbiont
-intersection_of: OBI:0100026 ! organism
-intersection_of: has_role IDO:0000401 ! mutualist role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000525
-name: commensal
-def: "An organism bearing a commensal role." []
-is_a: IDO:0000522 ! symbiont
-intersection_of: OBI:0100026 ! organism
-intersection_of: has_role IDO:0000402 ! commensal role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000526
-name: parasite
-def: "A organism bearing a parasite role." []
-is_a: IDO:0000522 ! symbiont
-intersection_of: OBI:0100026 ! organism
-intersection_of: has_role IDO:0000403 ! parasite role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000528
-name: pathogen
-def: "A material entity with a pathogenic disposition." []
-is_a: BFO:0000040 ! material entity
-intersection_of: BFO:0000040 ! material entity
-intersection_of: RO:0000091 IDO:0000450 ! has disposition pathogenic disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000530
-name: primary pathogen
-def: "An infectious agent with a primary infectious disposition." []
-is_a: IDO:0000596 ! infectious agent
-intersection_of: OBI:0100026 ! organism
-intersection_of: RO:0000091 IDO:0000407 ! has disposition primary infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-property_value: IAO:0000118 "principal pathogen" xsd:string
-
-[Term]
-id: IDO:0000531
-name: host
-def: "An organism bearing a host role." []
-is_a: OBI:0100026 ! organism
-intersection_of: OBI:0100026 ! organism
-intersection_of: has_role IDO:0000629 ! host role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000538
-name: pathogen host
-def: "An organism bearing a pathogen host role." []
-is_a: IDO:0000531 ! host
-intersection_of: OBI:0100026 ! organism
-intersection_of: has_role IDO:0000415 ! pathogen host role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000596
-name: infectious agent
-def: "An organism that has an infectious disposition." []
-is_a: IDO:0000528 ! pathogen
-is_a: OBI:0100026 ! organism
-intersection_of: OBI:0100026 ! organism
-intersection_of: RO:0000091 IDO:0000452 ! has disposition infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000610
-name: immunosuppression
-def: "A process that attenuates an immune response." []
-is_a: BFO:0000015 ! process
-intersection_of: BFO:0000015 ! process
-intersection_of: negatively_regulates GO:0006955 ! immune response
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000618
-name: immunocompetence
-def: "A disposition that is the ability to mount a normal immune response." []
-comment: The disposition inheres in a bearer in virtue of the fact that the bearer has all canonical immune system components and none are disordered.  The disposition is realized in a successful immune response.
-is_a: BFO:0000016 ! disposition
-relationship: BFO:0000054 GO:0006955 ! realized in immune response
-relationship: RO:0000052 OBI:0100026 ! inheres in organism
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000623
-name: communicability
-def: "An infectious disposition to be transmitted directly from one organism to another of the same Species by horizontal transmission." []
-comment: The disposition is realized in a direct, horizontal transmission process between members of the same Species.
-is_a: IDO:0000452 ! infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000625
-name: establishment of localization in host
-def: "An establishment of localization process in which a material entity reaches a site in an organism in which it can survive, grow, multiply, or mature." []
-comment: An organism begins bearing a particular host role as soon as the extended organism contains the relevant material entity, regardless of that entity's location in the extended organism.  An establishment process is any process by which the entity reaches a location in the extended organism in which it can persist and continue its lifecycle.  For example, an organism is host to a virus as soon as any part of the extended organism is occupied by virus particles.  During an establishment process, virus particles enter host cells of the relevant type, and viral DNA is integrated into host DNA.
-is_a: GO:0051234 ! establishment of localization
-property_value: editor_note "Requested addition of this term to the GO." xsd:string
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000626
-name: appearance of disorder
-def: "A process by which a disorder comes into existence." []
-is_a: BFO:0000015 ! process
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000629
-name: host role
-def: "A role borne by an organism in virtue of the fact that it's extended organism contains a material entity other than the organism." []
-is_a: BFO:0000023 ! role
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alexander Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000654
-name: opportunistic pathogen
-def: "An infectious agent with an opportunistic infectious disposition." []
-is_a: IDO:0000596 ! infectious agent
-intersection_of: OBI:0100026 ! organism
-intersection_of: RO:0000091 IDO:0000406 ! has disposition opportunistic infectious disposition
-property_value: IAO:0000117 "Albert Goldfain" xsd:string
-property_value: IAO:0000117 "Alex Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-property_value: IAO:0000118 "opportunist" xsd:string
-
-[Term]
-id: IDO:0000656
-name: horizontal pathogen transmission process
-def: "A pathogen transmission process in which a pathogen is transmitted from one host to another of the same Species, and the two hosts are not in a parent-child relationship." []
-is_a: TRANS:0000000 ! transmission process
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000662
-name: life-sustaining process
-def: "A process which is necessary for the survival of an organism." []
-is_a: GO:0008150 ! biological_process
-property_value: IAO:0000117 "Alex Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
-id: IDO:0000663
-name: negative regulation of life-sustaining process
-def: "Any process that stops, prevents, or reduces the frequency, rate or extent of a life-sustaining process." []
-is_a: GO:0065007 ! biological regulation
-property_value: IAO:0000117 "Alex Diehl" xsd:string
-property_value: IAO:0000117 "Lindsay Cowell" xsd:string
-
-[Term]
 id: NBO:0000003
 name: emotional behavior
 synonym: "affective behaviour" EXACT []
@@ -13595,7 +13200,6 @@ synonym: "Viridae" RELATED synonym []
 synonym: "viruses" RELATED blast_name []
 is_a: NCBITaxon:1 ! root
 is_a: OBI:0100026 ! organism
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 
 [Term]
 id: NCBITaxon:117570
@@ -13647,7 +13251,6 @@ synonym: "prokaryote" RELATED in_part []
 synonym: "prokaryotes" RELATED in_part []
 is_a: NCBITaxon:131567 ! cellular organisms
 is_a: OBI:0100026 ! organism
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 
 [Term]
 id: NCBITaxon:207598
@@ -13670,7 +13273,6 @@ synonym: "prokaryote" RELATED in_part []
 synonym: "prokaryotes" RELATED in_part []
 is_a: NCBITaxon:131567 ! cellular organisms
 is_a: OBI:0100026 ! organism
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 
 [Term]
 id: NCBITaxon:2759
@@ -13684,7 +13286,6 @@ synonym: "eukaryotes" EXACT common_name []
 synonym: "eukaryotes" RELATED blast_name []
 is_a: NCBITaxon:131567 ! cellular organisms
 is_a: OBI:0100026 ! organism
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 
 [Term]
 id: NCBITaxon:314146
@@ -13880,11 +13481,9 @@ name: Homo sapiens
 synonym: "human" EXACT genbank_common_name []
 synonym: "humans" RELATED []
 synonym: "man" EXACT common_name []
-is_a: NCBITaxon:2759 ! Eukaryota
 is_a: NCBITaxon:314146 ! Euarchontoglires
 is_a: NCBITaxon:9526 ! Catarrhini
 is_a: NCBITaxon:9605 ! Homo
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 
 [Term]
 id: OBI:0100026
@@ -13895,22 +13494,6 @@ union_of: NCBITaxon:10239 ! Viruses
 union_of: NCBITaxon:2 ! Bacteria
 union_of: NCBITaxon:2157 ! Archaea
 union_of: NCBITaxon:2759 ! Eukaryota
-disjoint_from: OGMS:0000045 ! disorder
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
-
-[Term]
-id: OGMS:0000045
-name: disorder
-def: "A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease." []
-is_a: BFO:0000040 ! material entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
-
-[Term]
-id: OGMS:0000087
-name: extended organism
-def: "An object aggregate consisting of an organism and all material entities located within the organism, overlapping the organism, or occupying sites formed in part by the organism." []
-is_a: BFO:0000027 ! object aggregate
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
 
 [Term]
 id: PATO:0000001
@@ -14097,7 +13680,19 @@ subset: value_slim
 synonym: "ramified" EXACT []
 synonym: "ramiform" EXACT []
 is_a: PATO:0002009 ! branchiness
-relationship: is_opposite_of PATO:0000414
+disjoint_from: PATO:0000414 ! unbranched
+relationship: is_opposite_of PATO:0000414 ! unbranched
+
+[Term]
+id: PATO:0000414
+name: unbranched
+namespace: quality
+def: "A branchiness quality inhering in a bearer by virtue of the bearer's lacking branches." [PATOC:GVG]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002009 ! branchiness
+relationship: is_opposite_of PATO:0000402 ! branched
 
 [Term]
 id: PATO:0000460
@@ -15917,16 +15512,6 @@ id: Subset
 is_a: IAO:0000102 ! data about an ontology part
 
 [Term]
-id: TRANS:0000000
-name: transmission process
-def: "A process that is the means during which the pathogen is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host." []
-is_a: BFO:0000015 ! process
-property_value: editor_note "Suggested definition: A process by which a pathogen passes from one host organism to a second host organism of the same Species." xsd:string
-property_value: editor_note "Suggested label: pathogen transmission process" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/trans.owl
-property_value: IAO:0000412 "Transmission Ontology: http://purl.obolibrary.org/obo/trans.owl" xsd:string
-
-[Term]
 id: UBERON:0000000
 name: processual entity
 namespace: uberon
@@ -17314,7 +16899,6 @@ property_value: curator_notes "This class excludes blood analogues, such as the 
 property_value: external_definition "A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]" xsd:string {date_retrieved="2012-08-14", external_class="TAO:0000007", ontology="TAO", source="ZFIN:curator"}
 property_value: external_definition "Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma.[AAO]" xsd:string {date_retrieved="2012-06-20", external_class="AAO:0000046", ontology="AAO", source="AAO:LAP"}
 property_value: homology_notes "Recent findings strongly suggest that the molecular pathways involved in the development and function of blood cells are highly conserved among vertebrates and various invertebrates phyla. (...) There is now good reason to believe that, in vertebrates and invertebrates alike, blood cell lineages diverge from a common type of progenitor cell, the hemocytoblast.[well established][VHOG]" xsd:string {date_retrieved="2012-09-17", external_class="VHOG:0000224", ontology="VHOG", source="http://bgee.unil.ch/", source="DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) "}
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 
 [Term]
 id: UBERON:0000179
@@ -34010,10 +33594,6 @@ property_value: IAO:0000119 "Smith, Ceusters, Ruttenberg, 2000 years of philosop
 domain: IAO:0000030 ! information content entity
 
 [Typedef]
-id: IDO:0000660
-name: results_in
-
-[Typedef]
 id: RO:0000052
 name: inheres in
 def: "a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence" []
@@ -36532,6 +36112,13 @@ is_cyclic: true
 is_transitive: false
 
 [Typedef]
+id: is_count_of
+name: is count of
+namespace: uberon
+xref: UBPROP:0000100
+is_metadata_tag: true
+
+[Typedef]
 id: is_opposite_of
 name: is opposite of
 namespace: quality
@@ -36630,7 +36217,6 @@ id: negatively_regulates
 name: negatively regulates
 namespace: external
 def: "Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
-def: "x negatively regulates y if and only if the progression of x reduces the frequency, rate or extent of y" []
 xref: RO:0002212
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
@@ -36769,9 +36355,9 @@ name: pharyngeal arch number
 namespace: uberon
 def: "x pharyngeal_arch_number N if and only if (i) x is a pharyngeal arch, and (ii) x is ancestrally pharyngeal arch number N in a series of pharyngeal arches repeated along a antero-posterior axis, with arch_number 1 being the mandibular arch." [https://orcid.org/0000-0002-6601-2165]
 xref: UBPROP:0000103
+property_value: is_count_of UBERON:0002539
+property_value: preceding_element_is BSPO:0000096
 property_value: terminology_notes "gill arch N = PA N-2. the term branchial_arch is ambiguous." xsd:string
-property_value: UBPROP:0000100 UBERON:0002539
-property_value: UBPROP:0000101 BSPO:0000096
 is_metadata_tag: true
 
 [Typedef]
@@ -36779,7 +36365,6 @@ id: positively_regulates
 name: positively regulates
 namespace: external
 def: "Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2." []
-def: "x positively regulates y if and only if the progression of x increases the frequency, rate or extent of y" []
 xref: RO:0002213
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
@@ -36856,6 +36441,14 @@ created_by: Laurel_Cooper
 creation_date: 2015-06-04T17:18:40Z
 
 [Typedef]
+id: preceding_element_is
+name: preceding element is
+namespace: uberon
+def: "A property used in conjunction with repeated_element_number to indicate an axis and directionality along that axis. If P preceding_element_is R, and P is_count_of S, and X P N, and X' P N+1, then it follows that every X R some X', and the class expression [S and R some X' and inv(R) some X] is empty (i.e. X is followed by X', with no intermediates)" [https://orcid.org/0000-0002-6601-2165]
+xref: UBPROP:0000101
+is_metadata_tag: true
+
+[Typedef]
 id: present_in_taxon
 name: present in taxon
 name: present_in_taxon
@@ -36910,7 +36503,6 @@ name: regulates
 name: regulates (processual)
 namespace: external
 def: "process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2." []
-def: "x regulates y if and only if the x is the realization of a function to exert an effect on the frequency, rate or extent of y" []
 xref: RO:0002211
 property_value: curator_notes "Regulation precludes parthood; the regulatory process may not be within the regulated process." xsd:string
 property_value: editor_note "We use 'regulates' here to specifically imply control. However, many colloquial usages of the term correctly correspond to the weaker relation of 'causally upstream of or within' (aka influences). Consider relabeling to make things more explicit" xsd:string
@@ -36951,7 +36543,6 @@ property_value: example_of_usage "every \"endocardial cushion formation\" (GO:00
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
 property_value: IAO:0000119 GOC:mtg_berkeley_2013 xsd:string
-is_a: IDO:0000660 ! results_in
 is_a: results_in_developmental_progression_of ! results in developmental progression of
 is_a: RO:0002234 ! has output
 inverse_of: RO:0002354 ! formed as result of

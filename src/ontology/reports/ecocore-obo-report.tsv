@@ -5,14 +5,14 @@ ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.	
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	1f0712490b3b89c5c695c1ce154d802f	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	21f642b6d44b7ef6b51d9602d4b40de8	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	8194b31855acbd6ddb16d4198b650692	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	a2da5f6b1ae682ad4e9792496fc11f1f	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	02ca7d86e17fbe3a020beeb9fa3c3949	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	339735076b62fa96c1439c4903a5e3a6	
-ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	1327a72319e04d8f34c9a28150aba86b	
-ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	b3bcf25097828c87493fe7372cc9db8c	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	36c50cee16f702e01f44265958669e07	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	ab1970689993d77a2db507e49f3ada72	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	b95b02b1b63cca52a8028287ef1edf7c	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	ff38bcd5a9f2f58eca368a68e74be783	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	8fc25c8a17146d48c439511adefa3dc5	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	f3fa028fd690d17c1b5ee9f8ff70e2f7	
+ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	055cbab64bc0c8b4c9f78b3e8f5f0f1f	
+ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	3ff312289649e251bfa19a86e3e48c78	
 ERROR	missing_label	FOODON:00002420	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#1_STAR	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#3_STAR	rdfs:label		
@@ -33,6 +33,7 @@ ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_pombe	rdfs:label
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_yeast	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#abnormal_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#attribute_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#cell_quality	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#disposition_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#mpath_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#relational_slim	rdfs:label		
@@ -78,9 +79,9 @@ ERROR	deprecated_class_reference	GO:0044710	rdfs:subClassOf	GO:0055114
 ERROR	deprecated_class_reference	GO:0044710	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	GO:0044763	rdfs:subClassOf	GO:0015980	
 ERROR	deprecated_class_reference	GO:0044763	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
-ERROR	deprecated_class_reference	GO:0072519	rdfs:subClassOf	bfeade854307aea4a5ddf8302b04515d	
+ERROR	deprecated_class_reference	GO:0072519	rdfs:subClassOf	ebbfdc025ea67a42a2f9ec537472bf93	
 ERROR	deprecated_class_reference	GO:0072519	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
-ERROR	deprecated_class_reference	GO:0085031	rdfs:subClassOf	93f5a9c94819f0e4d2c97aefd3f59f6a	
+ERROR	deprecated_class_reference	GO:0085031	rdfs:subClassOf	29755eac938e65ee03c4e8c15f1a5dac	
 ERROR	deprecated_class_reference	GO:0085031	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	IAO:0000230	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0000146	
@@ -117,8 +118,6 @@ ERROR	duplicate_label	ENVO:2100007	rdfs:label	determined by part of
 ERROR	duplicate_label	RO:0002509	rdfs:label	determined by part of	
 ERROR	duplicate_label	ENVO:2100001	rdfs:label	determined by	
 ERROR	duplicate_label	RO:0002507	rdfs:label	determined by	
-ERROR	duplicate_label	CARO:0000000	rdfs:label	anatomical entity	
-ERROR	duplicate_label	UBERON:0001062	rdfs:label	anatomical entity	
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en	
 ERROR	multiple_definitions	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
 ERROR	multiple_definitions	BFO:0000015	IAO:0000115	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en	
@@ -144,14 +143,8 @@ ERROR	multiple_definitions	ENVO:01000817	IAO:0000115	A biosphere is a part of an
 ERROR	multiple_definitions	ENVO:01000817	IAO:0000115	A biosphere is an environmental system which includes, as parts, all the living entities within the gravitational sphere of influence of an astronomical body, and the non-living and dead entities which they interact with.	
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.	
 ERROR	multiple_definitions	GO:0008150	IAO:0000115	Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.	
-ERROR	multiple_definitions	GO:0044403	IAO:0000115	A process carried out by symbiont gene products that enables a symbiotic interaction with a host organism. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs. Microscopic symbionts are often referred to as endosymbionts.	
-ERROR	multiple_definitions	GO:0044403	IAO:0000115	An interaction between two organisms living together in more or less intimate association. Microscopic symbionts are often referred to as endosymbionts. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs.	
-ERROR	multiple_definitions	GO:0085030	IAO:0000115	A process carried out by symbiont gene products that enables a symbiotic interaction with a host organism, that is beneficial to the host organism.	
-ERROR	multiple_definitions	GO:0085030	IAO:0000115	An interaction between two organisms living together in more or less intimate association in a relationship in which both organisms benefit from each other.	
 ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not@en	
 ERROR	multiple_definitions	IAO:0000112	IAO:0000115	A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.@en	
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en	
-ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en	
 ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Add as annotation triples in the granting ontology@en	
 ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Use on obsolete terms, relating the term to another term that can be used as a substitute@en	
 ERROR	multiple_definitions	PCO:0000000	IAO:0000115	A material entity that consists of two or more organisms, viruses, or viroids.	
@@ -168,12 +161,6 @@ ERROR	multiple_definitions	RO:0002178	IAO:0000115	Relation between an arterial s
 ERROR	multiple_definitions	RO:0002178	IAO:0000115	relation between an artery and the structure is supplies with blood.	
 ERROR	multiple_definitions	RO:0002207	IAO:0000115	Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participate in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of x comes from y, and the start of x is coincident with or after the end of y.	
 ERROR	multiple_definitions	RO:0002207	IAO:0000115	Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of y comes from x, and the start of x is coincident with or after the end of y	
-ERROR	multiple_definitions	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
-ERROR	multiple_definitions	RO:0002211	IAO:0000115	x regulates y if and only if the x is the realization of a function to exert an effect on the frequency, rate or extent of y	
-ERROR	multiple_definitions	RO:0002212	IAO:0000115	Process(P1) negatively regulates process(P2) iff: P1 terminates P2, or P1 descreases the the frequency of initiation of P2 or the magnitude or rate of output of P2.	
-ERROR	multiple_definitions	RO:0002212	IAO:0000115	x negatively regulates y if and only if the progression of x reduces the frequency, rate or extent of y	
-ERROR	multiple_definitions	RO:0002213	IAO:0000115	Process(P1) postively regulates process(P2) iff: P1 initiates P2, or P1 increases the the frequency of initiation of P2 or the magnitude or rate of output of P2.	
-ERROR	multiple_definitions	RO:0002213	IAO:0000115	x positively regulates y if and only if the progression of x increases the frequency, rate or extent of y	
 ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x	
 ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y	
 ERROR	multiple_definitions	RO:0002220	IAO:0000115	x adjacent to y if and only if x and y share a boundary.	
@@ -252,14 +239,10 @@ ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in
 ERROR	multiple_labels	BFO:0000066	rdfs:label	occurs in@en	
 ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process	
 ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process@en	
-ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity	
-ERROR	multiple_labels	CARO:0000000	rdfs:label	anatomical entity@en	
 ERROR	multiple_labels	CARO:0000003	rdfs:label	anatomical structure@en	
 ERROR	multiple_labels	CARO:0000003	rdfs:label	connected anatomical structure@en	
 ERROR	multiple_labels	CHEBI:16646	rdfs:label	carbohydrate	
 ERROR	multiple_labels	CHEBI:16646	rdfs:label	carbohydrate@en	
-ERROR	multiple_labels	CL:0000000	rdfs:label	cell	
-ERROR	multiple_labels	CL:0000000	rdfs:label	cell@en	
 ERROR	multiple_labels	ECOCORE:00000092	rdfs:label	A predator that eats primary consumers or herbivores	
 ERROR	multiple_labels	ECOCORE:00000092	rdfs:label	secondary consumer	
 ERROR	multiple_labels	GO:0005102	rdfs:label	receptor binding	
@@ -277,7 +260,6 @@ ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status
 ERROR	multiple_labels	IAO:0000114	rdfs:label	has curation status@en	
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition	
 ERROR	multiple_labels	IAO:0000115	rdfs:label	definition@en	
-ERROR	multiple_labels	IAO:0000115	rdfs:label	textual definition	
 ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note	
 ERROR	multiple_labels	IAO:0000116	rdfs:label	editor note@en	
 ERROR	multiple_labels	IAO:0000117	rdfs:label	term editor	
@@ -435,7 +417,7 @@ ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
 ERROR	multiple_labels	UBERON:0000463	rdfs:label	organism substance	
 ERROR	multiple_labels	UBERON:0000463	rdfs:label	organism substance@en	
-WARN	annotation_whitespace	2ef9aa18c65d7cae08eb72508e616270	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
+WARN	annotation_whitespace	32050a002a62145c281a6e15015efca9	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	
@@ -454,7 +436,6 @@ WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x t) (if (Realizable
 WARN	annotation_whitespace	BFO:0000017	IAO:0000602	(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] 	
 WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] 	
 WARN	annotation_whitespace	BFO:0000019	IAO:0000602	(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] 	
-WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] 	
 WARN	annotation_whitespace	BFO:0000020	IAO:0000602	(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] 	
 WARN	annotation_whitespace	BFO:0000023	IAO:0000602	(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] 	
 WARN	annotation_whitespace	BFO:0000024	IAO:0000602	(forall (x) (if (FiatObjectPart x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y) (and (Object y) (properContinuantPartOfAt x y t)))))))) // axiom label in BFO2 CLIF: [027-004] 	
@@ -470,7 +451,6 @@ WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary 
 WARN	annotation_whitespace	CARO:0010004	rdfs:comment	A general term for organism that is agnostic about single cell vs multi-cellular.  Note that this is a subclass of 'anatomical structure', meaning that an organism must be a connected structure.  So, if I take one plant and make a rooted cutting from a it, I now have two (clonally related) organisms. 	
 WARN	annotation_whitespace	ENVO:01000303	IAO:0000115	An endolithic environment is an environment that exists within solid rock. 	
 WARN	annotation_whitespace	IAO:0000115	IAO:0000116	2012-04-05:     Barry Smith        The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.        Can you fix to something like:        A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.        Alan Ruttenberg        Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.         On the specifics of the proposed definition:        We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.         Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.         We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en	
-WARN	annotation_whitespace	IDO:0000408	IAO:0000115	A host role borne by an organism in virtue of the fact that its extended organism contains a second organism and provides an environment supportive for the survival, growth, maturation, or reproduction of that organism.  @en	
 WARN	annotation_whitespace	PCO:0000005	IAO:0000115	A process that has as primary participant a population. @en	
 WARN	annotation_whitespace	PCO:0000005	rdfs:comment	Includes processes such as population growth, extinction, evolution, selection, and adaptation. Population processes may depend on the processes of individual organisms {e.g., population growth reflects the cumulative multicellular organism reproduction (GO:0032504) and death (GO:0016265) of all individuals in a population}, but cannot be described for an individual organism. Some of these processes (e.g., evolution, extinction) can also occur at the species level, so PCO distinguishes between, for example, population extinction and species extinction. The GO has the terms 'multi-organism process' (GO:0051704) and 'intraspecies interactions between organisms' (GO:0051703), but tPCOhese categories are only defined for interactions between two individuals. It is unclear at this point if 'biological process' (GO:0008150) encompasses population processes. @en	
 WARN	annotation_whitespace	RO:0001018	IAO:0000116	Intended meaning:    domain: material entity    range: spatial region or site (immaterial continuant)            @en	
@@ -484,8 +464,6 @@ WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
 WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour	
 WARN	duplicate_exact_synonym	ENVO:01001052	IAO:0000118	Aerosol (saline)	
 WARN	duplicate_exact_synonym	ENVO:01001053	IAO:0000118	Aerosol (saline)	
-WARN	multiple_asserted_superclasses	CARO:0000000	rdfs:subClassOf	BFO:0000040	
-WARN	multiple_asserted_superclasses	CARO:0000000	rdfs:subClassOf	CARO:0030000	
 WARN	multiple_asserted_superclasses	CARO:0000006	rdfs:subClassOf	BFO:0000040	
 WARN	multiple_asserted_superclasses	CARO:0000006	rdfs:subClassOf	CARO:0000000	
 WARN	multiple_asserted_superclasses	CARO:0001010	rdfs:subClassOf	BFO:0000040	
@@ -776,8 +754,6 @@ WARN	multiple_asserted_superclasses	CHEBI:78017	rdfs:subClassOf	CHEBI:76414
 WARN	multiple_asserted_superclasses	CHEBI:83348	rdfs:subClassOf	CHEBI:139292	
 WARN	multiple_asserted_superclasses	CHEBI:83348	rdfs:subClassOf	CHEBI:35757	
 WARN	multiple_asserted_superclasses	CHEBI:83348	rdfs:subClassOf	CHEBI:58941	
-WARN	multiple_asserted_superclasses	CL:0000000	rdfs:subClassOf	CARO:0000000	
-WARN	multiple_asserted_superclasses	CL:0000000	rdfs:subClassOf	CARO:0000003	
 WARN	multiple_asserted_superclasses	ECOCORE:00000012	rdfs:subClassOf	ECOCORE:00000010	
 WARN	multiple_asserted_superclasses	ECOCORE:00000012	rdfs:subClassOf	ECOCORE:00000023	
 WARN	multiple_asserted_superclasses	ECOCORE:00000034	rdfs:subClassOf	BFO:0000003	
@@ -933,7 +909,6 @@ WARN	multiple_asserted_superclasses	GO:0005996	rdfs:subClassOf	GO:0044281
 WARN	multiple_asserted_superclasses	GO:0006073	rdfs:subClassOf	GO:0044042	
 WARN	multiple_asserted_superclasses	GO:0006073	rdfs:subClassOf	GO:0044264	
 WARN	multiple_asserted_superclasses	GO:0006955	rdfs:subClassOf	GO:0002376	
-WARN	multiple_asserted_superclasses	GO:0006955	rdfs:subClassOf	GO:0008150	
 WARN	multiple_asserted_superclasses	GO:0006955	rdfs:subClassOf	GO:0050896	
 WARN	multiple_asserted_superclasses	GO:0007165	rdfs:subClassOf	GO:0009987	
 WARN	multiple_asserted_superclasses	GO:0007165	rdfs:subClassOf	GO:0050794	
@@ -1137,10 +1112,6 @@ WARN	multiple_asserted_superclasses	GO:0044262	rdfs:subClassOf	GO:0044237
 WARN	multiple_asserted_superclasses	GO:0044264	rdfs:subClassOf	GO:0005976	
 WARN	multiple_asserted_superclasses	GO:0044264	rdfs:subClassOf	GO:0044260	
 WARN	multiple_asserted_superclasses	GO:0044264	rdfs:subClassOf	GO:0044262	
-WARN	multiple_asserted_superclasses	GO:0044403	rdfs:subClassOf	GO:0044419	
-WARN	multiple_asserted_superclasses	GO:0044403	rdfs:subClassOf	GO:0051704	
-WARN	multiple_asserted_superclasses	GO:0044409	rdfs:subClassOf	GO:0051704	
-WARN	multiple_asserted_superclasses	GO:0044409	rdfs:subClassOf	GO:0051828	
 WARN	multiple_asserted_superclasses	GO:0044411	rdfs:subClassOf	GO:0044409	
 WARN	multiple_asserted_superclasses	GO:0044411	rdfs:subClassOf	GO:0051830	
 WARN	multiple_asserted_superclasses	GO:0044710	rdfs:subClassOf	GO:0008152	
@@ -1192,7 +1163,6 @@ WARN	multiple_asserted_superclasses	GO:0050776	rdfs:subClassOf	GO:0048583
 WARN	multiple_asserted_superclasses	GO:0050777	rdfs:subClassOf	GO:0002683	
 WARN	multiple_asserted_superclasses	GO:0050777	rdfs:subClassOf	GO:0048585	
 WARN	multiple_asserted_superclasses	GO:0050777	rdfs:subClassOf	GO:0050776	
-WARN	multiple_asserted_superclasses	GO:0050777	rdfs:subClassOf	GO:0065007	
 WARN	multiple_asserted_superclasses	GO:0050778	rdfs:subClassOf	GO:0002684	
 WARN	multiple_asserted_superclasses	GO:0050778	rdfs:subClassOf	GO:0048584	
 WARN	multiple_asserted_superclasses	GO:0050778	rdfs:subClassOf	GO:0050776	
@@ -1212,7 +1182,6 @@ WARN	multiple_asserted_superclasses	GO:0051051	rdfs:subClassOf	GO:0048519
 WARN	multiple_asserted_superclasses	GO:0051051	rdfs:subClassOf	GO:0051049	
 WARN	multiple_asserted_superclasses	GO:0051093	rdfs:subClassOf	GO:0048519	
 WARN	multiple_asserted_superclasses	GO:0051093	rdfs:subClassOf	GO:0050793	
-WARN	multiple_asserted_superclasses	GO:0051093	rdfs:subClassOf	GO:0065007	
 WARN	multiple_asserted_superclasses	GO:0051094	rdfs:subClassOf	GO:0048518	
 WARN	multiple_asserted_superclasses	GO:0051094	rdfs:subClassOf	GO:0050793	
 WARN	multiple_asserted_superclasses	GO:0051099	rdfs:subClassOf	GO:0044093	
@@ -1223,8 +1192,6 @@ WARN	multiple_asserted_superclasses	GO:0051172	rdfs:subClassOf	GO:0009892
 WARN	multiple_asserted_superclasses	GO:0051172	rdfs:subClassOf	GO:0051171	
 WARN	multiple_asserted_superclasses	GO:0051173	rdfs:subClassOf	GO:0009893	
 WARN	multiple_asserted_superclasses	GO:0051173	rdfs:subClassOf	GO:0051171	
-WARN	multiple_asserted_superclasses	GO:0051234	rdfs:subClassOf	GO:0008150	
-WARN	multiple_asserted_superclasses	GO:0051234	rdfs:subClassOf	GO:0051179	
 WARN	multiple_asserted_superclasses	GO:0051240	rdfs:subClassOf	GO:0048518	
 WARN	multiple_asserted_superclasses	GO:0051240	rdfs:subClassOf	GO:0051239	
 WARN	multiple_asserted_superclasses	GO:0051241	rdfs:subClassOf	GO:0048519	
@@ -1245,8 +1212,6 @@ WARN	multiple_asserted_superclasses	GO:0062013	rdfs:subClassOf	GO:0009893
 WARN	multiple_asserted_superclasses	GO:0062013	rdfs:subClassOf	GO:0062012	
 WARN	multiple_asserted_superclasses	GO:0062014	rdfs:subClassOf	GO:0009892	
 WARN	multiple_asserted_superclasses	GO:0062014	rdfs:subClassOf	GO:0062012	
-WARN	multiple_asserted_superclasses	GO:0065007	rdfs:subClassOf	BFO:0000015	
-WARN	multiple_asserted_superclasses	GO:0065007	rdfs:subClassOf	GO:0008150	
 WARN	multiple_asserted_superclasses	GO:0070873	rdfs:subClassOf	GO:0010906	
 WARN	multiple_asserted_superclasses	GO:0070873	rdfs:subClassOf	GO:0032881	
 WARN	multiple_asserted_superclasses	GO:0070873	rdfs:subClassOf	GO:0043467	
@@ -1305,8 +1270,6 @@ WARN	multiple_asserted_superclasses	GO:2000905	rdfs:subClassOf	GO:2000904
 WARN	multiple_asserted_superclasses	GO:2000906	rdfs:subClassOf	GO:0010604	
 WARN	multiple_asserted_superclasses	GO:2000906	rdfs:subClassOf	GO:0010676	
 WARN	multiple_asserted_superclasses	GO:2000906	rdfs:subClassOf	GO:2000904	
-WARN	multiple_asserted_superclasses	IDO:0000596	rdfs:subClassOf	IDO:0000528	
-WARN	multiple_asserted_superclasses	IDO:0000596	rdfs:subClassOf	OBI:0100026	
 WARN	multiple_asserted_superclasses	NBO:0000121	rdfs:subClassOf	NBO:0000003	
 WARN	multiple_asserted_superclasses	NBO:0000121	rdfs:subClassOf	NBO:0000011	
 WARN	multiple_asserted_superclasses	NBO:0000743	rdfs:subClassOf	NBO:0000105	
@@ -1339,7 +1302,6 @@ WARN	multiple_asserted_superclasses	NCBITaxon:6447	rdfs:subClassOf	NCBITaxon:333
 WARN	multiple_asserted_superclasses	NCBITaxon:7742	rdfs:subClassOf	NCBITaxon:33213	
 WARN	multiple_asserted_superclasses	NCBITaxon:7742	rdfs:subClassOf	NCBITaxon:7711	
 WARN	multiple_asserted_superclasses	NCBITaxon:7742	rdfs:subClassOf	NCBITaxon:89593	
-WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:2759	
 WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:314146	
 WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:9526	
 WARN	multiple_asserted_superclasses	NCBITaxon:9606	rdfs:subClassOf	NCBITaxon:9605	
@@ -2534,6 +2496,7 @@ WARN	missing_definition	BFO:0000056	IAO:0000115
 WARN	missing_definition	BFO:0000057	IAO:0000115		
 WARN	missing_definition	BFO:0000141	IAO:0000115		
 WARN	missing_definition	BFO:0000182	IAO:0000115		
+WARN	missing_definition	CARO:0000000	IAO:0000115		
 WARN	missing_definition	CARO:0000003	IAO:0000115		
 WARN	missing_definition	CARO:0000006	IAO:0000115		
 WARN	missing_definition	CARO:0000007	IAO:0000115		
@@ -2643,6 +2606,7 @@ WARN	missing_definition	CHEBI:51446	IAO:0000115
 WARN	missing_definition	CHEBI:51447	IAO:0000115		
 WARN	missing_definition	CHEBI:52211	IAO:0000115		
 WARN	missing_definition	CHEBI:52625	IAO:0000115		
+WARN	missing_definition	CL:0000000	IAO:0000115		
 WARN	missing_definition	ECOCORE:00000078	IAO:0000115		
 WARN	missing_definition	ECOCORE:00000092	IAO:0000115		
 WARN	missing_definition	ENVO:00000000	IAO:0000115		
@@ -2691,7 +2655,6 @@ WARN	missing_definition	IAO:0000600	IAO:0000115
 WARN	missing_definition	IAO:0000601	IAO:0000115		
 WARN	missing_definition	IAO:0000602	IAO:0000115		
 WARN	missing_definition	IAO:0010000	IAO:0000115		
-WARN	missing_definition	IDO:0000660	IAO:0000115		
 WARN	missing_definition	NBO:0000003	IAO:0000115		
 WARN	missing_definition	NBO:0000010	IAO:0000115		
 WARN	missing_definition	NBO:0000011	IAO:0000115		
@@ -2877,6 +2840,7 @@ WARN	missing_definition	UBERON:0036302	IAO:0000115
 WARN	missing_definition	UBERON:0036303	IAO:0000115		
 WARN	missing_definition	UBPROP:0000006	IAO:0000115		
 WARN	missing_definition	UBPROP:0000007	IAO:0000115		
+WARN	missing_definition	UBPROP:0000100	IAO:0000115		
 WARN	missing_definition	UBPROP:0000202	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#1_STAR	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/chebi#3_STAR	IAO:0000115		
@@ -2903,6 +2867,7 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/go#goslim_yeast	IAO:00001
 WARN	missing_definition	http://purl.obolibrary.org/obo/go#systematic_synonym	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#attribute_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#cell_quality	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#disposition_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#mpath_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#relational_slim	IAO:0000115		
@@ -3121,9 +3086,6 @@ INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only i
 INFO	lowercase_definition	RO:0002203	IAO:0000115	inverse of develops from	
 INFO	lowercase_definition	RO:0002210	IAO:0000115	inverse of directly develops from	
 INFO	lowercase_definition	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
-INFO	lowercase_definition	RO:0002211	IAO:0000115	x regulates y if and only if the x is the realization of a function to exert an effect on the frequency, rate or extent of y	
-INFO	lowercase_definition	RO:0002212	IAO:0000115	x negatively regulates y if and only if the progression of x reduces the frequency, rate or extent of y	
-INFO	lowercase_definition	RO:0002213	IAO:0000115	x positively regulates y if and only if the progression of x increases the frequency, rate or extent of y	
 INFO	lowercase_definition	RO:0002216	IAO:0000115	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.	
 INFO	lowercase_definition	RO:0002217	IAO:0000115	x actively participates in y if and only if x participates in y and x realizes some active role	
 INFO	lowercase_definition	RO:0002218	IAO:0000115	x has participant y if and only if x realizes some active role that inheres in y	

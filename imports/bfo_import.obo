@@ -83,6 +83,7 @@ id: BFO:0000006
 name: spatial region
 is_a: BFO:0000141 ! immaterial entity
 disjoint_from: BFO:0000029 ! site
+disjoint_from: BFO:0000140 ! continuant fiat boundary
 property_value: BFO:0000179 "s-region" xsd:string
 property_value: BFO:0000180 "SpatialRegion" xsd:string
 property_value: IAO:0000116 "BFO 2 Reference: Spatial regions do not participate in processes." xsd:string
@@ -356,6 +357,20 @@ property_value: IAO:0000601 "Every entity which has a material entity as continu
 property_value: IAO:0000602 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/021-002"}
 property_value: IAO:0000602 "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/020-002"}
 property_value: IAO:0000602 "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/019-002"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000140
+name: continuant fiat boundary
+def: "b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/029-001"}
+is_a: BFO:0000141 ! immaterial entity
+property_value: BFO:0000179 "cf-boundary" xsd:string
+property_value: BFO:0000180 "ContinuantFiatBoundary" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: a continuant fiat boundary is a boundary of some material entity (for example: the plane separating the Northern and Southern hemispheres; the North Pole), or it is a boundary of some immaterial entity (for example of some portion of airspace). Three basic kinds of continuant fiat boundary can be distinguished (together with various combination kinds [29" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: In BFO 1.1 the assumption was made that the external surface of a material entity such as a cell could be treated as if it were a boundary in the mathematical sense. The new document propounds the view that when we talk about external surfaces of material objects in this way then we are talking about something fiat. To be dealt with in a future version: fiat boundaries at different levels of granularity.More generally, the focus in discussion of boundaries in BFO 2.0 is now on fiat boundaries, which means: boundaries for which there is no assumption that they coincide with physical discontinuities. The ontology of boundaries becomes more closely allied with the ontology of regions." xsd:string
+property_value: IAO:0000116 "Continuant fiat boundary doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. An example would be the mereological sum of two-dimensional continuant fiat boundary and a one dimensional continuant fiat boundary that doesn't overlap it. The situation is analogous to temporal and spatial regions." xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000008"}
+property_value: IAO:0000601 "Every continuant fiat boundary is located at some spatial region at every time at which it exists" xsd:string
+property_value: IAO:0000602 "(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/029-001"}
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
 [Term]

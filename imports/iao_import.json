@@ -1,206 +1,6 @@
 {
   "graphs" : [ {
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000019",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the shape of your nose"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the mass of this piece of gold."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the color of a tomato"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the length of the circumference of your waist"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the ambient temperature of this portion of air"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "Quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] "
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the shape of your nostril"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "quality"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000015",
-      "meta" : {
-        "definition" : {
-          "val" : "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the life of an organism"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the flight of a bird"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "process"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a process of cell-division, \\ a beating of the heart"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a process of meiosis"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "Process"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a process of sleeping"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "your process of aging."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the course of a disease"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "process"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000428",
-      "meta" : {
-        "definition" : {
-          "val" : "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "group:OBI"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "requires discussion"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000016",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "disposition"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "children are innately disposed to categorize objects in certain ways."
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "Disposition"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "certain people have a predisposition to colon cancer"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an atom of element X has the disposition to decay to an atom of element Y"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "disposition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000017",
-      "meta" : {
-        "definition" : {
-          "val" : "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the disposition of your blood to coagulate"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the disposition of this piece of metal to conduct electricity."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "realizable"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "RealizableEntity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the role of being a doctor"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the function of your reproductive organs"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the role of this boundary to delineate where Utah and Colorado meet"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "realizable entity"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000228",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -329,38 +129,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "part of"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000030",
-      "meta" : {
-        "definition" : {
-          "val" : "A generically dependent continuant that is about some thing.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ)."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "OBI_0000142"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "information content entity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "Examples of information content entites include journal articles, data, graphical layouts, and graphs."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Chris Stoeckert"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).\n\nPrevious. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "information content entity"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000055",
       "meta" : {
@@ -706,6 +474,920 @@
       "type" : "PROPERTY",
       "lbl" : "realized in"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000118",
+      "meta" : {
+        "definition" : {
+          "val" : "An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "alternative term"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "alternative term"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+      "meta" : {
+        "definition" : {
+          "val" : "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition source"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition source"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000120",
+      "meta" : {
+        "definition" : {
+          "val" : "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "metadata complete"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001900",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://xmlns.com/foaf/0.1/page",
+          "val" : "https://github.com/oborel/obo-relations/wiki/ROAndTime"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "temporal interpretation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001901",
+      "meta" : {
+        "definition" : {
+          "val" : "\n\n## Elucidation\n\nThis is used when the statement/axiom is assumed to hold true 'eternally'\n\n## How to interpret (informal)\n\nFirst the \"atemporal\" FOL is derived from the OWL using the standard\ninterpretation. This axiom is temporalized by embedding the axiom\nwithin a for-all-times quantified sentence. The t argument is added to\nall instantiation predicates and predicates that use this relation.\n\n## Example\n\n    Class: nucleus\n    SubClassOf: part_of some cell\n\n    forall t :\n      forall n :\n        instance_of(n,Nucleus,t)\n         implies\n        exists c :\n          instance_of(c,Cell,t)\n          part_of(n,c,t)\n\n## Notes\n\nThis interpretation is *not* the same as an at-all-times relation\n\n",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "axiom holds for all times"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "meta" : {
+        "definition" : {
+          "val" : "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "pending final vetting"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000123",
+      "meta" : {
+        "definition" : {
+          "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "metadata incomplete"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000040",
+      "meta" : {
+        "definition" : {
+          "val" : "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the undetached arm of a human being"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a puff of smoke"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an epidemic"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a forest fire"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a hurricane"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a flame"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a sea wave"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "material"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a tornado"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an aggregate of human beings."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "MaterialEntity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an energy wave"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a human being"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a photon"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "material entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
+      "type" : "INDIVIDUAL",
+      "lbl" : "example to be eventually removed"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000124",
+      "meta" : {
+        "definition" : {
+          "val" : "Nothing done yet beyond assigning a unique class ID and proposing a preferred term.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "uncurated"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000121",
+      "meta" : {
+        "definition" : {
+          "val" : "term created to ease viewing/sort terms for development purpose, and will not be included in a release",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "organizational term"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
+      "meta" : {
+        "definition" : {
+          "val" : "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\"",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "ready for release"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000409",
+      "meta" : {
+        "definition" : {
+          "val" : "A denotator type indicates how a term should be interpreted from an ontological perspective.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are \"natural kinds\" and the latter arbitrary collections of entities."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Barry Smith, Werner Ceusters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "denotator type"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000092",
+      "type" : "PROPERTY",
+      "lbl" : "disposition of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000091",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has disposition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000136",
+      "meta" : {
+        "definition" : {
+          "val" : "is_about is a (currently) primitive relation that relates an information artifact to an entity.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "This document is about information artifacts and their representations"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. \n\nWe will try to build it back up by elaborating the various subproperties that are more precisely defined.\n\nSome currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "is about"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000412",
+      "meta" : {
+        "definition" : {
+          "val" : "For external terms/classes, the ontology from which the term was imported",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "imported from"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Alan Ruttenberg"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "imported from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000410",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Hard to give a definition for. Intuitively a \"natural kind\" rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "universal"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "meta" : {
+        "definition" : {
+          "val" : "Add as annotation triples in the granting ontology",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term replaced by"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "term replaced by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this investigator role is a role of this person"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "role_of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "is role of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "role of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000080",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A quality inheres in its bearer at all times for which the quality exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "quality_of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "is quality of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this red color is a quality of this apple"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "quality of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000085",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "has_function"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has function"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "has_role"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this person has role this investigator role (more colloquially: this person has this role of investigator)"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000086",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this apple has quality this red color"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "has_quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000180",
+      "meta" : {
+        "definition" : {
+          "val" : "Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Really of interest to developers only"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "BFO CLIF specification label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000182",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "History"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "A history is a process that is the sum of the totality of processes taking place in the spatiotemporal region occupied by a material entity or site, including processes on the surface of the entity or within the cavities to which it serves as host. (axiom label in BFO2 Reference: [138-001])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "history"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "history"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "is function of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this catalysis function is a function of this enzyme"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "function_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "function of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000066",
+      "meta" : {
+        "definition" : {
+          "val" : "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "occurs_in"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "unfolds_in"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "unfolds in"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "occurs in"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "occurs in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000424",
+      "meta" : {
+        "definition" : {
+          "val" : "A macro expansion tag applied to an object property (or possibly a data property)  which can be used by a macro-expansion engine to generate more complex expressions from simpler ones",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "expand expression to"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Chris Mungall"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "ObjectProperty: RO_0002104\nLabel: has plasma membrane part\nAnnotations: IAO_0000424 \"http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.org/obo/owl/GO#GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"\n"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "expand expression to"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000067",
+      "meta" : {
+        "definition" : {
+          "val" : "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "site of"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "contains process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000423",
+      "meta" : {
+        "definition" : {
+          "val" : "Terms with this status should eventually replaced with a term from another ontology.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "group:OBI"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "to be replaced with external ontology term"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
+      "meta" : {
+        "definition" : {
+          "val" : "a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Jonathan Rees"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "data item"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Chris Stoeckert"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "JAR: datum     -- well, this will be very tricky to define, but maybe some \ninformation-like stuff that might be put into a computer and that is \nmeant, by someone, to denote and/or to be interpreted by some \nprocess... I would include lists, tables, sentences... I think I might \ndefer to Barry, or to Brian Cantwell Smith\n\nJAR: A data item is an approximately justified approximately true approximate belief"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Data items include counts of things, analyte concentrations, and statistical summaries."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "data"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "data item"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000420",
+      "meta" : {
+        "definition" : {
+          "val" : "A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "defined class"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000421",
+      "meta" : {
+        "definition" : {
+          "val" : "A named class expression is a logical expression that is given a name. The name can be used in place of the expression.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "named class expression"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000019",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the shape of your nose"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the mass of this piece of gold."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the color of a tomato"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "If an entity is a quality at any time that it exists, then it is a quality at every time that it exists. (axiom label in BFO2 Reference: [105-001])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the length of the circumference of your waist"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (exists (t) (and (existsAt x t) (Quality x))) (forall (t_1) (if (existsAt x t_1) (Quality x))))) // axiom label in BFO2 CLIF: [105-001] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the ambient temperature of this portion of air"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "a quality is a specifically dependent continuant that, in contrast to roles and dispositions, does not require any further process in order to be realized. (axiom label in BFO2 Reference: [055-001])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Quality x) (SpecificallyDependentContinuant x))) // axiom label in BFO2 CLIF: [055-001] "
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the shape of your nostril"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000015",
+      "meta" : {
+        "definition" : {
+          "val" : "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the life of an organism"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the flight of a bird"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: The realm of occurrents is less pervasively marked by the presence of natural units than is the case in the realm of independent continuants. Thus there is here no counterpart of ‘object’. In BFO 1.0 ‘process’ served as such a counterpart. In BFO 2.0 ‘process’ is, rather, the occurrent counterpart of ‘material entity’. Those natural – as contrasted with engineered, which here means: deliberately executed – units which do exist in the realm of occurrents are typically either parasitic on the existence of natural units on the continuant side, or they are fiat in nature. Thus we can count lives; we can count football games; we can count chemical reactions performed in experiments or in chemical manufacturing. We cannot count the processes taking place, for instance, in an episode of insect mating behavior.Even where natural units are identifiable, for example cycles in a cyclical process such as the beating of a heart or an organism’s sleep/wake cycle, the processes in question form a sequence with no discontinuities (temporal gaps) of the sort that we find for instance where billiard balls or zebrafish or planets are separated by clear spatial gaps. Lives of organisms are process units, but they too unfold in a continuous series from other, prior processes such as fertilization, and they unfold in turn in continuous series of post-life processes such as post-mortem decay. Clear examples of boundaries of processes are almost always of the fiat sort (midnight, a time of death as declared in an operating theater or on a death certificate, the initiation of a state of war)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "process"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a process of cell-division, \\ a beating of the heart"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a process of meiosis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Process"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "a process of sleeping"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "your process of aging."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the course of a disease"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000428",
+      "meta" : {
+        "definition" : {
+          "val" : "A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "group:OBI"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Alan Ruttenberg"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "requires discussion"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000016",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "children are innately disposed to categorize objects in certain ways."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "certain people have a predisposition to colon cancer"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an atom of element X has the disposition to decay to an atom of element Y"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "disposition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000017",
+      "meta" : {
+        "definition" : {
+          "val" : "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the disposition of your blood to coagulate"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the disposition of this piece of metal to conduct electricity."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "realizable"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "RealizableEntity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the role of being a doctor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the function of your reproductive organs"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the role of this boundary to delineate where Utah and Colorado meet"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "realizable entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000030",
+      "meta" : {
+        "definition" : {
+          "val" : "A generically dependent continuant that is about some thing.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2014-03-10: The use of \"thing\" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ)."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI_0000142"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "information content entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Examples of information content entites include journal articles, data, graphical layouts, and graphs."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON: Chris Stoeckert"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).\n\nPrevious. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "information content entity"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000004",
       "meta" : {
         "definition" : {
@@ -756,10 +1438,10 @@
           "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] "
@@ -770,32 +1452,6 @@
       },
       "type" : "CLASS",
       "lbl" : "independent continuant"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000118",
-      "meta" : {
-        "definition" : {
-          "val" : "An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/iao.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "alternative term"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON:Daniel Schober"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "alternative term"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000006",
       "meta" : {
@@ -830,35 +1486,6 @@
       },
       "type" : "CLASS",
       "lbl" : "spatial region"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000119",
-      "meta" : {
-        "definition" : {
-          "val" : "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "definition source"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON:Daniel Schober"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/iao.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "definition source"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002000",
       "meta" : {
@@ -946,26 +1573,6 @@
       "type" : "PROPERTY",
       "lbl" : "has axiom label"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000120",
-      "meta" : {
-        "definition" : {
-          "val" : "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "metadata complete"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0001900",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://xmlns.com/foaf/0.1/page",
-          "val" : "https://github.com/oborel/obo-relations/wiki/ROAndTime"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "temporal interpretation"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0000057",
       "meta" : {
         "definition" : {
@@ -997,16 +1604,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "has participant"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0001901",
-      "meta" : {
-        "definition" : {
-          "val" : "\n\n## Elucidation\n\nThis is used when the statement/axiom is assumed to hold true 'eternally'\n\n## How to interpret (informal)\n\nFirst the \"atemporal\" FOL is derived from the OWL using the standard\ninterpretation. This axiom is temporalized by embedding the axiom\nwithin a for-all-times quantified sentence. The t argument is added to\nall instantiation predicates and predicates that use this relation.\n\n## Example\n\n    Class: nucleus\n    SubClassOf: part_of some cell\n\n    forall t :\n      forall n :\n        instance_of(n,Nucleus,t)\n         implies\n        exists c :\n          instance_of(c,Cell,t)\n          part_of(n,c,t)\n\n## Notes\n\nThis interpretation is *not* the same as an at-all-times relation\n\n",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "axiom holds for all times"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0001025",
       "meta" : {
@@ -1174,16 +1771,6 @@
       "type" : "CLASS",
       "lbl" : "continuant"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000125",
-      "meta" : {
-        "definition" : {
-          "val" : "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "pending final vetting"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000003",
       "meta" : {
         "definition" : {
@@ -1230,167 +1817,6 @@
       },
       "type" : "CLASS",
       "lbl" : "occurrent"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000123",
-      "meta" : {
-        "definition" : {
-          "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "metadata incomplete"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000040",
-      "meta" : {
-        "definition" : {
-          "val" : "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the undetached arm of a human being"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a puff of smoke"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an epidemic"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a forest fire"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a hurricane"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a flame"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a sea wave"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "material"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
-          "val" : "Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a tornado"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
-          "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an aggregate of human beings."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "MaterialEntity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an energy wave"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a human being"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a photon"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "material entity"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
-      "type" : "INDIVIDUAL",
-      "lbl" : "example to be eventually removed"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000124",
-      "meta" : {
-        "definition" : {
-          "val" : "Nothing done yet beyond assigning a unique class ID and proposing a preferred term.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "uncurated"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000121",
-      "meta" : {
-        "definition" : {
-          "val" : "term created to ease viewing/sort terms for development purpose, and will not be included in a release",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "organizational term"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
-      "meta" : {
-        "definition" : {
-          "val" : "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\"",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "ready for release"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000409",
-      "meta" : {
-        "definition" : {
-          "val" : "A denotator type indicates how a term should be interpreted from an ontological perspective.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are \"natural kinds\" and the latter arbitrary collections of entities."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Barry Smith, Werner Ceusters"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "denotator type"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000092",
-      "type" : "PROPERTY",
-      "lbl" : "disposition of"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000091",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between an independent continuant (the bearer) and a disposition, in which the disposition specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "PROPERTY",
-      "lbl" : "has disposition"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000602",
       "meta" : {
@@ -1611,61 +2037,6 @@
       "type" : "CLASS",
       "lbl" : "function"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000136",
-      "meta" : {
-        "definition" : {
-          "val" : "is_about is a (currently) primitive relation that relates an information artifact to an entity.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Smith, Ceusters, Ruttenberg, 2000 years of philosophy"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "This document is about information artifacts and their representations"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of \"mentions\" relation. Weaken the is_about relationship to be primitive. \n\nWe will try to build it back up by elaborating the various subproperties that are more precisely defined.\n\nSome currently missing phenomena that should be considered \"about\" are predications - \"The only person who knows the answer is sitting beside me\" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic."
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "is about"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000412",
-      "meta" : {
-        "definition" : {
-          "val" : "For external terms/classes, the ontology from which the term was imported",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON:Melanie Courtot"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/iao.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "imported from"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON:Alan Ruttenberg"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "imported from"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000030",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1733,22 +2104,6 @@
       "type" : "CLASS",
       "lbl" : "object"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000410",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "Hard to give a definition for. Intuitively a \"natural kind\" rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "universal"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000031",
       "meta" : {
         "definition" : {
@@ -1783,52 +2138,6 @@
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#Subset",
       "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
-      "meta" : {
-        "definition" : {
-          "val" : "Add as annotation triples in the granting ontology",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Person:Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "term replaced by"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "term replaced by"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000081",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this investigator role is a role of this person"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "role_of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A role inheres in its bearer at all times for which the role exists, however the role need not be realized at all the times that the role exists."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "is role of"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "role of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000027",
       "meta" : {
@@ -1903,29 +2212,6 @@
       "type" : "CLASS",
       "lbl" : "object aggregate"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000080",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A quality inheres in its bearer at all times for which the quality exists."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "quality_of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "is quality of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this red color is a quality of this apple"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "quality of"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000029",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1993,125 +2279,6 @@
       "type" : "CLASS",
       "lbl" : "site"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000085",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "has_function"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "has function"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "has_role"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A bearer can have many roles, and its roles can exist for different periods of time, but none of its roles can exist when the bearer does not exist. A role need not be realized at all the times that the role exists."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this person has role this investigator role (more colloquially: this person has this role of investigator)"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "has role"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000086",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this apple has quality this red color"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "has_quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A bearer can have many qualities, and its qualities can exist for different periods of time, but none of its qualities can exist when the bearer does not exist."
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "has quality"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000180",
-      "meta" : {
-        "definition" : {
-          "val" : "Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
-          "val" : "Really of interest to developers only"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Person:Alan Ruttenberg"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "BFO CLIF specification label"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000182",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
-          "val" : "History"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "A history is a process that is the sum of the totality of processes taking place in the spatiotemporal region occupied by a material entity or site, including processes on the surface of the entity or within the cavities to which it serves as host. (axiom label in BFO2 Reference: [138-001])"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
-          "val" : "history"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "history"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0000079",
-      "meta" : {
-        "definition" : {
-          "val" : "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "is function of"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "this catalysis function is a function of this enzyme"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "function_of"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "function of"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000226",
       "type" : "INDIVIDUAL",
       "lbl" : "placeholder removed"
@@ -2150,75 +2317,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "OBO foundry unique label"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000066",
-      "meta" : {
-        "definition" : {
-          "val" : "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "occurs_in"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "unfolds_in"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "unfolds in"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "occurs in"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "occurs in"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000424",
-      "meta" : {
-        "definition" : {
-          "val" : "A macro expansion tag applied to an object property (or possibly a data property)  which can be used by a macro-expansion engine to generate more complex expressions from simpler ones",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "expand expression to"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Chris Mungall"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "ObjectProperty: RO_0002104\nLabel: has plasma membrane part\nAnnotations: IAO_0000424 \"http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.org/obo/owl/GO#GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"\n"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "expand expression to"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000067",
-      "meta" : {
-        "definition" : {
-          "val" : "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "site of"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
-          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "contains process"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000023",
       "meta" : {
@@ -2383,103 +2481,40 @@
       "type" : "CLASS",
       "lbl" : "obsolescence reason specification"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000423",
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000140",
       "meta" : {
         "definition" : {
-          "val" : "Terms with this status should eventually replaced with a term from another ontology.",
+          "val" : "b is a continuant fiat boundary = Def. b is an immaterial entity that is of zero, one or two dimensions and does not include a spatial region as part. (axiom label in BFO2 Reference: [029-001])",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "cf-boundary"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "group:OBI"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "to be replaced with external ontology term"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
-      "meta" : {
-        "definition" : {
-          "val" : "a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Jonathan Rees"
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "Every continuant fiat boundary is located at some spatial region at every time at which it exists"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "ContinuantFiatBoundary"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2014-03-31: See discussion at http://odontomachus.wordpress.com/2014/03/30/aboutness-objects-propositions/"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "data item"
+          "val" : "BFO 2 Reference: a continuant fiat boundary is a boundary of some material entity (for example: the plane separating the Northern and Southern hemispheres; the North Pole), or it is a boundary of some immaterial entity (for example of some portion of airspace). Three basic kinds of continuant fiat boundary can be distinguished (together with various combination kinds [29"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2/2/2009 Alan and Bjoern discussing FACS run output data. This is a data item because it is about the cell population. Each element records an event and is typically further composed a set of measurment data items that record the fluorescent intensity stimulated by one of the lasers."
+          "val" : "Continuant fiat boundary doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. An example would be the mereological sum of two-dimensional continuant fiat boundary and a one dimensional continuant fiat boundary that doesn't overlap it. The situation is analogous to temporal and spatial regions."
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Chris Stoeckert"
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "JAR: datum     -- well, this will be very tricky to define, but maybe some \ninformation-like stuff that might be put into a computer and that is \nmeant, by someone, to denote and/or to be interpreted by some \nprocess... I would include lists, tables, sentences... I think I might \ndefer to Barry, or to Brian Cantwell Smith\n\nJAR: A data item is an approximately justified approximately true approximate belief"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2009-03-16: removed datum as alternative term as datum specifically refers to singular form, and is thus not an exact synonym."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "Data items include counts of things, analyte concentrations, and statistical summaries."
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "2009-03-16: data item deliberatly ambiguous: we merged data set and datum to be one entity, not knowing how to define singular versus plural. So data item is more general than datum."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "PERSON: Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
-          "val" : "data"
+          "val" : "BFO 2 Reference: In BFO 1.1 the assumption was made that the external surface of a material entity such as a cell could be treated as if it were a boundary in the mathematical sense. The new document propounds the view that when we talk about external surfaces of material objects in this way then we are talking about something fiat. To be dealt with in a future version: fiat boundaries at different levels of granularity.More generally, the focus in discussion of boundaries in BFO 2.0 is now on fiat boundaries, which means: boundaries for which there is no assumption that they coincide with physical discontinuities. The ontology of boundaries becomes more closely allied with the ontology of regions."
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "data item"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000420",
-      "meta" : {
-        "definition" : {
-          "val" : "A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "defined class"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000421",
-      "meta" : {
-        "definition" : {
-          "val" : "A named class expression is a logical expression that is given a name. The name can be used in place of the expression.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Alan Ruttenberg"
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "named class expression"
+      "lbl" : "continuant fiat boundary"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000102",
       "meta" : {
@@ -2677,6 +2712,10 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0000085",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000140",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000141"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000227",
       "pred" : "type",

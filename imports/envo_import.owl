@@ -315,6 +315,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#is_inferred -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_inferred"/>

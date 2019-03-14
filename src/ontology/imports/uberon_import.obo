@@ -18463,6 +18463,13 @@ xref: RO:0002352
 is_a: functionally_related_to ! functionally related to
 
 [Typedef]
+id: is_count_of
+name: is count of
+namespace: uberon
+xref: UBPROP:0000100
+is_metadata_tag: true
+
+[Typedef]
 id: located_in
 name: located_in
 namespace: uberon
@@ -18547,9 +18554,9 @@ name: pharyngeal arch number
 namespace: uberon
 def: "x pharyngeal_arch_number N if and only if (i) x is a pharyngeal arch, and (ii) x is ancestrally pharyngeal arch number N in a series of pharyngeal arches repeated along a antero-posterior axis, with arch_number 1 being the mandibular arch." [https://orcid.org/0000-0002-6601-2165]
 xref: UBPROP:0000103
+property_value: is_count_of UBERON:0002539
+property_value: preceding_element_is BSPO:0000096
 property_value: terminology_notes "gill arch N = PA N-2. the term branchial_arch is ambiguous." xsd:string
-property_value: UBPROP:0000100 UBERON:0002539
-property_value: UBPROP:0000101 BSPO:0000096
 is_metadata_tag: true
 
 [Typedef]
@@ -18585,6 +18592,14 @@ name: precedes
 namespace: uberon
 xref: BFO:0000063
 is_transitive: true
+
+[Typedef]
+id: preceding_element_is
+name: preceding element is
+namespace: uberon
+def: "A property used in conjunction with repeated_element_number to indicate an axis and directionality along that axis. If P preceding_element_is R, and P is_count_of S, and X P N, and X' P N+1, then it follows that every X R some X', and the class expression [S and R some X' and inv(R) some X] is empty (i.e. X is followed by X', with no intermediates)" [https://orcid.org/0000-0002-6601-2165]
+xref: UBPROP:0000101
+is_metadata_tag: true
 
 [Typedef]
 id: present_in_taxon

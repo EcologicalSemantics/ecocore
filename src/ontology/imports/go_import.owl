@@ -294,6 +294,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#is_class_level -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#is_metadata_tag -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>

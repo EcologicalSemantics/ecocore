@@ -183,7 +183,19 @@ subset: value_slim
 synonym: "ramified" EXACT []
 synonym: "ramiform" EXACT []
 is_a: PATO:0002009 ! branchiness
-relationship: is_opposite_of PATO:0000414
+disjoint_from: PATO:0000414 ! unbranched
+relationship: is_opposite_of PATO:0000414 ! unbranched
+
+[Term]
+id: PATO:0000414
+name: unbranched
+namespace: quality
+def: "A branchiness quality inhering in a bearer by virtue of the bearer's lacking branches." [PATOC:GVG]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002009 ! branchiness
+relationship: is_opposite_of PATO:0000402 ! branched
 
 [Term]
 id: PATO:0000460
