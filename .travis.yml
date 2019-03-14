@@ -13,7 +13,7 @@ before_script:
 
 # command to run tests
 script: 
-  - ./run.sh make test
+  - sh run.sh make all
 
 #after_success:
 #  coveralls
