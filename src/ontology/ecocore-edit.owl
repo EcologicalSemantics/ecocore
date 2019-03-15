@@ -13,7 +13,6 @@ Import(<http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl>)
@@ -46,7 +45,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000024>))
-Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000028>))
@@ -430,14 +428,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000024> "area to mass ratio")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000024> <http://purl.obolibrary.org/obo/PATO_0001995>)
 
-# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000025> (larval development)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "The process by which a larvae transforms into an adult.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000025> "larval development")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000025> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0032502> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/UBERON_0000069>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002234> <http://purl.obolibrary.org/obo/UBERON_0000066>))))
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://purl.obolibrary.org/obo/GO_0032502>)
-
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000026> (prenatal development)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000026> "The duration of the development from fertilized, deposited or implanted egg to hatching/birth. Corresponds to egg incubation duration in oviparous animals and to gestation period duration in viviparous animals.")
@@ -568,7 +558,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000043> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000044> "The process by which a larvae transforms into an adult wherein the larvae looks like a smaller adult form")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000044> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000044> "direct development")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000044> <http://purl.obolibrary.org/obo/ECOCORE_00000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000044> <http://purl.obolibrary.org/obo/GO_0002164>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000045> (symbiotroph)
 
@@ -583,7 +573,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000045> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000046> "An organism bearing a symbiont role and capable of living within a plant for at least part of its life cycle without causing apparent disease")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000046> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000046> "endophyte")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolibrary.org/obo/IDO_0000522>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolibrary.org/obo/ECOCORE_00000045>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000048> (lecithotrophic larva)
 

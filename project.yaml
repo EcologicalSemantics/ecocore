@@ -1,0 +1,82 @@
+contact: null
+contributors: null
+creators: null
+dosdp_tools_options: --obo-prefixes=true
+edit_format: owl
+github_org: EcologicalSemantics
+id: ecocore
+import_group:
+  directory: imports/
+  disabled: false
+  ids: null
+  products:
+  - description: null
+    id: nbo
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: bfo
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: go
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: uberon
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: ro
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: chebi
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: envo
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: pato
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: iao
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+   - description: null
+    id: pco
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
+    id: po
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  rebuild_if_source_changes: true
+obo_format_options: ''
+pattern_group: null
+pattern_pipelines_group: null
+reasoner: ELK
+repo: ecocore
+report_fail_on: none
+robot_settings: null
+robot_version: null
+robotemplate_group: null
+subset_group: null
+title: Ontology of Core Ecological Concepts
+travis_emails: null
+uribase: http://purl.obolibrary.org/obo
+use_dosdps: true
