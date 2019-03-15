@@ -5,14 +5,14 @@ ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.	
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	36c50cee16f702e01f44265958669e07	
-ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	ab1970689993d77a2db507e49f3ada72	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	b95b02b1b63cca52a8028287ef1edf7c	
-ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	ff38bcd5a9f2f58eca368a68e74be783	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	8fc25c8a17146d48c439511adefa3dc5	
-ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	f3fa028fd690d17c1b5ee9f8ff70e2f7	
-ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	055cbab64bc0c8b4c9f78b3e8f5f0f1f	
-ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	3ff312289649e251bfa19a86e3e48c78	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	69ca0c8744960aa525e596080d97dd95	
+ERROR	multiple_equivalent_classes	ENVO:01000951	owl:equivalentClass	dc74fd572b8a74baa8d920c7c620f34b	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	4c210187162111e0a1b1ad341b852216	
+ERROR	multiple_equivalent_classes	ENVO:01001055	owl:equivalentClass	a20c2cfa269f7fd37cc8f50567854e52	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	5f324151d63c6a62b999c34e41e2da2f	
+ERROR	multiple_equivalent_classes	ENVO:01001057	owl:equivalentClass	adfd1a7f060c5d88886916e3111ee822	
+ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	0fb88e5e77c520641341615018403a75	
+ERROR	multiple_equivalent_classes	UBERON:0006347	owl:equivalentClass	9daf800a88833f7ffd8b76ec5e6c5d65	
 ERROR	missing_label	FOODON:00002420	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#1_STAR	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#3_STAR	rdfs:label		
@@ -79,9 +79,9 @@ ERROR	deprecated_class_reference	GO:0044710	rdfs:subClassOf	GO:0055114
 ERROR	deprecated_class_reference	GO:0044710	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	GO:0044763	rdfs:subClassOf	GO:0015980	
 ERROR	deprecated_class_reference	GO:0044763	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
-ERROR	deprecated_class_reference	GO:0072519	rdfs:subClassOf	ebbfdc025ea67a42a2f9ec537472bf93	
+ERROR	deprecated_class_reference	GO:0072519	rdfs:subClassOf	63cbcc14e3e8baf86c11ba68a00e51b9	
 ERROR	deprecated_class_reference	GO:0072519	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
-ERROR	deprecated_class_reference	GO:0085031	rdfs:subClassOf	29755eac938e65ee03c4e8c15f1a5dac	
+ERROR	deprecated_class_reference	GO:0085031	rdfs:subClassOf	6632cabc003fd740123a768e78880774	
 ERROR	deprecated_class_reference	GO:0085031	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	IAO:0000230	owl:deprecated	true^^http://www.w3.org/2001/XMLSchema#boolean	
 ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0000146	
@@ -417,7 +417,7 @@ ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
 ERROR	multiple_labels	UBERON:0000463	rdfs:label	organism substance	
 ERROR	multiple_labels	UBERON:0000463	rdfs:label	organism substance@en	
-WARN	annotation_whitespace	32050a002a62145c281a6e15015efca9	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
+WARN	annotation_whitespace	32fe74a55da861965f153307b5fbc818	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	
