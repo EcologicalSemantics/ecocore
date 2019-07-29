@@ -28,3 +28,4 @@ http://purl.obolibrary.org/obo/RO_0002509 # determined by part of
 http://purl.obolibrary.org/obo/RO_0002507 # determined by
 http://purl.obolibrary.org/obo/RO_0002508 # determines
 http://purl.obolibrary.org/obo/RO_0002218 # has active participant
+http://purl.obolibrary.org/obo/RO_0002634 # endoparasite of
