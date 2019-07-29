@@ -180,6 +180,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000163>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000164>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000165>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000166>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
@@ -1467,6 +1469,25 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000166> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000166> "viral predation")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000166> <http://purl.obolibrary.org/obo/GO_0022414>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000167> (leaf miner)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000167> "a folivore that lives in and eats the leaf tissue of plants")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000167> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000167> "leaf miner")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000167> <http://purl.obolibrary.org/obo/ECOCORE_00000084>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000168> (herbivorous grazer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000168> "an herbivore that primarily consumes grasses, leaves, and other soft plant material")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000168> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000168> "https://orcid.org/0000-0002-9943-2342")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000168> "herbivorous grazer")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000168> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000139>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000168> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0009001>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000168> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0009046>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000168> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0025034>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000168> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_01000063> (planktonic material)
 
