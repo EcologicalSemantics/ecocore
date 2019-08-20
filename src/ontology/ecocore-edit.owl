@@ -183,6 +183,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000166>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000167>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000168>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000169>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000171>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000172>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000173>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000174>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000175>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
@@ -1494,6 +1501,63 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000169> "herbivorous browser")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000169> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000101>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000169> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000170> (microcarnivore)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000170> "a carnivore that primarily eats organisms less than 1 cm in their longest dimension")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000170> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000170> "https://orcid.org/0000-0002-9943-2342")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000170> "microcarnivore")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000170> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000171> (sulfur reducer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000171> "an organism that uses inorganic sulfur compounds as a terminal electron acceptor during cellular respiration")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000171> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000171> "sulfur reducing organism")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000171> "sulphur reducer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000171> "sulphur reducing organism")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000171> "sulfur reducer")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000171> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000172> (anaerobe)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000172> "an organism that does not require oxygen for growth")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000172> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000172> "anaerobic organism")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000172> "anaerobe")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000172> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000173> (aerobe)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000173> "an organism that can survive and grow in an oxygenated environment")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000173> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000173> "aerobic organism")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000173> "aerobe")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000173> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000174> (prototroph)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000174> "an organism capable of producing all amino acids required for its growth")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000174> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000174> "prototrophic organism")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000174> "prototroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000174> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000175> (auxotroph)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000175> "an organism that is unable to synthesize a particular organic compound required for its growth")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000175> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000175> "auxotrophic organism")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000175> "auxotroph")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000175> <http://purl.obolibrary.org/obo/OBI_0100026>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000176> (coprophage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000176> "a decomposer which obtains nutrition by consuming feces")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000176> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000176> "coprophage")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000176> <http://purl.obolibrary.org/obo/ECOCORE_00000054>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_01000063> (planktonic material)
 
