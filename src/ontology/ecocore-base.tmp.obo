@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2019-03-14/ecocore-base.owl
+data-version: ecocore/releases/2020-05-18/ecocore-base.owl
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000057>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000076>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000077>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000100>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000102>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000114>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000148>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_9999999>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2157>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PO_0009010>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000049> (microphytobenthos)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000049> ObjectUnionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000077> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/ECOCORE_00000076>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000057> (detritivory)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/ENVO_01001103>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000100> (seed predation)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/PO_0009010>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000102> (predation)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/ECOCORE_00000148>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000114> (bactivory)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2157>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_9999999> (abnormal Entity (BFO))\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_9999999> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))\n\n\n)
@@ -134,7 +134,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 [Term]
 id: ECOCORE:00000015
 name: fungivore
-def: "An organism which consumes fungi." []
+def: "A heterotroph which consumes fungi." []
 synonym: "mycophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
@@ -165,7 +165,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 [Term]
 id: ECOCORE:00000018
 name: life history
-def: "A history which includes all the processes during which resources are used by an organism to grow, survive, and reproduce over its lifetime." [] {http://purl.obolibrary.org/obo/IAO_0000119="ISBN: 130596733X", http://purl.obolibrary.org/obo/IAO_0000119="ISBN 13: 9781305967335"}
+def: "A history which includes all the processes during which resources are used by an organism to grow, survive, and reproduce over its lifetime." [] {http://purl.obolibrary.org/obo/IAO_0000119="ISBN:9781305967335", http://purl.obolibrary.org/obo/IAO_0000119="ISBN:130596733X"}
 is_a: BFO:0000182
 property_value: IAO:0000117 http://orcid.org/0000-0002-4364-7715 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -173,7 +173,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 [Term]
 id: ECOCORE:00000019
 name: herbivore
-def: "An organism which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process." []
+def: "A heterotroph which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process." []
 comment: There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore
 synonym: "plant eater" NARROW []
 synonym: "primary consumer" EXACT []
@@ -364,7 +364,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 [Term]
 id: ECOCORE:00000045
 name: symbiotroph
-def: "Organism that acquires nutrition from a symbiont" []
+def: "heterotroph that acquires nutrition from a symbiont" []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000060 ! symbiotrophy
@@ -422,7 +422,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 [Term]
 id: ECOCORE:00000054
 name: decomposer
-def: "Organism that obtains nutrition by breaking down dead or decaying organisms" []
+def: "heterotroph that obtains nutrition by breaking down dead or decaying organisms or other organic matter" []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000058 ! decomposition
@@ -431,7 +431,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 [Term]
 id: ECOCORE:00000055
 name: detritivore
-def: "An decomposer which obtains nutrition by consuming detritus." []
+def: "A decomposer which obtains nutrition by consuming detritus." []
 is_a: ECOCORE:00000054 ! decomposer
 intersection_of: ECOCORE:00000054 ! decomposer
 intersection_of: ECOCORE:00000054 ! decomposer
@@ -1300,6 +1300,97 @@ id: ECOCORE:00000165
 name: hematophagy
 def: "A carnivorous process during which a living entity acquires food and energy from consuming blood." []
 is_a: ECOCORE:00000021 ! carnivory
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000166
+name: viral predation
+def: "A reproductive process wherein a virus uses another cell for reproduction. This process causes the mortality of the host cell via lysis." []
+is_a: GO:0022414
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000167
+name: leaf miner
+def: "a folivore that lives in and eats the leaf tissue of plants" []
+is_a: ECOCORE:00000084 ! folivore
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000168
+name: herbivorous grazer
+def: "an herbivore that primarily consumes grasses, leaves, and other soft plant material" []
+is_a: ECOCORE:00000019 ! herbivore
+intersection_of: ECOCORE:00000019 ! herbivore
+intersection_of: RO:0002215 ECOCORE:00000099 ! herbivorous grazing
+intersection_of: RO:0002215 ECOCORE:00000139 ! grazing
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-9943-2342 xsd:string
+
+[Term]
+id: ECOCORE:00000169
+name: herbivorous browser
+def: "An herbivore that primarily consumes twigs, leaves, and bark of trees and shrubs." []
+is_a: ECOCORE:00000019 ! herbivore
+intersection_of: ECOCORE:00000019 ! herbivore
+intersection_of: RO:0002215 ECOCORE:00000101 ! herbivorous browsing
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000170
+name: microcarnivore
+def: "a carnivore that primarily eats organisms less than 1 cm in their longest dimension" []
+is_a: ECOCORE:00000088 ! carnivore
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-9943-2342 xsd:string
+
+[Term]
+id: ECOCORE:00000171
+name: sulfur reducer
+def: "an organism that uses inorganic sulfur compounds as a terminal electron acceptor during cellular respiration" []
+synonym: "sulfur reducing organism" EXACT []
+synonym: "sulphur reducer" EXACT []
+synonym: "sulphur reducing organism" EXACT []
+is_a: OBI:0100026
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000172
+name: anaerobe
+def: "an organism that does not require oxygen for growth" []
+synonym: "anaerobic organism" EXACT []
+is_a: OBI:0100026
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000173
+name: aerobe
+def: "an organism that can survive and grow in an oxygenated environment" []
+synonym: "aerobic organism" EXACT []
+is_a: OBI:0100026
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000174
+name: prototroph
+def: "an organism capable of producing all amino acids required for its growth" []
+synonym: "prototrophic organism" EXACT []
+is_a: OBI:0100026
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000175
+name: auxotroph
+def: "an organism that is unable to synthesize a particular organic compound required for its growth" []
+synonym: "auxotrophic organism" EXACT []
+is_a: OBI:0100026
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000176
+name: coprophage
+def: "a decomposer which obtains nutrition by consuming feces" []
+is_a: ECOCORE:00000054 ! decomposer
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]

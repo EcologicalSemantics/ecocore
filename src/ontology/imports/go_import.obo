@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2019-03-14/imports/go_import.owl
+data-version: ecocore/releases/2020-05-18/imports/go_import.owl
 ontology: ecocore/imports/go_import
 
 [Term]
@@ -23,7 +23,7 @@ is_a: GO:0008150 ! biological_process
 id: GO:0000271
 name: polysaccharide biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of a polysaccharide, a polymer of many (typically more than 10) monosaccharide residues linked glycosidically." [CHEBI:18154, GOC:go_curators]
+def: "The chemical reactions and pathways resulting in the formation of a polysaccharide, a polymer of many (typically more than 10) monosaccharide residues linked glycosidically." [GOC:go_curators]
 synonym: "glycan biosynthesis" EXACT []
 synonym: "glycan biosynthetic process" EXACT []
 synonym: "polysaccharide anabolism" EXACT []
@@ -46,8 +46,8 @@ is_a: GO:0009791 ! post-embryonic development
 id: GO:0002376
 name: immune system process
 namespace: biological_process
-def: "Any process involved in the development or functioning of the immune system, an organismal system for calibrated responses to potential internal or invasive threats." [GO_REF:0000022, GOC:add, GOC:mtg_15nov05]
-comment: Note that this term is a direct child of 'biological_process ; GO:0008150' because some immune system processes are types of cellular process (GO:0009987), whereas others are types of multicellular organism process (GO:0032501). This term was added by GO_REF:0000022.
+def: "Any process involved in the development or functioning of the immune system, an organismal system for calibrated responses to potential internal or invasive threats." [GO_REF:0000022, GOC:add]
+comment: Note that this term is a direct child of 'biological_process ; GO:0008150' because some immune system processes are types of cellular process (GO:0009987), whereas others are types of multicellular organism process (GO:0032501).
 subset: goslim_agr
 subset: goslim_chembl
 subset: goslim_flybase_ribbon
@@ -56,6 +56,7 @@ subset: goslim_mouse
 subset: goslim_pir
 xref: Wikipedia:Immune_system
 is_a: GO:0008150 ! biological_process
+property_value: RO:0002161 NCBITaxon:4895
 
 [Term]
 id: GO:0002682
@@ -116,7 +117,7 @@ name: molecular_function
 namespace: molecular_function
 alt_id: GO:0005554
 def: "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process." [GOC:pdt]
-comment: Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code "no data" (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.
+comment: Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
@@ -132,6 +133,7 @@ id: GO:0003824
 name: catalytic activity
 namespace: molecular_function
 def: "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic." [GOC:vw, ISBN:0198506732]
+subset: goslim_agr
 subset: goslim_chembl
 subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
@@ -164,7 +166,7 @@ name: binding
 namespace: molecular_function
 def: "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule." [GOC:ceb, GOC:mah, ISBN:0198506732]
 comment: Note that this term is in the subset of terms that should not be used for direct, manual gene product annotation. Please choose a more specific child term, or request a new one if no suitable term is available. For ligands that bind to signal transducing receptors, consider the molecular function term 'receptor binding ; GO:0005102' and its children.
-subset: gocheck_do_not_manually_annotate
+subset: gocheck_do_not_annotate
 subset: goslim_pir
 subset: goslim_plant
 synonym: "ligand" NARROW []
@@ -186,13 +188,69 @@ subset: goslim_pir
 subset: goslim_plant
 synonym: "glycoprotein binding" NARROW []
 synonym: "protein amino acid binding" EXACT []
-xref: reactome:R-HSA-170835 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3"
-xref: reactome:R-HSA-170846 "TGFBR2 recruits TGFBR1"
-xref: reactome:R-HSA-3645786 "TGFBR2 mutant dimers recruit TGFBR1"
-xref: reactome:R-HSA-3656484 "TGFBR2 recruits TGFBR1 KD Mutants"
-xref: reactome:R-HSA-3702153 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3 MH2 domain mutants"
-xref: reactome:R-HSA-3713560 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3 phosphorylation motif mutants"
+xref: Reactome:R-HSA-170835 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3"
+xref: Reactome:R-HSA-170846 "TGFBR2 recruits TGFBR1"
 is_a: GO:0005488 ! binding
+
+[Term]
+id: GO:0005575
+name: cellular_component
+namespace: cellular_component
+alt_id: GO:0008372
+def: "A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome)." [GOC:pdt, NIF_Subcellular:sao1337158144]
+comment: Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "cell or subcellular entity" EXACT []
+synonym: "cellular component" EXACT []
+synonym: "subcellular entity" RELATED [NIF_Subcellular:nlx_subcell_100315]
+xref: NIF_Subcellular:sao1337158144
+
+[Term]
+id: GO:0005622
+name: intracellular
+namespace: cellular_component
+def: "The living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm." [ISBN:0198506732]
+subset: gocheck_do_not_annotate
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_plant
+synonym: "internal to cell" EXACT []
+synonym: "nucleocytoplasm" RELATED [GOC:mah]
+synonym: "protoplasm" EXACT []
+synonym: "protoplast" RELATED [GOC:mah]
+xref: Wikipedia:Intracellular
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0005634
+name: nucleus
+namespace: cellular_component
+def: "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent." [GOC:go_curators]
+subset: goslim_agr
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "cell nucleus" EXACT []
+synonym: "horsetail nucleus" NARROW [GOC:al, GOC:mah, GOC:vw, PMID:15030757]
+xref: NIF_Subcellular:sao1702920020
+xref: Wikipedia:Cell_nucleus
+is_a: GO:0043231 ! intracellular membrane-bounded organelle
 
 [Term]
 id: GO:0005975
@@ -205,6 +263,7 @@ subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_drosophila
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_pir
@@ -217,7 +276,7 @@ synonym: "single-organism carbohydrate metabolic process" RELATED []
 xref: Wikipedia:Carbohydrate_metabolism
 is_a: GO:0044238 ! primary metabolic process
 is_a: GO:0071704 ! organic substance metabolic process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-10-23T15:40:34Z
 
 [Term]
@@ -225,7 +284,7 @@ id: GO:0005976
 name: polysaccharide metabolic process
 namespace: biological_process
 alt_id: GO:0044263
-def: "The chemical reactions and pathways involving a polysaccharide, a polymer of many (typically more than 10) monosaccharide residues linked glycosidically." [CHEBI:18154, ISBN:0198547684]
+def: "The chemical reactions and pathways involving a polysaccharide, a polymer of many (typically more than 10) monosaccharide residues linked glycosidically." [ISBN:0198547684]
 subset: goslim_pir
 synonym: "glycan metabolic process" NARROW []
 synonym: "glycan metabolism" NARROW []
@@ -285,6 +344,7 @@ namespace: biological_process
 def: "The chemical reactions and pathways resulting in the formation of precursor metabolites, substances from which energy is derived, and any process involved in the liberation of energy from these substances." [GOC:jl]
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_drosophila
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_pir
@@ -320,7 +380,7 @@ is_a: GO:0015980 ! energy derivation by oxidation of organic compounds
 id: GO:0006113
 name: fermentation
 namespace: biological_process
-def: "The anaerobic enzymatic conversion of organic compounds, especially carbohydrates, coupling the oxidation and reduction of NAD/H and the generation of adenosine triphosphate (ATP)." [GOC:curators, ISBN:0201090910, ISBN:124925502, MetaCyc:Fermentation]
+def: "The anaerobic enzymatic conversion of organic compounds, especially carbohydrates, coupling the oxidation and reduction of NAD/H and the generation of adenosine triphosphate (ATP)." [GOC:curators, ISBN:0201090910, MetaCyc:Fermentation]
 subset: goslim_pir
 xref: MetaCyc:FERMENTATION-PWY
 xref: Wikipedia:Fermentation_(biochemistry)
@@ -348,7 +408,7 @@ is_a: GO:0006793 ! phosphorus metabolic process
 id: GO:0006807
 name: nitrogen compound metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen." [CHEBI:51143, GOC:go_curators, GOC:jl, ISBN:0198506732]
+def: "The chemical reactions and pathways involving organic or inorganic compounds that contain nitrogen." [GOC:jl, ISBN:0198506732]
 subset: goslim_metagenomics
 subset: goslim_pir
 synonym: "nitrogen compound metabolism" EXACT []
@@ -375,7 +435,7 @@ synonym: "single-organism transport" RELATED []
 synonym: "small molecule transport" NARROW []
 synonym: "solute:solute exchange" NARROW []
 is_a: GO:0051234 ! establishment of localization
-created_by: janelomax
+created_by: jl
 creation_date: 2012-12-13T16:25:32Z
 
 [Term]
@@ -392,8 +452,8 @@ relationship: part_of GO:0042221 ! response to chemical
 id: GO:0006955
 name: immune response
 namespace: biological_process
-def: "Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat." [GO_REF:0000022, GOC:add, GOC:mtg_15nov05]
-comment: This term was improved by GO_REF:0000022. It was redefined and moved.
+def: "Any immune system process that functions in the calibrated response of an organism to a potential internal or invasive threat." [GO_REF:0000022, GOC:add]
+subset: goslim_drosophila
 is_a: GO:0002376 ! immune system process
 is_a: GO:0050896 ! response to stimulus
 
@@ -446,7 +506,9 @@ is_a: GO:0048856 ! anatomical structure development
 id: GO:0007610
 name: behavior
 namespace: biological_process
+alt_id: GO:0023032
 alt_id: GO:0044708
+alt_id: GO:0044709
 def: "The internally coordinated responses (actions or inactions) of animals (individuals or groups) to internal or external stimuli, via a mechanism that involves nervous system activity." [GOC:ems, GOC:jl, ISBN:0395448956, PMID:20160973]
 comment: 1. Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation reviews.\n2. While a broader definition of behavior encompassing plants and single cell organisms would be justified on the basis of some usage (see PMID:20160973 for discussion), GO uses a tight definition that limits behavior to animals and to responses involving the nervous system, excluding plant responses that GO classifies under development, and responses of unicellular organisms that has general classifications for covering the responses of cells in multicellular organisms (e.g. cell chemotaxis).
 subset: gocheck_do_not_manually_annotate
@@ -459,22 +521,42 @@ synonym: "single-organism behavior" RELATED []
 xref: Wikipedia:Behavior
 is_a: GO:0008150 ! biological_process
 disjoint_from: GO:0032502 ! developmental process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-09-20T14:06:08Z
 
 [Term]
 id: GO:0007631
 name: feeding behavior
 namespace: biological_process
+alt_id: GO:0044366
+alt_id: GO:0044367
+alt_id: GO:0044368
+alt_id: GO:0044369
+alt_id: GO:0044370
+alt_id: GO:0044371
+alt_id: GO:0044372
 def: "Behavior associated with the intake of food." [GOC:mah]
 comment: See also the biological process term 'behavior ; GO:0007610'.
 synonym: "behavioral response to food" EXACT []
 synonym: "behavioural response to food" EXACT []
-synonym: "drinking" NARROW []
 synonym: "eating" NARROW []
 synonym: "feeding behaviour" EXACT []
+synonym: "feeding from phloem of other organism" NARROW []
+synonym: "feeding from plant phloem" NARROW []
+synonym: "feeding from tissue of other organism" NARROW []
+synonym: "feeding from vascular tissue of another organism" NARROW []
+synonym: "feeding from xylem of other organism" NARROW []
+synonym: "feeding on blood of other organism" NARROW []
+synonym: "feeding on or from other organism" NARROW []
+synonym: "feeding on plant sap" NARROW []
+synonym: "hematophagy" NARROW []
+synonym: "injection of substance into other organism during feeding on blood of other organism" NARROW []
+synonym: "taking of blood meal" NARROW []
 xref: Wikipedia:List_of_feeding_behaviours
 is_a: GO:0007610 ! behavior
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18547 xsd:anyURI
+created_by: jl
+creation_date: 2011-10-27T03:53:33Z
 
 [Term]
 id: GO:0008150
@@ -484,7 +566,7 @@ alt_id: GO:0000004
 alt_id: GO:0007582
 alt_id: GO:0044699
 def: "A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence." [GOC:pdt]
-comment: Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code "no data" (ND), is used to indicate this.
+comment: Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
@@ -499,7 +581,7 @@ synonym: "physiological process" EXACT []
 synonym: "single organism process" RELATED []
 synonym: "single-organism process" RELATED []
 xref: Wikipedia:Biological_process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-09-19T15:05:24Z
 
 [Term]
@@ -522,7 +604,7 @@ synonym: "multicellular organism metabolic process" NARROW []
 synonym: "single-organism metabolic process" RELATED []
 xref: Wikipedia:Metabolism
 is_a: GO:0008150 ! biological_process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-10-17T15:46:40Z
 
 [Term]
@@ -544,7 +626,7 @@ synonym: "single-organism biosynthetic process" RELATED []
 synonym: "synthesis" EXACT []
 xref: Wikipedia:Anabolism
 is_a: GO:0008152 ! metabolic process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-10-17T15:52:18Z
 
 [Term]
@@ -552,7 +634,7 @@ id: GO:0009059
 name: macromolecule biosynthetic process
 namespace: biological_process
 alt_id: GO:0043284
-def: "The chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." [CHEBI:33694, GOC:mah]
+def: "The chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." [GOC:mah]
 subset: goslim_pir
 synonym: "biopolymer biosynthetic process" EXACT [GOC:mtg_chebi_dec09]
 synonym: "macromolecule anabolism" EXACT []
@@ -631,6 +713,7 @@ namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an external stimulus." [GOC:hb]
 comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
 subset: gocheck_do_not_manually_annotate
+subset: goslim_drosophila
 subset: goslim_plant
 synonym: "response to environmental stimulus" EXACT []
 is_a: GO:0050896 ! response to stimulus
@@ -809,7 +892,7 @@ synonym: "cell physiology" EXACT []
 synonym: "cellular physiological process" EXACT []
 synonym: "single-organism cellular process" RELATED []
 is_a: GO:0008150 ! biological_process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-12-11T16:56:55Z
 
 [Term]
@@ -1027,7 +1110,7 @@ is_a: GO:2000112 ! regulation of cellular macromolecule biosynthetic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0009250 ! glucan biosynthetic process
 relationship: regulates GO:0009250 ! glucan biosynthetic process
-created_by: tanyaberardini
+created_by: tb
 creation_date: 2009-05-11T12:17:53Z
 
 [Term]
@@ -1054,6 +1137,8 @@ subset: goslim_pir
 subset: goslim_plant
 xref: Wikipedia:Photosynthesis
 is_a: GO:0044237 ! cellular metabolic process
+property_value: RO:0002161 NCBITaxon:33208
+property_value: RO:0002161 NCBITaxon:4895
 
 [Term]
 id: GO:0015980
@@ -1097,84 +1182,14 @@ namespace: molecular_function
 def: "Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [ISBN:0198506732]
 comment: Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term.
 subset: goslim_chembl
+subset: goslim_drosophila
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_plant
 subset: goslim_yeast
 synonym: "phosphokinase activity" EXACT []
-xref: reactome:R-HSA-109822 "MAPK3,(MAPK1) phosphorylates GRB2-1:SOS1:p-Y427-SHC1"
-xref: reactome:R-HSA-109823 "MAPK3,(MAPK1) phosphorylates GRB2-1:SOS1:p-Y-IRS1,p-Y-IRS2"
-xref: reactome:R-HSA-111898 "Phosphorylation of cPLA2 by ERK-2"
-xref: reactome:R-HSA-112381 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex"
-xref: reactome:R-HSA-139908 "Phosphorylation of DLC2 by MAPK8"
-xref: reactome:R-HSA-139918 "Phosphorylation of BIM by JNK"
-xref: reactome:R-HSA-165692 "Phosphorylation of 4E-BP1 by activated mTORC1"
-xref: reactome:R-HSA-165718 "mTORC1 phosphorylation of RPS6KB1 (S6K)"
-xref: reactome:R-HSA-165726 "Phosphorylation of Ribosomal protein S6 by activated S6K1"
-xref: reactome:R-HSA-165758 "Phosphorylation and inactivation of eEF2K by activated S6K1"
-xref: reactome:R-HSA-165766 "Phosphorylation and activation of eIF4G by activated S6K1"
-xref: reactome:R-HSA-165777 "Phosphorylation and activation of eIF4B by activated S6K1"
-xref: reactome:R-HSA-167084 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex"
-xref: reactome:R-HSA-167098 "Phosphorylation (Ser5) of RNA pol II CTD"
-xref: reactome:R-HSA-167191 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by the P-TEFb(Cyclin T1:Cdk9) complex"
-xref: reactome:R-HSA-170055 "Myt-1 mediated phosphorylation of Cyclin B:Cdc2 complexes"
-xref: reactome:R-HSA-170070 "Wee1-mediated phosphorylation of Cyclin B1:phospho-Cdc2 complexes"
-xref: reactome:R-HSA-170076 "CAK-mediated phosphorylation of Cyclin B1:Cdc2 complexes"
-xref: reactome:R-HSA-170087 "CAK-mediated phosphorylation of Cyclin A:Cdc2 complexes"
-xref: reactome:R-HSA-170116 "Myt-1 mediated phosphorylation of Cyclin A:Cdc2"
-xref: reactome:R-HSA-170126 "Phosphorylation of Cyclin B1 in the CRS domain"
-xref: reactome:R-HSA-170156 "Wee1-mediated phosphorylation of Cyclin A:phospho-Cdc2 complexes"
-xref: reactome:R-HSA-170704 "Phosphorylation of DSIF by the P-TEFb(Cyclin T1:Cdk9) complex"
-xref: reactome:R-HSA-170706 "Phosphorylation of  NEFL by the P-TEFb(Cyclin T1:Cdk9) complex"
-xref: reactome:R-HSA-174164 "Phosphorylation of Cyclin A:Cdk2 at Tyr 15"
-xref: reactome:R-HSA-1839091 "Cytosolic FGFR1 fusion protein-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-1839107 "BCR-FGFR1-associated PI3K phosphorylates PIP2 to PIP3."
-xref: reactome:R-HSA-1839110 "p-BCR-p-FGFR1 phosphorylates GAB2"
-xref: reactome:R-HSA-187949 "CAK-mediated phosphorylation of Cyclin A:Cdk2"
-xref: reactome:R-HSA-188350 "CAK-mediated phosphorylation of Cyclin E:Cdk2"
-xref: reactome:R-HSA-191636 "Phosphorylation of Cx43 by c-src"
-xref: reactome:R-HSA-195275 "Phosphorylation of APC component of the destruction complex"
-xref: reactome:R-HSA-195283 "Phosphorylation of phospho- (Ser45, Thr41) beta-catenin  at Ser37 by GSK-3"
-xref: reactome:R-HSA-195287 "Phosphorylation of phospho-(Ser45 ) at Thr 41 by GSK-3"
-xref: reactome:R-HSA-195300 "Phosphorylation of phospho-(Ser45,Thr41,Ser37) at Ser33 by GSK-3"
-xref: reactome:R-HSA-195318 "Phosphorylation of beta-catenin at Ser45 by CK1 alpha"
-xref: reactome:R-HSA-201717 "CSNK2-mediated phosphorylation of DVL"
-xref: reactome:R-HSA-211583 "Partial autophosphorylation of PAK-2 at  Ser-19, Ser-20, Ser-55, Ser-192, and Ser-197"
-xref: reactome:R-HSA-211650 "Autophosphorylation of PAK-2p34 in the activation loop"
-xref: reactome:R-HSA-2214351 "PLK1 phosphorylates GORASP1"
-xref: reactome:R-HSA-2294580 "PLK1 hyperphosphorylates Condensin II complex"
-xref: reactome:R-HSA-2529020 "CK2 phosphorylates condensin I subunits"
-xref: reactome:R-HSA-389762 "Phosphorylation of PD-1"
-xref: reactome:R-HSA-392752 "Phosphorylation of L1 by CK-II"
-xref: reactome:R-HSA-442724 "Phosphorylation of CREB1 by ribosomal protein S6 kinases (RSKs)"
-xref: reactome:R-HSA-445079 "Phosphorylation of L1 by ERK"
-xref: reactome:R-HSA-5654690 "FGFR1-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654692 "FGFR1- and PTPN11- associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654697 "FGFR2- and PTPN11- associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654701 "FGFR2-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654705 "FGFR3-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654709 "FGFR3- and PTPN11-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654714 "FGFR4- and PTPN11-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654717 "FGFR4-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655235 "Activated FGFR4 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655289 "Activated FGFR3 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655290 "Activated FGFR1 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655323 "Activated FGFR2 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5668545 "NIK autophosphorylates on T559"
-xref: reactome:R-HSA-6788855 "FN3KRP phosphorylates PsiAm, RibAm"
-xref: reactome:R-HSA-6788867 "FN3K phosphorylates ketosamines"
-xref: reactome:R-HSA-6814409 "CK2 phosphorylates PDCL"
-xref: reactome:R-HSA-68954 "Mcm2-7 is phosphorylated by DDK"
-xref: reactome:R-HSA-69195 "Phosphorylation of Cyclin E:CDK2 complexes by WEE1"
-xref: reactome:R-HSA-69604 "Phosphorylation of Cdc25A at Ser-123 by Chk1"
-xref: reactome:R-HSA-75028 "Phosphorylation of Wee1 kinase by Chk1"
-xref: reactome:R-HSA-75809 "Phosphorylation of Cdc25C at Ser216 by CHEK2"
-xref: reactome:R-HSA-77071 "Phosphorylation (Ser5) of RNA pol II CTD"
-xref: reactome:R-HSA-8853323 "Activated FGFR3 fusion-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-8942836 "CDK4/6:CCND complexes are activated by T-loop phosphorylation of CDK4/6"
-xref: reactome:R-HSA-8948039 "FUNDC1 is phosphorylated by CK2"
-xref: reactome:R-HSA-8948143 "p-S13, FUNDC1 is phosphorylated by CK2 at Tyr18"
-xref: reactome:R-HSA-8948146 "FUNDC1 is phosphorylated by ULK1 at Ser17"
+xref: Reactome:R-HSA-6788855 "FN3KRP phosphorylates PsiAm, RibAm"
+xref: Reactome:R-HSA-6788867 "FN3K phosphorylates ketosamines"
 is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
 relationship: part_of GO:0016310 ! phosphorylation
 
@@ -1193,7 +1208,6 @@ id: GO:0016740
 name: transferase activity
 namespace: molecular_function
 def: "Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2." [ISBN:0198506732]
-subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
@@ -1203,11 +1217,11 @@ subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
 xref: EC:2
-xref: reactome:R-HSA-1483089 "PE is converted to PS by PTDSS2"
-xref: reactome:R-HSA-1483186 "PC is converted to PS by PTDSS1"
-xref: reactome:R-HSA-5668414 "TRAF2 ubiquitinates cIAP1,2 in cIAP1,2:TRAF1:TRAF2:TRAF3:NIK"
-xref: reactome:R-HSA-6787403 "GTPBP3 and MTO1 transform uridine-34 yielding 5-taurinomethyluridine-34 in tRNA"
-xref: reactome:R-HSA-8868783 "TSR3 transfers aminocarboxypropyl group from S-adenosylmethionine to N(1)-methylpseudouridine-1248 of 18SE rRNA yielding N(1)-methyl-N(3)-aminocarboxypropylpseudouridine-1248"
+xref: Reactome:R-HSA-1483089 "PE is converted to PS by PTDSS2"
+xref: Reactome:R-HSA-1483186 "PC is converted to PS by PTDSS1"
+xref: Reactome:R-HSA-5668414 "TRAF2 ubiquitinates cIAP1,2 in cIAP1,2:TRAF1:TRAF2:TRAF3:NIK"
+xref: Reactome:R-HSA-6787403 "GTPBP3 and MTO1 transform uridine-34 yielding 5-taurinomethyluridine-34 in tRNA"
+xref: Reactome:R-HSA-8868783 "TSR3 transfers aminocarboxypropyl group from S-adenosylmethionine to N(1)-methylpseudouridine-1248 of 18SE rRNA yielding N(1)-methyl-N(3)-aminocarboxypropylpseudouridine-1248"
 is_a: GO:0003824 ! catalytic activity
 
 [Term]
@@ -1227,15 +1241,16 @@ namespace: biological_process
 alt_id: GO:0033057
 alt_id: GO:0044704
 def: "The specific behavior of an organism that is associated with reproduction." [GOC:jl, GOC:pr]
+subset: goslim_drosophila
 synonym: "multicellular organism reproductive behavior" NARROW []
-synonym: "reproductive behavior in a multicellular organism" EXACT [GOC:curators]
+synonym: "reproductive behavior in a multicellular organism" EXACT []
 synonym: "reproductive behaviour" EXACT []
 synonym: "single-organism reproductive behavior" RELATED []
 is_a: GO:0007610 ! behavior
 is_a: GO:0048609 ! multicellular organismal reproductive process
 intersection_of: GO:0007610 ! behavior
 intersection_of: part_of GO:0000003 ! reproduction
-created_by: janelomax
+created_by: jl
 creation_date: 2012-09-19T16:01:37Z
 
 [Term]
@@ -1363,7 +1378,7 @@ id: GO:0022412
 name: cellular process involved in reproduction in multicellular organism
 namespace: biological_process
 def: "A process, occurring at the cellular level, that is involved in the reproductive function of a multicellular organism." [GOC:isa_complete]
-synonym: "reproductive cellular process in multicellular organism" EXACT [GOC:curators]
+synonym: "reproductive cellular process in multicellular organism" EXACT []
 is_a: GO:0009987 ! cellular process
 is_a: GO:0022414 ! reproductive process
 intersection_of: GO:0009987 ! cellular process
@@ -1381,7 +1396,7 @@ is_a: GO:0008150 ! biological_process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: part_of GO:0000003 ! reproduction
 relationship: part_of GO:0000003 ! reproduction
-created_by: janelomax
+created_by: jl
 creation_date: 2012-09-19T15:56:06Z
 
 [Term]
@@ -1416,7 +1431,7 @@ synonym: "signalling" EXACT []
 synonym: "signalling process" RELATED [GOC:mah]
 synonym: "single organism signaling" RELATED []
 is_a: GO:0008150 ! biological_process
-created_by: janelomax
+created_by: jl
 creation_date: 2010-02-16T09:30:50Z
 
 [Term]
@@ -1453,7 +1468,14 @@ name: receptor regulator activity
 namespace: molecular_function
 def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is changed." [GOC:ceb]
 is_a: GO:0098772 ! molecular function regulator
-relationship: part_of GO:0010469 ! regulation of signaling receptor activity
+
+[Term]
+id: GO:0030546
+name: signaling receptor activator activity
+namespace: molecular_function
+def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is increased." [GOC:ceb]
+synonym: "receptor activator activity" BROAD []
+is_a: GO:0030545 ! receptor regulator activity
 
 [Term]
 id: GO:0031323
@@ -1637,6 +1659,50 @@ intersection_of: positively_regulates GO:0009605 ! response to external stimulus
 relationship: positively_regulates GO:0009605 ! response to external stimulus
 
 [Term]
+id: GO:0032386
+name: regulation of intracellular transport
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the directed movement of substances within cells." [GOC:mah]
+is_a: GO:0051049 ! regulation of transport
+is_a: GO:0060341 ! regulation of cellular localization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0046907 ! intracellular transport
+relationship: regulates GO:0046907 ! intracellular transport
+
+[Term]
+id: GO:0032387
+name: negative regulation of intracellular transport
+namespace: biological_process
+def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of substances within cells." [GOC:mah]
+synonym: "down regulation of intracellular transport" EXACT []
+synonym: "down-regulation of intracellular transport" EXACT []
+synonym: "downregulation of intracellular transport" EXACT []
+synonym: "inhibition of intracellular transport" NARROW []
+is_a: GO:0032386 ! regulation of intracellular transport
+is_a: GO:0048523 ! negative regulation of cellular process
+is_a: GO:0051051 ! negative regulation of transport
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0046907 ! intracellular transport
+relationship: negatively_regulates GO:0046907 ! intracellular transport
+
+[Term]
+id: GO:0032388
+name: positive regulation of intracellular transport
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of the directed movement of substances within cells." [GOC:mah]
+synonym: "activation of intracellular transport" NARROW []
+synonym: "stimulation of intracellular transport" NARROW []
+synonym: "up regulation of intracellular transport" EXACT []
+synonym: "up-regulation of intracellular transport" EXACT []
+synonym: "upregulation of intracellular transport" EXACT []
+is_a: GO:0032386 ! regulation of intracellular transport
+is_a: GO:0048522 ! positive regulation of cellular process
+is_a: GO:0051050 ! positive regulation of transport
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0046907 ! intracellular transport
+relationship: positively_regulates GO:0046907 ! intracellular transport
+
+[Term]
 id: GO:0032501
 name: multicellular organismal process
 namespace: biological_process
@@ -1647,7 +1713,9 @@ subset: goslim_pir
 synonym: "organismal physiological process" EXACT []
 synonym: "single-multicellular organism process" RELATED []
 is_a: GO:0008150 ! biological_process
-created_by: janelomax
+property_value: RO:0002161 NCBITaxon:4896
+property_value: RO:0002161 NCBITaxon:4932
+created_by: jl
 creation_date: 2012-09-19T16:07:47Z
 
 [Term]
@@ -1663,7 +1731,7 @@ subset: goslim_pir
 synonym: "development" NARROW []
 synonym: "single-organism developmental process" RELATED []
 is_a: GO:0008150 ! biological_process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-12-19T12:21:31Z
 
 [Term]
@@ -1746,7 +1814,7 @@ relationship: positively_regulates GO:0016301 ! kinase activity
 id: GO:0033692
 name: cellular polysaccharide biosynthetic process
 namespace: biological_process
-def: "The chemical reactions and pathways resulting in the formation of polysaccharides, polymers of many (typically more than 10) monosaccharide residues linked glycosidically, occurring at the level of an individual cell." [CHEBI:18154, GOC:go_curators]
+def: "The chemical reactions and pathways resulting in the formation of polysaccharides, polymers of many (typically more than 10) monosaccharide residues linked glycosidically, occurring at the level of an individual cell." [GOC:go_curators]
 synonym: "cellular glycan biosynthesis" EXACT []
 synonym: "cellular glycan biosynthetic process" EXACT []
 synonym: "cellular polysaccharide anabolism" EXACT []
@@ -1783,7 +1851,7 @@ id: GO:0034645
 name: cellular macromolecule biosynthetic process
 namespace: biological_process
 alt_id: GO:0034961
-def: "The chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, carried out by individual cells." [CHEBI:33694, GOC:mah]
+def: "The chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, carried out by individual cells." [GOC:mah]
 synonym: "cellular biopolymer biosynthetic process" EXACT [GOC:mtg_chebi_dec09]
 synonym: "cellular macromolecule anabolism" EXACT [GOC:mah]
 synonym: "cellular macromolecule biosynthesis" EXACT [GOC:mah]
@@ -1792,6 +1860,31 @@ synonym: "cellular macromolecule synthesis" EXACT [GOC:mah]
 is_a: GO:0009059 ! macromolecule biosynthetic process
 is_a: GO:0044249 ! cellular biosynthetic process
 is_a: GO:0044260 ! cellular macromolecule metabolic process
+
+[Term]
+id: GO:0035556
+name: intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0007242
+alt_id: GO:0007243
+alt_id: GO:0023013
+alt_id: GO:0023034
+def: "The process in which a signal is passed on to downstream components within the cell, which become activated themselves to further propagate the signal and finally trigger a change in the function or state of the cell." [GOC:bf, GOC:jl, GOC:signaling, ISBN:3527303782]
+subset: goslim_drosophila
+synonym: "intracellular protein kinase cascade" NARROW [GOC:signaling]
+synonym: "intracellular signal transduction pathway" NARROW []
+synonym: "intracellular signaling cascade" RELATED [GOC:signaling]
+synonym: "intracellular signaling chain" EXACT [ISBN:3527303782]
+synonym: "intracellular signaling pathway" RELATED []
+synonym: "protein kinase cascade" NARROW [GOC:signaling]
+synonym: "signal transduction via intracellular signaling cascade" RELATED []
+synonym: "signal transmission via intracellular cascade" NARROW []
+is_a: GO:0007165 ! signal transduction
+intersection_of: GO:0007165 ! signal transduction
+intersection_of: occurs_in GO:0005622 ! intracellular
+relationship: occurs_in GO:0005622 ! intracellular
+created_by: bf
+creation_date: 2010-05-14T01:14:37Z
 
 [Term]
 id: GO:0035636
@@ -1804,20 +1897,22 @@ synonym: "pheromone signaling" NARROW [GOC:bf]
 synonym: "signaling between organisms" EXACT [GOC:bf]
 synonym: "signaling with other organism" EXACT [GOC:bf]
 is_obsolete: true
-created_by: rfoulger
+created_by: bf
 creation_date: 2011-01-14T10:11:25Z
 
 [Term]
 id: GO:0035821
-name: modification of morphology or physiology of other organism
+name: modulation of process of other organism
 namespace: biological_process
-def: "The process in which an organism effects a change in the structure or processes of a second organism." [GOC:bf]
+def: "The process in which an organism effects a change in the structure or processes of another organism." [GOC:bf]
+synonym: "modification of morphology or physiology of other organism" EXACT []
 synonym: "regulation of morphology of other organism" NARROW [GOC:bf]
 synonym: "regulation of morphology or physiology of other organism" RELATED [GOC:bf]
 synonym: "regulation of physiological process of other organism" NARROW [GOC:bf]
 synonym: "regulation of physiology of other organism" NARROW [GOC:bf]
 is_a: GO:0044419 ! interspecies interaction between organisms
-created_by: rfoulger
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18605 xsd:anyURI
+created_by: bf
 creation_date: 2011-04-21T01:31:51Z
 
 [Term]
@@ -1828,8 +1923,8 @@ def: "A form of mutualism between a fungus and the roots of a vascular plant, wh
 synonym: "arbuscular mycorrhizae formation" EXACT [Wikipedia:Arbuscular_mycorrhiza]
 synonym: "arbuscular mycorrhizal symbiosis" RELATED [Wikipedia:Arbuscular_mycorrhiza]
 synonym: "arbuscular mycorrhizas formation" EXACT [Wikipedia:Arbuscular_mycorrhiza]
-is_a: GO:0044403 ! symbiont process
-created_by: rfoulger
+is_a: GO:0044403 ! symbiotic process
+created_by: bf
 creation_date: 2013-05-07T15:07:32Z
 
 [Term]
@@ -1841,6 +1936,7 @@ alt_id: GO:0019041
 def: "Receiving a signal and transmitting it in the cell to initiate a change in cell activity. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response." [GOC:bf, GOC:signaling]
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_drosophila
 subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
 subset: goslim_mouse
@@ -1849,7 +1945,7 @@ subset: goslim_plant
 synonym: "receptor activity" BROAD []
 synonym: "receptor activity involved in signal transduction" EXACT [GOC:bf]
 is_a: GO:0060089 ! molecular transducer activity
-created_by: rfoulger
+created_by: bf
 creation_date: 2011-08-01T02:45:27Z
 
 [Term]
@@ -1887,6 +1983,7 @@ subset: goslim_chembl
 subset: goslim_generic
 subset: goslim_pir
 is_a: GO:0008150 ! biological_process
+property_value: RO:0002161 NCBITaxon:451864
 
 [Term]
 id: GO:0040012
@@ -1938,7 +2035,9 @@ comment: Note that this term is in the subset of terms that should not be used f
 subset: gocheck_do_not_manually_annotate
 subset: goslim_aspergillus
 subset: goslim_candida
+subset: goslim_drosophila
 subset: goslim_metagenomics
+subset: goslim_plant
 subset: goslim_yeast
 synonym: "response to chemical stimulus" EXACT [GOC:dos]
 synonym: "response to chemical substance" EXACT []
@@ -2048,13 +2147,55 @@ name: macromolecule metabolic process
 namespace: biological_process
 alt_id: GO:0043283
 alt_id: GO:0044259
-def: "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." [CHEBI:33694, GOC:mah]
+def: "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass." [GOC:mah]
 subset: goslim_pir
 synonym: "biopolymer metabolic process" EXACT [GOC:mtg_chebi_dec09]
 synonym: "macromolecule metabolism" EXACT []
 synonym: "multicellular organismal macromolecule metabolic process" NARROW []
 synonym: "organismal macromolecule metabolism" EXACT []
 is_a: GO:0071704 ! organic substance metabolic process
+
+[Term]
+id: GO:0043226
+name: organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane." [GOC:go_curators]
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_pir
+xref: NIF_Subcellular:sao1539965131
+xref: Wikipedia:Organelle
+is_a: GO:0110165 ! cellular anatomical entity
+
+[Term]
+id: GO:0043227
+name: membrane-bounded organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane." [GOC:go_curators]
+synonym: "membrane-enclosed organelle" EXACT []
+xref: NIF_Subcellular:sao414196390
+is_a: GO:0043226 ! organelle
+
+[Term]
+id: GO:0043229
+name: intracellular organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane." [GOC:go_curators]
+subset: goslim_pir
+is_a: GO:0043226 ! organelle
+intersection_of: GO:0043226 ! organelle
+intersection_of: part_of GO:0005622 ! intracellular
+relationship: part_of GO:0005622 ! intracellular
+
+[Term]
+id: GO:0043231
+name: intracellular membrane-bounded organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane." [GOC:go_curators]
+subset: goslim_pir
+synonym: "intracellular membrane-enclosed organelle" EXACT []
+is_a: GO:0043227 ! membrane-bounded organelle
+is_a: GO:0043229 ! intracellular organelle
 
 [Term]
 id: GO:0043255
@@ -2164,21 +2305,62 @@ relationship: positively_regulates GO:0051704 ! multi-organism process
 
 [Term]
 id: GO:0043903
-name: regulation of symbiosis, encompassing mutualism through parasitism
+name: regulation of interspecies interactions between organisms
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of symbiosis, an interaction between two organisms living together in more or less intimate association." [GOC:jl]
-is_a: GO:0043900 ! regulation of multi-organism process
+synonym: "regulation of symbiosis, encompassing mutualism through parasitism" RELATED []
+is_a: GO:0050789 ! regulation of biological process
 intersection_of: GO:0008150 ! biological_process
-intersection_of: regulates GO:0044403 ! symbiont process
-relationship: regulates GO:0044403 ! symbiont process
+intersection_of: regulates GO:0044403 ! symbiotic process
+relationship: regulates GO:0044403 ! symbiotic process
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/19222 xsd:anyURI
+
+[Term]
+id: GO:0043946
+name: positive regulation of catalytic activity in other organism involved in symbiotic interaction
+namespace: biological_process
+def: "Any process in which an organism activates, maintains or increases the frequency, rate or extent of enzyme activity in a second organism, where the two organisms are in a symbiotic interaction." [GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "activation of enzyme activity in other organism" NARROW []
+synonym: "activation of enzyme activity in other organism during symbiotic interaction" NARROW []
+synonym: "positive regulation of catalytic activity in other organism during symbiotic interaction" RELATED [GOC:dph]
+synonym: "up regulation of enzyme activity in other organism during symbiotic interaction" RELATED []
+synonym: "up-regulation of enzyme activity in other organism during symbiotic interaction" RELATED []
+synonym: "upregulation of enzyme activity in other organism during symbiotic interaction" RELATED []
+is_a: GO:0052203 ! modulation of catalytic activity in other organism involved in symbiotic interaction
+
+[Term]
+id: GO:0043948
+name: induction by symbiont of host catalytic activity
+namespace: biological_process
+def: "Any process in which the symbiont activates, maintains or increases the frequency, rate or extent of host enzyme activity. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
+synonym: "activation by symbiont of host enzyme activity" NARROW []
+synonym: "activation of host enzyme activity" NARROW []
+synonym: "positive regulation by symbiont of host catalytic activity" EXACT []
+synonym: "positive regulation by symbiont of host enzyme activity" EXACT []
+synonym: "up regulation by symbiont of host enzyme activity" EXACT []
+synonym: "up-regulation by symbiont of host enzyme activity" EXACT []
+synonym: "upregulation by symbiont of host enzyme activity" EXACT []
+is_a: GO:0043085 ! positive regulation of catalytic activity
+is_a: GO:0043946 ! positive regulation of catalytic activity in other organism involved in symbiotic interaction
+is_a: GO:0052148 ! modulation by symbiont of host catalytic activity
+intersection_of: GO:0052055 ! modulation by symbiont of host molecular function
+intersection_of: positively_regulates GO:0003824 ! catalytic activity
 
 [Term]
 id: GO:0044003
-name: modification by symbiont of host morphology or physiology
+name: modulation by symbiont of host process
 namespace: biological_process
+alt_id: GO:0044004
+alt_id: GO:0044055
 def: "The process in which a symbiont organism effects a change in the structure or processes of its host organism." [GOC:cc]
+synonym: "disruption by symbiont of host cell" RELATED []
+synonym: "modification by symbiont of host biological process" RELATED []
+synonym: "modification by symbiont of host morphology or physiology" RELATED []
+synonym: "modulation by symbiont of host system process" NARROW []
+synonym: "regulation by symbiont of host system process" NARROW []
 is_a: GO:0051701 ! interaction with host
-is_a: GO:0051817 ! modification of morphology or physiology of other organism involved in symbiotic interaction
+is_a: GO:0051817 ! modulation of process of other organism involved in symbiotic interaction
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18719 xsd:anyURI
 
 [Term]
 id: GO:0044033
@@ -2193,14 +2375,15 @@ is_a: GO:0051704 ! multi-organism process
 
 [Term]
 id: GO:0044034
-name: multi-organism biosynthetic process
+name: obsolete multi-organism biosynthetic process
 namespace: biological_process
-def: "A biosynthetic process - chemical reactions and pathways resulting in the formation of substances - which involves more than one organism." [GOC:jl]
+def: "OBSOLETE. A biosynthetic process - chemical reactions and pathways resulting in the formation of substances - which involves more than one organism." [GOC:jl]
+comment: This term was obsoleted because there is no evidence that this process exists.
 synonym: "multi-organism biosynthesis" EXACT []
 synonym: "multi-organismal biosynthesis" EXACT []
 synonym: "multi-organismal biosynthetic process" EXACT []
-is_a: GO:0009058 ! biosynthetic process
-is_a: GO:0044033 ! multi-organism metabolic process
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18787 xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0044042
@@ -2211,6 +2394,19 @@ synonym: "glucan metabolism" EXACT []
 is_a: GO:0005976 ! polysaccharide metabolic process
 
 [Term]
+id: GO:0044068
+name: modulation by symbiont of host cellular process
+namespace: biological_process
+def: "Any process in which a symbiont organism modulates the frequency, rate or extent of a cellular process, any process that is carried out at the cellular level, but not necessarily restricted to a single cell, in its host organism." [MITRE:tk]
+synonym: "modulation of host cellular process by symbiont" EXACT []
+synonym: "regulation by symbiont of host cellular process" EXACT []
+synonym: "regulation of host cellular process by symbiont" EXACT []
+is_a: GO:0044003 ! modulation by symbiont of host process
+is_a: GO:0050794 ! regulation of cellular process
+intersection_of: GO:0044003 ! modulation by symbiont of host process
+intersection_of: regulates GO:0009987 ! cellular process
+
+[Term]
 id: GO:0044092
 name: negative regulation of molecular function
 namespace: biological_process
@@ -2219,7 +2415,7 @@ is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0003674 ! molecular_function
 relationship: negatively_regulates GO:0003674 ! molecular_function
-created_by: jane
+created_by: jl
 creation_date: 2009-04-21T04:07:27Z
 
 [Term]
@@ -2231,37 +2427,40 @@ is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0003674 ! molecular_function
 relationship: positively_regulates GO:0003674 ! molecular_function
-created_by: jane
+created_by: jl
 creation_date: 2009-04-21T04:11:06Z
 
 [Term]
 id: GO:0044110
 name: growth involved in symbiotic interaction
 namespace: biological_process
+alt_id: GO:0044153
 def: "The increase in size or mass of an organism occurring when the organism is in a symbiotic interaction." [GO:jl, GOC:pamgo_curators]
 comment: This term partially replaces the obsolete term 'growth or development during symbiotic interaction ; GO:0052171'. See also 'development during symbiotic interaction ; GO:0044111'.
 synonym: "growth during symbiotic interaction" RELATED [GOC:dph]
+synonym: "growth on or near surface of other organism during symbiotic interaction" RELATED [GOC:tb]
+synonym: "growth on or near surface of other organism involved in symbiotic interaction" RELATED []
 is_a: GO:0040007 ! growth
-is_a: GO:0051704 ! multi-organism process
-intersection_of: GO:0040007 ! growth
-intersection_of: part_of GO:0044403 ! symbiont process
-relationship: part_of GO:0044403 ! symbiont process
-created_by: jane
+is_a: GO:0044419 ! interspecies interaction between organisms
+created_by: jl
 creation_date: 2009-07-30T02:22:33Z
 
 [Term]
 id: GO:0044111
 name: development involved in symbiotic interaction
 namespace: biological_process
+alt_id: GO:0044152
 def: "The progression of an organism from an initial condition to a later condition, occurring when the organism is in a symbiotic interaction." [GO:jl, GOC:pamgo_curators]
 comment: This term partially replaces the obsolete term 'growth or development during symbiotic interaction ; GO:0052171'. See also 'growth during symbiotic interaction ; GO:0044110'.
 synonym: "development during symbiotic interaction" RELATED [gOC:dph]
+synonym: "development on or near surface of other organism during symbiotic interaction" RELATED [GOC:dph]
+synonym: "development on or near surface of other organism involved in symbiotic interaction" NARROW []
 is_a: GO:0032502 ! developmental process
 is_a: GO:0051704 ! multi-organism process
 intersection_of: GO:0032502 ! developmental process
-intersection_of: part_of GO:0044403 ! symbiont process
-relationship: part_of GO:0044403 ! symbiont process
-created_by: jane
+intersection_of: part_of GO:0044419 ! interspecies interaction between organisms
+relationship: part_of GO:0044419 ! interspecies interaction between organisms
+created_by: jl
 creation_date: 2009-07-30T02:26:46Z
 
 [Term]
@@ -2300,7 +2499,7 @@ id: GO:0044260
 name: cellular macromolecule metabolic process
 namespace: biological_process
 alt_id: GO:0034960
-def: "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, as carried out by individual cells." [CHEBI:33694, GOC:mah]
+def: "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass, as carried out by individual cells." [GOC:mah]
 synonym: "cellular biopolymer metabolic process" EXACT [GOC:mtg_chebi_dec09]
 synonym: "cellular macromolecule metabolism" EXACT []
 is_a: GO:0043170 ! macromolecule metabolic process
@@ -2342,28 +2541,48 @@ subset: goslim_generic
 subset: goslim_metagenomics
 synonym: "small molecule metabolism" EXACT []
 is_a: GO:0008152 ! metabolic process
-created_by: jane
+created_by: jl
 creation_date: 2010-01-26T12:05:20Z
 
 [Term]
-id: GO:0044402
-name: competition with other organism
+id: GO:0044359
+name: modulation of molecular function in other organism
 namespace: biological_process
-def: "Any process in which an organism within a multispecies community gains an advantage in growth or survival over another organism of a different species in that community." [GOC:cc]
+def: "The process in which an organism effects a change in the function of proteins in a second organism." [GOC:jl]
+is_a: GO:0035821 ! modulation of process of other organism
+created_by: jl
+creation_date: 2011-10-27T01:28:16Z
+
+[Term]
+id: GO:0044362
+name: negative regulation of molecular function in other organism
+namespace: biological_process
+def: "Any process in which an organism stops, prevents or reduces the frequency, rate or extent of the function of proteins in a second organism." [GOC:jl]
+is_a: GO:0044092 ! negative regulation of molecular function
+is_a: GO:0044359 ! modulation of molecular function in other organism
+created_by: jl
+creation_date: 2011-10-27T02:12:49Z
+
+[Term]
+id: GO:0044402
+name: obsolete competition with other organism
+namespace: biological_process
+def: "OBSOLETE. Any process in which an organism within a multispecies community gains an advantage in growth or survival over another organism of a different species in that community." [GOC:cc]
+comment: This term was obsoleted because it is outside the scope of GO.
 synonym: "competition with another organism" EXACT [GOC:bf]
 synonym: "interspecies competition" BROAD []
-is_a: GO:0044419 ! interspecies interaction between organisms
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18568 xsd:anyURI
+is_obsolete: true
 
 [Term]
 id: GO:0044403
-name: symbiont process
+name: symbiotic process
 namespace: biological_process
 alt_id: GO:0043298
 alt_id: GO:0044404
 alt_id: GO:0072519
 alt_id: GO:0085031
-def: "A process carried out by symbiont gene products that enables a symbiotic interaction with a host organism. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs. Microscopic symbionts are often referred to as endosymbionts." [GOC:cc, https://study.com/academy/lesson/symbiont-definition-lesson-quiz.html]
-comment: Changed term, definition see https://github.com/geneontology/go-ontology/issues/14807
+def: "A process carried out by gene products in an organism that enable the organism to engage in a symbiotic relationship, a more or less intimate association, with another organism. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs. Microscopic symbionts are often referred to as endosymbionts." [GOC:cc, https://study.com/academy/lesson/symbiont-definition-lesson-quiz.html]
 subset: goslim_chembl
 subset: goslim_generic
 synonym: "commensalism" NARROW []
@@ -2376,25 +2595,46 @@ synonym: "symbiotic interaction between host and organism" RELATED []
 synonym: "symbiotic interaction between organisms" RELATED []
 synonym: "symbiotic interaction between species" RELATED []
 is_a: GO:0044419 ! interspecies interaction between organisms
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/14807 xsd:anyURI
 
 [Term]
 id: GO:0044409
 name: entry into host
 namespace: biological_process
-def: "Penetration by an organism into the body, tissues, or cells of the host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:cc]
+alt_id: GO:0030260
+alt_id: GO:0044411
+alt_id: GO:0051806
+alt_id: GO:0051828
+alt_id: GO:0051830
+alt_id: GO:0075052
+alt_id: GO:0085027
+alt_id: GO:0085028
+def: "Entry of a symbiont into the body, tissues, or cells of a host organism as part of the symbiont life cycle. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:vw]
+synonym: "entry into cell of other organism during symbiotic interaction" NARROW [GOC:tb]
+synonym: "entry into cell of other organism involved in symbiotic interaction" RELATED []
+synonym: "entry into host cell" NARROW []
+synonym: "entry into host cell via penetration peg" NARROW []
+synonym: "entry into host through host barriers" RELATED []
+synonym: "entry into host via a specialized structure during symbiotic interaction" NARROW []
+synonym: "entry into host via enzymatic degradation of host anatomical structure" NARROW []
+synonym: "entry into host via enzymatic degradation of host cuticle" NARROW []
+synonym: "entry into other organism during symbiotic interaction" RELATED [GOC:tb]
+synonym: "entry into other organism involved in symbiotic interaction" RELATED []
+synonym: "host cell invasion" NARROW []
 synonym: "host invasion" EXACT []
+synonym: "host penetration" EXACT [GOC:vw]
 synonym: "invasion into host" EXACT []
+synonym: "invasion into other organism" RELATED []
 synonym: "invasion of host" EXACT []
+synonym: "invasion of other organism" RELATED []
 synonym: "invasive growth" RELATED []
-is_a: GO:0051828 ! entry into other organism involved in symbiotic interaction
-
-[Term]
-id: GO:0044411
-name: entry into host through host barriers
-namespace: biological_process
-def: "Penetration by an organism into its host organism via active breaching of the physical barriers of the host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:cc]
-is_a: GO:0044409 ! entry into host
-is_a: GO:0051830 ! entry into other organism through barriers of other organism involved in symbiotic interaction
+synonym: "other organism cell invasion" NARROW []
+synonym: "other organism invasion" RELATED []
+synonym: "penetration into host" EXACT [GOC:vw]
+synonym: "penetration into host via a specialized structure" NARROW [GOC:vw]
+synonym: "penetration into host via a specialized structure during symbiotic interaction" NARROW [GOC:vw]
+is_a: GO:0052126 ! movement in host environment
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18563 xsd:anyURI
 
 [Term]
 id: GO:0044419
@@ -2406,7 +2646,22 @@ subset: goslim_pir
 synonym: "interaction with another species" EXACT []
 synonym: "interspecies interaction" EXACT []
 synonym: "interspecies interaction with other organisms" EXACT []
-is_a: GO:0051704 ! multi-organism process
+is_a: GO:0008150 ! biological_process
+property_value: RO:0002161 NCBITaxon:4895
+
+[Term]
+id: GO:0044464
+name: obsolete cell part
+namespace: cellular_component
+def: "OBSOLETE. Any constituent part of a cell, the basic structural and functional unit of all organisms." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: gocheck_do_not_annotate
+subset: goslim_pir
+synonym: "cellular subcomponent" EXACT [NIF_Subcellular:sao628508602]
+synonym: "protoplast" RELATED [GOC:mah]
+xref: NIF_Subcellular:sao628508602
+is_obsolete: true
+consider: CL:0000000
 
 [Term]
 id: GO:0044764
@@ -2415,7 +2670,7 @@ namespace: biological_process
 def: "Any process that is carried out at the cellular level which involves another organism of the same or different species." [GOC:jl]
 is_a: GO:0009987 ! cellular process
 is_a: GO:0051704 ! multi-organism process
-created_by: janelomax
+created_by: jl
 creation_date: 2012-12-11T17:00:50Z
 
 [Term]
@@ -2425,7 +2680,7 @@ namespace: biological_process
 def: "The directed movement of substances (such as macromolecules, small molecules, ions) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or pore, involving more than one organism." [GOC:jl]
 is_a: GO:0006810 ! transport
 is_a: GO:1902579 ! multi-organism localization
-created_by: janelomax
+created_by: jl
 creation_date: 2012-12-13T16:25:50Z
 
 [Term]
@@ -2541,19 +2796,39 @@ intersection_of: positively_regulates GO:0006796 ! phosphate-containing compound
 relationship: positively_regulates GO:0006796 ! phosphate-containing compound metabolic process
 
 [Term]
+id: GO:0046907
+name: intracellular transport
+namespace: biological_process
+alt_id: GO:1902582
+def: "The directed movement of substances within a cell." [GOC:ai]
+synonym: "single organism intracellular transport" RELATED [GOC:TermGenie]
+synonym: "single-organism intracellular transport" RELATED []
+is_a: GO:0006810 ! transport
+is_a: GO:0051641 ! cellular localization
+is_a: GO:0051649 ! establishment of localization in cell
+intersection_of: GO:0006810 ! transport
+intersection_of: occurs_in GO:0005622 ! intracellular
+relationship: occurs_in GO:0005622 ! intracellular
+created_by: jl
+creation_date: 2013-12-18T14:04:50Z
+
+[Term]
 id: GO:0048018
 name: receptor ligand activity
 namespace: molecular_function
 alt_id: GO:0071884
 def: "The activity of a gene product that interacts with a receptor to effect a change in the activity of the receptor. Ligands may be produced by the same, or different, cell that expresses the receptor. Ligands may diffuse extracellularly from their point of origin to the receiving cell, or remain attached to an adjacent cell surface (e.g. Notch ligands)." [GOC:kv, GOC:molecular_function_refactoring, GOC:pdt]
-comment: Definition discussed in https://github.com/geneontology/go-ontology/issues/14220
 subset: goslim_chembl
+subset: goslim_drosophila
 synonym: "receptor agonist activity" BROAD [GOC:molecular_function_refactoring]
 synonym: "signaling molecule" EXACT []
+synonym: "signaling receptor ligand activity" EXACT []
 synonym: "vitamin D receptor activator activity" NARROW []
 is_a: GO:0005102 ! signaling receptor binding
-is_a: GO:0030545 ! receptor regulator activity
-created_by: midori
+is_a: GO:0030546 ! signaling receptor activator activity
+relationship: part_of GO:0007165 ! signal transduction
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/14220 xsd:anyURI
+created_by: mah
 creation_date: 2010-09-13T04:51:59Z
 
 [Term]
@@ -2636,7 +2911,7 @@ synonym: "up-regulation of cellular process" EXACT []
 synonym: "upregulation of cellular process" EXACT []
 is_a: GO:0048518 ! positive regulation of biological process
 is_a: GO:0050794 ! regulation of cellular process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0009987 ! cellular process
 relationship: positively_regulates GO:0009987 ! cellular process
 
@@ -2752,8 +3027,8 @@ id: GO:0048609
 name: multicellular organismal reproductive process
 namespace: biological_process
 def: "The process, occurring above the cellular level, that is pertinent to the reproductive function of a multicellular organism. This includes the integrated processes at the level of tissues and organs." [GOC:dph, GOC:jid, GOC:tb]
-synonym: "organismal reproductive process" BROAD [GOC:curators]
-synonym: "reproductive process in a multicellular organism" EXACT [GOC:curators]
+synonym: "organismal reproductive process" BROAD []
+synonym: "reproductive process in a multicellular organism" EXACT []
 is_a: GO:0022414 ! reproductive process
 relationship: part_of GO:0032504 ! multicellular organism reproduction
 
@@ -2761,10 +3036,10 @@ relationship: part_of GO:0032504 ! multicellular organism reproduction
 id: GO:0048856
 name: anatomical structure development
 namespace: biological_process
-def: "The biological process whose specific outcome is the progression of an anatomical structure from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. An anatomical structure is any biological entity that occupies space and is distinguished from its surroundings. Anatomical structures can be macroscopic such as a carpel, or microscopic such as an acrosome." [GO_REF:0000021, GOC:mtg_15jun06]
-comment: This term was added by GO_REF:0000021.
+def: "The biological process whose specific outcome is the progression of an anatomical structure from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. An anatomical structure is any biological entity that occupies space and is distinguished from its surroundings. Anatomical structures can be macroscopic such as a carpel, or microscopic such as an acrosome." [GO_REF:0000021]
 subset: goslim_chembl
 subset: goslim_generic
+subset: goslim_plant
 synonym: "development of an anatomical structure" EXACT []
 is_a: GO:0032502 ! developmental process
 
@@ -2818,7 +3093,6 @@ namespace: biological_process
 alt_id: GO:0050791
 def: "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." [GOC:ai, GOC:go_curators]
 subset: gocheck_do_not_annotate
-subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_pir
@@ -2860,7 +3134,7 @@ alt_id: GO:0051244
 def: "Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." [GOC:go_curators]
 synonym: "regulation of cellular physiological process" EXACT []
 is_a: GO:0050789 ! regulation of biological process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0009987 ! cellular process
 relationship: regulates GO:0009987 ! cellular process
 
@@ -3229,12 +3503,43 @@ intersection_of: negatively_regulates GO:0016740 ! transferase activity
 relationship: negatively_regulates GO:0016740 ! transferase activity
 
 [Term]
+id: GO:0051641
+name: cellular localization
+namespace: biological_process
+alt_id: GO:1902580
+def: "A cellular localization process whereby a substance or cellular entity, such as a protein complex or organelle, is transported to, and/or maintained in, a specific location within a cell including the localization of substances or cellular entities to the cell membrane." [GOC:tb, GOC:vw]
+subset: goslim_pir
+synonym: "cellular localisation" EXACT [GOC:mah]
+synonym: "establishment and maintenance of cellular localization" EXACT []
+synonym: "establishment and maintenance of localization in cell or cell membrane" EXACT []
+synonym: "intracellular localization" NARROW []
+synonym: "localization within cell" NARROW []
+synonym: "single organism cellular localization" EXACT [GOC:TermGenie]
+synonym: "single-organism cellular localization" RELATED []
+is_a: GO:0009987 ! cellular process
+is_a: GO:0051179 ! localization
+created_by: jl
+creation_date: 2013-12-18T14:04:32Z
+
+[Term]
+id: GO:0051649
+name: establishment of localization in cell
+namespace: biological_process
+def: "Any process, occuring in a cell, that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation." [GOC:ai, GOC:dos, GOC:dph, GOC:tb]
+synonym: "establishment of cellular localization" RELATED [GOC:dph, GOC:tb]
+synonym: "establishment of intracellular localization" NARROW []
+synonym: "establishment of localisation in cell" EXACT [GOC:mah]
+synonym: "establishment of localization within cell" NARROW []
+synonym: "positioning within cell" NARROW []
+is_a: GO:0051234 ! establishment of localization
+relationship: part_of GO:0051641 ! cellular localization
+
+[Term]
 id: GO:0051701
 name: interaction with host
 namespace: biological_process
 def: "An interaction between two organisms living together in more or less intimate association. The term host is used for the larger (macro) of the two members of a symbiosis; the various forms of symbiosis include parasitism, commensalism and mutualism." [GOC:cc]
-is_a: GO:0044419 ! interspecies interaction between organisms
-relationship: part_of GO:0044403 ! symbiont process
+is_a: GO:0044403 ! symbiotic process
 
 [Term]
 id: GO:0051703
@@ -3243,7 +3548,7 @@ namespace: biological_process
 def: "Any process in which an organism has an effect on an organism of the same species." [GOC:ai]
 subset: goslim_pir
 synonym: "intraspecies interaction with other organisms" EXACT []
-is_a: GO:0051704 ! multi-organism process
+is_a: GO:0008150 ! biological_process
 
 [Term]
 id: GO:0051704
@@ -3270,47 +3575,158 @@ is_a: GO:0050896 ! response to stimulus
 
 [Term]
 id: GO:0051817
-name: modification of morphology or physiology of other organism involved in symbiotic interaction
+name: modulation of process of other organism involved in symbiotic interaction
 namespace: biological_process
 def: "The process in which an organism effects a change in the structure or processes of a second organism, where the two organisms are in a symbiotic interaction." [GOC:cc]
 synonym: "modification of morphology or physiology of other organism during symbiotic interaction" RELATED [GOC:dph]
+synonym: "modification of morphology or physiology of other organism involved in symbiotic interaction" RELATED []
+synonym: "modulation of biological process of other organism involved in symbiotic interaction" RELATED []
 synonym: "modulation of morphology or physiology of other organism during symbiotic interaction" RELATED []
 synonym: "regulation of morphology of other organism during symbiotic interaction" NARROW []
 synonym: "regulation of morphology or physiology of other organism during symbiotic interaction" RELATED []
 synonym: "regulation of physiological process in other organism during symbiotic interaction" NARROW []
 synonym: "regulation of physiology of other organism during symbiotic interaction" NARROW []
-is_a: GO:0035821 ! modification of morphology or physiology of other organism
-intersection_of: GO:0035821 ! modification of morphology or physiology of other organism
-intersection_of: part_of GO:0044403 ! symbiont process
-relationship: part_of GO:0044403 ! symbiont process
-
-[Term]
-id: GO:0051828
-name: entry into other organism involved in symbiotic interaction
-namespace: biological_process
-def: "Penetration by an organism into the body, tissues, or cells of a second organism, where the two organisms are in a symbiotic interaction." [GOC:cc]
-synonym: "entry into other organism during symbiotic interaction" RELATED [GOC:tb]
-synonym: "invasion into other organism" EXACT []
-synonym: "invasion of other organism" EXACT []
-synonym: "invasive growth" RELATED []
-synonym: "other organism invasion" EXACT []
-is_a: GO:0051701 ! interaction with host
-
-[Term]
-id: GO:0051830
-name: entry into other organism through barriers of other organism involved in symbiotic interaction
-namespace: biological_process
-def: "Penetration by an organism into a second organism via active breaching of physical barriers, where the two organisms are in a symbiotic interaction." [GOC:cc]
-synonym: "entry into other organism through barriers of other organism during symbiotic interaction" RELATED [GOC:tb]
-is_a: GO:0051828 ! entry into other organism involved in symbiotic interaction
+is_a: GO:0035821 ! modulation of process of other organism
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18605 xsd:anyURI
 
 [Term]
 id: GO:0052002
 name: metabolism by symbiont of substance in host
 namespace: biological_process
 def: "The chemical reactions and pathways performed by an organism in its host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
-is_a: GO:0044003 ! modification by symbiont of host morphology or physiology
+is_a: GO:0044003 ! modulation by symbiont of host process
 is_a: GO:0052214 ! metabolism of substance in other organism involved in symbiotic interaction
+
+[Term]
+id: GO:0052038
+name: modulation by symbiont of host intracellular transport
+namespace: biological_process
+def: "Any process in which an organism modulates the frequency, rate or extent of the directed movement of substances within the cell or cells of the host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
+synonym: "modulation of host intracellular trafficking" EXACT []
+is_a: GO:0044068 ! modulation by symbiont of host cellular process
+is_a: GO:0052230 ! modulation of intracellular transport in other organism involved in symbiotic interaction
+intersection_of: GO:0044068 ! modulation by symbiont of host cellular process
+intersection_of: regulates GO:0046907 ! intracellular transport
+
+[Term]
+id: GO:0052053
+name: negative regulation by symbiont of host catalytic activity
+namespace: biological_process
+def: "Any process in which an organism stops, prevents, or reduces the frequency, rate or extent of host enzyme activity. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
+synonym: "down regulation by symbiont of host enzyme activity" EXACT []
+synonym: "down-regulation by symbiont of host enzyme activity" EXACT []
+synonym: "downregulation by symbiont of host enzyme activity" EXACT []
+synonym: "inhibition by symbiont of host enzyme activity" NARROW []
+synonym: "inhibition of host enzyme activity" EXACT []
+synonym: "negative regulation by symbiont of host enzyme activity" EXACT []
+is_a: GO:0052056 ! negative regulation by symbiont of host molecular function
+is_a: GO:0052148 ! modulation by symbiont of host catalytic activity
+is_a: GO:0052199 ! negative regulation of catalytic activity in other organism involved in symbiotic interaction
+intersection_of: GO:0052055 ! modulation by symbiont of host molecular function
+intersection_of: negatively_regulates GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0052055
+name: modulation by symbiont of host molecular function
+namespace: biological_process
+def: "The process in which an organism effects a change in the function of a host protein via a direct interaction. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:dph, GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "modification by symbiont of host molecular function" EXACT []
+synonym: "modification by symbiont of host protein function" EXACT [GOC:dph, GOC:tb]
+is_a: GO:0044003 ! modulation by symbiont of host process
+is_a: GO:0052205 ! modulation of molecular function in other organism involved in symbiotic interaction
+is_a: GO:0065009 ! regulation of molecular function
+intersection_of: GO:0044003 ! modulation by symbiont of host process
+intersection_of: regulates GO:0003674 ! molecular_function
+
+[Term]
+id: GO:0052056
+name: negative regulation by symbiont of host molecular function
+namespace: biological_process
+def: "Any process in which an organism stops, prevents, or reduces the frequency, rate or extent of the functional activity of host proteins. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:dph, GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "down regulation by symbiont of host protein function" EXACT []
+synonym: "down-regulation by symbiont of host protein function" EXACT []
+synonym: "downregulation by symbiont of host protein function" EXACT []
+synonym: "inhibition by symbiont of host protein function" NARROW []
+synonym: "inhibition of host protein function" EXACT []
+synonym: "negative regulation by symbiont of host protein function" EXACT [GOC:dph, GOC:tb]
+is_a: GO:0052055 ! modulation by symbiont of host molecular function
+is_a: GO:0052204 ! negative regulation of molecular function in other organism involved in symbiotic interaction
+intersection_of: GO:0052055 ! modulation by symbiont of host molecular function
+intersection_of: negatively_regulates GO:0003674 ! molecular_function
+
+[Term]
+id: GO:0052126
+name: movement in host environment
+namespace: biological_process
+def: "The directed movement of an organism or motile cell on, within or near its host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
+synonym: "movement in response to host" EXACT []
+is_a: GO:0051701 ! interaction with host
+
+[Term]
+id: GO:0052148
+name: modulation by symbiont of host catalytic activity
+namespace: biological_process
+def: "The process in which an organism effects a change in host enzyme activity. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "modulation by symbiont of host enzyme activity" EXACT [GOC:tb]
+synonym: "modulation of catalytic activity of host by symbiont" EXACT []
+synonym: "regulation by symbiont of host catalytic activity" EXACT []
+synonym: "regulation of catalytic activity of host by symbiont" EXACT []
+synonym: "regulation of host catalytic activity by symbiont" EXACT []
+is_a: GO:0052055 ! modulation by symbiont of host molecular function
+is_a: GO:0052203 ! modulation of catalytic activity in other organism involved in symbiotic interaction
+intersection_of: GO:0052055 ! modulation by symbiont of host molecular function
+intersection_of: regulates GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0052199
+name: negative regulation of catalytic activity in other organism involved in symbiotic interaction
+namespace: biological_process
+def: "Any process in which an organism stops, prevents, or reduces the frequency, rate or extent of enzyme activity in a second organism, where the two organisms are in a symbiotic interaction." [GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "down regulation of enzyme activity in other organism during symbiotic interaction" RELATED []
+synonym: "down-regulation of enzyme activity in other organism during symbiotic interaction" RELATED []
+synonym: "downregulation of enzyme activity in other organism during symbiotic interaction" RELATED []
+synonym: "inhibition of enzyme activity in other organism" EXACT []
+synonym: "inhibition of enzyme activity in other organism during symbiotic interaction" NARROW []
+synonym: "negative regulation of enzyme activity in other organism during symbiotic interaction" EXACT [GOC:tb]
+is_a: GO:0043086 ! negative regulation of catalytic activity
+is_a: GO:0052203 ! modulation of catalytic activity in other organism involved in symbiotic interaction
+is_a: GO:0052204 ! negative regulation of molecular function in other organism involved in symbiotic interaction
+intersection_of: GO:0052203 ! modulation of catalytic activity in other organism involved in symbiotic interaction
+intersection_of: negatively_regulates GO:0003824 ! catalytic activity
+
+[Term]
+id: GO:0052203
+name: modulation of catalytic activity in other organism involved in symbiotic interaction
+namespace: biological_process
+def: "The process in which an organism effects a change in enzyme activity in a second organism, where the two organisms are in a symbiotic interaction." [GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "modulation of enzyme activity within other organism during symbiotic interaction" EXACT [GOC:tb]
+is_a: GO:0050790 ! regulation of catalytic activity
+is_a: GO:0052205 ! modulation of molecular function in other organism involved in symbiotic interaction
+
+[Term]
+id: GO:0052204
+name: negative regulation of molecular function in other organism involved in symbiotic interaction
+namespace: biological_process
+def: "Any process in which an organism stops, prevents, or reduces the frequency, rate or extent of the functional activity of proteins in a second organism, where the two organisms are in a symbiotic interaction." [GOC:dph, GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "down regulation of protein function in other organism during symbiotic interaction" EXACT []
+synonym: "down-regulation of protein function in other organism during symbiotic interaction" EXACT []
+synonym: "downregulation of protein function in other organism during symbiotic interaction" EXACT []
+synonym: "inhibition of protein function in other organism" EXACT []
+synonym: "inhibition of protein function in other organism during symbiotic interaction" NARROW []
+synonym: "negative regulation of protein function in other organism during symbiotic interaction" EXACT [GOC:dph, GOC:tb]
+is_a: GO:0044362 ! negative regulation of molecular function in other organism
+is_a: GO:0052205 ! modulation of molecular function in other organism involved in symbiotic interaction
+
+[Term]
+id: GO:0052205
+name: modulation of molecular function in other organism involved in symbiotic interaction
+namespace: biological_process
+def: "The process in which an organism effects a change in the function of proteins in a second organism, where the two organisms are in a symbiotic interaction." [GOC:dph, GOC:mtg_pamgo_17jul06, GOC:tb]
+synonym: "modification of molecular function in other organism during symbiotic interaction" EXACT []
+synonym: "modification of protein function in other organism during symbiotic interaction" EXACT [GOC:dph, GOC:tb]
+synonym: "modulation of molecular function in other organism during symbiotic interaction" RELATED [GOC:dph]
+is_a: GO:0044359 ! modulation of molecular function in other organism
+is_a: GO:0051817 ! modulation of process of other organism involved in symbiotic interaction
 
 [Term]
 id: GO:0052214
@@ -3319,16 +3735,43 @@ namespace: biological_process
 def: "The chemical reactions and pathways performed by an organism in a second organism, where the two organisms are in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
 synonym: "metabolism of substance in other organism during symbiotic interaction" RELATED [GOC:dph]
 is_a: GO:0044033 ! multi-organism metabolic process
-relationship: part_of GO:0044403 ! symbiont process
+is_a: GO:0044419 ! interspecies interaction between organisms
 
 [Term]
 id: GO:0052226
-name: biosynthesis of substance in other organism involved in symbiotic interaction
+name: obsolete biosynthesis of substance in other organism involved in symbiotic interaction
 namespace: biological_process
-def: "The chemical reactions and pathways performed by an organism in a second organism resulting in the formation of substances, where the two organisms are in a symbiotic interaction." [ISBN:0198547684]
+def: "OBSOLETE. The chemical reactions and pathways performed by an organism in a second organism resulting in the formation of substances, where the two organisms are in a symbiotic interaction." [ISBN:0198547684]
+comment: This term was obsoleted because there is no evidence that this process exists.
 synonym: "biosynthesis of substance in other organism during symbiotic interaction" RELATED [GOC:dph]
-is_a: GO:0044034 ! multi-organism biosynthetic process
-is_a: GO:0052214 ! metabolism of substance in other organism involved in symbiotic interaction
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18787 xsd:anyURI
+is_obsolete: true
+
+[Term]
+id: GO:0052230
+name: modulation of intracellular transport in other organism involved in symbiotic interaction
+namespace: biological_process
+def: "Any process in which an organism modulates the frequency, rate or extent of the directed movement of substances within the cell or cells of a second organism, where the two organisms are in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
+synonym: "modulation of intracellular trafficking in other organism" EXACT []
+synonym: "modulation of intracellular transport in other organism during symbiotic interaction" RELATED [GOC:dph]
+is_a: GO:0032386 ! regulation of intracellular transport
+is_a: GO:0051817 ! modulation of process of other organism involved in symbiotic interaction
+
+[Term]
+id: GO:0052372
+name: modulation by symbiont of entry into host
+namespace: biological_process
+alt_id: GO:0052371
+def: "Any process in which an organism modulates the frequency, rate or extent to which it enters into the host organism, where the two organisms are in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
+synonym: "modulation by organism of entry into other organism during symbiotic interaction" RELATED []
+synonym: "modulation by symbiont of entry into host" RELATED []
+synonym: "regulation by organism of entry into other organism during symbiotic interaction" RELATED [GOC:tb]
+synonym: "regulation by organism of entry into other organism involved in symbiotic interaction" RELATED []
+is_a: GO:0043903 ! regulation of interspecies interactions between organisms
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: regulates GO:0044409 ! entry into host
+relationship: regulates GO:0044409 ! entry into host
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/19027 xsd:anyURI
 
 [Term]
 id: GO:0055114
@@ -3336,7 +3779,7 @@ name: oxidation-reduction process
 namespace: biological_process
 def: "A metabolic process that results in the removal or addition of one or more electrons to or from a substance, with or without the concomitant removal or addition of a proton or protons." [GOC:dhl, GOC:ecd, GOC:jh2, GOC:jid, GOC:mlg, GOC:rph]
 subset: goslim_pir
-synonym: "oxidation reduction" EXACT [GOC:curators]
+synonym: "oxidation reduction" EXACT []
 synonym: "oxidoreductase process" EXACT systematic_synonym []
 xref: Wikipedia:Redox
 is_a: GO:0008152 ! metabolic process
@@ -3370,6 +3813,18 @@ is_a: GO:0050795 ! regulation of behavior
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0007631 ! feeding behavior
 relationship: regulates GO:0007631 ! feeding behavior
+
+[Term]
+id: GO:0060341
+name: regulation of cellular localization
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of a process in which a cell, a substance, or a cellular entity is transported to, or maintained in a specific location within or in the membrane of a cell." [GOC:dph, GOC:tb]
+synonym: "regulation of cellular localisation" EXACT [GOC:mah]
+is_a: GO:0032879 ! regulation of localization
+is_a: GO:0050794 ! regulation of cellular process
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051641 ! cellular localization
+relationship: regulates GO:0051641 ! cellular localization
 
 [Term]
 id: GO:0060756
@@ -3447,8 +3902,8 @@ name: regulation of molecular function
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of a molecular function, an elemental biological activity occurring at the molecular level, such as catalysis or binding." [GOC:isa_complete]
 subset: gocheck_do_not_annotate
-subset: goslim_agr
 subset: goslim_pir
+subset: goslim_plant
 synonym: "regulation of a molecular function" EXACT []
 is_a: GO:0065007 ! biological regulation
 intersection_of: GO:0008150 ! biological_process
@@ -3467,7 +3922,7 @@ is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0005977 ! glycogen metabolic process
 relationship: regulates GO:0005977 ! glycogen metabolic process
-created_by: midori
+created_by: mah
 creation_date: 2009-08-20T02:44:53Z
 
 [Term]
@@ -3482,7 +3937,7 @@ is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0005977 ! glycogen metabolic process
 relationship: negatively_regulates GO:0005977 ! glycogen metabolic process
-created_by: midori
+created_by: mah
 creation_date: 2009-08-20T02:50:41Z
 
 [Term]
@@ -3497,20 +3952,43 @@ is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0005977 ! glycogen metabolic process
 relationship: positively_regulates GO:0005977 ! glycogen metabolic process
-created_by: midori
+created_by: mah
 creation_date: 2009-08-20T02:53:55Z
 
 [Term]
 id: GO:0071704
 name: organic substance metabolic process
 namespace: biological_process
-def: "The chemical reactions and pathways involving an organic substance, any molecular entity containing carbon." [CHEBI:50860, GOC:mah]
+def: "The chemical reactions and pathways involving an organic substance, any molecular entity containing carbon." [GOC:mah]
 synonym: "organic molecular entity metabolic process" EXACT []
 synonym: "organic molecular entity metabolism" EXACT []
 synonym: "organic substance metabolism" EXACT []
 is_a: GO:0008152 ! metabolic process
-created_by: midori
+created_by: mah
 creation_date: 2010-03-08T03:32:18Z
+
+[Term]
+id: GO:0075294
+name: positive regulation by symbiont of entry into host
+namespace: biological_process
+alt_id: GO:0075295
+def: "Any process that activates or increases the frequency, rate or extent to which it enters into the host organism, where the two organisms are in a symbiotic interaction." [GOC:pamgo_curators]
+synonym: "activation by organism of entry into other organism during symbiotic interaction" NARROW []
+synonym: "activation by symbiont of entry into host" NARROW []
+synonym: "positive regulation by organism of entry into other organism during symbiotic interaction" RELATED [GOC:tb]
+synonym: "positive regulation by organism of entry into other organism involved in symbiotic interaction" RELATED []
+synonym: "up regulation by organism of entry into other organism during symbiotic interaction" RELATED []
+synonym: "up regulation by symbiont of entry into host" EXACT []
+synonym: "up-regulation by organism of entry into other organism during symbiotic interaction" RELATED []
+synonym: "up-regulation by symbiont of entry into host" EXACT []
+synonym: "upregulation by organism of entry into other organism during symbiotic interaction" RELATED []
+synonym: "upregulation by symbiont of entry into host" EXACT []
+is_a: GO:0048518 ! positive regulation of biological process
+is_a: GO:0052372 ! modulation by symbiont of entry into host
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: positively_regulates GO:0044409 ! entry into host
+relationship: positively_regulates GO:0044409 ! entry into host
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/19027 xsd:anyURI
 
 [Term]
 id: GO:0080090
@@ -3521,17 +3999,17 @@ is_a: GO:0019222 ! regulation of metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0044238 ! primary metabolic process
 relationship: regulates GO:0044238 ! primary metabolic process
-created_by: donghui
+created_by: dhl
 creation_date: 2009-04-22T04:30:52Z
 
 [Term]
 id: GO:0085030
-name: symbiont process benefiting host
+name: symbiotic process benefiting host
 namespace: biological_process
 def: "A process carried out by symbiont gene products that enables a symbiotic interaction with a host organism, that is beneficial to the host organism." [GOC:pdt]
 synonym: "mutualism" RELATED []
-is_a: GO:0044403 ! symbiont process
-created_by: janelomax
+is_a: GO:0044403 ! symbiotic process
+created_by: jl
 creation_date: 2010-07-27T01:25:21Z
 
 [Term]
@@ -3542,6 +4020,15 @@ def: "A molecular function that modulates the activity of a gene product or comp
 subset: goslim_flybase_ribbon
 is_a: GO:0003674 ! molecular_function
 relationship: part_of GO:0065009 ! regulation of molecular function
+
+[Term]
+id: GO:0110165
+name: cellular anatomical entity
+namespace: cellular_component
+def: "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex." [GOC:kmv]
+is_a: GO:0005575 ! cellular_component
+created_by: kmv
+creation_date: 2019-08-12T18:01:37Z
 
 [Term]
 id: GO:1900120
@@ -3692,6 +4179,124 @@ created_by: yaf
 creation_date: 2013-02-01T09:56:28Z
 
 [Term]
+id: GO:1902531
+name: regulation of intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0010627
+def: "Any process that modulates the frequency, rate or extent of intracellular signal transduction." [GOC:dph, GOC:signaling, GOC:tb, GOC:TermGenie]
+synonym: "regulation of intracellular protein kinase cascade" NARROW []
+synonym: "regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "regulation of intracellular signaling cascade" EXACT [GOC:TermGenie]
+synonym: "regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+is_a: GO:0009966 ! regulation of signal transduction
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0035556 ! intracellular signal transduction
+relationship: regulates GO:0035556 ! intracellular signal transduction
+created_by: bf
+creation_date: 2013-12-02T11:32:52Z
+
+[Term]
+id: GO:1902532
+name: negative regulation of intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0010741
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of intracellular signal transduction." [GOC:dph, GOC:signaling, GOC:tb, GOC:TermGenie]
+synonym: "down regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "down regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "down regulation of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "down regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "down regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "down regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "down regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "down-regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "down-regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "down-regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "down-regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "down-regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "down-regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "down-regulation of signal transmission via intracellular cascade" RELATED [GOC:TermGenie]
+synonym: "downregulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "downregulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "downregulation of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "downregulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "downregulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "downregulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "downregulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signal transduction" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signaling chain" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "inhibition of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "inhibition of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "negative regulation of intracellular protein kinase cascade" EXACT []
+synonym: "negative regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "negative regulation of intracellular signaling cascade" EXACT [GOC:TermGenie]
+synonym: "negative regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "negative regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "negative regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "negative regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+is_a: GO:0009968 ! negative regulation of signal transduction
+is_a: GO:1902531 ! regulation of intracellular signal transduction
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0035556 ! intracellular signal transduction
+relationship: negatively_regulates GO:0035556 ! intracellular signal transduction
+created_by: bf
+creation_date: 2013-12-02T11:33:01Z
+
+[Term]
+id: GO:1902533
+name: positive regulation of intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0010740
+def: "Any process that activates or increases the frequency, rate or extent of intracellular signal transduction." [GOC:BHF, GOC:dph, GOC:signaling, GOC:tb, GOC:TermGenie]
+synonym: "activation of intracellular signal transduction" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signaling chain" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "activation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "activation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "positive regulation of intracellular protein kinase cascade" NARROW []
+synonym: "positive regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "positive regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "positive regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "positive regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "positive regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "positive regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "up regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "up regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "up regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "up regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "up regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "up-regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "up-regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "up-regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up-regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "up-regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "up-regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up-regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "upregulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "upregulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "upregulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "upregulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "upregulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "upregulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "upregulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+is_a: GO:0009967 ! positive regulation of signal transduction
+is_a: GO:1902531 ! regulation of intracellular signal transduction
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0035556 ! intracellular signal transduction
+relationship: positively_regulates GO:0035556 ! intracellular signal transduction
+created_by: bf
+creation_date: 2013-12-02T11:33:10Z
+
+[Term]
 id: GO:1902579
 name: multi-organism localization
 namespace: biological_process
@@ -3811,6 +4416,18 @@ created_by: tb
 creation_date: 2016-04-19T16:12:39Z
 
 [Term]
+id: GO:1990215
+name: negative regulation by symbiont of host intracellular transport
+namespace: biological_process
+def: "Any process in which an organism stops, prevents, or reduces the frequency, rate or extent of intracellular transport in the host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [PMID:22319451]
+is_a: GO:0032387 ! negative regulation of intracellular transport
+is_a: GO:0052038 ! modulation by symbiont of host intracellular transport
+intersection_of: GO:0044068 ! modulation by symbiont of host cellular process
+intersection_of: negatively_regulates GO:0046907 ! intracellular transport
+created_by: ml
+creation_date: 2013-10-10T15:42:22Z
+
+[Term]
 id: GO:2000026
 name: regulation of multicellular organismal development
 namespace: biological_process
@@ -3820,7 +4437,7 @@ is_a: GO:0051239 ! regulation of multicellular organismal process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0007275 ! multicellular organism development
 relationship: regulates GO:0007275 ! multicellular organism development
-created_by: tanyaberardini
+created_by: tb
 creation_date: 2010-08-05T11:25:59Z
 
 [Term]
@@ -3838,7 +4455,7 @@ is_a: GO:0031326 ! regulation of cellular biosynthetic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0034645 ! cellular macromolecule biosynthetic process
 relationship: regulates GO:0034645 ! cellular macromolecule biosynthetic process
-created_by: tanyaberardini
+created_by: tb
 creation_date: 2010-09-15T08:55:45Z
 
 [Term]
@@ -3857,7 +4474,7 @@ is_a: GO:2000112 ! regulation of cellular macromolecule biosynthetic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0034645 ! cellular macromolecule biosynthetic process
 relationship: negatively_regulates GO:0034645 ! cellular macromolecule biosynthetic process
-created_by: tanyaberardini
+created_by: tb
 creation_date: 2010-09-15T08:55:48Z
 
 [Term]
@@ -3869,7 +4486,7 @@ is_a: GO:0050789 ! regulation of biological process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0022414 ! reproductive process
 relationship: regulates GO:0022414 ! reproductive process
-created_by: midori
+created_by: mah
 creation_date: 2010-11-10T02:44:02Z
 
 [Term]
@@ -3882,7 +4499,7 @@ is_a: GO:2000241 ! regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0022414 ! reproductive process
 relationship: negatively_regulates GO:0022414 ! reproductive process
-created_by: midori
+created_by: mah
 creation_date: 2010-11-10T02:44:05Z
 
 [Term]
@@ -3895,7 +4512,7 @@ is_a: GO:2000241 ! regulation of reproductive process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0022414 ! reproductive process
 relationship: positively_regulates GO:0022414 ! reproductive process
-created_by: midori
+created_by: mah
 creation_date: 2010-11-10T02:44:08Z
 
 [Term]
@@ -3945,7 +4562,7 @@ is_a: GO:0044092 ! negative regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0038023 ! signaling receptor activity
 relationship: negatively_regulates GO:0038023 ! signaling receptor activity
-created_by: rfoulger
+created_by: bf
 creation_date: 2010-12-02T09:28:47Z
 
 [Term]
@@ -3958,7 +4575,7 @@ is_a: GO:0044093 ! positive regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0038023 ! signaling receptor activity
 relationship: positively_regulates GO:0038023 ! signaling receptor activity
-created_by: rfoulger
+created_by: bf
 creation_date: 2010-12-02T09:28:50Z
 
 [Term]
@@ -3972,7 +4589,7 @@ is_a: GO:0032881 ! regulation of polysaccharide metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0005982 ! starch metabolic process
 relationship: regulates GO:0005982 ! starch metabolic process
-created_by: tanyaberardini
+created_by: tb
 creation_date: 2011-07-28T11:33:13Z
 
 [Term]
@@ -3987,7 +4604,7 @@ is_a: GO:2000904 ! regulation of starch metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0005982 ! starch metabolic process
 relationship: negatively_regulates GO:0005982 ! starch metabolic process
-created_by: tanyaberardini
+created_by: tb
 creation_date: 2011-07-28T11:33:17Z
 
 [Term]
@@ -4002,7 +4619,7 @@ is_a: GO:2000904 ! regulation of starch metabolic process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0005982 ! starch metabolic process
 relationship: positively_regulates GO:0005982 ! starch metabolic process
-created_by: tanyaberardini
+created_by: tb
 creation_date: 2011-07-28T11:33:19Z
 
 [Typedef]
@@ -4024,7 +4641,6 @@ id: occurs_in
 name: occurs in
 namespace: external
 xref: BFO:0000066
-holds_over_chain: part_of occurs_in
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -4049,4 +4665,12 @@ name: regulates
 namespace: external
 xref: RO:0002211
 is_transitive: true
+
+[Typedef]
+id: term_tracker_item
+name: term tracker item
+namespace: external
+xref: IAO:0000233
+is_metadata_tag: true
+is_class_level: true
 
