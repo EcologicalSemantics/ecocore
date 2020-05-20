@@ -742,7 +742,7 @@
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000045",
       "meta" : {
         "definition" : {
-          "val" : "Organism that acquires nutrition from a symbiont",
+          "val" : "heterotroph that acquires nutrition from a symbiont",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -752,6 +752,20 @@
       },
       "type" : "CLASS",
       "lbl" : "symbiotroph"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000166",
+      "meta" : {
+        "definition" : {
+          "val" : "A reproductive process wherein a virus uses another cell for reproduction. This process causes the mortality of the host cell via lysis.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "viral predation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000046",
       "meta" : {
@@ -767,6 +781,37 @@
       "type" : "CLASS",
       "lbl" : "endophyte"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000167",
+      "meta" : {
+        "definition" : {
+          "val" : "a folivore that lives in and eats the leaf tissue of plants",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "leaf miner"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000168",
+      "meta" : {
+        "definition" : {
+          "val" : "an herbivore that primarily consumes grasses, leaves, and other soft plant material",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "https://orcid.org/0000-0002-9943-2342"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "herbivorous grazer"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000048",
       "meta" : {
         "definition" : {
@@ -777,6 +822,20 @@
       "type" : "CLASS",
       "lbl" : "lecithotrophic larva"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000169",
+      "meta" : {
+        "definition" : {
+          "val" : "An herbivore that primarily consumes twigs, leaves, and bark of trees and shrubs.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "herbivorous browser"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0007197",
       "meta" : {
         "synonyms" : [ {
@@ -785,6 +844,25 @@
           "xrefs" : [ ]
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000173",
+      "meta" : {
+        "definition" : {
+          "val" : "an organism that can survive and grow in an oxygenated environment",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "aerobic organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "aerobe"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ecocore_00000082",
       "meta" : {
@@ -814,6 +892,25 @@
       "type" : "CLASS",
       "lbl" : "subsurface deposit feeder"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000174",
+      "meta" : {
+        "definition" : {
+          "val" : "an organism capable of producing all amino acids required for its growth",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "prototrophic organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "prototroph"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000053",
       "meta" : {
         "definition" : {
@@ -831,7 +928,7 @@
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000054",
       "meta" : {
         "definition" : {
-          "val" : "Organism that obtains nutrition by breaking down dead or decaying organisms",
+          "val" : "heterotroph that obtains nutrition by breaking down dead or decaying organisms or other organic matter",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -842,10 +939,43 @@
       "type" : "CLASS",
       "lbl" : "decomposer"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000175",
+      "meta" : {
+        "definition" : {
+          "val" : "an organism that is unable to synthesize a particular organic compound required for its growth",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "auxotrophic organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "auxotroph"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000176",
+      "meta" : {
+        "definition" : {
+          "val" : "a decomposer which obtains nutrition by consuming feces",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "coprophage"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000055",
       "meta" : {
         "definition" : {
-          "val" : "An decomposer which obtains nutrition by consuming detritus.",
+          "val" : "A decomposer which obtains nutrition by consuming detritus.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -855,6 +985,50 @@
       },
       "type" : "CLASS",
       "lbl" : "detritivore"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000170",
+      "meta" : {
+        "definition" : {
+          "val" : "a carnivore that primarily eats organisms less than 1 cm in their longest dimension",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "https://orcid.org/0000-0002-9943-2342"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microcarnivore"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000171",
+      "meta" : {
+        "definition" : {
+          "val" : "an organism that uses inorganic sulfur compounds as a terminal electron acceptor during cellular respiration",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sulphur reducing organism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "sulphur reducer",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "sulfur reducing organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "sulfur reducer"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000050",
       "meta" : {
@@ -869,6 +1043,25 @@
       },
       "type" : "CLASS",
       "lbl" : "deposit feeder"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000172",
+      "meta" : {
+        "definition" : {
+          "val" : "an organism that does not require oxygen for growth",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "anaerobic organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "anaerobe"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000051",
       "meta" : {
@@ -2315,7 +2508,7 @@
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000019",
       "meta" : {
         "definition" : {
-          "val" : "An organism which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process.",
+          "val" : "A heterotroph which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
@@ -2467,7 +2660,7 @@
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000015",
       "meta" : {
         "definition" : {
-          "val" : "An organism which consumes fungi.",
+          "val" : "A heterotroph which consumes fungi.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
@@ -2830,13 +3023,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000161",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000155",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000161",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000089",
       "pred" : "is_a",
@@ -2874,6 +3067,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000168",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000019"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000124",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000129"
@@ -2881,6 +3078,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000013",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000175",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000020",
       "pred" : "is_a",
@@ -2902,9 +3103,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000010"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000170",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000088"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000153",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000173",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000013",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
@@ -2950,6 +3159,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000146"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000171",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ecocore_00000082",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000010"
@@ -2982,13 +3195,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000089"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000150",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000148"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000108",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000102"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000148"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000069",
       "pred" : "is_a",
@@ -3002,17 +3215,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000117",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000120"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000115",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000031"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000120"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000127",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000132"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000167",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000084"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000157",
       "pred" : "is_a",
@@ -3138,6 +3355,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001434"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000166",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0022414"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000004",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000034"
@@ -3206,11 +3427,19 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000019"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000176",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000054"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000021",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000076",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000174",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
     }, {
@@ -3222,29 +3451,33 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000054",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000043",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000120"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000099",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000020"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000160",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000135",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000160",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
+    }, {
       "sub" : "http://purl.obolibrary/obo/ECOCORE_00000037",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000038"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000169",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000019"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000110",
       "pred" : "is_a",
@@ -3257,6 +3490,10 @@
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000152",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000172",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000154",
       "pred" : "is_a",
@@ -3334,7 +3571,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "An ontology of core ecological entities"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2019-03-14/ecocore-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-05-18/ecocore-base.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -3420,6 +3657,13 @@
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002215",
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0015979"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ECOCORE_00000169",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/ECOCORE_00000019" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002215",
+        "fillerId" : "http://purl.obolibrary.org/obo/ECOCORE_00000101"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/ECOCORE_00000125",
@@ -3616,6 +3860,16 @@
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002470",
         "fillerId" : "http://purl.obolibrary.org/obo/ENVO_01001103"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/ECOCORE_00000168",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/ECOCORE_00000019" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002215",
+        "fillerId" : "http://purl.obolibrary.org/obo/ECOCORE_00000099"
+      }, {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0002215",
+        "fillerId" : "http://purl.obolibrary.org/obo/ECOCORE_00000139"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/ECOCORE_00000084",

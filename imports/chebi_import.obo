@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2019-03-14/imports/chebi_import.owl
+data-version: ecocore/releases/2020-05-18/imports/chebi_import.owl
 ontology: ecocore/imports/chebi_import
 
 [Term]
@@ -20,7 +20,7 @@ synonym: "electron" EXACT [ChEBI]
 synonym: "Elektron" RELATED [ChEBI]
 synonym: "negatron" RELATED [IUPAC]
 xref: KEGG:C05359
-xref: PMID:21614077 "Europe PMC"
+xref: PMID:21614077 {source="Europe PMC"}
 xref: Wikipedia:Electron
 is_a: CHEBI:36338 ! lepton
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
@@ -97,7 +97,7 @@ namespace: chebi_ontology
 def: "A cyclic tetrapyrrole anion that is the carbanion obtained by removal of the acidic proton from position 21 of any chlorophyll. Major species at pH 7.3" []
 subset: 3_STAR
 synonym: "a chlorophyll" RELATED [UniProt]
-xref: Wikipedia:Chlorophyll "SUBMITTER"
+xref: Wikipedia:Chlorophyll {source="SUBMITTER"}
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
 relationship: is_conjugate_base_of CHEBI:28966 ! chlorophyll
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
@@ -121,6 +121,15 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C29H18MgN4O5R4" xs
 property_value: http://purl.obolibrary.org/obo/chebi/mass "526.783" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "526.11276" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C1=2N3C(C=C4[N+]5=C(C=C6N7C8=C(C9=[N+](C(=C1)[C@H]([C@@H]9CCC([O-])=O)C)[Mg-2]735)[C-](C(C8=C6C)=O)C(=O)OC)C(=C4*)*)=C(C2*)*" xsd:string
+
+[Term]
+id: CHEBI:149552
+name: emetic
+namespace: chebi_ontology
+def: "Any agent that induces nausea and vomiting." []
+subset: 3_STAR
+synonym: "emetics" RELATED [ChEBI]
+is_a: CHEBI:23888 ! drug
 
 [Term]
 id: CHEBI:15022
@@ -184,17 +193,18 @@ synonym: "Wasser" RELATED [ChEBI]
 synonym: "WATER" EXACT [PDBeChem]
 synonym: "Water" EXACT [KEGG_COMPOUND]
 synonym: "water" EXACT IUPAC_NAME [IUPAC]
-xref: Beilstein:3587155 "Beilstein"
-xref: CAS:7732-18-5 "KEGG COMPOUND"
-xref: Gmelin:117 "Gmelin"
+xref: Beilstein:3587155 {source="Beilstein"}
+xref: CAS:7732-18-5 {source="NIST Chemistry WebBook"}
+xref: CAS:7732-18-5 {source="ChemIDplus"}
+xref: CAS:7732-18-5 {source="KEGG COMPOUND"}
+xref: Gmelin:117 {source="Gmelin"}
 xref: HMDB:HMDB0002111
 xref: KEGG:C00001
 xref: KEGG:D00001
 xref: MetaCyc:WATER
 xref: MolBase:1
 xref: PDBeChem:HOH
-xref: PDBeChem:MTO
-xref: Reaxys:3587155 "Reaxys"
+xref: Reaxys:3587155 {source="Reaxys"}
 xref: Wikipedia:Water
 is_a: CHEBI:33693 ! oxygen hydride
 is_a: CHEBI:37176 ! mononuclear parent hydride
@@ -240,21 +250,23 @@ synonym: "O2" RELATED [IUPAC]
 synonym: "O2" RELATED [KEGG_COMPOUND]
 synonym: "Oxygen" RELATED [KEGG_COMPOUND]
 synonym: "OXYGEN MOLECULE" RELATED [PDBeChem]
-xref: CAS:7782-44-7 "KEGG COMPOUND"
-xref: Gmelin:485 "Gmelin"
+xref: CAS:7782-44-7 {source="NIST Chemistry WebBook"}
+xref: CAS:7782-44-7 {source="ChemIDplus"}
+xref: CAS:7782-44-7 {source="KEGG COMPOUND"}
+xref: Gmelin:485 {source="Gmelin"}
 xref: HMDB:HMDB0001377
 xref: KEGG:C00007
 xref: KEGG:D00003
 xref: MetaCyc:OXYGEN-MOLECULE
 xref: MolBase:750
 xref: PDBeChem:OXY
-xref: PMID:10906528 "Europe PMC"
-xref: PMID:16977326 "Europe PMC"
-xref: PMID:18210929 "Europe PMC"
-xref: PMID:18638417 "Europe PMC"
-xref: PMID:19840863 "Europe PMC"
-xref: PMID:7710549 "Europe PMC"
-xref: PMID:9463773 "Europe PMC"
+xref: PMID:10906528 {source="Europe PMC"}
+xref: PMID:16977326 {source="Europe PMC"}
+xref: PMID:18210929 {source="Europe PMC"}
+xref: PMID:18638417 {source="Europe PMC"}
+xref: PMID:19840863 {source="Europe PMC"}
+xref: PMID:7710549 {source="Europe PMC"}
+xref: PMID:9463773 {source="Europe PMC"}
 xref: Wikipedia:Oxygen
 is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:25362 ! elemental molecule
@@ -343,29 +355,30 @@ synonym: "methane" EXACT [UniProt]
 synonym: "methane" EXACT [ChEBI]
 synonym: "methyl hydride" RELATED [ChemIDplus]
 synonym: "tetrahydridocarbon" EXACT IUPAC_NAME [IUPAC]
-xref: Beilstein:1718732 "ChemIDplus"
-xref: CAS:74-82-8 "KEGG COMPOUND"
-xref: Gmelin:59 "Gmelin"
+xref: Beilstein:1718732 {source="ChemIDplus"}
+xref: CAS:74-82-8 {source="NIST Chemistry WebBook"}
+xref: CAS:74-82-8 {source="ChemIDplus"}
+xref: CAS:74-82-8 {source="KEGG COMPOUND"}
+xref: Gmelin:59 {source="Gmelin"}
 xref: HMDB:HMDB0002714
 xref: KEGG:C01438
 xref: MetaCyc:CH4
 xref: Patent:FR994032
 xref: Patent:US2583090
-xref: PDBeChem:CH3
-xref: PMID:17791569 "Europe PMC"
-xref: PMID:23104415 "Europe PMC"
-xref: PMID:23353606 "Europe PMC"
-xref: PMID:23376302 "Europe PMC"
-xref: PMID:23397538 "Europe PMC"
-xref: PMID:23718889 "Europe PMC"
-xref: PMID:23739479 "Europe PMC"
-xref: PMID:23742231 "Europe PMC"
-xref: PMID:23756351 "Europe PMC"
-xref: PMID:24132456 "Europe PMC"
-xref: PMID:24161402 "Europe PMC"
-xref: PMID:24259373 "Europe PMC"
-xref: Reaxys:1718732 "Reaxys"
-xref: UM-BBD_compID:c0095 "UM-BBD"
+xref: PMID:17791569 {source="Europe PMC"}
+xref: PMID:23104415 {source="Europe PMC"}
+xref: PMID:23353606 {source="Europe PMC"}
+xref: PMID:23376302 {source="Europe PMC"}
+xref: PMID:23397538 {source="Europe PMC"}
+xref: PMID:23718889 {source="Europe PMC"}
+xref: PMID:23739479 {source="Europe PMC"}
+xref: PMID:23742231 {source="Europe PMC"}
+xref: PMID:23756351 {source="Europe PMC"}
+xref: PMID:24132456 {source="Europe PMC"}
+xref: PMID:24161402 {source="Europe PMC"}
+xref: PMID:24259373 {source="Europe PMC"}
+xref: Reaxys:1718732 {source="Reaxys"}
+xref: UM-BBD_compID:c0095 {source="UM-BBD"}
 xref: Wikipedia:Methane
 is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:18310 ! alkane
@@ -400,8 +413,9 @@ synonym: "Hydroxide ion" RELATED [KEGG_COMPOUND]
 synonym: "OH(-)" RELATED [IUPAC]
 synonym: "OH-" RELATED [KEGG_COMPOUND]
 synonym: "oxidanide" EXACT IUPAC_NAME [IUPAC]
-xref: CAS:14280-30-9 "NIST Chemistry WebBook"
-xref: Gmelin:24714 "Gmelin"
+xref: CAS:14280-30-9 {source="ChemIDplus"}
+xref: CAS:14280-30-9 {source="NIST Chemistry WebBook"}
+xref: Gmelin:24714 {source="Gmelin"}
 xref: KEGG:C01328
 xref: PDBeChem:OH
 is_a: CHEBI:33693 ! oxygen hydride
@@ -441,43 +455,45 @@ synonym: "E-290" RELATED [ChEBI]
 synonym: "E290" RELATED [ChEBI]
 synonym: "methanedione" EXACT IUPAC_NAME [IUPAC]
 synonym: "R-744" RELATED [ChEBI]
-xref: Beilstein:1900390 "Beilstein"
-xref: CAS:124-38-9 "KEGG COMPOUND"
-xref: Drug_Central:4256 "DrugCentral"
-xref: Gmelin:989 "Gmelin"
+xref: Beilstein:1900390 {source="Beilstein"}
+xref: CAS:124-38-9 {source="ChemIDplus"}
+xref: CAS:124-38-9 {source="NIST Chemistry WebBook"}
+xref: CAS:124-38-9 {source="KEGG COMPOUND"}
+xref: Drug_Central:4256 {source="DrugCentral"}
+xref: Gmelin:989 {source="Gmelin"}
 xref: HMDB:HMDB0001967
 xref: KEGG:C00011
 xref: KEGG:D00004
 xref: MetaCyc:CARBON-DIOXIDE
 xref: MolBase:752
 xref: PDBeChem:CO2
-xref: PMID:10826146 "Europe PMC"
-xref: PMID:11094503 "Europe PMC"
-xref: PMID:11584085 "Europe PMC"
-xref: PMID:11802652 "Europe PMC"
-xref: PMID:14639145 "Europe PMC"
-xref: PMID:15050588 "Europe PMC"
-xref: PMID:16591971 "Europe PMC"
-xref: PMID:16656478 "Europe PMC"
-xref: PMID:16659660 "Europe PMC"
-xref: PMID:17190796 "Europe PMC"
-xref: PMID:17448243 "Europe PMC"
-xref: PMID:17878298 "Europe PMC"
-xref: PMID:17884085 "Europe PMC"
-xref: PMID:19043767 "Europe PMC"
-xref: PMID:19259576 "Europe PMC"
-xref: PMID:19854893 "Europe PMC"
-xref: PMID:23384758 "Europe PMC"
-xref: PMID:23828359 "Europe PMC"
-xref: PMID:24258718 "Europe PMC"
-xref: PMID:8482095 "Europe PMC"
-xref: PMID:8818713 "Europe PMC"
-xref: PMID:8869828 "Europe PMC"
-xref: PMID:9611769 "Europe PMC"
-xref: PMID:9730350 "Europe PMC"
+xref: PMID:10826146 {source="Europe PMC"}
+xref: PMID:11094503 {source="Europe PMC"}
+xref: PMID:11584085 {source="Europe PMC"}
+xref: PMID:11802652 {source="Europe PMC"}
+xref: PMID:14639145 {source="Europe PMC"}
+xref: PMID:15050588 {source="Europe PMC"}
+xref: PMID:16591971 {source="Europe PMC"}
+xref: PMID:16656478 {source="Europe PMC"}
+xref: PMID:16659660 {source="Europe PMC"}
+xref: PMID:17190796 {source="Europe PMC"}
+xref: PMID:17448243 {source="Europe PMC"}
+xref: PMID:17878298 {source="Europe PMC"}
+xref: PMID:17884085 {source="Europe PMC"}
+xref: PMID:19043767 {source="Europe PMC"}
+xref: PMID:19259576 {source="Europe PMC"}
+xref: PMID:19854893 {source="Europe PMC"}
+xref: PMID:23384758 {source="Europe PMC"}
+xref: PMID:23828359 {source="Europe PMC"}
+xref: PMID:24258718 {source="Europe PMC"}
+xref: PMID:8482095 {source="Europe PMC"}
+xref: PMID:8818713 {source="Europe PMC"}
+xref: PMID:8869828 {source="Europe PMC"}
+xref: PMID:9611769 {source="Europe PMC"}
+xref: PMID:9730350 {source="Europe PMC"}
 xref: PPDB:119
-xref: Reaxys:1900390 "Reaxys"
-xref: UM-BBD_compID:c0131 "UM-BBD"
+xref: Reaxys:1900390 {source="Reaxys"}
+xref: UM-BBD_compID:c0131 {source="UM-BBD"}
 xref: Wikipedia:Carbon_dioxide
 is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:23014 ! carbon oxide
@@ -539,8 +555,9 @@ alt_id: CHEBI:3633
 subset: 3_STAR
 synonym: "Chlorophyllid a" RELATED [ChEBI]
 synonym: "Chlorophyllide a" EXACT [KEGG_COMPOUND]
-xref: Beilstein:5801116 "Beilstein"
-xref: CAS:14897-06-4 "ChemIDplus"
+xref: Beilstein:5801116 {source="Beilstein"}
+xref: CAS:14897-06-4 {source="ChemIDplus"}
+xref: CAS:14897-06-4 {source="KEGG COMPOUND"}
 xref: KEGG:C02139
 xref: KNApSAcK:C00007316
 is_a: CHEBI:25248 ! methyl ester
@@ -574,34 +591,36 @@ synonym: "carbon monoxide" EXACT IUPAC_NAME [IUPAC]
 synonym: "carbon(II) oxide" EXACT IUPAC_NAME [IUPAC]
 synonym: "CO" RELATED [UniProt]
 synonym: "CO" RELATED [KEGG_COMPOUND]
-xref: Beilstein:1900508 "Beilstein"
-xref: Beilstein:3535285 "Beilstein"
-xref: Beilstein:3587264 "Beilstein"
-xref: CAS:630-08-0 "NIST Chemistry WebBook"
-xref: Gmelin:421 "Gmelin"
+xref: Beilstein:1900508 {source="Beilstein"}
+xref: Beilstein:3535285 {source="Beilstein"}
+xref: Beilstein:3587264 {source="Beilstein"}
+xref: CAS:630-08-0 {source="KEGG COMPOUND"}
+xref: CAS:630-08-0 {source="ChemIDplus"}
+xref: CAS:630-08-0 {source="NIST Chemistry WebBook"}
+xref: Gmelin:421 {source="Gmelin"}
 xref: HMDB:HMDB0001361
 xref: KEGG:C00237
 xref: KEGG:D09706
 xref: MetaCyc:CARBON-MONOXIDE
 xref: MolBase:753
 xref: PDBeChem:CMO
-xref: PMID:10085152 "Europe PMC"
-xref: PMID:10679539 "Europe PMC"
-xref: PMID:11572959 "Europe PMC"
-xref: PMID:14527438 "Europe PMC"
-xref: PMID:14563665 "Europe PMC"
-xref: PMID:15127883 "Europe PMC"
-xref: PMID:15598489 "Europe PMC"
-xref: PMID:16371440 "Europe PMC"
-xref: PMID:16520836 "Europe PMC"
-xref: PMID:17041734 "Europe PMC"
-xref: PMID:18094356 "Europe PMC"
-xref: PMID:19909254 "Europe PMC"
-xref: PMID:23762709 "Europe PMC"
-xref: PMID:7022476 "Europe PMC"
-xref: PMID:8240252 "Europe PMC"
-xref: PMID:8620577 "Europe PMC"
-xref: UM-BBD_compID:c0369 "UM-BBD"
+xref: PMID:10085152 {source="Europe PMC"}
+xref: PMID:10679539 {source="Europe PMC"}
+xref: PMID:11572959 {source="Europe PMC"}
+xref: PMID:14527438 {source="Europe PMC"}
+xref: PMID:14563665 {source="Europe PMC"}
+xref: PMID:15127883 {source="Europe PMC"}
+xref: PMID:15598489 {source="Europe PMC"}
+xref: PMID:16371440 {source="Europe PMC"}
+xref: PMID:16520836 {source="Europe PMC"}
+xref: PMID:17041734 {source="Europe PMC"}
+xref: PMID:18094356 {source="Europe PMC"}
+xref: PMID:19909254 {source="Europe PMC"}
+xref: PMID:23762709 {source="Europe PMC"}
+xref: PMID:7022476 {source="Europe PMC"}
+xref: PMID:8240252 {source="Europe PMC"}
+xref: PMID:8620577 {source="Europe PMC"}
+xref: UM-BBD_compID:c0369 {source="UM-BBD"}
 xref: Wikipedia:Carbon_monoxide
 is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:23014 ! carbon oxide
@@ -647,10 +666,11 @@ synonym: "NO3(-)" RELATED [IUPAC]
 synonym: "trioxidonitrate(1-)" EXACT IUPAC_NAME [IUPAC]
 synonym: "trioxonitrate(1-)" EXACT IUPAC_NAME [IUPAC]
 synonym: "trioxonitrate(V)" EXACT IUPAC_NAME [IUPAC]
-xref: Beilstein:3587575 "Beilstein"
-xref: CAS:14797-55-8 "NIST Chemistry WebBook"
-xref: Gmelin:1574 "Gmelin"
-xref: MetaCyc:NITRATE "SUBMITTER"
+xref: Beilstein:3587575 {source="Beilstein"}
+xref: CAS:14797-55-8 {source="ChemIDplus"}
+xref: CAS:14797-55-8 {source="NIST Chemistry WebBook"}
+xref: Gmelin:1574 {source="Gmelin"}
+xref: MetaCyc:NITRATE {source="SUBMITTER"}
 xref: PDBeChem:NO3
 xref: Wikipedia:Nitrate
 is_a: CHEBI:33458 ! nitrogen oxoanion
@@ -689,32 +709,34 @@ synonym: "spirit of wood" RELATED [HMDB]
 synonym: "wood alcohol" RELATED [ChemIDplus]
 synonym: "wood naphtha" RELATED [ChemIDplus]
 synonym: "wood spirit" RELATED [NIST_Chemistry_WebBook]
-xref: Beilstein:1098229 "Beilstein"
-xref: CAS:67-56-1 "NIST Chemistry WebBook"
-xref: Gmelin:449 "Gmelin"
+xref: Beilstein:1098229 {source="Beilstein"}
+xref: CAS:67-56-1 {source="KEGG COMPOUND"}
+xref: CAS:67-56-1 {source="NIST Chemistry WebBook"}
+xref: CAS:67-56-1 {source="ChemIDplus"}
+xref: Gmelin:449 {source="Gmelin"}
 xref: HMDB:HMDB0001875
 xref: KEGG:C00132
 xref: KEGG:D02309
 xref: MetaCyc:METOH
 xref: PDBeChem:MOH
-xref: PMID:11141607 "Europe PMC"
-xref: PMID:11430978 "Europe PMC"
-xref: PMID:11489599 "Europe PMC"
-xref: PMID:11680737 "Europe PMC"
-xref: PMID:11684179 "Europe PMC"
-xref: PMID:14012711 "Europe PMC"
-xref: PMID:14678513 "Europe PMC"
-xref: PMID:14760634 "Europe PMC"
-xref: PMID:15172721 "Europe PMC"
-xref: PMID:15906011 "Europe PMC"
-xref: PMID:16705261 "Europe PMC"
-xref: PMID:17451998 "Europe PMC"
-xref: PMID:17733096 "Europe PMC"
-xref: PMID:19064074 "Europe PMC"
-xref: PMID:19850112 "Europe PMC"
-xref: PMID:20314698 "Europe PMC"
-xref: Reaxys:1098229 "Reaxys"
-xref: UM-BBD_compID:c0132 "UM-BBD"
+xref: PMID:11141607 {source="Europe PMC"}
+xref: PMID:11430978 {source="Europe PMC"}
+xref: PMID:11489599 {source="Europe PMC"}
+xref: PMID:11680737 {source="Europe PMC"}
+xref: PMID:11684179 {source="Europe PMC"}
+xref: PMID:14012711 {source="Europe PMC"}
+xref: PMID:14678513 {source="Europe PMC"}
+xref: PMID:14760634 {source="Europe PMC"}
+xref: PMID:15172721 {source="Europe PMC"}
+xref: PMID:15906011 {source="Europe PMC"}
+xref: PMID:16705261 {source="Europe PMC"}
+xref: PMID:17451998 {source="Europe PMC"}
+xref: PMID:17733096 {source="Europe PMC"}
+xref: PMID:19064074 {source="Europe PMC"}
+xref: PMID:19850112 {source="Europe PMC"}
+xref: PMID:20314698 {source="Europe PMC"}
+xref: Reaxys:1098229 {source="Reaxys"}
+xref: UM-BBD_compID:c0132 {source="UM-BBD"}
 xref: Wikipedia:Methanol
 is_a: CHEBI:134179 ! volatile organic compound
 is_a: CHEBI:15734 ! primary alcohol
@@ -757,17 +779,19 @@ synonym: "Hydrogen chloride" EXACT [KEGG_COMPOUND]
 synonym: "hydrogen chloride" EXACT IUPAC_NAME [IUPAC]
 synonym: "Hydrogenchlorid" RELATED [ChEBI]
 synonym: "Wasserstoffchlorid" RELATED [ChEBI]
-xref: CAS:7647-01-0 "KEGG COMPOUND"
-xref: Drug_Central:4568 "DrugCentral"
-xref: Gmelin:322 "Gmelin"
+xref: CAS:7647-01-0 {source="ChemIDplus"}
+xref: CAS:7647-01-0 {source="NIST Chemistry WebBook"}
+xref: CAS:7647-01-0 {source="KEGG COMPOUND"}
+xref: Drug_Central:4568 {source="DrugCentral"}
+xref: Gmelin:322 {source="Gmelin"}
 xref: HMDB:HMDB0002306
 xref: KEGG:C01327
 xref: KEGG:D02057
 xref: MetaCyc:HCL
-xref: PMID:15823700 "Europe PMC"
-xref: PMID:17492841 "Europe PMC"
-xref: PMID:22804993 "Europe PMC"
-xref: Reaxys:1098214 "Reaxys"
+xref: PMID:15823700 {source="Europe PMC"}
+xref: PMID:17492841 {source="Europe PMC"}
+xref: PMID:22804993 {source="Europe PMC"}
+xref: Reaxys:1098214 {source="Reaxys"}
 xref: Wikipedia:HCl
 xref: Wikipedia:Hydrochloric_acid
 is_a: CHEBI:138675 ! gas molecular entity
@@ -821,15 +845,18 @@ synonym: "chloride(1-)" EXACT IUPAC_NAME [IUPAC]
 synonym: "Chlorine anion" RELATED [NIST_Chemistry_WebBook]
 synonym: "Cl(-)" RELATED [IUPAC]
 synonym: "Cl-" RELATED [KEGG_COMPOUND]
-xref: Beilstein:3587171 "Beilstein"
-xref: CAS:16887-00-6 "KEGG COMPOUND"
-xref: Gmelin:14910 "Gmelin"
+xref: Beilstein:3587171 {source="Beilstein"}
+xref: CAS:16887-00-6 {source="ChemIDplus"}
+xref: CAS:16887-00-6 {source="NIST Chemistry WebBook"}
+xref: CAS:16887-00-6 {source="KEGG COMPOUND"}
+xref: Gmelin:14910 {source="Gmelin"}
 xref: KEGG:C00115
 xref: KEGG:C00698
 xref: PDBeChem:CL
-xref: UM-BBD_compID:c0884 "UM-BBD"
+xref: UM-BBD_compID:c0884 {source="UM-BBD"}
 is_a: CHEBI:16042 ! halide anion
 is_a: CHEBI:33432 ! monoatomic chlorine
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: is_conjugate_base_of CHEBI:17883 ! hydrogen chloride
@@ -859,17 +886,19 @@ synonym: "N2" RELATED [IUPAC]
 synonym: "N2" RELATED [KEGG_COMPOUND]
 synonym: "N2" RELATED [UniProt]
 synonym: "Nitrogen" RELATED [KEGG_COMPOUND]
-xref: CAS:7727-37-9 "NIST Chemistry WebBook"
-xref: Drug_Central:4251 "DrugCentral"
-xref: Gmelin:150 "Gmelin"
+xref: CAS:7727-37-9 {source="ChemIDplus"}
+xref: CAS:7727-37-9 {source="NIST Chemistry WebBook"}
+xref: CAS:7727-37-9 {source="KEGG COMPOUND"}
+xref: Drug_Central:4251 {source="DrugCentral"}
+xref: Gmelin:150 {source="Gmelin"}
 xref: HMDB:HMDB0001371
 xref: KEGG:C00697
 xref: KEGG:D00083
 xref: MetaCyc:NITROGEN-MOLECULE
 xref: PDBeChem:HDZ
-xref: PMID:18334638 "Europe PMC"
-xref: PMID:22237545 "Europe PMC"
-xref: Reaxys:15940095 "Reaxys"
+xref: PMID:18334638 {source="Europe PMC"}
+xref: PMID:22237545 {source="Europe PMC"}
+xref: Reaxys:15940095 {source="Reaxys"}
 xref: Wikipedia:Nitrogen
 is_a: CHEBI:138675 ! gas molecular entity
 is_a: CHEBI:25362 ! elemental molecule
@@ -919,19 +948,20 @@ synonym: "[(2E,7R,11R)-3,7,11,15-tetramethylhexadec-2-en-1-yl (2(2)R,17S,18S)-7-
 synonym: "Chlorophyll" RELATED [ChemIDplus]
 synonym: "CHLOROPHYLL A" EXACT [PDBeChem]
 synonym: "Chlorophyll a" EXACT [KEGG_COMPOUND]
-xref: Beilstein:1208847 "Beilstein"
-xref: Beilstein:4651978 "Beilstein"
-xref: CAS:479-61-8 "ChemIDplus"
+xref: Beilstein:1208847 {source="Beilstein"}
+xref: Beilstein:4651978 {source="Beilstein"}
+xref: CAS:479-61-8 {source="KEGG COMPOUND"}
+xref: CAS:479-61-8 {source="ChemIDplus"}
 xref: COMe:MOL000003
 xref: DrugBank:DB02133
-xref: Gmelin:475109 "Gmelin"
+xref: Gmelin:475109 {source="Gmelin"}
 xref: KEGG:C05306
 xref: KNApSAcK:C00001528
-xref: PDBeChem:CL1
 xref: PDBeChem:CLA
 is_a: CHEBI:25248 ! methyl ester
 is_a: CHEBI:28966 ! chlorophyll
 relationship: has_functional_parent CHEBI:16900 ! chlorophyllide a
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: is_conjugate_acid_of CHEBI:58416 ! chlorophyll a(1-)
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C55H72MgN4O5" xsd:string
@@ -1053,13 +1083,14 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [UniProt]
 synonym: "carbonyl group" EXACT [ChEBI]
+synonym: "carbonyl group" EXACT [UniProt]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "28.01010" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "27.99491" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "O=C(*)*" xsd:string
 
 [Term]
 id: CHEBI:23114
@@ -1373,9 +1404,9 @@ synonym: "Magnesium" RELATED [ChEBI]
 synonym: "magnesium" EXACT IUPAC_NAME [IUPAC]
 synonym: "magnesium" RELATED [ChEBI]
 synonym: "Mg" RELATED [IUPAC]
-xref: CAS:7439-95-4 "ChemIDplus"
+xref: CAS:7439-95-4 {source="ChemIDplus"}
 xref: DrugBank:DB01378
-xref: Gmelin:16207 "Gmelin"
+xref: Gmelin:16207 {source="Gmelin"}
 xref: KEGG:C00305
 xref: WebElements:Mg
 is_a: CHEBI:22313 ! alkaline earth metal atom
@@ -1687,8 +1718,8 @@ synonym: "natrium" RELATED [IUPAC]
 synonym: "sodio" RELATED [ChemIDplus]
 synonym: "sodium" EXACT IUPAC_NAME [IUPAC]
 synonym: "sodium" RELATED [ChEBI]
-xref: CAS:7440-23-5 "ChemIDplus"
-xref: Gmelin:16221 "Gmelin"
+xref: CAS:7440-23-5 {source="ChemIDplus"}
+xref: Gmelin:16221 {source="Gmelin"}
 xref: KEGG:C01330
 xref: WebElements:Na
 is_a: CHEBI:22314 ! alkali metal atom
@@ -1720,17 +1751,21 @@ synonym: "salt" RELATED [ChemIDplus]
 synonym: "sodium chloride" EXACT [ChEBI]
 synonym: "sodium chloride" EXACT IUPAC_NAME [IUPAC]
 synonym: "table salt" RELATED [ChemIDplus]
-xref: Beilstein:3534976 "Beilstein"
-xref: CAS:7647-14-5 "KEGG COMPOUND"
-xref: Gmelin:13673 "Gmelin"
+xref: Beilstein:3534976 {source="Beilstein"}
+xref: CAS:7647-14-5 {source="ChemIDplus"}
+xref: CAS:7647-14-5 {source="NIST Chemistry WebBook"}
+xref: CAS:7647-14-5 {source="KEGG COMPOUND"}
+xref: Gmelin:13673 {source="Gmelin"}
 xref: KEGG:C13563
 xref: KEGG:D02056
 xref: MetaCyc:NACL
 xref: PPDB:595
-xref: Reaxys:3534976 "Reaxys"
+xref: Reaxys:3534976 {source="Reaxys"}
 xref: Wikipedia:Sodium_Chloride
 is_a: CHEBI:36093 ! inorganic chloride
 is_a: CHEBI:38702 ! inorganic sodium salt
+relationship: has_role CHEBI:149552 ! emetic
+relationship: has_role CHEBI:79314 ! flame retardant
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "ClNa" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/ClH.Na/h1H;/q;+1/p-1" xsd:string
@@ -1801,7 +1836,8 @@ synonym: "carbone" RELATED [ChEBI]
 synonym: "carbonium" RELATED [ChEBI]
 synonym: "carbono" RELATED [ChEBI]
 synonym: "Kohlenstoff" RELATED [ChEBI]
-xref: CAS:7440-44-0 "KEGG COMPOUND"
+xref: CAS:7440-44-0 {source="ChemIDplus"}
+xref: CAS:7440-44-0 {source="KEGG COMPOUND"}
 xref: KEGG:C06265
 xref: WebElements:C
 is_a: CHEBI:25585 ! nonmetal atom
@@ -1828,10 +1864,11 @@ subset: 3_STAR
 synonym: "Chlorophyll" EXACT [KEGG_COMPOUND]
 synonym: "chlorophyll" EXACT [JCBN]
 synonym: "chlorophylls" EXACT IUPAC_NAME [IUPAC]
-xref: CAS:1406-65-1 "KEGG COMPOUND"
+xref: CAS:1406-65-1 {source="KEGG COMPOUND"}
+xref: CAS:1406-65-1 {source="ChemIDplus"}
 xref: COMe:MOL000012
 xref: KEGG:C01793
-xref: PMID:29286160 "Europe PMC"
+xref: PMID:29286160 {source="Europe PMC"}
 is_a: CHEBI:25111 ! magnesium porphyrin
 relationship: is_conjugate_acid_of CHEBI:139291 ! chlorophyll(1-)
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
@@ -1879,14 +1916,16 @@ synonym: "SODIUM ION" RELATED [PDBeChem]
 synonym: "sodium(1+)" EXACT IUPAC_NAME [IUPAC]
 synonym: "sodium(1+) ion" EXACT IUPAC_NAME [IUPAC]
 synonym: "sodium(I) cation" EXACT IUPAC_NAME [IUPAC]
-xref: CAS:17341-25-2 "ChemIDplus"
-xref: Gmelin:15196 "Gmelin"
+xref: CAS:17341-25-2 {source="ChemIDplus"}
+xref: CAS:17341-25-2 {source="NIST Chemistry WebBook"}
+xref: Gmelin:15196 {source="Gmelin"}
 xref: KEGG:C01330
 xref: PDBeChem:NA
 is_a: CHEBI:25414 ! monoatomic monocation
 is_a: CHEBI:33504 ! alkali metal cation
 is_a: CHEBI:37246 ! elemental sodium
 is_a: CHEBI:60242 ! monovalent inorganic cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:77746 ! human metabolite
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "Na" xsd:string
@@ -1905,8 +1944,8 @@ synonym: "[CH2](2-)" RELATED [ChEBI]
 synonym: "CH2(2-)" RELATED [IUPAC]
 synonym: "dihydridocarbonate(2-)" EXACT IUPAC_NAME [IUPAC]
 synonym: "methanediide" EXACT IUPAC_NAME [IUPAC]
-xref: Beilstein:5915711 "Beilstein"
-xref: Gmelin:322698 "Gmelin"
+xref: Beilstein:5915711 {source="Beilstein"}
+xref: Gmelin:322698 {source="Gmelin"}
 is_a: CHEBI:38222 ! hydrocarbyl anion
 relationship: is_conjugate_base_of CHEBI:29438 ! methanide
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-2" xsd:string
@@ -1930,8 +1969,9 @@ synonym: "Hydronium ion" RELATED [ChemIDplus]
 synonym: "oxidanium" EXACT IUPAC_NAME [IUPAC]
 synonym: "oxonium" EXACT IUPAC_NAME [IUPAC]
 synonym: "trihydridooxygen(1+)" EXACT IUPAC_NAME [IUPAC]
-xref: CAS:13968-08-6 "NIST Chemistry WebBook"
-xref: Gmelin:141 "Gmelin"
+xref: CAS:13968-08-6 {source="ChemIDplus"}
+xref: CAS:13968-08-6 {source="NIST Chemistry WebBook"}
+xref: Gmelin:141 {source="Gmelin"}
 xref: MolBase:1646
 is_a: CHEBI:33693 ! oxygen hydride
 is_a: CHEBI:50313 ! onium cation
@@ -1955,9 +1995,9 @@ synonym: "lambda(2)-methanuide" RELATED [IUPAC]
 synonym: "methanide" EXACT IUPAC_NAME [IUPAC]
 synonym: "methyl anion" RELATED [IUPAC]
 synonym: "trihydridocarbonate(1-)" EXACT IUPAC_NAME [IUPAC]
-xref: Beilstein:1813938 "Beilstein"
-xref: CAS:15194-58-8 "NIST Chemistry WebBook"
-xref: Gmelin:259263 "Gmelin"
+xref: Beilstein:1813938 {source="Beilstein"}
+xref: CAS:15194-58-8 {source="NIST Chemistry WebBook"}
+xref: Gmelin:259263 {source="Gmelin"}
 is_a: CHEBI:38222 ! hydrocarbyl anion
 relationship: is_conjugate_acid_of CHEBI:29360 ! methanediide
 relationship: is_conjugate_base_of CHEBI:16183 ! methane
@@ -1979,7 +2019,7 @@ synonym: "dioxidenium" EXACT IUPAC_NAME [IUPAC]
 synonym: "HO2(+)" RELATED [IUPAC]
 synonym: "HOO(+)" RELATED [ChEBI]
 synonym: "hydridodioxygen(1+)" EXACT IUPAC_NAME [IUPAC]
-xref: Gmelin:508 "Gmelin"
+xref: Gmelin:508 {source="Gmelin"}
 is_a: CHEBI:33693 ! oxygen hydride
 relationship: is_conjugate_acid_of CHEBI:15379 ! dioxygen
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
@@ -2016,7 +2056,7 @@ subset: 3_STAR
 synonym: "diazynium" EXACT IUPAC_NAME [IUPAC]
 synonym: "HN2+" RELATED [NIST_Chemistry_WebBook]
 synonym: "N#NH(+)" RELATED [IUPAC]
-xref: CAS:12357-66-3 "NIST Chemistry WebBook"
+xref: CAS:12357-66-3 {source="NIST Chemistry WebBook"}
 is_a: CHEBI:35106 ! nitrogen hydride
 relationship: is_conjugate_acid_of CHEBI:17997 ! dinitrogen
 relationship: is_conjugate_base_of CHEBI:30099 ! diazynediium
@@ -2039,9 +2079,9 @@ synonym: "helio" RELATED [ChEBI]
 synonym: "Helium" RELATED [ChEBI]
 synonym: "helium" EXACT IUPAC_NAME [IUPAC]
 synonym: "helium" RELATED [ChEBI]
-xref: CAS:7440-59-7 "NIST Chemistry WebBook"
-xref: Drug_Central:4262 "DrugCentral"
-xref: Gmelin:16294 "Gmelin"
+xref: CAS:7440-59-7 {source="NIST Chemistry WebBook"}
+xref: Drug_Central:4262 {source="DrugCentral"}
+xref: Gmelin:16294 {source="Gmelin"}
 xref: WebElements:He
 is_a: CHEBI:33309 ! noble gas atom
 is_a: CHEBI:33559 ! s-block element atom
@@ -2415,7 +2455,7 @@ synonym: "Chalkogen" RELATED [ChEBI]
 synonym: "Chalkogene" RELATED [ChEBI]
 synonym: "group 16 elements" RELATED [ChEBI]
 synonym: "group VI elements" RELATED [ChEBI]
-xref: PMID:17084588 "Europe PMC"
+xref: PMID:17084588 {source="Europe PMC"}
 is_a: CHEBI:33560 ! p-block element atom
 
 [Term]
@@ -2636,7 +2676,7 @@ synonym: "metal element" RELATED [ChEBI]
 synonym: "metal elements" RELATED [ChEBI]
 synonym: "metals" RELATED [ChEBI]
 xref: KEGG:C00050
-xref: PMID:21784043 "Europe PMC"
+xref: PMID:21784043 {source="Europe PMC"}
 xref: Wikipedia:Metal
 is_a: CHEBI:33250 ! atom
 
@@ -2678,8 +2718,8 @@ synonym: "carboxylic acid" EXACT IUPAC_NAME [IUPAC]
 synonym: "carboxylic acids" EXACT IUPAC_NAME [IUPAC]
 synonym: "Karbonsaeure" RELATED [ChEBI]
 synonym: "RC(=O)OH" RELATED [IUPAC]
-xref: PMID:17147560 "Europe PMC"
-xref: PMID:18433345 "Europe PMC"
+xref: PMID:17147560 {source="Europe PMC"}
+xref: PMID:18433345 {source="Europe PMC"}
 xref: Wikipedia:Carboxylic_acid
 is_a: CHEBI:35605 ! carbon oxoacid
 is_a: CHEBI:36586 ! carbonyl compound
@@ -3344,7 +3384,7 @@ def: "An organochalcogen compound containing at least one carbon-oxygen bond." [
 subset: 3_STAR
 synonym: "organooxygen compound" EXACT [ChEBI]
 synonym: "organooxygen compounds" RELATED [ChEBI]
-xref: PMID:17586126 "Europe PMC"
+xref: PMID:17586126 {source="Europe PMC"}
 is_a: CHEBI:25806 ! oxygen molecular entity
 is_a: CHEBI:36962 ! organochalcogen compound
 
@@ -3423,7 +3463,7 @@ subset: 3_STAR
 synonym: "poly(pyrrole)s" RELATED [ChEBI]
 synonym: "polypyrroles" RELATED [ChEBI]
 synonym: "PPys" RELATED [ChEBI]
-xref: Beilstein:8538310 "Beilstein"
+xref: Beilstein:8538310 {source="Beilstein"}
 is_a: CHEBI:38101 ! organonitrogen heterocyclic compound
 
 [Term]
@@ -3522,7 +3562,7 @@ synonym: "NADH cytochrome c oxidase inhibitor" RELATED [ChEBI]
 synonym: "NADH cytochrome c oxidase inhibitors" RELATED [ChEBI]
 synonym: "Warburg's respiratory enzyme inhibitor" RELATED [ChEBI]
 synonym: "Warburg's respiratory enzyme inhibitors" RELATED [ChEBI]
-xref: PMID:12969439 "Europe PMC"
+xref: PMID:12969439 {source="Europe PMC"}
 xref: Wikipedia:Cytochrome_c_oxidase
 is_a: CHEBI:25355 ! mitochondrial respiratory-chain inhibitor
 is_a: CHEBI:76870 ! EC 1.9.3.* (oxidoreductase acting on donor heme group, oxygen as acceptor) inhibitor
@@ -3592,13 +3632,13 @@ synonym: "HYDROXY GROUP" EXACT [PDBeChem]
 synonym: "hydroxy group" EXACT [UniProt]
 synonym: "hydroxyl" RELATED [ChEBI]
 synonym: "hydroxyl group" RELATED [ChEBI]
-synonym: "oxidanyl" EXACT IUPAC_NAME [IUPAC]
-xref: PDBeChem:HYD
+xref: PDBeChem:OH
 is_a: CHEBI:33246 ! inorganic group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "HO" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.00734" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00274" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "*O[H]" xsd:string
 
 [Term]
 id: CHEBI:46629
@@ -3610,12 +3650,13 @@ subset: 3_STAR
 synonym: "=O" RELATED [IUPAC]
 synonym: "oxo" EXACT IUPAC_NAME [IUPAC]
 synonym: "OXO GROUP" EXACT [PDBeChem]
-xref: PDBeChem:OXO
+xref: PDBeChem:O
 is_a: CHEBI:33246 ! inorganic group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "15.99940" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "15.99491" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "O=*" xsd:string
 
 [Term]
 id: CHEBI:46662
@@ -3656,12 +3697,13 @@ synonym: "-COOH" RELATED [IUPAC]
 synonym: "carboxy" EXACT IUPAC_NAME [IUPAC]
 synonym: "CARBOXY GROUP" EXACT [PDBeChem]
 synonym: "carboxyl group" RELATED [ChEBI]
-xref: PDBeChem:CBX
+xref: PDBeChem:FMT
 is_a: CHEBI:33249 ! organyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CHO2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "45.01744" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "44.99765" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "*C(=O)O" xsd:string
 
 [Term]
 id: CHEBI:47867
@@ -3702,14 +3744,15 @@ synonym: "hydroxidodioxidonitrogen" EXACT IUPAC_NAME [IUPAC]
 synonym: "Nitric acid" EXACT [KEGG_COMPOUND]
 synonym: "Salpetersaeure" RELATED [ChemIDplus]
 synonym: "trioxonitric acid" EXACT IUPAC_NAME [IUPAC]
-xref: CAS:7697-37-2 "ChemIDplus"
-xref: Gmelin:1576 "Gmelin"
+xref: CAS:7697-37-2 {source="ChemIDplus"}
+xref: CAS:7697-37-2 {source="NIST Chemistry WebBook"}
+xref: Gmelin:1576 {source="Gmelin"}
 xref: KEGG:C00244
 xref: KEGG:D02313
 xref: MetaCyc:CPD-15028
-xref: PMID:22285512 "Europe PMC"
-xref: PMID:23402861 "Europe PMC"
-xref: Reaxys:3587310 "Reaxys"
+xref: PMID:22285512 {source="Europe PMC"}
+xref: PMID:23402861 {source="Europe PMC"}
+xref: Reaxys:3587310 {source="Reaxys"}
 xref: Wikipedia:Nitric_acid
 is_a: CHEBI:33455 ! nitrogen oxoacid
 relationship: has_role CHEBI:33893 ! reagent
@@ -3781,7 +3824,7 @@ synonym: "18Ar" RELATED [IUPAC]
 synonym: "Ar" RELATED [IUPAC]
 synonym: "argon" EXACT IUPAC_NAME [IUPAC]
 synonym: "argon" RELATED [ChEBI]
-xref: CAS:7440-37-1 "ChemIDplus"
+xref: CAS:7440-37-1 {source="ChemIDplus"}
 xref: WebElements:Ar
 is_a: CHEBI:33309 ! noble gas atom
 is_a: CHEBI:33560 ! p-block element atom
@@ -3861,7 +3904,7 @@ synonym: "[ClH2](+)" RELATED [IUPAC]
 synonym: "chloranium" EXACT IUPAC_NAME [IUPAC]
 synonym: "chloronium" EXACT IUPAC_NAME [IUPAC]
 synonym: "H2Cl(+)" RELATED [IUPAC]
-xref: Gmelin:331 "Gmelin"
+xref: Gmelin:331 {source="Gmelin"}
 is_a: CHEBI:50313 ! onium cation
 relationship: is_conjugate_acid_of CHEBI:17883 ! hydrogen chloride
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
@@ -3984,7 +4027,7 @@ namespace: chebi_ontology
 def: "An organic anion that is the conjugate base of methanol." []
 subset: 3_STAR
 synonym: "methoxide ion" RELATED [ChEBI]
-xref: Reaxys:1839368 "Reaxys"
+xref: Reaxys:1839368 {source="Reaxys"}
 is_a: CHEBI:25696 ! organic anion
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: is_conjugate_base_of CHEBI:17790 ! methanol
@@ -4120,6 +4163,7 @@ subset: 3_STAR
 synonym: "chlorophyll a" RELATED [UniProt]
 is_a: CHEBI:139291 ! chlorophyll(1-)
 is_a: CHEBI:58941 ! cyclic tetrapyrrole anion
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: is_conjugate_base_of CHEBI:18230 ! chlorophyll a
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C55H71MgN4O5" xsd:string
@@ -4186,9 +4230,9 @@ def: "A family of nitrogen molecular entities which are highly reactive and deri
 subset: 3_STAR
 synonym: "RNI" RELATED [SUBMITTER]
 synonym: "RNS" RELATED [SUBMITTER]
-xref: PMID:12076975 "SUBMITTER"
-xref: PMID:17667957 "SUBMITTER"
-xref: PMID:9741578 "SUBMITTER"
+xref: PMID:12076975 {source="SUBMITTER"}
+xref: PMID:17667957 {source="SUBMITTER"}
+xref: PMID:9741578 {source="SUBMITTER"}
 xref: Wikipedia:Reactive_nitrogen_species
 is_a: CHEBI:51143 ! nitrogen molecular entity
 
@@ -4367,8 +4411,8 @@ namespace: chebi_ontology
 def: "A compressed gas or liquid with a boiling point lower than room temperature which to used to propel and dispense liquids such as deodorants, insecticides, paints, etc. from aerosol cans." []
 subset: 3_STAR
 synonym: "propellants" RELATED [ChEBI]
-xref: PMID:22519407 "Europe PMC"
-xref: PMID:24001847 "Europe PMC"
+xref: PMID:22519407 {source="Europe PMC"}
+xref: PMID:24001847 {source="Europe PMC"}
 is_a: CHEBI:33232 ! application
 
 [Term]
@@ -4587,6 +4631,16 @@ subset: 3_STAR
 synonym: "carbohydrates and derivatives" RELATED [ChEBI]
 synonym: "carbohydrates and their derivatives" RELATED [ChEBI]
 is_a: CHEBI:36963 ! organooxygen compound
+
+[Term]
+id: CHEBI:79314
+name: flame retardant
+namespace: chebi_ontology
+def: "Any compound that is added to manufactured materials to inhibit, suppress, or delay the production of flames and so prevent the spread of fire." []
+subset: 3_STAR
+synonym: "flame retardants" RELATED [ChEBI]
+xref: Wikipedia:Flame_retardant
+is_a: CHEBI:33232 ! application
 
 [Term]
 id: CHEBI:79389

@@ -683,6 +683,8 @@
         }, {
           "val" : "TAO:0001439"
         }, {
+          "val" : "BIRNLEX:14"
+        }, {
           "val" : "MA:0000003"
         }, {
           "val" : "NCIT:C12919"
@@ -719,16 +721,16 @@
           "xrefs" : [ "GO:0048731" ]
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "body system",
+          "xrefs" : [ "BIRNLEX:14" ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "connected anatomical system",
           "xrefs" : [ "CARO:0000011" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "organ system",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "body system",
-          "xrefs" : [ "NIFSTD:birnlex_14" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "anatomical systems",
@@ -1760,6 +1762,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000008",
+          "val" : "The avian iris and ciliary body undergoes a transition from smooth-to-striated muscle during embryonic development [DOI:dx.doi.org/10.1006/dbio.1998.9019]"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000007",
           "val" : "iridial"
         }, {
@@ -1768,9 +1773,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000008",
-          "val" : "The avian iris and ciliary body undergoes a transition from smooth-to-striated muscle during embryonic development [doi:dx.doi.org/10.1006/dbio.1998.9019]"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000003",
           "val" : "The eye of the adult lamprey is remarkably similar to our own, and it possesses numerous features (including the expression of opsin genes) that are very similar to those of the eyes of jawed vertebrates. The lamprey's camera-like eye has a lens, an iris and extra-ocular muscles (five of them, unlike the eyes of jawed vertebrates, which have six), although it lacks intra-ocular muscles. Its retina also has a structure very similar to that of the retinas of other vertebrates, with three nuclear layers comprised of the cell bodies of photoreceptors and bipolar, horizontal, amacrine and ganglion cells. The southern hemisphere lamprey, Geotria australis, possesses five morphological classes of retinal photoreceptor and five classes of opsin, each of which is closely related to the opsins of jawed vertebrates. Given these similarities, we reach the inescapable conclusion that the last common ancestor of jawless and jawed vertebrates already possessed an eye that was comparable to that of extant lampreys and gnathostomes. Accordingly, a vertebrate camera-like eye must have been present by the time that lampreys and gnathostomes diverged, around 500 Mya.[well established][VHOG]"
@@ -1783,11 +1785,13 @@
       "meta" : {
         "definition" : {
           "val" : "Anatomical divisons of the brain according to one or more criteria, e.g. cytoarchitectural, gross anatomy. Parts may be contiguous in 3D or not, e.g., basal ganglia.",
-          "xrefs" : [ "NIFSTD:birnlex_1167" ]
+          "xrefs" : [ "BIRNLEX:1167" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#non_informative" ],
         "xrefs" : [ {
           "val" : "FMA:55676"
+        }, {
+          "val" : "BIRNLEX:1167"
         }, {
           "val" : "NCIT:C13031"
         }, {
@@ -1797,6 +1801,10 @@
           "pred" : "hasExactSynonym",
           "val" : "brain part",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "segment of brain",
+          "xrefs" : [ "BIRNLEX:1167" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neuraxis segment",
@@ -1809,10 +1817,6 @@
           "pred" : "hasExactSynonym",
           "val" : "biological structure of brain",
           "xrefs" : [ "OBOL:automatic" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "segment of brain",
-          "xrefs" : [ "NIFSTD:birnlex_1167" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "brain anatomical structure",
@@ -2122,14 +2126,14 @@
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
           "val" : "http://upload.wikimedia.org/wikipedia/commons/1/1e/Schematic_diagram_of_the_human_eye_en.svg"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000011",
+          "val" : "Seko et al demonstrate chondrogenic potential and identify this as connective tissue[DOI:10.1371/journal.pone.0003709]."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "The sclera, also known as the white part of the eye, is the opaque (usually white, though certain animals, such as horses and lizards, can have black sclera), fibrous, protective, outer layer of the eye containing collagen and elastic fiber. It is derived from the neural crest. In children, it is thinner and shows some of the underlying pigment, appearing slightly blue. In the elderly, however, fatty deposits on the sclera can make it appear slightly yellow. The sclera forms the posterior five sixths of the connective tissue coat of the globe. It is continuous with the dura mater and the cornea, and maintains the shape of the globe, offering resistance to internal and external forces, and provides an attachment for the extraocular muscle insertions. The sclera is perforated by plenty of nerves and vessels passing through the posterior scleral foramen, the hole that is formed by the optic nerve. At the optic disk the outer two-thirds of the sclera continues with the dura mater (outer coat of the brain) via the dural sheath of the optic nerve. The inner third joins with some choroidal tissue to form a plate (lamina cribrosa) across the optic nerve with perforations through which the optic fibers (fasciculi). The thickness of the sclera varies from 1mm at the posterior pole to 0.3 mm just behind the rectus muscle insertions. The sclera's blood vessels are mainly on the surface, and together with the conjunctiva (which lies on top) This is a thin layer covering the sclera. Along with the vessels of the conjunctiva, those of the sclera renders the inflamed eye bright red. [WP,unvetted][Wikipedia:Sclera]."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000010",
           "val" : "continuous with the dura mater and the cornea; The sclera forms the posterior five-sixths of the connective tissue coat of the globe."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000011",
-          "val" : "Seko et al demonstrate chondrogenic potential and identify this as connective tissue[doi:10.1371/journal.pone.0003709]."
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Disease notes: implicated in rheumatoid arthritis."
@@ -2719,7 +2723,11 @@
         }, {
           "val" : "AAO:0010340"
         }, {
+          "val" : "UMLS:C1280202"
+        }, {
           "val" : "EMAPA:16198"
+        }, {
+          "val" : "UMLS:C0015392"
         }, {
           "val" : "FMA:54448"
         }, {
@@ -2727,19 +2735,17 @@
         }, {
           "val" : "BTO:0004688"
         }, {
+          "val" : "BIRNLEX:1169"
+        }, {
           "val" : "VHOG:0000275"
         }, {
           "val" : "UMLS:C0015392"
-        }, {
-          "val" : "UMLS:C1280202"
         }, {
           "val" : "XAO:0000179"
         }, {
           "val" : "NCIT:C12401"
         }, {
           "val" : "ZFA:0000107"
-        }, {
-          "val" : "UMLS:C0015392"
         } ],
         "synonyms" : [ {
           "pred" : "hasBroadSynonym",
@@ -2877,7 +2883,7 @@
           "val" : "immediate_transformation_of"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://semanticscience.org/resource/SIO_000658"
+          "val" : "http://purl.obolibrary.org/obo/SIO_000658"
         } ]
       },
       "type" : "PROPERTY",
@@ -3149,7 +3155,7 @@
           "val" : "uberon"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://semanticscience.org/resource/SIO_000657"
+          "val" : "http://purl.obolibrary.org/obo/SIO_000657"
         } ]
       },
       "type" : "PROPERTY",
@@ -4357,6 +4363,8 @@
         "xrefs" : [ {
           "val" : "MA:0000218"
         }, {
+          "val" : "UMLS:C0206417"
+        }, {
           "val" : "MESH:D017933"
         }, {
           "val" : "GAID:715"
@@ -4366,6 +4374,8 @@
           "val" : "TAO:0000142"
         }, {
           "val" : "CALOHA:TS-0808"
+        }, {
+          "val" : "UMLS:C1305921"
         }, {
           "val" : "EHDAA2:0001445"
         }, {
@@ -4391,13 +4401,11 @@
         }, {
           "val" : "NCIT:C12465"
         }, {
+          "val" : "BIRNLEX:1111"
+        }, {
           "val" : "BTO:0001028"
         }, {
           "val" : "EV:0100335"
-        }, {
-          "val" : "UMLS:C1305921"
-        }, {
-          "val" : "UMLS:C0206417"
         }, {
           "val" : "VHOG:0000399"
         }, {
@@ -4586,6 +4594,8 @@
           "val" : "AAO:0000607"
         }, {
           "val" : "XAO:0003040"
+        }, {
+          "val" : "BIRNLEX:19"
         }, {
           "val" : "BILA:0000043"
         }, {
@@ -4885,7 +4895,7 @@
       "meta" : {
         "definition" : {
           "val" : "Gland of the epithelium lining the oral cavity. The most common are the salivary glands.",
-          "xrefs" : [ "ISBN10:0073040584" ]
+          "xrefs" : [ "ISBN:0073040584" ]
         },
         "xrefs" : [ {
           "val" : "EMAPA:16572"
@@ -5401,14 +5411,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/8/8f/Illu_epithelium.jpg"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Unilaminar epithelium that consists of a single layer of squamous cells.[CARO]"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
+        }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Illu_epithelium.jpg"
         } ]
       },
       "type" : "CLASS",
@@ -5691,11 +5701,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/c/c3/Tkanka_nablonkowa.png"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000007",
           "val" : "epithelial"
+        }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Tkanka_nablonkowa.png"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -5871,6 +5881,8 @@
         }, {
           "val" : "CARO:0000012"
         }, {
+          "val" : "BIRNLEX:18"
+        }, {
           "val" : "ZFA:0001094"
         }, {
           "val" : "EHDAA:1"
@@ -5903,12 +5915,12 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "Koerper",
-          "xrefs" : [ "BTO:0001489" ]
+          "val" : "body",
+          "xrefs" : [ "AEO:0000103", "BIRNLEX:18", "FMA:256135", "NCIT:C13041" ]
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "body",
-          "xrefs" : [ "http://uri.neuinfo.org/nif/nifstd/birnlex_18", "AEO:0000103", "FMA:256135", "NCIT:C13041" ]
+          "val" : "Koerper",
+          "xrefs" : [ "BTO:0001489" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "whole organism",
@@ -6375,6 +6387,8 @@
         }, {
           "val" : "EFO:0000808"
         }, {
+          "val" : "BIRNLEX:7"
+        }, {
           "val" : "NCIT:C32221"
         }, {
           "val" : "TAO:0001308"
@@ -6693,6 +6707,8 @@
           "val" : "NCIT:C33969"
         }, {
           "val" : "UMLS:C1268166"
+        }, {
+          "val" : "BIRNLEX:1496"
         } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -6710,24 +6726,24 @@
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001943",
       "meta" : {
         "definition" : {
-          "val" : "Ventral part of the midbrain, separated from the hindbrain by the isthmus[ISBN10:0471888893]. Subdivision of the midbrain lying anterior to the tectum and posterior to the substantia nigra and cerebral peduncle[FMA] The part of the midbrain extending from the substantia nigra to the cerebral aqueduct in a horizontal section of the midbrain. It forms the floor of the midbrain that surrounds the cerebral aqueduct[WP].",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Midbrain_tegmentum", "FMA:FMA", "ISBN10:0471888893" ]
+          "val" : "Ventral part of the midbrain, separated from the hindbrain by the isthmus[ISBN:0471888893]. Subdivision of the midbrain lying anterior to the tectum and posterior to the substantia nigra and cerebral peduncle[FMA] The part of the midbrain extending from the substantia nigra to the cerebral aqueduct in a horizontal section of the midbrain. It forms the floor of the midbrain that surrounds the cerebral aqueduct[WP].",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Midbrain_tegmentum", "FMA:FMA", "ISBN:0471888893" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#pheno_slim", "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#uberon_slim" ],
         "xrefs" : [ {
-          "val" : "UMLS:C0039441"
-        }, {
           "val" : "MAT:0000452"
         }, {
           "val" : "DHBA:12195"
         }, {
           "val" : "TAO:0000160"
         }, {
+          "val" : "BIRNLEX:1200"
+        }, {
           "val" : "VHOG:0001367"
         }, {
           "val" : "ZFA:0000160"
         }, {
-          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491"
+          "val" : "UMLS:C0039441"
         }, {
           "val" : "FMA:62393"
         }, {
@@ -6739,6 +6755,8 @@
         }, {
           "val" : "EHDAA2:0004475"
         }, {
+          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=491"
+        }, {
           "val" : "XAO:0004271"
         }, {
           "val" : "HBA:9002"
@@ -6748,13 +6766,13 @@
           "val" : "EFO:0000921"
         } ],
         "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "MTg",
+          "xrefs" : [ "BIRNLEX:1200", "NIFSTD:NeuroNames_abbrevSource" ]
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "tegmentum mesencephalicum",
           "xrefs" : [ "NeuroNames:491" ]
-        }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "MTg",
-          "xrefs" : [ "http://uri.neuinfo.org/nif/nifstd/birnlex_1200", "NIFSTD:NeuroNames_abbrevSource" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "tegmentum of midbrain",
@@ -6764,13 +6782,13 @@
           "val" : "tegmentum mesencephali",
           "xrefs" : [ "http://en.wikipedia.org/wiki/Midbrain_tegmentum" ]
         }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "tegmentum",
-          "xrefs" : [ "ISBN10:0471888893" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "mesencephalic tegmentum",
           "xrefs" : [ "VHOG:0001367" ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "tegmentum",
+          "xrefs" : [ "ISBN:0471888893" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000003",
@@ -6780,7 +6798,7 @@
           "val" : "http://upload.wikimedia.org/wikipedia/commons/b/b6/Gray712.png"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "'tegmentum' is used generically for the ventral part of the brainstem (ISBN10:0471888893). We use the label 'midbrain tegmentum' to denote the midbrain structure. In NIFSTD tegmentum is a composite structure and there is a separate class for midbrain tegmentum and pontine tegmentum"
+          "val" : "'tegmentum' is used generically for the ventral part of the brainstem (ISBN:0471888893). We use the label 'midbrain tegmentum' to denote the midbrain structure. In NIFSTD tegmentum is a composite structure and there is a separate class for midbrain tegmentum and pontine tegmentum"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -8372,7 +8390,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/da/Illu_capillary.jpg"
+          "val" : "http://purl.obolibrary.org/obo/Illu_capillary.jpg"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Multi-tissue structure part of the blood vasculature formed by the anastomosis of capillaries. Venules carry blood toward the heart.[TAO]"
@@ -8683,7 +8701,7 @@
       "meta" : {
         "definition" : {
           "val" : "Any of the smallest blood vessels connecting arterioles with venules.",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Capillary", "https://github.com/obophenotype/uberon/issues/137", "ISBN10:0073040584" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Capillary", "https://github.com/obophenotype/uberon/issues/137", "ISBN:0073040584" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#uberon_slim", "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#pheno_slim" ],
         "xrefs" : [ {
@@ -8702,6 +8720,8 @@
           "val" : "BTO:0002045"
         }, {
           "val" : "FMA:63194"
+        }, {
+          "val" : "NLXANAT:090902"
         }, {
           "val" : "VHOG:0001253"
         }, {
@@ -8839,6 +8859,8 @@
         }, {
           "val" : "GAID:169"
         }, {
+          "val" : "NLXANAT:090901"
+        }, {
           "val" : "EMAPA:32743"
         }, {
           "val" : "FMA:50722"
@@ -8937,11 +8959,11 @@
           "xrefs" : [ "http://en.wikipedia.org/wiki/Arteriole" ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Illu_capillary.jpg"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Small, terminal branch of an artery which generally connects to capillaries.[AAO]"
-        }, {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/da/Illu_capillary.jpg"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -10714,7 +10736,7 @@
           "val" : "Anatomical structure that is part of an embryo.",
           "xrefs" : [ "BTO:0000174", "ZFIN:curator" ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#inconsistent_with_fma", "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#inconsistent_with_fma", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core" ],
         "xrefs" : [ {
           "val" : "NCIT:C13229"
         }, {
@@ -10908,7 +10930,7 @@
       "meta" : {
         "definition" : {
           "val" : "Stalk-like part of the brain that includes amongst its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,MP,generalized].",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Brainstem", "ISBN10:0471888893", "MP:0005277", "ZFA:0001707" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Brainstem", "ISBN:0471888893", "MP:0005277", "ZFA:0001707" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#pheno_slim", "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#uberon_slim" ],
         "xrefs" : [ {
@@ -10916,21 +10938,21 @@
         }, {
           "val" : "BAMS:BS"
         }, {
-          "val" : "UMLS:C0006121"
-        }, {
           "val" : "EMAPA:32678"
         }, {
           "val" : "CALOHA:TS-0093"
         }, {
           "val" : "FMA:79876"
         }, {
+          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=236"
+        }, {
           "val" : "EFO:0001962"
+        }, {
+          "val" : "UMLS:C0006121"
         }, {
           "val" : "MA:0000169"
         }, {
           "val" : "MESH:D001933"
-        }, {
-          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=236"
         }, {
           "val" : "NCIT:C12441"
         }, {
@@ -10939,6 +10961,8 @@
           "val" : "UMLS:C0006121"
         }, {
           "val" : "VHOG:0001457"
+        }, {
+          "val" : "BIRNLEX:1565"
         }, {
           "val" : "BTO:0000146"
         }, {
@@ -10986,14 +11010,14 @@
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Multi-tissue structure that has as its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain.[TAO]"
         }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "'brainstem' is a loose term that sometimes refers to the ventral parts o the brain except for any part of the telencephalon - sometimes it includes the diencephalon or subpallial telencephalon structures (ISBN:0471888893). Here we use it in a more restriced sense, to include only the medulla oblongata, pons (when present) and the midbrain tegmentum (following the ZFA definitions)."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Multi-tissue structure that has as its parts the medulla oblongata of the hindbrain and the tegmentum of the midbrain[ZFA,adopted][ZFA:0001707]."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "the stalk-like part of the brain that comprises the midbrain (aka mesencephalon), the pons (aka pons Varolii), and the medulla oblongata, and connects the cerebral hemispheres with the cervical spinal cord[MP]"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "'brainstem' is a loose term that sometimes refers to the ventral parts o the brain except for any part of the telencephalon - sometimes it includes the diencephalon or subpallial telencephalon structures (ISBN10:0471888893). Here we use it in a more restriced sense, to include only the medulla oblongata, pons (when present) and the midbrain tegmentum (following the ZFA definitions)."
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
           "val" : "http://upload.wikimedia.org/wikipedia/commons/b/b7/Gray719.png"
@@ -11242,13 +11266,13 @@
           "val" : "primitive oral cavity",
           "xrefs" : [ "https://orcid.org/0000-0002-6601-2165" ]
         }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "oral ectoderm",
-          "xrefs" : [ "ZFA:0001290,ZFIN:ZDB-PUB-100726-23" ]
-        }, {
           "pred" : "hasExactSynonym",
           "val" : "stomatodeum",
           "xrefs" : [ "http://en.wikipedia.org/wiki/Stomodeum" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oral ectoderm",
+          "xrefs" : [ "ZFA:0001290", "ZFIN:ZDB-PUB-100726-23" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "oral pit",
@@ -12238,7 +12262,7 @@
           "val" : "embryonic"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/2/2d/Wrinkledfrog_embryos.jpg"
+          "val" : "http://purl.obolibrary.org/obo/Wrinkledfrog_embryos.jpg"
         } ]
       },
       "type" : "CLASS",
@@ -12391,7 +12415,7 @@
       "meta" : {
         "definition" : {
           "val" : "The embryonic precursor of the brain.",
-          "xrefs" : [ "NIFSTD:nlx_94995" ]
+          "xrefs" : [ "NLX:94995" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#emapa_ehdaa2", "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#cumbo" ],
         "xrefs" : [ {
@@ -12420,10 +12444,6 @@
           "val" : "brain rudiment",
           "xrefs" : [ "TAO:0000146" ]
         }, {
-          "pred" : "hasNarrowSynonym",
-          "val" : "encephalon",
-          "xrefs" : [ "NIFSTD:nlx_94995" ]
-        }, {
           "pred" : "hasExactSynonym",
           "val" : "presumptive brain",
           "xrefs" : [ "ZFA:0000146" ]
@@ -12431,6 +12451,10 @@
           "pred" : "hasRelatedSynonym",
           "val" : "embryonic brain",
           "xrefs" : [ "BTO:0004726" ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "encephalon",
+          "xrefs" : [ "NLX:94995" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -12447,7 +12471,7 @@
       "meta" : {
         "definition" : {
           "val" : "Subdivision of endoskeleton derived from pharyngeal arches",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Facial_skeleton", "https://orcid.org/0000-0002-6601-2165", "ISBN10:0073040584" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Facial_skeleton", "https://orcid.org/0000-0002-6601-2165", "ISBN:0073040584" ]
         },
         "xrefs" : [ {
           "val" : "ZFA:0001216"
@@ -12727,19 +12751,19 @@
       "meta" : {
         "definition" : {
           "val" : "The part of the cardiovascular system consisting of all pulmonary arteries and all pulmonary veins.",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Pulmonary_circulation", "ISBN10:0073040584" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Pulmonary_circulation", "ISBN:0073040584" ]
         },
         "xrefs" : [ {
           "val" : "FMA:45621"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "pulmonary system",
-          "xrefs" : [ "ISBN10:0073040584" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "pulmonary circulatory system",
           "xrefs" : [ "FMA:45621" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pulmonary system",
+          "xrefs" : [ "ISBN:0073040584" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -13550,6 +13574,8 @@
         }, {
           "val" : "FMA:67498"
         }, {
+          "val" : "BIRNLEX:4"
+        }, {
           "val" : "ENVO:01000162"
         }, {
           "val" : "CARO:0020004"
@@ -13591,7 +13617,7 @@
       "meta" : {
         "definition" : {
           "val" : "Part of the central nervous system located in the vertebral canal continuous with and caudal to the brain; demarcated from brain by plane of foramen magnum. It is composed of an inner core of gray matter in which nerve cells predominate, and an outer layer of white matter in which myelinated nerve fibers predominate, and surrounds the central canal. (CUMBO)",
-          "xrefs" : [ "NIFSTD:birnlex_1709" ]
+          "xrefs" : [ "BIRNLEX:1709" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#cumbo", "http://purl.obolibrary.org/obo/uberon/core#pheno_slim", "http://purl.obolibrary.org/obo/uberon/core#major_organ", "http://purl.obolibrary.org/obo/uberon/core#organ_slim", "http://purl.obolibrary.org/obo/uberon/core#uberon_slim", "http://purl.obolibrary.org/obo/uberon/core#efo_slim" ],
         "xrefs" : [ {
@@ -13599,9 +13625,13 @@
         }, {
           "val" : "MA:0000216"
         }, {
+          "val" : "UMLS:C0037925"
+        }, {
           "val" : "VHOG:0000601"
         }, {
           "val" : "CALOHA:TS-0953"
+        }, {
+          "val" : "BIRNLEX:1709"
         }, {
           "val" : "BAMS:Spinal"
         }, {
@@ -13610,8 +13640,6 @@
           "val" : "GAID:695"
         }, {
           "val" : "UMLS:C0037925"
-        }, {
-          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=22"
         }, {
           "val" : "FMA:7647"
         }, {
@@ -13631,13 +13659,13 @@
         }, {
           "val" : "BAMS:SP"
         }, {
-          "val" : "UMLS:C0037925"
-        }, {
           "val" : "MIAA:0000183"
         }, {
           "val" : "EV:0100316"
         }, {
           "val" : "NCIT:C12464"
+        }, {
+          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=22"
         }, {
           "val" : "BTO:0001279"
         }, {
@@ -14103,11 +14131,13 @@
           "val" : "EFO:0000635"
         }, {
           "val" : "FMA:82472"
+        }, {
+          "val" : "BIRNLEX:16"
         } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "regional part of organ",
-          "xrefs" : [ "NIFSTD:birnlex_16" ]
+          "xrefs" : [ "BIRNLEX:16" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "cardinal organ part",
@@ -14928,7 +14958,7 @@
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001136",
       "meta" : {
         "definition" : {
-          "val" : "Simple squamous epithelium of mesodermal origin which lines serous membranes. Examples: mesothelium of pleura, mesothelium of peritoneum[FMA]. http://en.wikipedia.org/wiki/ The mesothelium is a membrane that forms the lining of several body cavities: the pleura (thoracal cavity), peritoneum (abdominal cavity including the mesentery) and pericardium (heart sac). Mesothelial tissue also surrounds the male internal reproductive organs (the tunica vaginalis testis) and covers the internal reproductive organs of women (the tunica serosa uteri).",
+          "val" : "Simple squamous epithelium of mesodermal origin which lines serous membranes. Examples: mesothelium of pleura, mesothelium of peritoneum[FMA]. Wikipedia: The mesothelium is a membrane that forms the lining of several body cavities: the pleura (thoracal cavity), peritoneum (abdominal cavity including the mesentery) and pericardium (heart sac). Mesothelial tissue also surrounds the male internal reproductive organs (the tunica vaginalis testis) and covers the internal reproductive organs of women (the tunica serosa uteri).",
           "xrefs" : [ "http://en.wikipedia.org/wiki/Mesothelium", "FMA:14074" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#uberon_slim" ],
@@ -15074,11 +15104,11 @@
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Involuntary muscle tissue consisting of uninucleate spindle-shaped fibers.[AAO]"
         }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Glatte_Muskelzellen.jpg"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
-        }, {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/3/3b/Glatte_Muskelzellen.jpg"
         } ]
       },
       "type" : "CLASS",
@@ -15178,7 +15208,7 @@
       "meta" : {
         "definition" : {
           "val" : "The outermost layer of a blood vessel, composed mainly of fibrous tissue.",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_%28vessels%29", "ISBN10:0073040584" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_(vessels)", "ISBN:0073040584" ]
         },
         "xrefs" : [ {
           "val" : "BTO:0002010"
@@ -15190,33 +15220,33 @@
           "val" : "EMAPA:36299"
         } ],
         "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "external coat",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_%28vessels%29" ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "tunica externa vasorum",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_%28vessels%29" ]
-        }, {
           "pred" : "hasExactSynonym",
-          "val" : "tunica adventitia of vessel",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_%28vessels%29" ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "tunica adventitia vasorum",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_%28vessels%29" ]
+          "val" : "adventitia externa",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_(vessels)" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "tunica adventitia",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_%28vessels%29" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_(vessels)" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "tunica externa vasorum",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_(vessels)" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "external coat",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_(vessels)" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "adventitia externa",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_%28vessels%29" ]
+          "val" : "tunica adventitia of vessel",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_(vessels)" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "tunica adventitia vasorum",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_externa_(vessels)" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
-          "val" : "The outermost layer of a blood vessel, surrounding the tunica media. It is mainly composed of collagen. The collagen serves to anchor the blood vessel to nearby organs, giving it stability[Wikipedia:Tunica_externa_%28vessels%29]."
+          "val" : "The outermost layer of a blood vessel, surrounding the tunica media. It is mainly composed of collagen. The collagen serves to anchor the blood vessel to nearby organs, giving it stability[Wikipedia:Tunica_externa_(vessels)]."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -15225,7 +15255,7 @@
           "val" : "TODO - note terminological problems. WP says tunica external layer of blood vessel. FMA says tunica externa = adventitia, and is FMA adventitia covers other kinds of vessels. Here we opt for a lengthier name that attempts to disambiguate. There is no precise FMA equivalent, as FMA has tunica externa of arteries, veins, genital ducts etc as siblings"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/3/32/Illu_artery.jpg"
+          "val" : "http://purl.obolibrary.org/obo/Illu_artery.jpg"
         } ]
       },
       "type" : "CLASS",
@@ -15646,9 +15676,9 @@
         }, {
           "val" : "SPD:0000016"
         }, {
-          "val" : "AAO:0010335"
-        }, {
           "val" : "EFO:0000964"
+        }, {
+          "val" : "AAO:0010335"
         }, {
           "val" : "MESH:D006257"
         }, {
@@ -15661,6 +15691,8 @@
           "val" : "OpenCyc:Mx4rEOLm4rgPEdmAAAACs6hRjg"
         }, {
           "val" : "FBbt:00000004"
+        }, {
+          "val" : "UMLS:C0018670"
         }, {
           "val" : "GAID:61"
         }, {
@@ -15684,6 +15716,8 @@
         }, {
           "val" : "ZFA:0001114"
         }, {
+          "val" : "BIRNLEX:1230"
+        }, {
           "val" : "BILA:0000115"
         }, {
           "val" : "galen:Head"
@@ -15691,8 +15725,6 @@
           "val" : "VHOG:0001644"
         }, {
           "val" : "TAO:0001114"
-        }, {
-          "val" : "UMLS:C0018670"
         }, {
           "val" : "CALOHA:TS-0436"
         } ],
@@ -15798,7 +15830,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000009",
-          "val" : "he coelomic fluid serves several functions; it acts as a hydroskeleton, it allows free movement and growth of internal organs, it serves for transport of gases, nutrients and waste products between different parts of the body, it allows storage of sperm and eggs during maturation and it acts as a reservoir for waste[https://en.wikipedia.org/wiki/Coelom#Coelomic_fluid]"
+          "val" : "he coelomic fluid serves several functions; it acts as a hydroskeleton, it allows free movement and growth of internal organs, it serves for transport of gases, nutrients and waste products between different parts of the body, it allows storage of sperm and eggs during maturation and it acts as a reservoir for waste [Wikipedia:Coelom#Coelomic_fluid]"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -16346,11 +16378,11 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
         }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://semanticscience.org/resource/SIO_000251"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "A non-transitive temporal relation in which one process immediately precedes another process, such that there is no interval of time between the two processes[SIO:000251]."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SIO_000251"
         } ]
       },
       "type" : "PROPERTY",
@@ -16897,10 +16929,6 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
-          "val" : "pulmonary arch",
-          "xrefs" : [ "ISBN10:0073040584" ]
-        }, {
-          "pred" : "hasRelatedSynonym",
           "val" : "6th branchial arch artery",
           "xrefs" : [ "EMAPA:17005" ]
         }, {
@@ -16923,6 +16951,10 @@
           "pred" : "hasExactSynonym",
           "val" : "AA6",
           "xrefs" : [ "ZFA:0005016" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pulmonary arch",
+          "xrefs" : [ "ISBN:0073040584" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "aortic arch 6",
@@ -17215,14 +17247,14 @@
           "xrefs" : [ "ZFA:0001681" ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Spinal_nerve.svg"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Multi-tissue comprised of neurons, dendrites, axon terminals, glial cells, and capillaries.[TAO]"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
-        }, {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/d2/Spinal_nerve.svg"
         } ]
       },
       "type" : "CLASS",
@@ -17492,9 +17524,9 @@
         }, {
           "val" : "EHDAA:6487"
         }, {
-          "val" : "MIAA:0000107"
+          "val" : "BIRNLEX:942"
         }, {
-          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=540"
+          "val" : "MIAA:0000107"
         }, {
           "val" : "CALOHA:TS-0457"
         }, {
@@ -17506,19 +17538,21 @@
         }, {
           "val" : "ZFA:0000029"
         }, {
-          "val" : "UMLS:C0035507"
-        }, {
-          "val" : "UMLS:C1522180"
-        }, {
           "val" : "DMBA:16808"
         }, {
           "val" : "MESH:D012249"
         }, {
           "val" : "VHOG:0000070"
         }, {
+          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=540"
+        }, {
+          "val" : "UMLS:C0035507"
+        }, {
           "val" : "EMAPA:16916"
         }, {
           "val" : "UMLS:C0035507"
+        }, {
+          "val" : "UMLS:C1522180"
         }, {
           "val" : "MBA:1065"
         }, {
@@ -17858,18 +17892,20 @@
       "meta" : {
         "definition" : {
           "val" : "Any part or collection of parts of the central or peripheral nervous system. Parts may span both CNS and PNS.",
-          "xrefs" : [ "NIFSTD:birnlex_1157" ]
+          "xrefs" : [ "BIRNLEX:1157" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#upper_level", "http://purl.obolibrary.org/obo/uberon/core#non_informative" ],
         "xrefs" : [ {
           "val" : "UMLS:C1518256"
         }, {
           "val" : "NCIT:C13040"
+        }, {
+          "val" : "BIRNLEX:1157"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "part of nervous system",
-          "xrefs" : [ "NIFSTD:birnlex_1157" ]
+          "xrefs" : [ "BIRNLEX:1157" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -17893,6 +17929,50 @@
         } ]
       },
       "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0005769",
+      "meta" : {
+        "definition" : {
+          "val" : "An acellular membrane that is part of the epithelium, lies adjacent to the epithelial cells, and is the fusion of the the basal lamina and the reticular lamina.",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Basement_membrane", "http://orcid.org/0000-0002-6601-2165" ]
+        },
+        "xrefs" : [ {
+          "val" : "GAID:915"
+        }, {
+          "val" : "UMLS:C0004799"
+        }, {
+          "val" : "FMA:63872"
+        }, {
+          "val" : "NCIT:C13191"
+        }, {
+          "val" : "AAO:0010596"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "basement membrane",
+          "xrefs" : [ "FMA:63872" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "membrana basalis",
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Basement_membrane" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "basement membrane of connective tissue",
+          "xrefs" : [ "FMA:63872" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "this class represents a continuous sheet of basement membrane which can underlie multiple epithelial cells over large regions. In contrast, the GO class 'basal membrane' represents a portion of substance on the scale of a single cell."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_80999"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "basement membrane of epithelium"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0002016",
       "meta" : {
@@ -17942,9 +18022,6 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/db/Alveoli_diagram.png"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Any of the veins which collect blood from the lungs and some small vesicles received from the esophagus.[AAO]"
         }, {
@@ -17962,54 +18039,13 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "One of two pairs of large vessels that return oxygenated blood from each lung to the left atrium of the heart. [TFD][VHOG]"
+        }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Alveoli_diagram.png"
         } ]
       },
       "type" : "CLASS",
       "lbl" : "pulmonary vein"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0005769",
-      "meta" : {
-        "definition" : {
-          "val" : "An acellular membrane that is part of the epithelium, lies adjacent to the epithelial cells, and is the fusion of the the basal lamina and the reticular lamina.",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Basement_membrane", "http://orcid.org/0000-0002-6601-2165" ]
-        },
-        "xrefs" : [ {
-          "val" : "GAID:915"
-        }, {
-          "val" : "UMLS:C0004799"
-        }, {
-          "val" : "FMA:63872"
-        }, {
-          "val" : "NCIT:C13191"
-        }, {
-          "val" : "AAO:0010596"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "basement membrane",
-          "xrefs" : [ "FMA:63872" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "membrana basalis",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Basement_membrane" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "basement membrane of connective tissue",
-          "xrefs" : [ "FMA:63872" ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "uberon"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
-          "val" : "this class represents a continuous sheet of basement membrane which can underlie multiple epithelial cells over large regions. In contrast, the GO class 'basal membrane' represents a portion of substance on the scale of a single cell."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002175",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_80999"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "basement membrane of epithelium"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0003104",
       "meta" : {
@@ -18164,7 +18200,7 @@
           "val" : "One of two arteries, leaving from the heart, the left one supplying the left lung and the right one supplying the right lung. [TFD][VHOG]"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/db/Alveoli_diagram.png"
+          "val" : "http://purl.obolibrary.org/obo/Alveoli_diagram.png"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000008",
           "val" : "In the human heart, the pulmonary trunk (pulmonary artery or main pulmonary artery) begins at the base of the right ventricle. It is short and wide - approximately 5 cm (2 inches) in length and 3 cm (1.2 inches) in diameter. It then branches into two pulmonary arteries (left and right), which deliver deoxygenated blood to the corresponding lung[WP]"
@@ -18731,7 +18767,7 @@
           "val" : "uberon"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
-          "val" : "http://semanticscience.org/resource/SIO_000652"
+          "val" : "http://purl.obolibrary.org/obo/SIO_000652"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
           "val" : "connected_to"
@@ -19146,7 +19182,7 @@
           "val" : "uberon"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/3/32/Illu_artery.jpg"
+          "val" : "http://purl.obolibrary.org/obo/Illu_artery.jpg"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "May be composed of smooth muscle and elastic tissue"
@@ -19517,7 +19553,7 @@
       "meta" : {
         "definition" : {
           "val" : "The innermost layer of a blood vessel which is a lining of endothelial cells facing the lumen[Kardong].",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_intima", "ISBN10:0073040584", "NCIT:C33820" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Tunica_intima", "ISBN:0073040584", "NCIT:C33820" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#uberon_slim" ],
         "xrefs" : [ {
@@ -19564,7 +19600,7 @@
           "val" : "The tunica intima (or just intima) is the innermost layer of an artery or vein. It is made up of one layer of endothelial cells and is supported by an internal elastic lamina. The endothelial cells are in direct contact with the blood flow. The inner coat (tunica intima) can be separated from the middle by a little maceration, or it may be stripped off in small pieces; but, on account of its friability, it cannot be separated as a complete membrane. It is a fine, transparent, colorless structure which is highly elastic, and, after death, is commonly corrugated into longitudinal wrinkles. The inner coat consists of: A layer of pavement endothelium, the cells of which are polygonal, oval, or fusiform, and have very distinct round or oval nuclei. This endothelium is brought into view most distinctly by staining with silver nitrate. A subendothelial layer, consisting of delicate connective tissue with branched cells lying in the interspaces of the tissue; in arteries of less than 2 mm. in diameter the subendothelial layer consists of a single stratum of stellate cells, and the connective tissue is only largely developed in vessels of a considerable size. An elastic or fenestrated layer, which consists of a membrane containing a net-work of elastic fibers, having principally a longitudinal direction, and in which, under the microscope, small elongated apertures or perforations may be seen, giving it a fenestrated appearance. It was therefore called by Henle the fenestrated membrane. This membrane forms the chief thickness of the inner coat, and can be separated into several layers, some of which present the appearance of a network of longitudinal elastic fibers, and others a more membranous character, marked by pale lines having a longitudinal direction. In minute arteries the fenestrated membrane is a very thin layer; but in the larger arteries, and especially in the aorta, it has a very considerable thickness. [WP,unvetted].[Wikipedia]"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/3/32/Illu_artery.jpg"
+          "val" : "http://purl.obolibrary.org/obo/Illu_artery.jpg"
         } ]
       },
       "type" : "CLASS",
@@ -20245,6 +20281,35 @@
       },
       "type" : "CLASS",
       "lbl" : "ecto-epithelium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002161",
+      "meta" : {
+        "definition" : {
+          "val" : "S never_in_taxon T iff: S SubClassOf in_taxon only not T",
+          "xrefs" : [ "http://www.ncbi.nlm.nih.gov/pubmed/20973947" ]
+        },
+        "xrefs" : [ {
+          "val" : "RO:0002161"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000425",
+          "val" : "Class: <http://www.w3.org/2002/07/owl#Nothing> EquivalentTo: ?X and (RO_0002162 some ?Y)"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_class_level",
+          "val" : "true"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "never_in_taxon"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "never_in_taxon"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0012314",
       "meta" : {
@@ -20959,14 +21024,14 @@
           "xrefs" : [ "http://en.wikipedia.org/wiki/Left_pulmonary_artery" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/db/Alveoli_diagram.png"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "TODO - add class 'pulmonary artery tree organ'"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
           "val" : "http://upload.wikimedia.org/wikipedia/commons/f/f6/Gray504.png"
+        }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Alveoli_diagram.png"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -21015,8 +21080,6 @@
         }, {
           "val" : "BAMS:Md"
         }, {
-          "val" : "UMLS:C0025148"
-        }, {
           "val" : "MIAA:0000111"
         }, {
           "val" : "GAID:590"
@@ -21031,7 +21094,7 @@
         }, {
           "val" : "UMLS:C0025148"
         }, {
-          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=698"
+          "val" : "BIRNLEX:957"
         }, {
           "val" : "MAT:0000111"
         }, {
@@ -21045,11 +21108,15 @@
         }, {
           "val" : "VHOG:0000181"
         }, {
+          "val" : "UMLS:C0025148"
+        }, {
           "val" : "OpenCyc:Mx4rvVjxSJwpEbGdrcN5Y29ycA"
         }, {
           "val" : "OpenCyc:Mx4rwCqnXJwpEbGdrcN5Y29ycA"
         }, {
           "val" : "XAO:0003100"
+        }, {
+          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=698"
         }, {
           "val" : "MESH:D008526"
         }, {
@@ -21063,13 +21130,13 @@
         }, {
           "val" : "EFO:0000924"
         }, {
-          "val" : "UMLS:C1269575"
-        }, {
           "val" : "ZFA:0000545"
         }, {
           "val" : "AAO:0010486"
         }, {
           "val" : "CALOHA:TS-0607"
+        }, {
+          "val" : "UMLS:C1269575"
         } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -21164,13 +21231,13 @@
         }, {
           "val" : "MA:0000207"
         }, {
+          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=462"
+        }, {
           "val" : "HBA:9001"
         }, {
           "val" : "EFO:0000919"
         }, {
           "val" : "DMBA:16649"
-        }, {
-          "val" : "UMLS:C0025462"
         }, {
           "val" : "EMAPA:16974"
         }, {
@@ -21190,6 +21257,10 @@
         }, {
           "val" : "BTO:0000138"
         }, {
+          "val" : "BIRNLEX:1667"
+        }, {
+          "val" : "UMLS:C0025462"
+        }, {
           "val" : "EHDAA2:0001162"
         }, {
           "val" : "MIAA:0000106"
@@ -21203,8 +21274,6 @@
           "val" : "MAT:0000106"
         }, {
           "val" : "BAMS:MES"
-        }, {
-          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=462"
         }, {
           "val" : "MBA:313"
         }, {
@@ -21221,14 +21290,11 @@
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "MB",
-          "xrefs" : [ "http://uri.neuinfo.org/nif/nifstd/birnlex_1667", "NIFSTD:NeuroNames_abbrevSource" ]
+          "xrefs" : [ "BIRNLEX:1667", "NIFSTD:NeuroNames_abbrevSource" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "Middle part of the brain composed of the optic tectum and penducular region.[AAO]"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000012",
-          "val" : "part of brainstem in ABA - we reject this in favor of ISBN10:0471888893 which has an implicit overlaps relationships"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000003",
           "val" : "Fine structural, computerized three-dimensional (3D) mapping of cell connectivity in the amphioxus nervous system and comparative molecular genetic studies of amphioxus and tunicates have provided recent insights into the phylogenetic origin of the vertebrate nervous system. The results suggest that several of the genetic mechanisms for establishing and patterning the vertebrate nervous system already operated in the ancestral chordate and that the nerve cord of the proximate invertebrate ancestor of the vertebrates included a diencephalon, midbrain, hindbrain, and spinal cord.[well established][VHOG]"
@@ -21241,6 +21307,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000012",
+          "val" : "part of brainstem in ABA - we reject this in favor of ISBN:0471888893 which has an implicit overlaps relationships"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "developmental relationships need revised"
@@ -21338,14 +21407,14 @@
           "xrefs" : [ "http://en.wikipedia.org/wiki/Right_pulmonary_artery" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/db/Alveoli_diagram.png"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "TODO - add class 'pulmonary artery tree organ'"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
           "val" : "http://upload.wikimedia.org/wikipedia/commons/f/f6/Gray504.png"
+        }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Alveoli_diagram.png"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -23075,6 +23144,8 @@
         }, {
           "val" : "UMLS:C0475853"
         }, {
+          "val" : "NLXANAT:100204"
+        }, {
           "val" : "FMA:256580"
         }, {
           "val" : "MA:0000002"
@@ -23325,6 +23396,8 @@
           "val" : "TAO:0001328"
         }, {
           "val" : "ZFA:0001328"
+        }, {
+          "val" : "NLX:147842"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -23388,6 +23461,8 @@
           "val" : "NCIT:C34007"
         }, {
           "val" : "galen:Cavity"
+        }, {
+          "val" : "BIRNLEX:1011"
         } ],
         "synonyms" : [ {
           "pred" : "hasBroadSynonym",
@@ -24750,7 +24825,7 @@
           "val" : "uberon"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000008",
-          "val" : "A pseudostratified epithelium, containing basal cells, stem cells of the airway, submucosal glands and cartilage rings, is limited to the trachea and large lobar airways in the mouse (Morrisey and Hogan, 2010). This more complex epithelium extends to terminal bronchioles in the human[doi:10.1242/dev.115469]"
+          "val" : "A pseudostratified epithelium, containing basal cells, stem cells of the airway, submucosal glands and cartilage rings, is limited to the trachea and large lobar airways in the mouse (Morrisey and Hogan, 2010). This more complex epithelium extends to terminal bronchioles in the human[DOI:10.1242/dev.115469]"
         } ]
       },
       "type" : "CLASS",
@@ -24967,9 +25042,6 @@
           "xrefs" : [ "http://en.wikipedia.org/wiki/Neck" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/9/99/Female_neck.jpg"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002174",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_32443"
         }, {
@@ -24981,6 +25053,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
           "val" : "true necks are considered to be present when the pectoral girdle is separate from the skull - Tiktaalik is the earliest known fish to have a true neck."
+        }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Female_neck.jpg"
         } ]
       },
       "type" : "CLASS",
@@ -25074,7 +25149,7 @@
       "meta" : {
         "definition" : {
           "val" : "Portion of the dermis characterized by a well-arranged, plywood-like, collagenous network.",
-          "xrefs" : [ "ISBN10:0073040584", "ZFIN:ZDB-PUB-040726-12" ]
+          "xrefs" : [ "ISBN:0073040584", "ZFIN:ZDB-PUB-040726-12" ]
         },
         "xrefs" : [ {
           "val" : "AAO:0010600"
@@ -25566,7 +25641,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "lens crystallina",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Lens_%28anatomy%29" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Lens_(anatomy)" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "lenses",
@@ -25623,15 +25698,15 @@
         }, {
           "val" : "TAO:0000152"
         }, {
+          "val" : "UMLS:C0035298"
+        }, {
+          "val" : "UMLS:C1278894"
+        }, {
           "val" : "XAO:0000009"
         }, {
           "val" : "NIFSTD_RETIRED:birnlex_1156"
         }, {
-          "val" : "UMLS:C0035298"
-        }, {
           "val" : "EMAPA:17168"
-        }, {
-          "val" : "UMLS:C1278894"
         }, {
           "val" : "OpenCyc:Mx4rvViTfpwpEbGdrcN5Y29ycA"
         }, {
@@ -25648,6 +25723,8 @@
           "val" : "EV:0100348"
         }, {
           "val" : "BTO:0001175"
+        }, {
+          "val" : "BIRNLEX:1153"
         }, {
           "val" : "MESH:D012160"
         }, {
@@ -25994,9 +26071,12 @@
       "meta" : {
         "definition" : {
           "val" : "Single layer of a laminar structure, identified by different density, arrangement or size of cells and processes arranged in flattened layers or lamina[CUMBO].",
-          "xrefs" : [ "NIFSTD:nlx_149357" ]
+          "xrefs" : [ "NLX:149357" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#cumbo" ],
+        "xrefs" : [ {
+          "val" : "NLX:149357"
+        } ],
         "synonyms" : [ {
           "pred" : "hasBroadSynonym",
           "val" : "layer",
@@ -26095,6 +26175,8 @@
         }, {
           "val" : "GAID:571"
         }, {
+          "val" : "UMLS:C0006104"
+        }, {
           "val" : "BILA:0000135"
         }, {
           "val" : "AAO:0010478"
@@ -26121,13 +26203,11 @@
         }, {
           "val" : "XAO:0000010"
         }, {
-          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
-        }, {
           "val" : "BTO:0000142"
         }, {
           "val" : "EHDAA:6485"
         }, {
-          "val" : "UMLS:C1269537"
+          "val" : "BIRNLEX:796"
         }, {
           "val" : "MIAA:0000098"
         }, {
@@ -26135,15 +26215,17 @@
         }, {
           "val" : "MAT:0000098"
         }, {
+          "val" : "http://braininfo.rprc.washington.edu/centraldirectory.aspx?ID=21"
+        }, {
           "val" : "FMA:50801"
+        }, {
+          "val" : "UMLS:C1269537"
         }, {
           "val" : "HBA:4005"
         }, {
           "val" : "CALOHA:TS-0095"
         }, {
           "val" : "MESH:D001921"
-        }, {
-          "val" : "UMLS:C0006104"
         }, {
           "val" : "OpenCyc:Mx4rvVjT65wpEbGdrcN5Y29ycA"
         }, {
@@ -26636,7 +26718,7 @@
           "val" : "uberon"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Taxon notes:\" the ascidian tube-like heart lacks chambers....The ascidian heart is formed after metamorphosis as a simple tube-like structure with a single-layered myoepithelium that is continuous with a single-layered pericar- dial wall. It lacks chambers and endocardium.... The innovation of the chambered heart was a key event in vertebrate evolution, because the chambered heart generates one-way blood flow with high pressure, a critical requirement for the efficient blood supply of large-body vertebrates... all extant vertebrates have hearts with two or more chambers (Moorman and Christoffels 2003)\" https://doi.org/10.1101/gad.1485706"
+          "val" : "Taxon notes:\" the ascidian tube-like heart lacks chambers....The ascidian heart is formed after metamorphosis as a simple tube-like structure with a single-layered myoepithelium that is continuous with a single-layered pericar- dial wall. It lacks chambers and endocardium.... The innovation of the chambered heart was a key event in vertebrate evolution, because the chambered heart generates one-way blood flow with high pressure, a critical requirement for the efficient blood supply of large-body vertebrates... all extant vertebrates have hearts with two or more chambers (Moorman and Christoffels 2003)\" DOI:10.1101/gad.1485706"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000003",
           "val" : "As noted, the hearts of birds and mammals have four chambers that arises from the two chambers (atrium and ventricle) of the fish heart.[well established][VHOG]"
@@ -28289,7 +28371,7 @@
       "meta" : {
         "definition" : {
           "val" : "Racemose mucous glands beneath the mucous membrane of the pharynx.",
-          "xrefs" : [ "Biology-Online_Dictionary:http://www.biology-online.org/dictionary/" ]
+          "xrefs" : [ "http://www.biology-online.org/dictionary/" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#organ_slim" ],
         "xrefs" : [ {
@@ -29006,6 +29088,8 @@
         "xrefs" : [ {
           "val" : "MESH:D001826"
         }, {
+          "val" : "BIRNLEX:20"
+        }, {
           "val" : "FMA:280556"
         }, {
           "val" : "EMAPA:37441"
@@ -29104,6 +29188,10 @@
           "val" : "pharyngeal arch arteries",
           "xrefs" : [ ]
         }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "branchial aortic arches",
+          "xrefs" : [ "ZFA:0005004", "ZFIN:ZDB-PUB-080512-6" ]
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "branchial aortic arches",
           "xrefs" : [ "ZFIN:ZDB-PUB-080512-6" ]
@@ -29119,10 +29207,6 @@
           "pred" : "hasExactSynonym",
           "val" : "PAA",
           "xrefs" : [ "MP:0002672" ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "branchial aortic arches",
-          "xrefs" : [ "ZFA:0005004,ZFIN:ZDB-PUB-080512-6" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "pharyngeal arch artery",
@@ -30928,11 +31012,11 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
         }, {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/8/8f/Neural_Crest.png"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000003",
           "val" : "(...) at some stage of its development, every chordate exhibits five uniquely derived characters or synapomorphies of the group: (...) (4) a single, tubular nerve cord that is located dorsal to the notochord (...).[well established][VHOG]"
+        }, {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Neural_Crest.png"
         } ]
       },
       "type" : "CLASS",
@@ -30942,7 +31026,7 @@
       "meta" : {
         "definition" : {
           "val" : "Multi-tissue structure that is comprised of neural and non-neural epithelial layers which will form the retina and retinal pigmented epithelium of the mature eye[ZFA]. double walled structured formed by expansion and invagination of the distal end of the optic vesicle that develops into the pigmented and sensory layers of the retina while the mouth of the optic cup eventually forms the pupil of the eye[MP].",
-          "xrefs" : [ "MP:0004269", "Optic_cup_(embryology)", "ZFA:0001202" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Optic_cup_(embryology)", "MP:0004269", "ZFA:0001202" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#pheno_slim", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core" ],
         "xrefs" : [ {
@@ -31978,6 +32062,8 @@
           "val" : "TAO:0000282"
         }, {
           "val" : "FBbt:00007692"
+        }, {
+          "val" : "NLXANAT:090816"
         }, {
           "val" : "BAMS:SEN"
         }, {
@@ -33037,7 +33123,7 @@
       "meta" : {
         "definition" : {
           "val" : "Anatomical cavity at the start of the digestive tract that that is enclosed by the mouth. The boundaries and contents vary depending on the species. In vertebrates, the boundaries are the oral opening, the cheeks, the palate and (if present) the palatoglossal arch - if this is not present then the mouth and pharynx form the oropharyngeal cavity. The buccal cavity contains the teeth, tongue and palate (when present)",
-          "xrefs" : [ "https://github.com/obophenotype/uberon/wiki/The-digestive-tract", "https://orcid.org/0000-0002-6601-2165", "ISBN10:0073040584" ]
+          "xrefs" : [ "https://github.com/obophenotype/uberon/wiki/The-digestive-tract", "https://orcid.org/0000-0002-6601-2165", "ISBN:0073040584" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#uberon_slim", "http://purl.obolibrary.org/obo/uberon/core#pheno_slim" ],
         "xrefs" : [ {
@@ -33092,7 +33178,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "buccal cavity",
-          "xrefs" : [ "FMA:20292", "ISBN10:0073040584" ]
+          "xrefs" : [ "FMA:20292", "ISBN:0073040584" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
@@ -33271,6 +33357,8 @@
         }, {
           "val" : "FBbt:00005094"
         }, {
+          "val" : "BIRNLEX:1099"
+        }, {
           "val" : "EHDAA2:0000225"
         }, {
           "val" : "FMA:55675"
@@ -33282,6 +33370,8 @@
           "val" : "EV:0100163"
         }, {
           "val" : "MESH:D002490"
+        }, {
+          "val" : "UMLS:C0927232"
         }, {
           "val" : "AAO:0000090"
         }, {
@@ -33298,8 +33388,6 @@
           "val" : "BILA:0000080"
         }, {
           "val" : "OpenCyc:Mx4rvzYt3pwpEbGdrcN5Y29ycA"
-        }, {
-          "val" : "UMLS:C0927232"
         }, {
           "val" : "EMAPA:16470"
         }, {
@@ -33382,7 +33470,7 @@
       "meta" : {
         "definition" : {
           "val" : "The nervous system is an organ system containing predominantly neuron and glial cells. In bilaterally symmetrical organism, it is arranged in a network of tree-like structures connected to a central body. The main functions of the nervous system are to regulate and control body functions, and to receive sensory input, process this information, and generate behavior [CUMBO].",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Nervous_system", "http://uri.neuinfo.org/nif/nifstd/birnlex_844", "ISBN:0-14-051288-8", "ISBN:3110148986", "NLM:nervous+system", "WB:rynl", "ZFIN:curator" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Nervous_system", "BIRNLEX:844", "ISBN:0-14-051288-8", "ISBN:3110148986", "NLM:nervous+system", "WB:rynl", "ZFIN:curator" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#pheno_slim", "http://purl.obolibrary.org/obo/uberon/core#uberon_slim", "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#cumbo" ],
         "xrefs" : [ {
@@ -33399,6 +33487,8 @@
           "val" : "BILA:0000079"
         }, {
           "val" : "MIAA:0000026"
+        }, {
+          "val" : "BIRNLEX:844"
         }, {
           "val" : "EMAPA:16469"
         }, {
@@ -33609,7 +33699,7 @@
           "val" : "consider including subclasses for pre- and post- migratory (e.g. sheets/paths/streams)."
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/8/8f/Neural_Crest.png"
+          "val" : "http://purl.obolibrary.org/obo/Neural_Crest.png"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
@@ -33617,11 +33707,11 @@
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000003",
           "val" : "We conclude that the neural crest is a vertebrate novelty, but that neural crest cells and their derivatives evolved and diversified in a step-wise fashion - first by elaboration of neural plate border cells, then by the innovation or co-option of new or ancient metazoan cell fates.[well established][VHOG]"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002174",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_117565"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000003",
           "val" : "A well developed neural crest population is present in lampreys (Horigome et al. 1999 ; Tomsa & Langeland, 1999) and gnathostomes. chordate fossils from the early Cambrian (Yunnanozoan and Haikouella) with apparent neural-crest derived structures (pharyngeal denticles and pharyngeal skeletons resembling the striped mucocartilage of the branchial bars in lamprey ammocoete larvae), suggests that neural crest arose very early in vertebrate evolution (Chen et al. 1999; Holland & Chen, 2001). The invertebrate chordates apparently lack defini- tive neural crest. One marker of migrating neural crest in some vertebrates, the antibody HNK1, does not recognize any cells in amphioxus embryos (Holland, unpublished). Even so, in both amphioxus and tunicates, cells at the edges of the neural plate and adjacent nonneural ectoderm share some properties of neural crest[PMID:11523831]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002174",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_117565"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Gene notes: Many factors and genes, such as Pax3 (Tremblay et al., 1995), slug (Nieto et al., 1994), AP-2 (Zhang et al., 1996; Schorle et al., 1996), and Wnt-1/3a (Ikeya et al., 1997) are expressed in the dorsal most region of the neural tube, and have been shown to be involved in the generation of neural crest cells."
@@ -34119,10 +34209,6 @@
           "val" : "BTO:0001558"
         } ],
         "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "epimere",
-          "xrefs" : [ "ISBN10:0073040584" ]
-        }, {
           "pred" : "hasBroadSynonym",
           "val" : "mesodermal cluster",
           "xrefs" : [ "GO:0001756" ]
@@ -34130,6 +34216,10 @@
           "pred" : "hasRelatedSynonym",
           "val" : "epithelial somite",
           "xrefs" : [ "https://github.com/obophenotype/uberon/wiki/The-neural-crest" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "epimere",
+          "xrefs" : [ "ISBN:0073040584" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "somitic mesoderm",
@@ -34359,11 +34449,27 @@
       "type" : "CLASS",
       "lbl" : "dermis adipose tissue"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000067",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000067"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "contains_process"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "contains process"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001003",
       "meta" : {
         "definition" : {
           "val" : "The outer epithelial layer of the skin that is superficial to the dermis.",
-          "xrefs" : [ "http://orcid.org/0000-0002-6601-2165", "ISBN10:0073040584" ]
+          "xrefs" : [ "http://orcid.org/0000-0002-6601-2165", "ISBN:0073040584" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/uberon/core#efo_slim", "http://purl.obolibrary.org/obo/uberon/core#uberon_slim", "http://purl.obolibrary.org/obo/uberon/core#vertebrate_core", "http://purl.obolibrary.org/obo/uberon/core#pheno_slim" ],
         "xrefs" : [ {
@@ -34441,22 +34547,6 @@
       },
       "type" : "CLASS",
       "lbl" : "skin epidermis"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BFO_0000067",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "BFO:0000067"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "uberon"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
-          "val" : "contains_process"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "contains process"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001005",
       "meta" : {
@@ -34660,16 +34750,6 @@
       "type" : "PROPERTY",
       "lbl" : "precedes"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/UBERON_0000154",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "uberon"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "posterior region of body"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0002333",
       "meta" : {
         "definition" : {
@@ -34710,11 +34790,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
+          "val" : "http://purl.obolibrary.org/obo/Alveoli_diagram.png"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "uberon"
-        }, {
-          "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/d/db/Alveoli_diagram.png"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/UBPROP_0000001",
           "val" : "An arterial trunk with origin from the right ventricle of the heart, and dividing into the right and left pulmonary arteries, which enter the corresponding lungs and branch with the bronchi. [TFD][VHOG]"
@@ -34725,6 +34805,16 @@
       },
       "type" : "CLASS",
       "lbl" : "pulmonary trunk"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000154",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "posterior region of body"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0017650",
       "meta" : {
@@ -34954,7 +35044,7 @@
       "meta" : {
         "definition" : {
           "val" : "The part of the venous system that drains the general body tissues[Kardong]",
-          "xrefs" : [ "http://en.wikipedia.org/wiki/Systemic_venous_system", "ISBN10:0073040584" ]
+          "xrefs" : [ "http://en.wikipedia.org/wiki/Systemic_venous_system", "ISBN:0073040584" ]
         },
         "xrefs" : [ {
           "val" : "FMA:45626"
@@ -35788,6 +35878,8 @@
         }, {
           "val" : "TGMA:0001822"
         }, {
+          "val" : "BIRNLEX:6"
+        }, {
           "val" : "BILA:0000000"
         }, {
           "val" : "AEO:0000000"
@@ -36030,10 +36122,6 @@
           "val" : "EHDAA:4737"
         } ],
         "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "lens mass",
-          "xrefs" : [ "ZFA:0001679,ZFIN:ZDB-PUB-091023-49" ]
-        }, {
           "pred" : "hasNarrowSynonym",
           "val" : "hollow lens vesicle",
           "xrefs" : [ ]
@@ -36045,6 +36133,10 @@
           "pred" : "hasRelatedSynonym",
           "val" : "immature lens",
           "xrefs" : [ "ZFA:0001679" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "lens mass",
+          "xrefs" : [ "ZFA:0001679", "ZFIN:ZDB-PUB-091023-49" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "presumptive lens",
@@ -36443,6 +36535,22 @@
       },
       "type" : "CLASS",
       "lbl" : "pharyngeal ectoderm"
+    }, {
+      "id" : "http://xmlns.com/foaf/0.1/depicted_by",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "true"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "depicted_by"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "depicted by"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0003473",
       "meta" : {
@@ -37372,7 +37480,7 @@
           "val" : "uberon"
         }, {
           "pred" : "http://xmlns.com/foaf/0.1/depicted_by",
-          "val" : "http://upload.wikimedia.org/wikipedia/commons/6/61/Blood_vessels.svg"
+          "val" : "http://purl.obolibrary.org/obo/Blood_vessels.svg"
         } ]
       },
       "type" : "CLASS",
@@ -37491,13 +37599,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000483"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0018674",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0006876"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002328",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004121"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0018674",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0006876"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004921",
       "pred" : "http://purl.obolibrary.org/obo/uberon/core#subdivision_of",
@@ -37579,13 +37687,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001062"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009751",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004120"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002012",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0008886"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009751",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004120"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002097",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -37879,6 +37987,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0015212"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002523",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002220",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0010161"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000178",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002495",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0006596"
@@ -38123,13 +38235,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003089"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004777",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000009"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0022361",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002387",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004777",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001605",
       "pred" : "is_a",
@@ -38347,13 +38459,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003643"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009614",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0010314"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0003610",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000948"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009614",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0010314"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004479",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -38590,10 +38702,6 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000328",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000060"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0010188",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001768",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
@@ -39351,13 +39459,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002384"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007281",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002387",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003052"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002539",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0010314"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007281",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002387",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004571",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -40223,13 +40331,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004121"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000111",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000110"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0012125",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000467"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000111",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000062",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000110"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002240",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -40287,13 +40395,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003075"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003278",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001708"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0003854",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003075"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003278",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001708"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001484",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
@@ -40463,13 +40571,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004121"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006238",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002387",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000955"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0034709",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004062"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006238",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002387",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000955"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000069",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -40507,13 +40615,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004522"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003566",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005253"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0005253",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003104"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003566",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005253"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004237",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -40679,13 +40787,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0019207"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006904",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005253"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002199",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002097"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006904",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005253"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002323",
       "pred" : "is_a",
@@ -40747,13 +40855,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0013701"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004141",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005498"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002390",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003061"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004141",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0005498"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0010031",
       "pred" : "is_a",
@@ -41011,13 +41119,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002219",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002522"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003512",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002433",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002048"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_6001730",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000033"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003512",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002433",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002048"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0003512",
       "pred" : "is_a",
@@ -41083,13 +41191,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002330"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003099",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002342"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000111",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003099",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002342"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000982",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002176",
@@ -41275,13 +41383,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000062"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0035763",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002572",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004151"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000019",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0035763",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002572",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004151"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000307",
       "pred" : "is_a",
@@ -41363,13 +41471,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0013701"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007243",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002522"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0010252",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0010259"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007243",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002522"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0035814",
       "pred" : "is_a",
@@ -41479,13 +41587,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000092"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007277",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0006238"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002100",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0011676"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0007277",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0006238"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004797",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -41503,13 +41611,13 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/BSPO_0000102"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001458",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001833"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0003967",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004121"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001458",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001833"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0011216",
       "pred" : "is_a",
@@ -41651,13 +41759,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002495",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0007026"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003643",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003504"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0009097",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0007023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003643",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003504"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002551",
       "pred" : "inverseOf",
@@ -41735,13 +41843,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000483"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001630",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002385"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000113",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001630",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002385"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000068",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
@@ -41851,13 +41959,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001835"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004731",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004732"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0013232",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000409"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0004731",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004732"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000488",
       "pred" : "is_a",
@@ -41867,13 +41975,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003081"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001891",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002254",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003849"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0006965",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005423"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001891",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002254",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003849"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007530",
       "pred" : "is_a",
@@ -42139,13 +42247,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000483"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0010291",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001773"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0015179",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000483"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0010291",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001773"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0003408",
       "pred" : "is_a",
@@ -42427,13 +42535,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000077"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0013756",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001638"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0005388",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000970"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0013756",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001638"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0035763",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002219",
@@ -42599,13 +42707,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_3000961"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006598",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002387",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000061"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002489",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002488"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0006598",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002387",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000061"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000481",
       "pred" : "is_a",
@@ -43055,13 +43163,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000955"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003076",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001049"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/BSPO_0001107",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002220"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003076",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001049"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007021",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002493",
@@ -43119,25 +43227,25 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003714"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003077",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0007524"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0013411",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003129"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0003077",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0007524"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001013",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0011822"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0005985",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000948"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002012",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0013768"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0005985",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000948"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0003364",
       "pred" : "is_a",
@@ -43451,6 +43559,10 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002221",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000468"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0010188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0034944"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0035553",
       "pred" : "http://purl.obolibrary.org/obo/BSPO_0000120",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000948"
@@ -43487,13 +43599,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000020"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001417",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000974"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002067",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002097"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001417",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000974"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0011156",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -44447,13 +44559,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000068"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000117",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000025"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000109",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000025"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001916",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -44495,13 +44607,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003528"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000014",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002067"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002016",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0013768"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000014",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0002067"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0006761",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -45395,13 +45507,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000033"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001835",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0010314"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002202",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002254"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001835",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0010314"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007285",
       "pred" : "is_a",
@@ -45419,13 +45531,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001981"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009614",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003057"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0011134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000982"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009614",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003057"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002048",
       "pred" : "is_a",
@@ -45547,10 +45659,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000061"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002523",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002220",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0010161"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004535",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001981"
@@ -45663,13 +45771,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003496"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000117",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000065"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0003071",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0006598"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000117",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000065"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001980",
       "pred" : "is_a",
@@ -46019,13 +46127,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001892"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0005177",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000062"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000389",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000965"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0005177",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000062"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0018239",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -46139,13 +46247,13 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000344"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000915",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002551",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0014477"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002007",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000050"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000915",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002551",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0014477"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0012180",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -46407,21 +46515,21 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003504"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002328",
-      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000098",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001555"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000307",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0007010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001005",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004111"
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002328",
+      "pred" : "http://purl.obolibrary.org/obo/BSPO_0000098",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001555"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0009494",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002539"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0001005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004111"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001003",
       "pred" : "is_a",
@@ -46515,13 +46623,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000061"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009722",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0015833"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007625",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000970"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0009722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0015833"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0016887",
       "pred" : "is_a",
@@ -46599,13 +46707,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002020"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002323",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002494",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003886"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0004140",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0005291"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0002323",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002494",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0003886"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0009722",
       "pred" : "is_a",
@@ -46671,13 +46779,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001981"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0008229",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0007811"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0006314",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000463"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0008229",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0007811"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0007281",
       "pred" : "is_a",
@@ -46719,13 +46827,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002371",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0003129"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0008307",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004852"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0005174",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001137"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0008307",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004852"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0002067",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002473",
@@ -46831,13 +46939,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0004120"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000178",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001969"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0000113",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UBERON_0000178",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001969"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0010360",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002202",
@@ -47208,7 +47316,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2019-03-14/imports/uberon_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-05-18/imports/uberon_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -47670,6 +47778,13 @@
         "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0001137"
       } ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/UBERON_0005194",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001638" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
+        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0000915"
+      } ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/UBERON_0007023",
       "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0000468" ],
       "restrictions" : [ {
@@ -47678,13 +47793,6 @@
       }, {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0002493",
         "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0000113"
-      } ]
-    }, {
-      "definedClassId" : "http://purl.obolibrary.org/obo/UBERON_0005194",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/UBERON_0001638" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0000915"
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/UBERON_0010083",
