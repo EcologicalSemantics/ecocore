@@ -55,4 +55,4 @@ Creating a GitHub release 1. Go to ecocore releases on GitHub, click "Draft new 
 
 The first version of ECOCORE was built at the NSF-funded [ClearEarth Hackathon](http://instaar.colorado.edu/~jenkinsc/postings/BioHackathon/), organised by Chris Jenkins and [Anne Thesen](http://orcid.org/0000-0002-2908-3327), with input from ecologists, ontologists, and experts in natural language processing. The ontology was seeded with lists of terms generated as part of the hackathon.
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit) then updated to the ontology development kit on 2020-03-15.
