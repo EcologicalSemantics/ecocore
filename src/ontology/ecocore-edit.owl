@@ -961,8 +961,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000097> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000098> "a heterotroph that consumes bacteria")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000098> "bacterivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000098> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000114>)))
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000098> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_2>)))
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000098> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_2157>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000098> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000099> (herbivorous grazing)
@@ -1074,8 +1072,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000113> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "A heterotrophic process during which a living entity acquires food and energy from consuming bacteria.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000114> "bactivory")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2>))
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2157>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> ObjectUnionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2157>))))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000114> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000115> (broadcast spawn)
