@@ -17,7 +17,7 @@ Import(<http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/releases/2020-05-18/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
 Annotation(rdfs:comment "An ontology of core ecological entities")
 
 Declaration(Class(<http://obolibrary.org/obo/ECOCORE_00000103>))
