@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-
-
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl" uri="imports/nbo_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl" uri="imports/go_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl" uri="imports/ro_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl" uri="imports/envo_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl" uri="imports/pato_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl" uri="imports/ido_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl" uri="imports/pco_import.owl"/>
-  
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl" uri="imports/po_import.owl"/>
-  
- 
-  <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
-
-  <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ecocore/releases/2020-05-18/imports/ro_import.owl" uri="http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/releases/2020-07-21/ro.owl" uri="http://purl.obolibrary.org/obo/ro.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl" uri="imports/nbo_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl" uri="imports/go_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl" uri="imports/envo_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl" uri="imports/iao_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/ido_import.owl" uri="imports/ido_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl" uri="imports/pco_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl" uri="imports/po_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ecocore/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>
