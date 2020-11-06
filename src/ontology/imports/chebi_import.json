@@ -546,6 +546,9 @@
           "xrefs" : [ ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Subatomic_particle"
+        } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "subatomic particles",
@@ -1128,7 +1131,7 @@
       "id" : "http://purl.obolibrary.org/obo/CHEBI_131605",
       "meta" : {
         "definition" : {
-          "val" : "A carboxylic acid anion resultig from the deprotonation of the carboxy group of a dicarboxylic acid monoester.",
+          "val" : "A carboxylic acid anion resulting from the deprotonation of the carboxy group of a dicarboxylic acid monoester.",
           "xrefs" : [ ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
@@ -2010,7 +2013,7 @@
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33290",
       "meta" : {
         "definition" : {
-          "val" : "Any material that can be ingested by an organism.",
+          "val" : "A physiological role played by any substance of either plant, animal or artificial origin which contains essential body nutrients that can be ingested by an organism to provide energy, promote growth, and maintain the processes of life.",
           "xrefs" : [ ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
@@ -8207,7 +8210,7 @@
       "id" : "http://purl.obolibrary.org/obo/CHEBI_78295",
       "meta" : {
         "definition" : {
-          "val" : "Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.",
+          "val" : "A physiological role played by any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.",
           "xrefs" : [ ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
@@ -9050,13 +9053,13 @@
           "val" : "Alkalimetall",
           "xrefs" : [ "ChEBI" ]
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "alkali metals",
-          "xrefs" : [ "IUPAC" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Alkalimetalle",
           "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "alkali metals",
+          "xrefs" : [ "IUPAC" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "metal alcalino",
@@ -9176,7 +9179,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_48360",
       "meta" : {
-        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#1_STAR" ],
+        "definition" : {
+          "val" : "Self-ionizing solvent possessing both characteristics of Bronsted acids and bases.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "amphiprotic solvent",
+          "xrefs" : [ "IUPAC" ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -9806,7 +9818,24 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_48359",
       "meta" : {
-        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#1_STAR" ],
+        "definition" : {
+          "val" : "Solvent that is capable of acting as a hydron (proton) acceptor.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hydrogen bond acceptor solvent",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "protophilic solvent",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HBA solvent",
+          "xrefs" : [ "ChEBI" ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -11991,13 +12020,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38222"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76725",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23924"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_72695",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25367"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76725",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23924"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33434",
       "pred" : "is_a",
@@ -12015,13 +12044,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33579"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_46787",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24867",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24870"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_46787",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_22313",
       "pred" : "is_a",
@@ -12139,13 +12168,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24471"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17997",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_30102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25741",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25806"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17997",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_30102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16183",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -12191,13 +12220,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22563"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_46883",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33249"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33909",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36309"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_46883",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33249"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16900",
       "pred" : "is_a",
@@ -12523,13 +12552,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_139292",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35757"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29360",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29438"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_139292",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35757"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_78433",
       "pred" : "is_a",
@@ -12859,13 +12888,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50906"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23114",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23117"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33246",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24433"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23114",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23117"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_37176",
       "pred" : "is_a",
@@ -12887,13 +12916,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33937"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29101",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_60242"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35479",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24866"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29101",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_60242"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17997",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -13339,13 +13368,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_75771"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_49475",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33309"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33405",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33608"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_49475",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33309"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33822",
       "pred" : "is_a",
@@ -13403,13 +13432,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36342"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76946",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75763"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16526",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76946",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_75763"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16183",
       "pred" : "is_a",
@@ -13659,13 +13688,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36914"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76741",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76725"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17996",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23357"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76741",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76725"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36587",
       "pred" : "is_a",
@@ -13799,13 +13828,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_72695"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33267",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36915",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33267",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51143"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15379",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -13908,7 +13937,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-05-18/imports/chebi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-11-05/imports/chebi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

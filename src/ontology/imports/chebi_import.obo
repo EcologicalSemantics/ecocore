@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-05-18/imports/chebi_import.owl
+data-version: ecocore/releases/2020-11-05/imports/chebi_import.owl
 ontology: ecocore/imports/chebi_import
 
 [Term]
@@ -40,7 +40,7 @@ is_a: CHEBI:76969 ! bacterial metabolite
 id: CHEBI:131605
 name: dicarboxylic acid monoester(1-)
 namespace: chebi_ontology
-def: "A carboxylic acid anion resultig from the deprotonation of the carboxy group of a dicarboxylic acid monoester." []
+def: "A carboxylic acid anion resulting from the deprotonation of the carboxy group of a dicarboxylic acid monoester." []
 subset: 3_STAR
 is_a: CHEBI:29067 ! carboxylic acid anion
 relationship: is_conjugate_base_of CHEBI:36244 ! dicarboxylic acid monoester
@@ -2369,7 +2369,7 @@ is_a: CHEBI:33286 ! agrochemical
 id: CHEBI:33290
 name: food
 namespace: chebi_ontology
-def: "Any material that can be ingested by an organism." []
+def: "A physiological role played by any substance of either plant, animal or artificial origin which contains essential body nutrients that can be ingested by an organism to provide energy, promote growth, and maintain the processes of life." []
 subset: 3_STAR
 synonym: "food material" RELATED [ChEBI]
 synonym: "food materials" RELATED [ChEBI]
@@ -3218,6 +3218,7 @@ namespace: chebi_ontology
 def: "A particle smaller than an atom." []
 subset: 3_STAR
 synonym: "subatomic particles" RELATED [ChEBI]
+xref: Wikipedia:Subatomic_particle
 
 [Term]
 id: CHEBI:36343
@@ -3790,7 +3791,11 @@ is_a: CHEBI:48354 ! polar solvent
 id: CHEBI:48359
 name: protophilic solvent
 namespace: chebi_ontology
-subset: 1_STAR
+def: "Solvent that is capable of acting as a hydron (proton) acceptor." []
+subset: 3_STAR
+synonym: "HBA solvent" RELATED [ChEBI]
+synonym: "hydrogen bond acceptor solvent" RELATED [ChEBI]
+synonym: "protophilic solvent" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:39142 ! Bronsted base
 is_a: CHEBI:48354 ! polar solvent
 
@@ -3798,7 +3803,9 @@ is_a: CHEBI:48354 ! polar solvent
 id: CHEBI:48360
 name: amphiprotic solvent
 namespace: chebi_ontology
-subset: 1_STAR
+def: "Self-ionizing solvent possessing both characteristics of Bronsted acids and bases." []
+subset: 3_STAR
+synonym: "amphiprotic solvent" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:48356 ! protic solvent
 is_a: CHEBI:48359 ! protophilic solvent
 
@@ -4605,7 +4612,7 @@ is_a: CHEBI:76414 ! propellant
 id: CHEBI:78295
 name: food component
 namespace: chebi_ontology
-def: "Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants." []
+def: "A physiological role played by any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants." []
 subset: 3_STAR
 synonym: "dietary component" RELATED [ChEBI]
 synonym: "dietary components" RELATED [ChEBI]
