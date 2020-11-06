@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-05-18/ecocore-base.owl
+data-version: ecocore/releases/2020-11-05/ecocore-base.owl
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000057>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000076>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000077>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000100>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000102>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000114>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000148>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_9999999>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2157>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PO_0009010>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000049> (microphytobenthos)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000049> ObjectUnionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000077> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/ECOCORE_00000076>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000057> (detritivory)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000057> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/ENVO_01001103>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000100> (seed predation)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/PO_0009010>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000102> (predation)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000102> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/ECOCORE_00000148>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000114> (bactivory)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2>))\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2157>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_9999999> (abnormal Entity (BFO))\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_9999999> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))\n\n\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://obolibrary.org/obo/ECOCORE_00000103>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000009>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000010>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000011>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000012>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000014>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000015>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000016>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000017>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000019>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000021>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000023>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000049>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000054>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000055>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000057>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000058>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000076>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000077>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000088>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000089>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000090>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000091>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000098>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000102>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000108>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000114>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000121>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000122>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000123>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000124>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000127>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000128>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000129>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000130>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000132>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000146>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000147>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000162>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000163>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000164>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000165>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_9999999>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0015979>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GO_0062097>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2157>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4751>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000052>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002351>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000010> (heterotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000011>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000012> (mixotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000009> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000015> (fungivore)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000015> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000016>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000016> (fungivory)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_4751>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000019> (herbivore)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000020>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000021> (carnivory)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000023> (autotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000009>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000049> (microphytobenthos)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000049> ObjectUnionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000077> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/ECOCORE_00000076>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000054> (decomposer)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000054> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000058>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000055> (detritivore)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000057>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000088> (carnivore)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000088> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000021>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000089> (predator)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000089> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000102>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000090> (scavenger)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://obolibrary.org/obo/ECOCORE_00000103>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000091> (insectivore)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000108>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000098> (bacterivore)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000098> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000114>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000114> (bactivory)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_2> <http://purl.obolibrary.org/obo/NCBITaxon_2157>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000121> (photoorganoautotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000121> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000162>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000122> (photolithoautotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolibrary.org/obo/GO_0015979>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000123> (chemoorganoautotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000123> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000162> <http://purl.obolibrary.org/obo/GO_0062097>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000124> (chemolithoautotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolibrary.org/obo/GO_0062097>)))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000127> (chemoorganoheterotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000162>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000128> (chemolithoheterotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000128> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000014>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000129> (chemoautotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000163>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000130> (photoautotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000130> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000017>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000132> (chemoheterotroph)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000163>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000146> (parasite)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000146> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000147>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000164> (sanguivore)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000164> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000165>))\n\n# Class: <http://purl.obolibrary.org/obo/ECOCORE_9999999> (abnormal Entity (BFO))\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_9999999> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000052> <http://purl.obolibrary.org/obo/BFO_0000001>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))\n\n\n)
 
 [Term]
 id: ECOCORE:00000001
@@ -89,8 +89,6 @@ name: heterotroph
 def: "An organism that obtains carbon for growth and development by metabolizing biogenic organic compounds derived from living or dead material." []
 synonym: "consumer" RELATED []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -109,8 +107,6 @@ id: ECOCORE:00000012
 name: mixotroph
 def: "An organism which is capable of heterotrophic and autotrophic trophic processes." []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 ECOCORE:00000011 {all_some="true"} ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -137,8 +133,6 @@ name: fungivore
 def: "A heterotroph which consumes fungi." []
 synonym: "mycophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000016 ! fungivory
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -178,8 +172,6 @@ comment: There is some debate over whether herbivores should be restricted to pl
 synonym: "plant eater" NARROW []
 synonym: "primary consumer" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000020 ! herbivory
 relationship: RO:0002215 ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -209,8 +201,6 @@ name: autotroph
 def: "An organism which is capable of incorporating abiogenic (inorganic) carbon into its biomass." []
 synonym: "primary producer" RELATED []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 ECOCORE:00000009 ! autotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -366,8 +356,6 @@ id: ECOCORE:00000045
 name: symbiotroph
 def: "heterotroph that acquires nutrition from a symbiont" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000060 ! symbiotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -424,8 +412,6 @@ id: ECOCORE:00000054
 name: decomposer
 def: "heterotroph that obtains nutrition by breaking down dead or decaying organisms or other organic matter" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000058 ! decomposition
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -433,10 +419,6 @@ id: ECOCORE:00000055
 name: detritivore
 def: "A decomposer which obtains nutrition by consuming detritus." []
 is_a: ECOCORE:00000054 ! decomposer
-intersection_of: ECOCORE:00000054 ! decomposer
-intersection_of: ECOCORE:00000054 ! decomposer
-intersection_of: RO:0002215 ECOCORE:00000057 ! detritivory
-intersection_of: RO:0002470 ENVO:01001103
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -444,8 +426,6 @@ id: ECOCORE:00000056
 name: saprotroph
 def: "A decomposer that obtains nutrition through extracellular digestion of decaying organic matter" []
 is_a: ECOCORE:00000054 ! decomposer
-intersection_of: ECOCORE:00000054 ! decomposer
-intersection_of: RO:0002215 ECOCORE:00000059 ! saprotrophy
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -589,8 +569,6 @@ id: ECOCORE:00000076
 name: algae
 def: "A polyphyletic group of diverse photosynthetic organisms that excludes vascular plants and mosses and includes cyanobacteria, seaweed, and some single-celled organisms." []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 GO:0015979
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -645,8 +623,6 @@ name: folivore
 def: "An herbivore that primarily consumes leaves" []
 synonym: "leaf eater" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 PO:0025034
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Folivore xsd:string
 
@@ -657,8 +633,6 @@ def: "An herbivore that primarily consumes roots" []
 synonym: "root eater" EXACT []
 synonym: "root herbivore" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 ENVO:01000349
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -667,8 +641,6 @@ name: algivore
 def: "An herbivore that primarily consumes algae" []
 synonym: "algae eater" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 ENVO:01001189
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -683,10 +655,6 @@ id: ECOCORE:00000088
 name: carnivore
 def: "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process." []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000021 ! carnivory
-intersection_of: RO:0002470 NCBITaxon:33208
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -694,8 +662,6 @@ id: ECOCORE:00000089
 name: predator
 def: "A carnivore that actively captures and consumes other animals, causing their immediate or immenent death" []
 is_a: ECOCORE:00000088 ! carnivore
-intersection_of: ECOCORE:00000088 ! carnivore
-intersection_of: RO:0002215 ECOCORE:00000102 ! predation
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -703,8 +669,6 @@ id: ECOCORE:00000090
 name: scavenger
 def: "A carnivore that feeds on dead and decaying animal matter" []
 is_a: ECOCORE:00000088 ! carnivore
-intersection_of: ECOCORE:00000088 ! carnivore
-intersection_of: RO:0002215 ECOCORE:00000103 ! scavenging
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -712,8 +676,6 @@ id: ECOCORE:00000091
 name: insectivore
 def: "A predator that primarily eats insects" []
 is_a: ECOCORE:00000089 ! predator
-intersection_of: ECOCORE:00000089 ! predator
-intersection_of: RO:0002215 ECOCORE:00000108 ! insectivory
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -764,12 +726,6 @@ id: ECOCORE:00000098
 name: bacterivore
 def: "a heterotroph that consumes bacteria" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000114 ! bactivory
-intersection_of: RO:0002470 NCBITaxon:2
-intersection_of: RO:0002470 NCBITaxon:2157
 
 [Term]
 id: ECOCORE:00000099
@@ -936,8 +892,6 @@ id: ECOCORE:00000121
 name: photoorganoautotroph
 def: "A photoautotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000130 ! photoautotroph
-intersection_of: ECOCORE:00000130 ! photoautotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -945,10 +899,6 @@ id: ECOCORE:00000122
 name: photolithoautotroph
 def: "A photoautotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000130 ! photoautotroph
-intersection_of: ECOCORE:00000130 ! photoautotroph
-intersection_of: ECOCORE:00000130 ! photoautotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
-intersection_of: RO:0002215 GO:0015979
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -956,10 +906,6 @@ id: ECOCORE:00000123
 name: chemoorganoautotroph
 def: "A chemoautotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
-intersection_of: RO:0002215 GO:0062097
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -967,10 +913,6 @@ id: ECOCORE:00000124
 name: chemolithoautotroph
 def: "A chemoautotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
-intersection_of: RO:0002215 GO:0062097
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -978,8 +920,6 @@ id: ECOCORE:00000125
 name: photoorganoheterotroph
 def: "A photoheterotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000131 ! photoheterotroph
-intersection_of: ECOCORE:00000131 ! photoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -987,8 +927,6 @@ id: ECOCORE:00000126
 name: photolithoheterotroph
 def: "A photoheterotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000131 ! photoheterotroph
-intersection_of: ECOCORE:00000131 ! photoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -996,8 +934,6 @@ id: ECOCORE:00000127
 name: chemoorganoheterotroph
 def: "A chemoheterotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1005,8 +941,6 @@ id: ECOCORE:00000128
 name: chemolithoheterotroph
 def: "A chemoheterotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1014,8 +948,6 @@ id: ECOCORE:00000129
 name: chemoautotroph
 def: "An autotroph which is capable of obtaining energy from the bonds in a chemical compound." []
 is_a: ECOCORE:00000023 ! autotroph
-intersection_of: ECOCORE:00000023 ! autotroph
-intersection_of: RO:0002215 ECOCORE:00000163 ! chemotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1023,8 +955,6 @@ id: ECOCORE:00000130
 name: photoautotroph
 def: "An autotroph which is capable of transforming light into chemical energy." []
 is_a: ECOCORE:00000023 ! autotroph
-intersection_of: ECOCORE:00000023 ! autotroph
-intersection_of: RO:0002215 ECOCORE:00000017 ! phototrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1032,8 +962,6 @@ id: ECOCORE:00000131
 name: photoheterotroph
 def: "A heterotroph which is capable of transforming light into chemical energy." []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000017 ! phototrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1041,8 +969,6 @@ id: ECOCORE:00000132
 name: chemoheterotroph
 def: "A heterotroph which is capable of obtaining energy from the bonds in a chemical compound." []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000163 ! chemotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1069,8 +995,6 @@ def: "An herbivore that primarily consumes fruits or fruit-like vegetables" []
 synonym: "fruit eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1470764
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 PO:0009001
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1121,10 +1045,6 @@ def: "An herbivore that primarily consumes seeds" []
 synonym: "seed eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1974986
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002215 ECOCORE:00000100 ! seed predation
-intersection_of: RO:0002470 PO:0009010
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1133,8 +1053,6 @@ name: xylophage
 def: "An herbivore that primarily consumes wood" []
 xref: https://www.wikidata.org/entity/Q2072826
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 ENVO:00002040
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1154,8 +1072,6 @@ name: parasite
 def: "A symbiotroph that reduces the fitness, survival, or growth of its symbiont, often called a host" []
 xref: https://www.wikidata.org/entity/Q10253316
 is_a: ECOCORE:00000045 ! symbiotroph
-intersection_of: ECOCORE:00000045 ! symbiotroph
-intersection_of: RO:0002215 ECOCORE:00000147 ! parasitism
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1249,8 +1165,6 @@ id: ECOCORE:00000158
 name: planktivore
 def: "A suspension feeder that acquires nutrition by consuming planktonic organisms." []
 is_a: ECOCORE:00000051 ! suspension feeder
-intersection_of: ECOCORE:00000051 ! suspension feeder
-intersection_of: RO:0002470 ENVO:01000063
 
 [Term]
 id: ECOCORE:00000159
@@ -1291,8 +1205,6 @@ name: sanguivore
 def: "A carnivore that consumes blood, during a brief, temporary interaction." []
 synonym: "blood eater" EXACT []
 is_a: ECOCORE:00000088 ! carnivore
-intersection_of: ECOCORE:00000088 ! carnivore
-intersection_of: RO:0002215 ECOCORE:00000165 ! hematophagy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1321,9 +1233,6 @@ id: ECOCORE:00000168
 name: herbivorous grazer
 def: "an herbivore that primarily consumes grasses, leaves, and other soft plant material" []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002215 ECOCORE:00000099 ! herbivorous grazing
-intersection_of: RO:0002215 ECOCORE:00000139 ! grazing
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-9943-2342 xsd:string
 
@@ -1332,8 +1241,6 @@ id: ECOCORE:00000169
 name: herbivorous browser
 def: "An herbivore that primarily consumes twigs, leaves, and bark of trees and shrubs." []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002215 ECOCORE:00000101 ! herbivorous browsing
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1400,16 +1307,10 @@ def: "Abnormality of Entity (BFO)." []
 synonym: "abnormality of Entity (BFO)" EXACT []
 
 [Term]
-id: ENVO:01000063
-synonym: "algae" RELATED []
-
-[Term]
 id: ecocore:00000082
 name: omnivore
 def: "A heterotroph that consumes plant and animal matter either in whole or in part via ingestion through a type of \"mouth\". Animal and plant matter is broken down through an internal digestion process" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000021 {all_some="true"} ! carnivory
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]

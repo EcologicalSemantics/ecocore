@@ -1,76 +1,16 @@
 Level	Rule Name	Subject	Property	Value
-ERROR	duplicate_definition	ENVO:01001477	IAO:0000115	A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes.	
-ERROR	duplicate_definition	ENVO:01001478	IAO:0000115	A part of an astronomical body which is primarily composed of a continuous volume of liquid material, shaped by one or more environmental processes.	
-ERROR	duplicate_definition	ENVO:01001309	IAO:0000115	A liquid surface layer which is in contact with air.	
-ERROR	duplicate_definition	ENVO:01001310	IAO:0000115	A liquid surface layer which is in contact with air.	
-ERROR	duplicate_definition	ENVO:01001275	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
-ERROR	duplicate_definition	ENVO:01001276	IAO:0000115	A layer which is primarily composed of some solid material, allowing for non-solid parts such as interstitial pockets of gas or liquid.	
 ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.	
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
-ERROR	multiple_equivalent_classes	ECOCORE:00000055	owl:equivalentClass	05144fa81093a0c5bf17bbff550f54cf	
-ERROR	multiple_equivalent_classes	ECOCORE:00000055	owl:equivalentClass	9813b42287a5a6d5cc0a96d19c36979b	
-ERROR	multiple_equivalent_classes	ECOCORE:00000088	owl:equivalentClass	701aac4bb1c79859a19ec4752ad27a4b	
-ERROR	multiple_equivalent_classes	ECOCORE:00000088	owl:equivalentClass	a4bc363dac32a910b7355704ff3da07a	
-ERROR	multiple_equivalent_classes	ECOCORE:00000098	owl:equivalentClass	24724708a6001f4bc0d80599b9b12a23	
-ERROR	multiple_equivalent_classes	ECOCORE:00000098	owl:equivalentClass	2720936eb3790675110a9ceb45e1baab	
-ERROR	multiple_equivalent_classes	ECOCORE:00000098	owl:equivalentClass	814bcd00b1a28fd68cc1186b9bf18ca5	
-ERROR	multiple_equivalent_classes	ECOCORE:00000114	owl:equivalentClass	0b34a3b33f699b5d1f79becad998aaf1	
-ERROR	multiple_equivalent_classes	ECOCORE:00000114	owl:equivalentClass	90bb1eb63d95ba46ea2757009f4b431b	
-ERROR	multiple_equivalent_classes	ECOCORE:00000122	owl:equivalentClass	2db7a2ba97a3778308d88a80113f5684	
-ERROR	multiple_equivalent_classes	ECOCORE:00000122	owl:equivalentClass	5e0706538d5665de1329e22510551b39	
-ERROR	multiple_equivalent_classes	ECOCORE:00000123	owl:equivalentClass	5f189b195b8a7d08645486c0f3fd35ed	
-ERROR	multiple_equivalent_classes	ECOCORE:00000123	owl:equivalentClass	a483a24eb7cb19e601a0215e4092dcc9	
-ERROR	multiple_equivalent_classes	ECOCORE:00000124	owl:equivalentClass	5e734f2c1597f762683bbfec86dfe8c1	
-ERROR	multiple_equivalent_classes	ECOCORE:00000124	owl:equivalentClass	aa7b11e82ebc45afe115380d1e5d7a27	
-ERROR	multiple_equivalent_classes	ECOCORE:00000143	owl:equivalentClass	0bada6fe50687467e3879c51a36f916d	
-ERROR	multiple_equivalent_classes	ECOCORE:00000143	owl:equivalentClass	0f1385a3ac24fc323846260bb71cf919	
-ERROR	deprecated_property_reference	ba571f92-2ed4-4f0c-bc88-d32cd9468d9d	RO:0002218	3f0e9c701799f986f5947480b039e411	
-ERROR	deprecated_property_reference	e2345d65-bf8a-492b-8ee5-b64c4ae55e3d	RO:0002218	a717d35275b18f347099d6bdc9f76101	
-ERROR	deprecated_property_reference	ENVO:02500026	RO:0002218	98c70130ac205b600a729dfda4d43005	
-ERROR	deprecated_property_reference	ENVO:02500027	RO:0002218	eaa90e86f880672baaf76f76ee1ea381	
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	77583267f2e8b5b27ffdfba5e44667c8	
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	d1a7019d96a22b9ea0b169a9ca97f765	
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	4f61bbc9931cd3fb5189ab402f2046cd	
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	5f2128c0ef2fe266e65b1d34e85d8e62	
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	0eafb2915901c254b4b2b8861728427b	
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	31c49abac34710b4cda41d28fdc1d9a1	
 ERROR	deprecated_property_reference	RO:0002217	rdfs:subPropertyOf	RO:0002331	
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	RO:0002217	
-ERROR	missing_label	FOODON:00001304	rdfs:label		
-ERROR	missing_label	FOODON:00001306	rdfs:label		
-ERROR	missing_label	FOODON:00001931	rdfs:label		
-ERROR	missing_label	FOODON:00002123	rdfs:label		
-ERROR	missing_label	FOODON:00002143	rdfs:label		
-ERROR	missing_label	FOODON:00002470	rdfs:label		
-ERROR	missing_label	FOODON:03301444	rdfs:label		
-ERROR	missing_label	FOODON:03310784	rdfs:label		
-ERROR	missing_label	FOODON:03311146	rdfs:label		
-ERROR	missing_label	FOODON:03317197	rdfs:label		
-ERROR	missing_label	FOODON:03400105	rdfs:label		
-ERROR	missing_label	FOODON:03400152	rdfs:label		
-ERROR	missing_label	FOODON:03400229	rdfs:label		
-ERROR	missing_label	FOODON:03400264	rdfs:label		
-ERROR	missing_label	FOODON:03400286	rdfs:label		
-ERROR	missing_label	FOODON:03411018	rdfs:label		
-ERROR	missing_label	FOODON:03411300	rdfs:label		
-ERROR	missing_label	FOODON:03411579	rdfs:label		
-ERROR	missing_label	FOODON:03414302	rdfs:label		
-ERROR	missing_label	FOODON:03420103	rdfs:label		
-ERROR	missing_label	FOODON:03420116	rdfs:label		
-ERROR	missing_label	FOODON:03420122	rdfs:label		
-ERROR	missing_label	FOODON:03420127	rdfs:label		
-ERROR	missing_label	FOODON:03420129	rdfs:label		
-ERROR	missing_label	FOODON:03420144	rdfs:label		
-ERROR	missing_label	FOODON:03420148	rdfs:label		
-ERROR	missing_label	FOODON:03420164	rdfs:label		
-ERROR	missing_label	FOODON:03420165	rdfs:label		
-ERROR	missing_label	FOODON:03420167	rdfs:label		
-ERROR	missing_label	FOODON:03420174	rdfs:label		
-ERROR	missing_label	FOODON:03420175	rdfs:label		
-ERROR	missing_label	FOODON:03420218	rdfs:label		
-ERROR	missing_label	FOODON:03420255	rdfs:label		
-ERROR	missing_label	FOODON:03430151	rdfs:label		
-ERROR	missing_label	FOODON:03460119	rdfs:label		
-ERROR	missing_label	FOODON:03460141	rdfs:label		
-ERROR	missing_label	FOODON:03460190	rdfs:label		
-ERROR	missing_label	FOODON:03470107	rdfs:label		
-ERROR	missing_label	NCBITaxon:451864	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#1_STAR	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#3_STAR	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/envo#EnvO-Lite-GSC	rdfs:label		
@@ -127,19 +67,17 @@ ERROR	missing_label	http://purl.obolibrary.org/obo/uberon/core#phenotype_rcn	rdf
 ERROR	missing_label	http://purl.obolibrary.org/obo/uberon/core#uberon_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/uberon/core#upper_level	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/uberon/core#vertebrate_core	rdfs:label		
-ERROR	missing_label	oboInOwl:Subset	rdfs:label		
+ERROR	missing_label	dc:creator	rdfs:label		
+ERROR	missing_label	dc:source	rdfs:label		
+ERROR	missing_label	http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled	rdfs:label		
 ERROR	missing_label	oboInOwl:created_by	rdfs:label		
 ERROR	missing_label	oboInOwl:creation_date	rdfs:label		
 ERROR	missing_label	oboInOwl:id	rdfs:label		
-ERROR	deprecated_class_reference	FOODON:03411347	rdfs:subClassOf	FOODON:03411579	
+ERROR	missing_label	rdf:PlainLiteral	rdfs:label		
+ERROR	missing_label	xsd:boolean	rdfs:label		
+ERROR	missing_label	xsd:string	rdfs:label		
 ERROR	deprecated_class_reference	FOODON:03411347	rdfs:subClassOf	FOODON:03413357	
 ERROR	deprecated_class_reference	GO:0044464	rdfs:subClassOf	GO:0005634	
-ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0000146	
-ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001422	
-ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001546	
-ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001547	
-ERROR	deprecated_class_reference	PATO:0001237	rdfs:subClassOf	PATO:0001548	
-ERROR	deprecated_class_reference	PCO:0000028	rdfs:subClassOf	PCO:0000002	
 ERROR	missing_ontology_description	ecocore.owl	dc11:description		
 ERROR	duplicate_label	NCBITaxon:1	rdfs:label	root	
 ERROR	duplicate_label	PO:0009005	rdfs:label	root	
@@ -147,12 +85,16 @@ ERROR	duplicate_label	GO:0019098	rdfs:label	reproductive behavior
 ERROR	duplicate_label	NBO:0000010	rdfs:label	reproductive behavior	
 ERROR	duplicate_label	PO:0025127	rdfs:label	primordium	
 ERROR	duplicate_label	UBERON:0001048	rdfs:label	primordium	
+ERROR	duplicate_label	BFO:0000056	rdfs:label	participates in	
+ERROR	duplicate_label	RO:0000056	rdfs:label	participates in	
 ERROR	duplicate_label	ECOCORE:00000147	rdfs:label	parasitism	
 ERROR	duplicate_label	GO:0072519	rdfs:label	parasitism	
 ERROR	duplicate_label	CARO:0010000	rdfs:label	multicellular anatomical structure	
 ERROR	duplicate_label	UBERON:0010000	rdfs:label	multicellular anatomical structure	
 ERROR	duplicate_label	CARO:0000007	rdfs:label	immaterial anatomical entity	
 ERROR	duplicate_label	UBERON:0000466	rdfs:label	immaterial anatomical entity	
+ERROR	duplicate_label	RO:0002491	rdfs:label	existence starts and ends during	
+ERROR	duplicate_label	http://purl.obolibrary.org/obo/uberon/core#existence_starts_and_ends_during	rdfs:label	existence starts and ends during	
 ERROR	duplicate_label	ENVO:00000176	rdfs:label	elevation	
 ERROR	duplicate_label	PATO:0001687	rdfs:label	elevation	
 ERROR	duplicate_label	CARO:0000014	rdfs:label	cell part@en	
@@ -171,12 +113,24 @@ ERROR	multiple_definitions	BFO:0000051	IAO:0000115	a core relation that holds be
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P.	
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)	
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en	
+ERROR	multiple_definitions	CHEBI:33290	IAO:0000115	A physiological role played by any substance of either plant, animal or artificial origin which contains essential body nutrients that can be ingested by an organism to provide energy, promote growth, and maintain the processes of life.	
+ERROR	multiple_definitions	CHEBI:33290	IAO:0000115	Any material that can be ingested by an organism.	
+ERROR	multiple_definitions	CHEBI:78295	IAO:0000115	A physiological role played by any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.	
+ERROR	multiple_definitions	CHEBI:78295	IAO:0000115	Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.	
 ERROR	multiple_definitions	ECOCORE:00000120	IAO:0000115	Sequential hermaphroditism occurs when the individual changes sex at some point in its life.	
 ERROR	multiple_definitions	ECOCORE:00000120	IAO:0000115	a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life	
+ERROR	multiple_definitions	GO:0005622	IAO:0000115	A component of a cell contained within (but not including) the plasma membrane. In eukaryotes it includes the nucleus and cytoplasm.	
+ERROR	multiple_definitions	GO:0005622	IAO:0000115	The living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm.	
+ERROR	multiple_definitions	IAO:0000027	IAO:0000115	An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en	
+ERROR	multiple_definitions	IAO:0000027	IAO:0000115	a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en	
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en	
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en	
-ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Add as annotation triples in the granting ontology@en	
-ERROR	multiple_definitions	IAO:0100001	IAO:0000115	Use on obsolete terms, relating the term to another term that can be used as a substitute@en	
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en	
+ERROR	multiple_definitions	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en	
+ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A process that realizes a plan which is the concretization of a plan specification.@en	
+ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A processual entity that realizes a plan which is the concretization of a plan specification.@en	
+ERROR	multiple_definitions	PCO:0000017	IAO:0000115	A collection of organisms that has as members every organism of given species and no organisms of any other species.@en	
+ERROR	multiple_definitions	PCO:0000017	IAO:0000115	A collection of organisms that has as parts every organism of a species and no organisms of any other species.@en	
 ERROR	multiple_definitions	RO:0002131	IAO:0000115	A overlaps B if they share some part in common.	
 ERROR	multiple_definitions	RO:0002131	IAO:0000115	x overlaps y if and only if there exists some z such that x has part z and z part of y	
 ERROR	multiple_definitions	RO:0002160	IAO:0000115	S only_in_taxon T iff: S SubClassOf in_taxon only T	
@@ -189,6 +143,8 @@ ERROR	multiple_definitions	RO:0002176	IAO:0000115	Binary relationship: z connect
 ERROR	multiple_definitions	RO:0002176	IAO:0000115	c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.	
 ERROR	multiple_definitions	RO:0002178	IAO:0000115	Relation between an arterial structure and another structure, where the arterial structure acts as a conduit channeling fluid, substance or energy.	
 ERROR	multiple_definitions	RO:0002178	IAO:0000115	relation between an artery and the structure is supplies with blood.	
+ERROR	multiple_definitions	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
+ERROR	multiple_definitions	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
 ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x	
 ERROR	multiple_definitions	RO:0002219	IAO:0000115	x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y	
 ERROR	multiple_definitions	RO:0002220	IAO:0000115	x adjacent to y if and only if x and y share a boundary.	
@@ -229,6 +185,10 @@ ERROR	multiple_definitions	RO:0002551	IAO:0000115	A relation between a segment o
 ERROR	multiple_definitions	RO:0002551	IAO:0000115	A relation between a subdivision of an organism and the single subdivision of skeleton that provides structural support for that subdivision.	
 ERROR	multiple_definitions	RO:0002566	IAO:0000115	Holds between materal entities a and b if the activity of a is causally upstream of the activity of b, or causally upstream of a an activity that modifies b	
 ERROR	multiple_definitions	RO:0002566	IAO:0000115	The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size).	
+ERROR	multiple_definitions	UBERON:0002048	IAO:0000115	Respiration organ that develops as an oupocketing of the esophagus.	
+ERROR	multiple_definitions	UBERON:0002048	IAO:0000115	Respiration organ that develops as an outpocketing of the esophagus.	
+ERROR	multiple_definitions	UBERON:0003104	IAO:0000115	Portion of tissue composed of mesenchymal cells (motile cells that develop from epthelia via an epithelial to mesenchymal transition) and surrounding extracellular material. Mesenchyme has different embryological origins in different metazoan taxa - in many invertebrates it derives in whole or part from ectoderm. In vertebrates it derives largely from mesoderm, and sometimes the terms are used interchangeably, e.g. lateral plate mesoderm/mesenchyme.	
+ERROR	multiple_definitions	UBERON:0003104	IAO:0000115	Portion of tissue consisting of loosely organized undifferentiated mesodermal cells that give rise to such structures as connective tissues, blood, lymphatics, bone, and cartilage[XAO]. A mesh-like cell arrangement, less compact than an epithelium[ZFA]. The part of the embryonic mesoderm, consisting of loosely packed, unspecialized cells set in a gelatinous ground substance, from which connective tissue, bone, cartilage, and the circulatory and lymphatic systems develop[BTO].	
 ERROR	missing_ontology_license	ecocore.owl	dc:license		
 ERROR	missing_ontology_title	ecocore.owl	dc11:title		
 ERROR	multiple_labels	BFO:0000024	rdfs:label	fiat object@en	
@@ -249,6 +209,8 @@ ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process
 ERROR	multiple_labels	BFO:0000067	rdfs:label	contains process@en	
 ERROR	multiple_labels	ECOCORE:00000092	rdfs:label	A predator that eats primary consumers or herbivores	
 ERROR	multiple_labels	ECOCORE:00000092	rdfs:label	secondary consumer	
+ERROR	multiple_labels	GO:0005622	rdfs:label	intracellular	
+ERROR	multiple_labels	GO:0005622	rdfs:label	intracellular anatomical structure	
 ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus	
 ERROR	multiple_labels	GO:0005634	rdfs:label	nucleus@en	
 ERROR	multiple_labels	GO:0044403	rdfs:label	symbiosis, encompassing mutualism through parasitism	
@@ -284,14 +246,25 @@ ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from
 ERROR	multiple_labels	IAO:0000412	rdfs:label	imported from@en	
 ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to	
 ERROR	multiple_labels	IAO:0000424	rdfs:label	expand expression to@en	
+ERROR	multiple_labels	IAO:0000425	rdfs:label	expand assertion to	
+ERROR	multiple_labels	IAO:0000425	rdfs:label	expand assertion to@en	
 ERROR	multiple_labels	IAO:0010000	rdfs:label	has axiom label	
 ERROR	multiple_labels	IAO:0010000	rdfs:label	has axiom label@en	
 ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by	
 ERROR	multiple_labels	IAO:0100001	rdfs:label	term replaced by@en	
+ERROR	multiple_labels	NCBITaxon:32525	rdfs:label	Theria <Mammalia>	
+ERROR	multiple_labels	NCBITaxon:32525	rdfs:label	Theria <mammals>	
+ERROR	multiple_labels	NCBITaxon:7742	rdfs:label	Vertebrata <Metazoa>	
+ERROR	multiple_labels	NCBITaxon:7742	rdfs:label	Vertebrata <vertebrates>	
+ERROR	multiple_labels	NCBITaxon:7776	rdfs:label	Gnathostomata <vertebrate>	
+ERROR	multiple_labels	NCBITaxon:7776	rdfs:label	Gnathostomata <vertebrates>	
+ERROR	multiple_labels	NCBITaxon:89593	rdfs:label	Craniata <chordata>	
+ERROR	multiple_labels	NCBITaxon:89593	rdfs:label	Craniata <chordates>	
 ERROR	multiple_labels	PATO:0000069	rdfs:label	deviation (from_normal)	
 ERROR	multiple_labels	PATO:0000069	rdfs:label	deviation(from_normal)	
 ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of	
 ERROR	multiple_labels	RO:0000053	rdfs:label	bearer of@en	
+ERROR	multiple_labels	RO:0000056	rdfs:label	participates in	
 ERROR	multiple_labels	RO:0000056	rdfs:label	participates in@en	
 ERROR	multiple_labels	RO:0000056	rdfs:label	participates_in	
 ERROR	multiple_labels	RO:0000057	rdfs:label	has participant@en	
@@ -316,6 +289,8 @@ ERROR	multiple_labels	RO:0002007	rdfs:label	bounding layer of
 ERROR	multiple_labels	RO:0002007	rdfs:label	bounding layer of@en	
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately preceded by@en	
 ERROR	multiple_labels	RO:0002087	rdfs:label	immediately_preceded_by	
+ERROR	multiple_labels	RO:0002093	rdfs:label	ends during@en	
+ERROR	multiple_labels	RO:0002093	rdfs:label	ends_during	
 ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps	
 ERROR	multiple_labels	RO:0002131	rdfs:label	overlaps@en	
 ERROR	multiple_labels	RO:0002150	rdfs:label	continuous with@en	
@@ -429,7 +404,7 @@ ERROR	multiple_labels	RO:0003000	rdfs:label	produces
 ERROR	multiple_labels	RO:0003000	rdfs:label	produces@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
-WARN	annotation_whitespace	8eb6c5834e342fada549102efcab5247	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
+WARN	annotation_whitespace	bbaace548efe1c245c50de968a797000	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] 	
 WARN	annotation_whitespace	BFO:0000002	IAO:0000602	(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] 	
@@ -460,14 +435,11 @@ WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (MaterialEnti
 WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] 	
 WARN	annotation_whitespace	BFO:0000040	IAO:0000602	(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] 	
 WARN	annotation_whitespace	BFO:0000140	IAO:0000602	(iff (ContinuantFiatBoundary a) (and (ImmaterialEntity a) (exists (b) (and (or (ZeroDimensionalSpatialRegion b) (OneDimensionalSpatialRegion b) (TwoDimensionalSpatialRegion b)) (forall (t) (locatedInAt a b t)))) (not (exists (c t) (and (SpatialRegion c) (continuantPartOfAt c a t)))))) // axiom label in BFO2 CLIF: [029-001] 	
-WARN	annotation_whitespace	CARO:0010004	rdfs:comment	A general term for organism that is agnostic about single cell vs multi-cellular.  Note that this is a subclass of 'anatomical structure', meaning that an organism must be a connected structure.  So, if I take one plant and make a rooted cutting from a it, I now have two (clonally related) organisms. 	
-WARN	annotation_whitespace	ENVO:01000303	IAO:0000115	An endolithic environment is an environment that exists within solid rock. 	
 WARN	annotation_whitespace	FOODON:00001094	rdfs:comment	SIREN DB annotation:    * has quality 'liquid' (http://purl.obolibrary.org/obo/FOODON_03430130)    * formed as a result of 'microbial/enzymatic modification process' (http://purl.obolibrary.org/obo/FOODON_03460119)    * formed as a result of 'curing or aging process' (http://purl.obolibrary.org/obo/FOODON_03460253)                    @en	
 WARN	annotation_whitespace	FOODON:03430130	rdfs:comment	SIREN DB annotation:    * has quality 'liquid' (http://purl.obolibrary.org/obo/FOODON_03430130)                    @en	
 WARN	annotation_whitespace	IAO:0000115	IAO:0000116	2012-04-05:     Barry Smith        The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.        Can you fix to something like:        A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.        Alan Ruttenberg        Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria.         On the specifics of the proposed definition:        We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition.         Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable.         We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  @en	
 WARN	annotation_whitespace	IAO:0000424	IAO:0000112	ObjectProperty: RO_0002104    Label: has plasma membrane part    Annotations: IAO_0000424 \"http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.org/obo/owl/GO#GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"    @en	
-WARN	annotation_whitespace	PCO:0000005	IAO:0000115	A process that has as primary participant a population. @en	
-WARN	annotation_whitespace	PCO:0000005	rdfs:comment	Includes processes such as population growth, extinction, evolution, selection, and adaptation. Population processes may depend on the processes of individual organisms {e.g., population growth reflects the cumulative multicellular organism reproduction (GO:0032504) and death (GO:0016265) of all individuals in a population}, but cannot be described for an individual organism. Some of these processes (e.g., evolution, extinction) can also occur at the species level, so PCO distinguishes between, for example, population extinction and species extinction. The GO has the terms 'multi-organism process' (GO:0051704) and 'intraspecies interactions between organisms' (GO:0051703), but tPCOhese categories are only defined for interactions between two individuals. It is unclear at this point if 'biological process' (GO:0008150) encompasses population processes. @en	
+WARN	annotation_whitespace	IAO:0000425	IAO:0000112	ObjectProperty: RO???    Label: spatially disjoint from    Annotations: expand_assertion_to \"DisjointClasses: (http://purl.obolibrary.org/obo/BFO_0000051 some ?X)  (http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"    @en	
 WARN	annotation_whitespace	RO:0001018	IAO:0000116	Intended meaning:    domain: material entity    range: spatial region or site (immaterial continuant)            @en	
 WARN	annotation_whitespace	RO:0001901	IAO:0000115	        ## Elucidation        This is used when the statement/axiom is assumed to hold true 'eternally'        ## How to interpret (informal)        First the \"atemporal\" FOL is derived from the OWL using the standard    interpretation. This axiom is temporalized by embedding the axiom    within a for-all-times quantified sentence. The t argument is added to    all instantiation predicates and predicates that use this relation.        ## Example            Class: nucleus        SubClassOf: part_of some cell            forall t :          forall n :            instance_of(n,Nucleus,t)             implies            exists c :              instance_of(c,Cell,t)              part_of(n,c,t)        ## Notes        This interpretation is *not* the same as an at-all-times relation        	
 WARN	annotation_whitespace	RO:0002093	rdfs:comment	X ends_during Y iff: ((start(Y) before_or_simultaneous_with end(X)) AND end(X) before_or_simultaneous_with end(Y). @en	
@@ -480,8 +452,6 @@ WARN	duplicate_exact_synonym	GO:0019098	oboInOwl:hasExactSynonym	reproductive be
 WARN	duplicate_exact_synonym	NBO:0000010	oboInOwl:hasExactSynonym	reproductive behaviour	
 WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour	
 WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour	
-WARN	duplicate_exact_synonym	ENVO:01001052	IAO:0000118	Aerosol (saline)	
-WARN	duplicate_exact_synonym	ENVO:01001053	IAO:0000118	Aerosol (saline)	
 WARN	missing_definition	BFO:0000056	IAO:0000115		
 WARN	missing_definition	BFO:0000141	IAO:0000115		
 WARN	missing_definition	CARO:0000000	IAO:0000115		
@@ -493,6 +463,7 @@ WARN	missing_definition	CARO:0010000	IAO:0000115
 WARN	missing_definition	CARO:0030000	IAO:0000115		
 WARN	missing_definition	CHEBI:15379	IAO:0000115		
 WARN	missing_definition	CHEBI:16234	IAO:0000115		
+WARN	missing_definition	CHEBI:16301	IAO:0000115		
 WARN	missing_definition	CHEBI:16900	IAO:0000115		
 WARN	missing_definition	CHEBI:18140	IAO:0000115		
 WARN	missing_definition	CHEBI:18230	IAO:0000115		
@@ -584,8 +555,6 @@ WARN	missing_definition	CHEBI:43176	IAO:0000115
 WARN	missing_definition	CHEBI:46629	IAO:0000115		
 WARN	missing_definition	CHEBI:46883	IAO:0000115		
 WARN	missing_definition	CHEBI:47882	IAO:0000115		
-WARN	missing_definition	CHEBI:48359	IAO:0000115		
-WARN	missing_definition	CHEBI:48360	IAO:0000115		
 WARN	missing_definition	CHEBI:49475	IAO:0000115		
 WARN	missing_definition	CHEBI:49637	IAO:0000115		
 WARN	missing_definition	CHEBI:50312	IAO:0000115		
@@ -599,11 +568,12 @@ WARN	missing_definition	CL:0000000	IAO:0000115
 WARN	missing_definition	ECOCORE:00000078	IAO:0000115		
 WARN	missing_definition	ECOCORE:00000092	IAO:0000115		
 WARN	missing_definition	ENVO:00000000	IAO:0000115		
-WARN	missing_definition	ENVO:00000240	IAO:0000115		
-WARN	missing_definition	ENVO:00002030	IAO:0000115		
 WARN	missing_definition	ENVO:00002040	IAO:0000115		
 WARN	missing_definition	ENVO:01001189	IAO:0000115		
 WARN	missing_definition	ENVO:01001476	IAO:0000115		
+WARN	missing_definition	ENVO:01001747	IAO:0000115		
+WARN	missing_definition	ENVO:01001787	IAO:0000115		
+WARN	missing_definition	ENVO:01001788	IAO:0000115		
 WARN	missing_definition	ENVO:2000045	IAO:0000115		
 WARN	missing_definition	ENVO:2100004	IAO:0000115		
 WARN	missing_definition	ENVO:2100005	IAO:0000115		
@@ -612,53 +582,15 @@ WARN	missing_definition	FOODON:00001181	IAO:0000115
 WARN	missing_definition	FOODON:00001253	IAO:0000115		
 WARN	missing_definition	FOODON:00001254	IAO:0000115		
 WARN	missing_definition	FOODON:00001258	IAO:0000115		
-WARN	missing_definition	FOODON:00001304	IAO:0000115		
-WARN	missing_definition	FOODON:00001306	IAO:0000115		
 WARN	missing_definition	FOODON:00001714	IAO:0000115		
-WARN	missing_definition	FOODON:00001931	IAO:0000115		
-WARN	missing_definition	FOODON:00002123	IAO:0000115		
-WARN	missing_definition	FOODON:00002143	IAO:0000115		
 WARN	missing_definition	FOODON:00002158	IAO:0000115		
 WARN	missing_definition	FOODON:00002333	IAO:0000115		
 WARN	missing_definition	FOODON:00002381	IAO:0000115		
 WARN	missing_definition	FOODON:00002403	IAO:0000115		
-WARN	missing_definition	FOODON:00002470	IAO:0000115		
 WARN	missing_definition	FOODON:00002645	IAO:0000115		
-WARN	missing_definition	FOODON:03301444	IAO:0000115		
-WARN	missing_definition	FOODON:03310784	IAO:0000115		
-WARN	missing_definition	FOODON:03311146	IAO:0000115		
-WARN	missing_definition	FOODON:03317197	IAO:0000115		
-WARN	missing_definition	FOODON:03400105	IAO:0000115		
-WARN	missing_definition	FOODON:03400152	IAO:0000115		
-WARN	missing_definition	FOODON:03400229	IAO:0000115		
-WARN	missing_definition	FOODON:03400264	IAO:0000115		
-WARN	missing_definition	FOODON:03400286	IAO:0000115		
-WARN	missing_definition	FOODON:03411018	IAO:0000115		
 WARN	missing_definition	FOODON:03411041	IAO:0000115		
-WARN	missing_definition	FOODON:03411300	IAO:0000115		
-WARN	missing_definition	FOODON:03411579	IAO:0000115		
 WARN	missing_definition	FOODON:03412972	IAO:0000115		
 WARN	missing_definition	FOODON:03413357	IAO:0000115		
-WARN	missing_definition	FOODON:03414302	IAO:0000115		
-WARN	missing_definition	FOODON:03420103	IAO:0000115		
-WARN	missing_definition	FOODON:03420116	IAO:0000115		
-WARN	missing_definition	FOODON:03420122	IAO:0000115		
-WARN	missing_definition	FOODON:03420127	IAO:0000115		
-WARN	missing_definition	FOODON:03420129	IAO:0000115		
-WARN	missing_definition	FOODON:03420144	IAO:0000115		
-WARN	missing_definition	FOODON:03420148	IAO:0000115		
-WARN	missing_definition	FOODON:03420164	IAO:0000115		
-WARN	missing_definition	FOODON:03420165	IAO:0000115		
-WARN	missing_definition	FOODON:03420167	IAO:0000115		
-WARN	missing_definition	FOODON:03420174	IAO:0000115		
-WARN	missing_definition	FOODON:03420175	IAO:0000115		
-WARN	missing_definition	FOODON:03420218	IAO:0000115		
-WARN	missing_definition	FOODON:03420255	IAO:0000115		
-WARN	missing_definition	FOODON:03430151	IAO:0000115		
-WARN	missing_definition	FOODON:03460119	IAO:0000115		
-WARN	missing_definition	FOODON:03460141	IAO:0000115		
-WARN	missing_definition	FOODON:03460190	IAO:0000115		
-WARN	missing_definition	FOODON:03470107	IAO:0000115		
 WARN	missing_definition	IAO:0000114	IAO:0000115		
 WARN	missing_definition	NBO:0000121	IAO:0000115		
 WARN	missing_definition	NBO:0000146	IAO:0000115		
@@ -690,7 +622,6 @@ WARN	missing_definition	NCBITaxon:33317	IAO:0000115
 WARN	missing_definition	NCBITaxon:33511	IAO:0000115		
 WARN	missing_definition	NCBITaxon:376913	IAO:0000115		
 WARN	missing_definition	NCBITaxon:40674	IAO:0000115		
-WARN	missing_definition	NCBITaxon:451864	IAO:0000115		
 WARN	missing_definition	NCBITaxon:4751	IAO:0000115		
 WARN	missing_definition	NCBITaxon:6072	IAO:0000115		
 WARN	missing_definition	NCBITaxon:6447	IAO:0000115		
@@ -708,7 +639,7 @@ WARN	missing_definition	NCBITaxon:9605	IAO:0000115
 WARN	missing_definition	NCBITaxon:9606	IAO:0000115		
 WARN	missing_definition	PATO:0000068	IAO:0000115		
 WARN	missing_definition	PATO:0002143	IAO:0000115		
-WARN	missing_definition	PCO:0001001	IAO:0000115		
+WARN	missing_definition	PCO:0000055	IAO:0000115		
 WARN	missing_definition	RO:0001018	IAO:0000115		
 WARN	missing_definition	RO:0001019	IAO:0000115		
 WARN	missing_definition	RO:0002017	IAO:0000115		
@@ -732,7 +663,6 @@ WARN	missing_definition	RO:0002444	IAO:0000115
 WARN	missing_definition	RO:0002445	IAO:0000115		
 WARN	missing_definition	RO:0002447	IAO:0000115		
 WARN	missing_definition	RO:0002453	IAO:0000115		
-WARN	missing_definition	RO:0002454	IAO:0000115		
 WARN	missing_definition	RO:0002457	IAO:0000115		
 WARN	missing_definition	RO:0002464	IAO:0000115		
 WARN	missing_definition	RO:0002465	IAO:0000115		
@@ -744,6 +674,7 @@ WARN	missing_definition	RO:0002470	IAO:0000115
 WARN	missing_definition	RO:0002471	IAO:0000115		
 WARN	missing_definition	RO:0002481	IAO:0000115		
 WARN	missing_definition	RO:0002487	IAO:0000115		
+WARN	missing_definition	RO:0002491	IAO:0000115		
 WARN	missing_definition	RO:0002502	IAO:0000115		
 WARN	missing_definition	RO:0002506	IAO:0000115		
 WARN	missing_definition	RO:0002559	IAO:0000115		
@@ -764,9 +695,11 @@ WARN	missing_definition	UBERON:0000154	IAO:0000115
 WARN	missing_definition	UBERON:0001444	IAO:0000115		
 WARN	missing_definition	UBERON:0003076	IAO:0000115		
 WARN	missing_definition	UBERON:0003080	IAO:0000115		
+WARN	missing_definition	UBERON:0005092	IAO:0000115		
 WARN	missing_definition	UBERON:0005339	IAO:0000115		
 WARN	missing_definition	UBERON:0005423	IAO:0000115		
 WARN	missing_definition	UBERON:0006056	IAO:0000115		
+WARN	missing_definition	UBERON:0006218	IAO:0000115		
 WARN	missing_definition	UBERON:0006241	IAO:0000115		
 WARN	missing_definition	UBERON:0006596	IAO:0000115		
 WARN	missing_definition	UBERON:0007026	IAO:0000115		
@@ -783,6 +716,7 @@ WARN	missing_definition	UBERON:0009722	IAO:0000115
 WARN	missing_definition	UBERON:0009856	IAO:0000115		
 WARN	missing_definition	UBERON:0009881	IAO:0000115		
 WARN	missing_definition	UBERON:0009920	IAO:0000115		
+WARN	missing_definition	UBERON:0010191	IAO:0000115		
 WARN	missing_definition	UBERON:0010316	IAO:0000115		
 WARN	missing_definition	UBERON:0011159	IAO:0000115		
 WARN	missing_definition	UBERON:0011222	IAO:0000115		
@@ -793,8 +727,10 @@ WARN	missing_definition	UBERON:0011860	IAO:0000115
 WARN	missing_definition	UBERON:0012416	IAO:0000115		
 WARN	missing_definition	UBERON:0012466	IAO:0000115		
 WARN	missing_definition	UBERON:0013522	IAO:0000115		
+WARN	missing_definition	UBERON:0015128	IAO:0000115		
 WARN	missing_definition	UBERON:0015410	IAO:0000115		
 WARN	missing_definition	UBERON:0016570	IAO:0000115		
+WARN	missing_definition	UBERON:0018649	IAO:0000115		
 WARN	missing_definition	UBERON:0019189	IAO:0000115		
 WARN	missing_definition	UBERON:0019263	IAO:0000115		
 WARN	missing_definition	UBERON:0019267	IAO:0000115		
@@ -814,8 +750,14 @@ WARN	missing_definition	UBERON:0035965	IAO:0000115
 WARN	missing_definition	UBERON:0036072	IAO:0000115		
 WARN	missing_definition	UBERON:0036073	IAO:0000115		
 WARN	missing_definition	UBERON:0036253	IAO:0000115		
+WARN	missing_definition	UBERON:0036288	IAO:0000115		
+WARN	missing_definition	UBERON:0036290	IAO:0000115		
+WARN	missing_definition	UBERON:0036291	IAO:0000115		
 WARN	missing_definition	UBERON:0036302	IAO:0000115		
 WARN	missing_definition	UBERON:0036303	IAO:0000115		
+WARN	missing_definition	UBERON:0036422	IAO:0000115		
+WARN	missing_definition	UBERON:0036925	IAO:0000115		
+WARN	missing_definition	UBERON:0037094	IAO:0000115		
 WARN	missing_definition	UBPROP:0000006	IAO:0000115		
 WARN	missing_definition	UBPROP:0000007	IAO:0000115		
 WARN	missing_definition	UBPROP:0000100	IAO:0000115		
@@ -896,6 +838,7 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#non_informati
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#organ_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#pheno_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#phenotype_rcn	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#protects	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#subdivision_of	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_connected_to	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#uberon_slim	IAO:0000115		
@@ -904,8 +847,10 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/uberon/core#vertebrate_co
 WARN	missing_definition	dc11:contributor	IAO:0000115		
 WARN	missing_definition	dc11:creator	IAO:0000115		
 WARN	missing_definition	dc11:source	IAO:0000115		
+WARN	missing_definition	dc:creator	IAO:0000115		
+WARN	missing_definition	dc:source	IAO:0000115		
+WARN	missing_definition	http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled	IAO:0000115		
 WARN	missing_definition	oboInOwl:ObsoleteClass	IAO:0000115		
-WARN	missing_definition	oboInOwl:Subset	IAO:0000115		
 WARN	missing_definition	oboInOwl:consider	IAO:0000115		
 WARN	missing_definition	oboInOwl:created_by	IAO:0000115		
 WARN	missing_definition	oboInOwl:creation_date	IAO:0000115		
@@ -921,6 +866,9 @@ WARN	missing_definition	oboInOwl:hasSynonymType	IAO:0000115
 WARN	missing_definition	oboInOwl:id	IAO:0000115		
 WARN	missing_definition	oboInOwl:inSubset	IAO:0000115		
 WARN	missing_definition	oboInOwl:shorthand	IAO:0000115		
+WARN	missing_definition	rdf:PlainLiteral	IAO:0000115		
+WARN	missing_definition	xsd:boolean	IAO:0000115		
+WARN	missing_definition	xsd:string	IAO:0000115		
 WARN	missing_definition	foaf:depicted_by	IAO:0000115		
 WARN	missing_definition	foaf:page	IAO:0000115		
 WARN	duplicate_scoped_synonym	CHEBI:18140	oboInOwl:hasExactSynonym	hydrogen halides	
@@ -951,7 +899,11 @@ WARN	duplicate_scoped_synonym	CHEBI:50313	oboInOwl:hasExactSynonym	onium cations
 WARN	duplicate_scoped_synonym	CHEBI:50313	oboInOwl:hasRelatedSynonym	onium cations	
 WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasExactSynonym	eukaryotes	
 WARN	duplicate_scoped_synonym	NCBITaxon:2759	oboInOwl:hasRelatedSynonym	eukaryotes	
+WARN	duplicate_scoped_synonym	NCBITaxon:33090	oboInOwl:hasExactSynonym	Chlorophyta/Embryophyta group	
+WARN	duplicate_scoped_synonym	NCBITaxon:33090	oboInOwl:hasExactSynonym	chlorophyte/embryophyte group	
 WARN	duplicate_scoped_synonym	NCBITaxon:33090	oboInOwl:hasExactSynonym	green plants	
+WARN	duplicate_scoped_synonym	NCBITaxon:33090	oboInOwl:hasRelatedSynonym	Chlorophyta/Embryophyta group	
+WARN	duplicate_scoped_synonym	NCBITaxon:33090	oboInOwl:hasRelatedSynonym	chlorophyte/embryophyte group	
 WARN	duplicate_scoped_synonym	NCBITaxon:33090	oboInOwl:hasRelatedSynonym	green plants	
 WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasExactSynonym	mammals	
 WARN	duplicate_scoped_synonym	NCBITaxon:40674	oboInOwl:hasRelatedSynonym	mammals	
@@ -985,10 +937,16 @@ WARN	duplicate_scoped_synonym	UBERON:0001776	oboInOwl:hasExactSynonym	choroidea
 WARN	duplicate_scoped_synonym	UBERON:0001776	oboInOwl:hasRelatedSynonym	choroidea	
 WARN	duplicate_scoped_synonym	UBERON:0003729	oboInOwl:hasExactSynonym	tunica mucosa oris	
 WARN	duplicate_scoped_synonym	UBERON:0003729	oboInOwl:hasRelatedSynonym	tunica mucosa oris	
+WARN	duplicate_scoped_synonym	UBERON:0004148	oboInOwl:hasExactSynonym	coronary vein	
+WARN	duplicate_scoped_synonym	UBERON:0004148	oboInOwl:hasRelatedSynonym	coronary vein	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasExactSynonym	branchial aortic arches	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasExactSynonym	pharyngeal arch artery	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasRelatedSynonym	branchial aortic arches	
 WARN	duplicate_scoped_synonym	UBERON:0004363	oboInOwl:hasRelatedSynonym	pharyngeal arch artery	
+WARN	duplicate_scoped_synonym	UBERON:0004667	oboInOwl:hasExactSynonym	muscular interventricular septum	
+WARN	duplicate_scoped_synonym	UBERON:0004667	oboInOwl:hasRelatedSynonym	muscular interventricular septum	
+WARN	duplicate_scoped_synonym	UBERON:0005953	oboInOwl:hasExactSynonym	pulmonary conus	
+WARN	duplicate_scoped_synonym	UBERON:0005953	oboInOwl:hasRelatedSynonym	pulmonary conus	
 WARN	duplicate_scoped_synonym	UBERON:0006761	oboInOwl:hasExactSynonym	limbus corneae	
 WARN	duplicate_scoped_synonym	UBERON:0006761	oboInOwl:hasRelatedSynonym	limbus corneae	
 WARN	duplicate_scoped_synonym	UBERON:0008229	oboInOwl:hasExactSynonym	head or neck muscle	
@@ -998,8 +956,6 @@ WARN	duplicate_scoped_synonym	UBERON:0010427	oboInOwl:hasRelatedSynonym	processu
 WARN	missing_obsolete_label	GO:0044464	rdfs:label	cell part@en	
 WARN	missing_obsolete_label	GO:0072519	rdfs:label	parasitism	
 WARN	missing_obsolete_label	GO:0085031	rdfs:label	commensalism	
-WARN	missing_obsolete_label	IAO:0000230	rdfs:label	other@en	
-WARN	missing_obsolete_label	PCO:0000028	rdfs:label	community@en	
 WARN	missing_obsolete_label	RO:0002217	rdfs:label	actively participates in@en	
 INFO	lowercase_definition	BFO:0000004	IAO:0000115	b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en	
 INFO	lowercase_definition	BFO:0000015	IAO:0000115	p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en	
@@ -1052,10 +1008,7 @@ INFO	lowercase_definition	ECOCORE:00000175	IAO:0000115	an organism that is unabl
 INFO	lowercase_definition	ECOCORE:00000176	IAO:0000115	a decomposer which obtains nutrition by consuming feces	
 INFO	lowercase_definition	ENVO:01001307	IAO:0000115	x partially_surrounded_by y if and only if (1) x is adjacent to y and for the region r that is adjacent to x, r partially overlaps y (2) the shared boundary between x and y occupies  a non-trivial proportion of the outermost boundary of x	
 INFO	lowercase_definition	IAO:0000027	IAO:0000115	a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en	
-INFO	lowercase_definition	IAO:0000102	IAO:0000115	data about an ontology part is a data item about a part of an ontology, for example a term@en	
 INFO	lowercase_definition	IAO:0000119	IAO:0000115	formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en	
-INFO	lowercase_definition	IAO:0000121	IAO:0000115	term created to ease viewing/sort terms for development purpose, and will not be included in a release@en	
-INFO	lowercase_definition	IAO:0000136	IAO:0000115	is_about is a (currently) primitive relation that relates an information artifact to an entity.@en	
 INFO	lowercase_definition	NBO:0000003	IAO:0000115	\"Behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences.\" [wikipedia:Emotions]	
 INFO	lowercase_definition	NBO:0000011	IAO:0000115	\"A behavior that occurs predominantly or only, in individuals that are part of a group.\" [Wikipedia:Social_behavior]	
 INFO	lowercase_definition	NBO:0000014	IAO:0000115	\"Behavior related to the interactions between organisms for the purpose of mating.\" [NBO:GVG]	
@@ -1111,6 +1064,7 @@ INFO	lowercase_definition	RO:0002180	IAO:0000115	w 'has component' p if w 'has p
 INFO	lowercase_definition	RO:0002202	IAO:0000115	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y	
 INFO	lowercase_definition	RO:0002203	IAO:0000115	inverse of develops from	
 INFO	lowercase_definition	RO:0002210	IAO:0000115	inverse of directly develops from	
+INFO	lowercase_definition	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
 INFO	lowercase_definition	RO:0002211	IAO:0000115	process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.	
 INFO	lowercase_definition	RO:0002216	IAO:0000115	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.	
 INFO	lowercase_definition	RO:0002217	IAO:0000115	x actively participates in y if and only if x participates in y and x realizes some active role	
@@ -1223,19 +1177,31 @@ INFO	lowercase_definition	UBERON:0001776	IAO:0000115	vascular layer containing c
 INFO	lowercase_definition	UBERON:0001801	IAO:0000115	any of the parts of the eye that lie in front of, or ventral to, the lens (inclusive)	
 INFO	lowercase_definition	UBERON:0001802	IAO:0000115	any of the parts of the eye that lie in back of, or dorsal to, the lens (but not inclusive)	
 INFO	lowercase_definition	UBERON:0001804	IAO:0000115	the elastic, clear, membrane-like structure, that is outer most layer of the lens	
+INFO	lowercase_definition	UBERON:0002302	IAO:0000115	the atrial part of middle layer of the heart, comprised of involuntary muscle	
+INFO	lowercase_definition	UBERON:0002348	IAO:0000115	a region of the serous membrane that forms the innermost layer of the pericardium and the outer surface of the heart.	
+INFO	lowercase_definition	UBERON:0002349	IAO:0000115	the middle layer of the heart, comprised mainly of striated cardiac muscle fibers	
+INFO	lowercase_definition	UBERON:0002406	IAO:0000115	a double-walled sac containing the heart and the roots of the great vessels.	
 INFO	lowercase_definition	UBERON:0002530	IAO:0000115	an organ that functions as a secretory or excretory organ	
 INFO	lowercase_definition	UBERON:0003099	IAO:0000115	neural crest cells (NCCs) originating in the anterior part of the developing embryo and residing between the mid-diencephalon and the forming hindbrain; cranial NCCs migrate dorsolaterally to form the craniofacial mesenchyme that differentiates into various craniofacial cartilages and bones, cranial neurons, glia, and connective tissues of the face; these cells enter the pharyngeal pouches and arches where they give rise to thymic cells, bones of the middle ear and jaw (mandible), and the odontoblasts of the tooth primordia; like their counterparts in the trunk, cranial NCCs also contribute to the developing peripheral nervous system, along with the pigmented cell (i.e. melanocyte) lineage.	
 INFO	lowercase_definition	UBERON:0003386	IAO:0000115	any of the striated muscles that move the eye and include: superior rectus, inferior rectus, medial rectus, lateral rectus, superior oblique, inferior oblique, retractor bulbi	
+INFO	lowercase_definition	UBERON:0004178	IAO:0000115	the nonstriated, involuntary muscle tissue located in the wall of the aorta	
 INFO	lowercase_definition	UBERON:0004237	IAO:0000115	smooth muscle found within, and composing the majority of the wall of blood vessels.	
+INFO	lowercase_definition	UBERON:0004664	IAO:0000115	the outermost layer of the aorta wall, containing connective tissue and collagen and elastic fibers	
+INFO	lowercase_definition	UBERON:0004706	IAO:0000115	a transient fetal dilation of the distal (or cranial) heart tube located where the arterial trunk joins the ventral roots of the aortic arches	
 INFO	lowercase_definition	UBERON:0004785	IAO:0000115	the mucous membrane lining the respiratory tract	
 INFO	lowercase_definition	UBERON:0004802	IAO:0000115	the pseudostratified ciliated epithelium that lines much of the conducting portion of the airway, including part of the nasal cavity and larynx, the trachea, and bronchi	
+INFO	lowercase_definition	UBERON:0004851	IAO:0000115	the thin layer of flat cells that line the aorta and form a barrier between circulating blood in the lumen and the rest of the vessel wall	
 INFO	lowercase_definition	UBERON:0005867	IAO:0000115	the paired ventral prominences formed by bifurcation of the first pharyngeal arches in the embryo; the two prominences unite ventrally and fuse to form the mandible and lower lip	
 INFO	lowercase_definition	UBERON:0006761	IAO:0000115	the edge of the cornea where it joins the sclera; the limbus is a common site for the occurrence of corneal epithelial neoplasm	
 INFO	lowercase_definition	UBERON:0007197	IAO:0000115	multicellular organism that can produce both male and female gametes.	
 INFO	lowercase_definition	UBERON:0007625	IAO:0000115	epithelial layer of the retina, ciliary body, or iris composed of cells containing pigment granules.	
 INFO	lowercase_definition	UBERON:0007690	IAO:0000115	.	
 INFO	lowercase_definition	UBERON:0010291	IAO:0000115	.	
+INFO	lowercase_definition	UBERON:0016513	IAO:0000115	luminal space of the left atrium of the heart.	
+INFO	lowercase_definition	UBERON:0016514	IAO:0000115	luminal space of the left ventricle of the heart.	
+INFO	lowercase_definition	UBERON:0016522	IAO:0000115	luminal space of the right atrium of the heart.	
 INFO	lowercase_definition	UBERON:0034878	IAO:0000115	the area of axial mesoderm that develops into the prechordal plate	
+INFO	lowercase_definition	UBERON:0037144	IAO:0000115	wall of organ which has as its parts the endocardium, myocardium , epicardium, and the cardiac septum, surrounded by the pericardial sac proper and is continuous with the walls of the systemic and pulmonary arterial and venous trees.	
 INFO	lowercase_definition	UBPROP:0000103	IAO:0000115	x pharyngeal_arch_number N if and only if (i) x is a pharyngeal arch, and (ii) x is ancestrally pharyngeal arch number N in a series of pharyngeal arches repeated along a antero-posterior axis, with arch_number 1 being the mandibular arch.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to	IAO:0000115	q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to	IAO:0000115	q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	

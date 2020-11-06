@@ -6,6 +6,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term imported"
         } ]
       },
       "type" : "INDIVIDUAL",
@@ -14,6 +17,9 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000229",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term split"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created."
         } ]
@@ -104,7 +110,7 @@
         } ]
       },
       "type" : "INDIVIDUAL",
-      "lbl" : "other"
+      "lbl" : "obsolete_other"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "meta" : {
@@ -189,7 +195,7 @@
           "val" : "http://purl.obolibrary.org/obo/iao.owl"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "GROUP:OBI:<http://purl.obfoundry.org/obo/obi>"
+          "val" : "GROUP:OBI:<http://purl.obofoundry.org/obo/obi>"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "PERSON:Daniel Schober"
@@ -239,9 +245,6 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "PERSON:Melanie Courtot"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "OBI_0000281"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "has curation status"
         }, {
@@ -269,7 +272,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "meta" : {
         "definition" : {
-          "val" : "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.",
+          "val" : "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -285,14 +288,8 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "definition"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "definition"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/iao.owl"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "textual definition"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
@@ -347,7 +344,7 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "example"
+          "val" : "example of usage"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/iao.owl"
@@ -372,23 +369,23 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term tracker item"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "term tracker item"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "The 'tracker item' can associate a tracker with a specific ontology term."
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
         } ]
       },
       "type" : "PROPERTY",
@@ -424,18 +421,6 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "editor preferred label"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "editor preferred term"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "editor preferred term~editor preferred label"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "editor preferred label"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "PERSON:Daniel Schober"
         }, {
@@ -450,7 +435,7 @@
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "editor preferred label"
+      "lbl" : "editor preferred term"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000078",
       "meta" : {
@@ -567,7 +552,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000119",
       "meta" : {
         "definition" : {
-          "val" : "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007",
+          "val" : "Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -577,14 +562,14 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "PERSON:Daniel Schober"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/iao.owl"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
-          "val" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
@@ -598,7 +583,11 @@
         "definition" : {
           "val" : "Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "metadata complete"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "metadata complete"
@@ -618,7 +607,11 @@
         "definition" : {
           "val" : "All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "pending final vetting"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "pending final vetting"
@@ -628,7 +621,11 @@
         "definition" : {
           "val" : "Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "metadata incomplete"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "metadata incomplete"
@@ -691,11 +688,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an aggregate of human beings."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an aggregate of human beings."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
           "val" : "MaterialEntity"
@@ -717,6 +714,12 @@
       "lbl" : "material entity"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000002",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "example to be eventually removed"
+        } ]
+      },
       "type" : "INDIVIDUAL",
       "lbl" : "example to be eventually removed"
     }, {
@@ -725,7 +728,11 @@
         "definition" : {
           "val" : "Nothing done yet beyond assigning a unique class ID and proposing a preferred term.",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "uncurated"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "uncurated"
@@ -733,9 +740,13 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000121",
       "meta" : {
         "definition" : {
-          "val" : "term created to ease viewing/sort terms for development purpose, and will not be included in a release",
+          "val" : "Term created to ease viewing/sort terms for development purpose, and will not be included in a release",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "organizational term"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "organizational term"
@@ -745,7 +756,11 @@
         "definition" : {
           "val" : "Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking \"ready_for_release\" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed \"ready_for_release\" will also derived from a chain of ancestor classes that are also \"ready_for_release.\"",
           "xrefs" : [ ]
-        }
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "ready for release"
+        } ]
       },
       "type" : "INDIVIDUAL",
       "lbl" : "ready for release"
@@ -762,6 +777,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "Barry Smith, Werner Ceusters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "denotator type"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Alan Ruttenberg"
@@ -791,7 +809,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000136",
       "meta" : {
         "definition" : {
-          "val" : "is_about is a (currently) primitive relation that relates an information artifact to an entity.",
+          "val" : "A (currently) primitive relation that relates an information artifact to an entity.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -852,6 +870,9 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "Hard to give a definition for. Intuitively a \"natural kind\" rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents."
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "universal"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Alan Ruttenberg"
         } ]
@@ -862,7 +883,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
       "meta" : {
         "definition" : {
-          "val" : "Add as annotation triples in the granting ontology",
+          "val" : "Use on obsolete terms, relating the term to another term that can be used as a substitute",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -877,6 +898,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Add as annotation triples in the granting ontology"
         } ]
       },
       "type" : "PROPERTY",
@@ -1100,11 +1124,11 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "expand expression to"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Chris Mungall"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "expand expression to"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "ObjectProperty: RO_0002104\nLabel: has plasma membrane part\nAnnotations: IAO_0000424 \"http://purl.obolibrary.org/obo/BFO_0000051 some (http://purl.org/obo/owl/GO#GO_0005886 and http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"\n"
@@ -1133,15 +1157,25 @@
       "type" : "PROPERTY",
       "lbl" : "contains process"
     }, {
-      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000425",
       "meta" : {
+        "definition" : {
+          "val" : "A macro expansion tag applied to an annotation property which can be expanded into a more detailed axiom.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Chris Mungall"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "label"
+          "val" : "expand assertion to"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "ObjectProperty: RO???\nLabel: spatially disjoint from\nAnnotations: expand_assertion_to \"DisjointClasses: (http://purl.obolibrary.org/obo/BFO_0000051 some ?X)  (http://purl.obolibrary.org/obo/BFO_0000051 some ?Y)\"\n"
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "label"
+      "lbl" : "expand assertion to"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000423",
       "meta" : {
@@ -1150,6 +1184,9 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "to be replaced with external ontology term"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Alan Ruttenberg"
         }, {
@@ -1163,7 +1200,7 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000027",
       "meta" : {
         "definition" : {
-          "val" : "a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.",
+          "val" : "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -1214,11 +1251,14 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "defined class"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "\"definitions\", in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal."
         } ]
       },
       "type" : "INDIVIDUAL",
@@ -1231,11 +1271,14 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "named class expression"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions"
         } ]
       },
       "type" : "INDIVIDUAL",
@@ -1341,6 +1384,9 @@
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "requires discussion"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "group:OBI"
         }, {
@@ -2251,9 +2297,6 @@
       "type" : "CLASS",
       "lbl" : "generically dependent continuant"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#Subset",
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000027",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -2330,7 +2373,7 @@
       "id" : "http://purl.obolibrary.org/obo/OBI_0000011",
       "meta" : {
         "definition" : {
-          "val" : "A processual entity that realizes a plan which is the concretization of a plan specification.",
+          "val" : "A process that realizes a plan which is the concretization of a plan specification.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
@@ -2411,24 +2454,13 @@
       "type" : "CLASS",
       "lbl" : "site"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000117",
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000226",
       "meta" : {
-        "definition" : {
-          "val" : "A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude.",
-          "xrefs" : [ ]
-        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
-          "val" : "size"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
-          "val" : "http://purl.obolibrary.org/obo/pato.owl"
+          "val" : "placeholder removed"
         } ]
       },
-      "type" : "CLASS",
-      "lbl" : "size"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000226",
       "type" : "INDIVIDUAL",
       "lbl" : "placeholder removed"
     }, {
@@ -2466,6 +2498,19 @@
       },
       "type" : "PROPERTY",
       "lbl" : "OBO foundry unique label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000227",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "terms merged"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "An editor note should explain what were the merged terms and the reason for the merge."
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "terms merged"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000023",
       "meta" : {
@@ -2517,16 +2562,6 @@
       "type" : "CLASS",
       "lbl" : "role"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000227",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
-          "val" : "An editor note should explain what were the merged terms and the reason for the merge."
-        } ]
-      },
-      "type" : "INDIVIDUAL",
-      "lbl" : "terms merged"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000103",
       "meta" : {
         "definition" : {
@@ -2536,6 +2571,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "failed exploratory term"
         } ]
       },
       "type" : "INDIVIDUAL",
@@ -2599,10 +2637,16 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "PERSON: Alan Ruttenberg"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "true"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000231",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000226"
         } ]
       },
       "type" : "INDIVIDUAL",
-      "lbl" : "core"
+      "lbl" : "obsolete_core"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000225",
       "meta" : {
@@ -2629,6 +2673,23 @@
       },
       "type" : "CLASS",
       "lbl" : "obsolescence reason specification"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000102",
+      "meta" : {
+        "definition" : {
+          "val" : "Data about an ontology part is a data item about a part of an ontology, for example a term",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "data about an ontology part"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "data about an ontology part"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000140",
       "meta" : {
@@ -2664,20 +2725,6 @@
       },
       "type" : "CLASS",
       "lbl" : "continuant fiat boundary"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0000102",
-      "meta" : {
-        "definition" : {
-          "val" : "data about an ontology part is a data item about a part of an ontology, for example a term",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Person:Alan Ruttenberg"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "data about an ontology part"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000020",
       "meta" : {
@@ -2782,10 +2829,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000230",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0000079",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
@@ -2818,10 +2861,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
     }, {
-      "sub" : "http://www.geneontology.org/formats/oboInOwl#Subset",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000102"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
@@ -2829,10 +2868,6 @@
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000224",
-      "pred" : "type",
-      "obj" : "http://www.geneontology.org/formats/oboInOwl#Subset"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002000",
       "pred" : "inverseOf",
@@ -2978,10 +3013,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0000117",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000051"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0000079",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000085"
@@ -3067,7 +3098,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-05-18/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-11-05/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
