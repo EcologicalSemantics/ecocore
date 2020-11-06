@@ -31,8 +31,6 @@ Alpha release online. Some minor bugs, but content is available.
 The latest version of the ontology can always be found at:
 http://purl.obolibrary.org/obo/ecocore.owl
 
-Note: The PURL will not resolve until [our request for listing](https://groups.google.com/forum/#!topic/obo-discuss/uG1ETKYPfDA) has been approved by [the OBO Foundry and Library](obofoundry.org).
-
 
 ### Editors' version
 
