@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-11-05/imports/go_import.owl
+data-version: ecocore/releases/2020-12-01/imports/go_import.owl
 ontology: ecocore/imports/go_import
 
 [Term]
@@ -686,7 +686,7 @@ subset: goslim_candida
 subset: goslim_chembl
 subset: goslim_metagenomics
 synonym: "virulence" RELATED []
-is_a: GO:0044419 ! interspecies interaction between organisms
+is_a: GO:0044419 ! biological process involved in interspecies interaction between organisms
 
 [Term]
 id: GO:0009453
@@ -1909,7 +1909,7 @@ synonym: "regulation of morphology of other organism" NARROW [GOC:bf]
 synonym: "regulation of morphology or physiology of other organism" RELATED [GOC:bf]
 synonym: "regulation of physiological process of other organism" NARROW [GOC:bf]
 synonym: "regulation of physiology of other organism" NARROW [GOC:bf]
-is_a: GO:0044419 ! interspecies interaction between organisms
+is_a: GO:0044419 ! biological process involved in interspecies interaction between organisms
 property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18605 xsd:anyURI
 created_by: bf
 creation_date: 2011-04-21T01:31:51Z
@@ -1922,7 +1922,7 @@ def: "A form of mutualism between a fungus and the roots of a vascular plant, wh
 synonym: "arbuscular mycorrhizae formation" EXACT [Wikipedia:Arbuscular_mycorrhiza]
 synonym: "arbuscular mycorrhizal symbiosis" RELATED [Wikipedia:Arbuscular_mycorrhiza]
 synonym: "arbuscular mycorrhizas formation" EXACT [Wikipedia:Arbuscular_mycorrhiza]
-is_a: GO:0044403 ! symbiotic process
+is_a: GO:0044403 ! biological process involved in symbiotic interaction
 created_by: bf
 creation_date: 2013-05-07T15:07:32Z
 
@@ -2181,10 +2181,7 @@ name: intracellular organelle
 namespace: cellular_component
 def: "Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane." [GOC:go_curators]
 subset: goslim_pir
-is_a: GO:0043226 ! organelle
-intersection_of: GO:0043226 ! organelle
-intersection_of: part_of GO:0005622 ! intracellular anatomical structure
-relationship: part_of GO:0005622 ! intracellular anatomical structure
+is_a: GO:0005622 ! intracellular anatomical structure
 
 [Term]
 id: GO:0043231
@@ -2304,17 +2301,19 @@ relationship: positively_regulates GO:0051704 ! multi-organism process
 
 [Term]
 id: GO:0043903
-name: regulation of symbiotic process
+name: regulation of biological process involved in symbiotic interaction
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of symbiosis, an interaction between two organisms living together in more or less intimate association." [GOC:jl]
 comment: regulation of interspecies interactions between organisms
 synonym: "regulation of interspecies interactions between organisms" BROAD []
 synonym: "regulation of symbiosis, encompassing mutualism through parasitism" RELATED []
+synonym: "regulation of symbiotic process" EXACT []
 is_a: GO:0050789 ! regulation of biological process
 intersection_of: GO:0008150 ! biological_process
-intersection_of: regulates GO:0044403 ! symbiotic process
-relationship: regulates GO:0044403 ! symbiotic process
+intersection_of: regulates GO:0044403 ! biological process involved in symbiotic interaction
+relationship: regulates GO:0044403 ! biological process involved in symbiotic interaction
 property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/19028 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20191 xsd:anyURI
 
 [Term]
 id: GO:0043946
@@ -2359,7 +2358,7 @@ synonym: "modification by symbiont of host biological process" RELATED []
 synonym: "modification by symbiont of host morphology or physiology" RELATED []
 synonym: "modulation by symbiont of host system process" NARROW []
 synonym: "regulation by symbiont of host system process" NARROW []
-is_a: GO:0051701 ! interaction with host
+is_a: GO:0051701 ! biological process involved in interaction with host
 is_a: GO:0051817 ! modulation of process of other organism involved in symbiotic interaction
 property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/18719 xsd:anyURI
 
@@ -2442,7 +2441,7 @@ synonym: "growth during symbiotic interaction" RELATED [GOC:dph]
 synonym: "growth on or near surface of other organism during symbiotic interaction" RELATED [GOC:tb]
 synonym: "growth on or near surface of other organism involved in symbiotic interaction" RELATED []
 is_a: GO:0040007 ! growth
-is_a: GO:0044419 ! interspecies interaction between organisms
+is_a: GO:0044419 ! biological process involved in interspecies interaction between organisms
 created_by: jl
 creation_date: 2009-07-30T02:22:33Z
 
@@ -2458,8 +2457,8 @@ synonym: "development on or near surface of other organism during symbiotic inte
 synonym: "development on or near surface of other organism involved in symbiotic interaction" NARROW []
 is_a: GO:0032502 ! developmental process
 intersection_of: GO:0032502 ! developmental process
-intersection_of: part_of GO:0044419 ! interspecies interaction between organisms
-relationship: part_of GO:0044419 ! interspecies interaction between organisms
+intersection_of: part_of GO:0044419 ! biological process involved in interspecies interaction between organisms
+relationship: part_of GO:0044419 ! biological process involved in interspecies interaction between organisms
 created_by: jl
 creation_date: 2009-07-30T02:26:46Z
 
@@ -2576,13 +2575,13 @@ is_obsolete: true
 
 [Term]
 id: GO:0044403
-name: symbiotic process
+name: biological process involved in symbiotic interaction
 namespace: biological_process
 alt_id: GO:0043298
 alt_id: GO:0044404
 alt_id: GO:0072519
 alt_id: GO:0085031
-def: "A process carried out by gene products in an organism that enable the organism to engage in a symbiotic relationship, a more or less intimate association, with another organism. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs. Microscopic symbionts are often referred to as endosymbionts." [GOC:cc, https://study.com/academy/lesson/symbiont-definition-lesson-quiz.html]
+def: "A process carried out by gene products in an organism that enable the organism to engage in a symbiotic relationship, a more or less intimate association, with another organism. The various forms of symbiosis include parasitism, in which the association is disadvantageous or destructive to one of the organisms; mutualism, in which the association is advantageous, or often necessary to one or both and not harmful to either; and commensalism, in which one member of the association benefits while the other is not affected. However, mutualism, parasitism, and commensalism are often not discrete categories of interactions and should rather be perceived as a continuum of interaction ranging from parasitism to mutualism. In fact, the direction of a symbiotic interaction can change during the lifetime of the symbionts due to developmental changes as well as changes in the biotic/abiotic environment in which the interaction occurs. Microscopic symbionts are often referred to as endosymbionts." [GOC:cc, PMID:31257129]
 subset: goslim_chembl
 subset: goslim_generic
 synonym: "commensalism" NARROW []
@@ -2594,8 +2593,10 @@ synonym: "symbiotic interaction" RELATED []
 synonym: "symbiotic interaction between host and organism" RELATED []
 synonym: "symbiotic interaction between organisms" RELATED []
 synonym: "symbiotic interaction between species" RELATED []
-is_a: GO:0044419 ! interspecies interaction between organisms
+synonym: "symbiotic process" RELATED []
+is_a: GO:0044419 ! biological process involved in interspecies interaction between organisms
 property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/14807 xsd:anyURI
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20191 xsd:anyURI
 
 [Term]
 id: GO:0044409
@@ -2638,16 +2639,19 @@ property_value: term_tracker_item https://github.com/geneontology/go-ontology/is
 
 [Term]
 id: GO:0044419
-name: interspecies interaction between organisms
+name: biological process involved in interspecies interaction between organisms
 namespace: biological_process
-def: "Any process in which an organism has an effect on an organism of a different species." [GOC:cc]
+def: "Any process evolved to enable an interaction with an organism of a different species." [GOC:cc]
+subset: gocheck_do_not_annotate
 subset: goslim_candida
 subset: goslim_pir
 synonym: "interaction with another species" EXACT []
 synonym: "interspecies interaction" EXACT []
+synonym: "interspecies interaction between organisms" EXACT []
 synonym: "interspecies interaction with other organisms" EXACT []
 is_a: GO:0008150 ! biological_process
 property_value: RO:0002161 NCBITaxon:4895
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20191 xsd:anyURI
 
 [Term]
 id: GO:0044464
@@ -3536,19 +3540,35 @@ relationship: part_of GO:0051641 ! cellular localization
 
 [Term]
 id: GO:0051701
-name: interaction with host
+name: biological process involved in interaction with host
 namespace: biological_process
+alt_id: GO:0044112
+alt_id: GO:0044116
+alt_id: GO:0044117
+alt_id: GO:0044119
+alt_id: GO:0044121
+alt_id: GO:0044123
+alt_id: GO:0044125
 def: "An interaction between two organisms living together in more or less intimate association. The term host is used for the larger (macro) of the two members of a symbiosis; the various forms of symbiosis include parasitism, commensalism and mutualism." [GOC:cc]
-is_a: GO:0044403 ! symbiotic process
+synonym: "growth of symbiont in host" NARROW []
+synonym: "growth of symbiont in host cell" NARROW []
+synonym: "growth of symbiont in host organelle" NARROW []
+synonym: "growth of symbiont in host vacuole" NARROW []
+synonym: "interaction with host" EXACT []
+is_a: GO:0044403 ! biological process involved in symbiotic interaction
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20191 xsd:anyURI
 
 [Term]
 id: GO:0051703
-name: intraspecies interaction between organisms
+name: biological process involved in intraspecies interaction between organisms
 namespace: biological_process
 def: "Any process in which an organism has an effect on an organism of the same species." [GOC:ai]
+subset: gocheck_do_not_annotate
 subset: goslim_pir
+synonym: "intraspecies interaction between organisms" EXACT []
 synonym: "intraspecies interaction with other organisms" EXACT []
 is_a: GO:0008150 ! biological_process
+property_value: term_tracker_item https://github.com/geneontology/go-ontology/issues/20191 xsd:anyURI
 
 [Term]
 id: GO:0051704
@@ -3660,7 +3680,7 @@ name: movement in host environment
 namespace: biological_process
 def: "The directed movement of an organism or motile cell on, within or near its host organism. The host is defined as the larger of the organisms involved in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
 synonym: "movement in response to host" EXACT []
-is_a: GO:0051701 ! interaction with host
+is_a: GO:0051701 ! biological process involved in interaction with host
 
 [Term]
 id: GO:0052148
@@ -3735,7 +3755,7 @@ namespace: biological_process
 def: "The chemical reactions and pathways performed by an organism in a second organism, where the two organisms are in a symbiotic interaction." [GOC:mtg_pamgo_17jul06]
 synonym: "metabolism of substance in other organism during symbiotic interaction" RELATED [GOC:dph]
 is_a: GO:0044033 ! multi-organism metabolic process
-is_a: GO:0044419 ! interspecies interaction between organisms
+is_a: GO:0044419 ! biological process involved in interspecies interaction between organisms
 
 [Term]
 id: GO:0052226
@@ -3767,7 +3787,7 @@ synonym: "modulation by organism of entry into other organism during symbiotic i
 synonym: "modulation by symbiont of entry into host" RELATED []
 synonym: "regulation by organism of entry into other organism during symbiotic interaction" RELATED [GOC:tb]
 synonym: "regulation by organism of entry into other organism involved in symbiotic interaction" RELATED []
-is_a: GO:0043903 ! regulation of symbiotic process
+is_a: GO:0043903 ! regulation of biological process involved in symbiotic interaction
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0044409 ! entry into host
 relationship: regulates GO:0044409 ! entry into host
@@ -4008,7 +4028,7 @@ name: symbiotic process benefiting host
 namespace: biological_process
 def: "A process carried out by symbiont gene products that enables a symbiotic interaction with a host organism, that is beneficial to the host organism." [GOC:pdt]
 synonym: "mutualism" RELATED []
-is_a: GO:0044403 ! symbiotic process
+is_a: GO:0044403 ! biological process involved in symbiotic interaction
 created_by: jl
 creation_date: 2010-07-27T01:25:21Z
 
@@ -4017,6 +4037,7 @@ id: GO:0098772
 name: molecular function regulator
 namespace: molecular_function
 def: "A molecular function that modulates the activity of a gene product or complex.  Examples include enzyme regulators and channel regulators." [GOC:dos, GOC:pt]
+subset: gocheck_do_not_annotate
 subset: goslim_flybase_ribbon
 is_a: GO:0003674 ! molecular_function
 relationship: part_of GO:0065009 ! regulation of molecular function

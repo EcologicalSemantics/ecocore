@@ -94,7 +94,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "methane",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "methane",
@@ -114,7 +115,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "tetrahydridocarbon",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -204,7 +206,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "metabolite",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "primary metabolites",
@@ -281,7 +284,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chlorophylls",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
@@ -392,7 +396,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "nuclear particle",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -412,7 +417,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "carbonyl compounds",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -456,7 +462,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxo compounds",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -680,7 +687,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "[(2E,7R,11R)-3,7,11,15-tetramethylhexadec-2-en-1-yl (2(2)R,17S,18S)-7-ethyl-2(1),2(2),17,18-tetrahydro-2(2)-(methoxycarbonyl)-3,8,13,17-tetramethyl-2(1)-oxo-12-ethenylcyclopenta[at]porphyrin-18-propanoato(2-)]magnesium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "CHLOROPHYLL A",
@@ -749,7 +757,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "fermion",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -863,7 +872,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "magnesium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
@@ -947,7 +957,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "cation",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -977,7 +988,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydracid",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1074,7 +1086,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "nonmetal",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Nichtmetalle",
@@ -1331,7 +1344,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "halide ions",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Halide",
@@ -1400,7 +1414,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "hydrogen halides",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "hydrogen halides",
@@ -1487,7 +1502,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "nitrogen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "nitrogeno",
@@ -1527,7 +1543,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "carbonyl",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : ">C=O",
@@ -1867,11 +1884,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "dihydridocarbonate(2-)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "methanediide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
@@ -1944,7 +1963,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "anaesthetic",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Anaesthetikum",
@@ -1975,7 +1995,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "diazynium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "N#NH(+)",
@@ -2172,7 +2193,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "fossil fuel",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2216,7 +2238,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "organonitrogen compounds",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2225,6 +2248,82 @@
       },
       "type" : "CLASS",
       "lbl" : "organonitrogen compound"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_25567",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "CAS:7782-77-6"
+        }, {
+          "val" : "Gmelin:983"
+        }, {
+          "val" : "PDBeChem:NO2"
+        }, {
+          "val" : "CAS:7782-77-6"
+        }, {
+          "val" : "KEGG:C00088"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "[NO(OH)]",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hydroxidooxidonitrogen",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hydrogen dioxonitrate(1-)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nitrosyl hydroxide",
+          "xrefs" : [ "NIST_Chemistry_WebBook" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dioxonitric acid",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nitrous acid",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "HNO2",
+          "xrefs" : [ "IUPAC" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "47.01348"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/HNO2/c2-1-3/h(H,2,3)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "HNO2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "[H]ON=O"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "47.00073"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
+          "val" : "IOVCWXUNBOPUCH-UHFFFAOYSA-N"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nitrous acid"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_76838",
       "meta" : {
@@ -2287,7 +2386,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydrogen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "H",
@@ -2382,7 +2482,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "halogen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "halogenos",
@@ -2410,7 +2511,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "halogens",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2706,7 +2808,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "cofactors",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "cofactor",
@@ -2787,7 +2890,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chlorine",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "chlorum",
@@ -2852,7 +2956,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "heteroarenes",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "hetarenes",
@@ -2876,7 +2981,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "macrocyclic tetrapyrroles",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "cyclic tetrapyrroles",
@@ -2935,7 +3041,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "macromolecule",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "polymer",
@@ -3047,7 +3154,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "alkanes",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "an alkane",
@@ -3071,7 +3179,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "alkane",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "alcanes",
@@ -3266,7 +3375,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "molecular entity",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "entidad molecular",
@@ -3303,7 +3413,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "helium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "2He",
@@ -3399,11 +3510,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sodium(I) cation",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sodium(1+)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Na(+)",
@@ -3411,11 +3524,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sodium cation",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sodium(1+) ion",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Na+",
@@ -3576,7 +3691,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "inhibitor",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "inhibitors",
@@ -3611,7 +3727,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "acid",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "acido",
@@ -3683,7 +3800,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "enzyme inhibitor",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "enzyme inhibitors",
@@ -3727,7 +3845,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Bronsted base",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "hydron acceptor",
@@ -3787,7 +3906,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Bronsted acid",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -4049,11 +4169,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "methanide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "trihydridocarbonate(1-)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "lambda(2)-methanuide",
@@ -4116,11 +4238,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "dioxidenium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydridodioxygen(1+)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "HO2(+)",
@@ -4177,7 +4301,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "nucleon",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Nukleon",
@@ -4434,11 +4559,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carbon monooxide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carbon monoxide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "[CO]",
@@ -4446,7 +4573,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carbon(II) oxide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "CO",
@@ -4531,7 +4659,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "atom",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -4615,7 +4744,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "mononuclear parent hydrides",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "mononuclear hydrides",
@@ -4707,7 +4837,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "nucleus",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "nuclei",
@@ -4759,7 +4890,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "group",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "grupo",
@@ -4921,7 +5053,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "hydroxy compounds",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "organic hydroxy compounds",
@@ -4967,7 +5100,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydroxy",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "hydroxyl",
@@ -5289,7 +5423,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "oxidanium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "H3O(+)",
@@ -5297,7 +5432,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "trihydridooxygen(1+)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "[OH3](+)",
@@ -5313,11 +5449,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "aquahydrogen(1+)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxonium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
@@ -5367,7 +5505,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carbon",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "carbonium",
@@ -5450,7 +5589,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "macrocyclic polypyrroles",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -5548,7 +5688,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "elementary particle",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -5746,7 +5887,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sodium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "sodio",
@@ -5785,15 +5927,6 @@
       "type" : "CLASS",
       "lbl" : "sodium atom"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/chebi#3_STAR",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Manually annotated by ChEBI Team"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_46662",
       "meta" : {
         "definition" : {
@@ -5801,6 +5934,9 @@
           "xrefs" : [ ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Mineral"
+        } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "minerales",
@@ -6247,7 +6383,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sodium chloride",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "rock salt",
@@ -6289,15 +6426,6 @@
       },
       "type" : "CLASS",
       "lbl" : "sodium chloride"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/chebi#1_STAR",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Preliminary entries"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_139291",
       "meta" : {
@@ -6427,11 +6555,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "organyl group",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "organyl groups",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "grupo organilo",
@@ -6475,7 +6605,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "diazynediium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "[HNNH](2+)",
@@ -6584,11 +6715,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "coordination entity",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "coordination entities",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "coordination compounds",
@@ -6638,7 +6771,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "anion",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Anion",
@@ -6694,7 +6828,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "salt",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "sel",
@@ -6949,7 +7084,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "biopolymer",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Biopolymere",
@@ -6992,7 +7128,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carboxylic acids",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Karbonsaeure",
@@ -7024,7 +7161,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carboxylic acid",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
@@ -7223,7 +7361,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "methylidyneoxonium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "CO(1+)",
@@ -7327,11 +7466,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydridooxygenate(1-)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxidanide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "OH-",
@@ -7343,7 +7484,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydroxide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "HYDROXIDE ION",
@@ -7404,7 +7546,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "electron donor",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Elektronendonator",
@@ -7489,7 +7632,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "base",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Base",
@@ -7537,7 +7681,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydrocarbons",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Kohlenwasserstoff",
@@ -7557,7 +7702,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydrocarbon",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -7577,11 +7723,17 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "tetrapyrroles",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "tetrapyrrole",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "a tetrapyrrole",
+          "xrefs" : [ "UniProt" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -7624,7 +7776,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "carboxy",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "carboxyl group",
@@ -7696,7 +7849,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "alcohols",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
@@ -7807,7 +7961,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "argon",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "argon",
@@ -7871,7 +8026,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "ion",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "ions",
@@ -8107,7 +8263,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "dioxygen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "OXYGEN MOLECULE",
@@ -8257,7 +8414,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "antagonist",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -8336,7 +8494,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "water",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "acqua",
@@ -8364,7 +8523,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxidane",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "BOUND WATER",
@@ -8576,7 +8736,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "methanol",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "METHANOL",
@@ -8784,7 +8945,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "main group elements",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Hauptgruppenelement",
@@ -9053,13 +9215,14 @@
           "val" : "Alkalimetall",
           "xrefs" : [ "ChEBI" ]
         }, {
+          "pred" : "hasExactSynonym",
+          "val" : "alkali metals",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Alkalimetalle",
           "xrefs" : [ "ChEBI" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "alkali metals",
-          "xrefs" : [ "IUPAC" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "metal alcalino",
@@ -9155,7 +9318,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "alkaline earth metals",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "alkaline-earth metal",
@@ -9187,7 +9351,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "amphiprotic solvent",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -9406,15 +9571,18 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "methanedione",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "dioxidocarbon",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carbon dioxide",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "E-290",
@@ -9566,7 +9734,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "electron",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Elektron",
@@ -9614,7 +9783,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carbohydrate",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "glucides",
@@ -9626,7 +9796,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carbohydrates",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "saccharides",
@@ -9698,7 +9869,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxo",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -9763,7 +9935,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "protogenic solvent",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -9783,7 +9956,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "onium cations",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "onium ion",
@@ -9830,7 +10004,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "protophilic solvent",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "HBA solvent",
@@ -9885,11 +10060,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chloranium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chloronium",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "H2Cl(+)",
@@ -9998,7 +10175,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "polar solvent",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "polar solvents",
@@ -10049,7 +10227,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "reagent",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "reagents",
@@ -10101,7 +10280,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "aliphatic compounds",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -10129,11 +10309,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "aromatic molecular entity",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "aromatic compounds",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -10196,15 +10378,18 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chlorane",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydrogen chloride",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chloridohydrogen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "hydrochloric acid",
@@ -10427,11 +10612,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxoacid",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxoacids",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "oxacids",
@@ -10484,7 +10671,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydrogen trioxonitrate(1-)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "HNO3",
@@ -10508,7 +10696,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "trioxonitric acid",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "[NO2(OH)]",
@@ -10520,7 +10709,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hydroxidodioxidonitrogen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -10570,7 +10760,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "porphyrins",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -10614,7 +10805,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "group 14 elements",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "cristallogenes",
@@ -10655,7 +10847,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "carboxylic esters",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "a carboxylic ester",
@@ -10732,7 +10925,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "noble gases",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "rare gases",
@@ -10760,7 +10954,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "noble gas",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "gaz nobles",
@@ -10891,7 +11086,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "pnictogens",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "group 15 elements",
@@ -10966,7 +11162,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chloride(1-)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Cl(-)",
@@ -10986,7 +11183,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chloride",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chloride",
@@ -11065,7 +11263,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chalcogens",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "group 16 elements",
@@ -11101,7 +11300,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "chalcogen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -11170,7 +11370,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "dinitrogen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "N2",
@@ -11293,7 +11494,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "trioxonitrate(1-)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "[NO3](-)",
@@ -11301,11 +11503,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "trioxonitrate(V)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "trioxidonitrate(1-)",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "NO3",
@@ -11325,7 +11529,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "nitrate",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "nitrate(1-)",
@@ -11369,6 +11574,125 @@
       "type" : "CLASS",
       "lbl" : "nitrate"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_16301",
+      "meta" : {
+        "definition" : {
+          "val" : "The nitrogen oxoanion formed by loss of a proton from nitrous acid.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "CAS:14797-65-0"
+        }, {
+          "val" : "Wikipedia:Nitrite"
+        }, {
+          "val" : "Gmelin:977"
+        }, {
+          "val" : "PDBeChem:NO2"
+        }, {
+          "val" : "KEGG:C00088"
+        }, {
+          "val" : "CAS:14797-65-0"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "NO2",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nitrite(1-)",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dioxidonitrate(1-)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nitrite anion",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dioxonitrate(III)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "[NO2](-)",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dioxonitrate(1-)",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Nitrit",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "NO2(-)",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nitrous acid, ion(1-)",
+          "xrefs" : [ "ChemIDplus" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nitrite",
+          "xrefs" : [ "UniProt" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Nitrite",
+          "xrefs" : [ "KEGG_COMPOUND" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "NITRITE ION",
+          "xrefs" : [ "PDBeChem" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nitrite",
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "45.99345"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/HNO2/c2-1-3/h(H,2,3)/p-1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "NO2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:7585"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:44396"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "CHEBI:14658"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
+          "val" : "IOVCWXUNBOPUCH-UHFFFAOYSA-M"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
+          "val" : "[O-]N=O"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "46.00554"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "-1"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nitrite"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_25805",
       "meta" : {
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
@@ -11404,7 +11728,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "oxygen",
-          "xrefs" : [ "IUPAC" ]
+          "xrefs" : [ "IUPAC" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
@@ -11719,6 +12044,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36358",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36357"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16301",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25567"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24833",
       "pred" : "is_a",
@@ -12044,13 +12373,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33579"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24867",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24870"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_46787",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24867",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24870"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_22313",
       "pred" : "is_a",
@@ -12096,13 +12425,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25111",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25216"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33309",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_138675"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25111",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25216"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25697",
       "pred" : "is_a",
@@ -12168,13 +12497,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24471"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25741",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25806"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17997",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_30102"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25741",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25806"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16183",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -12220,13 +12549,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22563"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33909",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36309"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_46883",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33249"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33909",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36309"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16900",
       "pred" : "is_a",
@@ -12324,13 +12653,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_64708"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_26710",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_79314"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16900",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38206"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_26710",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_79314"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17790",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -12359,6 +12688,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33608",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16301",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33458"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_10545",
       "pred" : "is_a",
@@ -12456,13 +12789,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25701",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_72695"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_23116",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24473"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25701",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_72695"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_57942",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -12552,13 +12885,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29360",
-      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29438"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_139292",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35757"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_29360",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_29438"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_78433",
       "pred" : "is_a",
@@ -12656,13 +12989,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33299"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17883",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_138675"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26708",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22314"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17883",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_138675"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17245",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -12884,6 +13217,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50860"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16301",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24432",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50906"
@@ -12916,13 +13253,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33937"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35479",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24866"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29101",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_60242"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35479",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24866"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17997",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -12992,13 +13329,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_139291"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_48356",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48354"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63248",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_48356",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48354"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52090",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
@@ -13047,6 +13384,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36338",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36340"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33455"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29412",
       "pred" : "is_a",
@@ -13188,6 +13529,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33240"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16301",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_62764"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25107",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22313"
@@ -13287,6 +13632,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_75772",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76946"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25567",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16301"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15379",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -13412,13 +13761,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33296"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51446",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_76413",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17245",
       "pred" : "is_a",
@@ -13612,13 +13961,13 @@
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29067"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38101",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24532"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_75767",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_75763"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38101",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24532"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16526",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -13688,13 +14037,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36914"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17996",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23357"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_76741",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76725"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17996",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23357"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36587",
       "pred" : "is_a",
@@ -13763,6 +14112,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_24867",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33238"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16301",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_79389"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36962",
       "pred" : "is_a",
@@ -13937,7 +14290,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-11-05/imports/chebi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-01/imports/chebi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

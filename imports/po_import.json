@@ -32,7 +32,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "estructura colectiva del filoma (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "whorl (narrow)",
@@ -40,7 +41,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "葉的器官が集まった構造 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -59,15 +61,6 @@
       "type" : "CLASS",
       "lbl" : "collective phyllome structure"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/po#reference",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "reference plant structure term"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0003674",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -83,67 +76,70 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "green plants",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#common_name"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "green plants",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#blast_name"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Chlorophyta/Embryophyta group",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Chlorobionta",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "chlorophyte/embryophyte group",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         } ]
       },
       "type" : "CLASS",
       "lbl" : "Viridiplantae"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Tomato",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for tomato"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "Eucaryotae",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "eukaryotes",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#common_name"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "eukaryotes",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#blast_name"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Eucarya",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Eukaryotae",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Eukarya",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "eucaryotes",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#genbank_common_name"
         } ]
       },
       "type" : "CLASS",
@@ -159,21 +155,13 @@
       "type" : "PROPERTY",
       "lbl" : "Japanese synonym (exact)"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Angiosperm",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term for angiosperms"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PO_0020003",
       "meta" : {
         "definition" : {
           "val" : "A plant organ (PO:0009008) that has as parts a nucellus (PO:0020020) in which a female gametophyte (PO:0025279) is located, one or two integuments (PO:0020021), and a funicle (PO:0020006).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "A seed (PO:0009010) develops from a plant ovule. In angiosperms, a plant ovule is part of a plant ovary (PO:0009072). In conifers, a plant ovule is part of an ovuliferous scale (add term). If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352)." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#reference", "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:70"
@@ -183,11 +171,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "&#243vulo vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "胚珠 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "Poaceae ovule (narrow)",
@@ -206,9 +196,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "PO:0006491"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A seed (PO:0009010) develops from a plant ovule. In angiosperms, a plant ovule is part of a plant ovary (PO:0009072). In conifers, a plant ovule is part of an ovuliferous scale (add term). If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352)."
         } ]
       },
       "type" : "CLASS",
@@ -243,11 +230,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "meristema del epiblasto (epiblastema) (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "シュート分裂組織 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -263,17 +252,20 @@
           "val" : "A plant structure (PO:0009011) that is a proper part of a whole plant (PO:0000003) and includes two or more adjacent plant organs (PO:0009008) or adjacent cardinal organ parts (PO:0025001), along with any associated portions of plant tissue (PO:0009007).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "This is a parent term to describe both collective organ part structure (PO:0025269)  (e.g. septum), as well as collective plant organ structure (PO:0025007) (which was formerly named collective plant structure), for example shoot system (PO:0009006)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:479"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "集合的植物構造 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "estructura vegetal colectiva (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -284,9 +276,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "Laurel_Cooper"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "This is a parent term to describe both collective organ part structure (PO:0025269)  (e.g. septum), as well as collective plant organ structure (PO:0025007) (which was formerly named collective plant structure), for example shoot system (PO:0009006)."
         } ]
       },
       "type" : "CLASS",
@@ -298,17 +287,20 @@
           "val" : "A plant structure (PO:0009011) that has as parts two or more portions of plant tissue (PO:0009007) of at least two different types and which through specific morphogenetic processes forms a single structural unit demarcated by primarily bona-fide boundaries from other structural units of different types.",
           "xrefs" : [ "CARO:0000055", "POC:curators" ]
         },
+        "comments" : [ "Most multi-tissue plant structures have at least a small connection to other plant structures via a fiat boundary, such as where a leaf (PO:0025034) connects to a shoot axis (PO:0025029), a petal (PO:0009032) connects to a receptacle (PO:0009064), or a branch (PO:0025073) connects to a stem (PO:0009047).  Refers to CARO:0000055 multi-tissue structure, def'n: Anatomical structure that has as parts two or more portions of tissue of at least two different types, and which through specific morphogenetic processes, form a single distinct structural unit demarcated by bona-fide boundries from other structural units of differnt types." ],
         "xrefs" : [ {
           "val" : "PO_GIT:480"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "estructura vegetal con m&#250ltiples tejidos (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "複数の組織からなる植物構造 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
@@ -319,9 +311,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Most multi-tissue plant structures have at least a small connection to other plant structures via a fiat boundary, such as where a leaf (PO:0025034) connects to a shoot axis (PO:0025029), a petal (PO:0009032) connects to a receptacle (PO:0009064), or a branch (PO:0025073) connects to a stem (PO:0009047).  Refers to CARO:0000055 multi-tissue structure, def'n: Anatomical structure that has as parts two or more portions of tissue of at least two different types, and which through specific morphogenetic processes, form a single distinct structural unit demarcated by bona-fide boundries from other structural units of differnt types."
         } ]
       },
       "type" : "CLASS",
@@ -333,24 +322,24 @@
           "val" : "An anatomical entity that is or was part of a plant.",
           "xrefs" : [ "BFO:0000004", "CARO:0000000", "POC:curators" ]
         },
+        "comments" : [ "Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 'anatomical entity' is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 'independent continuant'." ],
         "xrefs" : [ {
           "val" : "PO_GIT:224"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "entidad anat&#243mica vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物 解剖学（形態）的実体 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2010-11-15T11:41:38Z"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Includes both material entities such as plant structures and immaterial entities such as plant anatomical spaces. CARO:0000000 'anatomical entity' is defined as: A part of a cellular organism that is either an immaterial entity or a material entity with granularity aboove the level of a protein complex.  Or, a substance produced by a cellular organism with granularity above the level of a protein complex.  Refers to BFO:0000004 'independent continuant'."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
@@ -416,15 +405,6 @@
       "type" : "PROPERTY",
       "lbl" : "spatially disjoint from"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/po#TraitNet",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Plant Functional Traits"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
       "type" : "PROPERTY",
       "lbl" : "has_related_synonym"
@@ -435,13 +415,15 @@
           "val" : "A primordium (PO:0025127) that develops from a phyllome anlagen (PO:0025430) and is part of a shoot apex (PO:0000037) and is committed to the development of a phyllome (PO:0006001).",
           "xrefs" : [ "PMID:11572953", "POC:curators" ]
         },
+        "comments" : [ "The transition from phyllome primordium to phyllome occurs when the first non-meristematic tissue develops begins to develop." ],
         "xrefs" : [ {
           "val" : "PO_GIT:466"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "フィロム原基（可視的）  (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "phyllome primordia (exact, plural)",
@@ -453,14 +435,12 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primordio del filoma (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2010-11-15T09:27:11Z"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "The transition from phyllome primordium to phyllome occurs when the first non-meristematic tissue develops begins to develop."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
@@ -478,6 +458,7 @@
           "val" : "A collective plant structure (PO:0025497) that is a proper part of a whole plant (PO:0000003), and is composed of two or more adjacent plant organs (PO:0009008) and the associated portions of plant tissue (PO:0009007).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Organs can be of the same type or different types. Examples include flower (PO:0009046), perianth (PO:0009058), and inflorescence (PO:0009049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs, but no complete plant organs. This was formerly named collective plant structure." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:63"
@@ -485,11 +466,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "estructura vegetal colectiva de &#243rgano (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "集合植物器官構造 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -497,9 +480,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Organs can be of the same type or different types. Examples include flower (PO:0009046), perianth (PO:0009058), and inflorescence (PO:0009049). See also collective organ part structure (PO:0025269), for plant structures composed of parts of multiple organs, but no complete plant organs. This was formerly named collective plant structure."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2010-02-09T04:12:11Z"
@@ -514,13 +494,15 @@
           "val" : "A portion of meristem tissue (PO:0009013) that has as parts protoderm (PO:0006210) and sub-epidermal meristematic tissue and is committed to the development of a particular plant structure (PO:0009011).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "A primordium appears as a protrusion and is the first distinct form of a plant organ (PO:0009008), cardinal organ part (PO:0025001), or collective plant organ structure (PO:0025007). The transition from a primordium to the plant structure it develops into is marked by the development of non-meristematic cells, although meristematic cells may be present after the transition." ],
         "xrefs" : [ {
           "val" : "PO_GIT:186"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "primordio (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "portion of primordial tissue (exact)",
@@ -528,7 +510,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "原基（可視的）  (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primordia (exact, plural)",
@@ -541,9 +524,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A primordium appears as a protrusion and is the first distinct form of a plant organ (PO:0009008), cardinal organ part (PO:0025001), or collective plant organ structure (PO:0025007). The transition from a primordium to the plant structure it develops into is marked by the development of non-meristematic cells, although meristematic cells may be present after the transition."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
@@ -608,11 +588,13 @@
           "val" : "An axial plant organ (PO:0009008).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Includes roots and shoots." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "植物軸（軸柱） (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "plant axes (exact, plural)",
@@ -620,12 +602,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "eje de la planta (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Includes roots and shoots."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
         }, {
@@ -645,6 +625,7 @@
           "val" : "A primordium (PO:0025127) that is committed to the development of a floral organ (PO:0025395) and is part of a reproductive shoot apex (PO:0025222).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "If annotating to a primordium of a floral structure, it is better to use the more specific term, such as petal primordium (PO:0000021) or anther primordium (PO:0006089)." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#Angiosperm" ],
         "xrefs" : [ {
           "val" : "PO_GIT:465"
@@ -660,18 +641,17 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "花器官原基 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primordio de organo floral (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "If annotating to a primordium of a floral structure, it is better to use the more specific term, such as petal primordium (PO:0000021) or anther primordium (PO:0006089)."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
@@ -689,13 +669,15 @@
           "val" : "A portion of plant tissue (PO:0009007) that is part of a plant embryo (PO:0009009).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "This class is for tissues that only occur as part of an embryo." ],
         "xrefs" : [ {
           "val" : "PO_GIT:338"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "tejido embri&#243nico vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "portion of embryonic plant tissue (exact)",
@@ -707,7 +689,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物胚性組織 の一部   (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
@@ -715,9 +698,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "This class is for tissues that only occur as part of an embryo."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
@@ -829,16 +809,6 @@
       "type" : "PROPERTY",
       "lbl" : "acts upstream of"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002019",
-      "meta" : {
-        "definition" : {
-          "val" : "A relationship that holds between between a receptor and an chemical entity, typically a small molecule or peptide, that carries information between cells or compartments of a cell and which binds the receptor and regulates its effector function.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "PROPERTY",
-      "lbl" : "has ligand"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002015",
       "meta" : {
         "definition" : {
@@ -899,15 +869,6 @@
       "type" : "PROPERTY",
       "lbl" : "has component process"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Poaceae",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for grasses"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
       "type" : "PROPERTY",
       "lbl" : "has_alternative_id"
@@ -927,11 +888,22 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "biota",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         } ]
       },
       "type" : "CLASS",
       "lbl" : "cellular organisms"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0011002",
+      "meta" : {
+        "definition" : {
+          "val" : "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "regulates activity of"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
       "type" : "PROPERTY",
@@ -1002,11 +974,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "分裂組織細胞 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "c&#233lula meristem&#225tica (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "stem cell (exact)",
@@ -1026,6 +1000,7 @@
           "val" : "A whole plant (PO:0000003) that participates in the plant embryo stage (PO:0007631).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "A plant embryo is generally formed after the first division of a plant zygote (PO:0000423), but in the case of a nucellar (adventitious) plant embryo (PO:0004537), somatic plant embryo (PO:0025302), microspore-derived cultured plant embryo (PO:0025305), and other embryos that arise through apogamy, it begins after the division of a single cell that is not a zygote. The end of the embryo stage varies among taxa; the beginning of a seed germination stage (PO:0007057) in seed plants, formation of the first vascular leaf (PO:0009025) in pteridophytes, the beginning of development of a sporangium (PO:0025094) in bryophytes, or the beginning of the formation of a plant organ (PO:0009008) such as a root (PO:0009005), shoot axis (PO:0025029), or vascular leaf (PO:0009025) in a cultured plant embryo (PO:0000010)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:92"
         } ],
@@ -1040,18 +1015,17 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "embri&#243n (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物胚 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A plant embryo is generally formed after the first division of a plant zygote (PO:0000423), but in the case of a nucellar (adventitious) plant embryo (PO:0004537), somatic plant embryo (PO:0025302), microspore-derived cultured plant embryo (PO:0025305), and other embryos that arise through apogamy, it begins after the division of a single cell that is not a zygote. The end of the embryo stage varies among taxa; the beginning of a seed germination stage (PO:0007057) in seed plants, formation of the first vascular leaf (PO:0009025) in pteridophytes, the beginning of development of a sporangium (PO:0025094) in bryophytes, or the beginning of the formation of a plant organ (PO:0009008) such as a root (PO:0009005), shoot axis (PO:0025029), or vascular leaf (PO:0009025) in a cultured plant embryo (PO:0000010)."
         } ]
       },
       "type" : "CLASS",
@@ -1061,21 +1035,13 @@
       "type" : "PROPERTY",
       "lbl" : "is kinase activity"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/po#CL",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "plant cells"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PO_0009010",
       "meta" : {
         "definition" : {
           "val" : "A multi-tissue plant structure (PO:0025496) that develops from a plant ovule (PO:0020003) and has as parts a plant embryo (PO:0009009) enclosed in a seed coat (PO:0009088).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "A seed generally develops from an ovule (PO:0020003) after fertilization, but may develop without fertilization in the case of apogamy (e.g., adventitious embryos or somatic embryos). A seed is a reproductive unit of seed plants (gymnosperms, angiosperms, and fossil pteridosperms)." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#Gymnosperms", "http://purl.obolibrary.org/obo/po#Angiosperm", "http://purl.obolibrary.org/obo/po#Citrus", "http://purl.obolibrary.org/obo/po#Arabidopsis", "http://purl.obolibrary.org/obo/po#Maize", "http://purl.obolibrary.org/obo/po#Poaceae", "http://purl.obolibrary.org/obo/po#TraitNet", "http://purl.obolibrary.org/obo/po#Tomato", "http://purl.obolibrary.org/obo/po#Rice" ],
         "xrefs" : [ {
           "val" : "PO_GIT:405"
@@ -1083,7 +1049,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "種子 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "diaspore (broad)",
@@ -1095,14 +1062,12 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "semilla (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A seed generally develops from an ovule (PO:0020003) after fertilization, but may develop without fertilization in the case of apogamy (e.g., adventitious embryos or somatic embryos). A seed is a reproductive unit of seed plants (gymnosperms, angiosperms, and fossil pteridosperms)."
         } ]
       },
       "type" : "CLASS",
@@ -1155,6 +1120,7 @@
           "val" : "A plant anatomical entity (PO:0025131) that is, or was, part of a plant, or was derived from a part of a plant.",
           "xrefs" : [ "CARO:0000003", "POC:curators" ]
         },
+        "comments" : [ "'Part' includes both proper parts and the whole plant. CARO:0000003 'connected anatomical structure' is defined as: Material anatomical entity that is a single connected structure with inherent 3D shape, generated by coordinated expression of the organism's own genome." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:57"
@@ -1162,18 +1128,17 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "estructura vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物 構造 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "'Part' includes both proper parts and the whole plant. CARO:0000003 'connected anatomical structure' is defined as: Material anatomical entity that is a single connected structure with inherent 3D shape, generated by coordinated expression of the organism's own genome."
         } ]
       },
       "type" : "CLASS",
@@ -1245,6 +1210,7 @@
           "val" : "A plant cell (PO:0009002) that is either part of a multicellular whole plant (PO:0000003) 'in vivo' or a unicellular organism 'in natura' (i.e. part of a natural environment).",
           "xrefs" : [ "POC:Laurel_Cooper" ]
         },
+        "comments" : [ "A native plant cell is one that is not grown or maintained in vitro, nor part of an in vitro plant structure (PO:0000004)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:586"
         } ],
@@ -1254,9 +1220,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "Laurel_Cooper"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A native plant cell is one that is not grown or maintained in vitro, nor part of an in vitro plant structure (PO:0000004)."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
@@ -1275,21 +1238,13 @@
       "type" : "PROPERTY",
       "lbl" : "has part that occurs in"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Maize",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for maize"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PO_0009012",
       "meta" : {
         "definition" : {
           "val" : "A stage in the life of a plant structure (PO:0009011) during which the plant structure undergoes developmental processes.",
           "xrefs" : [ "BFO:0000003", "GO:0032502", "POC:curators" ]
         },
+        "comments" : [ "Refers to GO:0032502 'developmental process', which includes growth, differentiation, and senescence, and BFO:0000003 'ocurrent'." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:185"
@@ -1297,7 +1252,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "etapa de desarrollo de estructura vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Arabidopsis growth (related)",
@@ -1308,9 +1264,6 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Refers to GO:0032502 'developmental process', which includies growth, differentiation, and senescence, and BFO:0000003 'ocurrent'."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_structure_development_stage"
         }, {
@@ -1334,7 +1287,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "分裂組織 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "meristematic tissue (exact)",
@@ -1342,7 +1296,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "meristema (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "meristem (exact)",
@@ -1395,15 +1350,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "capable of regulating"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Musa",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Terms used for banana"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002597",
       "meta" : {
@@ -1501,6 +1447,7 @@
           "val" : "A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately.",
           "xrefs" : [ "ISBN:978-0879015329", "ISBN:9780964022157", "NYBG:Brandon_Sinn", "NYBG:Dario_Cavaliere", "POC:Laurel_Cooper", "POC:curators" ]
         },
+        "comments" : [ "Roots function in the absorption of water and inorganic nutrients, anchoring the plant body to the substrate and supporting it, storage of food and nutrients, and vegetative reproduction. The roots of most vascular plant species enter into symbiosis with soil-borne microorganisms. Roots are usually positively geotropic and found underground, although there are many exceptions such as the aerial roots of orchids. Roots often form secondary thickening from the root lateral meristem (PO:0006308). Commonly thought of as one of the three basic parts of the plant body, along with the shoot axis (PO:0025029) and leaves (PO:0025034)." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#Gymnosperms", "http://purl.obolibrary.org/obo/po#Potato", "http://purl.obolibrary.org/obo/po#Musa", "http://purl.obolibrary.org/obo/po#reference", "http://purl.obolibrary.org/obo/po#Maize", "http://purl.obolibrary.org/obo/po#Angiosperm", "http://purl.obolibrary.org/obo/po#Tomato", "http://purl.obolibrary.org/obo/po#TraitNet", "http://purl.obolibrary.org/obo/po#Rice" ],
         "xrefs" : [ {
           "val" : "PO_GIT:578"
@@ -1508,7 +1455,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "ra&#237z (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "aerial root (narrow)",
@@ -1528,14 +1476,12 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "根 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Roots function in the absorption of water and inorganic nutrients, anchoring the plant body to the substrate and supporting it, storage of food and nutrients, and vegetative reproduction. The roots of most vascular plant species enter into symbiosis with soil-borne microorganisms. Roots are usually positively geotropic and found underground, although there are many exceptions such as the aerial roots of orchids. Roots often form secondary thickening from the root lateral meristem (PO:0006308). Commonly thought of as one of the three basic parts of the plant body, along with the shoot axis (PO:0025029) and leaves (PO:0025034)."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "PO:0003006"
@@ -1550,6 +1496,7 @@
           "val" : "A collective plant organ structure (PO:0025007) that produces shoot-borne portions of meristem tissue (PO:0009013) and the plant structures (PO:0009011) that arise from them.",
           "xrefs" : [ "POC:Laurel_Cooper", "POC:curators" ]
         },
+        "comments" : [ "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet", "http://purl.obolibrary.org/obo/po#reference" ],
         "xrefs" : [ {
           "val" : "PO_GIT:135"
@@ -1569,15 +1516,18 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "thalli (related)",
-          "xrefs" : [ "FNA:d1431b5c-7b86-46a0-8d3c-bd426fe12c85" ]
+          "xrefs" : [ "FNA:d1431b5c-7b86-46a0-8d3c-bd426fe12c85" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Plural"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "シュート系、苗条系 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sistema de epiblasto (epiblastema) (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "thallus (related)",
@@ -1586,9 +1536,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "The shoot system is generally used to refer to the above-ground plant parts, although some plants have parts of their shoot system underground. For example, a rhizome (PO:0004542), bulb (PO:0025356), a corm (PO:0025355) or a subterranean tuber (PO:0004547), as in Solanum tuberosum (potato) or yam, are all part of the shoot system."
         } ]
       },
       "type" : "CLASS",
@@ -1600,6 +1547,7 @@
           "val" : "A plant structure (PO:0009011) that consists predominantly of similarly specialized plant cells (PO:0009002) of one or more types.",
           "xrefs" : [ "POC:curators", "TAIR_curator:Leonore_Reiser" ]
         },
+        "comments" : [ "A portion of plant tissue may contain one or several types of cells that are organized in a specific spatial arrangement into a structural unit (which includes a mass of callus) and may include an intercellular matrix. May include other types of isolated cells, such as idioblasts." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#reference", "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:59"
@@ -1619,18 +1567,17 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "porci&#243n de un tejido vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物組織の一部 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A portion of plant tissue may contain one or several types of cells that are organized in a specific spatial arrangement into a structural unit (which includes a mass of callus) and may include an intercellular matrix. May include other types of isolated cells, such as idioblasts."
         } ]
       },
       "type" : "CLASS",
@@ -1661,11 +1608,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "茎頂分裂組織 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "meristema apical del epiblasto (epiblastema) (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1681,6 +1630,7 @@
           "val" : "A multi-tissue plant structure (PO:0025496) that is a functional unit, is a proper part of a whole plant (PO:0000003), and includes portions of plant tissue (PO:0009007) of at least two different types that derive from a common developmental path.",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Examples include stem (PO:0009047), leaf (PO:0025034), and root (PO:0009005). May include individual plant cells (PO:0009002) that are not part of a portion of plant tissue (e.g., idioblasts, PO:0000283). A plant organ may have one or more different plant organs as parts, such as a sporophyll (PO:0009026) that may have as part a sporangium (PO:0025094) or a carpel (PO:0009030) that may have as part a plant ovule (PO:0020003)." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:55"
@@ -1688,7 +1638,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "植物 器官 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "simple plant organ (related)",
@@ -1696,7 +1647,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "&#243rgano vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "organ (broad)",
@@ -1707,9 +1659,6 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Examples include stem (PO:0009047), leaf (PO:0025034), and root (PO:0009005). May include individual plant cells (PO:0009002) that are not part of a portion of plant tissue (e.g., idioblasts, PO:0000283). A plant organ may have one or more different plant organs as parts, such as a sporophyll (PO:0009026) that may have as part a sporangium (PO:0025094) or a carpel (PO:0009030) that may have as part a plant ovule (PO:0020003)."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
         } ]
@@ -1723,6 +1672,7 @@
           "val" : "A multi-tissue plant structure (PO:0025496) that develops from a gynoecium (PO:0009062), or a single carpel (PO:0009030), and at maturity may have as parts one or more seeds (PO:0009010).",
           "xrefs" : [ "NYBG:Brandon_Sinn", "NYBG:Dario_Cavaliere", "POC:Laurel_Cooper", "POC:curators" ]
         },
+        "comments" : [ "A fruit (PO:0009001) may contain additional plant structures (PO:0009011) that were part of a flower (PO:0009046) and mature along with the gynoecium, such as a receptacle (PO:0009064). A fruit may develop without fertilization in cases of parthenocarpy, apomixis, or other hormone-induced conditions and may not always contain seeds (PO:0009010). When annotating to fruit (PO:0009001) that are referred to as ‘aggregate’, ‘multiple’, or ‘compound’, please annotate directly to the appropriate plant structure, such as receptacle, hypanthium (PO:0009065) or infructescence (PO:0006342). Fruits only occur in angiosperms." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#Poaceae", "http://purl.obolibrary.org/obo/po#Arabidopsis", "http://purl.obolibrary.org/obo/po#TraitNet", "http://purl.obolibrary.org/obo/po#Angiosperm", "http://purl.obolibrary.org/obo/po#Rice", "http://purl.obolibrary.org/obo/po#Maize" ],
         "xrefs" : [ {
           "val" : "PO_GIT:76"
@@ -1734,11 +1684,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "frucht (exact, German)",
-          "xrefs" : [ "NYBG:Brandon_Sinn", "NYBG:Dario_Cavaliere" ]
+          "xrefs" : [ "NYBG:Brandon_Sinn", "NYBG:Dario_Cavaliere" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#German"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "果実 (exact, Japanese)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "syncarp (narrow)",
@@ -1746,7 +1698,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "fruto (exact, Spanish)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "propagule  (broad)",
@@ -1777,9 +1730,6 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A fruit (PO:0009001) may contain additional plant structures (PO:0009011) that were part of a flower (PO:0009046) and mature along with the gynoecium, such as a receptacle (PO:0009064). A fruit may develop without fertilization in cases of parthenocarpy, apomixis, or other hormone-induced conditions and may not always contain seeds (PO:0009010). When annotating to fruit (PO:0009001) that are referred to as ‘aggregate’, ‘multiple’, or ‘compound’, please annotate directly to the appropriate plant structure, such as receptacle, hypanthium (PO:0009065) or infructescence (PO:0006342). Fruits only occur in angiosperms."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "PO:0020107"
         }, {
@@ -1844,6 +1794,7 @@
           "val" : "A cell which is a plant structure (PO:0009011).",
           "xrefs" : [ "GO:0005623", "POC:curators" ]
         },
+        "comments" : [ "Applies to cells that are living or dead at maturity (e.g., fiber cell or tracheid) and includes any external encapsulating structures (if present) such as the plasma membrane and the plant-type cell wall. Definition of cell GO:0005623: \"The basic structural and functional unit of all organisms. Includes the plasma membrane and any external encapsulating structures such as the cell wall and cell envelope\". GO:0009505. Definition of plant-type cell wall (GO:0009505): A more or less rigid structure lying outside the cell membrane of a cell and composed of cellulose and pectin and other organic and inorganic substances, synonym; exact: cellulose and pectin-containing cell wall." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#reference", "http://purl.obolibrary.org/obo/po#TraitNet", "http://purl.obolibrary.org/obo/po#CL" ],
         "xrefs" : [ {
           "val" : "PO_GIT:56"
@@ -1857,18 +1808,17 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物細胞 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "c&#233lula vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Applies to cells that are living or dead at maturity (e.g., fiber cell or tracheid) and includes any external encapsulating structures (if present) such as the plasma membrane and the plant-type cell wall. Definition of cell GO:0005623: \"The basic structural and functional unit of all organisms. Includes the plasma membrane and any external encapsulating structures such as the cell wall and cell envelope\". GO:0009505. Definition of plant-type cell wall (GO:0009505): A more or less rigid structure lying outside the cell membrane of a cell and composed of cellulose and pectin and other organic and inorganic substances, synonym; exact: cellulose and pectin-containing cell wall."
         } ]
       },
       "type" : "CLASS",
@@ -1899,11 +1849,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "頂端分裂組織 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "meristema apical (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1928,11 +1880,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "葉 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hoja (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
@@ -1954,26 +1908,26 @@
           "val" : "A plant organ (PO:0009008) that is part of a flower (PO:0009046).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Includes phyllomes such as anthers and petals, as well as shoot axes such as androphores and gynophores." ],
         "xrefs" : [ {
           "val" : "PO_GIT:423"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "花器官 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "&#243rgano floral (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "flower organ (exact)",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Includes phyllomes such as anthers and petals, as well as shoot axes such as androphores and gynophores."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
         }, {
@@ -2007,15 +1961,6 @@
       "type" : "PROPERTY",
       "lbl" : "adjacent to"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Citrus",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for citrus"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002584",
       "meta" : {
         "definition" : {
@@ -2028,15 +1973,13 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002222",
       "meta" : {
+        "comments" : [ "A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
           "val" : "https://en.wikipedia.org/wiki/Allen%27s_interval_algebra"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
           "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations."
         } ]
       },
       "type" : "PROPERTY",
@@ -2065,39 +2008,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "is a defining property chain axiom where second argument is reflexive"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002217",
-      "meta" : {
-        "definition" : {
-          "val" : "x actively participates in y if and only if x participates in y and x realizes some active role",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "PROPERTY",
-      "lbl" : "actively participates in"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/RO_0002218",
-      "meta" : {
-        "definition" : {
-          "val" : "x has participant y if and only if x realizes some active role that inheres in y",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        } ]
-      },
-      "type" : "PROPERTY",
-      "lbl" : "obsolete has active participant"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Gymnosperms",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for gymnosperms"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002334",
       "meta" : {
@@ -2185,11 +2095,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "meristema apical reproductivo del epiblasto (epiblastema) (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "生殖シュート頂端 分裂組織 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2205,11 +2117,13 @@
           "val" : "A plant axis (PO:0025004) that is part of a shoot system (PO:0009006).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Often bears leaves and branches. In vascular plants, has at least one node and one internode." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet", "http://purl.obolibrary.org/obo/po#Rice", "http://purl.obolibrary.org/obo/po#Poaceae", "http://purl.obolibrary.org/obo/po#Arabidopsis", "http://purl.obolibrary.org/obo/po#Maize", "http://purl.obolibrary.org/obo/po#Angiosperm" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "eje del epiblasto (epiblastema) (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "caullome (exact)",
@@ -2217,7 +2131,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "シュート軸 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "shoot (related)",
@@ -2226,9 +2141,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2010-07-01T03:46:35Z"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Often bears leaves and branches. In vascular plants, has at least one node and one internode."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
@@ -2239,15 +2151,6 @@
       },
       "type" : "CLASS",
       "lbl" : "shoot axis"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Arabidopsis",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for Arabidopsis"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PO_0025028",
       "meta" : {
@@ -2261,7 +2164,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "c&#233lula embri&#243nica vegetal (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "embryo cell (broad)",
@@ -2277,7 +2181,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "胚性植物細胞 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -2303,6 +2208,7 @@
           "val" : "A collective plant organ structure (PO:0025007) that produces root meristems (PO:0006085), the plant structures (PO:0009011) that arise from them and the parts thereof.",
           "xrefs" : [ "POC:Laurel_Cooper", "POC:curators" ]
         },
+        "comments" : [ "Generally the below ground portion of a vascular plant." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:136"
@@ -2314,16 +2220,15 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "根系 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sistema de ra&#237z (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Generally the below ground portion of a vascular plant."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
         }, {
@@ -2343,6 +2248,7 @@
           "val" : "A plant structure (PO:0005679) which is a whole organism.",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Examples include plant embryo (PO:0009009), megagametophyte (PO:0025279) and microgametophyte (PO:0025280)." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#reference", "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:538"
@@ -2372,11 +2278,13 @@
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "frutices (narrow)",
-          "xrefs" : [ "FNA:ec8c2064-2a67-43d7-8e14-aecfef5cf33b" ]
+          "xrefs" : [ "FNA:ec8c2064-2a67-43d7-8e14-aecfef5cf33b" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Plural"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "prothalli (narrow)",
-          "xrefs" : [ "FNA:4b610104-1bb0-4c6b-9bb9-e3cc61d11ac0" ]
+          "xrefs" : [ "FNA:4b610104-1bb0-4c6b-9bb9-e3cc61d11ac0" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Plural"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "prothallium (narrow)",
@@ -2396,7 +2304,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物体全体 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "ramet (broad)",
@@ -2416,7 +2325,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "planta entera (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "bush (narrow)",
@@ -2428,7 +2338,8 @@
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "suffrutices (narrow)",
-          "xrefs" : [ "FNA:ba1b1bd5-75bd-4195-b11c-3aba08da08c2" ]
+          "xrefs" : [ "FNA:ba1b1bd5-75bd-4195-b11c-3aba08da08c2" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Plural"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "vine (narrow)",
@@ -2443,9 +2354,6 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Examples include plant embryo (PO:0009009), megagametophyte (PO:0025279) and microgametophyte (PO:0025280)."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
         } ]
@@ -2496,7 +2404,7 @@
       "id" : "http://purl.obolibrary.org/obo/RO_0002450",
       "meta" : {
         "definition" : {
-          "val" : "Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B.",
+          "val" : "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
@@ -2506,12 +2414,12 @@
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "activity directly positively regulates activity of"
+      "lbl" : "directly positively regulates activity of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002448",
       "meta" : {
         "definition" : {
-          "val" : "Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.",
+          "val" : "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
@@ -2521,7 +2429,7 @@
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "activity directly regulates activity of"
+      "lbl" : "directly regulates activity of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002327",
       "type" : "PROPERTY",
@@ -2530,7 +2438,7 @@
       "id" : "http://purl.obolibrary.org/obo/RO_0002449",
       "meta" : {
         "definition" : {
-          "val" : "Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.",
+          "val" : "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.",
           "xrefs" : [ ]
         },
         "synonyms" : [ {
@@ -2540,7 +2448,7 @@
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "activity directly negatively regulates activity of"
+      "lbl" : "directly negatively regulates activity of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002328",
       "meta" : {
@@ -2665,7 +2573,7 @@
       "id" : "http://purl.obolibrary.org/obo/RO_0002566",
       "meta" : {
         "definition" : {
-          "val" : "Holds between materal entities a and b if the activity of a is causally upstream of the activity of b, or causally upstream of a an activity that modifies b",
+          "val" : "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size).",
           "xrefs" : [ ]
         }
       },
@@ -2688,6 +2596,7 @@
           "val" : "A collective phyllome structure (PO:0025023) composed all of the carpels (PO:0009030) in a flower (PO:0009046).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "If annotating gene expression to a gynoecium with a single carpel (PO:0009030), the annotation should go on carpel. A gynoecium with two or more carpels may be either syncarpous (carpels fused) or apopcarpous (carpels free) or the carpels may be partially fused. The word pistil is used synonymously with gynoecium for a synocarpous gynoecium, and synonymously with carpel for an apocarpous gynoecium, whether it has one or more carpels. In Zea mays, gynoecia of tassel florets and of the lower florets of ear spikelets usually do not develop fully, and they are present in a rudimentary state. If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), lower floret of pedicellate spikelet of ear (PO:0006353), lower floret of sessile spikelet of ear (PO:0006351), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352), tassel floret (PO:0006310), lower floret of pedicellate spikelet of tassel (PO:0006313), lower floret of sessile spikelet of tassel (PO:0006315), upper floret of pedicellate spikelet of tassel (PO:0006314), upper floret of sessile spikelet of tassel (PO:0006316)." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#reference", "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:98"
@@ -2767,11 +2676,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "ginoecio (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "雌蕊群 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -2794,9 +2705,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "If annotating gene expression to a gynoecium with a single carpel (PO:0009030), the annotation should go on carpel. A gynoecium with two or more carpels may be either syncarpous (carpels fused) or apopcarpous (carpels free) or the carpels may be partially fused. The word pistil is used synonymously with gynoecium for a synocarpous gynoecium, and synonymously with carpel for an apocarpous gynoecium, whether it has one or more carpels. In Zea mays, gynoecia of tassel florets and of the lower florets of ear spikelets usually do not develop fully, and they are present in a rudimentary state. If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the corresponding floret type. Choose the most specific term possible from: spikelet floret (PO:0009082), ear floret (PO:0006354), lower floret of pedicellate spikelet of ear (PO:0006353), lower floret of sessile spikelet of ear (PO:0006351), upper floret of pedicellate spikelet of ear (PO:0006350), upper floret of sessile spikelet of ear (PO:0006352), tassel floret (PO:0006310), lower floret of pedicellate spikelet of tassel (PO:0006313), lower floret of sessile spikelet of tassel (PO:0006315), upper floret of pedicellate spikelet of tassel (PO:0006314), upper floret of sessile spikelet of tassel (PO:0006316)."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "PO:0006357"
@@ -2917,6 +2825,7 @@
           "val" : "A plant structure (PO:0009011) that is part of an plant embryo (PO:0009009).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Includes plant structures that only occur in embryos (such as suspensor) as well as plant structures that are part of an embryo when a plant is in the embryonic phase (such as embryonic radicle)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:339"
         }, {
@@ -2925,7 +2834,8 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "estructura vegetal embri&#243nica (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "embryonic plant structure (exact)",
@@ -2933,7 +2843,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "胚性植物構造 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
@@ -2944,9 +2855,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Includes plant structures that only occur in embryos (such as suspensor) as well as plant structures that are part of an embryo when a plant is in the embryonic phase (such as embryonic radicle)."
         } ]
       },
       "type" : "CLASS",
@@ -3005,13 +2913,11 @@
           "val" : "A collective plant organ structure development stage (PO:0025338) that begins with the onset of the plant organ development stage (PO:0025339) and ends with either gametophyte senescent stage (PO:0025343) or sporophyte senescent stage (PO:0007017) or death.",
           "xrefs" : [ "POC:Laurel_Cooper" ]
         },
+        "comments" : [ "The shoot system (PO:0009006) develops fron the shoot apical meristem (PO:0020148) in the plant embryo (PO:0009009) in vascular plants.  In lower plants the gametophore (PO:0030018) arises from a gametophore meristematic apical cell (PO:0030019) in the protonema (PO:0030003)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:517"
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "The shoot system (PO:0009006) develops fron the shoot apical meristem (PO:0020148) in the plant embryo (PO:0009009) in vascular plants.  In lower plants the gametophore (PO:0030018) arises from a gametophore meristematic apical cell (PO:0030019) in the protonema (PO:0030003)."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2012-12-13T18:21:19Z"
         }, {
@@ -3024,15 +2930,6 @@
       },
       "type" : "CLASS",
       "lbl" : "shoot system development stage"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Potato",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for potato"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000040",
       "meta" : {
@@ -3061,11 +2958,13 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "周辺帯 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "zona perif&#233rica (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -3085,11 +2984,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "生殖シュート 系、苗条系 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "sistema de brote reproductivo (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -3111,10 +3012,12 @@
           "val" : "A portion of reproductive shoot apical meristem tissue (PO:0008028) that gives rise to the floral organs (PO:0025395).",
           "xrefs" : [ "Gramene:Pankaj_Jaiswal", "POC:curators" ]
         },
+        "comments" : [ "In Zea mays and other grasses, the floret meristem is part of a spikelet and develops into a specific type of floret. If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the spikelet type that the meristem is part of. Choose the most specific term possible from: spikelet (PO:0009051), ear spikelet (PO:0006320), ear pedicellate spikelet (PO:0006348), ear sessile spikelet (PO:0006349), tassel spikelet (PO:0006309), tassel pedicellate spikelet (PO:0006312), tassel sessile spikelet (PO:0006311)." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "花芽分裂組織 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "tassel floret meristem (narrow)",
@@ -3130,7 +3033,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "mersitema floral (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "Poaceae floret meristem (narrow)",
@@ -3147,9 +3051,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "PO:0025091"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "In Zea mays and other grasses, the floret meristem is part of a spikelet and develops into a specific type of floret. If you are annotating to this structure for Zea mays or other grasses, please also add an annotation to the spikelet type that the meristem is part of. Choose the most specific term possible from: spikelet (PO:0009051), ear spikelet (PO:0006320), ear pedicellate spikelet (PO:0006348), ear sessile spikelet (PO:0006349), tassel spikelet (PO:0006309), tassel pedicellate spikelet (PO:0006312), tassel sessile spikelet (PO:0006311)."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
@@ -3254,17 +3155,20 @@
           "val" : "A portion of meristem tissue (PO:0009013) that is the outer layer of an apical meristem (PO:0020144), or the outer layer of a plant embryo proper (PO:0000001), and gives rise to a portion of epidermis (PO:0005679).",
           "xrefs" : [ "ISBN:0471245208", "POC:Laurel_Cooper" ]
         },
+        "comments" : [ "A protoderm may or may not arise from independent initial cells (PO:0004011). Some researchers also refer to it as an epidermis in a  meristematic state." ],
         "xrefs" : [ {
           "val" : "PO_GIT:125"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "前表皮、原表皮 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "protodermis (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "dermatogen cell (related)",
@@ -3275,9 +3179,6 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A protoderm may or may not arise from independent initial cells (PO:0004011). Some researchers also refer to it as an epidermis in a  meristematic state."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
         } ]
@@ -3291,6 +3192,7 @@
           "val" : "A determinate reproductive shoot system (PO:0025082) that has as part at least one carpel (PO:0009030) or at least one stamen (PO:0009029) and does not contain any other determinate shoot system (PO:0009006) as a part.",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "The characteristic reproductive structure of angiosperms. May have as part one or more petals, sepals or tepals. May contain one or more pistillode (PO:0009078), staminode (PO:0009077) or other aborted organs that don't show up in mature form." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#Angiosperm", "http://purl.obolibrary.org/obo/po#reference", "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:160"
@@ -3304,7 +3206,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "flor (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "double flower (narrow)",
@@ -3312,7 +3215,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "花 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "monoclinous flower (narrow)",
@@ -3335,9 +3239,6 @@
           "xrefs" : [ "CO_125:0000028" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "The characteristic reproductive structure of angiosperms. May have as part one or more petals, sepals or tepals. May contain one or more pistillode (PO:0009078), staminode (PO:0009077) or other aborted organs that don't show up in mature form."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
         }, {
@@ -3397,6 +3298,7 @@
           "val" : "b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t",
           "xrefs" : [ ]
         },
+        "comments" : [ "Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "occurs_in"
@@ -3412,9 +3314,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "unfolds_in"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Paraphrase of definition: a relation between a process and an independent continuant, in which the process takes place entirely within the independent continuant"
         } ]
       },
       "type" : "PROPERTY",
@@ -3426,12 +3325,10 @@
           "val" : "[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t",
           "xrefs" : [ ]
         },
+        "comments" : [ "Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant" ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Paraphrase of definition: a relation between an independent continuant and a process, in which the process takes place entirely within the independent continuant"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
           "val" : "site of"
@@ -3446,6 +3343,7 @@
           "val" : "x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.",
           "xrefs" : [ ]
         },
+        "comments" : [ "Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other." ],
         "xrefs" : [ {
           "val" : "BFO:0000062"
         } ],
@@ -3458,9 +3356,6 @@
         }, {
           "pred" : "http://purl.org/dc/elements/1.1/source",
           "val" : "http://www.obofoundry.org/ro/#OBO_REL:preceded_by"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "An example is: translation preceded_by transcription; aging preceded_by development (not however death preceded_by aging). Where derives_from links classes of continuants, preceded_by links classes of processes. Clearly, however, these two relations are not independent of each other. Thus if cells of type C1 derive_from cells of type C, then any cell division involving an instance of C1 in a given lineage is preceded_by cellular processes involving an instance of C.    The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P. Note that an assertion to the effect that P preceded_by P1 is rather weak; it tells us little about the relations between the underlying instances in virtue of which the preceded_by relation obtains. Typically we will be interested in stronger relations, for example in the relation immediately_preceded_by, or in relations which combine preceded_by with a condition to the effect that the corresponding instances of P and P1 share participants, or that their participants are connected by relations of derivation, or (as a first step along the road to a treatment of causality) that the one process in some way affects (for example, initiates or regulates) the other."
@@ -3526,11 +3421,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "生殖シュート頂、茎頂 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "&#225pice reproductivo del epiblasto (epiblastema) (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
@@ -3562,12 +3459,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002090",
       "meta" : {
+        "comments" : [ "X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "David Osumi-Sutherland"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "ends_at_start_of"
@@ -3655,17 +3550,20 @@
           "val" : "A plant structure development stage (PO:0009012) that has as primary participant a collective plant structure (PO:0025497).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Includes flower development stage (PO:0007615), corolla development stage (PO:0007604), and inflorescence development stage (PO:0001083)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:391"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "集合的植物構造の発生過程 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "etapa de desarrollo de una estructura colectiva de la planta (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -3676,9 +3574,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_structure_development_stage"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Includes flower development stage (PO:0007615), corolla development stage (PO:0007604), and inflorescence development stage (PO:0001083)."
         } ]
       },
       "type" : "CLASS",
@@ -3690,24 +3585,24 @@
           "val" : "A maximal whole plant development stage.",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "There are only two types of life of whole plant. Every life of a whole plant is either a maximal gametophyte stage or a maximal sporophyte stage." ],
         "xrefs" : [ {
           "val" : "PO_GIT:230"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vida de la planta entera (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "植物体の一生 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_structure_development_stage"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "There are only two types of life of whole plant. Every life of a whole plant is either a maximal gametophyte stage or a maximal sporophyte stage."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2011-10-19T10:54:37Z"
@@ -3742,11 +3637,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "&#225pice del epiblasto (epiblastema) (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "シュート頂、茎頂 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -3762,12 +3659,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002086",
       "meta" : {
+        "comments" : [ "X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "David Osumi-Sutherland"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "X ends_after Y iff: end(Y) before_or_simultaneous_with end(X)"
         } ]
       },
       "type" : "PROPERTY",
@@ -3775,12 +3670,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002087",
       "meta" : {
+        "comments" : [ "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "starts_at_end_of"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "X immediately_preceded_by Y iff: end(X) simultaneous_with start(Y)"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "David Osumi-Sutherland"
@@ -3843,7 +3736,7 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002506",
       "type" : "PROPERTY",
-      "lbl" : "causal relation between material entities"
+      "lbl" : "causal relation between entities"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002500",
       "meta" : {
@@ -3871,6 +3764,7 @@
           "val" : "A whole plant development stage (PO:0007033) that has as primary participant a whole plant (PO:0000003) during the interval between fertilization (or apogamy) and death.",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "A whole plant (PO:0000003) in the sporophyte development stage usually has twice the chromosome complement of a plant in the gametophytic phase, but may not in the case of apogamy. Examples of apogamy include both naturally occurring instances (such as sporophytes arising form haploid cells as in bryophytes or ferns) as well as in vitro instances (such as haploid embryo culture or in vitro fusion of non-gamete cells or protoplasts). During the sporophyte development stage, a plant may produce meiospores by meiosis." ],
         "subsets" : [ "http://purl.obolibrary.org/obo/po#TraitNet" ],
         "xrefs" : [ {
           "val" : "PO_GIT:68"
@@ -3892,18 +3786,17 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "fase esporof&#237tica (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "胞子体発生過程 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_structure_development_stage"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A whole plant (PO:0000003) in the sporophyte development stage usually has twice the chromosome complement of a plant in the gametophytic phase, but may not in the case of apogamy. Examples of apogamy include both naturally occurring instances (such as sporophytes arising form haploid cells as in bryophytes or ferns) as well as in vitro instances (such as haploid embryo culture or in vitro fusion of non-gamete cells or protoplasts). During the sporophyte development stage, a plant may produce meiospores by meiosis."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "rwalls"
@@ -3931,24 +3824,24 @@
           "val" : "A portion of meristem tissue (PO:0009013) that is committed to the development of a root primordium (PO:0005029).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Only detectable by gene expression, not morphology. May arise in a pericycle (PO:0006203), as for lateral roots in most seed plants, an endodermis (PO:0000252), as for lateral roots in ferns, or from parenchyma cells (PO:0000074) that are part a shoot axis (PO:0025029), in the case of a basal root (PO:0025002) or shoot-borne root (PO:0000042)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:427"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "根原基 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "precursor de ra&#237 (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
           "val" : "2012-02-08T01:00:56Z"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Only detectable by gene expression, not morphology. May arise in a pericycle (PO:0006203), as for lateral roots in most seed plants, an endodermis (PO:0000252), as for lateral roots in ferns, or from parenchyma cells (PO:0000074) that are part a shoot axis (PO:0025029), in the case of a basal root (PO:0025002) or shoot-borne root (PO:0000042)."
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "Laurel_Cooper"
@@ -3966,6 +3859,7 @@
           "val" : "A primordium (PO:0025127) that develops from a root anlagen (PO:0025433) and is committed to the development of a root (PO:0009005).",
           "xrefs" : [ "ISBN:0521288959", "POC:curators" ]
         },
+        "comments" : [ "A root primordium may arise from cells of a pericycle (PO:0006203) in a root in most seed plant (pericyclic lateral root primordium; PO:0025492), from cells of an endodermis (PO:0000252) in ferns and some seed plants (non-pericyclic lateral root primordium: PO:0025493), or from cells of a shoot axis (PO:0025029), in the case of a basal root primordium (PO:0025479) or shoot-borne root primordium (PO:0025480). Transition from root primordium to root occurs with the formation of a root cap (PO:0020123), shortly after the development of a root apical meristem (PO:0020147)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:467"
         } ],
@@ -3976,7 +3870,8 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "根原基（可視的）  (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "root primordia (exact, plural)",
@@ -3984,14 +3879,12 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primordio de ra&#237z (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "A root primordium may arise from cells of a pericycle (PO:0006203) in a root in most seed plant (pericyclic lateral root primordium; PO:0025492), from cells of an endodermis (PO:0000252) in ferns and some seed plants (non-pericyclic lateral root primordium: PO:0025493), or from cells of a shoot axis (PO:0025029), in the case of a basal root primordium (PO:0025479) or shoot-borne root primordium (PO:0025480). Transition from root primordium to root occurs with the formation of a root cap (PO:0020123), shortly after the development of a root apical meristem (PO:0020147)."
         } ]
       },
       "type" : "CLASS",
@@ -4013,13 +3906,15 @@
           "val" : "A portion of meristem tissue (PO:0009013) that is part of a peripheral zone (PO:0000225) of a shoot apical meristem (PO:0020148) and will give rise to a phyllome primordium (PO:0025128).",
           "xrefs" : [ "POC:Laurel_Cooper", "POC:curators" ]
         },
+        "comments" : [ "The phyllome anlagen is only detectable by gene expression, not morphology." ],
         "xrefs" : [ {
           "val" : "PO_GIT:427"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "フィロム原基 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "phyllome meristem (broad)",
@@ -4034,9 +3929,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "Laurel_Cooper"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "The phyllome anlagen is only detectable by gene expression, not morphology."
         } ]
       },
       "type" : "CLASS",
@@ -4048,17 +3940,20 @@
           "val" : "A floral structure primordium (PO:0025477) that is committed to the development of an ovule (PO:0020003).",
           "xrefs" : [ "ISBN:0471245208", "POC:curators" ]
         },
+        "comments" : [ "The transition from ovule primordium to ovule occurs when an integument (PO:0020021) begins to develop from the protoderm (PO:0006210)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:465"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "胚珠原基（可視的） (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primordio de &#243vulo (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "portion of ovule primordium tissue (exact)",
@@ -4067,9 +3962,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "The transition from ovule primordium to ovule occurs when an integument (PO:0020021) begins to develop from the protoderm (PO:0006210)."
         } ]
       },
       "type" : "CLASS",
@@ -4081,13 +3973,15 @@
           "val" : "A floral structure primordium (PO:0025477) that is committed to the development of a gynoecium (PO:0009062).",
           "xrefs" : [ "POC:curators" ]
         },
+        "comments" : [ "Use carpel primordium (PO:0004703) for the primordium (PO:0025127) of an individual carpel (PO:0009030)." ],
         "xrefs" : [ {
           "val" : "PO_GIT:465"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "雌蕊原基(可視的）   (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "pistil primordium (exact)",
@@ -4095,31 +3989,20 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primordio de gineceo (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "portion of gynoecium primordium tissue (exact)",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Use carpel primordium (PO:0004703) for the primordium (PO:0025127) of an individual carpel (PO:0009030)."
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "plant_anatomy"
         } ]
       },
       "type" : "CLASS",
       "lbl" : "gynoecium primordium"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/po#Rice",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Term used for rice"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PO_0006001",
       "meta" : {
@@ -4131,11 +4014,13 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "filoma (Spanish, exact)",
-          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ]
+          "xrefs" : [ "POC:Maria_Alejandra_Gandolfo" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Spanish"
         }, {
           "pred" : "hasExactSynonym",
           "val" : "フィロム、葉(的）器官 (Japanese, exact)",
-          "xrefs" : [ "NIG:Yukiko_Yamazaki" ]
+          "xrefs" : [ "NIG:Yukiko_Yamazaki" ],
+          "synonymType" : "http://purl.obolibrary.org/obo/po#Japanese"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -4158,7 +4043,8 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "all",
-          "xrefs" : [ ]
+          "xrefs" : [ ],
+          "synonymType" : "http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#synonym"
         } ]
       },
       "type" : "CLASS",
@@ -4208,6 +4094,10 @@
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000066",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000067"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002448",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0011002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002501",
       "pred" : "subPropertyOf",
@@ -4697,10 +4587,6 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002629"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002217",
-      "pred" : "inverseOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002218"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002506",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002410"
@@ -4712,10 +4598,6 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0001018",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0001019"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002217",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0000056"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PO_0009005",
       "pred" : "is_a",
@@ -4804,10 +4686,6 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0000056",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002331",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002217"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002630",
       "pred" : "subPropertyOf",
@@ -4901,13 +4779,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002211"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002014",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002013"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000063",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002222"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002014",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002013"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002428",
       "pred" : "subPropertyOf",
@@ -4917,13 +4795,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002131"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002304",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0004047"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002431",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002304",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0004047"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002405",
       "pred" : "inverseOf",
@@ -5005,10 +4883,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0009012"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002218",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PO_0009046",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0025082"
@@ -5033,21 +4907,17 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002212",
-      "pred" : "inverseOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002335"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0004032",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002264"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002212",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002335"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002211",
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002334"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002448",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002022",
       "pred" : "subPropertyOf",
@@ -5081,10 +4951,6 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002578"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002025",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002211"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002352",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000056"
@@ -5097,13 +4963,13 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002352"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PO_0025430",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PO_0009013"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002564",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002563"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PO_0025430",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PO_0009013"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002412",
       "pred" : "subPropertyOf",
@@ -5129,21 +4995,29 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0025099"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002331",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000056"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002023",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002022"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002258",
-      "pred" : "inverseOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002286"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002305",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0004046"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002258",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002286"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002432",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0011002",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002566"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002213",
       "pred" : "subPropertyOf",
@@ -5201,10 +5075,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000056",
       "obj" : "http://purl.obolibrary.org/obo/PO_0028002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002019",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002233"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PO_0025128",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PO_0025127"
@@ -5238,7 +5108,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-05-18/imports/po_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-01/imports/po_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -5271,6 +5141,10 @@
       } ]
     } ],
     "domainRangeAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0011002",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ]
+    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002595",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ]
@@ -5291,32 +5165,48 @@
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ]
     }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002450",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002448",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ]
+    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0001018",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ]
     }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002449",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ]
+    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "allValuesFromEdges" : [ {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
       }, {
         "sub" : "http://purl.obolibrary.org/obo/BFO_0000002",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
         "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
       }, {
-        "sub" : "http://purl.obolibrary.org/obo/BFO_0000003",
+        "sub" : "http://purl.obolibrary.org/obo/BFO_0000004",
         "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
-        "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
+        "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
       } ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002506",
-      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
-      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ]
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002202",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002566",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000002" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002501",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ],
@@ -5336,9 +5226,6 @@
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002384",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/CARO_0000000" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/CARO_0000000" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002019",
-      "domainClassIds" : [ "http://purl.obolibrary.org/obo/GO_0004872" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000057",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ],
@@ -5385,11 +5272,11 @@
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ]
     } ],
     "propertyChainAxioms" : [ {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002329",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/RO_0002215" ]
-    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000066",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000066", "http://purl.obolibrary.org/obo/BFO_0000050" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002329",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/RO_0002215" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0004035",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002327", "http://purl.obolibrary.org/obo/RO_0002305" ]
@@ -5424,8 +5311,14 @@
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002213",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002212", "http://purl.obolibrary.org/obo/RO_0002212" ]
     }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0001025",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0001025", "http://purl.obolibrary.org/obo/BFO_0000050" ]
+    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002430",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002327", "http://purl.obolibrary.org/obo/RO_0002212" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002131",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002131", "http://purl.obolibrary.org/obo/BFO_0000050" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0004034",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002327", "http://purl.obolibrary.org/obo/RO_0002304" ]
@@ -5456,9 +5349,6 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002479",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/BFO_0000066" ]
-    }, {
-      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002162",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002217", "http://purl.obolibrary.org/obo/RO_0002162" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002450",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002327", "http://purl.obolibrary.org/obo/RO_0002629", "http://purl.obolibrary.org/obo/RO_0002333" ]
@@ -5531,6 +5421,9 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000063",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/BFO_0000063" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0002211",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002211", "http://purl.obolibrary.org/obo/RO_0002025" ]
     } ]
   } ]
 }
