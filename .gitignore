@@ -3,3 +3,4 @@ src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/ecocore.obo
 src/ontology/ecocore.owl
+.DS_Store

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-11-05/imports/chebi_import.owl
+data-version: ecocore/releases/2020-12-01/imports/chebi_import.owl
 ontology: ecocore/imports/chebi_import
 
 [Term]
@@ -428,6 +428,48 @@ property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XLYOFNOQVPJJNP-UH
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.00734" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00329" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-][H]" xsd:string
+
+[Term]
+id: CHEBI:16301
+name: nitrite
+namespace: chebi_ontology
+alt_id: CHEBI:14658
+alt_id: CHEBI:44396
+alt_id: CHEBI:7585
+def: "The nitrogen oxoanion formed by loss of a proton from nitrous acid." []
+subset: 3_STAR
+synonym: "[NO2](-)" RELATED [IUPAC]
+synonym: "dioxidonitrate(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "dioxonitrate(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "dioxonitrate(III)" EXACT IUPAC_NAME [IUPAC]
+synonym: "Nitrit" RELATED [ChEBI]
+synonym: "Nitrite" EXACT [KEGG_COMPOUND]
+synonym: "nitrite" EXACT [UniProt]
+synonym: "nitrite" EXACT IUPAC_NAME [IUPAC]
+synonym: "nitrite anion" RELATED [ChemIDplus]
+synonym: "NITRITE ION" RELATED [PDBeChem]
+synonym: "nitrite(1-)" RELATED [ChemIDplus]
+synonym: "nitrous acid, ion(1-)" RELATED [ChemIDplus]
+synonym: "NO2" RELATED [ChEBI]
+synonym: "NO2(-)" RELATED [IUPAC]
+xref: CAS:14797-65-0 {source="ChemIDplus"}
+xref: CAS:14797-65-0 {source="NIST Chemistry WebBook"}
+xref: Gmelin:977 {source="Gmelin"}
+xref: KEGG:C00088
+xref: PDBeChem:NO2
+xref: Wikipedia:Nitrite
+is_a: CHEBI:33458 ! nitrogen oxoanion
+is_a: CHEBI:62764 ! reactive nitrogen species
+is_a: CHEBI:79389 ! monovalent inorganic anion
+relationship: has_role CHEBI:77746 ! human metabolite
+relationship: is_conjugate_base_of CHEBI:25567 ! nitrous acid
+property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "NO2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/HNO2/c2-1-3/h(H,2,3)/p-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "IOVCWXUNBOPUCH-UHFFFAOYSA-M" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "46.00554" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "45.99345" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]N=O" xsd:string
 
 [Term]
 id: CHEBI:16526
@@ -1578,6 +1620,33 @@ property_value: http://purl.obolibrary.org/obo/chebi/mass "14.007" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "14.00307" xsd:string
 
 [Term]
+id: CHEBI:25567
+name: nitrous acid
+namespace: chebi_ontology
+subset: 3_STAR
+synonym: "[NO(OH)]" RELATED [IUPAC]
+synonym: "dioxonitric acid" EXACT IUPAC_NAME [IUPAC]
+synonym: "HNO2" RELATED [IUPAC]
+synonym: "hydrogen dioxonitrate(1-)" EXACT IUPAC_NAME [IUPAC]
+synonym: "hydroxidooxidonitrogen" EXACT IUPAC_NAME [IUPAC]
+synonym: "nitrosyl hydroxide" RELATED [NIST_Chemistry_WebBook]
+synonym: "nitrous acid" EXACT IUPAC_NAME [IUPAC]
+xref: CAS:7782-77-6 {source="ChemIDplus"}
+xref: CAS:7782-77-6 {source="NIST Chemistry WebBook"}
+xref: Gmelin:983 {source="Gmelin"}
+xref: KEGG:C00088
+xref: PDBeChem:NO2
+is_a: CHEBI:33455 ! nitrogen oxoacid
+relationship: is_conjugate_acid_of CHEBI:16301 ! nitrite
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/formula "HNO2" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/HNO2/c2-1-3/h(H,2,3)" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/inchikey "IOVCWXUNBOPUCH-UHFFFAOYSA-N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "47.01348" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "47.00073" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]ON=O" xsd:string
+
+[Term]
 id: CHEBI:25585
 name: nonmetal atom
 namespace: chebi_ontology
@@ -1803,6 +1872,7 @@ name: tetrapyrrole
 namespace: chebi_ontology
 def: "A natural pigment containing four pyrrole rings joined by one-carbon units linking position 2 of one pyrrole ring to position 5 of the next." []
 subset: 3_STAR
+synonym: "a tetrapyrrole" RELATED [UniProt]
 synonym: "tetrapyrrole" EXACT IUPAC_NAME [IUPAC]
 synonym: "tetrapyrroles" EXACT IUPAC_NAME [IUPAC]
 is_a: CHEBI:33833 ! heteroarene
@@ -3670,6 +3740,7 @@ synonym: "Minerale" RELATED [ChEBI]
 synonym: "minerales" RELATED [ChEBI]
 synonym: "minerals" RELATED [ChEBI]
 synonym: "mineraux" RELATED [ChEBI]
+xref: Wikipedia:Mineral
 is_a: CHEBI:59999 ! chemical substance
 
 [Term]

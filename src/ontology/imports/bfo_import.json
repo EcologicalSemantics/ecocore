@@ -1228,7 +1228,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-11-05/imports/bfo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-01/imports/bfo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

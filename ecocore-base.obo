@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-05-18/ecocore-base.owl
+data-version: ecocore/releases/2020-12-01/ecocore-base.owl
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
 
@@ -88,8 +88,6 @@ name: heterotroph
 def: "An organism that obtains carbon for growth and development by metabolizing biogenic organic compounds derived from living or dead material." []
 synonym: "consumer" RELATED []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -108,8 +106,6 @@ id: ECOCORE:00000012
 name: mixotroph
 def: "An organism which is capable of heterotrophic and autotrophic trophic processes." []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 ECOCORE:00000011 {all_some="true"} ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -136,8 +132,6 @@ name: fungivore
 def: "A heterotroph which consumes fungi." []
 synonym: "mycophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000016 ! fungivory
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -177,8 +171,6 @@ comment: There is some debate over whether herbivores should be restricted to pl
 synonym: "plant eater" NARROW []
 synonym: "primary consumer" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000020 ! herbivory
 relationship: RO:0002215 ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -208,8 +200,6 @@ name: autotroph
 def: "An organism which is capable of incorporating abiogenic (inorganic) carbon into its biomass." []
 synonym: "primary producer" RELATED []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 ECOCORE:00000009 ! autotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -365,8 +355,6 @@ id: ECOCORE:00000045
 name: symbiotroph
 def: "heterotroph that acquires nutrition from a symbiont" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000060 ! symbiotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -423,8 +411,6 @@ id: ECOCORE:00000054
 name: decomposer
 def: "heterotroph that obtains nutrition by breaking down dead or decaying organisms or other organic matter" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000058 ! decomposition
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -432,10 +418,6 @@ id: ECOCORE:00000055
 name: detritivore
 def: "A decomposer which obtains nutrition by consuming detritus." []
 is_a: ECOCORE:00000054 ! decomposer
-intersection_of: ECOCORE:00000054 ! decomposer
-intersection_of: ECOCORE:00000054 ! decomposer
-intersection_of: RO:0002215 ECOCORE:00000057 ! detritivory
-intersection_of: RO:0002470 ENVO:01001103
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -443,8 +425,6 @@ id: ECOCORE:00000056
 name: saprotroph
 def: "A decomposer that obtains nutrition through extracellular digestion of decaying organic matter" []
 is_a: ECOCORE:00000054 ! decomposer
-intersection_of: ECOCORE:00000054 ! decomposer
-intersection_of: RO:0002215 ECOCORE:00000059 ! saprotrophy
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -588,8 +568,6 @@ id: ECOCORE:00000076
 name: algae
 def: "A polyphyletic group of diverse photosynthetic organisms that excludes vascular plants and mosses and includes cyanobacteria, seaweed, and some single-celled organisms." []
 is_a: OBI:0100026
-intersection_of: OBI:0100026
-intersection_of: RO:0002215 GO:0015979
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -644,8 +622,6 @@ name: folivore
 def: "An herbivore that primarily consumes leaves" []
 synonym: "leaf eater" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 PO:0025034
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Folivore xsd:string
 
@@ -656,8 +632,6 @@ def: "An herbivore that primarily consumes roots" []
 synonym: "root eater" EXACT []
 synonym: "root herbivore" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 ENVO:01000349
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -666,8 +640,6 @@ name: algivore
 def: "An herbivore that primarily consumes algae" []
 synonym: "algae eater" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 ENVO:01001189
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -682,10 +654,6 @@ id: ECOCORE:00000088
 name: carnivore
 def: "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process." []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000021 ! carnivory
-intersection_of: RO:0002470 NCBITaxon:33208
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -693,8 +661,6 @@ id: ECOCORE:00000089
 name: predator
 def: "A carnivore that actively captures and consumes other animals, causing their immediate or immenent death" []
 is_a: ECOCORE:00000088 ! carnivore
-intersection_of: ECOCORE:00000088 ! carnivore
-intersection_of: RO:0002215 ECOCORE:00000102 ! predation
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -702,8 +668,6 @@ id: ECOCORE:00000090
 name: scavenger
 def: "A carnivore that feeds on dead and decaying animal matter" []
 is_a: ECOCORE:00000088 ! carnivore
-intersection_of: ECOCORE:00000088 ! carnivore
-intersection_of: RO:0002215 ECOCORE:00000103 ! scavenging
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -711,8 +675,6 @@ id: ECOCORE:00000091
 name: insectivore
 def: "A predator that primarily eats insects" []
 is_a: ECOCORE:00000089 ! predator
-intersection_of: ECOCORE:00000089 ! predator
-intersection_of: RO:0002215 ECOCORE:00000108 ! insectivory
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -763,12 +725,6 @@ id: ECOCORE:00000098
 name: bacterivore
 def: "a heterotroph that consumes bacteria" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000114 ! bactivory
-intersection_of: RO:0002470 NCBITaxon:2
-intersection_of: RO:0002470 NCBITaxon:2157
 
 [Term]
 id: ECOCORE:00000099
@@ -935,8 +891,6 @@ id: ECOCORE:00000121
 name: photoorganoautotroph
 def: "A photoautotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000130 ! photoautotroph
-intersection_of: ECOCORE:00000130 ! photoautotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -944,10 +898,6 @@ id: ECOCORE:00000122
 name: photolithoautotroph
 def: "A photoautotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000130 ! photoautotroph
-intersection_of: ECOCORE:00000130 ! photoautotroph
-intersection_of: ECOCORE:00000130 ! photoautotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
-intersection_of: RO:0002215 GO:0015979
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -955,10 +905,6 @@ id: ECOCORE:00000123
 name: chemoorganoautotroph
 def: "A chemoautotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
-intersection_of: RO:0002215 GO:0062097
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -966,10 +912,6 @@ id: ECOCORE:00000124
 name: chemolithoautotroph
 def: "A chemoautotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: ECOCORE:00000129 ! chemoautotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
-intersection_of: RO:0002215 GO:0062097
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -977,8 +919,6 @@ id: ECOCORE:00000125
 name: photoorganoheterotroph
 def: "A photoheterotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000131 ! photoheterotroph
-intersection_of: ECOCORE:00000131 ! photoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -986,8 +926,6 @@ id: ECOCORE:00000126
 name: photolithoheterotroph
 def: "A photoheterotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000131 ! photoheterotroph
-intersection_of: ECOCORE:00000131 ! photoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -995,8 +933,6 @@ id: ECOCORE:00000127
 name: chemoorganoheterotroph
 def: "A chemoheterotroph which is capable of using a biogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1004,8 +940,6 @@ id: ECOCORE:00000128
 name: chemolithoheterotroph
 def: "A chemoheterotroph which is capable of using an abiogenic organic compound as an electron donor." []
 is_a: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: ECOCORE:00000132 ! chemoheterotroph
-intersection_of: RO:0002215 ECOCORE:00000014 ! lithotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1013,8 +947,6 @@ id: ECOCORE:00000129
 name: chemoautotroph
 def: "An autotroph which is capable of obtaining energy from the bonds in a chemical compound." []
 is_a: ECOCORE:00000023 ! autotroph
-intersection_of: ECOCORE:00000023 ! autotroph
-intersection_of: RO:0002215 ECOCORE:00000163 ! chemotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1022,8 +954,6 @@ id: ECOCORE:00000130
 name: photoautotroph
 def: "An autotroph which is capable of transforming light into chemical energy." []
 is_a: ECOCORE:00000023 ! autotroph
-intersection_of: ECOCORE:00000023 ! autotroph
-intersection_of: RO:0002215 ECOCORE:00000017 ! phototrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1031,8 +961,6 @@ id: ECOCORE:00000131
 name: photoheterotroph
 def: "A heterotroph which is capable of transforming light into chemical energy." []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000017 ! phototrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1040,8 +968,6 @@ id: ECOCORE:00000132
 name: chemoheterotroph
 def: "A heterotroph which is capable of obtaining energy from the bonds in a chemical compound." []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000163 ! chemotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1068,8 +994,6 @@ def: "An herbivore that primarily consumes fruits or fruit-like vegetables" []
 synonym: "fruit eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1470764
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 PO:0009001
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1120,10 +1044,6 @@ def: "An herbivore that primarily consumes seeds" []
 synonym: "seed eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1974986
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002215 ECOCORE:00000100 ! seed predation
-intersection_of: RO:0002470 PO:0009010
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1132,8 +1052,6 @@ name: xylophage
 def: "An herbivore that primarily consumes wood" []
 xref: https://www.wikidata.org/entity/Q2072826
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002470 ENVO:00002040
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1153,8 +1071,6 @@ name: parasite
 def: "A symbiotroph that reduces the fitness, survival, or growth of its symbiont, often called a host" []
 xref: https://www.wikidata.org/entity/Q10253316
 is_a: ECOCORE:00000045 ! symbiotroph
-intersection_of: ECOCORE:00000045 ! symbiotroph
-intersection_of: RO:0002215 ECOCORE:00000147 ! parasitism
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1248,8 +1164,6 @@ id: ECOCORE:00000158
 name: planktivore
 def: "A suspension feeder that acquires nutrition by consuming planktonic organisms." []
 is_a: ECOCORE:00000051 ! suspension feeder
-intersection_of: ECOCORE:00000051 ! suspension feeder
-intersection_of: RO:0002470 ENVO:01000063
 
 [Term]
 id: ECOCORE:00000159
@@ -1290,8 +1204,6 @@ name: sanguivore
 def: "A carnivore that consumes blood, during a brief, temporary interaction." []
 synonym: "blood eater" EXACT []
 is_a: ECOCORE:00000088 ! carnivore
-intersection_of: ECOCORE:00000088 ! carnivore
-intersection_of: RO:0002215 ECOCORE:00000165 ! hematophagy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1320,9 +1232,6 @@ id: ECOCORE:00000168
 name: herbivorous grazer
 def: "an herbivore that primarily consumes grasses, leaves, and other soft plant material" []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002215 ECOCORE:00000099 ! herbivorous grazing
-intersection_of: RO:0002215 ECOCORE:00000139 ! grazing
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 https://orcid.org/0000-0002-9943-2342 xsd:string
 
@@ -1331,8 +1240,6 @@ id: ECOCORE:00000169
 name: herbivorous browser
 def: "An herbivore that primarily consumes twigs, leaves, and bark of trees and shrubs." []
 is_a: ECOCORE:00000019 ! herbivore
-intersection_of: ECOCORE:00000019 ! herbivore
-intersection_of: RO:0002215 ECOCORE:00000101 ! herbivorous browsing
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1399,16 +1306,10 @@ def: "Abnormality of Entity (BFO)." []
 synonym: "abnormality of Entity (BFO)" EXACT []
 
 [Term]
-id: ENVO:01000063
-synonym: "algae" RELATED []
-
-[Term]
 id: ecocore:00000082
 name: omnivore
 def: "A heterotroph that consumes plant and animal matter either in whole or in part via ingestion through a type of \"mouth\". Animal and plant matter is broken down through an internal digestion process" []
 is_a: ECOCORE:00000010 ! heterotroph
-intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000021 {all_some="true"} ! carnivory
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]

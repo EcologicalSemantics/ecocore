@@ -1354,12 +1354,10 @@
           "val" : "A carnivorous process during which a living entity acquires food and energy by consuming other animals while they are stil alive. Predation leads directly to the imminent death of the prey organism(s).",
           "xrefs" : [ ]
         },
+        "comments" : [ "The definition of predation can be controversial." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-2908-3327"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "The definition of predation can be controversial."
         } ]
       },
       "type" : "CLASS",
@@ -2415,15 +2413,13 @@
           "val" : "A heterotrophic process during which a living entity acquires food and energy by consuming living fungal material.",
           "xrefs" : [ ]
         },
+        "comments" : [ "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "mycophagy",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
         }, {
@@ -2510,6 +2506,7 @@
           "val" : "A heterotroph which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process.",
           "xrefs" : [ ]
         },
+        "comments" : [ "There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "primary consumer",
@@ -2525,9 +2522,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore"
         } ]
       },
       "type" : "CLASS",
@@ -2726,6 +2720,7 @@
           "val" : "A heterotrophic process during which a living entity acquires food and energy by consuming living plant- or macro-algal material.",
           "xrefs" : [ ]
         },
+        "comments" : [ "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "plant trophism",
@@ -2737,9 +2732,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-4366-3088"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet."
         } ]
       },
       "type" : "CLASS",
@@ -2768,10 +2760,8 @@
           "val" : "A heterotrophic process during which a living entity acquires food and energy from consuming living metazoan (animal) material.",
           "xrefs" : [ ]
         },
+        "comments" : [ "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet." ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
         }, {
@@ -2878,13 +2868,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000021"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000040",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000061",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001434"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000158",
       "pred" : "is_a",
@@ -3214,13 +3204,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000115",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000031"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000117",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000120"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000115",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000031"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000127",
       "pred" : "is_a",
@@ -3462,13 +3452,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000020"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000135",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000160",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
       "sub" : "http://purl.obolibrary/obo/ECOCORE_00000037",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
@@ -3486,13 +3476,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000129"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000152",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000146"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000172",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000152",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000146"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000154",
       "pred" : "is_a",
@@ -3570,7 +3560,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "An ontology of core ecological entities"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-11-05/ecocore-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-01/ecocore-base.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
