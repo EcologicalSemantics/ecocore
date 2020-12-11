@@ -3,12 +3,14 @@ ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.
 ERROR	duplicate_definition	obo:uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.
-ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid6859
-ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid6863
-ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid10983
-ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid10987
-ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid11320
-ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid11324
+ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid5436
+ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid5440
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid6925
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid6929
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid11049
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid11053
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid11386
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	34f2f587-7b5e-45c5-b69d-242400e47846genid11390
 ERROR	deprecated_property_reference	RO:0002217	rdfs:subPropertyOf	<http://purl.obolibrary.org/obo/RO_0002331>
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0002217>
 ERROR	missing_label	obo:chebi#1_STAR	rdfs:label	
