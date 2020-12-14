@@ -15,3 +15,6 @@ http://purl.obolibrary.org/obo/NBO_0000288 # reciprocal altruism
 http://purl.obolibrary.org/obo/NBO_0000287 # helping behavior 
 http://purl.obolibrary.org/obo/NBO_0000286 # prosocial behavior
 http://purl.obolibrary.org/obo/NBO_0000613 # nonverbal communication behavior
+http://purl.obolibrary.org/obo/NBO_0009003 # hunting behavior
+http://purl.obolibrary.org/obo/NBO_0015000 # ambush behavior
+http://purl.obolibrary.org/obo/NBO_0015002 # trapping behavior
