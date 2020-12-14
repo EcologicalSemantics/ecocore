@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-12-01/ecocore-base.owl
+data-version: ecocore/releases/2020-12-11/ecocore-base.owl
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
 
@@ -132,6 +132,8 @@ name: fungivore
 def: "A heterotroph which consumes fungi." []
 synonym: "mycophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
+intersection_of: RO:0002215 ECOCORE:00000016 ! fungivory
+intersection_of: RO:0002470 NCBITaxon:4751
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -418,6 +420,8 @@ id: ECOCORE:00000055
 name: detritivore
 def: "A decomposer which obtains nutrition by consuming detritus." []
 is_a: ECOCORE:00000054 ! decomposer
+intersection_of: RO:0002215 ECOCORE:00000057 ! detritivory
+intersection_of: RO:0002470 ENVO:01001103
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -654,6 +658,8 @@ id: ECOCORE:00000088
 name: carnivore
 def: "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process." []
 is_a: ECOCORE:00000010 ! heterotroph
+intersection_of: RO:0002215 ECOCORE:00000021 ! carnivory
+intersection_of: RO:0002470 NCBITaxon:33208
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1204,6 +1210,8 @@ name: sanguivore
 def: "A carnivore that consumes blood, during a brief, temporary interaction." []
 synonym: "blood eater" EXACT []
 is_a: ECOCORE:00000088 ! carnivore
+intersection_of: RO:0002215 ECOCORE:00000165 ! hematophagy
+intersection_of: RO:0002470 UBERON:0000178
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -1304,6 +1312,10 @@ id: ECOCORE:9999999
 name: abnormal Entity (BFO)
 def: "Abnormality of Entity (BFO)." []
 synonym: "abnormality of Entity (BFO)" EXACT []
+
+[Term]
+id: ENVO:01000063
+synonym: "algae" RELATED []
 
 [Term]
 id: ecocore:00000082

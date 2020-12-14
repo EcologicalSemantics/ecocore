@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-12-01/imports/go_import.owl
+data-version: ecocore/releases/2020-12-11/imports/go_import.owl
 ontology: ecocore/imports/go_import
 
 [Term]
@@ -471,7 +471,11 @@ is_a: GO:0009987 ! cellular process
 id: GO:0007165
 name: signal transduction
 namespace: biological_process
+alt_id: GO:0023014
+alt_id: GO:0023015
+alt_id: GO:0023016
 alt_id: GO:0023033
+alt_id: GO:0023045
 def: "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell." [GOC:go_curators, GOC:mtg_signaling_feb11]
 comment: Note that signal transduction is defined broadly to include a ligand interacting with a receptor, downstream signaling steps and a response being triggered. A change in form of the signal in every step is not necessary. Note that in many cases the end of this process is regulation of the initiation of transcription. Note that specific transcription factors may be annotated to this term, but core/general transcription machinery such as RNA polymerase should not.
 subset: goslim_aspergillus
@@ -480,6 +484,10 @@ subset: goslim_chembl
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_plant
+synonym: "signal transduction by cis-phosphorylation" NARROW []
+synonym: "signal transduction by conformational transition" NARROW []
+synonym: "signal transduction by protein phosphorylation" NARROW []
+synonym: "signal transduction by trans-phosphorylation" NARROW []
 synonym: "signaling cascade" NARROW []
 synonym: "signaling pathway" RELATED []
 synonym: "signalling cascade" NARROW []
@@ -911,6 +919,7 @@ name: regulation of signaling receptor activity
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of a signaling receptor activity. Receptor activity is when a molecule combines with an extracellular or intracellular messenger to initiate a change in cell activity." [GOC:dph, GOC:tb]
 synonym: "regulation of receptor activity" BROAD []
+synonym: "regulation of signalling receptor activity" EXACT []
 is_a: GO:0009966 ! regulation of signal transduction
 is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
@@ -1123,7 +1132,6 @@ synonym: "chemolithotrophy" EXACT []
 synonym: "lithotrophy" EXACT [Wikipedia:Lithotrophy]
 xref: Wikipedia:Lithotrophy
 is_a: GO:0006091 ! generation of precursor metabolites and energy
-is_a: GO:0055114 ! oxidation-reduction process
 
 [Term]
 id: GO:0015979
@@ -1147,7 +1155,6 @@ namespace: biological_process
 def: "The chemical reactions and pathways by which a cell derives energy from organic compounds; results in the oxidation of the compounds from which energy is released." [GOC:mah]
 synonym: "chemoorganotrophy" EXACT []
 is_a: GO:0006091 ! generation of precursor metabolites and energy
-is_a: GO:0055114 ! oxidation-reduction process
 
 [Term]
 id: GO:0016051
@@ -1306,7 +1313,6 @@ namespace: biological_process
 def: "The chemical reactions and pathways by which ammonia or ammonium is converted to molecular nitrogen or another nitrogen compound, with accompanying loss of electrons." [GOC:mah, MetaCyc:AMMOXID-PWY, MetaCyc:P303-PWY, MetaCyc:PWY-2242]
 is_a: GO:0006807 ! nitrogen compound metabolic process
 is_a: GO:0044281 ! small molecule metabolic process
-is_a: GO:0055114 ! oxidation-reduction process
 
 [Term]
 id: GO:0019331
@@ -1474,6 +1480,7 @@ name: signaling receptor activator activity
 namespace: molecular_function
 def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is increased." [GOC:ceb]
 synonym: "receptor activator activity" BROAD []
+synonym: "signalling receptor activator activity" EXACT []
 is_a: GO:0030545 ! receptor regulator activity
 
 [Term]
@@ -1943,6 +1950,7 @@ subset: goslim_pir
 subset: goslim_plant
 synonym: "receptor activity" BROAD []
 synonym: "receptor activity involved in signal transduction" EXACT [GOC:bf]
+synonym: "signalling receptor activity" EXACT []
 is_a: GO:0060089 ! molecular transducer activity
 created_by: bf
 creation_date: 2011-08-01T02:45:27Z
@@ -2255,6 +2263,7 @@ namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of kinase activity, the catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [GOC:bf]
 is_a: GO:0042325 ! regulation of phosphorylation
 is_a: GO:0051338 ! regulation of transferase activity
+is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0016301 ! kinase activity
 relationship: regulates GO:0016301 ! kinase activity
@@ -3115,7 +3124,7 @@ def: "Any process that modulates the activity of an enzyme." [GOC:ai, GOC:ebc, G
 subset: goslim_chembl
 synonym: "regulation of enzyme activity" EXACT []
 synonym: "regulation of metalloenzyme activity" NARROW []
-is_a: GO:0065009 ! regulation of molecular function
+is_a: GO:0008150 ! biological_process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0003824 ! catalytic activity
 relationship: regulates GO:0003824 ! catalytic activity
@@ -3290,7 +3299,7 @@ id: GO:0051098
 name: regulation of binding
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of binding, the selective interaction of a molecule with one or more specific sites on another molecule." [GOC:ai]
-is_a: GO:0065009 ! regulation of molecular function
+is_a: GO:0008150 ! biological_process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0005488 ! binding
 relationship: regulates GO:0005488 ! binding
@@ -3654,9 +3663,9 @@ synonym: "modification by symbiont of host molecular function" EXACT []
 synonym: "modification by symbiont of host protein function" EXACT [GOC:dph, GOC:tb]
 is_a: GO:0044003 ! modulation by symbiont of host process
 is_a: GO:0052205 ! modulation of molecular function in other organism involved in symbiotic interaction
-is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0044003 ! modulation by symbiont of host process
 intersection_of: regulates GO:0003674 ! molecular_function
+relationship: regulates GO:0003674 ! molecular_function
 
 [Term]
 id: GO:0052056
@@ -3926,7 +3935,7 @@ subset: goslim_pir
 subset: goslim_plant
 synonym: "regulation of a molecular function" EXACT []
 is_a: GO:0065007 ! biological regulation
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0003674 ! molecular_function
 relationship: regulates GO:0003674 ! molecular_function
 
@@ -3939,7 +3948,7 @@ synonym: "regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010906 ! regulation of glucose metabolic process
 is_a: GO:0032881 ! regulation of polysaccharide metabolic process
 is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0005977 ! glycogen metabolic process
 relationship: regulates GO:0005977 ! glycogen metabolic process
 created_by: mah
@@ -3954,7 +3963,7 @@ synonym: "negative regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010605 ! negative regulation of macromolecule metabolic process
 is_a: GO:0010677 ! negative regulation of cellular carbohydrate metabolic process
 is_a: GO:0070873 ! regulation of glycogen metabolic process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0005977 ! glycogen metabolic process
 relationship: negatively_regulates GO:0005977 ! glycogen metabolic process
 created_by: mah
@@ -3969,7 +3978,7 @@ synonym: "positive regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010604 ! positive regulation of macromolecule metabolic process
 is_a: GO:0010907 ! positive regulation of glucose metabolic process
 is_a: GO:0070873 ! regulation of glycogen metabolic process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0005977 ! glycogen metabolic process
 relationship: positively_regulates GO:0005977 ! glycogen metabolic process
 created_by: mah
@@ -4576,6 +4585,7 @@ name: negative regulation of signaling receptor activity
 namespace: biological_process
 def: "Any process that stops, prevents or reduces the frequency, rate or extent of a signaling receptor activity." [GOC:obol]
 synonym: "negative regulation of receptor activity" BROAD []
+synonym: "negative regulation of signalling receptor activity" EXACT []
 is_a: GO:0010469 ! regulation of signaling receptor activity
 is_a: GO:0044092 ! negative regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
@@ -4589,6 +4599,7 @@ id: GO:2000273
 name: positive regulation of signaling receptor activity
 namespace: biological_process
 def: "Any process that activates or increases the frequency, rate or extent of signaling receptor activity." [GOC:obol]
+synonym: "positive regulation of signalling receptor activity" EXACT []
 is_a: GO:0010469 ! regulation of signaling receptor activity
 is_a: GO:0044093 ! positive regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
