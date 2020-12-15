@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-12-11/imports/bfo_import.owl
+data-version: ecocore/releases/2020-12-15/imports/bfo_import.owl
 ontology: ecocore/imports/bfo_import
 
 [Term]
