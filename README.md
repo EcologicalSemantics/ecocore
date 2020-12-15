@@ -45,7 +45,27 @@ There are three major steps involved in creating a new release:
 
 Preparation 1. Make sure that all pull requests that are supposed to be merged are merged 2. Make sure that all changes to master are committed to Github (git status should say that there are no modified files) 3. Wait for the travis QC to finish 4. On you local machine, go to the master branch and run git pull to ensure that all your remote changes are available locally. 5. Make sure you have the latest ODK installed by running docker pull obolibrary/odkfull
 
-Building the ontology 1. Open a command line terminal window and navigate to the src/ontology directory (cd myecocoredir/src/ontology) 2. Create a new branch (ecocore-release-20200131 or similar) 3. If you have recently modified your patterns, run sh run.sh make IMP=false patterns once. This will be run again in the next step, but there is a bit of a bug in the ODK (as of January 2020) that it does not understand to look for imported terms in pattern that have just been added. 4. Run the build script: sh run.sh make prepare_release -B. This command will compile the patterns, refresh the imports and build the ontology release files. Note that this step can take between 45 and 90 minutes - so make sure you do it over night or befor you go to the gym. 5. If everything went well, you should see the following output on your machine. 6. Open the file myecocorerdir/ecocore.owl in Protege and sanity check for classes with missing labels (on the top level of the hierarchy) and general weirdnesses. In particular, you want to know wether your latest changes to pattern are what you expected. 7. If it looks sane, commit everything to the new branch you have created, push and create a pull request. Wait for travis to run one last time, but that should not reveal surprises. 8. In an ideal world, let at least one other person sanity check the ecocore release. A good file to sanity check is ecocore-base.obo, and perhaps even ecocore.obo: they are easy to review. 9. Merge the changes into master. 10. Delete the branch.
+Building the ontology 
+
+1. Open a command line terminal window and navigate to the src/ontology directory (cd myecocoredir/src/ontology) 
+
+2. Create a new branch (ecocore-release-20200131 or similar) 
+
+3. If you have recently modified your patterns, run sh run.sh make IMP=false patterns once. This will be run again in the next step, but there is a bit of a bug in the ODK (as of January 2020) that it does not understand to look for imported terms in pattern that have just been added. 
+
+4. Run the build script: sh run.sh make prepare_release -B. This command will compile the patterns, refresh the imports and build the ontology release files. Note that this step can take between 45 and 90 minutes - so make sure you do it over night or befor you go to the gym. 
+
+5. If everything went well, you should see the following output on your machine. Release files are now in ../.. - now you should commit, push and make a release on github
+
+6. Open the file myecocorerdir/ecocore.owl in Protege and sanity check for classes with missing labels (on the top level of the hierarchy) and general weirdnesses. In particular, you want to know wether your latest changes to pattern are what you expected. 
+
+7. If it looks sane, (go to the commit everything to the new branch you have created, push and create a pull request. Wait for travis to run one last time, but that should not reveal surprises. 
+
+8. In an ideal world, let at least one other person sanity check the ecocore release. A good file to sanity check is ecocore-base.obo, and perhaps even ecocore.obo: they are easy to review. 
+
+9. Merge the changes into master. 
+
+10. Delete the branch.
 
 Creating a GitHub release 1. Go to ecocore releases on GitHub, click "Draft new release" 2. As the tag version you need to choose the date on which your ontologies were build. You can find this, for example, by looking at the ecocore.obo file and check the data-version: property. The date needs to be prefixed with a v, so, for example v2020-02-06. 3. You can write whatever you want in the release title, but I typically write the date again. The description underneath should contain a concise list of changes or term additions - Chris has a whole philosophy on this. For now, I recommend you to simply summarising the changed, in particular, which terms have been added or removed. 4. Click "Publish release". Done.
 
