@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2020-12-01
+data-version: releases/2020-12-15
 remark: An ontology of core ecological entities
 ontology: ecocore
 
@@ -5412,8 +5412,12 @@ id: ECOCORE:00000015
 name: fungivore
 def: "A heterotroph which consumes fungi." []
 synonym: "mycophage" EXACT []
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000010 ! heterotroph
+intersection_of: capable_of ECOCORE:00000016 ! fungivory
+intersection_of: RO:0002470 NCBITaxon:4751 ! eats Fungi
 relationship: capable_of ECOCORE:00000016 ! fungivory
+relationship: RO:0002470 NCBITaxon:4751 ! eats Fungi
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -5707,8 +5711,12 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000055
 name: detritivore
 def: "A decomposer which obtains nutrition by consuming detritus." []
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000054 ! decomposer
+intersection_of: capable_of ECOCORE:00000057 ! detritivory
+intersection_of: RO:0002470 ENVO:01001103 ! eats detritus
 relationship: capable_of ECOCORE:00000057 ! detritivory
+relationship: RO:0002470 ENVO:01001103 ! eats detritus
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -5723,6 +5731,8 @@ id: ECOCORE:00000057
 name: detritivory
 def: "A decomposition process during which a living entity acquires food and energy by consuming detritus." []
 is_a: ECOCORE:00000058 ! decomposition
+is_a: ENVO:02500000 ! environmental system process
+relationship: RO:0002233 ENVO:01001103 ! has input detritus
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -5913,7 +5923,9 @@ id: ECOCORE:00000084
 name: folivore
 def: "An herbivore that primarily consumes leaves" []
 synonym: "leaf eater" EXACT []
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000019 ! herbivore
+relationship: RO:0002470 PO:0025034 ! eats leaf
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Folivore xsd:string
 
@@ -5923,7 +5935,9 @@ name: rhizovore
 def: "An herbivore that primarily consumes roots" []
 synonym: "root eater" EXACT []
 synonym: "root herbivore" EXACT []
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000019 ! herbivore
+relationship: RO:0002470 PO:0009005 ! eats root
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -5945,8 +5959,12 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000088
 name: carnivore
 def: "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process." []
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000010 ! heterotroph
+intersection_of: capable_of ECOCORE:00000021 ! carnivory
+intersection_of: RO:0002470 NCBITaxon:33208 ! eats Metazoa
 relationship: capable_of ECOCORE:00000021 ! carnivory
+relationship: RO:0002470 NCBITaxon:33208 ! eats Metazoa
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6020,6 +6038,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000098
 name: bacterivore
 def: "a heterotroph that consumes bacteria" []
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000010 ! heterotroph
 relationship: capable_of ECOCORE:00000114 ! bactivory
 
@@ -6035,6 +6054,7 @@ id: ECOCORE:00000100
 name: seed predation
 def: "A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant." []
 is_a: ECOCORE:00000020 ! herbivory
+relationship: RO:0002233 PO:0009010 ! has input seed
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6305,7 +6325,9 @@ name: frugivore
 def: "An herbivore that primarily consumes fruits or fruit-like vegetables" []
 synonym: "fruit eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1470764
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000019 ! herbivore
+relationship: RO:0002470 PO:0009001 ! eats fruit
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6355,7 +6377,9 @@ name: granivore
 def: "An herbivore that primarily consumes seeds" []
 synonym: "seed eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1974986
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000019 ! herbivore
+relationship: RO:0002470 PO:0009010 ! eats seed
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6363,7 +6387,9 @@ id: ECOCORE:00000144
 name: xylophage
 def: "An herbivore that primarily consumes wood" []
 xref: https://www.wikidata.org/entity/Q2072826
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000019 ! herbivore
+relationship: RO:0002470 ENVO:00002040 ! eats wood
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6476,7 +6502,9 @@ is_a: ECOCORE:00000051 ! suspension feeder
 id: ECOCORE:00000158
 name: planktivore
 def: "A suspension feeder that acquires nutrition by consuming planktonic organisms." []
+is_a: CARO:0001010 ! organism or virus or viroid
 is_a: ECOCORE:00000051 ! suspension feeder
+relationship: RO:0002470 ENVO:01000063 ! eats planktonic material
 
 [Term]
 id: ECOCORE:00000159
@@ -6517,7 +6545,10 @@ name: sanguivore
 def: "A carnivore that consumes blood, during a brief, temporary interaction." []
 synonym: "blood eater" EXACT []
 is_a: ECOCORE:00000088 ! carnivore
+intersection_of: capable_of ECOCORE:00000165 ! hematophagy
+intersection_of: RO:0002470 UBERON:0000178 ! eats blood
 relationship: capable_of ECOCORE:00000165 ! hematophagy
+relationship: RO:0002470 UBERON:0000178 ! eats blood
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6525,6 +6556,7 @@ id: ECOCORE:00000165
 name: hematophagy
 def: "A carnivorous process during which a living entity acquires food and energy from consuming blood." []
 is_a: ECOCORE:00000021 ! carnivory
+relationship: RO:0002233 UBERON:0000178 ! has input blood
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -11062,7 +11094,11 @@ is_a: GO:0009987 ! cellular process
 id: GO:0007165
 name: signal transduction
 namespace: biological_process
+alt_id: GO:0023014
+alt_id: GO:0023015
+alt_id: GO:0023016
 alt_id: GO:0023033
+alt_id: GO:0023045
 def: "The cellular process in which a signal is conveyed to trigger a change in the activity or state of a cell. Signal transduction begins with reception of a signal (e.g. a ligand binding to a receptor or receptor activation by a stimulus such as light), or for signal transduction in the absence of ligand, signal-withdrawal or the activity of a constitutively active receptor. Signal transduction ends with regulation of a downstream cellular process, e.g. regulation of transcription or regulation of a metabolic process. Signal transduction covers signaling from receptors located on the surface of the cell and signaling via molecules located within the cell. For signaling between cells, signal transduction is restricted to events at and within the receiving cell." [GOC:go_curators, GOC:mtg_signaling_feb11]
 comment: Note that signal transduction is defined broadly to include a ligand interacting with a receptor, downstream signaling steps and a response being triggered. A change in form of the signal in every step is not necessary. Note that in many cases the end of this process is regulation of the initiation of transcription. Note that specific transcription factors may be annotated to this term, but core/general transcription machinery such as RNA polymerase should not.
 subset: goslim_aspergillus
@@ -11071,6 +11107,10 @@ subset: goslim_chembl
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_plant
+synonym: "signal transduction by cis-phosphorylation" NARROW []
+synonym: "signal transduction by conformational transition" NARROW []
+synonym: "signal transduction by protein phosphorylation" NARROW []
+synonym: "signal transduction by trans-phosphorylation" NARROW []
 synonym: "signaling cascade" NARROW []
 synonym: "signaling pathway" RELATED []
 synonym: "signalling cascade" NARROW []
@@ -11516,6 +11556,7 @@ name: regulation of signaling receptor activity
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of a signaling receptor activity. Receptor activity is when a molecule combines with an extracellular or intracellular messenger to initiate a change in cell activity." [GOC:dph, GOC:tb]
 synonym: "regulation of receptor activity" BROAD []
+synonym: "regulation of signalling receptor activity" EXACT []
 is_a: GO:0009966 ! regulation of signal transduction
 is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
@@ -12093,6 +12134,7 @@ name: signaling receptor activator activity
 namespace: molecular_function
 def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is increased." [GOC:ceb]
 synonym: "receptor activator activity" BROAD []
+synonym: "signalling receptor activator activity" EXACT []
 is_a: GO:0030545 ! receptor regulator activity
 
 [Term]
@@ -12564,6 +12606,7 @@ subset: goslim_pir
 subset: goslim_plant
 synonym: "receptor activity" BROAD []
 synonym: "receptor activity involved in signal transduction" EXACT [GOC:bf]
+synonym: "signalling receptor activity" EXACT []
 is_a: GO:0060089 ! molecular transducer activity
 created_by: bf
 created_by: rfoulger
@@ -12886,6 +12929,7 @@ namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of kinase activity, the catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [GOC:bf]
 is_a: GO:0042325 ! regulation of phosphorylation
 is_a: GO:0051338 ! regulation of transferase activity
+is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0016301 ! kinase activity
 relationship: regulates GO:0016301 ! kinase activity
@@ -13763,6 +13807,7 @@ subset: goslim_chembl
 synonym: "regulation of enzyme activity" EXACT []
 synonym: "regulation of metalloenzyme activity" NARROW []
 xref: MIPS_funcat:18.02.01
+is_a: GO:0008150 ! biological_process
 is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0003824 ! catalytic activity
@@ -13940,6 +13985,7 @@ id: GO:0051098
 name: regulation of binding
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of binding, the selective interaction of a molecule with one or more specific sites on another molecule." [GOC:ai]
+is_a: GO:0008150 ! biological_process
 is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0005488 ! binding
@@ -14311,6 +14357,7 @@ is_a: GO:0052205 ! modulation of molecular function in other organism involved i
 is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0044003 ! modulation by symbiont of host process
 intersection_of: regulates GO:0003674 ! molecular_function
+relationship: regulates GO:0003674 ! molecular_function
 
 [Term]
 id: GO:0052056
@@ -14581,6 +14628,8 @@ subset: goslim_plant
 synonym: "regulation of a molecular function" EXACT []
 is_a: GO:0065007 ! biological regulation
 intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
+intersection_of: regulates GO:0003674 ! molecular_function
 intersection_of: regulates GO:0003674 ! molecular_function
 relationship: regulates GO:0003674 ! molecular_function
 
@@ -14593,7 +14642,7 @@ synonym: "regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010906 ! regulation of glucose metabolic process
 is_a: GO:0032881 ! regulation of polysaccharide metabolic process
 is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0005977 ! glycogen metabolic process
 relationship: regulates GO:0005977 ! glycogen metabolic process
 created_by: mah
@@ -14608,7 +14657,7 @@ synonym: "negative regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010605 ! negative regulation of macromolecule metabolic process
 is_a: GO:0010677 ! negative regulation of cellular carbohydrate metabolic process
 is_a: GO:0070873 ! regulation of glycogen metabolic process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: negatively_regulates GO:0005977 ! glycogen metabolic process
 relationship: negatively_regulates GO:0005977 ! glycogen metabolic process
 created_by: mah
@@ -14623,7 +14672,7 @@ synonym: "positive regulation of glycogen metabolism" EXACT [GOC:mah]
 is_a: GO:0010604 ! positive regulation of macromolecule metabolic process
 is_a: GO:0010907 ! positive regulation of glucose metabolic process
 is_a: GO:0070873 ! regulation of glycogen metabolic process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0005977 ! glycogen metabolic process
 relationship: positively_regulates GO:0005977 ! glycogen metabolic process
 created_by: mah
@@ -15243,6 +15292,7 @@ name: negative regulation of signaling receptor activity
 namespace: biological_process
 def: "Any process that stops, prevents or reduces the frequency, rate or extent of a signaling receptor activity." [GOC:obol]
 synonym: "negative regulation of receptor activity" BROAD []
+synonym: "negative regulation of signalling receptor activity" EXACT []
 is_a: GO:0010469 ! regulation of signaling receptor activity
 is_a: GO:0044092 ! negative regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
@@ -15257,6 +15307,7 @@ id: GO:2000273
 name: positive regulation of signaling receptor activity
 namespace: biological_process
 def: "Any process that activates or increases the frequency, rate or extent of signaling receptor activity." [GOC:obol]
+synonym: "positive regulation of signalling receptor activity" EXACT []
 is_a: GO:0010469 ! regulation of signaling receptor activity
 is_a: GO:0044093 ! positive regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
@@ -15466,6 +15517,30 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 created_by: George Gkoutos
 
 [Term]
+id: NBO:0000063
+name: regulation of eating behavior
+namespace: behavior_ontology
+def: "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.\" [NBO:GVG]" []
+synonym: "eating behaviour" EXACT []
+xref: GO:0042755
+is_a: NBO:0002436 ! regulation of feeding behavior
+relationship: regulates NBO:0000134 ! food consumption
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000064
+name: regulation of drinking behavior
+namespace: behavior_ontology
+def: "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.\" [NBO:GVG]" []
+synonym: "drinking behaviour" EXACT []
+xref: GO:0042756
+is_a: NBO:0002436 ! regulation of feeding behavior
+relationship: regulates NBO:0000130 ! liquid consumption
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:string
+created_by: George Gkoutos
+
+[Term]
 id: NBO:0000077
 name: courtship behavior
 namespace: behavior_ontology
@@ -15493,6 +15568,30 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:st
 created_by: George Gkoutos
 
 [Term]
+id: NBO:0000079
+name: feeding behavior
+namespace: behavior_ontology
+def: "The act of bringing an object or substance into the body by swallowing, surrounding or absorbing it [NBO:SMAC]" []
+synonym: "feeding behaviour" EXACT []
+xref: GO:0007631
+is_a: NBO:0001845 ! consumption behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000089
+name: predator behavior
+namespace: behavior_ontology
+def: "\"A physical aggression behavior involving attack on prey by a predator.\" [NBO:GVG]" []
+synonym: "predatory aggression" EXACT []
+synonym: "predatory aggressive behaviour" EXACT []
+xref: GO:0002120
+is_a: NBO:0000120 ! physical aggression behavior
+is_a: NBO:0000235 ! hunger motivation behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:string
+created_by: George Gkoutos
+
+[Term]
 id: NBO:0000105
 name: aggressive behavior towards animals
 namespace: behavior_ontology
@@ -15503,6 +15602,17 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T10:51:12Z xsd:st
 created_by: George Gkoutos
 
 [Term]
+id: NBO:0000120
+name: physical aggression behavior
+namespace: behavior_ontology
+def: "\"An aggressive behavior that aims to inflicting damage on another entity using physical means.\" [NBO:GVG]" []
+synonym: "physical aggression behaviour" EXACT []
+synonym: "violent behaviour" EXACT []
+is_a: NBO:0000741 ! aggressive behavior by means
+property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T11:14:04Z xsd:string
+created_by: George Gkoutos
+
+[Term]
 id: NBO:0000121
 name: agonistic behavior
 namespace: behavior_ontology
@@ -15510,6 +15620,41 @@ synonym: "agonism" EXACT []
 is_a: NBO:0000003 ! emotional behavior
 is_a: NBO:0000011 ! social behavior
 property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T11:42:15Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000130
+name: liquid consumption
+namespace: behavior_ontology
+def: "\"A behavior associated with the intake of liquid.\" [NBO:GVG]" []
+is_a: NBO:0000079 ! feeding behavior
+relationship: has_participant PATO:0001548 ! quality of a liquid
+property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T12:40:37Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000132
+name: water consumption
+namespace: behavior_ontology
+def: "\"A drinking behavior associated with the intake of water.\" [NBO:GVG]" []
+xref: GO:0045187
+is_a: NBO:0000130 ! liquid consumption
+intersection_of: NBO:0000130 ! liquid consumption
+intersection_of: has_participant CHEBI:15377 ! water
+relationship: has_participant CHEBI:15377 ! water
+property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T12:41:14Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000134
+name: food consumption
+namespace: behavior_ontology
+def: "\"A feeding behavior associated with the intake of food.\" [NBO:GVG]" []
+is_a: NBO:0000079 ! feeding behavior
+intersection_of: NBO:0000079 ! feeding behavior
+intersection_of: has_participant CHEBI:33290 ! food
+relationship: has_participant CHEBI:33290 ! food
+property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T12:42:46Z xsd:string
 created_by: George Gkoutos
 
 [Term]
@@ -15527,6 +15672,29 @@ namespace: behavior_ontology
 synonym: "mate attraction behavior" NARROW []
 is_a: NBO:0000014 ! mating behavior
 property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T02:21:53Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000233
+name: motivation behavior
+namespace: behavior_ontology
+alt_id: NBO:0000050
+def: "\"Behavior related to the tendency of an organism to maintain internal equilibrium.\" [NBO:GVG]" []
+synonym: "behavioral homeostasis" EXACT []
+synonym: "maintenance behaviour" EXACT []
+synonym: "perception of need" EXACT []
+is_a: NBO:0000313 ! behavior process
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-04T08:29:40Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000235
+name: hunger motivation behavior
+namespace: behavior_ontology
+def: "\"Behavior related to the deprivation of food.\" [NBO:GVG]" []
+synonym: "appetite related behaviour" EXACT []
+is_a: NBO:0000233 ! motivation behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-04T08:30:11Z xsd:string
 created_by: George Gkoutos
 
 [Term]
@@ -15661,6 +15829,14 @@ property_value: http://purl.org/dc/elements/1.1/date 2012-02-16T01:16:13Z xsd:st
 created_by: gkoutos
 
 [Term]
+id: NBO:0000741
+name: aggressive behavior by means
+namespace: behavior_ontology
+is_a: NBO:0000015 ! aggressive behavior
+property_value: http://purl.org/dc/elements/1.1/date 2012-02-16T01:16:31Z xsd:string
+created_by: gkoutos
+
+[Term]
 id: NBO:0000743
 name: social aggression behavior
 namespace: behavior_ontology
@@ -15681,12 +15857,80 @@ relationship: regulates NBO:0000313 ! behavior process
 created_by: George Gkoutos
 
 [Term]
+id: NBO:0001845
+name: consumption behavior
+def: "\"Behavior related to the intake of substances.\" [NBOC:GVG]" []
+synonym: "ingest" BROAD []
+is_a: NBO:0000313 ! behavior process
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0002169
+name: regulation of consumption behavior
+def: "\"Any process that modulates the frequency, rate or extent of consumption behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" []
+is_a: NBO:0001786 ! regulation of behavior
+relationship: regulates NBO:0001845 ! consumption behavior
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0002436
+name: regulation of feeding behavior
+def: "\"Any process that modulates the frequency, rate or extent of consumption of food or liquid\" [NBOC:GVG]" []
+is_a: NBO:0002169 ! regulation of consumption behavior
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0002468
+name: regulation of water consumption
+def: "\"Any process that modulates the frequency, rate or extent of water consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" []
+is_a: NBO:0000064 ! regulation of drinking behavior
+relationship: regulates NBO:0000132 ! water consumption
+created_by: George Gkoutos
+
+[Term]
 id: NBO:0002603
 name: regulation of sexual activity
 def: "\"Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" []
 is_a: NBO:0001786 ! regulation of behavior
 relationship: regulates NBO:0000034 ! sexual activity
 created_by: George Gkoutos
+
+[Term]
+id: NBO:0009003
+name: hunting behavior
+def: "A predator behavior involving actively stalking prey over a distance." []
+is_a: NBO:0000089 ! predator behavior
+is_a: NBO:0015003 ! active foraging behavior
+property_value: dc-contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-03-11T13:51:02Z xsd:string
+created_by: Nicolas Matentzoglu
+
+[Term]
+id: NBO:0015000
+name: ambush behavior
+def: "A predator behavior involving a surprise attack on unsuspecting prey. The predator remains in one place and waits for prey to come near. The predator conceals itself and then subdues its prey with its own body or body parts." []
+is_a: NBO:0000089 ! predator behavior
+property_value: dc-contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-03-11T13:51:02Z xsd:string
+created_by: Nicolas Matentzoglu
+
+[Term]
+id: NBO:0015002
+name: trapping behavior
+def: "A predator behavior involving subduing prey using a structure or modification of the environment created by the predator for that purpose." []
+is_a: NBO:0000089 ! predator behavior
+property_value: dc-contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-03-11T13:51:02Z xsd:string
+created_by: Nicolas Matentzoglu
+
+[Term]
+id: NBO:0015003
+name: active foraging behavior
+def: "Feeding behavior during which a living entity acquires food and energy by actively searching for food resources." []
+is_a: NBO:0000079 ! feeding behavior
+property_value: dc-contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-08-04T13:51:02Z xsd:string
+created_by: https://orcid.org/0000-0002-7356-1779
 
 [Term]
 id: NBO:0020048
@@ -16834,13 +17078,22 @@ subset: value_slim
 is_a: PATO:0002505 ! nucleated
 
 [Term]
+id: PATO:0001411
+name: structured
+namespace: quality
+def: "A structural quality inhering in a bearer by virtue of the bearer's having distinct structure." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+relationship: is_opposite_of PATO:0001412 ! unstructured
+
+[Term]
 id: PATO:0001412
 name: unstructured
 namespace: quality
 def: "A structural quality inhering in a bearer by virtue of the bearer's lacking distinct structure." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0000141 ! structure
-relationship: is_opposite_of PATO:0001411
+relationship: is_opposite_of PATO:0001411 ! structured
 
 [Term]
 id: PATO:0001421
@@ -16926,6 +17179,17 @@ subset: disposition_slim
 is_a: PATO:0001546 ! quality of a solid
 
 [Term]
+id: PATO:0001544
+name: flexible
+namespace: quality
+def: "A physical quality inhering in a bearer by virtue of the bearer's ability of being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster]
+subset: disposition_slim
+subset: value_slim
+synonym: "bendy" EXACT []
+is_a: PATO:0001543 ! flexibility
+relationship: is_opposite_of PATO:0001545 ! inflexible
+
+[Term]
 id: PATO:0001545
 name: inflexible
 namespace: quality
@@ -16935,7 +17199,7 @@ subset: value_slim
 synonym: "stiff" EXACT []
 synonym: "stiffness" RELATED []
 is_a: PATO:0001543 ! flexibility
-relationship: is_opposite_of PATO:0001544
+relationship: is_opposite_of PATO:0001544 ! flexible
 
 [Term]
 id: PATO:0001546
@@ -17120,6 +17384,34 @@ def: "A viability quality inhering in a population by virtue of some of it's mem
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0000169 ! viability
+
+[Term]
+id: PATO:0001776
+name: increased flexibility
+namespace: quality
+def: "A flexibility which is relatively high." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "high flexibility" EXACT []
+is_a: PATO:0001544 ! flexible
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0001544 ! flexible
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001777 ! decreased flexibility
+
+[Term]
+id: PATO:0001777
+name: decreased flexibility
+namespace: quality
+def: "A flexibility which is relatively low." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "low flexibility" EXACT []
+is_a: PATO:0001544 ! flexible
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001544 ! flexible
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001776 ! increased flexibility
 
 [Term]
 id: PATO:0001822

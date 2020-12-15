@@ -3,12 +3,14 @@ ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.
 ERROR	duplicate_definition	obo:uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.
-ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid6859
-ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid6863
-ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid10983
-ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid10987
-ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid11320
-ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	1dfb2dca-034c-49ee-b1d5-9ef628f489f7genid11324
+ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid5436
+ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid5440
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid6960
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid6964
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11084
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11088
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11421
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11425
 ERROR	deprecated_property_reference	RO:0002217	rdfs:subPropertyOf	<http://purl.obolibrary.org/obo/RO_0002331>
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0002217>
 ERROR	missing_label	obo:chebi#1_STAR	rdfs:label	
@@ -93,6 +95,8 @@ ERROR	duplicate_label	CARO:0010000	rdfs:label	multicellular anatomical structure
 ERROR	duplicate_label	UBERON:0010000	rdfs:label	multicellular anatomical structure
 ERROR	duplicate_label	CARO:0000007	rdfs:label	immaterial anatomical entity
 ERROR	duplicate_label	UBERON:0000466	rdfs:label	immaterial anatomical entity
+ERROR	duplicate_label	GO:0007631	rdfs:label	feeding behavior
+ERROR	duplicate_label	NBO:0000079	rdfs:label	feeding behavior
 ERROR	duplicate_label	RO:0002491	rdfs:label	existence starts and ends during
 ERROR	duplicate_label	obo:uberon/core#existence_starts_and_ends_during	rdfs:label	existence starts and ends during
 ERROR	duplicate_label	ENVO:00000176	rdfs:label	elevation
@@ -459,6 +463,8 @@ WARN	annotation_whitespace	RO:0002256	IAO:0000119	 Developmental Biology, Gilber
 WARN	annotation_whitespace	RO:0002326	IAO:0000232	In the context of the Gene Ontology, contributes_to may be used only with classes from the molecular function ontology. 
 WARN	duplicate_exact_synonym	GO:0019098	oboInOwl:hasExactSynonym	reproductive behaviour
 WARN	duplicate_exact_synonym	NBO:0000010	oboInOwl:hasExactSynonym	reproductive behaviour
+WARN	duplicate_exact_synonym	GO:0007631	oboInOwl:hasExactSynonym	feeding behaviour
+WARN	duplicate_exact_synonym	NBO:0000079	oboInOwl:hasExactSynonym	feeding behaviour
 WARN	duplicate_exact_synonym	GO:0007610	oboInOwl:hasExactSynonym	behaviour
 WARN	duplicate_exact_synonym	NBO:0000313	oboInOwl:hasExactSynonym	behaviour
 WARN	missing_definition	BFO:0000056	IAO:0000115	
@@ -605,6 +611,7 @@ WARN	missing_definition	NBO:0000121	IAO:0000115
 WARN	missing_definition	NBO:0000146	IAO:0000115	
 WARN	missing_definition	NBO:0000147	IAO:0000115	
 WARN	missing_definition	NBO:0000740	IAO:0000115	
+WARN	missing_definition	NBO:0000741	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1	IAO:0000115	
 WARN	missing_definition	NCBITaxon:10239	IAO:0000115	
 WARN	missing_definition	NCBITaxon:117570	IAO:0000115	
@@ -794,6 +801,7 @@ WARN	missing_definition	obo:go#goslim_plant	IAO:0000115
 WARN	missing_definition	obo:go#goslim_pombe	IAO:0000115	
 WARN	missing_definition	obo:go#goslim_yeast	IAO:0000115	
 WARN	missing_definition	obo:go#systematic_synonym	IAO:0000115	
+WARN	missing_definition	obo:nbo#has_participant	IAO:0000115	
 WARN	missing_definition	obo:ncbitaxon#has_rank	IAO:0000115	
 WARN	missing_definition	obo:pato#abnormal_slim	IAO:0000115	
 WARN	missing_definition	obo:pato#attribute_slim	IAO:0000115	
@@ -1022,9 +1030,18 @@ INFO	lowercase_definition	NBO:0000011	IAO:0000115	"<\""A behavior that occurs pr
 INFO	lowercase_definition	NBO:0000014	IAO:0000115	"<\""Behavior related to the interactions between organisms for the purpose of mating.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000015	IAO:0000115	"<\""A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means.\"" [wikipedia:Aggression]>"
 INFO	lowercase_definition	NBO:0000034	IAO:0000115	"<\""Behaviour related to the activity which primary purpose is the sexual reproduction.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000063	IAO:0000115	"<\""A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000064	IAO:0000115	"<\""A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000077	IAO:0000115	"<\""The behavioral interactions between organisms for the purpose of attracting sexual partners.\"" [GOC:dph]>"
 INFO	lowercase_definition	NBO:0000078	IAO:0000115	"<\""Behavior related to the specific actions or reactions of an organism following mating.\"" [GOC:bf]>"
+INFO	lowercase_definition	NBO:0000089	IAO:0000115	"<\""A physical aggression behavior involving attack on prey by a predator.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000105	IAO:0000115	"<\""Exhibiting a domineering, assault posture and/or hostile physical action towards animals.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000120	IAO:0000115	"<\""An aggressive behavior that aims to inflicting damage on another entity using physical means.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000130	IAO:0000115	"<\""A behavior associated with the intake of liquid.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000132	IAO:0000115	"<\""A drinking behavior associated with the intake of water.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000134	IAO:0000115	"<\""A feeding behavior associated with the intake of food.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000233	IAO:0000115	"<\""Behavior related to the tendency of an organism to maintain internal equilibrium.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000235	IAO:0000115	"<\""Behavior related to the deprivation of food.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000285	IAO:0000115	"<\""A helping behavior (without expectation of extrinsic rewards and sometimes involving personal risk or sacrifice) that benefits individuals or society.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000286	IAO:0000115	"<\""Prosocial behavior is caring about the welfare and rights of others, feeling concern and empathy for them, and acting in ways that benefit others.\"" [wikipedia:Prosocial_behavior]>"
 INFO	lowercase_definition	NBO:0000287	IAO:0000115	"<\""Helping behavior refers to voluntary actions intended to help the others, with reward regarded or disregarded.\"" [wikipedia:Helping_behavior]>"
@@ -1039,6 +1056,10 @@ INFO	lowercase_definition	NBO:0000637	IAO:0000115	"<\""The actions or reactions 
 INFO	lowercase_definition	NBO:0000638	IAO:0000115	"<\""The actions or reactions of a female, for the purpose of attracting a sexual partner.\"" [GOC:bf]>"
 INFO	lowercase_definition	NBO:0000743	IAO:0000115	"<\""An aggressive behavior towards other members of the society.\"" [NBO:RH]>"
 INFO	lowercase_definition	NBO:0001786	IAO:0000115	"<\""Any process that modulates the frequency, rate or extent of behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\"" [GO:0050795]>"
+INFO	lowercase_definition	NBO:0001845	IAO:0000115	"<\""Behavior related to the intake of substances.\"" [NBOC:GVG]>"
+INFO	lowercase_definition	NBO:0002169	IAO:0000115	"<\""Any process that modulates the frequency, rate or extent of consumption behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\"" [NBOC:GVG]>"
+INFO	lowercase_definition	NBO:0002436	IAO:0000115	"<\""Any process that modulates the frequency, rate or extent of consumption of food or liquid\"" [NBOC:GVG]>"
+INFO	lowercase_definition	NBO:0002468	IAO:0000115	"<\""Any process that modulates the frequency, rate or extent of water consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\"" [NBOC:GVG]>"
 INFO	lowercase_definition	NBO:0002603	IAO:0000115	"<\""Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.\"" [NBOC:GVG]>"
 INFO	lowercase_definition	RO:0000052	IAO:0000115	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en
 INFO	lowercase_definition	RO:0000053	IAO:0000115	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en

@@ -4023,11 +4023,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an aggregate of human beings."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an aggregate of human beings."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
           "val" : "MaterialEntity"
@@ -5617,10 +5617,10 @@
           "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] "
@@ -6942,13 +6942,13 @@
       "pred" : "is_a",
       "obj" : "http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9347",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_32525"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016301",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0016772"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9347",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_32525"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000027",
       "pred" : "is_a",
@@ -6998,13 +6998,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002304"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
-      "pred" : "type",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_6072",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002597",
       "pred" : "subPropertyOf",
@@ -7134,13 +7134,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002500"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0000081",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PCO_0000022",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000081",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002500",
       "pred" : "subPropertyOf",
@@ -7218,13 +7218,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002598",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002596"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33213",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_6072"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002598",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002596"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002015",
       "pred" : "subPropertyOf",
@@ -7514,13 +7514,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002447",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002436"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000027",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002447",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002436"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000040",
       "pred" : "is_a",
@@ -7586,13 +7586,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002211"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002222"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002014",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000063",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002222"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_8287",
       "pred" : "is_a",
@@ -7606,13 +7606,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0002131"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/RO_0002431",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002304",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0004047"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0002431",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0002328"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0002405",
       "pred" : "inverseOf",
@@ -7971,7 +7971,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-01/imports/pco_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-15/imports/pco_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -8181,11 +8181,11 @@
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ]
     } ],
     "propertyChainAxioms" : [ {
-      "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000066",
-      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000066", "http://purl.obolibrary.org/obo/BFO_0000050" ]
-    }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002329",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000050", "http://purl.obolibrary.org/obo/RO_0002215" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000066",
+      "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/BFO_0000066", "http://purl.obolibrary.org/obo/BFO_0000050" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0004035",
       "chainPredicateIds" : [ "http://purl.obolibrary.org/obo/RO_0002327", "http://purl.obolibrary.org/obo/RO_0002305" ]
