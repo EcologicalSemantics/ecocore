@@ -3,14 +3,14 @@ ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0007690	IAO:0000115	.
 ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.
 ERROR	duplicate_definition	obo:uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.
-ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid5436
-ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid5440
-ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid6960
-ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid6964
-ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11084
-ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11088
-ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11421
-ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	324af706-1120-41e0-b538-2bf5303add34genid11425
+ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid5425
+ERROR	multiple_equivalent_classes	GO:0065009	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid5429
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid6949
+ERROR	multiple_equivalent_classes	UBERON:0000307	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid6953
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid11073
+ERROR	multiple_equivalent_classes	UBERON:0004455	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid11077
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid11410
+ERROR	multiple_equivalent_classes	UBERON:0004734	owl:equivalentClass	ba4d9af5-2cfe-481a-875d-5781ad64ebf9genid11414
 ERROR	deprecated_property_reference	RO:0002217	rdfs:subPropertyOf	<http://purl.obolibrary.org/obo/RO_0002331>
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0002217>
 ERROR	missing_label	obo:chebi#1_STAR	rdfs:label	
@@ -133,6 +133,8 @@ ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official OBI definition, 
 ERROR	multiple_definitions	IAO:0000115	IAO:0000115	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
 ERROR	multiple_definitions	IAO:0000119	IAO:0000115	<Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en>
 ERROR	multiple_definitions	IAO:0000119	IAO:0000115	<formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en>
+ERROR	multiple_definitions	NBO:0020145	IAO:0000115	Alarm behavior triggered by agonistic actions or postures@en
+ERROR	multiple_definitions	NBO:0020145	IAO:0000115	Alarm behavior triggered by agonistic actions or postures.@en
 ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A process that realizes a plan which is the concretization of a plan specification.@en
 ERROR	multiple_definitions	OBI:0000011	IAO:0000115	A processual entity that realizes a plan which is the concretization of a plan specification.@en
 ERROR	multiple_definitions	PCO:0000017	IAO:0000115	A collection of organisms that has as members every organism of given species and no organisms of any other species.@en
@@ -610,6 +612,7 @@ WARN	missing_definition	IAO:0000114	IAO:0000115
 WARN	missing_definition	NBO:0000121	IAO:0000115	
 WARN	missing_definition	NBO:0000146	IAO:0000115	
 WARN	missing_definition	NBO:0000147	IAO:0000115	
+WARN	missing_definition	NBO:0000471	IAO:0000115	
 WARN	missing_definition	NBO:0000740	IAO:0000115	
 WARN	missing_definition	NBO:0000741	IAO:0000115	
 WARN	missing_definition	NCBITaxon:1	IAO:0000115	
@@ -1034,9 +1037,12 @@ INFO	lowercase_definition	NBO:0000063	IAO:0000115	"<\""A feeding behavior associ
 INFO	lowercase_definition	NBO:0000064	IAO:0000115	"<\""A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000077	IAO:0000115	"<\""The behavioral interactions between organisms for the purpose of attracting sexual partners.\"" [GOC:dph]>"
 INFO	lowercase_definition	NBO:0000078	IAO:0000115	"<\""Behavior related to the specific actions or reactions of an organism following mating.\"" [GOC:bf]>"
+INFO	lowercase_definition	NBO:0000087	IAO:0000115	"<\""Behavior related to defence against predation or predators.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000088	IAO:0000115	"<\""Behavior related to the preparation of the body to \\""fight\\"" or \\""flee\\"" from perceived attack, harm or threat.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000089	IAO:0000115	"<\""A physical aggression behavior involving attack on prey by a predator.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000105	IAO:0000115	"<\""Exhibiting a domineering, assault posture and/or hostile physical action towards animals.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000120	IAO:0000115	"<\""An aggressive behavior that aims to inflicting damage on another entity using physical means.\"" [NBO:GVG]>"
+INFO	lowercase_definition	NBO:0000128	IAO:0000115	"<\""Behavior characterized by a quick excitability to annoyance, impatience, or anger.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000130	IAO:0000115	"<\""A behavior associated with the intake of liquid.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000132	IAO:0000115	"<\""A drinking behavior associated with the intake of water.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000134	IAO:0000115	"<\""A feeding behavior associated with the intake of food.\"" [NBO:GVG]>"
@@ -1047,11 +1053,15 @@ INFO	lowercase_definition	NBO:0000286	IAO:0000115	"<\""Prosocial behavior is car
 INFO	lowercase_definition	NBO:0000287	IAO:0000115	"<\""Helping behavior refers to voluntary actions intended to help the others, with reward regarded or disregarded.\"" [wikipedia:Helping_behavior]>"
 INFO	lowercase_definition	NBO:0000288	IAO:0000115	"<\""Reciprocal altruism is the idea that the incentive for an individual to help in the present is based on the expectation of the potential receipt in the future.\"" [wikipedia:Helping_behavior]>"
 INFO	lowercase_definition	NBO:0000313	IAO:0000115	"<\""The action, reaction, or performance of an organism in response to external or internal stimuli.\"" [GO:GO\:0007610]>"
+INFO	lowercase_definition	NBO:0000469	IAO:0000115	"<\""Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.\"" [wikipedia:Stress_(biological)]>"
+INFO	lowercase_definition	NBO:0000470	IAO:0000115	"<\""Behavior related to the identification or realization of a threat or a stressor.\"" [wikipedia:Stress_(biological)]>"
 INFO	lowercase_definition	NBO:0000548	IAO:0000115	"<\""Behaviour related to the male activity which primary purpose is the sexual reproduction.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000549	IAO:0000115	"<\""Behaviour related to the female activity which primary purpose is the sexual reproduction.\"" [NBO:GVG]>"
 INFO	lowercase_definition	NBO:0000612	IAO:0000115	"<\""A social behavior related to the activity of conveying information.\"" [wikipedia:Communication]>"
 INFO	lowercase_definition	NBO:0000613	IAO:0000115	"<\""Communication behavior related to the process of conveying meaning in the form of non-word messages through for example gesture, body language or posture; facial expression and eye contact etc.\"" [wikipedia:.wikipedia.org/wiki/Nonverbal_communication]>"
 INFO	lowercase_definition	NBO:0000633	IAO:0000115	"<\""Aggressive behavior related to the defence of a fixed area against intruders, typically conspecifics.\"" [GOC:hjd]>"
+INFO	lowercase_definition	NBO:0000635	IAO:0000115	"<\""Behavior related to the activity seen in animals exposed to adverse stimuli, in which the tendency to act defensively is stronger than the tendency to attack.\"" [web:http\://www.britannica.com/EBchecked/topic/45916/avoidance-behavior]>"
+INFO	lowercase_definition	NBO:0000636	IAO:0000115	"<\""Behavior related to the activity seen in animals exposed to potential danger in which they exhibit the tendency to act defensively.\"" [NBO:SD]>"
 INFO	lowercase_definition	NBO:0000637	IAO:0000115	"<\""The actions or reactions of a male, for the purpose of attracting a sexual partner.\"" [GOC:bf]>"
 INFO	lowercase_definition	NBO:0000638	IAO:0000115	"<\""The actions or reactions of a female, for the purpose of attracting a sexual partner.\"" [GOC:bf]>"
 INFO	lowercase_definition	NBO:0000743	IAO:0000115	"<\""An aggressive behavior towards other members of the society.\"" [NBO:RH]>"

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-12-15/imports/chebi_import.owl
+data-version: ecocore/releases/2020-12-18/imports/chebi_import.owl
 ontology: ecocore/imports/chebi_import
 
 [Term]

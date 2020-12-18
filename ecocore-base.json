@@ -532,6 +532,20 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000118",
       "lbl" : "alternative term"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000037",
+      "meta" : {
+        "definition" : {
+          "val" : "The fifth post-naupliar life stage of a copepod",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "copepodid stage 5"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000119",
       "type" : "PROPERTY",
       "lbl" : "definition source"
@@ -1377,6 +1391,20 @@
       "type" : "CLASS",
       "lbl" : "extinct"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000103",
+      "meta" : {
+        "definition" : {
+          "val" : "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "https://orcid.org/0000-0002-2908-3327"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "scavenging"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000108",
       "meta" : {
         "definition" : {
@@ -2013,7 +2041,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "trophic interaction"
+      "lbl" : "trophic process"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000001",
       "meta" : {
@@ -2601,20 +2629,6 @@
       "type" : "CLASS",
       "lbl" : "epigeic"
     }, {
-      "id" : "http://purl.obolibrary/obo/ECOCORE_00000037",
-      "meta" : {
-        "definition" : {
-          "val" : "The fifth post-naupliar life stage of a copepod",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "copepodid stage 5"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000014",
       "meta" : {
         "definition" : {
@@ -2678,20 +2692,6 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002582",
       "lbl" : "is a defining property chain axiom where second argument is reflexive"
-    }, {
-      "id" : "http://obolibrary.org/obo/ECOCORE_00000103",
-      "meta" : {
-        "definition" : {
-          "val" : "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.",
-          "xrefs" : [ ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "https://orcid.org/0000-0002-2908-3327"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "scavenging"
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000140",
       "meta" : {
@@ -2825,10 +2825,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PCO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000036",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "obj" : "http://purl.obolibrary/obo/ECOCORE_00000037"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000118",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000120"
@@ -2865,17 +2861,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000088"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000037",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000038"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000102",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000021"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000061",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001434"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000040",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001434"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000158",
       "pred" : "is_a",
@@ -2945,6 +2945,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000130"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000112",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000011"
@@ -2972,10 +2976,6 @@
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000042",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000061"
-    }, {
-      "sub" : "http://obolibrary.org/obo/ECOCORE_00000103",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000012",
       "pred" : "is_a",
@@ -3013,13 +3013,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000161",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000155",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000161",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000089",
       "pred" : "is_a",
@@ -3205,13 +3205,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000117",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000120"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000115",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000031"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000117",
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000103",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000120"
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000127",
       "pred" : "is_a",
@@ -3253,6 +3257,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000019"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000036",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000037"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000015",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000010"
@@ -3288,10 +3296,6 @@
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000101",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000020"
-    }, {
-      "sub" : "http://purl.obolibrary/obo/ECOCORE_00000037",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000039",
       "pred" : "is_a",
@@ -3453,17 +3457,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000020"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000135",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000160",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000060"
     }, {
-      "sub" : "http://purl.obolibrary/obo/ECOCORE_00000037",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000038"
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000169",
       "pred" : "is_a",
@@ -3561,7 +3561,7 @@
         "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
         "val" : "An ontology of core ecological entities"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-15/ecocore-base.owl"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2020-12-18/ecocore-base.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

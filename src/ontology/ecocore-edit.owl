@@ -20,7 +20,6 @@ Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
 Annotation(rdfs:comment "An ontology of core ecological entities")
 
-Declaration(Class(<http://obolibrary.org/obo/ECOCORE_00000103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0010004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000002>))
@@ -56,6 +55,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000035>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000037>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000039>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000040>))
@@ -119,6 +119,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000099>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000106>))
@@ -192,7 +193,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000175>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
-Declaration(Class(<http://purl.obolibrary/obo/ECOCORE_00000037>))
 ############################
 #   Annotation Properties
 ############################
@@ -219,13 +219,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000119> "def
 ############################
 #   Classes
 ############################
-
-# Class: <http://obolibrary.org/obo/ECOCORE_00000103> (scavenging)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://obolibrary.org/obo/ECOCORE_00000103> "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://obolibrary.org/obo/ECOCORE_00000103> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://obolibrary.org/obo/ECOCORE_00000103> "scavenging")
-SubClassOf(<http://obolibrary.org/obo/ECOCORE_00000103> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000001> (food web)
 
@@ -287,13 +280,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000007> "mixotrophic function"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000007> <http://purl.obolibrary.org/obo/ECOCORE_00000004>)
 
-# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000008> (trophic interaction)
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000008> (trophic process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000008> "A process during which a living entity acquires or generates food and energy from a living, dead, or non-living entity.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/ECOCORE_00000008> "All categories of interaction partners should be indentified in subclasses.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000008> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000008> "http://orcid.org/0000-0002-4366-3088")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000008> "trophic interaction"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000008> "trophic process"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000008> <http://purl.obolibrary.org/obo/BFO_0000015>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0045333>))
 
@@ -521,7 +514,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000036> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000036> "copepodid stage 4")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000036> <http://purl.obolibrary.org/obo/UBERON_0000105>)
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary/obo/ECOCORE_00000037>))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/ECOCORE_00000037>))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000037> (copepodid stage 5)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000037> "The fifth post-naupliar life stage of a copepod")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000037> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000037> "copepodid stage 5")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000037> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/ECOCORE_00000038>))
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000038> (copepodid stage 6)
 
@@ -898,7 +899,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000089> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "A carnivore that feeds on dead and decaying animal matter")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000090> "scavenger")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://obolibrary.org/obo/ECOCORE_00000103>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000103>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000090> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000091> (insectivore)
@@ -988,6 +989,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000102> "The definition of predation can be controversial.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000102> "predation")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000102> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000103> (scavenging)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000103> "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000103> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000103> "scavenging")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000103> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000104> (cannibalism)
 
@@ -1135,7 +1143,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000122> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000123> "A chemoautotroph which is capable of using a biogenic organic compound as an electron donor.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000123> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000123> "chemoorganoautotroph")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000123> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000162> <http://purl.obolibrary.org/obo/GO_0062097>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000123> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/GO_0062097>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000123> <http://purl.obolibrary.org/obo/ECOCORE_00000129>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000124> (chemolithoautotroph)
@@ -1165,7 +1173,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000126> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000127> "A chemoheterotroph which is capable of using a biogenic organic compound as an electron donor.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000127> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000127> "chemoorganoheterotroph")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000127> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000162>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000127> <http://purl.obolibrary.org/obo/ECOCORE_00000132>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000128> (chemolithoheterotroph)
@@ -1181,7 +1188,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000128> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000129> "An autotroph which is capable of obtaining energy from the bonds in a chemical compound.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000129> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000129> "chemoautotroph")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000163>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000129> <http://purl.obolibrary.org/obo/ECOCORE_00000023>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000130> (photoautotroph)
@@ -1204,7 +1210,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000131> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000132> "A heterotroph which is capable of obtaining energy from the bonds in a chemical compound.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000132> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000132> "chemoheterotroph")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000163>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000132> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000134> (extremophile)
@@ -1560,14 +1565,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ecocore_00000133> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore_00000133> "territory")
 SubClassOf(<http://purl.obolibrary.org/obo/ecocore_00000133> <http://purl.obolibrary.org/obo/ENVO_01000408>)
-
-# Class: <http://purl.obolibrary/obo/ECOCORE_00000037> (copepodid stage 5)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary/obo/ECOCORE_00000037> "The fifth post-naupliar life stage of a copepod")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary/obo/ECOCORE_00000037> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary/obo/ECOCORE_00000037> "copepodid stage 5")
-SubClassOf(<http://purl.obolibrary/obo/ECOCORE_00000037> <http://purl.obolibrary.org/obo/UBERON_0000105>)
-SubClassOf(<http://purl.obolibrary/obo/ECOCORE_00000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000063> <http://purl.obolibrary.org/obo/ECOCORE_00000038>))
 
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")

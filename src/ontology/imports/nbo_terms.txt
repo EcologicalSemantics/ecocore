@@ -18,3 +18,4 @@ http://purl.obolibrary.org/obo/NBO_0000613 # nonverbal communication behavior
 http://purl.obolibrary.org/obo/NBO_0009003 # hunting behavior
 http://purl.obolibrary.org/obo/NBO_0015000 # ambush behavior
 http://purl.obolibrary.org/obo/NBO_0015002 # trapping behavior
+http://purl.obolibrary.org/obo/NBO_0000471 # predator avoidance behavior
