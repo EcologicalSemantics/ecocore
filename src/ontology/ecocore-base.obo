@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-12-15/ecocore-base.owl
+data-version: ecocore/releases/2020-12-18/ecocore-base.owl
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
 
@@ -65,7 +65,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
 [Term]
 id: ECOCORE:00000008
-name: trophic interaction
+name: trophic process
 def: "A process during which a living entity acquires or generates food and energy from a living, dead, or non-living entity." []
 is_a: BFO:0000015
 relationship: BFO:0000051 GO:0045333
@@ -77,7 +77,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 id: ECOCORE:00000009
 name: autotrophy
 def: "A trophic interaction process during which a living entity acquires energy and generates biomass from non-living entities." []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 property_value: IAO:0000116 "This should be axiomatised and made a defined class: any trophic interaction which has as input some inorganic material (non-living) that is the only source of carbon or reducing equivalents source is a autotrophic process." xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -96,7 +96,7 @@ id: ECOCORE:00000011
 name: heterotrophy
 def: "A trophic interaction process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead." []
 synonym: "consumption" EXACT []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 property_value: IAO:0000116 "This should be axiomatised and made a defined class: any trophic interaction which has as input some organic material (living or dead) that is the only source of carbon or reducing equivalents source is a autotrophic process." xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -123,7 +123,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 id: ECOCORE:00000014
 name: lithotrophy
 def: "A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Lithotroph"}
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
 [Term]
@@ -151,7 +151,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 id: ECOCORE:00000017
 name: phototrophy
 def: "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Phototroph"}
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 relationship: BFO:0000051 GO:0015979
 relationship: BFO:0000051 GO:0045333
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -1196,13 +1196,13 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000162
 name: organotrophy
 def: "A process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 
 [Term]
 id: ECOCORE:00000163
 name: chemotrophy
 def: "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules." []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 
 [Term]
 id: ECOCORE:00000164

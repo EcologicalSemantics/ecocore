@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecocore/ecocore-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2020-12-15/ecocore-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2020-12-18/ecocore-base.owl"/>
         <rdfs:comment>An ontology of core ecological entities</rdfs:comment>
     </owl:Ontology>
     
@@ -155,17 +155,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://obolibrary.org/obo/ECOCORE_00000103 -->
-
-    <owl:Class rdf:about="http://obolibrary.org/obo/ECOCORE_00000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
-        <obo:IAO_0000115>A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>scavenging</rdfs:label>
-    </owl:Class>
     
 
 
@@ -328,7 +317,7 @@
         <obo:IAO_0000116>All categories of interaction partners should be indentified in subclasses.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">trophic interaction</rdfs:label>
+        <rdfs:label xml:lang="en">trophic process</rdfs:label>
     </owl:Class>
     
 
@@ -768,12 +757,29 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary/obo/ECOCORE_00000037"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth post-naupliar life stage of a copepod</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>copepodid stage 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000038"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The fifth post-naupliar life stage of a copepod</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>copepodid stage 5</rdfs:label>
     </owl:Class>
     
 
@@ -1425,7 +1431,7 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://obolibrary.org/obo/ECOCORE_00000103"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000103"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000088"/>
@@ -1598,6 +1604,17 @@
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:comment>The definition of predation can be controversial.</rdfs:comment>
         <rdfs:label>predation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
+        <obo:IAO_0000115>A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <rdfs:label>scavenging</rdfs:label>
     </owl:Class>
     
 
@@ -1854,14 +1871,7 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000162"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0062097"/>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0062097"/>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000129"/>
@@ -1921,12 +1931,6 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000127">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000162"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000132"/>
         <obo:IAO_0000115>A chemoheterotroph which is capable of using a biogenic organic compound as an electron donor.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -1955,12 +1959,6 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000129">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000023"/>
         <obo:IAO_0000115>An autotroph which is capable of obtaining energy from the bonds in a chemical compound.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -2000,12 +1998,6 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000132">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
         <obo:IAO_0000115>A heterotroph which is capable of obtaining energy from the bonds in a chemical compound.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -2785,23 +2777,6 @@
         <obo:IAO_0000115>An environmental zone which an animal consistently defends against conspecifics or, occasionally, animals of other species</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>territory</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary/obo/ECOCORE_00000037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary/obo/ECOCORE_00000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The fifth post-naupliar life stage of a copepod</obo:IAO_0000115>
-        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>copepodid stage 5</rdfs:label>
     </owl:Class>
     
 

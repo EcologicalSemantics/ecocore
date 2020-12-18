@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2020-12-15
+data-version: releases/2020-12-18
 remark: An ontology of core ecological entities
 ontology: ecocore
 
@@ -5346,7 +5346,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
 [Term]
 id: ECOCORE:00000008
-name: trophic interaction
+name: trophic process
 def: "A process during which a living entity acquires or generates food and energy from a living, dead, or non-living entity." []
 is_a: BFO:0000015 ! process
 relationship: has_part GO:0045333 ! cellular respiration
@@ -5358,7 +5358,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 id: ECOCORE:00000009
 name: autotrophy
 def: "A trophic interaction process during which a living entity acquires energy and generates biomass from non-living entities." []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 property_value: editor_note "This should be axiomatised and made a defined class: any trophic interaction which has as input some inorganic material (non-living) that is the only source of carbon or reducing equivalents source is a autotrophic process." xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -5378,7 +5378,7 @@ id: ECOCORE:00000011
 name: heterotrophy
 def: "A trophic interaction process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead." []
 synonym: "consumption" EXACT []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 property_value: editor_note "This should be axiomatised and made a defined class: any trophic interaction which has as input some organic material (living or dead) that is the only source of carbon or reducing equivalents source is a autotrophic process." xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -5404,7 +5404,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 id: ECOCORE:00000014
 name: lithotrophy
 def: "A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Lithotroph"}
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
 [Term]
@@ -5436,7 +5436,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 id: ECOCORE:00000017
 name: phototrophy
 def: "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Phototroph"}
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 relationship: has_part GO:0015979 ! photosynthesis
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
@@ -6207,9 +6207,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000121
 name: photoorganoautotroph
 def: "A photoautotroph which is capable of using a biogenic organic compound as an electron donor." []
-is_a: ECOCORE:00000129 ! chemoautotroph
 is_a: ECOCORE:00000130 ! photoautotroph
-is_a: ECOCORE:00000132 ! chemoheterotroph
 relationship: capable_of ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -6225,14 +6223,15 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000123
 name: chemoorganoautotroph
 def: "A chemoautotroph which is capable of using a biogenic organic compound as an electron donor." []
-is_a: ECOCORE:00000121 ! photoorganoautotroph
-is_a: ECOCORE:00000127 ! chemoorganoheterotroph
+is_a: ECOCORE:00000129 ! chemoautotroph
+relationship: capable_of GO:0062097 ! chemosynthesis
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
 id: ECOCORE:00000124
 name: chemolithoautotroph
 def: "A chemoautotroph which is capable of using an abiogenic organic compound as an electron donor." []
+is_a: ECOCORE:00000123 ! chemoorganoautotroph
 is_a: ECOCORE:00000128 ! chemolithoheterotroph
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -6254,17 +6253,13 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000127
 name: chemoorganoheterotroph
 def: "A chemoheterotroph which is capable of using a biogenic organic compound as an electron donor." []
-is_a: ECOCORE:00000129 ! chemoautotroph
-is_a: ECOCORE:00000130 ! photoautotroph
 is_a: ECOCORE:00000132 ! chemoheterotroph
-relationship: capable_of ECOCORE:00000162 ! organotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
 id: ECOCORE:00000128
 name: chemolithoheterotroph
 def: "A chemoheterotroph which is capable of using an abiogenic organic compound as an electron donor." []
-is_a: ECOCORE:00000129 ! chemoautotroph
 is_a: ECOCORE:00000132 ! chemoheterotroph
 relationship: capable_of ECOCORE:00000014 ! lithotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -6273,9 +6268,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000129
 name: chemoautotroph
 def: "An autotroph which is capable of obtaining energy from the bonds in a chemical compound." []
-is_a: ECOCORE:00000010 ! heterotroph
 is_a: ECOCORE:00000023 ! autotroph
-relationship: capable_of ECOCORE:00000163 ! chemotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6298,8 +6291,6 @@ id: ECOCORE:00000132
 name: chemoheterotroph
 def: "A heterotroph which is capable of obtaining energy from the bonds in a chemical compound." []
 is_a: ECOCORE:00000010 ! heterotroph
-is_a: ECOCORE:00000023 ! autotroph
-relationship: capable_of ECOCORE:00000163 ! chemotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
@@ -6531,13 +6522,13 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000162
 name: organotrophy
 def: "A process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 
 [Term]
 id: ECOCORE:00000163
 name: chemotrophy
 def: "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules." []
-is_a: ECOCORE:00000008 ! trophic interaction
+is_a: ECOCORE:00000008 ! trophic process
 
 [Term]
 id: ECOCORE:00000164
@@ -15579,6 +15570,28 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:st
 created_by: George Gkoutos
 
 [Term]
+id: NBO:0000087
+name: antipredation behavior
+namespace: behavior_ontology
+def: "\"Behavior related to defence against predation or predators.\" [NBO:GVG]" []
+synonym: "antipredator behavior" EXACT []
+is_a: NBO:0000636 ! protective behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000088
+name: acute stress response
+namespace: behavior_ontology
+def: "\"Behavior related to the preparation of the body to \\\"fight\\\" or \\\"flee\\\" from perceived attack, harm or threat.\" [NBO:GVG]" []
+synonym: "fight-or-flight response" EXACT []
+synonym: "fight-or-flight-or-freeze response" EXACT []
+is_a: NBO:0000087 ! antipredation behavior
+is_a: NBO:0000470 ! behavioral alarm
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:string
+created_by: George Gkoutos
+
+[Term]
 id: NBO:0000089
 name: predator behavior
 namespace: behavior_ontology
@@ -15620,6 +15633,37 @@ synonym: "agonism" EXACT []
 is_a: NBO:0000003 ! emotional behavior
 is_a: NBO:0000011 ! social behavior
 property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T11:42:15Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000122
+name: submissive behavior
+namespace: behavior_ontology
+def: "Any behavior that tends to prevent further or future attack, often by signalling a willingness to yield or surrender [NBO:AC]" []
+synonym: "submissive behaviour" EXACT []
+is_a: NBO:0000121 ! agonistic behavior
+disjoint_from: NBO:0000127 ! retreat behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T11:43:11Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000127
+name: retreat behavior
+namespace: behavior_ontology
+def: "Behavior by which an animal removes itself spatially from an agonistic encounter in which it is not the winner [NBO:AC]" []
+synonym: "retreat" EXACT []
+synonym: "retreat behaviour" EXACT []
+is_a: NBO:0000121 ! agonistic behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T11:49:03Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000128
+name: irritability behavior
+namespace: behavior_ontology
+def: "\"Behavior characterized by a quick excitability to annoyance, impatience, or anger.\" [NBO:GVG]" []
+is_a: NBO:0000121 ! agonistic behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-03-31T12:16:00Z xsd:string
 created_by: George Gkoutos
 
 [Term]
@@ -15734,6 +15778,17 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-04T09:25:04Z xsd:st
 created_by: George Gkoutos
 
 [Term]
+id: NBO:0000296
+name: conciliation behavior
+namespace: behavior_ontology
+def: "Behavior that facilitates the restoration of normal interactions between parties that recently engaged in a conflict.[NBO:AC]" []
+synonym: "reconciliation" EXACT []
+synonym: "reconciliation behavior" EXACT []
+is_a: NBO:0000121 ! agonistic behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-19T09:50:09Z xsd:string
+created_by: George Gkoutos
+
+[Term]
 id: NBO:0000313
 name: behavior process
 namespace: behavior_ontology
@@ -15743,6 +15798,34 @@ synonym: "behavior" EXACT []
 synonym: "behaviour" EXACT []
 xref: GO:0007610
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-05T09:53:10Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000469
+name: stress related behavior
+namespace: behavior_ontology
+def: "\"Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.\" [wikipedia:Stress_(biological)]" []
+comment: It refers to the consequence of the failure of an organism to respond adequately to mental, emotional or physical demands, whether actual or imagined.
+is_a: NBO:0000313 ! behavior process
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T01:52:36Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000470
+name: behavioral alarm
+namespace: behavior_ontology
+def: "\"Behavior related to the identification or realization of a threat or a stressor.\" [wikipedia:Stress_(biological)]" []
+is_a: NBO:0000469 ! stress related behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T01:55:58Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000471
+name: predator avoidance behavior
+namespace: behavior_ontology
+is_a: NBO:0000088 ! acute stress response
+is_a: NBO:0000127 ! retreat behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T02:00:36Z xsd:string
 created_by: George Gkoutos
 
 [Term]
@@ -15795,6 +15878,26 @@ synonym: "territorial aggressive behaviour" EXACT []
 xref: GO:0002124
 is_a: NBO:0000105 ! aggressive behavior towards animals
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-19T02:02:11Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000635
+name: avoidance behavior
+namespace: behavior_ontology
+def: "\"Behavior related to the activity seen in animals exposed to adverse stimuli, in which the tendency to act defensively is stronger than the tendency to attack.\" [web:http\\://www.britannica.com/EBchecked/topic/45916/avoidance-behavior]" []
+is_a: NBO:0000233 ! motivation behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-19T03:36:00Z xsd:string
+created_by: George Gkoutos
+
+[Term]
+id: NBO:0000636
+name: protective behavior
+namespace: behavior_ontology
+def: "\"Behavior related to the activity seen in animals exposed to potential danger in which they exhibit the tendency to act defensively.\" [NBO:SD]" []
+synonym: "defense" EXACT []
+synonym: "defensive behaviour" EXACT []
+is_a: NBO:0000635 ! avoidance behavior
+property_value: http://purl.org/dc/elements/1.1/date 2011-04-19T03:49:55Z xsd:string
 created_by: George Gkoutos
 
 [Term]
@@ -15933,10 +16036,32 @@ property_value: http://purl.org/dc/elements/1.1/date 2019-08-04T13:51:02Z xsd:st
 created_by: https://orcid.org/0000-0002-7356-1779
 
 [Term]
+id: NBO:0020018
+name: kill
+def: "Behavior in which one animal causes the death of another." []
+synonym: "killing" EXACT []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020033
+name: contact aggression
+def: "Agonistic behavior involving direct physical contact including (but not limited to) biting, kicking, grabbing." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
 id: NBO:0020048
 name: facilitating oviposition
 def: "Deposition of eggs either into the medium, or onto a substrate." []
 is_a: NBO:0000034 ! sexual activity
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020063
+name: coercion
+def: "Forcible alteration of behavior of one animal by another." []
+is_a: NBO:0000121 ! agonistic behavior
 created_by: Luke Slater
 
 [Term]
@@ -15954,6 +16079,13 @@ is_a: NBO:0000010 ! reproductive behavior
 created_by: Luke Slater
 
 [Term]
+id: NBO:0020093
+name: assessment behavior
+def: "A behavior on the part of one individual associated with evaluating the fighting ability or correlates of fighting ability of a potential opponent." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
 id: NBO:0020098
 name: courtship begging
 def: "Behavior by one animals soliciting food provision by a potential mate." []
@@ -15965,6 +16097,65 @@ id: NBO:0020101
 name: sexual cannibalism
 def: "Consumption of one member of a mating pair, usually the male, usually after the mating." []
 is_a: NBO:0000077 ! courtship behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020108
+name: threat
+def: "Behavior that signifies hostility and predicts an increased probability of attack." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020111
+name: injure
+def: "Behavior in which one animal causes bodily damage to another." []
+synonym: "injuring" EXACT []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020112
+name: agonistic buffering
+def: "Carrying or manipulation of infants or equivalent items to reduce chances of aggression on carrier by other animals." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020141
+name: agonistic chase
+def: "Chasing of one animal by another during an agonistic conflict." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020145
+name: agonistic alarm
+def: "Alarm behavior triggered by agonistic actions or postures" []
+def: "Alarm behavior triggered by agonistic actions or postures." []
+is_a: NBO:0000121 ! agonistic behavior
+is_a: NBO:0000470 ! behavioral alarm
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020182
+name: escalation
+def: "Increasing intensity of directed agonistic behavior." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020220
+name: exclusion
+def: "Behavior that serves to exlude an animal from a group." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020239
+name: triumph
+def: "Display behavior by the winner of a prior agonistic contest." []
+is_a: NBO:0000121 ! agonistic behavior
 created_by: Luke Slater
 
 [Term]
@@ -15982,6 +16173,13 @@ is_a: NBO:0000010 ! reproductive behavior
 created_by: Luke Slater
 
 [Term]
+id: NBO:0020255
+name: displacement behavior
+def: "An acitvity that seems irrelevant to its behavioral context to a human observer and often occurs when its performer is in a conflict situation." []
+is_a: NBO:0000121 ! agonistic behavior
+created_by: Luke Slater
+
+[Term]
 id: NBO:0020264
 name: courtship feeding
 def: "Provision of food to a potential mate" []
@@ -15993,6 +16191,13 @@ id: NBO:0020273
 name: breeding site selection
 def: "Actions resulting in establishment or use of one locale for reproductive activity." []
 is_a: NBO:0000014 ! mating behavior
+created_by: Luke Slater
+
+[Term]
+id: NBO:0020279
+name: appeasement
+def: "Behaviors that appear to signifiy lack of hostility and to reduce chances of attack." []
+is_a: NBO:0000121 ! agonistic behavior
 created_by: Luke Slater
 
 [Term]
