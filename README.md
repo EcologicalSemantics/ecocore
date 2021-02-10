@@ -15,9 +15,9 @@ Forum | https://groups.google.com/d/forum/ecology-core-ontology
 Issue tracker link | https://github.com/EcologicalSemantics/ecocore/issues 
  
 ## About
-This ontology aims to provide core semantics for ecological entities, such as ecological functions (for predators, prey, etc), food webs, and ecological interactions. Through ECOCORE, we look forward to creating a semantic rallying point for the ecological community, a need expressed repeatedly over the past few years at workshops focused on ecological, environmental, and population-based semantics.  We're working closely with the [Environment Ontology (ENVO)](http://www.obofoundry.org/ontology/envo.html), [Population and Community Ontology (PCO)](http://www.obofoundry.org/ontology/pco.html), the [Ontology of Biological Attributes (OBA)](www.obofoundry.org/ontology/oba.html), and the [Neuro Behavior Ontology (NBO)](http://www.obofoundry.org/ontology/nbo.html) to build a robust and interoperating resource. 
+This ontology aims to provide core terms for ecological entities, such as ecological functions (for predators, prey, etc), food webs, and ecological interactions. Through ECOCORE, we look forward to creating a semantic rallying point for the ecological community, a need expressed repeatedly over the past few years at workshops focused on ecological, environmental, and population-based semantics.  We're working closely with the [Environment Ontology (ENVO)](http://www.obofoundry.org/ontology/envo.html), [Population and Community Ontology (PCO)](http://www.obofoundry.org/ontology/pco.html), the [Ontology of Biological Attributes (OBA)](www.obofoundry.org/ontology/oba.html), and the [Neuro Behavior Ontology (NBO)](http://www.obofoundry.org/ontology/nbo.html) to build a robust and interoperating resource. 
 
-Naturally, the ontology is importing existing semantics where relevant, and has begun to channel requests for improvement to the hosting ontologies to promote collaboration.
+Naturally, the ontology is importing existing terms where relevant, and has begun to channel requests for improvement to the hosting ontologies to promote collaboration.
 
 Working in ecological semantics? Please join ECOCORE's efforts by sending an e-mail [via this link](mailto:ecology-core-ontology@googlegroups.com). 
 
