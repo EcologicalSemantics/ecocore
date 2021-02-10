@@ -195,6 +195,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000177>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000180>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000181>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 ############################
@@ -1562,7 +1563,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000177> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000178> (obligate anaerobe)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000178> "an anaerobe that is killed by normal atmospheric concentrations of oxygen")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000178> "an anaerobe that cannot grow in the presence of oxygen")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000178> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000178> "obligate anaerobe")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000178> <http://purl.obolibrary.org/obo/ECOCORE_00000172>)
@@ -1576,11 +1577,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000179> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000180> (microaerophile)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000180> "an aerobe that requires oxygen to survive, but at levels lower than what is present in the atmosphere")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000180> "an aerobe that can grow at oxygen levels lower than what is present in the atmosphere")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000180> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000180> "microaerophilic organism")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000180> "microaerophile")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000180> <http://purl.obolibrary.org/obo/ECOCORE_00000173>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000181> (aerotolerant anaerobe)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000181> "an anaerobe that can tolerate low levels of oxygen")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000181> "aerotolerant anaerobe")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000181> <http://purl.obolibrary.org/obo/ECOCORE_00000172>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_01000063> (planktonic material)
 
