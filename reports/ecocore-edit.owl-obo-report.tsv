@@ -1,0 +1,55 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	missing_label	planktonic material	label	
+ERROR	missing_label	hermaphroditic organism	label	
+ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/ecocore.owl	dc11:description	
+ERROR	multiple_definitions	sequentially hermaphroditic	definition	Sequential hermaphroditism occurs when the individual changes sex at some point in its life.
+ERROR	multiple_definitions	sequentially hermaphroditic	definition	a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life
+ERROR	missing_ontology_license	http://purl.obolibrary.org/obo/ecocore.owl	dc:license	
+ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/ecocore.owl	dc11:title	
+ERROR	multiple_labels	secondary consumer	label	A predator that eats primary consumers or herbivores
+ERROR	multiple_labels	secondary consumer	label	secondary consumer
+WARN	missing_definition	crepuscular	definition	
+WARN	missing_definition	secondary consumer	definition	
+WARN	missing_definition	planktonic material	definition	
+WARN	missing_definition	editor preferred term	definition	
+WARN	missing_definition	example of usage	definition	
+WARN	missing_definition	has curation status	definition	
+WARN	missing_definition	definition	definition	
+WARN	missing_definition	editor note	definition	
+WARN	missing_definition	term editor	definition	
+WARN	missing_definition	alternative term	definition	
+WARN	missing_definition	definition source	definition	
+WARN	missing_definition	has axiom label	definition	
+WARN	missing_definition	temporal interpretation	definition	
+WARN	missing_definition	is a defining property chain axiom	definition	
+WARN	missing_definition	is a defining property chain axiom where second argument is reflexive	definition	
+WARN	missing_definition	hermaphroditic organism	definition	
+INFO	lowercase_definition	hermaphroditic	definition	a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes at the same time
+INFO	lowercase_definition	protogynous	definition	a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to male reproductive organs
+INFO	lowercase_definition	symbiotroph	definition	heterotroph that acquires nutrition from a symbiont
+INFO	lowercase_definition	lecithotrophic larva	definition	anatomical entity that comprises the organism in a distinct juvenile form that is provided with a source of nutrition, usually a yolk sac, to use before metamorphosing into an adult
+INFO	lowercase_definition	microphytobenthos	definition	a community of microscopic, unicellular eukaryotic algae and the prokaryotic Cyanobacteria which live on sediment surfaces
+INFO	lowercase_definition	decomposer	definition	heterotroph that obtains nutrition by breaking down dead or decaying organisms or other organic matter
+INFO	lowercase_definition	promiscuity	definition	a member of one sex mates with any member of the opposite sex
+INFO	lowercase_definition	apex predator	definition	a predator residing at the top of a food chain upon which no other creatures prey.
+INFO	lowercase_definition	ambush predator	definition	a predator that captures or traps prey by stealth or strategy, rather than by speed or strength.
+INFO	lowercase_definition	litter transformer	definition	a detritivore that consumes leaf litter
+INFO	lowercase_definition	bacterivore	definition	a heterotroph that consumes bacteria
+INFO	lowercase_definition	protandrous	definition	a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to female reproductive organs
+INFO	lowercase_definition	protogynous hermaphroditism	definition	a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to being a hermaphrodite
+INFO	lowercase_definition	protandrous hermaphroditism	definition	a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to being a hermaphrodite
+INFO	lowercase_definition	sequentially hermaphroditic	definition	a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life
+INFO	lowercase_definition	leaf miner	definition	a folivore that lives in and eats the leaf tissue of plants
+INFO	lowercase_definition	herbivorous grazer	definition	an herbivore that primarily consumes grasses, leaves, and other soft plant material
+INFO	lowercase_definition	microcarnivore	definition	a carnivore that primarily eats organisms less than 1 cm in their longest dimension
+INFO	lowercase_definition	sulfur reducer	definition	an organism that uses inorganic sulfur compounds as a terminal electron acceptor during cellular respiration
+INFO	lowercase_definition	anaerobe	definition	an organism that does not require oxygen for growth
+INFO	lowercase_definition	aerobe	definition	an organism that can survive and grow in an oxygenated environment
+INFO	lowercase_definition	prototroph	definition	an organism capable of producing all amino acids required for its growth
+INFO	lowercase_definition	auxotroph	definition	an organism that is unable to synthesize a particular organic compound required for its growth
+INFO	lowercase_definition	coprophage	definition	a decomposer which obtains nutrition by consuming feces
+INFO	lowercase_definition	facultative anaerobe	definition	an anaerobe that makes ATP by aerobic respiration if oxygen is present, but is capable of switching to fermentation if oxygen is absent.
+INFO	lowercase_definition	obligate anaerobe	definition	an anaerobe that cannot grow in the presence of oxygen
+INFO	lowercase_definition	obligate aerobe	definition	an aerobe that requires oxygen to grow
+INFO	lowercase_definition	microaerophile	definition	an aerobe that can grow at oxygen levels lower than what is present in the atmosphere
+INFO	lowercase_definition	aerotolerant anaerobe	definition	an anaerobe that can tolerate low levels of oxygen

@@ -1,7 +1,9 @@
 format-version: 1.2
-data-version: ecocore/releases/2020-12-18/ecocore-base.owl
+data-version: ecocore/releases/2021-02-17/ecocore-base.owl
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: owl:versionInfo "2021-02-17" xsd:string
 
 [Term]
 id: ECOCORE:00000001
@@ -1308,10 +1310,40 @@ is_a: ECOCORE:00000054 ! decomposer
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
-id: ECOCORE:9999999
-name: abnormal Entity (BFO)
-def: "Abnormality of Entity (BFO)." []
-synonym: "abnormality of Entity (BFO)" EXACT []
+id: ECOCORE:00000177
+name: facultative anaerobe
+def: "an anaerobe that makes ATP by aerobic respiration if oxygen is present, but is capable of switching to fermentation if oxygen is absent." []
+synonym: "facultative anaerobic organism" EXACT []
+is_a: ECOCORE:00000172 ! anaerobe
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000178
+name: obligate anaerobe
+def: "an anaerobe that cannot grow in the presence of oxygen" []
+is_a: ECOCORE:00000172 ! anaerobe
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000179
+name: obligate aerobe
+def: "an aerobe that requires oxygen to grow" []
+is_a: ECOCORE:00000173 ! aerobe
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000180
+name: microaerophile
+def: "an aerobe that can grow at oxygen levels lower than what is present in the atmosphere" []
+synonym: "microaerophilic organism" EXACT []
+is_a: ECOCORE:00000173 ! aerobe
+property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000181
+name: aerotolerant anaerobe
+def: "an anaerobe that can tolerate low levels of oxygen" []
+is_a: ECOCORE:00000172 ! anaerobe
 
 [Term]
 id: ENVO:01000063

@@ -1,0 +1,888 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	muscle of iris	textual definition	.
+ERROR	duplicate_definition	early pharyngeal endoderm	textual definition	.
+ERROR	duplicate_definition	layer of sclera	textual definition	.
+ERROR	duplicate_definition	transitively anteriorly connected to	textual definition	.
+ERROR	multiple_equivalent_classes	blastula	owl:equivalentClass	d70904b4-c450-41f8-a968-aaaf3d571ee5genid3448
+ERROR	multiple_equivalent_classes	blastula	owl:equivalentClass	d70904b4-c450-41f8-a968-aaaf3d571ee5genid3452
+ERROR	multiple_equivalent_classes	neurula embryo	owl:equivalentClass	d70904b4-c450-41f8-a968-aaaf3d571ee5genid7553
+ERROR	multiple_equivalent_classes	neurula embryo	owl:equivalentClass	d70904b4-c450-41f8-a968-aaaf3d571ee5genid7557
+ERROR	multiple_equivalent_classes	gastrula	owl:equivalentClass	d70904b4-c450-41f8-a968-aaaf3d571ee5genid7890
+ERROR	multiple_equivalent_classes	gastrula	owl:equivalentClass	d70904b4-c450-41f8-a968-aaaf3d571ee5genid7894
+ERROR	deprecated_property_reference	obsolete has active participant	owl:inverseOf	<http://purl.obolibrary.org/obo/RO_0002217>
+ERROR	missing_label	http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled	label	
+ERROR	missing_label	rdf:PlainLiteral	label	
+ERROR	missing_label	xsd:boolean	label	
+ERROR	missing_label	xsd:string	label	
+ERROR	deprecated_class_reference	obsolete cell part	rdfs:subClassOf	<http://purl.obolibrary.org/obo/GO_0005634>
+ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/ecocore.owl	dc11:description	
+ERROR	duplicate_label	root	label	root
+ERROR	duplicate_label	root	label	root
+ERROR	duplicate_label	reproductive behavior	label	reproductive behavior
+ERROR	duplicate_label	reproductive behavior	label	reproductive behavior
+ERROR	duplicate_label	primordium	label	primordium
+ERROR	duplicate_label	primordium	label	primordium
+ERROR	duplicate_label	multicellular anatomical structure	label	multicellular anatomical structure
+ERROR	duplicate_label	multicellular anatomical structure	label	multicellular anatomical structure
+ERROR	duplicate_label	immaterial anatomical entity	label	immaterial anatomical entity
+ERROR	duplicate_label	immaterial anatomical entity	label	immaterial anatomical entity
+ERROR	duplicate_label	feeding behavior	label	feeding behavior
+ERROR	duplicate_label	feeding behavior	label	feeding behavior
+ERROR	duplicate_label	existence starts and ends during	label	existence starts and ends during
+ERROR	duplicate_label	existence starts and ends during	label	existence starts and ends during
+ERROR	duplicate_label	cell part	label	cell part@en
+ERROR	duplicate_label	obsolete cell part	label	cell part@en
+ERROR	multiple_definitions	independent continuant	textual definition	A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.@en
+ERROR	multiple_definitions	independent continuant	textual definition	<b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en>
+ERROR	multiple_definitions	process	textual definition	An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t.@en
+ERROR	multiple_definitions	process	textual definition	<p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en>
+ERROR	multiple_definitions	specifically dependent continuant	textual definition	A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.@en
+ERROR	multiple_definitions	specifically dependent continuant	textual definition	<b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1 i &lt; j n, ci and cj share no common parts, are such that for each 1 i n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en>
+ERROR	multiple_definitions	specifically dependent continuant	textual definition	<b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en>
+ERROR	multiple_definitions	generically dependent continuant	textual definition	A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.@en
+ERROR	multiple_definitions	generically dependent continuant	textual definition	<b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en>
+ERROR	multiple_definitions	has_part	textual definition	<Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.>
+ERROR	multiple_definitions	has_part	textual definition	a core relation that holds between a whole and its part@en
+ERROR	multiple_definitions	preceded_by	textual definition	<The assertion P preceded_by P1 tells us something about Ps in general: that is, it tells us something about what happened earlier, given what we know about what happened later. Thus it does not provide information pointing in the opposite direction, concerning instances of P1 in general; that is, that each is such as to be succeeded by some instance of P.>
+ERROR	multiple_definitions	preceded_by	textual definition	<X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)>
+ERROR	multiple_definitions	preceded_by	textual definition	<x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+ERROR	multiple_definitions	food component	textual definition	A physiological role played by any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.
+ERROR	multiple_definitions	food component	textual definition	Any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants.
+ERROR	multiple_definitions	sequentially hermaphroditic	textual definition	Sequential hermaphroditism occurs when the individual changes sex at some point in its life.
+ERROR	multiple_definitions	sequentially hermaphroditic	textual definition	a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life
+ERROR	multiple_definitions	data item	textual definition	An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en
+ERROR	multiple_definitions	data item	textual definition	a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en
+ERROR	multiple_definitions	textual definition	textual definition	The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	textual definition	textual definition	The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.@en
+ERROR	multiple_definitions	definition source	textual definition	<Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en>
+ERROR	multiple_definitions	definition source	textual definition	<formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en>
+ERROR	multiple_definitions	agonistic alarm	textual definition	Alarm behavior triggered by agonistic actions or postures@en
+ERROR	multiple_definitions	agonistic alarm	textual definition	Alarm behavior triggered by agonistic actions or postures.@en
+ERROR	multiple_definitions	species as a collection of organisms	textual definition	A collection of organisms that has as members every organism of given species and no organisms of any other species.@en
+ERROR	multiple_definitions	species as a collection of organisms	textual definition	A collection of organisms that has as parts every organism of a species and no organisms of any other species.@en
+ERROR	multiple_definitions	overlaps	textual definition	A overlaps B if they share some part in common.
+ERROR	multiple_definitions	overlaps	textual definition	x overlaps y if and only if there exists some z such that x has part z and z part of y
+ERROR	multiple_definitions	connected to	textual definition	<Binary relationship: x connected_to y if and only if there exists some z such that z connects x and y in a ternary connected_to(x,y,z) relationship.>
+ERROR	multiple_definitions	connected to	textual definition	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b
+ERROR	multiple_definitions	connects	textual definition	<Binary relationship: z connects x if and only if there exists some y such that z connects x and y in a ternary connected_to(x,y,z) relationship.>
+ERROR	multiple_definitions	connects	textual definition	c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.
+ERROR	multiple_definitions	regulates	textual definition	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+ERROR	multiple_definitions	regulates	textual definition	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+ERROR	multiple_definitions	surrounded by	textual definition	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x
+ERROR	multiple_definitions	surrounded by	textual definition	<x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y>
+ERROR	multiple_definitions	adjacent_to	textual definition	x adjacent to y if and only if x and y share a boundary.
+ERROR	multiple_definitions	adjacent_to	textual definition	<x adjacent_to y iff: x and y share a boundary>
+ERROR	multiple_definitions	surrounds	textual definition	inverse of surrounded by
+ERROR	multiple_definitions	surrounds	textual definition	inverse of surrounded_by
+ERROR	multiple_definitions	starts	textual definition	Relation between occurrents, shares a start boundary with.
+ERROR	multiple_definitions	starts	textual definition	inverse of starts with
+ERROR	multiple_definitions	ends	textual definition	Relation between occurrents, shares an end boundary with.
+ERROR	multiple_definitions	ends	textual definition	inverse of ends with
+ERROR	multiple_definitions	developmentally_induced_by	textual definition	<t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.>
+ERROR	multiple_definitions	developmentally_induced_by	textual definition	<t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor anatomical structure type T to T', where T' develops_from T>
+ERROR	multiple_definitions	developmentally preceded by	textual definition	<Candidate definition: x developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p>
+ERROR	multiple_definitions	developmentally preceded by	textual definition	<X developmentally related to y if and only if there exists some developmental process (GO:0032502) p such that x and y both participates in p, and x is the output of p and y is the input of p.>
+ERROR	multiple_definitions	has potential to developmentally contribute to	textual definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y
+ERROR	multiple_definitions	has potential to developmentally contribute to	textual definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en
+ERROR	multiple_definitions	has potential to develop into	textual definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y
+ERROR	multiple_definitions	has potential to develop into	textual definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en
+ERROR	multiple_definitions	has potential to directly develop into	textual definition	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y
+ERROR	multiple_definitions	has potential to directly develop into	textual definition	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en
+ERROR	multiple_definitions	directly regulates activity of	textual definition	Holds between molecular entities A and B where A can physically interact with B and in doing so regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.
+ERROR	multiple_definitions	directly regulates activity of	textual definition	"The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.
+
+A and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B."
+ERROR	multiple_definitions	directly negatively regulates activity of	textual definition	Holds between molecular entities A and B where A can physically interact with B and in doing so negatively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B.
+ERROR	multiple_definitions	directly negatively regulates activity of	textual definition	"The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. 
+For example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B."
+ERROR	multiple_definitions	directly positively regulates activity of	textual definition	Holds between molecular entities A and B where A can physically interact with B and in doing so positively regulates a process that B is capable of.  For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B.
+ERROR	multiple_definitions	directly positively regulates activity of	textual definition	"The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. 
+For example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B."
+ERROR	multiple_definitions	composed primarily of	textual definition	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.
+ERROR	multiple_definitions	composed primarily of	textual definition	<x composed_primarily_of y iff: more than half of the mass of x is made from parts of y>
+ERROR	multiple_definitions	existence starts during	textual definition	Relation between continuant c and occurrent s, such that every instance of c comes into existing during some s.
+ERROR	multiple_definitions	existence starts during	textual definition	<x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) >= α(y) & α(x) <= ω(y).>
+ERROR	multiple_definitions	existence starts with	textual definition	Relation between continuant and occurrent, such that c comes into existence at the start of p.
+ERROR	multiple_definitions	existence starts with	textual definition	<x starts ends with y if and only if the time point at which x starts is equivalent to the time point at which y starts. Formally: x existence starts with y iff α(x) = α(y).>
+ERROR	multiple_definitions	existence ends during	textual definition	Relation between continuant c and occurrent s, such that every instance of c ceases to exist during some s, if it does not die prematurely.
+ERROR	multiple_definitions	existence ends during	textual definition	<x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) <= ω(y) and ω(x) >= α(y).>
+ERROR	multiple_definitions	existence ends with	textual definition	Relation between continuant and occurrent, such that c ceases to exist at the end of p.
+ERROR	multiple_definitions	existence ends with	textual definition	<x existence ends with y if and only if the time point at which x ends is equivalent to the time point at which y ends. Formally: x existence ends with y iff ω(x) = ω(y).>
+ERROR	multiple_definitions	has skeleton	textual definition	A relation between a segment or subdivision of an organism and the maximal subdivision of material entities that provides structural support for that segment or subdivision.
+ERROR	multiple_definitions	has skeleton	textual definition	A relation between a subdivision of an organism and the single subdivision of skeleton that provides structural support for that subdivision.
+ERROR	multiple_definitions	causally influences	textual definition	Holds between materal entities a and b if the activity of a is causally upstream of the activity of b, or causally upstream of a an activity that modifies b
+ERROR	multiple_definitions	causally influences	textual definition	The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size).
+ERROR	multiple_definitions	mesenchyme	textual definition	Portion of tissue composed of mesenchymal cells (motile cells that develop from epthelia via an epithelial to mesenchymal transition) and surrounding extracellular material. Mesenchyme has different embryological origins in different metazoan taxa - in many invertebrates it derives in whole or part from ectoderm. In vertebrates it derives largely from mesoderm, and sometimes the terms are used interchangeably, e.g. lateral plate mesoderm/mesenchyme.
+ERROR	multiple_definitions	mesenchyme	textual definition	Portion of tissue consisting of loosely organized undifferentiated mesodermal cells that give rise to such structures as connective tissues, blood, lymphatics, bone, and cartilage[XAO]. A mesh-like cell arrangement, less compact than an epithelium[ZFA]. The part of the embryonic mesoderm, consisting of loosely packed, unspecialized cells set in a gelatinous ground substance, from which connective tissue, bone, cartilage, and the circulatory and lymphatic systems develop[BTO].
+ERROR	missing_ontology_license	http://purl.obolibrary.org/obo/ecocore.owl	dc:license	
+ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/ecocore.owl	dc11:title	
+ERROR	multiple_labels	fiat object part	label	fiat object@en
+ERROR	multiple_labels	fiat object part	label	fiat object part@en
+ERROR	multiple_labels	part_of	label	part of
+ERROR	multiple_labels	part_of	label	part of@en
+ERROR	multiple_labels	part_of	label	part_of
+ERROR	multiple_labels	has_part	label	has part
+ERROR	multiple_labels	has_part	label	has part@en
+ERROR	multiple_labels	has_part	label	has_part
+ERROR	multiple_labels	preceded_by	label	preceded by@en
+ERROR	multiple_labels	preceded_by	label	preceded_by
+ERROR	multiple_labels	precedes	label	precedes
+ERROR	multiple_labels	precedes	label	precedes@en
+ERROR	multiple_labels	occurs in	label	occurs in
+ERROR	multiple_labels	occurs in	label	occurs in@en
+ERROR	multiple_labels	contains process	label	contains process
+ERROR	multiple_labels	contains process	label	contains process@en
+ERROR	multiple_labels	secondary consumer	label	A predator that eats primary consumers or herbivores
+ERROR	multiple_labels	secondary consumer	label	secondary consumer
+ERROR	multiple_labels	nucleus	label	nucleus
+ERROR	multiple_labels	nucleus	label	nucleus@en
+ERROR	multiple_labels	editor preferred label	label	editor preferred label
+ERROR	multiple_labels	editor preferred label	label	editor preferred label@en
+ERROR	multiple_labels	editor preferred label	label	editor preferred term
+ERROR	multiple_labels	editor preferred label	label	editor preferred term@en
+ERROR	multiple_labels	editor preferred label	label	editor preferred term~editor preferred label
+ERROR	multiple_labels	example of usage	label	example of usage
+ERROR	multiple_labels	example of usage	label	example of usage@en
+ERROR	multiple_labels	has curation status	label	has curation status
+ERROR	multiple_labels	has curation status	label	has curation status@en
+ERROR	multiple_labels	textual definition	label	definition
+ERROR	multiple_labels	textual definition	label	definition@en
+ERROR	multiple_labels	textual definition	label	textual definition
+ERROR	multiple_labels	editor note	label	editor note
+ERROR	multiple_labels	editor note	label	editor note@en
+ERROR	multiple_labels	term editor	label	term editor
+ERROR	multiple_labels	term editor	label	term editor@en
+ERROR	multiple_labels	alternative term	label	alternative term
+ERROR	multiple_labels	alternative term	label	alternative term@en
+ERROR	multiple_labels	definition source	label	definition source
+ERROR	multiple_labels	definition source	label	definition source@en
+ERROR	multiple_labels	has axiom label	label	has axiom label
+ERROR	multiple_labels	has axiom label	label	has axiom label@en
+ERROR	multiple_labels	Theria <mammals>	label	Theria <Mammalia>
+ERROR	multiple_labels	Theria <mammals>	label	Theria <mammals>
+ERROR	multiple_labels	Vertebrata <Metazoa>	label	Vertebrata <Metazoa>
+ERROR	multiple_labels	Vertebrata <Metazoa>	label	Vertebrata <vertebrates>
+ERROR	multiple_labels	Gnathostomata <vertebrate>	label	Gnathostomata <vertebrate>
+ERROR	multiple_labels	Gnathostomata <vertebrate>	label	Gnathostomata <vertebrates>
+ERROR	multiple_labels	Craniata <chordata>	label	Craniata <chordata>
+ERROR	multiple_labels	Craniata <chordata>	label	Craniata <chordates>
+ERROR	multiple_labels	bearer of	label	bearer of
+ERROR	multiple_labels	bearer of	label	bearer of@en
+ERROR	multiple_labels	participates in	label	participates in@en
+ERROR	multiple_labels	participates in	label	participates_in
+ERROR	multiple_labels	has participant	label	has participant@en
+ERROR	multiple_labels	has participant	label	has_participant
+ERROR	multiple_labels	location_of	label	location of@en
+ERROR	multiple_labels	location_of	label	location_of
+ERROR	multiple_labels	contains	label	contains
+ERROR	multiple_labels	contains	label	contains@en
+ERROR	multiple_labels	located in	label	located in@en
+ERROR	multiple_labels	located in	label	located_in
+ERROR	multiple_labels	temporal interpretation	label	temporal interpretation
+ERROR	multiple_labels	temporal interpretation	label	temporal interpretation@en
+ERROR	multiple_labels	boundary of	label	2D boundary of@en
+ERROR	multiple_labels	boundary of	label	boundary of
+ERROR	multiple_labels	has 2D boundary	label	has 2D boundary@en
+ERROR	multiple_labels	has 2D boundary	label	has boundary
+ERROR	multiple_labels	bounding layer of	label	bounding layer of
+ERROR	multiple_labels	bounding layer of	label	bounding layer of@en
+ERROR	multiple_labels	immediately preceded by	label	immediately preceded by@en
+ERROR	multiple_labels	immediately preceded by	label	immediately_preceded_by
+ERROR	multiple_labels	overlaps	label	overlaps
+ERROR	multiple_labels	overlaps	label	overlaps@en
+ERROR	multiple_labels	continuous_with	label	continuous with@en
+ERROR	multiple_labels	continuous_with	label	continuous_with
+ERROR	multiple_labels	only_in_taxon	label	only in taxon
+ERROR	multiple_labels	only_in_taxon	label	only_in_taxon
+ERROR	multiple_labels	connected to	label	connected to
+ERROR	multiple_labels	connected to	label	connected to@en
+ERROR	multiple_labels	connects	label	connects
+ERROR	multiple_labels	connects	label	connects@en
+ERROR	multiple_labels	attached to part of	label	attached to part of@en
+ERROR	multiple_labels	attached to part of	label	attaches_to_part_of
+ERROR	multiple_labels	drains	label	drains
+ERROR	multiple_labels	drains	label	drains@en
+ERROR	multiple_labels	has component	label	has component
+ERROR	multiple_labels	has component	label	has component@en
+ERROR	multiple_labels	develops from	label	develops from@en
+ERROR	multiple_labels	develops from	label	develops_from
+ERROR	multiple_labels	develops_into	label	develops into@en
+ERROR	multiple_labels	develops_into	label	develops_into
+ERROR	multiple_labels	directly_develops_from	label	directly develops from@en
+ERROR	multiple_labels	directly_develops_from	label	directly_develops_from
+ERROR	multiple_labels	regulates	label	regulates
+ERROR	multiple_labels	regulates	label	regulates@en
+ERROR	multiple_labels	negatively regulates	label	negatively regulates
+ERROR	multiple_labels	negatively regulates	label	negatively regulates@en
+ERROR	multiple_labels	positively regulates	label	positively regulates
+ERROR	multiple_labels	positively regulates	label	positively regulates@en
+ERROR	multiple_labels	capable of	label	capable of
+ERROR	multiple_labels	capable of	label	capable of@en
+ERROR	multiple_labels	capable of part of	label	capable of part of
+ERROR	multiple_labels	capable of part of	label	capable of part of@en
+ERROR	multiple_labels	surrounded by	label	surrounded by
+ERROR	multiple_labels	surrounded by	label	surrounded by@en
+ERROR	multiple_labels	surrounded by	label	surrounded_by
+ERROR	multiple_labels	adjacent_to	label	adjacent to@en
+ERROR	multiple_labels	adjacent_to	label	adjacent_to
+ERROR	multiple_labels	surrounds	label	surrounds
+ERROR	multiple_labels	surrounds	label	surrounds@en
+ERROR	multiple_labels	starts	label	starts
+ERROR	multiple_labels	starts	label	starts@en
+ERROR	multiple_labels	starts with	label	starts with
+ERROR	multiple_labels	starts with	label	starts with@en
+ERROR	multiple_labels	develops from part of	label	develops from part of@en
+ERROR	multiple_labels	develops from part of	label	develops_from_part_of
+ERROR	multiple_labels	develops_in	label	develops in@en
+ERROR	multiple_labels	develops_in	label	develops_in
+ERROR	multiple_labels	ends	label	ends
+ERROR	multiple_labels	ends	label	ends@en
+ERROR	multiple_labels	ends with	label	ends with
+ERROR	multiple_labels	ends with	label	ends with@en
+ERROR	multiple_labels	has developmental contribution from	label	has developmental contribution from
+ERROR	multiple_labels	has developmental contribution from	label	has developmental contribution from@en
+ERROR	multiple_labels	developmentally contributes to	label	developmentally contributes to@en
+ERROR	multiple_labels	developmentally contributes to	label	developmentally_contributes_to
+ERROR	multiple_labels	developmentally_induced_by	label	developmentally induced by@en
+ERROR	multiple_labels	developmentally_induced_by	label	developmentally_induced_by
+ERROR	multiple_labels	developmentally preceded by	label	developmentally preceded by
+ERROR	multiple_labels	developmentally preceded by	label	developmentally preceded by@en
+ERROR	multiple_labels	developmentally preceded by	label	developmentally_preceded_by
+ERROR	multiple_labels	developmentally_replaces	label	developmentally replaces@en
+ERROR	multiple_labels	developmentally_replaces	label	developmentally_replaces
+ERROR	multiple_labels	has habitat	label	has habitat
+ERROR	multiple_labels	has habitat	label	has habitat@en
+ERROR	multiple_labels	functionally related to	label	functionally related to
+ERROR	multiple_labels	functionally related to	label	functionally related to@en
+ERROR	multiple_labels	part of structure that is capable of	label	part of structure that is capable of
+ERROR	multiple_labels	part of structure that is capable of	label	part of structure that is capable of@en
+ERROR	multiple_labels	member of	label	member of
+ERROR	multiple_labels	member of	label	member of@en
+ERROR	multiple_labels	has member	label	has member
+ERROR	multiple_labels	has member	label	has member@en
+ERROR	multiple_labels	input of	label	input of
+ERROR	multiple_labels	input of	label	input of@en
+ERROR	multiple_labels	attaches_to	label	attached to@en
+ERROR	multiple_labels	attaches_to	label	attaches_to
+ERROR	multiple_labels	tributary_of	label	tributary of@en
+ERROR	multiple_labels	tributary_of	label	tributary_of
+ERROR	multiple_labels	branching_part_of	label	branching part of@en
+ERROR	multiple_labels	branching_part_of	label	branching_part_of
+ERROR	multiple_labels	has potential to developmentally contribute to	label	has potential to developmentally contribute to
+ERROR	multiple_labels	has potential to developmentally contribute to	label	has potential to developmentally contribute to@en
+ERROR	multiple_labels	has potential to develop into	label	has potential to develop into
+ERROR	multiple_labels	has potential to develop into	label	has potential to develop into@en
+ERROR	multiple_labels	has potential to directly develop into	label	has potential to directly develop into
+ERROR	multiple_labels	has potential to directly develop into	label	has potential to directly develop into@en
+ERROR	multiple_labels	directly regulates activity of	label	activity directly regulates activity of
+ERROR	multiple_labels	directly regulates activity of	label	directly regulates activity of
+ERROR	multiple_labels	directly negatively regulates activity of	label	activity directly negatively regulates activity of
+ERROR	multiple_labels	directly negatively regulates activity of	label	directly negatively regulates activity of
+ERROR	multiple_labels	directly positively regulates activity of	label	activity directly positively regulates activity of
+ERROR	multiple_labels	directly positively regulates activity of	label	directly positively regulates activity of
+ERROR	multiple_labels	causal relation between material entities	label	causal relation between entities
+ERROR	multiple_labels	causal relation between material entities	label	causal relation between material entities
+ERROR	multiple_labels	produces	label	produces
+ERROR	multiple_labels	produces	label	produces@en
+ERROR	multiple_labels	produced_by	label	produced by@en
+ERROR	multiple_labels	produced_by	label	produced_by
+WARN	annotation_whitespace	continuant	IAO:0000602	<(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] >
+WARN	annotation_whitespace	continuant	IAO:0000602	<(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] >
+WARN	annotation_whitespace	continuant	IAO:0000602	<(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] >
+WARN	annotation_whitespace	continuant	IAO:0000602	<(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] >
+WARN	annotation_whitespace	occurrent	IAO:0000602	<(forall (x) (if (Occurrent x) (exists (r) (and (SpatioTemporalRegion r) (occupiesSpatioTemporalRegion x r))))) // axiom label in BFO2 CLIF: [108-001] >
+WARN	annotation_whitespace	occurrent	IAO:0000602	<(forall (x) (iff (Occurrent x) (and (Entity x) (exists (y) (temporalPartOf y x))))) // axiom label in BFO2 CLIF: [079-001] >
+WARN	annotation_whitespace	independent continuant	IAO:0000602	<(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] >
+WARN	annotation_whitespace	independent continuant	IAO:0000602	<(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] >
+WARN	annotation_whitespace	independent continuant	IAO:0000602	<(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] >
+WARN	annotation_whitespace	process	IAO:0000602	<(iff (Process a) (and (Occurrent a) (exists (b) (properTemporalPartOf b a)) (exists (c t) (and (MaterialEntity c) (specificallyDependsOnAt a c t))))) // axiom label in BFO2 CLIF: [083-003] >
+WARN	annotation_whitespace	disposition	IAO:0000602	<(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] >
+WARN	annotation_whitespace	disposition	IAO:0000602	<(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] >
+WARN	annotation_whitespace	realizable entity	IAO:0000602	<(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] >
+WARN	annotation_whitespace	realizable entity	IAO:0000602	<(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] >
+WARN	annotation_whitespace	specifically dependent continuant	IAO:0000602	<(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] >
+WARN	annotation_whitespace	object aggregate	editor note	An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects 
+WARN	annotation_whitespace	object aggregate	IAO:0000602	<(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] >
+WARN	annotation_whitespace	generically dependent continuant	IAO:0000602	<(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] >
+WARN	annotation_whitespace	function	IAO:0000602	<(forall (x) (if (Function x) (Disposition x))) // axiom label in BFO2 CLIF: [064-001] >
+WARN	annotation_whitespace	material entity	IAO:0000602	<(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] >
+WARN	annotation_whitespace	material entity	IAO:0000602	<(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] >
+WARN	annotation_whitespace	material entity	IAO:0000602	<(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] >
+WARN	annotation_whitespace	textual definition	editor note	<2012-04-05: Barry SmithThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions' is terrible.Can you fix to something like:A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.Alan RuttenbergYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. On the specifics of the proposed definition:We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with. @en>
+WARN	annotation_whitespace	contained in	editor note	<Intended meaning:domain: material entityrange: spatial region or site (immaterial continuant) @en>
+WARN	annotation_whitespace	spatially disjoint from	editor note	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en
+WARN	annotation_whitespace	capable of	textual definition	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
+WARN	annotation_whitespace	developmentally_induced_by	definition source	 Developmental Biology, Gilbert, 8th edition, figure 6.5(F)
+WARN	duplicate_exact_synonym	reproductive behavior	has_exact_synonym	reproductive behaviour
+WARN	duplicate_exact_synonym	reproductive behavior	has_exact_synonym	reproductive behaviour
+WARN	duplicate_exact_synonym	feeding behavior	has_exact_synonym	feeding behaviour
+WARN	duplicate_exact_synonym	feeding behavior	has_exact_synonym	feeding behaviour
+WARN	duplicate_exact_synonym	behavior	has_exact_synonym	behaviour
+WARN	duplicate_exact_synonym	behavior process	has_exact_synonym	behaviour
+WARN	missing_definition	spatial region	textual definition	
+WARN	missing_definition	quality	textual definition	
+WARN	missing_definition	fiat object part	textual definition	
+WARN	missing_definition	site	textual definition	
+WARN	missing_definition	object	textual definition	
+WARN	missing_definition	immaterial entity	textual definition	
+WARN	missing_definition	anatomical entity	textual definition	
+WARN	missing_definition	connected anatomical structure	textual definition	
+WARN	missing_definition	material anatomical entity	textual definition	
+WARN	missing_definition	immaterial anatomical entity	textual definition	
+WARN	missing_definition	cell part	textual definition	
+WARN	missing_definition	multicellular anatomical structure	textual definition	
+WARN	missing_definition	biological entity	textual definition	
+WARN	missing_definition	chlorophyllide a	textual definition	
+WARN	missing_definition	chlorophyll a	textual definition	
+WARN	missing_definition	alkaline earth metal atom	textual definition	
+WARN	missing_definition	carbon oxide	textual definition	
+WARN	missing_definition	carbonyl group	textual definition	
+WARN	missing_definition	inorganic anion	textual definition	
+WARN	missing_definition	magnesium atom	textual definition	
+WARN	missing_definition	magnesium molecular entity	textual definition	
+WARN	missing_definition	magnesium porphyrin	textual definition	
+WARN	missing_definition	metalloporphyrin	textual definition	
+WARN	missing_definition	mitochondrial respiratory-chain inhibitor	textual definition	
+WARN	missing_definition	nitrogen atom	textual definition	
+WARN	missing_definition	nonmetal atom	textual definition	
+WARN	missing_definition	organic ion	textual definition	
+WARN	missing_definition	oxygen atom	textual definition	
+WARN	missing_definition	oxygen molecular entity	textual definition	
+WARN	missing_definition	carbon atom	textual definition	
+WARN	missing_definition	methanediide	textual definition	
+WARN	missing_definition	methanide	textual definition	
+WARN	missing_definition	molecular messenger	textual definition	
+WARN	missing_definition	carbon group element atom	textual definition	
+WARN	missing_definition	pnictogen oxoacid	textual definition	
+WARN	missing_definition	nitrogen oxoacid	textual definition	
+WARN	missing_definition	nitrogen oxoanion	textual definition	
+WARN	missing_definition	pnictogen oxoanion	textual definition	
+WARN	missing_definition	s-block element atom	textual definition	
+WARN	missing_definition	carbon group molecular entity	textual definition	
+WARN	missing_definition	hydrogen molecular entity	textual definition	
+WARN	missing_definition	organic aromatic compound	textual definition	
+WARN	missing_definition	biomacromolecule	textual definition	
+WARN	missing_definition	macromolecule	textual definition	
+WARN	missing_definition	metallotetrapyrrole	textual definition	
+WARN	missing_definition	magnesium coordination entity	textual definition	
+WARN	missing_definition	alkaline earth coordination entity	textual definition	
+WARN	missing_definition	carbon oxoacid	textual definition	
+WARN	missing_definition	cyclic tetrapyrrole	textual definition	
+WARN	missing_definition	inorganic ion	textual definition	
+WARN	missing_definition	organic hydride	textual definition	
+WARN	missing_definition	mononuclear parent hydride	textual definition	
+WARN	missing_definition	hydrocarbyl anion	textual definition	
+WARN	missing_definition	magnesium tetrapyrrole	textual definition	
+WARN	missing_definition	electron-transport chain inhibitor	textual definition	
+WARN	missing_definition	respiratory-chain inhibitor	textual definition	
+WARN	missing_definition	hydroxy group	textual definition	
+WARN	missing_definition	oxo group	textual definition	
+WARN	missing_definition	carboxy group	textual definition	
+WARN	missing_definition	cyclic polypyrrole	textual definition	
+WARN	missing_definition	hydrogen atom	textual definition	
+WARN	missing_definition	nitrogen molecular entity	textual definition	
+WARN	missing_definition	organic divalent group	textual definition	
+WARN	missing_definition	organic univalent group	textual definition	
+WARN	missing_definition	physiological role	textual definition	
+WARN	missing_definition	cell	textual definition	
+WARN	missing_definition	crepuscular	textual definition	
+WARN	missing_definition	secondary consumer	textual definition	
+WARN	missing_definition	wood	textual definition	
+WARN	missing_definition	algal material	textual definition	
+WARN	missing_definition	oxidation-reduction process	textual definition	
+WARN	missing_definition	has curation status	textual definition	
+WARN	missing_definition	agonistic behavior	textual definition	
+WARN	missing_definition	mating receptivity	textual definition	
+WARN	missing_definition	sexual display behavior	textual definition	
+WARN	missing_definition	predator avoidance behavior	textual definition	
+WARN	missing_definition	aggressive behavior by intent	textual definition	
+WARN	missing_definition	aggressive behavior by means	textual definition	
+WARN	missing_definition	root	textual definition	
+WARN	missing_definition	Viruses	textual definition	
+WARN	missing_definition	Teleostomi	textual definition	
+WARN	missing_definition	Euteleostomi	textual definition	
+WARN	missing_definition	cellular organisms	textual definition	
+WARN	missing_definition	Dipnotetrapodomorpha	textual definition	
+WARN	missing_definition	Boreoeutheria	textual definition	
+WARN	missing_definition	Bacteria	textual definition	
+WARN	missing_definition	Homininae	textual definition	
+WARN	missing_definition	Archaea	textual definition	
+WARN	missing_definition	Eukaryota	textual definition	
+WARN	missing_definition	Euarchontoglires	textual definition	
+WARN	missing_definition	Simiiformes	textual definition	
+WARN	missing_definition	Hominoidea	textual definition	
+WARN	missing_definition	Tetrapoda	textual definition	
+WARN	missing_definition	Amniota	textual definition	
+WARN	missing_definition	Theria <mammals>	textual definition	
+WARN	missing_definition	Viridiplantae	textual definition	
+WARN	missing_definition	Opisthokonta	textual definition	
+WARN	missing_definition	Metazoa	textual definition	
+WARN	missing_definition	Bilateria	textual definition	
+WARN	missing_definition	Deuterostomia	textual definition	
+WARN	missing_definition	Haplorrhini	textual definition	
+WARN	missing_definition	Mammalia	textual definition	
+WARN	missing_definition	Fungi	textual definition	
+WARN	missing_definition	Eumetazoa	textual definition	
+WARN	missing_definition	Chordata	textual definition	
+WARN	missing_definition	Vertebrata <Metazoa>	textual definition	
+WARN	missing_definition	Gnathostomata <vertebrate>	textual definition	
+WARN	missing_definition	Sarcopterygii	textual definition	
+WARN	missing_definition	Craniata <chordata>	textual definition	
+WARN	missing_definition	Eutheria	textual definition	
+WARN	missing_definition	Primates	textual definition	
+WARN	missing_definition	Catarrhini	textual definition	
+WARN	missing_definition	Hominidae	textual definition	
+WARN	missing_definition	Homo	textual definition	
+WARN	missing_definition	Homo sapiens	textual definition	
+WARN	missing_definition	qualitative	textual definition	
+WARN	missing_definition	has member of	textual definition	
+WARN	missing_definition	has role	textual definition	
+WARN	missing_definition	contained in	textual definition	
+WARN	missing_definition	contains	textual definition	
+WARN	missing_definition	has component activity	textual definition	
+WARN	missing_definition	directly regulated by	textual definition	
+WARN	missing_definition	ends after	textual definition	
+WARN	missing_definition	immediately precedes	textual definition	
+WARN	missing_definition	temporally related to	textual definition	
+WARN	missing_definition	part of developmental precursor of	textual definition	
+WARN	missing_definition	results in formation of	textual definition	
+WARN	missing_definition	causally upstream of, positive effect	textual definition	
+WARN	missing_definition	causally upstream of, negative effect	textual definition	
+WARN	missing_definition	enables	textual definition	
+WARN	missing_definition	formed as result of	textual definition	
+WARN	missing_definition	immediately causally downstream of	textual definition	
+WARN	missing_definition	parasite of	textual definition	
+WARN	missing_definition	parasitized by	textual definition	
+WARN	missing_definition	phosphorylates	textual definition	
+WARN	missing_definition	host of	textual definition	
+WARN	missing_definition	acquires nutrients from	textual definition	
+WARN	missing_definition	helper property (not for use in curation)	textual definition	
+WARN	missing_definition	provides nutrients for	textual definition	
+WARN	missing_definition	eats	textual definition	
+WARN	missing_definition	is eaten by	textual definition	
+WARN	missing_definition	is kinase activity	textual definition	
+WARN	missing_definition	relation between structure and stage	textual definition	
+WARN	missing_definition	existence starts and ends during	textual definition	
+WARN	missing_definition	depends on	textual definition	
+WARN	missing_definition	causal relation between material entities	textual definition	
+WARN	missing_definition	causally influenced by	textual definition	
+WARN	missing_definition	interaction relation helper property	textual definition	
+WARN	missing_definition	molecular interaction relation helper property	textual definition	
+WARN	missing_definition	participates in a biotic-biotic interaction with	textual definition	
+WARN	missing_definition	endoparasite of	textual definition	
+WARN	missing_definition	has endoparasite	textual definition	
+WARN	missing_definition	acts upstream of or within, positive effect	textual definition	
+WARN	missing_definition	acts upstream of or within, negative effect	textual definition	
+WARN	missing_definition	causally upstream of or within, negative effect	textual definition	
+WARN	missing_definition	causally upstream of or within, positive effect	textual definition	
+WARN	missing_definition	sexually immature stage	textual definition	
+WARN	missing_definition	anterior region of body	textual definition	
+WARN	missing_definition	posterior region of body	textual definition	
+WARN	missing_definition	subdivision of head	textual definition	
+WARN	missing_definition	posterior neural tube	textual definition	
+WARN	missing_definition	anterior neural tube	textual definition	
+WARN	missing_definition	right horn of sinus venosus	textual definition	
+WARN	missing_definition	outflow tract pulmonary component	textual definition	
+WARN	missing_definition	developing anatomical structure	textual definition	
+WARN	missing_definition	posterior surface of head	textual definition	
+WARN	missing_definition	common atrial chamber	textual definition	
+WARN	missing_definition	future spinal cord	textual definition	
+WARN	missing_definition	presumptive blood	textual definition	
+WARN	missing_definition	presumptive gut	textual definition	
+WARN	missing_definition	1st arch mandibular component	textual definition	
+WARN	missing_definition	respiratory primordium	textual definition	
+WARN	missing_definition	pharyngeal region of foregut	textual definition	
+WARN	missing_definition	subdivision of trunk	textual definition	
+WARN	missing_definition	midbrain mantle layer	textual definition	
+WARN	missing_definition	spinal cord mantle layer	textual definition	
+WARN	missing_definition	midbrain hindbrain boundary neural plate	textual definition	
+WARN	missing_definition	trunk paraxial mesoderm	textual definition	
+WARN	missing_definition	artery of lip	textual definition	
+WARN	missing_definition	entire pharyngeal arch endoderm	textual definition	
+WARN	missing_definition	sac	textual definition	
+WARN	missing_definition	anterior lateral plate mesoderm	textual definition	
+WARN	missing_definition	optic neural crest	textual definition	
+WARN	missing_definition	aortic system	textual definition	
+WARN	missing_definition	germ layer / neural crest	textual definition	
+WARN	missing_definition	primary subdivision of cranial skeletal system	textual definition	
+WARN	missing_definition	intra-ocular muscle	textual definition	
+WARN	missing_definition	embryonic skin basal layer	textual definition	
+WARN	missing_definition	future lower lip	textual definition	
+WARN	missing_definition	fibrous connective tissue	textual definition	
+WARN	missing_definition	collection of collagen fibrils	textual definition	
+WARN	missing_definition	respiratory system arterial smooth muscle	textual definition	
+WARN	missing_definition	extraembryonic cavity	textual definition	
+WARN	missing_definition	subdivision of tube	textual definition	
+WARN	missing_definition	subepicardial layer of epicardium	textual definition	
+WARN	missing_definition	heart plus pericardium	textual definition	
+WARN	missing_definition	lamina of gray matter of spinal cord	textual definition	
+WARN	missing_definition	cardiac muscle tissue of ventricle	textual definition	
+WARN	missing_definition	carotid artery endothelium	textual definition	
+WARN	missing_definition	gray matter of hindbrain	textual definition	
+WARN	missing_definition	gray matter of midbrain	textual definition	
+WARN	missing_definition	sensory organ epithelium	textual definition	
+WARN	missing_definition	surface of eyeball	textual definition	
+WARN	missing_definition	hindbrain marginal layer	textual definition	
+WARN	missing_definition	spinal cord ventricular layer	textual definition	
+WARN	missing_definition	gland lumen	textual definition	
+WARN	missing_definition	zone of organ	textual definition	
+WARN	missing_definition	epithelial layer of duct	textual definition	
+WARN	missing_definition	jaw epithelium	textual definition	
+WARN	missing_definition	branch of external carotid artery	textual definition	
+WARN	missing_definition	uveal vein	textual definition	
+WARN	missing_definition	cavity of cardiac chamber	textual definition	
+WARN	missing_definition	serous cavity	textual definition	
+WARN	missing_definition	wall of blood vessel	textual definition	
+WARN	missing_definition	respiratory primordium epithelium	textual definition	
+WARN	missing_definition	respiratory primordium mesenchyme	textual definition	
+WARN	missing_definition	orifice of skull	textual definition	
+WARN	missing_definition	anterior wall of left ventricle	textual definition	
+WARN	missing_definition	myocardium of anterior wall of left ventricle	textual definition	
+WARN	missing_definition	myocardium of anterior wall of right ventricle	textual definition	
+WARN	missing_definition	vasculature of central nervous system plus retina	textual definition	
+WARN	missing_definition	vasculature of central nervous system	textual definition	
+WARN	missing_definition	wall of pulmonary artery	textual definition	
+WARN	missing_definition	wall of eyeball	textual definition	
+WARN	missing_definition	wall of common carotid artery	textual definition	
+WARN	missing_definition	has functional parent	textual definition	
+WARN	missing_definition	is conjugate acid of	textual definition	
+WARN	missing_definition	is conjugate base of	textual definition	
+WARN	missing_definition	is substituent group from	textual definition	
+WARN	missing_definition	has_participant	textual definition	
+WARN	missing_definition	channel for	textual definition	
+WARN	missing_definition	channels_from	textual definition	
+WARN	missing_definition	channels_into	textual definition	
+WARN	missing_definition	existence starts and ends during	textual definition	
+WARN	missing_definition	protects	textual definition	
+WARN	missing_definition	subdivision of	textual definition	
+WARN	missing_definition	transitively_connected to	textual definition	
+WARN	missing_definition	http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled	textual definition	
+WARN	missing_definition	database_cross_reference	textual definition	
+WARN	missing_definition	has_exact_synonym	textual definition	
+WARN	missing_definition	has_narrow_synonym	textual definition	
+WARN	missing_definition	has_related_synonym	textual definition	
+WARN	missing_definition	rdf:PlainLiteral	textual definition	
+WARN	missing_definition	xsd:boolean	textual definition	
+WARN	missing_definition	xsd:string	textual definition	
+WARN	duplicate_scoped_synonym	magnesium atom	has_exact_synonym	magnesium
+WARN	duplicate_scoped_synonym	magnesium atom	has_related_synonym	magnesium
+WARN	duplicate_scoped_synonym	nitrogen atom	has_exact_synonym	nitrogen
+WARN	duplicate_scoped_synonym	nitrogen atom	has_related_synonym	nitrogen
+WARN	duplicate_scoped_synonym	nonmetal atom	has_exact_synonym	nonmetal
+WARN	duplicate_scoped_synonym	nonmetal atom	has_related_synonym	nonmetal
+WARN	duplicate_scoped_synonym	oxygen atom	has_exact_synonym	oxygen
+WARN	duplicate_scoped_synonym	oxygen atom	has_related_synonym	oxygen
+WARN	duplicate_scoped_synonym	carbon atom	has_exact_synonym	carbon
+WARN	duplicate_scoped_synonym	carbon atom	has_related_synonym	carbon
+WARN	duplicate_scoped_synonym	hydrogen atom	has_exact_synonym	hydrogen
+WARN	duplicate_scoped_synonym	hydrogen atom	has_related_synonym	hydrogen
+WARN	duplicate_scoped_synonym	Eukaryota	has_exact_synonym	eukaryotes
+WARN	duplicate_scoped_synonym	Eukaryota	has_related_synonym	eukaryotes
+WARN	duplicate_scoped_synonym	Viridiplantae	has_exact_synonym	green plants
+WARN	duplicate_scoped_synonym	Viridiplantae	has_related_synonym	green plants
+WARN	duplicate_scoped_synonym	Mammalia	has_exact_synonym	mammals
+WARN	duplicate_scoped_synonym	Mammalia	has_related_synonym	mammals
+WARN	duplicate_scoped_synonym	Fungi	has_exact_synonym	fungi
+WARN	duplicate_scoped_synonym	Fungi	has_related_synonym	fungi
+WARN	duplicate_scoped_synonym	Chordata	has_exact_synonym	chordates
+WARN	duplicate_scoped_synonym	Chordata	has_related_synonym	chordates
+WARN	duplicate_scoped_synonym	Vertebrata <Metazoa>	has_exact_synonym	vertebrates
+WARN	duplicate_scoped_synonym	Vertebrata <Metazoa>	has_related_synonym	vertebrates
+WARN	duplicate_scoped_synonym	Eutheria	has_exact_synonym	placentals
+WARN	duplicate_scoped_synonym	Eutheria	has_related_synonym	placentals
+WARN	duplicate_scoped_synonym	immediately preceded by	alternative term	starts_at_end_of
+WARN	duplicate_scoped_synonym	immediately preceded by	has_exact_synonym	starts_at_end_of
+WARN	duplicate_scoped_synonym	tributary_of	alternative term	drains into
+WARN	duplicate_scoped_synonym	tributary_of	has_related_synonym	drains into
+WARN	duplicate_scoped_synonym	has skeleton	alternative term	has supporting framework
+WARN	duplicate_scoped_synonym	has skeleton	has_related_synonym	has supporting framework
+WARN	duplicate_scoped_synonym	zygote stage	has_exact_synonym	fertilized egg stage
+WARN	duplicate_scoped_synonym	zygote stage	has_related_synonym	fertilized egg stage
+WARN	duplicate_scoped_synonym	respiratory tube	has_exact_synonym	segment of tracheobronchial tree
+WARN	duplicate_scoped_synonym	respiratory tube	has_narrow_synonym	segment of tracheobronchial tree
+WARN	duplicate_scoped_synonym	respiratory system	has_exact_synonym	apparatus respiratorius
+WARN	duplicate_scoped_synonym	respiratory system	has_related_synonym	apparatus respiratorius
+WARN	duplicate_scoped_synonym	sensory system	has_exact_synonym	organa sensuum
+WARN	duplicate_scoped_synonym	sensory system	has_related_synonym	organa sensuum
+WARN	duplicate_scoped_synonym	optic choroid	has_exact_synonym	choroidea
+WARN	duplicate_scoped_synonym	optic choroid	has_related_synonym	choroidea
+WARN	duplicate_scoped_synonym	mouth mucosa	has_exact_synonym	tunica mucosa oris
+WARN	duplicate_scoped_synonym	mouth mucosa	has_related_synonym	tunica mucosa oris
+WARN	duplicate_scoped_synonym	cardiac vein	has_exact_synonym	coronary vein
+WARN	duplicate_scoped_synonym	cardiac vein	has_related_synonym	coronary vein
+WARN	duplicate_scoped_synonym	pharyngeal arch artery	has_exact_synonym	branchial aortic arches
+WARN	duplicate_scoped_synonym	pharyngeal arch artery	has_exact_synonym	pharyngeal arch artery
+WARN	duplicate_scoped_synonym	pharyngeal arch artery	has_related_synonym	branchial aortic arches
+WARN	duplicate_scoped_synonym	pharyngeal arch artery	has_related_synonym	pharyngeal arch artery
+WARN	duplicate_scoped_synonym	interventricular septum muscular part	has_exact_synonym	muscular interventricular septum
+WARN	duplicate_scoped_synonym	interventricular septum muscular part	has_related_synonym	muscular interventricular septum
+WARN	duplicate_scoped_synonym	outflow part of right ventricle	has_exact_synonym	pulmonary conus
+WARN	duplicate_scoped_synonym	outflow part of right ventricle	has_related_synonym	pulmonary conus
+WARN	duplicate_scoped_synonym	corneo-scleral junction	has_exact_synonym	limbus corneae
+WARN	duplicate_scoped_synonym	corneo-scleral junction	has_related_synonym	limbus corneae
+WARN	duplicate_scoped_synonym	craniocervical region musculature	has_exact_synonym	head or neck muscle
+WARN	duplicate_scoped_synonym	craniocervical region musculature	has_related_synonym	head or neck muscle
+WARN	duplicate_scoped_synonym	ciliary processes	has_exact_synonym	processus ciliares
+WARN	duplicate_scoped_synonym	ciliary processes	has_related_synonym	processus ciliares
+WARN	missing_obsolete_label	obsolete cell part	label	cell part@en
+INFO	lowercase_definition	independent continuant	textual definition	<b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])@en>
+INFO	lowercase_definition	process	textual definition	<p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])@en>
+INFO	lowercase_definition	disposition	IAO:0000600	<b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])@en>
+INFO	lowercase_definition	specifically dependent continuant	textual definition	<b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1 i &lt; j n, ci and cj share no common parts, are such that for each 1 i n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])@en>
+INFO	lowercase_definition	specifically dependent continuant	textual definition	<b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])@en>
+INFO	lowercase_definition	object aggregate	IAO:0000600	<b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])@en>
+INFO	lowercase_definition	generically dependent continuant	textual definition	<b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])@en>
+INFO	lowercase_definition	part_of	textual definition	a core relation that holds between a part and its whole@en
+INFO	lowercase_definition	has_part	textual definition	a core relation that holds between a whole and its part@en
+INFO	lowercase_definition	realized in	IAO:0000600	<[copied from inverse property 'realizes'] to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])@en>
+INFO	lowercase_definition	realizes	IAO:0000600	<to say that b realizes c at t is to assert that there is some material entity d & b is a process which has participant d at t & c is a disposition or role of which d is bearer_of at t& the type instantiated by b is correlated with the type instantiated by c. (axiom label in BFO2 Reference: [059-003])@en>
+INFO	lowercase_definition	preceded_by	textual definition	<x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	precedes	textual definition	<x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	occurs in	textual definition	b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	contains process	textual definition	[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	anterior_to	textual definition	<x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer>
+INFO	lowercase_definition	dorsal_to	textual definition	x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
+INFO	lowercase_definition	posterior_to	textual definition	x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.
+INFO	lowercase_definition	ventral_to	textual definition	x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
+INFO	lowercase_definition	hermaphroditic	textual definition	a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes at the same time
+INFO	lowercase_definition	protogynous	textual definition	a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to male reproductive organs
+INFO	lowercase_definition	symbiotroph	textual definition	heterotroph that acquires nutrition from a symbiont
+INFO	lowercase_definition	lecithotrophic larva	textual definition	anatomical entity that comprises the organism in a distinct juvenile form that is provided with a source of nutrition, usually a yolk sac, to use before metamorphosing into an adult
+INFO	lowercase_definition	microphytobenthos	textual definition	a community of microscopic, unicellular eukaryotic algae and the prokaryotic Cyanobacteria which live on sediment surfaces
+INFO	lowercase_definition	decomposer	textual definition	heterotroph that obtains nutrition by breaking down dead or decaying organisms or other organic matter
+INFO	lowercase_definition	promiscuity	textual definition	a member of one sex mates with any member of the opposite sex
+INFO	lowercase_definition	apex predator	textual definition	a predator residing at the top of a food chain upon which no other creatures prey.
+INFO	lowercase_definition	ambush predator	textual definition	a predator that captures or traps prey by stealth or strategy, rather than by speed or strength.
+INFO	lowercase_definition	litter transformer	textual definition	a detritivore that consumes leaf litter
+INFO	lowercase_definition	bacterivore	textual definition	a heterotroph that consumes bacteria
+INFO	lowercase_definition	protandrous	textual definition	a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to female reproductive organs
+INFO	lowercase_definition	protogynous hermaphroditism	textual definition	a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to being a hermaphrodite
+INFO	lowercase_definition	protandrous hermaphroditism	textual definition	a reproductive quality inhering in the bearer by virtue of the bearer having male reproductive organs at the beginning of its life and then switching to being a hermaphrodite
+INFO	lowercase_definition	sequentially hermaphroditic	textual definition	a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life
+INFO	lowercase_definition	leaf miner	textual definition	a folivore that lives in and eats the leaf tissue of plants
+INFO	lowercase_definition	herbivorous grazer	textual definition	an herbivore that primarily consumes grasses, leaves, and other soft plant material
+INFO	lowercase_definition	microcarnivore	textual definition	a carnivore that primarily eats organisms less than 1 cm in their longest dimension
+INFO	lowercase_definition	sulfur reducer	textual definition	an organism that uses inorganic sulfur compounds as a terminal electron acceptor during cellular respiration
+INFO	lowercase_definition	anaerobe	textual definition	an organism that does not require oxygen for growth
+INFO	lowercase_definition	aerobe	textual definition	an organism that can survive and grow in an oxygenated environment
+INFO	lowercase_definition	prototroph	textual definition	an organism capable of producing all amino acids required for its growth
+INFO	lowercase_definition	auxotroph	textual definition	an organism that is unable to synthesize a particular organic compound required for its growth
+INFO	lowercase_definition	coprophage	textual definition	a decomposer which obtains nutrition by consuming feces
+INFO	lowercase_definition	facultative anaerobe	textual definition	an anaerobe that makes ATP by aerobic respiration if oxygen is present, but is capable of switching to fermentation if oxygen is absent.
+INFO	lowercase_definition	obligate anaerobe	textual definition	an anaerobe that cannot grow in the presence of oxygen
+INFO	lowercase_definition	obligate aerobe	textual definition	an aerobe that requires oxygen to grow
+INFO	lowercase_definition	microaerophile	textual definition	an aerobe that can grow at oxygen levels lower than what is present in the atmosphere
+INFO	lowercase_definition	aerotolerant anaerobe	textual definition	an anaerobe that can tolerate low levels of oxygen
+INFO	lowercase_definition	data item	textual definition	a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.@en
+INFO	lowercase_definition	definition source	textual definition	<formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007@en>
+INFO	lowercase_definition	emotional behavior	textual definition	"<\""Behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences.\"" [wikipedia:Emotions]>"
+INFO	lowercase_definition	social behavior	textual definition	"<\""A behavior that occurs predominantly or only, in individuals that are part of a group.\"" [Wikipedia:Social_behavior]>"
+INFO	lowercase_definition	mating behavior	textual definition	"<\""Behavior related to the interactions between organisms for the purpose of mating.\"" [NBO:GVG]>"
+INFO	lowercase_definition	aggressive behavior	textual definition	"<\""A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means.\"" [wikipedia:Aggression]>"
+INFO	lowercase_definition	sexual activity	textual definition	"<\""Behaviour related to the activity which primary purpose is the sexual reproduction.\"" [NBO:GVG]>"
+INFO	lowercase_definition	regulation of eating behavior	textual definition	"<\""A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.\"" [NBO:GVG]>"
+INFO	lowercase_definition	regulation of drinking behavior	textual definition	"<\""A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.\"" [NBO:GVG]>"
+INFO	lowercase_definition	courtship behavior	textual definition	"<\""The behavioral interactions between organisms for the purpose of attracting sexual partners.\"" [GOC:dph]>"
+INFO	lowercase_definition	post-mating behavior	textual definition	"<\""Behavior related to the specific actions or reactions of an organism following mating.\"" [GOC:bf]>"
+INFO	lowercase_definition	antipredation behavior	textual definition	"<\""Behavior related to defence against predation or predators.\"" [NBO:GVG]>"
+INFO	lowercase_definition	acute stress response	textual definition	"<\""Behavior related to the preparation of the body to \\""fight\\"" or \\""flee\\"" from perceived attack, harm or threat.\"" [NBO:GVG]>"
+INFO	lowercase_definition	predator behavior	textual definition	"<\""A physical aggression behavior involving attack on prey by a predator.\"" [NBO:GVG]>"
+INFO	lowercase_definition	aggressive behavior towards animals	textual definition	"<\""Exhibiting a domineering, assault posture and/or hostile physical action towards animals.\"" [NBO:GVG]>"
+INFO	lowercase_definition	physical aggression behavior	textual definition	"<\""An aggressive behavior that aims to inflicting damage on another entity using physical means.\"" [NBO:GVG]>"
+INFO	lowercase_definition	irritability behavior	textual definition	"<\""Behavior characterized by a quick excitability to annoyance, impatience, or anger.\"" [NBO:GVG]>"
+INFO	lowercase_definition	liquid consumption	textual definition	"<\""A behavior associated with the intake of liquid.\"" [NBO:GVG]>"
+INFO	lowercase_definition	food consumption	textual definition	"<\""A feeding behavior associated with the intake of food.\"" [NBO:GVG]>"
+INFO	lowercase_definition	motivation behavior	textual definition	"<\""Behavior related to the tendency of an organism to maintain internal equilibrium.\"" [NBO:GVG]>"
+INFO	lowercase_definition	hunger motivation behavior	textual definition	"<\""Behavior related to the deprivation of food.\"" [NBO:GVG]>"
+INFO	lowercase_definition	altruism behavior	textual definition	"<\""A helping behavior (without expectation of extrinsic rewards and sometimes involving personal risk or sacrifice) that benefits individuals or society.\"" [NBO:GVG]>"
+INFO	lowercase_definition	prosocial behavior	textual definition	"<\""Prosocial behavior is caring about the welfare and rights of others, feeling concern and empathy for them, and acting in ways that benefit others.\"" [wikipedia:Prosocial_behavior]>"
+INFO	lowercase_definition	helping behavior	textual definition	"<\""Helping behavior refers to voluntary actions intended to help the others, with reward regarded or disregarded.\"" [wikipedia:Helping_behavior]>"
+INFO	lowercase_definition	reciprocal altruism	textual definition	"<\""Reciprocal altruism is the idea that the incentive for an individual to help in the present is based on the expectation of the potential receipt in the future.\"" [wikipedia:Helping_behavior]>"
+INFO	lowercase_definition	behavior process	textual definition	"<\""The action, reaction, or performance of an organism in response to external or internal stimuli.\"" [GO:GO\:0007610]>"
+INFO	lowercase_definition	stress related behavior	textual definition	"<\""Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.\"" [wikipedia:Stress_(biological)]>"
+INFO	lowercase_definition	behavioral alarm	textual definition	"<\""Behavior related to the identification or realization of a threat or a stressor.\"" [wikipedia:Stress_(biological)]>"
+INFO	lowercase_definition	male sexual activity	textual definition	"<\""Behaviour related to the male activity which primary purpose is the sexual reproduction.\"" [NBO:GVG]>"
+INFO	lowercase_definition	female sexual activity	textual definition	"<\""Behaviour related to the female activity which primary purpose is the sexual reproduction.\"" [NBO:GVG]>"
+INFO	lowercase_definition	communication behavior	textual definition	"<\""A social behavior related to the activity of conveying information.\"" [wikipedia:Communication]>"
+INFO	lowercase_definition	nonverbal communication behavior	textual definition	"<\""Communication behavior related to the process of conveying meaning in the form of non-word messages through for example gesture, body language or posture; facial expression and eye contact etc.\"" [wikipedia:.wikipedia.org/wiki/Nonverbal_communication]>"
+INFO	lowercase_definition	territorial aggressive behavior	textual definition	"<\""Aggressive behavior related to the defence of a fixed area against intruders, typically conspecifics.\"" [GOC:hjd]>"
+INFO	lowercase_definition	avoidance behavior	textual definition	"<\""Behavior related to the activity seen in animals exposed to adverse stimuli, in which the tendency to act defensively is stronger than the tendency to attack.\"" [web:http\://www.britannica.com/EBchecked/topic/45916/avoidance-behavior]>"
+INFO	lowercase_definition	protective behavior	textual definition	"<\""Behavior related to the activity seen in animals exposed to potential danger in which they exhibit the tendency to act defensively.\"" [NBO:SD]>"
+INFO	lowercase_definition	male courtship behavior	textual definition	"<\""The actions or reactions of a male, for the purpose of attracting a sexual partner.\"" [GOC:bf]>"
+INFO	lowercase_definition	female courtship behavior	textual definition	"<\""The actions or reactions of a female, for the purpose of attracting a sexual partner.\"" [GOC:bf]>"
+INFO	lowercase_definition	social aggression behavior	textual definition	"<\""An aggressive behavior towards other members of the society.\"" [NBO:RH]>"
+INFO	lowercase_definition	regulation of behavior	textual definition	"<\""Any process that modulates the frequency, rate or extent of behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\"" [GO:0050795]>"
+INFO	lowercase_definition	consumption behavior	textual definition	"<\""Behavior related to the intake of substances.\"" [NBOC:GVG]>"
+INFO	lowercase_definition	regulation of consumption behavior	textual definition	"<\""Any process that modulates the frequency, rate or extent of consumption behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\"" [NBOC:GVG]>"
+INFO	lowercase_definition	regulation of feeding behavior	textual definition	"<\""Any process that modulates the frequency, rate or extent of consumption of food or liquid\"" [NBOC:GVG]>"
+INFO	lowercase_definition	regulation of sexual activity	textual definition	"<\""Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.\"" [NBOC:GVG]>"
+INFO	lowercase_definition	inheres in	textual definition	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	bearer of	textual definition	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	participates in	textual definition	a relation between a continuant and a process, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	has participant	textual definition	a relation between a process and a continuant, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	function of	textual definition	a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	has function	textual definition	a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	has quality	textual definition	a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	location_of	textual definition	a relation between two independent continuants, the location and the target, in which the target is entirely within the location@en
+INFO	lowercase_definition	located in	textual definition	a relation between two independent continuants, the target and the location, in which the target is entirely within the location@en
+INFO	lowercase_definition	boundary of	textual definition	a relation between a 2D immaterial entity (the boundary) and a material entity, in which the boundary delimits the material entity@en
+INFO	lowercase_definition	has 2D boundary	textual definition	a relation between a material entity and a 2D immaterial entity (the boundary), in which the boundary delimits the material entity@en
+INFO	lowercase_definition	has component process	textual definition	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	overlaps	textual definition	x overlaps y if and only if there exists some z such that x has part z and z part of y
+INFO	lowercase_definition	only_in_taxon	textual definition	x only in taxon y if and only if x is in taxon y, and there is no other organism z such that y!=z a and x is in taxon z.
+INFO	lowercase_definition	in taxon	textual definition	<x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.>
+INFO	lowercase_definition	connected to	textual definition	a is connected to b if and only if a and b are discrete structure, and there exists some connecting structure c, such that c connects a and b
+INFO	lowercase_definition	connects	textual definition	c connects a if and only if there exist some b such that a and b are similar parts of the same system, and c connects b, specifically, c connects a with b. When one structure connects two others it unites some aspect of the function or role they play within the system.
+INFO	lowercase_definition	attached to part of	textual definition	a is attached to part of b if a is attached to b, or a is attached to some p, where p is part of b.
+INFO	lowercase_definition	supplies	textual definition	relation between an artery and the structure is supplies with blood.
+INFO	lowercase_definition	has component	textual definition	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	develops from	textual definition	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y
+INFO	lowercase_definition	develops_into	textual definition	inverse of develops from
+INFO	lowercase_definition	directly develops into	textual definition	inverse of directly develops from
+INFO	lowercase_definition	regulates	textual definition	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+INFO	lowercase_definition	regulates	textual definition	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+INFO	lowercase_definition	capable of part of	textual definition	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.
+INFO	lowercase_definition	actively participates in	textual definition	x actively participates in y if and only if x participates in y and x realizes some active role
+INFO	lowercase_definition	obsolete has active participant	textual definition	x has participant y if and only if x realizes some active role that inheres in y
+INFO	lowercase_definition	surrounded by	textual definition	x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x
+INFO	lowercase_definition	surrounded by	textual definition	<x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y>
+INFO	lowercase_definition	adjacent_to	textual definition	x adjacent to y if and only if x and y share a boundary.
+INFO	lowercase_definition	adjacent_to	textual definition	<x adjacent_to y iff: x and y share a boundary>
+INFO	lowercase_definition	surrounds	textual definition	inverse of surrounded by
+INFO	lowercase_definition	surrounds	textual definition	inverse of surrounded_by
+INFO	lowercase_definition	starts	textual definition	inverse of starts with
+INFO	lowercase_definition	starts with	textual definition	<x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) < ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.>
+INFO	lowercase_definition	develops from part of	textual definition	x develops from part of y if and only if there exists some z such that x develops from z and z is part of y
+INFO	lowercase_definition	develops_in	textual definition	x develops_in y if x is located in y whilst x is developing
+INFO	lowercase_definition	ends	textual definition	inverse of ends with
+INFO	lowercase_definition	ends with	textual definition	<x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.>
+INFO	lowercase_definition	has start location	textual definition	x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y
+INFO	lowercase_definition	has end location	textual definition	x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y
+INFO	lowercase_definition	has input	textual definition	<p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.>
+INFO	lowercase_definition	has output	textual definition	p has output c iff c is a participant in p, c is present at the end of p, and c is not present at the beginning of p.
+INFO	lowercase_definition	has developmental contribution from	textual definition	x has developmental contribution from y iff x has some part z such that z develops from y@en
+INFO	lowercase_definition	developmentally contributes to	textual definition	inverse of has developmental contribution from
+INFO	lowercase_definition	developmentally_induced_by	textual definition	<t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.>
+INFO	lowercase_definition	developmentally_induced_by	textual definition	<t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor anatomical structure type T to T', where T' develops_from T>
+INFO	lowercase_definition	acts upstream of	textual definition	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.
+INFO	lowercase_definition	acts upstream of or within	textual definition	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.
+INFO	lowercase_definition	developmentally_replaces	textual definition	x developmentally replaces y if and only if there is some developmental process that causes x to move or to cease to exist, and for the site that was occupied by x to become occupied by y, where y either comes into existence in this site or moves to this site from somewhere else
+INFO	lowercase_definition	results in developmental progression of	textual definition	p results in the developmental progression of s iff p is a developmental process and s is an anatomical structure and p causes s to undergo a change in state at some point along its natural developmental cycle (this cycle starts with its formation, through the mature structure, and ends with its loss).
+INFO	lowercase_definition	has habitat	textual definition	<x 'has habitat' y if and only if: x is an organism, y is a habitat, and y can sustain and allow the growth of a population of xs.>
+INFO	lowercase_definition	inheres in part of	textual definition	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.
+INFO	lowercase_definition	part of structure that is capable of	textual definition	this relation holds between c and p when c is part of some c', and c' is capable of p.
+INFO	lowercase_definition	involved in	textual definition	c involved_in p if and only if c enables some process p', and p' is part of p
+INFO	lowercase_definition	enabled by	textual definition	inverse of enables
+INFO	lowercase_definition	regulated by	textual definition	inverse of regulates
+INFO	lowercase_definition	negatively regulated by	textual definition	inverse of negatively regulates
+INFO	lowercase_definition	positively regulated by	textual definition	inverse of positively regulates
+INFO	lowercase_definition	member of	textual definition	is member of is a mereological relation between a item and a collection.
+INFO	lowercase_definition	has member	textual definition	has member is a mereological relation between a collection and an item.
+INFO	lowercase_definition	input of	textual definition	inverse of has input
+INFO	lowercase_definition	output of	textual definition	inverse of has output
+INFO	lowercase_definition	attaches_to	textual definition	a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a
+INFO	lowercase_definition	tributary_of	textual definition	x tributary_of y if and only if x a channel for the flow of a substance into y, where y is larger than x. If x and y are hydrographic features, then y is the main stem of a river, or a lake or bay, but not the sea or ocean. If x and y are anatomical, then y is a vein.
+INFO	lowercase_definition	spatially coextensive with	textual definition	x spatially_coextensive_with y if and inly if x and y have the same location
+INFO	lowercase_definition	branching_part_of	textual definition	x is a branching part of y if and only if x is part of y and x is connected directly or indirectly to the main stem of y
+INFO	lowercase_definition	has developmental potential involving	textual definition	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en
+INFO	lowercase_definition	has potential to developmentally contribute to	textual definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y
+INFO	lowercase_definition	has potential to developmentally contribute to	textual definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en
+INFO	lowercase_definition	has potential to developmentally induce	textual definition	x has potential to developmentally induce y iff x developmentally induces y or x is capable of developmentally inducing y@en
+INFO	lowercase_definition	has potential to develop into	textual definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y
+INFO	lowercase_definition	has potential to develop into	textual definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en
+INFO	lowercase_definition	has potential to directly develop into	textual definition	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y
+INFO	lowercase_definition	has potential to directly develop into	textual definition	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en
+INFO	lowercase_definition	causally downstream of	textual definition	inverse of upstream of
+INFO	lowercase_definition	causally upstream of	textual definition	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain
+INFO	lowercase_definition	immediately causally upstream of	textual definition	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.
+INFO	lowercase_definition	causally upstream of or within	textual definition	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.
+INFO	lowercase_definition	causally downstream of or within	textual definition	inverse of causally upstream of or within
+INFO	lowercase_definition	involved in regulation of	textual definition	c involved in regulation of p if c is involved in some p' and p' regulates some p
+INFO	lowercase_definition	involved in positive regulation of	textual definition	c involved in regulation of p if c is involved in some p' and p' positively regulates some p
+INFO	lowercase_definition	involved in negative regulation of	textual definition	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p
+INFO	lowercase_definition	involved in or involved in regulation of	textual definition	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p
+INFO	lowercase_definition	is active in	textual definition	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.
+INFO	lowercase_definition	contributes to morphology of	textual definition	<p contributes to morphology of w if and only if a change in the morphology of p entails a change in the morphology of w. Examples: every skull contributes to morphology of the head which it is a part of. Counter-example: nuclei do not generally contribute to the morphology of the cell they are part of, as they are buffered by cytoplasm.>
+INFO	lowercase_definition	preyed upon by	textual definition	inverse of preys on
+INFO	lowercase_definition	composed primarily of	textual definition	x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y.
+INFO	lowercase_definition	composed primarily of	textual definition	<x composed_primarily_of y iff: more than half of the mass of x is made from parts of y>
+INFO	lowercase_definition	has part that occurs in	textual definition	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.
+INFO	lowercase_definition	existence starts during	textual definition	<x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) >= α(y) & α(x) <= ω(y).>
+INFO	lowercase_definition	existence starts with	textual definition	<x starts ends with y if and only if the time point at which x starts is equivalent to the time point at which y starts. Formally: x existence starts with y iff α(x) = α(y).>
+INFO	lowercase_definition	existence overlaps	textual definition	<x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) >= α(y) & α(x) <= ω(y)) OR (ω(x) <= ω(y) & ω(x) >= α(y))>
+INFO	lowercase_definition	existence ends during	textual definition	<x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) <= ω(y) and ω(x) >= α(y).>
+INFO	lowercase_definition	existence ends with	textual definition	<x existence ends with y if and only if the time point at which x ends is equivalent to the time point at which y ends. Formally: x existence ends with y iff ω(x) = ω(y).>
+INFO	lowercase_definition	transformation of	textual definition	x transformation of y if x is the immediate transformation of y, or is linked to y through a chain of transformation relationships
+INFO	lowercase_definition	immediate transformation of	textual definition	x immediate transformation of y iff x immediately succeeds y temporally at a time boundary t, and all of the matter present in x at t is present in y at t, and all the matter in y at t is present in x at t
+INFO	lowercase_definition	existence starts during or after	textual definition	<x existence starts during or after y if and only if the time point at which x starts is after or equivalent to the time point at which y starts. Formally: x existence starts during or after y iff α (x) >= α (y).>
+INFO	lowercase_definition	existence ends during or before	textual definition	x existence ends during or before y if and only if the time point at which x ends is before or equivalent to the time point at which y ends.
+INFO	lowercase_definition	causal relation between processes	textual definition	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.
+INFO	lowercase_definition	determined by	textual definition	s determined by f if and only if s is a type of system, and f is a material entity that is part of s, such that f exerts a strong causal influence on the functioning of s, and the removal of f would cause the collapse of s.
+INFO	lowercase_definition	determines	textual definition	inverse of determined by
+INFO	lowercase_definition	determined by part of	textual definition	s 'determined by part of' w if and only if there exists some f such that (1) s 'determined by' f and (2) f part_of w, or f=w.
+INFO	lowercase_definition	results in ending of	textual definition	p results in the end of s if p results in a change of state in s whereby s either ceases to exist, or s becomes functionally impaired or s has its fate committed such that it is put on a path to be degraded.
+INFO	lowercase_definition	hyperparasite of	textual definition	x is a hyperparasite of y iff x is a parasite of a parasite of the target organism y
+INFO	lowercase_definition	hyperparasitized by	textual definition	inverse of hyperparasite of
+INFO	lowercase_definition	has branching part	textual definition	inverse of branching part of
+INFO	lowercase_definition	lumen of	textual definition	x lumen_of y iff x is the space or substance that is part of y and does not cross any of the inner membranes or boundaries of y that is maximal with respect to the volume of the convex hull.
+INFO	lowercase_definition	luminal space of	textual definition	s is luminal space of x iff s is lumen_of x and s is an immaterial entity
+INFO	lowercase_definition	skeleton of	textual definition	inverse of has skeleton
+INFO	lowercase_definition	has part structure that is capable of	textual definition	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p
+INFO	lowercase_definition	produces	textual definition	<a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix.>
+INFO	lowercase_definition	produced_by	textual definition	a produced_by b iff some process that occurs_in b has_output a.
+INFO	lowercase_definition	acts upstream of, positive effect	textual definition	c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive
+INFO	lowercase_definition	acts upstream of, negative effect	textual definition	c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative
+INFO	lowercase_definition	realized in response to	textual definition	r 'realized in response to' s iff, r is a realizable (e.g. a plant trait such as responsivity to drought), s is an environmental stimulus (a process), and s directly causes the realization of r.
+INFO	lowercase_definition	has anatomical participant	textual definition	p has anatomical participant c iff p has participant c, and c is an anatomical entity
+INFO	lowercase_definition	serous membrane	textual definition	multi-tissue structure that is comprised of a secretory epithelial layer (mesothelium) and a connective tissue layer.
+INFO	lowercase_definition	post-embryonic stage	textual definition	stage succeeding embryo, including mature structure
+INFO	lowercase_definition	lung connective tissue	textual definition	the connective tissue located between the respiratory (airway and alveolar) epithelium, the capillary endothelium and pleural mesothelium; it contains basement membrane composed of collagen, elastin, proteoglycans, and fibronectin
+INFO	lowercase_definition	cornea	textual definition	the transparent anterior portion of the fibrous coat of the eye that serves as the chief refractory structure
+INFO	lowercase_definition	circulatory system	textual definition	organ system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells, etc. to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis[WP].
+INFO	lowercase_definition	muscle of iris	textual definition	.
+INFO	lowercase_definition	anterior chamber of eyeball	textual definition	the space in the eye, filled with aqueous humor, and bounded anteriorly by the cornea and a small portion of the sclera and posteriorly by a small portion of the ciliary body, the iris, and part of the crystalline lens
+INFO	lowercase_definition	uvea	textual definition	the pigmented middle of the three concentric layers that make up an eye, consisting of the iris, ciliary body and choroid[WP,edited].
+INFO	lowercase_definition	iris	textual definition	the adjustable membrane, composed of the stroma and pigmented epithelium, located just in front of the crystalline lens within the eye
+INFO	lowercase_definition	corneal epithelium	textual definition	the smooth stratified squamous epithelium that covers the outer surface of the cornea
+INFO	lowercase_definition	ciliary body	textual definition	the thickened portion of the vascular tunic, which lies between the choroid and the iris, composed of ciliary muscle and ciliary processes
+INFO	lowercase_definition	optic choroid	textual definition	vascular layer containing connective tissue, of the eye lying between the retina and the sclera. The choroid provides oxygen and nourishment to the outer layers of the retina. Along with the ciliary body and iris, the choroid forms the uveal tract[WP].
+INFO	lowercase_definition	anterior segment of eyeball	textual definition	any of the parts of the eye that lie in front of, or ventral to, the lens (inclusive)
+INFO	lowercase_definition	posterior segment of eyeball	textual definition	any of the parts of the eye that lie in back of, or dorsal to, the lens (but not inclusive)
+INFO	lowercase_definition	capsule of lens	textual definition	the elastic, clear, membrane-like structure, that is outer most layer of the lens
+INFO	lowercase_definition	myocardium of atrium	textual definition	the atrial part of middle layer of the heart, comprised of involuntary muscle
+INFO	lowercase_definition	epicardium	textual definition	a region of the serous membrane that forms the innermost layer of the pericardium and the outer surface of the heart.
+INFO	lowercase_definition	myocardium	textual definition	the middle layer of the heart, comprised mainly of striated cardiac muscle fibers
+INFO	lowercase_definition	pericardial sac	textual definition	a double-walled sac containing the heart and the roots of the great vessels.
+INFO	lowercase_definition	gland	textual definition	an organ that functions as a secretory or excretory organ
+INFO	lowercase_definition	cranial neural crest	textual definition	neural crest cells (NCCs) originating in the anterior part of the developing embryo and residing between the mid-diencephalon and the forming hindbrain; cranial NCCs migrate dorsolaterally to form the craniofacial mesenchyme that differentiates into various craniofacial cartilages and bones, cranial neurons, glia, and connective tissues of the face; these cells enter the pharyngeal pouches and arches where they give rise to thymic cells, bones of the middle ear and jaw (mandible), and the odontoblasts of the tooth primordia; like their counterparts in the trunk, cranial NCCs also contribute to the developing peripheral nervous system, along with the pigmented cell (i.e. melanocyte) lineage.
+INFO	lowercase_definition	smooth muscle of eye	textual definition	<any of the striated muscles that move the eye and include: superior rectus, inferior rectus, medial rectus, lateral rectus, superior oblique, inferior oblique, retractor bulbi>
+INFO	lowercase_definition	aorta smooth muscle tissue	textual definition	the nonstriated, involuntary muscle tissue located in the wall of the aorta
+INFO	lowercase_definition	blood vessel smooth muscle	textual definition	smooth muscle found within, and composing the majority of the wall of blood vessels.
+INFO	lowercase_definition	aorta tunica adventitia	textual definition	the outermost layer of the aorta wall, containing connective tissue and collagen and elastic fibers
+INFO	lowercase_definition	bulbus cordis	textual definition	a transient fetal dilation of the distal (or cranial) heart tube located where the arterial trunk joins the ventral roots of the aortic arches
+INFO	lowercase_definition	respiratory system mucosa	textual definition	the mucous membrane lining the respiratory tract
+INFO	lowercase_definition	respiratory tract epithelium	textual definition	the pseudostratified ciliated epithelium that lines much of the conducting portion of the airway, including part of the nasal cavity and larynx, the trachea, and bronchi
+INFO	lowercase_definition	aorta endothelium	textual definition	the thin layer of flat cells that line the aorta and form a barrier between circulating blood in the lumen and the rest of the vessel wall
+INFO	lowercase_definition	mandibular prominence	textual definition	the paired ventral prominences formed by bifurcation of the first pharyngeal arches in the embryo; the two prominences unite ventrally and fuse to form the mandible and lower lip
+INFO	lowercase_definition	corneo-scleral junction	textual definition	the edge of the cornea where it joins the sclera; the limbus is a common site for the occurrence of corneal epithelial neoplasm
+INFO	lowercase_definition	hermaphroditic organism	textual definition	multicellular organism that can produce both male and female gametes.
+INFO	lowercase_definition	pigment epithelium of eye	textual definition	epithelial layer of the retina, ciliary body, or iris composed of cells containing pigment granules.
+INFO	lowercase_definition	early pharyngeal endoderm	textual definition	.
+INFO	lowercase_definition	layer of sclera	textual definition	.
+INFO	lowercase_definition	cavity of left atrium	textual definition	luminal space of the left atrium of the heart.
+INFO	lowercase_definition	cavity of left ventricle	textual definition	luminal space of the left ventricle of the heart.
+INFO	lowercase_definition	cavity of right atrium	textual definition	luminal space of the right atrium of the heart.
+INFO	lowercase_definition	prechordal mesoderm	textual definition	the area of axial mesoderm that develops into the prechordal plate
+INFO	lowercase_definition	wall of heart	textual definition	wall of organ which has as its parts the endocardium, myocardium , epicardium, and the cardiac septum, surrounded by the pericardial sac proper and is continuous with the walls of the systemic and pulmonary arterial and venous trees.
+INFO	lowercase_definition	anteriorly connected to	textual definition	x anteriorly_connected_to y iff the anterior part of x is connected to y. i.e. x connected_to y and x posterior_to y.
+INFO	lowercase_definition	conduit for	textual definition	x is a conduit for y iff y passes through the lumen of x.
+INFO	lowercase_definition	indirectly_supplies	textual definition	a indirectly_supplies s iff a has a branch and the branch supplies or indirectly supplies s
+INFO	lowercase_definition	posteriorly connected to	textual definition	x posteriorly_connected_to y iff the posterior part of x is connected to y. i.e. x connected_to y and x anterior_to y.
+INFO	lowercase_definition	transitively anteriorly connected to	textual definition	.
+INFO	missing_superclass	entity	rdfs:subClassOf	
+INFO	missing_superclass	subatomic particle	rdfs:subClassOf	
+INFO	missing_superclass	role	rdfs:subClassOf	
+INFO	missing_superclass	cellular_component	rdfs:subClassOf	
+INFO	missing_superclass	behavior process	rdfs:subClassOf	
+INFO	missing_superclass	plant structure development stage	rdfs:subClassOf	
+INFO	missing_superclass	processual entity	rdfs:subClassOf	
