@@ -7,17 +7,17 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ecocore.owl>
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/envo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/iao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/nbo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
+Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
 Annotation(rdfs:comment "An ontology of core ecological entities")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0010004>))
@@ -196,6 +196,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000181>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
 ############################
@@ -1588,6 +1589,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000180> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000181> "an anaerobe that can tolerate low levels of oxygen")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000181> "aerotolerant anaerobe")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000181> <http://purl.obolibrary.org/obo/ECOCORE_00000172>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_3000001> (species range)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> <https://en.wikipedia.org/wiki/Species_distribution#Range>) <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_3000001> "An environmental zone that encompasses the geographical area in which most members of a species as collection of organisms can be found.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/ECOCORE_3000001> "I feel that there should be some relationship to \"species as collection of organisms\" but I don't know which one. Determined by seems a little too strong, but might work.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_3000001> <https://orcid.org/0000-0001-8815-0078>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_3000001> "Not all member of the species are necessarily found within its range, because there may be individuals in zoos or individuals that have strayed beyond the range but which will not be able to form a sustainable population in the new area.  The latter individuals are often referred to as vagrants.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_3000001> "species range"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_3000001> <http://purl.obolibrary.org/obo/ENVO_01000408>)
 
 # Class: <http://purl.obolibrary.org/obo/ENVO_01000063> (planktonic material)
 
