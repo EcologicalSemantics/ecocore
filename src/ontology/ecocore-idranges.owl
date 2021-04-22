@@ -64,4 +64,11 @@ Datatype: idrange:3
     
 Datatype: rdf:PlainLiteral
 
+Datatype: idrange:4
+
+    Annotations: 
+        allocatedto: "Ramona Walls https://orcid.org/0000-0001-8815-0078"
+    
+    EquivalentTo: 
+        xsd:integer[> 3000000 , <= 3999999]
     
