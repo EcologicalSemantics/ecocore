@@ -356,6 +356,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "A heterotroph which consumes fungi.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "fungal feeder")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "mycophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000015> "fungivore"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000015> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
@@ -366,6 +367,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000015> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "A heterotrophic process during which a living entity acquires food and energy by consuming living fungal material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "fungal feeding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "mycophagy")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000016> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000016> "fungivory"@en)
@@ -395,6 +397,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000018> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "A heterotroph which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "phytophage")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "primary consumer")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "plant eater")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000019> "There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore")
@@ -408,6 +411,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectSomeValuesFro
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "A heterotrophic process during which a living entity acquires food and energy by consuming living plant- or macro-algal material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "phytophagy")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000020> "plant trophism")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000020> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000020> "herbivory"@en)
@@ -418,6 +422,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000020> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "A heterotrophic process during which a living entity acquires food and energy from consuming living metazoan (animal) material.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "zoophagy")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000021> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000021> "carnivory"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
@@ -855,6 +860,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "https://en.wikipedia.org/wiki/Folivore")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "leaf eater")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000084> "phyllophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000084> "folivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000084> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0025034>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000084> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
@@ -863,7 +869,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000084> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "An herbivore that primarily consumes roots")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "racidivore")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "rhizophage")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "root eater")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "root feeder")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000085> "root herbivore")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000085> "rhizovore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000085> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0009005>))
@@ -874,6 +883,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000085> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000086> "An herbivore that primarily consumes algae")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000086> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000086> "algae eater")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000086> "algophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000086> "algivore")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000086> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
 
@@ -888,6 +898,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000087> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "zoophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000088> "carnivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000088> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000021>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
@@ -904,6 +915,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000089> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "A carnivore that feeds on dead and decaying animal matter")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "necrophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000090> "scavenger")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000090> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000103>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000090> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
@@ -912,6 +924,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000090> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "A predator that primarily eats insects")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "entomophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000091> "insectivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000091> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000108>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000091> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
@@ -962,6 +975,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000097> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000098> (bacterivore)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000098> "a heterotroph that consumes bacteria")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000098> "bacterial feeder")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000098> "bacterivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000098> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000114>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_2> <http://purl.obolibrary.org/obo/NCBITaxon_2157>))))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000098> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
@@ -977,6 +991,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000099> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "granivory")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000100> "seed predation")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000100> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/PO_0009010>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000100> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)
@@ -1000,6 +1015,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000102> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000103> "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000103> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000103> "necrophagy")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000103> "scavenging")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000103> <http://purl.obolibrary.org/obo/ECOCORE_00000021>)
 
@@ -1036,6 +1052,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000107> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000108> "A predation process during which a living entity acquires food and energy by consuming insects.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000108> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000108> "entomophagy")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000108> "insectivory")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000108> <http://purl.obolibrary.org/obo/ECOCORE_00000102>)
 
@@ -1080,6 +1097,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000113> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "A heterotrophic process during which a living entity acquires food and energy from consuming bacteria.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "bacterial feeding")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000114> "bactivory")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_2> <http://purl.obolibrary.org/obo/NCBITaxon_2157>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000114> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
@@ -1240,6 +1258,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000135> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "An herbivore that primarily consumes fruits or fruit-like vegetables")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "https://www.wikidata.org/entity/Q1470764")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "carpophage")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "fructivore")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000136> "fruit eater")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000136> "frugivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000136> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/PO_0009001>))
@@ -1267,6 +1287,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000140> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000140> "https://www.wikidata.org/entry/Q120880")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000140> "nectar eater")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000140> "nectivore")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000140> "nectarivore")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000140> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
 
@@ -1456,6 +1477,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000163> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "A carnivore that consumes blood, during a brief, temporary interaction.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "blood eater")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "hematophage")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000164> "sanguivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000164> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000165>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/UBERON_0000178>)))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000164> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
