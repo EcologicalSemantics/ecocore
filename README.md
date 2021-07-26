@@ -15,12 +15,12 @@ Forum | https://groups.google.com/d/forum/ecology-core-ontology
 Issue tracker link | https://github.com/EcologicalSemantics/ecocore/issues 
  
 ## About
-This ontology aims to provide core terms for ecological entities, such as ecological functions (for predators, prey, etc), food webs, and ecological interactions. Through ECOCORE, we look forward to creating a semantic rallying point for the ecological community, a need expressed repeatedly over the past few years at workshops focused on ecological, environmental, and population-based semantics.  We're working closely with the [Environment Ontology (ENVO)](http://www.obofoundry.org/ontology/envo.html), [Population and Community Ontology (PCO)](http://www.obofoundry.org/ontology/pco.html), the [Ontology of Biological Attributes (OBA)](www.obofoundry.org/ontology/oba.html), and the [Neuro Behavior Ontology (NBO)](http://www.obofoundry.org/ontology/nbo.html) to build a robust and interoperating resource. 
-
-Naturally, the ontology is importing existing terms where relevant, and has begun to channel requests for improvement to the hosting ontologies to promote collaboration.
+This ontology aims to provide core terms for ecological entities at the organism level, such as ecological functions (for predators, prey, etc), food webs, and ecological interactions. Through ECOCORE, we look forward to facilitating a standard vocabulary for the ecological community, a need expressed repeatedly over the past few years at workshops focused on ecological, environmental, and population-based semantics.  We're working closely with the [Environment Ontology (ENVO)](http://www.obofoundry.org/ontology/envo.html), [Population and Community Ontology (PCO)](http://www.obofoundry.org/ontology/pco.html), the [Ontology of Biological Attributes (OBA)](www.obofoundry.org/ontology/oba.html), and the [Neuro Behavior Ontology (NBO)](http://www.obofoundry.org/ontology/nbo.html) to build an interoperating resource. 
 
 Working in ecological semantics? Please join ECOCORE's efforts by sending an e-mail [via this link](mailto:ecology-core-ontology@googlegroups.com). 
 
+## What terms are appropriate for ecocore?
+Ecocore contains subclasses of organism (OBI:0100026), organismal entity (PCO:0000031), biological process (GO:0008150), and organismal quality (PATO:0001995). All material entities, processes, and qualities in ecocore can be applied to a single organism, such as "autotroph" or "carnivory". Terms that are applied to populations or communities should be added to PCO. Organismal qualities that are "EQ style" such as femur length or fur color should be added to OBA.
 
 ## Versions
 
