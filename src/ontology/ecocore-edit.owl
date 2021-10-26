@@ -42,8 +42,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000027>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000028>))
@@ -65,6 +67,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000044>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000045>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000048>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000050>))
@@ -99,6 +102,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000078>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000080>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000083>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000084>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000085>))
@@ -149,10 +153,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000129>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000130>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000131>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000132>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000133>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000135>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000136>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000137>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000139>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000140>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000141>))
@@ -196,6 +202,12 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000180>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000181>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000184>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000186>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000187>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000188>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000189>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
@@ -298,7 +310,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000008> ObjectSomeValuesFro
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000009> (autotrophy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000009> "A trophic interaction process during which a living entity acquires energy and generates biomass from non-living entities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000009> "A trophic process during which a living entity acquires energy and generates biomass from non-living entities.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/ECOCORE_00000009> "This should be axiomatised and made a defined class: any trophic interaction which has as input some inorganic material (non-living) that is the only source of carbon or reducing equivalents source is a autotrophic process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000009> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000009> "http://orcid.org/0000-0002-4366-3088")
@@ -317,7 +329,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000011> (heterotrophy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "A trophic interaction process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "A trophic process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "This should be axiomatised and made a defined class: any trophic interaction which has as input some organic material (living or dead) that is the only source of carbon or reducing equivalents source is a autotrophic process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000011> "http://orcid.org/0000-0002-4366-3088")
@@ -340,13 +352,14 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000013> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000013> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000013> "photoautotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000013> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000013> <http://purl.obolibrary.org/obo/ECOCORE_00000017>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0015979>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000013> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0045333>))
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000014> (lithotrophy)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Lithotroph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000014> "A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Lithotroph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000014> "A trophic process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000014> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000014> "lithotrophy"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
@@ -376,7 +389,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000016> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000017> (phototrophy)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Phototroph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000017> "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Phototroph") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000017> "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000017> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000017> "http://orcid.org/0000-0002-4366-3088")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000017> "phototrophy"@en)
@@ -428,6 +441,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000021>
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_33208>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000021> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000022> (photoheterotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000022> "A heterotrophic process during which a living entity acquires energy by transforming light and uses organic compounds from the environment to satisfy their carbon requirements")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000022> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000022> "2021-10-26T19:55:11Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000022> "photoheterotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000022> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000022> <http://purl.obolibrary.org/obo/ECOCORE_00000017>)
+
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000023> (autotroph)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000023> "An organism which is capable of incorporating abiogenic (inorganic) carbon into its biomass.")
@@ -444,6 +466,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000024> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000024> "area to mass ratio")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000024> <http://purl.obolibrary.org/obo/PATO_0001995>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000025> (photolithoheterotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "A photoheterotrophic process during which a living entity uses an inorganic compound as an electron donor")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "2021-10-26T20:00:40Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000025> "photolithoheterotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://purl.obolibrary.org/obo/ECOCORE_00000014>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000026> (prenatal development)
 
@@ -590,6 +621,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000044> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000045> "heterotroph that acquires nutrition from a symbiont")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000045> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000045> "symbiotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000060>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000045> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000046> (endophyte)
@@ -598,6 +630,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000046> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000046> "endophyte")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolibrary.org/obo/ECOCORE_00000045>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000047> (photoorganoheterotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "A photoheterotrophic process during which a living entity uses an organic compound as an electron donor")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "2021-10-26T20:00:51Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000047> "photoorganoheterotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://purl.obolibrary.org/obo/ECOCORE_00000162>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000048> (lecithotrophic larva)
 
@@ -619,6 +660,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000049> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000050> "Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000050> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000050> "deposit feeder")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000182>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000050> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000051> (suspension feeder)
@@ -845,6 +887,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000081> "migratory")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000081> <http://purl.obolibrary.org/obo/PATO_0001995>)
 
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000082> (chemoheterotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000082> "A heterotrophic process during which a living entity acquires energy by breaking chemical bonds in organic compounds and uses organic comopounds as a carbon source")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000082> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000082> "2021-10-26T20:06:32Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000082> "chemoheterotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000082> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000082> <http://purl.obolibrary.org/obo/ECOCORE_00000163>)
+
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000083> (graminivore)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000083> "An herbivore that primarily consumes grasses.")
@@ -1035,7 +1086,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000105> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000106> (adelphophagy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000106> "A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000106> "An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000106> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000106> "embryophagy")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000106> "adelphophagy")
@@ -1043,7 +1094,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000106> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000107> (oophagy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000107> "A cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000107> "An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000107> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000107> "oophagy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000107> <http://purl.obolibrary.org/obo/ECOCORE_00000105>)
@@ -1183,6 +1234,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000124> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000125> "A photoheterotroph which is capable of using a biogenic organic compound as an electron donor.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000125> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000125> "photoorganoheterotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000125> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000047>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000125> <http://purl.obolibrary.org/obo/ECOCORE_00000131>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000126> (photolithoheterotroph)
@@ -1190,6 +1242,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000125> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000126> "A photoheterotroph which is capable of using an abiogenic organic compound as an electron donor.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000126> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000126> "photolithoheterotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000126> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000025>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000126> <http://purl.obolibrary.org/obo/ECOCORE_00000131>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000127> (chemoorganoheterotroph)
@@ -1227,6 +1280,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000130> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000131> "A heterotroph which is capable of transforming light into chemical energy.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000131> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000131> "photoheterotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000022>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000131> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000132> (chemoheterotroph)
@@ -1234,7 +1288,17 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000131> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000132> "A heterotroph which is capable of obtaining energy from the bonds in a chemical compound.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000132> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000132> "chemoheterotroph")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000082>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000132> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000133> (chemolithoheterotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000133> "A chemoheterotrophic process during which a living entity an inorganic compound as an electron donor")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000133> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000133> "2021-10-26T20:06:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000133> "chemolithoheterotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000133> <http://purl.obolibrary.org/obo/ECOCORE_00000014>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000133> <http://purl.obolibrary.org/obo/ECOCORE_00000082>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000134> (extremophile)
 
@@ -1273,6 +1337,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000137> "pollen eater")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000137> "palynivore")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000137> <http://purl.obolibrary.org/obo/ECOCORE_00000019>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000138> (chemoorganoheterotrophy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000138> "A chemoheterotrophic process during which a living entity an organic compound as an electron donor")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000138> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000138> "2021-10-26T20:06:51Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000138> "chemoorganoheterotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000138> <http://purl.obolibrary.org/obo/ECOCORE_00000082>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000138> <http://purl.obolibrary.org/obo/ECOCORE_00000162>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000139> (grazing)
 
@@ -1448,27 +1521,27 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000159> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000160> (chemosymbiosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000160> "A form of symbiosis in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000160> "A symbiotrophic process in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000160> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000160> "chemosymbiosis")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000160> <http://purl.obolibrary.org/obo/ECOCORE_00000060>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000161> (photosymbiosis)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000161> "A symbiosis in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000161> "A symbiotrophic process in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000161> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000161> "photosymbiosis")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000161> <http://purl.obolibrary.org/obo/ECOCORE_00000060>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000162> (organotrophy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000162> "A process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000162> "A trophic process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000162> "organotrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000162> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000163> (chemotrophy)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000163> "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000163> "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000163> "chemotrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000163> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 
@@ -1611,6 +1684,49 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000180> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000181> "an anaerobe that can tolerate low levels of oxygen")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000181> "aerotolerant anaerobe")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000181> <http://purl.obolibrary.org/obo/ECOCORE_00000172>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000182> (deposit feeding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000182> "A heterotrophic process during which a living entity acquires food and energy by consuming particles of organic matter that have settled to the bottom of a body of water")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000182> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000182> "2021-10-26T20:14:31Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000182> "deposit feeding"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000182> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000184> (chemoautotrophy)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000184> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000184> "2021-10-26T20:29:42Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000184> "chemoautotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000184> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000186> (chemolithoautotrophy)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000186> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000186> "2021-10-26T20:31:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000186> "chemolithoautotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000186> <http://purl.obolibrary.org/obo/ECOCORE_00000184>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000187> (chemoorganoautotrophy)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000187> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000187> "2021-10-26T20:31:28Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000187> "chemoorganoautotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000187> <http://purl.obolibrary.org/obo/ECOCORE_00000184>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000188> (photolithoautotrophy)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000188> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000188> "2021-10-26T20:31:48Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000188> "photolithoautotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000188> <http://purl.obolibrary.org/obo/ECOCORE_00000013>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000189> (photochemoautotrophy)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000189> <http://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000189> "2021-10-26T20:31:57Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000189> "photochemoautotrophy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000189> <http://purl.obolibrary.org/obo/ECOCORE_00000013>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_3000001> (species range)
 
