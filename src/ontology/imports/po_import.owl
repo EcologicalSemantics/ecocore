@@ -14,9 +14,9 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2021-02-17/imports/po_import.owl"/>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/po/releases/2020-08-20/po.owl"/>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2022-03-09/imports/po_import.owl"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/po/releases/2021-08-13/po.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-03-09</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2283,7 +2283,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
         <owl:annotatedTarget>woody clump (narrow)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FNA:c1ccca7d-2a98-4a9d-8603-c34b551935e0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:c1ccca7d-2a98-4a9d-8603-c34b551935e0</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2530,7 +2530,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0005029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0005029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025127"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2576,7 +2575,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0006001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0006001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2708,7 +2706,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0007033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0007033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009012"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2783,7 +2780,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0009001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2927,7 +2923,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0009005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3199,7 +3194,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0009010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025496"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3309,6 +3303,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0009012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>A stage in the life of a plant structure (PO:0009011) during which the plant structure undergoes developmental processes.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PO:0007021</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>PO_GIT:185</oboInOwl:hasDbXref>
@@ -3393,7 +3388,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0009046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3460,7 +3454,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0009062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0009062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3540,7 +3533,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009062"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>gynoecia (exact, plural)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FNA:226a743c-7988-4b66-b163-2ce80d7c8a70</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FNA:226a743c-7988-4b66-b163-2ce80d7c8a70</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PO_0009062"/>
@@ -3555,7 +3548,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0020003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0020003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009008"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3855,7 +3847,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0025025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4052,7 +4043,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0025082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009006"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4194,7 +4184,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0025128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0025127"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -4248,6 +4237,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0025131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -4436,7 +4426,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/PO_0025338 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PO_0025338">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PO_0009012"/>
         <rdfs:subClassOf>
             <owl:Restriction>

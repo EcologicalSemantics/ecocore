@@ -18,6 +18,7 @@ Import(<http://purl.obolibrary.org/obo/ecocore/imports/pco_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/po_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/ro_import.owl>)
 Import(<http://purl.obolibrary.org/obo/ecocore/imports/uberon_import.owl>)
+Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/>)
 Annotation(rdfs:comment "An ontology of core ecological entities")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CARO_0010004>))
@@ -203,6 +204,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000182>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_3000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ecocore_00000133>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
 ############################
 #   Annotation Properties
 ############################
@@ -959,8 +961,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000091> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000092> (secondary consumer)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000092> "A predator that eats primary consumers or herbivores")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000092> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000092> "A predator that eats primary consumers or herbivores")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000092> "secondary consumer")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000092> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
 
@@ -1167,7 +1169,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000119> <http://purl.obolib
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000120> (sequentially hermaphroditic)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "Sequential hermaphroditism occurs when the individual changes sex at some point in its life.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000120> "dichogamy")
