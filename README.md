@@ -55,11 +55,11 @@ Building the ontology
 
 4. Run the build script: sh run.sh make prepare_release -B. This command will compile the patterns, refresh the imports and build the ontology release files. Note that this step can take between 45 and 90 minutes - so make sure you do it over night or befor you go to the gym. 
 
-5. If everything went well, you should see the following output on your machine. Release files are now in ../.. - now you should commit, push and make a release on github
+5. If everything went well, you should see the following output on your machine. Release files are now in ../..
 
 6. Open the file myecocorerdir/ecocore.owl in Protege and sanity check for classes with missing labels (on the top level of the hierarchy) and general weirdnesses. In particular, you want to know wether your latest changes to pattern are what you expected. 
 
-7. If it looks sane, (go to the commit everything to the new branch you have created, push and create a pull request. Wait for travis to run one last time, but that should not reveal surprises. 
+7. If it looks sane, go to the ecocore directory and commit everything to the new branch you have created, push and create a pull request. Wait for travis to run one last time, but that should not reveal surprises. 
 
 8. In an ideal world, let at least one other person sanity check the ecocore release. A good file to sanity check is ecocore-base.obo, and perhaps even ecocore.obo: they are easy to review. 
 
