@@ -1,15 +1,9 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/ecocore.owl	dc:description	
+ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/ecocore.owl	dc:title	
 ERROR	missing_label	planktonic material	label	
 ERROR	missing_label	hermaphroditic organism	label	
-ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/ecocore.owl	dc11:description	
-ERROR	multiple_definitions	sequentially hermaphroditic	definition	Sequential hermaphroditism occurs when the individual changes sex at some point in its life.
-ERROR	multiple_definitions	sequentially hermaphroditic	definition	a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life
-ERROR	missing_ontology_license	http://purl.obolibrary.org/obo/ecocore.owl	dc:license	
-ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/ecocore.owl	dc11:title	
-ERROR	multiple_labels	secondary consumer	label	A predator that eats primary consumers or herbivores
-ERROR	multiple_labels	secondary consumer	label	secondary consumer
 WARN	missing_definition	crepuscular	definition	
-WARN	missing_definition	secondary consumer	definition	
 WARN	missing_definition	planktonic material	definition	
 WARN	missing_definition	editor preferred term	definition	
 WARN	missing_definition	example of usage	definition	
@@ -24,6 +18,28 @@ WARN	missing_definition	temporal interpretation	definition
 WARN	missing_definition	is a defining property chain axiom	definition	
 WARN	missing_definition	is a defining property chain axiom where second argument is reflexive	definition	
 WARN	missing_definition	hermaphroditic organism	definition	
+WARN	equivalent_class_axiom_no_genus	heterotroph	capable of	heterotrophy
+WARN	equivalent_class_axiom_no_genus	fungivory	has input	Fungi
+WARN	equivalent_class_axiom_no_genus	herbivore	capable of	herbivory
+WARN	equivalent_class_axiom_no_genus	carnivory	has input	Metazoa
+WARN	equivalent_class_axiom_no_genus	autotroph	capable of	autotrophy
+WARN	equivalent_class_axiom_no_genus	symbiotroph	capable of	symbiotrophy
+WARN	equivalent_class_axiom_no_genus	deposit feeder	capable of	deposit feeding
+WARN	equivalent_class_axiom_no_genus	decomposer	capable of	decomposition
+WARN	equivalent_class_axiom_no_genus	detritivory	has input	detritus
+WARN	equivalent_class_axiom_no_genus	folivore	eats	leaf
+WARN	equivalent_class_axiom_no_genus	rhizovore	eats	root
+WARN	equivalent_class_axiom_no_genus	predator	capable of	predation
+WARN	equivalent_class_axiom_no_genus	scavenger	capable of	scavenging
+WARN	equivalent_class_axiom_no_genus	insectivore	capable of	insectivory
+WARN	equivalent_class_axiom_no_genus	seed predation	has input	seed
+WARN	equivalent_class_axiom_no_genus	frugivore	eats	fruit
+WARN	equivalent_class_axiom_no_genus	granivore	eats	seed
+WARN	equivalent_class_axiom_no_genus	xylophage	eats	wood
+WARN	equivalent_class_axiom_no_genus	parasite	capable of	trophic parasitism
+WARN	equivalent_class_axiom_no_genus	planktivore	eats	planktonic material
+WARN	equivalent_class_axiom_no_genus	hematophagy	has input	blood
+WARN	equivalent_class_axiom_no_genus	leaf miner	endoparasite of	leaf
 INFO	lowercase_definition	hermaphroditic	definition	a reproductive quality inhering in the bearer by virtue of the bearer having reproductive organs normally associated with both male and female sexes at the same time
 INFO	lowercase_definition	protogynous	definition	a reproductive quality inhering in the bearer by virtue of the bearer having female reproductive organs at the beginning of its life and then switching to male reproductive organs
 INFO	lowercase_definition	symbiotroph	definition	heterotroph that acquires nutrition from a symbiont

@@ -1,9 +1,10 @@
 format-version: 1.2
-data-version: ecocore/releases/2021-02-17/ecocore-base.owl
+data-version: ecocore/releases/2022-03-09/ecocore-base.owl
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
-property_value: owl:versionInfo "2021-02-17" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
+property_value: owl:versionInfo "2022-03-09" xsd:string
 
 [Term]
 id: ECOCORE:00000001
@@ -78,7 +79,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 [Term]
 id: ECOCORE:00000009
 name: autotrophy
-def: "A trophic interaction process during which a living entity acquires energy and generates biomass from non-living entities." []
+def: "A trophic process during which a living entity acquires energy and generates biomass from non-living entities." []
 is_a: ECOCORE:00000008 ! trophic process
 property_value: IAO:0000116 "This should be axiomatised and made a defined class: any trophic interaction which has as input some inorganic material (non-living) that is the only source of carbon or reducing equivalents source is a autotrophic process." xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -96,7 +97,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 [Term]
 id: ECOCORE:00000011
 name: heterotrophy
-def: "A trophic interaction process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead." []
+def: "A trophic process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead." []
 synonym: "consumption" EXACT []
 is_a: ECOCORE:00000008 ! trophic process
 property_value: IAO:0000116 "This should be axiomatised and made a defined class: any trophic interaction which has as input some organic material (living or dead) that is the only source of carbon or reducing equivalents source is a autotrophic process." xsd:string
@@ -113,18 +114,16 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
 [Term]
 id: ECOCORE:00000013
-name: photoautotrophy
-def: "A process during which a living entity generates food from abiotic sources and captures energy from light." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Phototroph"}
-is_a: ECOCORE:00000017 ! phototrophy
-relationship: BFO:0000051 GO:0015979
-relationship: BFO:0000051 GO:0045333
-property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
-property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
+name: nectivory
+def: "A herbivorous process during which a living entity acquires food and energy by consuming nectar." []
+is_a: ECOCORE:00000020 ! herbivory
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-2908-3327
+property_value: http://purl.org/dc/elements/1.1/date 2022-03-09T17:05:35Z xsd:dateTime
 
 [Term]
 id: ECOCORE:00000014
 name: lithotrophy
-def: "A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Lithotroph"}
+def: "A trophic process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Lithotroph"}
 is_a: ECOCORE:00000008 ! trophic process
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 
@@ -132,6 +131,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 id: ECOCORE:00000015
 name: fungivore
 def: "A heterotroph which consumes fungi." []
+synonym: "fungal feeder" EXACT []
 synonym: "mycophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000016 ! fungivory
@@ -144,6 +144,7 @@ id: ECOCORE:00000016
 name: fungivory
 def: "A heterotrophic process during which a living entity acquires food and energy by consuming living fungal material." []
 comment: In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.
+synonym: "fungal feeding" EXACT []
 synonym: "mycophagy" EXACT []
 is_a: ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -152,7 +153,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
 [Term]
 id: ECOCORE:00000017
 name: phototrophy
-def: "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Phototroph"}
+def: "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Phototroph"}
 is_a: ECOCORE:00000008 ! trophic process
 relationship: BFO:0000051 GO:0015979
 relationship: BFO:0000051 GO:0045333
@@ -172,6 +173,7 @@ id: ECOCORE:00000019
 name: herbivore
 def: "A heterotroph which consumes plants or macroalgae via ingestion through a type of \"mouth\". Plant or algal matter is broken down through an internal digestion process." []
 comment: There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore
+synonym: "phytophage" EXACT []
 synonym: "plant eater" NARROW []
 synonym: "primary consumer" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
@@ -184,6 +186,7 @@ id: ECOCORE:00000020
 name: herbivory
 def: "A heterotrophic process during which a living entity acquires food and energy by consuming living plant- or macro-algal material." []
 comment: In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet.
+synonym: "phytophagy" EXACT []
 synonym: "plant trophism" EXACT []
 is_a: ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -194,9 +197,18 @@ id: ECOCORE:00000021
 name: carnivory
 def: "A heterotrophic process during which a living entity acquires food and energy from consuming living metazoan (animal) material." []
 comment: In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.
+synonym: "zoophagy" EXACT []
 is_a: ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000117 http://orcid.org/0000-0002-4366-3088 xsd:string
+
+[Term]
+id: ECOCORE:00000022
+name: symbiosis
+def: "A process during which two living entities engage in a close and long-term biological interaction." []
+is_a: BFO:0000015
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-2908-3327
+property_value: http://purl.org/dc/elements/1.1/date 2022-03-09T17:22:07Z xsd:dateTime
 
 [Term]
 id: ECOCORE:00000023
@@ -213,6 +225,14 @@ name: area to mass ratio
 def: "Quotient (or ratio) of surface area of an organism divided by the mass of the same organism" []
 is_a: PATO:0001995
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000025
+name: commensalism
+def: "A symbiotic process in which one participant gains benefits while the other participant neither benefits nor is harmed." []
+is_a: ECOCORE:00000022 ! symbiosis
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-2908-3327
+property_value: http://purl.org/dc/elements/1.1/date 2022-03-09T17:23:41Z xsd:dateTime
 
 [Term]
 id: ECOCORE:00000026
@@ -367,6 +387,14 @@ name: endophyte
 def: "An organism bearing a symbiont role and capable of living within a plant for at least part of its life cycle without causing apparent disease" []
 is_a: ECOCORE:00000045 ! symbiotroph
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: ECOCORE:00000047
+name: parasitism
+def: "A symbiotic process in which one participant gains benefits while the other participant is harmed." []
+is_a: ECOCORE:00000022 ! symbiosis
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-2908-3327
+property_value: http://purl.org/dc/elements/1.1/date 2022-03-09T17:28:04Z xsd:dateTime
 
 [Term]
 id: ECOCORE:00000048
@@ -627,6 +655,7 @@ id: ECOCORE:00000084
 name: folivore
 def: "An herbivore that primarily consumes leaves" []
 synonym: "leaf eater" EXACT []
+synonym: "phyllophage" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Folivore xsd:string
@@ -635,7 +664,10 @@ property_value: IAO:0000119 https://en.wikipedia.org/wiki/Folivore xsd:string
 id: ECOCORE:00000085
 name: rhizovore
 def: "An herbivore that primarily consumes roots" []
+synonym: "racidivore" EXACT []
+synonym: "rhizophage" EXACT []
 synonym: "root eater" EXACT []
+synonym: "root feeder" EXACT []
 synonym: "root herbivore" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -645,6 +677,7 @@ id: ECOCORE:00000086
 name: algivore
 def: "An herbivore that primarily consumes algae" []
 synonym: "algae eater" EXACT []
+synonym: "algophage" EXACT []
 is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -659,6 +692,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000088
 name: carnivore
 def: "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process." []
+synonym: "zoophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000021 ! carnivory
 intersection_of: RO:0002470 NCBITaxon:33208
@@ -675,6 +709,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000090
 name: scavenger
 def: "A carnivore that feeds on dead and decaying animal matter" []
+synonym: "necrophage" EXACT []
 is_a: ECOCORE:00000088 ! carnivore
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -682,13 +717,14 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000091
 name: insectivore
 def: "A predator that primarily eats insects" []
+synonym: "entomophage" EXACT []
 is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
 id: ECOCORE:00000092
-name: A predator that eats primary consumers or herbivores
 name: secondary consumer
+def: "A predator that eats primary consumers or herbivores" []
 is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -732,6 +768,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000098
 name: bacterivore
 def: "a heterotroph that consumes bacteria" []
+synonym: "bacterial feeder" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 
 [Term]
@@ -745,6 +782,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000100
 name: seed predation
 def: "A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant." []
+synonym: "granivory" EXACT []
 is_a: ECOCORE:00000020 ! herbivory
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -767,6 +805,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000103
 name: scavenging
 def: "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter." []
+synonym: "necrophagy" EXACT []
 is_a: ECOCORE:00000021 ! carnivory
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -787,7 +826,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 [Term]
 id: ECOCORE:00000106
 name: adelphophagy
-def: "A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus." []
+def: "An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus." []
 synonym: "embryophagy" EXACT []
 is_a: ECOCORE:00000105 ! intrauterine cannibalism
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
@@ -795,7 +834,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 [Term]
 id: ECOCORE:00000107
 name: oophagy
-def: "A cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus." []
+def: "An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus." []
 is_a: ECOCORE:00000105 ! intrauterine cannibalism
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -803,6 +842,7 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000108
 name: insectivory
 def: "A predation process during which a living entity acquires food and energy by consuming insects." []
+synonym: "entomophagy" EXACT []
 is_a: ECOCORE:00000102 ! predation
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -847,6 +887,7 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000114
 name: bactivory
 def: "A heterotrophic process during which a living entity acquires food and energy from consuming bacteria." []
+synonym: "bacterial feeding" EXACT []
 is_a: ECOCORE:00000011 ! heterotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -889,7 +930,6 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 id: ECOCORE:00000120
 name: sequentially hermaphroditic
 def: "a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life" []
-def: "Sequential hermaphroditism occurs when the individual changes sex at some point in its life." []
 synonym: "dichogamy" EXACT []
 is_a: ECOCORE:00000061 ! sexual system
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -999,6 +1039,8 @@ property_value: IAO:0000117 https://orcid.org/0000-0002-1434-9495 xsd:string
 id: ECOCORE:00000136
 name: frugivore
 def: "An herbivore that primarily consumes fruits or fruit-like vegetables" []
+synonym: "carpophage" EXACT []
+synonym: "fructivore" EXACT []
 synonym: "fruit eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1470764
 is_a: ECOCORE:00000019 ! herbivore
@@ -1025,6 +1067,7 @@ id: ECOCORE:00000140
 name: nectarivore
 def: "An herbivore that primarily consumes nectar" []
 synonym: "nectar eater" EXACT []
+synonym: "nectivore" EXACT []
 xref: https://www.wikidata.org/entry/Q120880
 is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
@@ -1083,8 +1126,9 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
 id: ECOCORE:00000147
-name: parasitism
+name: trophic parasitism
 def: "A symbiotrophic process during which a living entity acquires food and energy from another living entity via a close association. The entity providing the food and energy is harmed by this process." []
+is_a: ECOCORE:00000047 ! parasitism
 is_a: ECOCORE:00000060 ! symbiotrophy
 property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 
@@ -1183,27 +1227,27 @@ property_value: IAO:0000117 http://orcid.org/0000-0002-2908-3327 xsd:string
 [Term]
 id: ECOCORE:00000160
 name: chemosymbiosis
-def: "A form of symbiosis in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism." []
+def: "A symbiotrophic process in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism." []
 is_a: ECOCORE:00000060 ! symbiotrophy
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
 id: ECOCORE:00000161
 name: photosymbiosis
-def: "A symbiosis in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism." []
+def: "A symbiotrophic process in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism." []
 is_a: ECOCORE:00000060 ! symbiotrophy
 property_value: IAO:0000117 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
 id: ECOCORE:00000162
 name: organotrophy
-def: "A process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." []
+def: "A trophic process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration." []
 is_a: ECOCORE:00000008 ! trophic process
 
 [Term]
 id: ECOCORE:00000163
 name: chemotrophy
-def: "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules." []
+def: "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules." []
 is_a: ECOCORE:00000008 ! trophic process
 
 [Term]
@@ -1211,6 +1255,7 @@ id: ECOCORE:00000164
 name: sanguivore
 def: "A carnivore that consumes blood, during a brief, temporary interaction." []
 synonym: "blood eater" EXACT []
+synonym: "hematophage" EXACT []
 is_a: ECOCORE:00000088 ! carnivore
 intersection_of: RO:0002215 ECOCORE:00000165 ! hematophagy
 intersection_of: RO:0002470 UBERON:0000178
@@ -1344,6 +1389,23 @@ id: ECOCORE:00000181
 name: aerotolerant anaerobe
 def: "an anaerobe that can tolerate low levels of oxygen" []
 is_a: ECOCORE:00000172 ! anaerobe
+
+[Term]
+id: ECOCORE:00000182
+name: deposit feeding
+def: "A heterotrophic process during which a living entity acquires food and energy by consuming particles of organic matter that have settled to the bottom of a body of water" []
+is_a: ECOCORE:00000011 ! heterotrophy
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0002-2908-3327
+property_value: http://purl.org/dc/elements/1.1/date 2021-10-26T20:14:31Z xsd:dateTime
+
+[Term]
+id: ECOCORE:3000001
+name: species range
+def: "An environmental zone that encompasses the geographical area in which most members of a species as collection of organisms can be found." [] {http://purl.obolibrary.org/obo/IAO_0000119="Range"}
+comment: Not all member of the species are necessarily found within its range, because there may be individuals in zoos or individuals that have strayed beyond the range but which will not be able to form a sustainable population in the new area.  The latter individuals are often referred to as vagrants.
+is_a: ENVO:01000408
+property_value: IAO:0000116 "I feel that there should be some relationship to \"species as collection of organisms\" but I don't know which one. Determined by seems a little too strong, but might work." xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-8815-0078
 
 [Term]
 id: ENVO:01000063

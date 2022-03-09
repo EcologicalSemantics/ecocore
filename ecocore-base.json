@@ -9,6 +9,11 @@
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000008"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/BFO_0000015",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000022"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/BFO_0000034",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000004"
@@ -209,9 +214,9 @@
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000155"
         },
         {
-          "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000017",
+          "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000011",
           "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000013"
+          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000182"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000019",
@@ -276,6 +281,11 @@
         {
           "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000020",
           "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000013"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000020",
+          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000099"
         },
         {
@@ -302,6 +312,16 @@
           "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000021",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000165"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000022",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000025"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000022",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000047"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000023",
@@ -362,6 +382,11 @@
           "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000045",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000146"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000047",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000147"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/ECOCORE_00000050",
@@ -681,17 +706,17 @@
         {
           "obj": "http://purl.obolibrary.org/obo/ENVO_01000408",
           "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/ECOCORE_3000001"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/ENVO_01000408",
+          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/ecocore_00000133"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/GO_0002164",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000044"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/GO_0015979",
-          "pred": "http://purl.obolibrary.org/obo/BFO_0000051",
-          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000013"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/GO_0015979",
@@ -712,11 +737,6 @@
           "obj": "http://purl.obolibrary.org/obo/GO_0045333",
           "pred": "http://purl.obolibrary.org/obo/BFO_0000051",
           "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000008"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/GO_0045333",
-          "pred": "http://purl.obolibrary.org/obo/BFO_0000051",
-          "sub": "http://purl.obolibrary.org/obo/ECOCORE_00000013"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/GO_0045333",
@@ -1044,16 +1064,20 @@
             "val": "http://purl.obolibrary.org/obo/IAO_8000001"
           },
           {
+            "pred": "http://purl.org/dc/terms/license",
+            "val": "https://creativecommons.org/licenses/by/3.0/"
+          },
+          {
             "pred": "http://www.w3.org/2000/01/rdf-schema#comment",
             "val": "An ontology of core ecological entities"
           },
           {
             "pred": "http://www.w3.org/2002/07/owl#versionInfo",
-            "val": "2021-02-17"
+            "val": "2022-03-09"
           }
         ],
         "subsets": [],
-        "version": "http://purl.obolibrary.org/obo/ecocore/releases/2021-02-17/ecocore-base.json",
+        "version": "http://purl.obolibrary.org/obo/ecocore/releases/2022-03-09/ecocore-base.json",
         "xrefs": []
       },
       "nodes": [
@@ -1290,7 +1314,7 @@
               }
             ],
             "definition": {
-              "val": "A trophic interaction process during which a living entity acquires energy and generates biomass from non-living entities.",
+              "val": "A trophic process during which a living entity acquires energy and generates biomass from non-living entities.",
               "xrefs": []
             }
           },
@@ -1343,7 +1367,7 @@
               }
             ],
             "definition": {
-              "val": "A trophic interaction process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead.",
+              "val": "A trophic process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead.",
               "xrefs": []
             },
             "synonyms": [
@@ -1379,20 +1403,20 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/ECOCORE_00000013",
-          "lbl": "photoautotrophy",
+          "lbl": "nectivory",
           "meta": {
             "basicPropertyValues": [
               {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "pred": "http://purl.org/dc/elements/1.1/creator",
                 "val": "http://orcid.org/0000-0002-2908-3327"
               },
               {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
-                "val": "http://orcid.org/0000-0002-4366-3088"
+                "pred": "http://purl.org/dc/elements/1.1/date",
+                "val": "2022-03-09T17:05:35Z"
               }
             ],
             "definition": {
-              "val": "A process during which a living entity generates food from abiotic sources and captures energy from light.",
+              "val": "A herbivorous process during which a living entity acquires food and energy by consuming nectar.",
               "xrefs": []
             }
           },
@@ -1409,7 +1433,7 @@
               }
             ],
             "definition": {
-              "val": "A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.",
+              "val": "A trophic process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.",
               "xrefs": []
             }
           },
@@ -1434,6 +1458,11 @@
               "xrefs": []
             },
             "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "fungal feeder",
+                "xrefs": []
+              },
               {
                 "pred": "hasExactSynonym",
                 "val": "mycophage",
@@ -1467,6 +1496,11 @@
             "synonyms": [
               {
                 "pred": "hasExactSynonym",
+                "val": "fungal feeding",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
                 "val": "mycophagy",
                 "xrefs": []
               }
@@ -1489,7 +1523,7 @@
               }
             ],
             "definition": {
-              "val": "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.",
+              "val": "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.",
               "xrefs": []
             }
           },
@@ -1540,6 +1574,11 @@
             "synonyms": [
               {
                 "pred": "hasExactSynonym",
+                "val": "phytophage",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
                 "val": "primary consumer",
                 "xrefs": []
               },
@@ -1576,6 +1615,11 @@
             "synonyms": [
               {
                 "pred": "hasExactSynonym",
+                "val": "phytophagy",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
                 "val": "plant trophism",
                 "xrefs": []
               }
@@ -1602,6 +1646,34 @@
             ],
             "definition": {
               "val": "A heterotrophic process during which a living entity acquires food and energy from consuming living metazoan (animal) material.",
+              "xrefs": []
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "zoophagy",
+                "xrefs": []
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/ECOCORE_00000022",
+          "lbl": "symbiosis",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.org/dc/elements/1.1/creator",
+                "val": "http://orcid.org/0000-0002-2908-3327"
+              },
+              {
+                "pred": "http://purl.org/dc/elements/1.1/date",
+                "val": "2022-03-09T17:22:07Z"
+              }
+            ],
+            "definition": {
+              "val": "A process during which two living entities engage in a close and long-term biological interaction.",
               "xrefs": []
             }
           },
@@ -1647,6 +1719,27 @@
             ],
             "definition": {
               "val": "Quotient (or ratio) of surface area of an organism divided by the mass of the same organism",
+              "xrefs": []
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/ECOCORE_00000025",
+          "lbl": "commensalism",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.org/dc/elements/1.1/creator",
+                "val": "http://orcid.org/0000-0002-2908-3327"
+              },
+              {
+                "pred": "http://purl.org/dc/elements/1.1/date",
+                "val": "2022-03-09T17:23:41Z"
+              }
+            ],
+            "definition": {
+              "val": "A symbiotic process in which one participant gains benefits while the other participant neither benefits nor is harmed.",
               "xrefs": []
             }
           },
@@ -2023,6 +2116,27 @@
             ],
             "definition": {
               "val": "An organism bearing a symbiont role and capable of living within a plant for at least part of its life cycle without causing apparent disease",
+              "xrefs": []
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/ECOCORE_00000047",
+          "lbl": "parasitism",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.org/dc/elements/1.1/creator",
+                "val": "http://orcid.org/0000-0002-2908-3327"
+              },
+              {
+                "pred": "http://purl.org/dc/elements/1.1/date",
+                "val": "2022-03-09T17:28:04Z"
+              }
+            ],
+            "definition": {
+              "val": "A symbiotic process in which one participant gains benefits while the other participant is harmed.",
               "xrefs": []
             }
           },
@@ -2672,6 +2786,11 @@
                 "pred": "hasExactSynonym",
                 "val": "leaf eater",
                 "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "phyllophage",
+                "xrefs": []
               }
             ]
           },
@@ -2694,7 +2813,22 @@
             "synonyms": [
               {
                 "pred": "hasExactSynonym",
+                "val": "racidivore",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "rhizophage",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
                 "val": "root eater",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "root feeder",
                 "xrefs": []
               },
               {
@@ -2724,6 +2858,11 @@
               {
                 "pred": "hasExactSynonym",
                 "val": "algae eater",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "algophage",
                 "xrefs": []
               }
             ]
@@ -2760,7 +2899,14 @@
             "definition": {
               "val": "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "zoophage",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -2794,7 +2940,14 @@
             "definition": {
               "val": "A carnivore that feeds on dead and decaying animal matter",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "necrophage",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -2811,20 +2964,31 @@
             "definition": {
               "val": "A predator that primarily eats insects",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "entomophage",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
         {
           "id": "http://purl.obolibrary.org/obo/ECOCORE_00000092",
-          "lbl": "A predator that eats primary consumers or herbivores",
+          "lbl": "secondary consumer",
           "meta": {
             "basicPropertyValues": [
               {
                 "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
                 "val": "http://orcid.org/0000-0002-2908-3327"
               }
-            ]
+            ],
+            "definition": {
+              "val": "A predator that eats primary consumers or herbivores",
+              "xrefs": []
+            }
           },
           "type": "CLASS"
         },
@@ -2927,7 +3091,14 @@
             "definition": {
               "val": "a heterotroph that consumes bacteria",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "bacterial feeder",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -2961,7 +3132,14 @@
             "definition": {
               "val": "A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "granivory",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -3015,7 +3193,14 @@
             "definition": {
               "val": "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "necrophagy",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -3064,7 +3249,7 @@
               }
             ],
             "definition": {
-              "val": "A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.",
+              "val": "An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.",
               "xrefs": []
             },
             "synonyms": [
@@ -3088,7 +3273,7 @@
               }
             ],
             "definition": {
-              "val": "A cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus.",
+              "val": "An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus.",
               "xrefs": []
             }
           },
@@ -3107,7 +3292,14 @@
             "definition": {
               "val": "A predation process during which a living entity acquires food and energy by consuming insects.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "entomophagy",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -3217,7 +3409,14 @@
             "definition": {
               "val": "A heterotrophic process during which a living entity acquires food and energy from consuming bacteria.",
               "xrefs": []
-            }
+            },
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "bacterial feeding",
+                "xrefs": []
+              }
+            ]
           },
           "type": "CLASS"
         },
@@ -3600,6 +3799,16 @@
             "synonyms": [
               {
                 "pred": "hasExactSynonym",
+                "val": "carpophage",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "fructivore",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
                 "val": "fruit eater",
                 "xrefs": []
               }
@@ -3676,6 +3885,11 @@
               {
                 "pred": "hasExactSynonym",
                 "val": "nectar eater",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "nectivore",
                 "xrefs": []
               }
             ],
@@ -3842,7 +4056,7 @@
         },
         {
           "id": "http://purl.obolibrary.org/obo/ECOCORE_00000147",
-          "lbl": "parasitism",
+          "lbl": "trophic parasitism",
           "meta": {
             "basicPropertyValues": [
               {
@@ -4118,7 +4332,7 @@
               }
             ],
             "definition": {
-              "val": "A form of symbiosis in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism.",
+              "val": "A symbiotrophic process in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism.",
               "xrefs": []
             }
           },
@@ -4135,7 +4349,7 @@
               }
             ],
             "definition": {
-              "val": "A symbiosis in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism.",
+              "val": "A symbiotrophic process in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism.",
               "xrefs": []
             }
           },
@@ -4146,7 +4360,7 @@
           "lbl": "organotrophy",
           "meta": {
             "definition": {
-              "val": "A process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.",
+              "val": "A trophic process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.",
               "xrefs": []
             }
           },
@@ -4157,7 +4371,7 @@
           "lbl": "chemotrophy",
           "meta": {
             "definition": {
-              "val": "A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.",
+              "val": "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.",
               "xrefs": []
             }
           },
@@ -4181,6 +4395,11 @@
               {
                 "pred": "hasExactSynonym",
                 "val": "blood eater",
+                "xrefs": []
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "hematophage",
                 "xrefs": []
               }
             ]
@@ -4532,6 +4751,51 @@
           "meta": {
             "definition": {
               "val": "an anaerobe that can tolerate low levels of oxygen",
+              "xrefs": []
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/ECOCORE_00000182",
+          "lbl": "deposit feeding",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.org/dc/elements/1.1/creator",
+                "val": "http://orcid.org/0000-0002-2908-3327"
+              },
+              {
+                "pred": "http://purl.org/dc/elements/1.1/date",
+                "val": "2021-10-26T20:14:31Z"
+              }
+            ],
+            "definition": {
+              "val": "A heterotrophic process during which a living entity acquires food and energy by consuming particles of organic matter that have settled to the bottom of a body of water",
+              "xrefs": []
+            }
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/ECOCORE_3000001",
+          "lbl": "species range",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000116",
+                "val": "I feel that there should be some relationship to \"species as collection of organisms\" but I don't know which one. Determined by seems a little too strong, but might work."
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0000117",
+                "val": "https://orcid.org/0000-0001-8815-0078"
+              }
+            ],
+            "comments": [
+              "Not all member of the species are necessarily found within its range, because there may be individuals in zoos or individuals that have strayed beyond the range but which will not be able to form a sustainable population in the new area.  The latter individuals are often referred to as vagrants."
+            ],
+            "definition": {
+              "val": "An environmental zone that encompasses the geographical area in which most members of a species as collection of organisms can be found.",
               "xrefs": []
             }
           },

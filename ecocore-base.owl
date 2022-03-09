@@ -8,12 +8,14 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecocore/ecocore-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2021-02-17/ecocore-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2022-03-09/ecocore-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <rdfs:comment>An ontology of core ecological entities</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2021-02-17</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-03-09</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -58,6 +60,24 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
         <rdfs:label>definition source</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
@@ -135,6 +155,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002470 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002470"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002634 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002634"/>
     
 
 
@@ -311,7 +337,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000008"/>
-        <obo:IAO_0000115>A trophic interaction process during which a living entity acquires energy and generates biomass from non-living entities.</obo:IAO_0000115>
+        <obo:IAO_0000115>A trophic process during which a living entity acquires energy and generates biomass from non-living entities.</obo:IAO_0000115>
         <obo:IAO_0000116>This should be axiomatised and made a defined class: any trophic interaction which has as input some inorganic material (non-living) that is the only source of carbon or reducing equivalents source is a autotrophic process.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
@@ -343,7 +369,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000008"/>
-        <obo:IAO_0000115>A trophic interaction process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead.</obo:IAO_0000115>
+        <obo:IAO_0000115>A trophic process during which a living entity acquires food and energy by consuming another organism or organism part, living or dead.</obo:IAO_0000115>
         <obo:IAO_0000116>This should be axiomatised and made a defined class: any trophic interaction which has as input some organic material (living or dead) that is the only source of carbon or reducing equivalents source is a autotrophic process.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
@@ -381,30 +407,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000017"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0015979"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045333"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A process during which a living entity generates food from abiotic sources and captures energy from light.</obo:IAO_0000115>
-        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">photoautotrophy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000020"/>
+        <obo:IAO_0000115>A herbivorous process during which a living entity acquires food and energy by consuming nectar.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T17:05:35Z</dc:date>
+        <rdfs:label xml:lang="en">nectivory</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000013"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A process during which a living entity generates food from abiotic sources and captures energy from light.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Phototroph</obo:IAO_0000119>
-    </owl:Axiom>
     
 
 
@@ -412,14 +420,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000008"/>
-        <obo:IAO_0000115>A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.</obo:IAO_0000115>
+        <obo:IAO_0000115>A trophic process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
         <rdfs:label xml:lang="en">lithotrophy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000014"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.</owl:annotatedTarget>
+        <owl:annotatedTarget>A trophic process during which a living entity acquires reducing equivalents from inorganic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.</owl:annotatedTarget>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Lithotroph</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -446,6 +454,7 @@
         <obo:IAO_0000115>A heterotroph which consumes fungi.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>fungal feeder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mycophage</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">fungivore</rdfs:label>
     </owl:Class>
@@ -465,6 +474,7 @@
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming living fungal material.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>fungal feeding</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mycophagy</oboInOwl:hasExactSynonym>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.</rdfs:comment>
         <rdfs:label xml:lang="en">fungivory</rdfs:label>
@@ -488,7 +498,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0045333"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.</obo:IAO_0000115>
+        <obo:IAO_0000115>A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
         <rdfs:label xml:lang="en">phototrophy</rdfs:label>
@@ -496,7 +506,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000017"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.</owl:annotatedTarget>
+        <owl:annotatedTarget>A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from light.</owl:annotatedTarget>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Phototroph</obo:IAO_0000119>
     </owl:Axiom>
     
@@ -540,6 +550,7 @@
         <obo:IAO_0000115>A heterotroph which consumes plants or macroalgae via ingestion through a type of &quot;mouth&quot;. Plant or algal matter is broken down through an internal digestion process.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>phytophage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>primary consumer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>plant eater</oboInOwl:hasNarrowSynonym>
         <rdfs:comment>There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore</rdfs:comment>
@@ -555,6 +566,7 @@
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming living plant- or macro-algal material.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>phytophagy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>plant trophism</oboInOwl:hasExactSynonym>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a herbivorous diet: this is a functional defintion, referencing the act of eating, primarily, a plant- or macroalga-based diet.</rdfs:comment>
         <rdfs:label xml:lang="en">herbivory</rdfs:label>
@@ -575,8 +587,21 @@
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy from consuming living metazoan (animal) material.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>zoophagy</oboInOwl:hasExactSynonym>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.</rdfs:comment>
         <rdfs:label xml:lang="en">carnivory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process during which two living entities engage in a close and long-term biological interaction.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T17:22:07Z</dc:date>
+        <rdfs:label xml:lang="en">symbiosis</rdfs:label>
     </owl:Class>
     
 
@@ -607,6 +632,18 @@
         <obo:IAO_0000115>Quotient (or ratio) of surface area of an organism divided by the mass of the same organism</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>area to mass ratio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000022"/>
+        <obo:IAO_0000115>A symbiotic process in which one participant gains benefits while the other participant neither benefits nor is harmed.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T17:23:41Z</dc:date>
+        <rdfs:label xml:lang="en">commensalism</rdfs:label>
     </owl:Class>
     
 
@@ -850,6 +887,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000045">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000060"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
         <obo:IAO_0000115>heterotroph that acquires nutrition from a symbiont</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -865,6 +908,18 @@
         <obo:IAO_0000115>An organism bearing a symbiont role and capable of living within a plant for at least part of its life cycle without causing apparent disease</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>endophyte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000022"/>
+        <obo:IAO_0000115>A symbiotic process in which one participant gains benefits while the other participant is harmed.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-03-09T17:28:04Z</dc:date>
+        <rdfs:label xml:lang="en">parasitism</rdfs:label>
     </owl:Class>
     
 
@@ -905,6 +960,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000050">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000182"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
         <obo:IAO_0000115>Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -1321,6 +1382,7 @@
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Folivore</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>leaf eater</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>phyllophage</oboInOwl:hasExactSynonym>
         <rdfs:label>folivore</rdfs:label>
     </owl:Class>
     
@@ -1338,7 +1400,10 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000019"/>
         <obo:IAO_0000115>An herbivore that primarily consumes roots</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>racidivore</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rhizophage</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>root eater</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>root feeder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>root herbivore</oboInOwl:hasExactSynonym>
         <rdfs:label>rhizovore</rdfs:label>
     </owl:Class>
@@ -1352,6 +1417,7 @@
         <obo:IAO_0000115>An herbivore that primarily consumes algae</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym>algae eater</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>algophage</oboInOwl:hasExactSynonym>
         <rdfs:label>algivore</rdfs:label>
     </owl:Class>
     
@@ -1388,6 +1454,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
         <obo:IAO_0000115>A heterotroph that consumes animals in whole or in part via ingestion through a type of &quot;mouth&quot;. Animal matter is broken down through an internal digestion process.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>zoophage</oboInOwl:hasExactSynonym>
         <rdfs:label>carnivore</rdfs:label>
     </owl:Class>
     
@@ -1422,6 +1489,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000088"/>
         <obo:IAO_0000115>A carnivore that feeds on dead and decaying animal matter</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>necrophage</oboInOwl:hasExactSynonym>
         <rdfs:label>scavenger</rdfs:label>
     </owl:Class>
     
@@ -1439,6 +1507,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
         <obo:IAO_0000115>A predator that primarily eats insects</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>entomophage</oboInOwl:hasExactSynonym>
         <rdfs:label>insectivore</rdfs:label>
     </owl:Class>
     
@@ -1448,8 +1517,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000089"/>
+        <obo:IAO_0000115>A predator that eats primary consumers or herbivores</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>A predator that eats primary consumers or herbivores</rdfs:label>
         <rdfs:label>secondary consumer</rdfs:label>
     </owl:Class>
     
@@ -1537,6 +1606,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
         <obo:IAO_0000115>a heterotroph that consumes bacteria</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>bacterial feeder</oboInOwl:hasExactSynonym>
         <rdfs:label>bacterivore</rdfs:label>
     </owl:Class>
     
@@ -1565,6 +1635,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000020"/>
         <obo:IAO_0000115>A herbivorous process during which a living entity acquires food and energy by consuming seeds of a plant.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>granivory</oboInOwl:hasExactSynonym>
         <rdfs:label>seed predation</rdfs:label>
     </owl:Class>
     
@@ -1599,6 +1670,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000021"/>
         <obo:IAO_0000115>A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>necrophagy</oboInOwl:hasExactSynonym>
         <rdfs:label>scavenging</rdfs:label>
     </owl:Class>
     
@@ -1630,7 +1702,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000105"/>
-        <obo:IAO_0000115>A cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000115>An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming a less-developed sibling embryo while both are still in the uterus.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym>embryophagy</oboInOwl:hasExactSynonym>
         <rdfs:label>adelphophagy</rdfs:label>
@@ -1642,7 +1714,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000105"/>
-        <obo:IAO_0000115>A cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus.</obo:IAO_0000115>
+        <obo:IAO_0000115>An intrauterine cannibalistic process during which an embryo obtains food and energy by consuming less-developed sibling eggs while both are still in the uterus.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>oophagy</rdfs:label>
     </owl:Class>
@@ -1655,6 +1727,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000102"/>
         <obo:IAO_0000115>A predation process during which a living entity acquires food and energy by consuming insects.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>entomophagy</oboInOwl:hasExactSynonym>
         <rdfs:label>insectivory</rdfs:label>
     </owl:Class>
     
@@ -1736,6 +1809,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy from consuming bacteria.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>bacterial feeding</oboInOwl:hasExactSynonym>
         <rdfs:label>bactivory</rdfs:label>
     </owl:Class>
     
@@ -1800,7 +1874,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000061"/>
-        <obo:IAO_0000115>Sequential hermaphroditism occurs when the individual changes sex at some point in its life.</obo:IAO_0000115>
         <obo:IAO_0000115>a reproductive quality inhering in the bearer by virtue of the bearer changing sex at some point in its life</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym>dichogamy</oboInOwl:hasExactSynonym>
@@ -1815,7 +1888,15 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000162"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000009"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000017"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000162"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000130"/>
@@ -1835,8 +1916,9 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000009"/>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000014"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0015979"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000017"/>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -1856,7 +1938,15 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0062097"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000009"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000162"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000129"/>
@@ -1876,8 +1966,9 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000009"/>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000014"/>
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0062097"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -1916,6 +2007,20 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000127 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000127">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000162"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000132"/>
         <obo:IAO_0000115>A chemoheterotroph which is capable of using a biogenic organic compound as an electron donor.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -1930,7 +2035,15 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000014"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000014"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000132"/>
@@ -1944,6 +2057,19 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000129">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000009"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000023"/>
         <obo:IAO_0000115>An autotroph which is capable of obtaining energy from the bonds in a chemical compound.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -1958,7 +2084,14 @@
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000017"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000009"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000017"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000023"/>
@@ -1983,6 +2116,19 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000132">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000163"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000010"/>
         <obo:IAO_0000115>A heterotroph which is capable of obtaining energy from the bonds in a chemical compound.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -2029,6 +2175,8 @@
         <obo:IAO_0000115>An herbivore that primarily consumes fruits or fruit-like vegetables</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <oboInOwl:hasDbXref>https://www.wikidata.org/entity/Q1470764</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>carpophage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fructivore</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fruit eater</oboInOwl:hasExactSynonym>
         <rdfs:label>frugivore</rdfs:label>
     </owl:Class>
@@ -2067,6 +2215,7 @@
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <oboInOwl:hasDbXref>https://www.wikidata.org/entry/Q120880</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>nectar eater</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nectivore</oboInOwl:hasExactSynonym>
         <rdfs:label>nectarivore</rdfs:label>
     </owl:Class>
     
@@ -2169,10 +2318,11 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000047"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000060"/>
         <obo:IAO_0000115>A symbiotrophic process during which a living entity acquires food and energy from another living entity via a close association. The entity providing the food and energy is harmed by this process.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>parasitism</rdfs:label>
+        <rdfs:label>trophic parasitism</rdfs:label>
     </owl:Class>
     
 
@@ -2327,7 +2477,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000060"/>
-        <obo:IAO_0000115>A form of symbiosis in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism.</obo:IAO_0000115>
+        <obo:IAO_0000115>A symbiotrophic process in which a bacterium provides chemically-derived energy and nutrients, often via the oxidation of hydrogen sulfide, to a higher organism.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>chemosymbiosis</rdfs:label>
     </owl:Class>
@@ -2338,7 +2488,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000060"/>
-        <obo:IAO_0000115>A symbiosis in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism.</obo:IAO_0000115>
+        <obo:IAO_0000115>A symbiotrophic process in which a photosynthetic organism provides energy and nutrients to a heterotrophic organism.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <rdfs:label>photosymbiosis</rdfs:label>
     </owl:Class>
@@ -2349,7 +2499,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000008"/>
-        <obo:IAO_0000115>A process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.</obo:IAO_0000115>
+        <obo:IAO_0000115>A trophic process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.</obo:IAO_0000115>
         <rdfs:label>organotrophy</rdfs:label>
     </owl:Class>
     
@@ -2359,7 +2509,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000008"/>
-        <obo:IAO_0000115>A process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115>A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.</obo:IAO_0000115>
         <rdfs:label>chemotrophy</rdfs:label>
     </owl:Class>
     
@@ -2386,6 +2536,7 @@
         <obo:IAO_0000115>A carnivore that consumes blood, during a brief, temporary interaction.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <oboInOwl:hasExactSynonym>blood eater</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematophage</oboInOwl:hasExactSynonym>
         <rdfs:label>sanguivore</rdfs:label>
     </owl:Class>
     
@@ -2422,6 +2573,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000167">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002634"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000084"/>
         <obo:IAO_0000115>a folivore that lives in and eats the leaf tissue of plants</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
@@ -2594,6 +2751,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000011"/>
+        <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming particles of organic matter that have settled to the bottom of a body of water</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-26T20:14:31Z</dc:date>
+        <rdfs:label xml:lang="en">deposit feeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_3000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_3000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000408"/>
+        <obo:IAO_0000115>An environmental zone that encompasses the geographical area in which most members of a species as collection of organisms can be found.</obo:IAO_0000115>
+        <obo:IAO_0000116>I feel that there should be some relationship to &quot;species as collection of organisms&quot; but I don&apos;t know which one. Determined by seems a little too strong, but might work.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0001-8815-0078"/>
+        <rdfs:comment>Not all member of the species are necessarily found within its range, because there may be individuals in zoos or individuals that have strayed beyond the range but which will not be able to form a sustainable population in the new area.  The latter individuals are often referred to as vagrants.</rdfs:comment>
+        <rdfs:label xml:lang="en">species range</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_3000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An environmental zone that encompasses the geographical area in which most members of a species as collection of organisms can be found.</owl:annotatedTarget>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Species_distribution#Range"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_00002040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002040"/>
@@ -2647,12 +2835,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0045333 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045333"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0062097 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0062097"/>
     
 
 
