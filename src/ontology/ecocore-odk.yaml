@@ -24,3 +24,4 @@ import_group:
     - id: pco
     - id: po
 robot_java_args: '-Xmx8G'
+allow_equivalents: 'all'
