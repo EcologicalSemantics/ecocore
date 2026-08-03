@@ -1,0 +1,51 @@
+# EcoCore release workflow
+# Triggered by a date-stamped version tag: vYYYY-MM-DD
+# Creates a GitHub Release and attaches the release artifacts.
+
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]'
+
+jobs:
+  release:
+    name: Prepare and publish release
+    runs-on: ubuntu-latest
+    container: obolibrary/odkfull:v1.6.1
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build release artifacts
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' prepare_release IMP=false PAT=false MIR=false
+
+      - name: Get tag name
+        id: tag
+        run: echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: ${{ steps.tag.outputs.tag }}
+          body: |
+            EcoCore release ${{ steps.tag.outputs.tag }}.
+
+            See [DEVELOPMENT_PLAN.md](https://github.com/EcologicalSemantics/ecocore/blob/master/DEVELOPMENT_PLAN.md) for the full development roadmap.
+
+            **Downloads:**
+            - `ecocore.owl` — full ontology (OWL format)
+            - `ecocore.obo` — full ontology (OBO format)
+            - `ecocore.json` — full ontology (JSON-LD format)
+            - `ecocore-base.owl` — base ontology without imports merged in
+          files: |
+            ecocore.owl
+            ecocore.obo
+            ecocore.json
+            ecocore-base.owl
+            ecocore-base.obo
+            ecocore-base.json

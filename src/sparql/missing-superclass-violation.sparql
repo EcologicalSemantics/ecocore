@@ -1,0 +1,23 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Flag ECOCORE classes that have no named (non-blank) superclass.
+# A class with only owl:Thing as parent, or with no subClassOf at all,
+# is likely an orphan and should be placed in the hierarchy.
+# Deprecated terms are excluded.
+
+SELECT ?cls ?label WHERE {
+    ?cls a owl:Class ;
+         rdfs:label ?label .
+    FILTER ( regex(str(?cls), "^http://purl.obolibrary.org/obo/ECOCORE_") )
+    FILTER NOT EXISTS { ?cls owl:deprecated "true"^^xsd:boolean }
+    FILTER NOT EXISTS {
+        ?cls rdfs:subClassOf ?parent .
+        FILTER ( !isBlank(?parent) )
+        FILTER ( ?parent != owl:Thing )
+    }
+    FILTER ( !isBlank(?cls) )
+}
+ORDER BY ?cls
