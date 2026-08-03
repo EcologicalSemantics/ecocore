@@ -14,31 +14,31 @@ jobs:
   ontology_qc:
     name: Ontology QC
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.5.3
+    container: obolibrary/odkfull:v1.6.1
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Run ontology QC checks
         env:
           DEFAULT_BRANCH: master
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false PAT=false
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false PAT=false MIR=false
 
   reports:
     name: Generate reports
     runs-on: ubuntu-latest
-    container: obolibrary/odkfull:v1.5.3
+    container: obolibrary/odkfull:v1.6.1
     # Only run reports on pushes to master, not on every PR
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Generate SPARQL reports
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' sparql_reports IMP=false PAT=false
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' sparql_reports IMP=false PAT=false MIR=false
 
       - name: Upload reports as artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ontology-reports
           path: src/ontology/reports/

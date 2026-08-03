@@ -1,8 +1,6 @@
-*.tmp
-src/ontology/mirror
-src/ontology/mirror/*
-src/ontology/ecocore.obo
-src/ontology/ecocore.owl
+# ODK-managed rules, do not modify
+# If you need to add your own ignore rules, you may do so below
+# the "End ODK-managed rules" marker at the end of this file.
 .DS_Store
 semantic.cache
 bin/
@@ -11,13 +9,33 @@ bin/
 *.tmp.obo
 *.tmp.owl
 *.tmp.json
+*-relation-graph.tsv.gz
+.template.db
+
+.github/token.txt
+
+/ecocore.owl
+/ecocore.obo
+/ecocore.json
+/ecocore.db
+/ecocore-base.*
+/ecocore-basic.*
+/ecocore-full.*
+/ecocore-simple.*
+/ecocore-simple-non-classified.*
+/mappings/
+/patterns/
+/reports/
+/subsets/
 
 src/ontology/mirror
 src/ontology/mirror/*
 src/ontology/reports/*
+!src/ontology/reports/release-diff.md
 src/ontology/ecocore.owl
 src/ontology/ecocore.obo
 src/ontology/ecocore.json
+src/ontology/ecocore.db
 src/ontology/ecocore-base.*
 src/ontology/ecocore-basic.*
 src/ontology/ecocore-full.*
@@ -31,10 +49,15 @@ src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
 src/ontology/merged-ecocore-edit.owl
+src/ontology/ecocore-edit.properties
 
 src/ontology/target/
 src/ontology/tmp/*
+!src/ontology/tmp/.gitkeep
 !src/ontology/tmp/README.md
+
+src/ontology/run.sh.conf
+src/ontology/run.sh.env
 
 src/ontology/imports/*_terms_combined.txt
 
@@ -42,3 +65,11 @@ src/patterns/data/**/*.ofn
 src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
 src/patterns/all_pattern_terms.txt
+
+# End of ODK-managed rules
+
+
+
+
+
+
