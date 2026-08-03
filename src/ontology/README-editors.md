@@ -1,6 +1,6 @@
 These notes are for the EDITORS of ecocore
 
-This project was created using the [ontology starter kit](https://github.com/cmungall/ontology-starter-kit). See the site for details.
+This project uses the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit). See the ODK documentation for full details.
 
 For more details on ontology management, please see the [OBO tutorial](https://github.com/jamesaoverton/obo-tutorial) or the [Protege Planteome Tutorial](https://github.com/Planteome/protege-tutorial)
 
@@ -41,62 +41,60 @@ For now, consult the [Protege Planteome Tutorial](https://github.com/Planteome/p
 ## Release Manager notes
 
 You should only attempt to make a release AFTER the edit version is
-committed and pushed, and the travis build passes.
+committed and pushed, and the GitHub Actions CI passes.
 
-to release:
+### Running the build locally
+
+All build commands should be run inside the ODK Docker container using the wrapper script:
 
     cd src/ontology
-    make
+    ./run.sh make test
 
-If this looks goo
-d type:
+If the test passes, prepare the release:
 
-    make prepare_release
+    ./run.sh make prepare_release
 
 This generates derived files such as ecocore.owl and ecocore.obo and places
 them in the top level (../..). The versionIRI will be added.
 
 Commit and push these files.
 
-    git commit -a
-
-And type a brief description of the release in the editor window
-
-Finally type
-
+    git commit -a -m "YYYY-MM-DD release"
     git push origin master
 
-IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
+### Creating a GitHub Release
 
- * https://github.com/EcologicalSemantics/an-ontology-of-core-ecological-entities/releases
- * https://github.com/EcologicalSemantics/an-ontology-of-core-ecological-entities/releases/new
+IMMEDIATELY AFTERWARDS (do *not* make further modifications) create a date-stamped tag:
 
-The value of the "Tag version" field MUST be
+    git tag vYYYY-MM-DD
+    git push origin vYYYY-MM-DD
 
-    vYYYY-MM-DD
+The value of the tag MUST be `vYYYY-MM-DD`. The initial lowercase "v" is REQUIRED.
+The YYYY-MM-DD *must* match what is in the versionIRI of the derived ecocore.owl
+(data-version in ecocore.obo).
 
-The initial lowercase "v" is REQUIRED. The YYYY-MM-DD *must* match
-what is in the versionIRI of the derived ecocore.owl (data-version in
-ecocore.obo).
-
-Release title should be YYYY-MM-DD, optionally followed by a title (e.g. "january release")
-
-Then click "publish release"
+Then go to https://github.com/EcologicalSemantics/ecocore/releases and create a new
+release from the tag. The release title should be YYYY-MM-DD, optionally followed
+by a brief description (e.g. "January release").
 
 __IMPORTANT__: NO MORE THAN ONE RELEASE PER DAY.
 
 The PURLs are already configured to pull from github. This means that
 BOTH ontology purls and versioned ontology purls will resolve to the
-correct ontologies. Try it!
+correct ontologies.
 
- * http://purl.obolibrary.org/obo/ecocore.owl <-- current ontology PURL
- * http://purl.obolibrary.org/obo/ecocore/releases/YYYY-MM-DD.owl <-- change to the release you just made
+ * http://purl.obolibrary.org/obo/ecocore.owl — current ontology PURL
+ * http://purl.obolibrary.org/obo/ecocore/releases/YYYY-MM-DD.owl — versioned PURL
 
-For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
+For questions email obo-admin AT obofoundry.org
 
-# Travis Continuous Integration System
+# GitHub Actions Continuous Integration
 
-Check the build status here: [![Build Status](https://travis-ci.org/EcologicalSemantics/an-ontology-of-core-ecological-entities.svg?branch=master)](https://travis-ci.org/EcologicalSemantics/an-ontology-of-core-ecological-entities)
+CI runs automatically on every push and pull request to master.
 
-Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/EcologicalSemantics](https://travis-ci.org/profile/EcologicalSemantics) for details
+Check the build status here: [![CI](https://github.com/EcologicalSemantics/ecocore/actions/workflows/qc.yml/badge.svg)](https://github.com/EcologicalSemantics/ecocore/actions/workflows/qc.yml)
+
+The workflow runs two jobs:
+- **Ontology QC** — runs `make test` (reasoning + SPARQL checks + ROBOT report) on every PR and push
+- **Generate reports** — generates and archives SPARQL export TSVs on pushes to master only
 
