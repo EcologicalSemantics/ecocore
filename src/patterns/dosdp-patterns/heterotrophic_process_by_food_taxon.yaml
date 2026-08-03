@@ -1,0 +1,43 @@
+pattern_name: heterotrophic_process_by_food_taxon
+pattern_iri: http://purl.obolibrary.org/obo/ecocore/patterns/heterotrophic_process_by_food_taxon.yaml
+description: >
+  A heterotrophic trophic process defined by the taxonomic group consumed.
+  Use this pattern when adding a named feeding process (e.g. fungivory,
+  carnivory) that is characterized by what taxon is eaten.
+  The defined class is equivalent to: heterotrophy AND (has_input some food_taxon).
+
+contributors:
+  - https://orcid.org/0000-0002-4366-3088
+
+classes:
+  heterotrophy: ECOCORE:00000011
+  taxon: NCBITaxon:1
+
+relations:
+  has_input: RO:0002233
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  definition_source: IAO:0000119
+  term_editor: IAO:0000117
+
+vars:
+  food_taxon: "'taxon'"
+
+name:
+  text: "%s consumption"
+  vars:
+    - food_taxon
+
+def:
+  text: "A heterotrophic process during which a living entity acquires food and energy by consuming %s."
+  vars:
+    - food_taxon
+
+subClassOf:
+  text: "'heterotrophy'"
+
+equivalentTo:
+  text: "'heterotrophy' and ('has_input' some %s)"
+  vars:
+    - food_taxon

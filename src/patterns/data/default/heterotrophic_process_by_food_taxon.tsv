@@ -1,0 +1,6 @@
+defined_class	food_taxon	exact_synonym	definition_source	term_editor
+# New trophic process terms go here. Existing terms (fungivory, herbivory,
+# carnivory, etc.) were added to ecocore-edit.owl manually before this pattern
+# existed. Use this file for all future additions.
+# Example row (do not uncomment without assigning a real ECOCORE ID):
+# ECOCORE:00000XXX	NCBITaxon:4751	fungivory|mycophagy|fungal feeding	https://en.wikipedia.org/wiki/Fungivore	https://orcid.org/XXXX-XXXX-XXXX-XXXX

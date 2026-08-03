@@ -1,0 +1,43 @@
+pattern_name: trophic_organism_by_diet
+pattern_iri: http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_diet.yaml
+description: >
+  A heterotrophic organism defined by the trophic process it is capable of.
+  Use this pattern when adding a named dietary role (e.g. fungivore, carnivore)
+  that is characterized by a corresponding trophic process term.
+  The defined class is equivalent to: heterotroph AND (capable_of some trophic_process).
+
+contributors:
+  - https://orcid.org/0000-0002-4366-3088
+
+classes:
+  heterotroph: ECOCORE:00000010
+  trophic_process: ECOCORE:00000008
+
+relations:
+  capable_of: RO:0002215
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  definition_source: IAO:0000119
+  term_editor: IAO:0000117
+
+vars:
+  diet_process: "'trophic process'"
+
+name:
+  text: "%s organism"
+  vars:
+    - diet_process
+
+def:
+  text: "A heterotrophic organism that is capable of %s."
+  vars:
+    - diet_process
+
+subClassOf:
+  text: "'heterotroph'"
+
+equivalentTo:
+  text: "'heterotroph' and ('capable_of' some %s)"
+  vars:
+    - diet_process

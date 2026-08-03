@@ -1,0 +1,6 @@
+defined_class	diet_process	exact_synonym	definition_source	term_editor
+# New trophic organism (dietary role) terms go here. Existing terms (fungivore,
+# herbivore, carnivore, etc.) were added to ecocore-edit.owl manually before
+# this pattern existed. Use this file for all future additions.
+# Example row (do not uncomment without assigning a real ECOCORE ID):
+# ECOCORE:00000XXX	ECOCORE:00000016	fungal feeder|mycophage	https://en.wikipedia.org/wiki/Fungivore	https://orcid.org/XXXX-XXXX-XXXX-XXXX
