@@ -34,15 +34,47 @@ test: sparql_test all_reports
 TEMPLATEDIR = ../templates
 COMPONENTSDIR = components
 
+ROBOT_TEMPLATE_PREFIXES = \
+  --prefix "ECOCORE: http://purl.obolibrary.org/obo/ECOCORE_" \
+  --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" \
+  --prefix "IAO: http://purl.obolibrary.org/obo/IAO_" \
+  --prefix "PATO: http://purl.obolibrary.org/obo/PATO_" \
+  --prefix "PCO: http://purl.obolibrary.org/obo/PCO_" \
+  --prefix "OBI: http://purl.obolibrary.org/obo/OBI_"
+
 $(COMPONENTSDIR)/reproductive_qualities.owl: $(TEMPLATEDIR)/reproductive_qualities.tsv | $(COMPONENTSDIR)
-	$(ROBOT) template --template $< \
-	  --prefix "ECOCORE: http://purl.obolibrary.org/obo/ECOCORE_" \
-	  --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" \
-	  --prefix "IAO: http://purl.obolibrary.org/obo/IAO_" \
-	  --prefix "PATO: http://purl.obolibrary.org/obo/PATO_" \
+	$(ROBOT) template --template $< $(ROBOT_TEMPLATE_PREFIXES) \
 	  --ontology-iri "$(ONTBASE)/components/reproductive_qualities.owl" \
 	  annotate --ontology-iri "$(ONTBASE)/components/reproductive_qualities.owl" \
 	  --output $@
 
+$(COMPONENTSDIR)/mating_systems.owl: $(TEMPLATEDIR)/mating_systems.tsv | $(COMPONENTSDIR)
+	$(ROBOT) template --template $< $(ROBOT_TEMPLATE_PREFIXES) \
+	  --ontology-iri "$(ONTBASE)/components/mating_systems.owl" \
+	  annotate --ontology-iri "$(ONTBASE)/components/mating_systems.owl" \
+	  --output $@
+
+$(COMPONENTSDIR)/biogeographic_status.owl: $(TEMPLATEDIR)/biogeographic_status.tsv | $(COMPONENTSDIR)
+	$(ROBOT) template --template $< $(ROBOT_TEMPLATE_PREFIXES) \
+	  --ontology-iri "$(ONTBASE)/components/biogeographic_status.owl" \
+	  annotate --ontology-iri "$(ONTBASE)/components/biogeographic_status.owl" \
+	  --output $@
+
+$(COMPONENTSDIR)/diel_activity_patterns.owl: $(TEMPLATEDIR)/diel_activity_patterns.tsv | $(COMPONENTSDIR)
+	$(ROBOT) template --template $< $(ROBOT_TEMPLATE_PREFIXES) \
+	  --ontology-iri "$(ONTBASE)/components/diel_activity_patterns.owl" \
+	  annotate --ontology-iri "$(ONTBASE)/components/diel_activity_patterns.owl" \
+	  --output $@
+
+$(COMPONENTSDIR)/oxygen_tolerance.owl: $(TEMPLATEDIR)/oxygen_tolerance.tsv | $(COMPONENTSDIR)
+	$(ROBOT) template --template $< $(ROBOT_TEMPLATE_PREFIXES) \
+	  --ontology-iri "$(ONTBASE)/components/oxygen_tolerance.owl" \
+	  annotate --ontology-iri "$(ONTBASE)/components/oxygen_tolerance.owl" \
+	  --output $@
+
 .PHONY: all_templates
-all_templates: $(COMPONENTSDIR)/reproductive_qualities.owl
+all_templates: $(COMPONENTSDIR)/reproductive_qualities.owl \
+               $(COMPONENTSDIR)/mating_systems.owl \
+               $(COMPONENTSDIR)/biogeographic_status.owl \
+               $(COMPONENTSDIR)/diel_activity_patterns.owl \
+               $(COMPONENTSDIR)/oxygen_tolerance.owl

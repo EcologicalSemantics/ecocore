@@ -1,0 +1,9 @@
+ID	Label	Definition	Definition source	Editor note	Term editor	Exact synonym	Related synonym	Parent class
+ID	A rdfs:label	A IAO:0000115	A IAO:0000119	A IAO:0000116	A IAO:0000117	A oio:hasExactSynonym SPLIT=|	A oio:hasRelatedSynonym SPLIT=|	SC %
+ECOCORE:00000172	anaerobe	An organism that does not require oxygen for growth.			https://orcid.org/0000-0002-2908-3327	anaerobic organism		OBI:0100026
+ECOCORE:00000173	aerobe	An organism that can survive and grow in an oxygenated environment.			https://orcid.org/0000-0002-2908-3327	aerobic organism		OBI:0100026
+ECOCORE:00000177	facultative anaerobe	An anaerobe that makes ATP by aerobic respiration if oxygen is present, but is capable of switching to fermentation if oxygen is absent.			https://orcid.org/0000-0002-2908-3327	facultative anaerobic organism		ECOCORE:00000172
+ECOCORE:00000178	obligate anaerobe	An anaerobe that cannot grow in the presence of oxygen.			https://orcid.org/0000-0002-2908-3327			ECOCORE:00000172
+ECOCORE:00000179	obligate aerobe	An aerobe that requires oxygen to grow.			https://orcid.org/0000-0002-2908-3327			ECOCORE:00000173
+ECOCORE:00000180	microaerophile	An aerobe that can grow at oxygen levels lower than what is present in the atmosphere.			https://orcid.org/0000-0002-2908-3327	microaerophilic organism		ECOCORE:00000173
+ECOCORE:00000181	aerotolerant anaerobe	An anaerobe that can tolerate low levels of oxygen but does not use it for growth.			https://orcid.org/0000-0002-2908-3327			ECOCORE:00000172
