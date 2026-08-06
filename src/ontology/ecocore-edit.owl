@@ -365,15 +365,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000014>
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000015> (fungivore)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "A heterotroph which consumes fungi.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-4366-3088")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "fungal feeder")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "mycophage")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000015> "fungivore"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000015> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000015> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+# Managed by DOSDP pattern: trophic_organism_by_food_taxon
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000016> (fungivory)
 
@@ -716,91 +708,41 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000062>
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000062> <http://purl.obolibrary.org/obo/PATO_0001434>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000063> (monogamous)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000063> "One male and one female have an exclusive mating relationship")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000063> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000063> "monogamous")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000063> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+# Managed by ROBOT template: mating_systems.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000064> (polyandrous)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000064> "One female has an exclusive mating relationship with two or more males")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000064> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000064> "polyandrous")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000064> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+# Managed by ROBOT template: mating_systems.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000065> (polygynous)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000065> "One male has an exclusive mating relationship with two or more females")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000065> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000065> "polygynous")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000065> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+# Managed by ROBOT template: mating_systems.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000066> (polygynandrous)
+# Managed by ROBOT template: mating_systems.tsv
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000066> "Two or more males have an exclusive mating relationship with two or more females")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000066> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000066> "polygynandrous")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000066> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
-
-# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000067> (promiscuity)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000067> "a member of one sex mates with any member of the opposite sex")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000067> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000067> "promiscuity")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000067> <http://purl.obolibrary.org/obo/ECOCORE_00000062>)
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000067> (promiscuous)
+# Managed by ROBOT template: mating_systems.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000068> (endemic)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000068> "The ecological state of a species being unique to a defined geographic location, such as an island, nation, or other defined zone or habitat type.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000068> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000068> "endemic")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000068> <http://purl.obolibrary.org/obo/PCO_0000003>)
+# Managed by ROBOT template: biogeographic_status.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000069> (extinct)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000069> "The ecological state of a species or population wherein all individuals are dead.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000069> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000069> "extinct")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000069> <http://purl.obolibrary.org/obo/PCO_0000003>)
+# Managed by ROBOT template: biogeographic_status.tsv
 DisjointClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000069> <http://purl.obolibrary.org/obo/ECOCORE_00000072>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000070> (indigenous)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000070> "The ecological state of a species living in a region where its presence is the result of only natural process, with no human intervention")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000070> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000070> "native")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000070> "indigenous")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000070> <http://purl.obolibrary.org/obo/PCO_0000003>)
+# Managed by ROBOT template: biogeographic_status.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000071> (introduced)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000071> "The ecological state of a species living outside its native distributional range, which has arrived there by human activity, either deliberate or accidental.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000071> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000071> "exotic")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000071> "introduced")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000071> <http://purl.obolibrary.org/obo/PCO_0000003>)
+# Managed by ROBOT template: biogeographic_status.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000072> (extant)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000072> "The ecological state that is not the extinct state")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000072> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000072> "extant")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000072> <http://purl.obolibrary.org/obo/PCO_0000003>)
+# Managed by ROBOT template: biogeographic_status.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000073> (cosmopolitan)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000073> "The ecological state of a species being found across all or most of the world in appropriate habitats.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000073> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000073> "cosmopolitan")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000073> <http://purl.obolibrary.org/obo/PCO_0000003>)
+# Managed by ROBOT template: biogeographic_status.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000074> (microendemic)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000074> "The ecological state of a species being unique to a very small and specific location, such as the side of a mountain or a single lake.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000074> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000074> "microendemic")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000074> <http://purl.obolibrary.org/obo/ECOCORE_00000068>)
+# Managed by ROBOT template: biogeographic_status.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000075> (annual survival rate)
 
@@ -825,32 +767,17 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000077> ObjectInters
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000077> <http://purl.obolibrary.org/obo/NCBITaxon_2>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000078> (crepuscular)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000078> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for being active primarily during dawn and dusk")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000078> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000078> "crepuscular")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000078> <http://purl.obolibrary.org/obo/PATO_0001995>)
+# Managed by ROBOT template: diel_activity_patterns.tsv
+# Note: definition was incorrectly stored in IAO:0000117 in original; corrected in template.
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000079> (nocturnal)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000079> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for being active during the hours of darkness")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000079> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000079> "nocturnal")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000079> <http://purl.obolibrary.org/obo/PATO_0001995>)
+# Managed by ROBOT template: diel_activity_patterns.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000080> (diurnal)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000080> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for being active during the hours of daylight")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000080> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000080> "diurnal")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000080> <http://purl.obolibrary.org/obo/PATO_0001995>)
+# Managed by ROBOT template: diel_activity_patterns.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000081> (migratory)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000081> "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for participating in long-distance movement of conspecifics, usually on a seasonal basis")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000081> "https://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000081> "migratory")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000081> <http://purl.obolibrary.org/obo/PATO_0001995>)
+# Managed by ROBOT template: diel_activity_patterns.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000083> (graminivore)
 
@@ -902,13 +829,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000087>
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000087> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000088> (carnivore)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "A heterotroph that consumes animals in whole or in part via ingestion through a type of \"mouth\". Animal matter is broken down through an internal digestion process.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "zoophage")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000088> "carnivore")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000088> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000021>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
+# Managed by DOSDP pattern: trophic_organism_by_food_taxon
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000089> (predator)
 
@@ -1463,13 +1384,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000163>
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000163> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000164> (sanguivore)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "A carnivore that consumes blood, during a brief, temporary interaction.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "blood eater")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "hematophage")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000164> "sanguivore")
-EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000164> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000165>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/UBERON_0000178>)))
+# Managed by DOSDP pattern: trophic_organism_by_food_taxon
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000164> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000165> (hematophagy)
@@ -1529,20 +1444,10 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000171>
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000171> <http://purl.obolibrary.org/obo/OBI_0100026>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000172> (anaerobe)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000172> "an organism that does not require oxygen for growth")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000172> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000172> "anaerobic organism")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000172> "anaerobe")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000172> <http://purl.obolibrary.org/obo/OBI_0100026>)
+# Managed by ROBOT template: oxygen_tolerance.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000173> (aerobe)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000173> "an organism that can survive and grow in an oxygenated environment")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000173> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000173> "aerobic organism")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000173> "aerobe")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000173> <http://purl.obolibrary.org/obo/OBI_0100026>)
+# Managed by ROBOT template: oxygen_tolerance.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000174> (prototroph)
 
@@ -1568,40 +1473,19 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000176>
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000176> <http://purl.obolibrary.org/obo/ECOCORE_00000054>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000177> (facultative anaerobe)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000177> "an anaerobe that makes ATP by aerobic respiration if oxygen is present, but is capable of switching to fermentation if oxygen is absent.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000177> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000177> "facultative anaerobic organism")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000177> "facultative anaerobe")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000177> <http://purl.obolibrary.org/obo/ECOCORE_00000172>)
+# Managed by ROBOT template: oxygen_tolerance.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000178> (obligate anaerobe)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000178> "an anaerobe that cannot grow in the presence of oxygen")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000178> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000178> "obligate anaerobe")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000178> <http://purl.obolibrary.org/obo/ECOCORE_00000172>)
+# Managed by ROBOT template: oxygen_tolerance.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000179> (obligate aerobe)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000179> "an aerobe that requires oxygen to grow")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000179> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000179> "obligate aerobe")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000179> <http://purl.obolibrary.org/obo/ECOCORE_00000173>)
+# Managed by ROBOT template: oxygen_tolerance.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000180> (microaerophile)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000180> "an aerobe that can grow at oxygen levels lower than what is present in the atmosphere")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000180> "http://orcid.org/0000-0002-2908-3327")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000180> "microaerophilic organism")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000180> "microaerophile")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000180> <http://purl.obolibrary.org/obo/ECOCORE_00000173>)
+# Managed by ROBOT template: oxygen_tolerance.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000181> (aerotolerant anaerobe)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000181> "an anaerobe that can tolerate low levels of oxygen")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000181> "aerotolerant anaerobe")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000181> <http://purl.obolibrary.org/obo/ECOCORE_00000172>)
+# Managed by ROBOT template: oxygen_tolerance.tsv
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000182> (deposit feeding)
 
