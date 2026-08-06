@@ -1,0 +1,4 @@
+defined_class	label	definition	environment	exact_synonym	definition_source	term_editor
+ECOCORE:00000183	terrestrial primary production	An autotrophic process during which living entities fix inorganic carbon and generate biomass in terrestrial biomes.	ENVO:00000446	terrestrial net primary production|terrestrial NPP		https://orcid.org/0000-0002-2908-3327
+ECOCORE:00000184	marine primary production	An autotrophic process during which living entities fix inorganic carbon and generate biomass in marine environments.	ENVO:00000015	marine net primary production|oceanic primary production		https://orcid.org/0000-0002-2908-3327
+ECOCORE:00000185	benthic primary production	An autotrophic process during which living entities fix inorganic carbon and generate biomass in benthic zones.	ENVO:00000020	benthic net primary production		https://orcid.org/0000-0002-2908-3327

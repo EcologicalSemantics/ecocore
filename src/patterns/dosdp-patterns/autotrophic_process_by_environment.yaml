@@ -1,0 +1,44 @@
+pattern_name: autotrophic_process_by_environment
+pattern_iri: http://purl.obolibrary.org/obo/ecocore/patterns/autotrophic_process_by_environment.yaml
+description: >
+  An autotrophic trophic process defined by the environment in which it occurs.
+  Use this pattern when adding a named primary production process (e.g. marine
+  primary production, terrestrial primary production) that is characterized by
+  the habitat or biome where it takes place.
+  The defined class is equivalent to: autotrophy AND (occurs_in some environment).
+
+contributors:
+  - https://orcid.org/0000-0002-2908-3327
+
+classes:
+  autotrophy: ECOCORE:00000009
+  environmental_system: ENVO:01000254
+
+relations:
+  occurs_in: BFO:0000066
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  definition_source: IAO:0000119
+  term_editor: IAO:0000117
+
+vars:
+  environment: "'environmental system'"
+
+name:
+  text: "%s primary production"
+  vars:
+    - environment
+
+def:
+  text: "An autotrophic process during which living entities fix inorganic carbon and generate biomass in %s."
+  vars:
+    - environment
+
+subClassOf:
+  text: "'autotrophy'"
+
+equivalentTo:
+  text: "'autotrophy' and ('occurs_in' some %s)"
+  vars:
+    - environment

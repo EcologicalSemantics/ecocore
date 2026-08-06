@@ -1,0 +1,44 @@
+pattern_name: decomposition_process_by_substrate
+pattern_iri: http://purl.obolibrary.org/obo/ecocore/patterns/decomposition_process_by_substrate.yaml
+description: >
+  A decomposition process defined by the substrate being broken down.
+  Use this pattern when adding a named decomposition process (e.g. litter
+  decomposition, dissolved organic matter mineralization) that is characterized
+  by the organic substrate consumed. The defined class is equivalent to:
+  decomposition AND (has_input some substrate).
+
+contributors:
+  - https://orcid.org/0000-0002-2908-3327
+
+classes:
+  decomposition: ECOCORE:00000058
+  material_entity: BFO:0000040
+
+relations:
+  has_input: RO:0002233
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  definition_source: IAO:0000119
+  term_editor: IAO:0000117
+
+vars:
+  substrate: "'material entity'"
+
+name:
+  text: "%s decomposition"
+  vars:
+    - substrate
+
+def:
+  text: "A decomposition process during which a living entity acquires food and energy by breaking down %s."
+  vars:
+    - substrate
+
+subClassOf:
+  text: "'decomposition'"
+
+equivalentTo:
+  text: "'decomposition' and ('has_input' some %s)"
+  vars:
+    - substrate

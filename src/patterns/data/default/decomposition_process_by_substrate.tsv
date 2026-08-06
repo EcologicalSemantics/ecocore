@@ -1,0 +1,3 @@
+defined_class	label	definition	substrate	exact_synonym	definition_source	term_editor
+ECOCORE:00000186	litter decomposition	A decomposition process during which a living entity acquires food and energy by breaking down plant litter.	ENVO:01000155	leaf litter decomposition		https://orcid.org/0000-0002-2908-3327
+ECOCORE:00000187	dissolved organic matter mineralization	A decomposition process during which a living entity acquires food and energy by breaking down dissolved organic matter.	CHEBI:33695	DOM mineralization		https://orcid.org/0000-0002-2908-3327

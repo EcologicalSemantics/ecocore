@@ -1,0 +1,51 @@
+pattern_name: trophic_organism_by_food_taxon
+pattern_iri: http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_food_taxon.yaml
+description: >
+  A heterotrophic organism defined by both the trophic process it engages in and
+  the entity it consumes (taxon, tissue, or material). Use this pattern when an
+  organism is characterized by a named process (e.g. fungivory) together with a
+  specific food entity (e.g. fungi). The defined class is equivalent to:
+  heterotroph AND (capable_of some diet_process) AND (eats some food_entity).
+  For organisms defined only by their diet process, use trophic_organism_by_diet instead.
+
+contributors:
+  - https://orcid.org/0000-0002-2908-3327
+  - https://orcid.org/0000-0002-4366-3088
+
+classes:
+  heterotroph: ECOCORE:00000010
+  trophic_process: ECOCORE:00000008
+  material_entity: BFO:0000040
+
+relations:
+  capable_of: RO:0002215
+  eats: RO:0002470
+
+annotationProperties:
+  exact_synonym: oio:hasExactSynonym
+  definition_source: IAO:0000119
+  term_editor: IAO:0000117
+
+vars:
+  diet_process: "'trophic process'"
+  food_entity: "'material entity'"
+
+name:
+  text: "%s consumer"
+  vars:
+    - food_entity
+
+def:
+  text: "A heterotrophic organism capable of %s that acquires food and energy by consuming %s."
+  vars:
+    - diet_process
+    - food_entity
+
+subClassOf:
+  text: "'heterotroph'"
+
+equivalentTo:
+  text: "'heterotroph' and ('capable_of' some %s) and ('eats' some %s)"
+  vars:
+    - diet_process
+    - food_entity

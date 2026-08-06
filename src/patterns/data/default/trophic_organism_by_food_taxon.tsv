@@ -1,0 +1,4 @@
+defined_class	label	definition	diet_process	food_entity	exact_synonym	definition_source	term_editor
+ECOCORE:00000015	fungivore	A heterotrophic organism capable of fungivory that acquires food and energy by consuming fungi.	ECOCORE:00000016	NCBITaxon:4751	fungal feeder|mycophage		https://orcid.org/0000-0002-2908-3327|https://orcid.org/0000-0002-4366-3088
+ECOCORE:00000088	carnivore	A heterotrophic organism capable of carnivory that acquires food and energy by consuming animals.	ECOCORE:00000021	NCBITaxon:33208	zoophage		https://orcid.org/0000-0002-2908-3327
+ECOCORE:00000164	sanguivore	A heterotrophic organism capable of hematophagy that acquires food and energy by consuming blood.	ECOCORE:00000165	UBERON:0000178	blood eater|hematophage		https://orcid.org/0000-0002-2908-3327
