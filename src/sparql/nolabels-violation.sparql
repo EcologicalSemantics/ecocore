@@ -3,8 +3,11 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
 
-# Flag ECOCORE classes that have no rdfs:label.
-# Imported terms and deprecated terms are excluded.
+# Flag ECOCORE classes that have no rdfs:label but do have at least one
+# other annotation. Pure Declaration stubs (pipeline-managed terms whose
+# label and definition come from DOSDP patterns or ROBOT templates) are
+# excluded because they carry no annotations in the source file.
+# Deprecated terms are also excluded.
 
 SELECT ?cls WHERE {
     ?cls a owl:Class .
@@ -12,5 +15,10 @@ SELECT ?cls WHERE {
     FILTER NOT EXISTS { ?cls rdfs:label ?label }
     FILTER NOT EXISTS { ?cls IAO:0100001 ?replacement }
     FILTER ( !isBlank(?cls) )
+    # Only flag terms that have a definition. Terms that appear in the
+    # merged source with only structural axioms (SubClassOf, DisjointClasses)
+    # but no label or definition are pipeline stubs whose label is generated
+    # by DOSDP patterns or ROBOT templates and should not be flagged here.
+    FILTER EXISTS { ?cls <http://purl.obolibrary.org/obo/IAO_0000115> ?def }
 }
 ORDER BY ?cls

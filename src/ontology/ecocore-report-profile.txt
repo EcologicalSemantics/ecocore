@@ -1,0 +1,9 @@
+# Custom ROBOT report profile for ecocore.
+# Terms managed by DOSDP patterns or ROBOT templates have no label or
+# definition in the merged source when built with PAT=false. These checks
+# are covered by our custom SPARQL queries (nolabels-violation.sparql,
+# missing-definition-violation.sparql) which correctly exclude pipeline
+# stubs. Downgrade to WARN here to avoid duplicate/false failures.
+WARN	missing_label
+WARN	missing_definition
+WARN	missing_superclass

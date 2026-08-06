@@ -248,6 +248,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000001> "trophic system")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000001> "topological web")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000001> "web of life")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000001> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000001> "food web"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000001> <http://purl.obolibrary.org/obo/RO_0002577>)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/ECOCORE_00000003>))
@@ -256,6 +257,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000001> ObjectSomeValuesFro
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000002> "A food web in which the outputs of a trophic interaction are consumed by organisms acting in a lower trophic level relative to the initial interaction.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/ECOCORE_00000002> "Definition needs revision, but core intention is captured.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000002> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000002> "food cycle"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000002> <http://purl.obolibrary.org/obo/ECOCORE_00000001>)
 
@@ -264,6 +266,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000002> <http://purl.obolib
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Food_web") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000003> "A system in which a series of living entities consume living, dead, or non-living entities in successively higher trophic levels.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000003> "consumer-resource chain")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000003> "trophic chain")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000003> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000003> "food chain"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000003> <http://purl.obolibrary.org/obo/RO_0002577>)
 
@@ -352,8 +355,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000012> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000013> (nectivory)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000013> "A herbivorous process during which a living entity acquires food and energy by consuming nectar.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000013> <http://orcid.org/0000-0002-2908-3327>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000013> "2022-03-09T17:05:35Z"^^xsd:dateTime)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000013> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000013> "nectivory"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000013> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)
 
@@ -419,8 +421,7 @@ AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_0000002
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000022> (symbiosis)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000022> "A process during which two living entities engage in a close and long-term biological interaction.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000022> <http://orcid.org/0000-0002-2908-3327>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000022> "2022-03-09T17:22:07Z"^^xsd:dateTime)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000022> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000022> "symbiosis"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000022> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
@@ -444,8 +445,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000024> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000025> (commensalism)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "A symbiotic process in which one participant gains benefits while the other participant neither benefits nor is harmed.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://orcid.org/0000-0002-2908-3327>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "2022-03-09T17:23:41Z"^^xsd:dateTime)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000025> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000025> "commensalism"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000025> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
 
@@ -603,14 +603,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000046> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000047> (parasitism)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "A symbiotic process in which one participant gains benefits while the other participant is harmed.")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://orcid.org/0000-0002-2908-3327>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "2022-03-09T17:28:04Z"^^xsd:dateTime)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000047> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000047> "parasitism"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000047> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000048> (lecithotrophic larva)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000048> "anatomical entity that comprises the organism in a distinct juvenile form that is provided with a source of nutrition, usually a yolk sac, to use before metamorphosing into an adult")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000048> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000048> "lecithotrophic larva")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000048> <http://purl.obolibrary.org/obo/UBERON_0002548>)
 
@@ -893,6 +893,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000097> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000098> "a heterotroph that consumes bacteria")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000098> "bacterial feeder")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000098> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000098> "bacterivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000098> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000114>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_2> <http://purl.obolibrary.org/obo/NCBITaxon_2157>))))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000098> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
@@ -1291,6 +1292,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000150> <http://purl.obolib
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000151> "A parasite that lives entirely within the body of its host")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/ECOCORE_00000151> "https://www.wikidata.org/entity/Q9300235")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000151> "endoparasite")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000151> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000151> "internal parasite")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000151> <http://purl.obolibrary.org/obo/ECOCORE_00000146>)
 
@@ -1340,12 +1342,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000156> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000157> (filter feeder)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000157> "A suspension feeder that acquires nutrition by consuming particles using a filtering apparatus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000157> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000157> "filter feeder")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000157> <http://purl.obolibrary.org/obo/ECOCORE_00000051>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000158> (planktivore)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000158> "A suspension feeder that acquires nutrition by consuming planktonic organisms.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000158> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000158> "planktivore")
 EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000158> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/ENVO_01000063>))
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000158> <http://purl.obolibrary.org/obo/ECOCORE_00000051>)
@@ -1374,12 +1378,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000161> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000162> (organotrophy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000162> "A trophic process during which a living entity acquires reducing equivalents from organic chemicals for use in biosynthesis or energy conservation via aerobic or anaerobic respiration.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000162> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000162> "organotrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000162> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000163> (chemotrophy)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000163> "A trophic process during which a living entity generates food from abiotic sources or through consumption of living or dead material, and captures energy from preformed molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000163> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000163> "chemotrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000163> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)
 
@@ -1490,8 +1496,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000176> <http://purl.obolib
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000182> (deposit feeding)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000182> "A heterotrophic process during which a living entity acquires food and energy by consuming particles of organic matter that have settled to the bottom of a body of water")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/ECOCORE_00000182> <http://orcid.org/0000-0002-2908-3327>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/ECOCORE_00000182> "2021-10-26T20:14:31Z"^^xsd:dateTime)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000182> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000182> "deposit feeding"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000182> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
