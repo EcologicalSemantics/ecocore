@@ -1,5 +1,5 @@
 defined_class	label	definition	diet_process	exact_synonym	definition_source	term_editor
-ECOCORE:00000019	herbivore	A heterotroph which consumes plants or macroalgae via ingestion through a type of "mouth". Plant or algal matter is broken down through an internal digestion process.	ECOCORE:00000020	phytophage|primary consumer		https://orcid.org/0000-0002-2908-3327|https://orcid.org/0000-0002-4366-3088
+ECOCORE:00000019	herbivore	A heterotroph which consumes plants or macroalgae via ingestion through a type of 'mouth'. Plant or algal matter is broken down through an internal digestion process.	ECOCORE:00000020	phytophage|primary consumer		https://orcid.org/0000-0002-2908-3327|https://orcid.org/0000-0002-4366-3088
 ECOCORE:00000045	symbiotroph	heterotroph that acquires nutrition from a symbiont	ECOCORE:00000060			https://orcid.org/0000-0002-2908-3327
 ECOCORE:00000050	deposit feeder	Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water.	ECOCORE:00000182			https://orcid.org/0000-0002-2908-3327
 ECOCORE:00000054	decomposer	heterotroph that obtains nutrition by breaking down dead or decaying organisms or other organic matter	ECOCORE:00000058			https://orcid.org/0000-0002-2908-3327
