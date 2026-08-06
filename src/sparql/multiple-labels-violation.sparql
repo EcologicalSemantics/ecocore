@@ -1,0 +1,15 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+# Flag ECOCORE classes that have more than one rdfs:label.
+# Multiple labels indicate a data entry error; use oboInOwl synonyms instead.
+
+SELECT ?cls (COUNT(?label) AS ?labelCount) WHERE {
+    ?cls a owl:Class ;
+         rdfs:label ?label .
+    FILTER ( regex(str(?cls), "^http://purl.obolibrary.org/obo/ECOCORE_") )
+    FILTER ( !isBlank(?cls) )
+}
+GROUP BY ?cls
+HAVING ( COUNT(?label) > 1 )
+ORDER BY ?cls

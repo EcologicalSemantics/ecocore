@@ -20,7 +20,10 @@ SPARQL_VALIDATION_CHECKS = \
   redundant-subClassOf \
   xref-syntax \
   missing-definition \
-  missing-superclass
+  missing-superclass \
+  missing-contributor \
+  multiple-labels \
+  deprecated-no-replacement
 
 test: sparql_test all_reports
 	$(ROBOT) reason --input $(SRC) --reasoner ELK --output test.owl && rm test.owl

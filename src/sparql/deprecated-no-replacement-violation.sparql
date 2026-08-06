@@ -1,0 +1,20 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX IAO: <http://purl.obolibrary.org/obo/IAO_>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+# Flag deprecated ECOCORE classes that have neither a replaced_by pointer
+# (IAO:0100001) nor a rdfs:comment explaining why the term was deprecated.
+# Every deprecated term must either redirect editors to a replacement term
+# or explain in a comment why no replacement exists.
+
+SELECT ?cls ?label WHERE {
+    ?cls a owl:Class ;
+         rdfs:label ?label ;
+         owl:deprecated "true"^^xsd:boolean .
+    FILTER ( regex(str(?cls), "^http://purl.obolibrary.org/obo/ECOCORE_") )
+    FILTER NOT EXISTS { ?cls IAO:0100001 ?replacement }
+    FILTER NOT EXISTS { ?cls rdfs:comment ?comment }
+    FILTER ( !isBlank(?cls) )
+}
+ORDER BY ?cls
