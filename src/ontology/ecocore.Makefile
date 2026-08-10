@@ -56,9 +56,12 @@ $(REPORTDIR)/validate_profile_owl2dl_$(ONT).owl.txt: | $(REPORTDIR)
 TEMPLATEDIR = ../templates
 COMPONENTSDIR = components
 
+# HASH variable: # is a comment character in Make so it cannot appear
+# literally in a variable value; use $(shell printf '\043') to embed it.
+HASH := $(shell printf '\043')
 ROBOT_TEMPLATE_PREFIXES = \
   --prefix "ECOCORE: http://purl.obolibrary.org/obo/ECOCORE_" \
-  --prefix "oio: http://www.geneontology.org/formats/oboInOwl#" \
+  --prefix "oio: http://www.geneontology.org/formats/oboInOwl$(HASH)" \
   --prefix "IAO: http://purl.obolibrary.org/obo/IAO_" \
   --prefix "PATO: http://purl.obolibrary.org/obo/PATO_" \
   --prefix "PCO: http://purl.obolibrary.org/obo/PCO_" \
