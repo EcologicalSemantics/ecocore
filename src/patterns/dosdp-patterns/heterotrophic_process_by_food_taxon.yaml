@@ -34,9 +34,6 @@ def:
   vars:
     - food_taxon
 
-subClassOf:
-  text: "'heterotrophy'"
-
 equivalentTo:
   text: "'heterotrophy' and ('has_input' some %s)"
   vars:

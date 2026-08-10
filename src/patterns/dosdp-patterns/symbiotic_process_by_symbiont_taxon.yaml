@@ -24,16 +24,6 @@ annotationProperties:
 vars:
   symbiont_taxon: "'taxon'"
 
-name:
-  text: "%s symbiosis"
-  vars:
-    - symbiont_taxon
-
-def:
-  text: "A symbiotic process in which one participant is a member of %s."
-  vars:
-    - symbiont_taxon
-
 subClassOf:
   text: "'symbiosis'"
 

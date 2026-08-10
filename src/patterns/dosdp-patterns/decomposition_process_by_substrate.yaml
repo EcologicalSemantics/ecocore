@@ -25,16 +25,6 @@ annotationProperties:
 vars:
   substrate: "'material entity'"
 
-name:
-  text: "%s decomposition"
-  vars:
-    - substrate
-
-def:
-  text: "A decomposition process during which a living entity acquires food and energy by breaking down %s."
-  vars:
-    - substrate
-
 subClassOf:
   text: "'decomposition'"
 

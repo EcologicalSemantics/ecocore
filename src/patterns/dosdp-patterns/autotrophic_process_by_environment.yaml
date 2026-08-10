@@ -25,16 +25,6 @@ annotationProperties:
 vars:
   environment: "'environmental system'"
 
-name:
-  text: "%s primary production"
-  vars:
-    - environment
-
-def:
-  text: "An autotrophic process during which living entities fix inorganic carbon and generate biomass in %s."
-  vars:
-    - environment
-
 subClassOf:
   text: "'autotrophy'"
 

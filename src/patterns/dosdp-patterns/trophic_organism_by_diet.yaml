@@ -34,9 +34,6 @@ def:
   vars:
     - diet_process
 
-subClassOf:
-  text: "'heterotroph'"
-
 equivalentTo:
   text: "'heterotroph' and ('capable_of' some %s)"
   vars:

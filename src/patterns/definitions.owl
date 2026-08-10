@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<http://purl.obolibrary.org/obo/ecocore/patterns/definitions.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -7,6 +7,193 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/ecocore/patterns/definitions.owl>
+<http://purl.obolibrary.org/obo/ecocore/releases/2026-08-10/patterns/definitions.owl>
+Annotation(owl:versionInfo "2026-08-10")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000088>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000089>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000091>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000108>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000114>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000164>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000165>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000183>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000184>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000185>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000186>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000188>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000189>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000190>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000446>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000628>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_214504>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_252141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_33208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_356>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_4751>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000178>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002470>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000015> (Fungi consumer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "A heterotrophic organism capable of Fungi consumption that acquires food and energy by consuming Fungi.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000015> "Fungi consumer")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000015> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000016>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000016> (Fungi consumption)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "A heterotrophic process during which a living entity acquires food and energy by consuming Fungi.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000016> "Fungi consumption")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000016> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_4751>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000019> (herbivory organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "A heterotrophic organism that is capable of herbivory.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000019> "herbivory organism")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000019> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000021> (Metazoa consumption)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "A heterotrophic process during which a living entity acquires food and energy by consuming Metazoa.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000021> "Metazoa consumption")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000021> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000045> (symbiotrophy organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000045> "A heterotrophic organism that is capable of symbiotrophy.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000045> "symbiotrophy organism")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000045> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000060>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000050> (deposit feeding organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000050> "A heterotrophic organism that is capable of deposit feeding.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000050> "deposit feeding organism")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000182>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000054> (decomposition organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000054> "A heterotrophic organism that is capable of decomposition.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000054> "decomposition organism")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000054> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000057> (detritus consumption)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "A heterotrophic process during which a living entity acquires food and energy by consuming detritus.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000057> "detritus consumption")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000057> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/ENVO_01001103>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000088> (Metazoa consumer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "A heterotrophic organism capable of Metazoa consumption that acquires food and energy by consuming Metazoa.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000088> "Metazoa consumer")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000088> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000021>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/NCBITaxon_33208>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000089> (predation organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "A heterotrophic organism that is capable of predation.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000089> "predation organism")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000089> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000102>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000090> (scavenging organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "A heterotrophic organism that is capable of scavenging.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000090> "scavenging organism")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000090> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000103>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000091> (insectivory organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "A heterotrophic organism that is capable of insectivory.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000091> "insectivory organism")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000091> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000108>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000100> (seed consumption)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "A heterotrophic process during which a living entity acquires food and energy by consuming seed.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000100> "seed consumption")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000100> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/PO_0009010>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000114> (Bacteria consumption)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "A heterotrophic process during which a living entity acquires food and energy by consuming Bacteria.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000114> "Bacteria consumption")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000114> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_2>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000164> (blood consumer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "A heterotrophic organism capable of hematophagy that acquires food and energy by consuming blood.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000164> "blood consumer")
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000164> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000165>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/UBERON_0000178>)))
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000183> (<http://purl.obolibrary.org/obo/ECOCORE_00000183>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000183> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000446>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000183> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000184> (<http://purl.obolibrary.org/obo/ECOCORE_00000184>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000184> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_00000015>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000184> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000185> (<http://purl.obolibrary.org/obo/ECOCORE_00000185>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000185> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_01000024>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000185> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000186> (<http://purl.obolibrary.org/obo/ECOCORE_00000186>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000186> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/ENVO_01000628>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000186> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000188> (<http://purl.obolibrary.org/obo/ECOCORE_00000188>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000188> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_214504>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000188> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000189> (<http://purl.obolibrary.org/obo/ECOCORE_00000189>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000189> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_356>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000189> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000190> (<http://purl.obolibrary.org/obo/ECOCORE_00000190>)
+
+EquivalentClasses(<http://purl.obolibrary.org/obo/ECOCORE_00000190> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_252141>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000190> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
 
 
 )
