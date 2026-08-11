@@ -5,16 +5,18 @@ Releases are tagged `vYYYY-MM-DD` and published on [GitHub Releases](https://git
 
 ---
 
-## Unreleased
+## [v2026-08-11]
 
 ### Infrastructure
 - Upgraded ODK to v1.6.1
 - Modernized GitHub Actions CI (multi-job QC + reporting workflow)
 - Added automated release workflow triggered by version tags
-- Added four DOSDP design patterns: `trophic_organism_by_diet`, `trophic_organism_by_food_taxon`, `autotrophic_process_by_environment`, `decomposition_process_by_substrate`, `symbiotic_process_by_symbiont_taxon`
+- Added five DOSDP design patterns: `trophic_organism_by_diet`, `trophic_organism_by_food_taxon`, `autotrophic_process_by_environment`, `decomposition_process_by_substrate`, `symbiotic_process_by_symbiont_taxon`
 - Added ROBOT template pipeline for annotation-heavy term groups: mating systems, biogeographic status, diel activity patterns, oxygen tolerance
 - Expanded SPARQL QC to 15 checks (added `missing-definition`, `missing-superclass`, `missing-contributor`, `multiple-labels`, `deprecated-no-replacement`, and others)
 - Added GitHub issue templates (new term request, term revision, bug report) and PR checklist
+- Refreshed imports for BFO, CHEBI, ENVO, GO, IAO, IDO, NBO, PATO, PCO, PO, RO
+- UBERON import held at previous release version: the 2026-08-11 UBERON/CL release introduces DisjointClasses axioms (1799 new) that cause cross-ontology unsatisfiability cascading through UBERON:0000178 (blood) and UBERON:0002548 (larva). The upstream bug should be filed against UBERON or CL; revert once fixed upstream.
 
 ### New terms
 - Terrestrial primary production (ECOCORE:00000183)
@@ -24,6 +26,14 @@ Releases are tagged `vYYYY-MM-DD` and published on [GitHub Releases](https://git
 - Mycorrhizal symbiosis (ECOCORE:00000188)
 - Nitrogen-fixing symbiosis (ECOCORE:00000189)
 - Coral-zooxanthellae symbiosis (ECOCORE:00000190)
+
+### Bug fixes
+- Fixed 22 pattern-managed terms missing `term_editor` (IAO:0000117) annotation
+- Removed redundant `SubClassOf heterotroph` asserted axiom from 3 DOSDP patterns (`trophic_organism_by_diet`, `trophic_organism_by_food_taxon`, `heterotrophic_process_by_food_taxon`) where the EquivalentTo axiom already entails this
+- Fixed 6 terms (ECOCORE:183-190 minus ECOCORE:187) missing rdfs:label (IRI was used as label in releases)
+- Fixed DOSDP prototype crash in 4 patterns: replaced quoted multi-word class names in `vars:` constraints with class-key form (e.g. `"'trophic process'"` → `"'trophic_process'"`)
+
+## Unreleased
 
 ---
 

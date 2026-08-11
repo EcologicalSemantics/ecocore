@@ -1,4 +1,4 @@
-Prefix(:=<urn:unnamed:ontology#ont1#>)
+Prefix(:=<urn:unnamed:ontology#ont1>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -8,16 +8,28 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
-Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000001>))
-Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0000460>))
-Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
-Declaration(Class(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002314>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002573>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000254>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_1>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore/patterns/autotrophic_process_by_environment.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore/patterns/decomposition_process_by_substrate.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore/patterns/heterotrophic_process_by_food_taxon.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore/patterns/symbiotic_process_by_symbiont_taxon.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_diet.yaml>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_food_taxon.yaml>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000066>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0000057>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002215>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002233>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002470>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym>))
 
 
 
@@ -25,13 +37,44 @@ Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#has
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> (abnormal 'anatomical entity')
+# Class: <http://purl.obolibrary.org/obo/ecocore/patterns/autotrophic_process_by_environment.yaml> (<http://purl.obolibrary.org/obo/ecocore/patterns/autotrophic_process_by_environment.yaml>)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "Abnormality of 'anatomical entity'."^^xsd:string)
-AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "abnormalAnatomicalEntity"^^xsd:string)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "abnormality of 'anatomical entity'"^^xsd:string)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> "abnormal 'anatomical entity'"^^xsd:string)
-EquivalentClasses(<http://purl.obolibrary.org/obo/upheno/patterns/abnormalAnatomicalEntity.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/PATO_0000001> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002314> <http://purl.obolibrary.org/obo/UBERON_0001062>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002573> <http://purl.obolibrary.org/obo/PATO_0000460>))))
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/ecocore/patterns/autotrophic_process_by_environment.yaml> "autotrophic_process_by_environment"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore/patterns/autotrophic_process_by_environment.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000066> <http://purl.obolibrary.org/obo/ENVO_01000254>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ecocore/patterns/autotrophic_process_by_environment.yaml> <http://purl.obolibrary.org/obo/ECOCORE_00000009>)
+
+# Class: <http://purl.obolibrary.org/obo/ecocore/patterns/decomposition_process_by_substrate.yaml> (<http://purl.obolibrary.org/obo/ecocore/patterns/decomposition_process_by_substrate.yaml>)
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/ecocore/patterns/decomposition_process_by_substrate.yaml> "decomposition_process_by_substrate"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore/patterns/decomposition_process_by_substrate.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000058> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/BFO_0000040>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ecocore/patterns/decomposition_process_by_substrate.yaml> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
+
+# Class: <http://purl.obolibrary.org/obo/ecocore/patterns/heterotrophic_process_by_food_taxon.yaml> ('taxon' consumption)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ecocore/patterns/heterotrophic_process_by_food_taxon.yaml> "A heterotrophic process during which a living entity acquires food and energy by consuming 'taxon'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/ecocore/patterns/heterotrophic_process_by_food_taxon.yaml> "heterotrophic_process_by_food_taxon"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore/patterns/heterotrophic_process_by_food_taxon.yaml> "'taxon' consumption"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore/patterns/heterotrophic_process_by_food_taxon.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002233> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+
+# Class: <http://purl.obolibrary.org/obo/ecocore/patterns/symbiotic_process_by_symbiont_taxon.yaml> (<http://purl.obolibrary.org/obo/ecocore/patterns/symbiotic_process_by_symbiont_taxon.yaml>)
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/ecocore/patterns/symbiotic_process_by_symbiont_taxon.yaml> "symbiotic_process_by_symbiont_taxon"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore/patterns/symbiotic_process_by_symbiont_taxon.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/NCBITaxon_1>)))
+SubClassOf(<http://purl.obolibrary.org/obo/ecocore/patterns/symbiotic_process_by_symbiont_taxon.yaml> <http://purl.obolibrary.org/obo/ECOCORE_00000022>)
+
+# Class: <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_diet.yaml> ('trophic_process' organism)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_diet.yaml> "A heterotrophic organism that is capable of 'trophic_process'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_diet.yaml> "trophic_organism_by_diet"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_diet.yaml> "'trophic_process' organism"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_diet.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000008>)))
+
+# Class: <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_food_taxon.yaml> ('material_entity' consumer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_food_taxon.yaml> "A heterotrophic organism capable of 'trophic_process' that acquires food and energy by consuming 'material_entity'."^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_food_taxon.yaml> "trophic_organism_by_food_taxon"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_food_taxon.yaml> "'material_entity' consumer"^^xsd:string)
+EquivalentClasses(<http://purl.obolibrary.org/obo/ecocore/patterns/trophic_organism_by_food_taxon.yaml> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/ECOCORE_00000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002215> <http://purl.obolibrary.org/obo/ECOCORE_00000008>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002470> <http://purl.obolibrary.org/obo/BFO_0000040>)))
 
 
 )

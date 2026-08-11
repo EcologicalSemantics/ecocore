@@ -27,8 +27,8 @@ annotationProperties:
   term_editor: IAO:0000117
 
 vars:
-  diet_process: "'trophic process'"
-  food_entity: "'material entity'"
+  diet_process: "'trophic_process'"
+  food_entity: "'material_entity'"
 
 name:
   text: "%s consumer"

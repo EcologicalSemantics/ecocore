@@ -23,7 +23,7 @@ annotationProperties:
   term_editor: IAO:0000117
 
 vars:
-  substrate: "'material entity'"
+  substrate: "'material_entity'"
 
 subClassOf:
   text: "'decomposition'"

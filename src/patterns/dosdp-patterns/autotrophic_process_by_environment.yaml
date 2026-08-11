@@ -23,7 +23,7 @@ annotationProperties:
   term_editor: IAO:0000117
 
 vars:
-  environment: "'environmental system'"
+  environment: "'environmental_system'"
 
 subClassOf:
   text: "'autotrophy'"

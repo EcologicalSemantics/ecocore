@@ -22,7 +22,7 @@ annotationProperties:
   term_editor: IAO:0000117
 
 vars:
-  diet_process: "'trophic process'"
+  diet_process: "'trophic_process'"
 
 name:
   text: "%s organism"
