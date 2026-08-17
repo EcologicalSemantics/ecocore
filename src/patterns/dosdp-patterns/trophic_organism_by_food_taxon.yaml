@@ -30,11 +30,6 @@ vars:
   diet_process: "'trophic_process'"
   food_entity: "'material_entity'"
 
-name:
-  text: "%s consumer"
-  vars:
-    - food_entity
-
 def:
   text: "A heterotrophic organism capable of %s that acquires food and energy by consuming %s."
   vars:

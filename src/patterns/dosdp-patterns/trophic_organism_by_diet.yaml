@@ -24,11 +24,6 @@ annotationProperties:
 vars:
   diet_process: "'trophic_process'"
 
-name:
-  text: "%s organism"
-  vars:
-    - diet_process
-
 def:
   text: "A heterotrophic organism that is capable of %s."
   vars:

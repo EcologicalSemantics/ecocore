@@ -405,6 +405,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000014> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000015> "fungivore"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "Fungi consumer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "fungal feeder")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000015> "mycophage")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000015> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000016> (fungivory)
@@ -412,6 +416,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000015> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000016> "fungivory"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "Fungi consumption")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "fungal feeding")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000016> "mycophagy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000016> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000016> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.")
 
@@ -438,6 +446,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000018> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000019> "herbivore"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "herbivory organism")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "phytophage")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "primary consumer")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000019> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000019> "plant eater")
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000019> "There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore")
@@ -458,6 +470,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000020> <http://purl.obolib
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "http://orcid.org/0000-0002-4366-3088")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000021> "carnivory"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "Metazoa consumption")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000021> "zoophagy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000021> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/ECOCORE_00000021> "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.")
 
@@ -636,6 +651,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000044> <http://purl.obolib
 # Managed by DOSDP pattern: trophic_organism_by_diet.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000045> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000045> "symbiotroph"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000045> "symbiotrophy organism")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000045> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000046> (endophyte)
@@ -672,6 +689,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000049> <http://purl.obolib
 # Managed by DOSDP pattern: trophic_organism_by_diet.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000050> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000050> "deposit feeder"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000050> "deposit feeding organism")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000050> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000051> (suspension feeder)
@@ -699,6 +718,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000053> <http://purl.obolib
 # Managed by DOSDP pattern: trophic_organism_by_diet.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000054> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000054> "decomposer"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000054> "decomposition organism")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000054> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000055> (detritivore)
@@ -720,6 +741,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000056> <http://purl.obolib
 # Managed by DOSDP pattern: heterotrophic_process_by_food_taxon.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000057> "detritivory"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000057> "detritus consumption")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000057> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000058> (decomposition)
@@ -882,24 +905,35 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000087> <http://purl.obolib
 # Managed by DOSDP pattern: trophic_organism_by_food_taxon
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000088> "carnivore"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "Metazoa consumer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000088> "zoophage")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000088> <http://purl.obolibrary.org/obo/ECOCORE_00000010>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000089> (predator)
 # Managed by DOSDP pattern: trophic_organism_by_diet.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000089> "predator"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000089> "predation organism")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000089> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000090> (scavenger)
 # Managed by DOSDP pattern: trophic_organism_by_diet.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000090> "scavenger"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "scavenging organism")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000090> "necrophage")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000090> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000091> (insectivore)
 # Managed by DOSDP pattern: trophic_organism_by_diet.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000091> "insectivore"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "insectivory organism")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000091> "entomophage")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000091> <http://purl.obolibrary.org/obo/ECOCORE_00000089>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000092> (secondary consumer)
@@ -965,6 +999,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000099> <http://purl.obolib
 # Managed by DOSDP pattern: heterotrophic_process_by_food_taxon.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000100> "seed predation"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "seed consumption")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000100> "granivory")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000100> <http://purl.obolibrary.org/obo/ECOCORE_00000020>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000101> (herbivorous browsing)
@@ -1068,6 +1105,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000113> <http://purl.obolib
 # Managed by DOSDP pattern: heterotrophic_process_by_food_taxon.yaml
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000114> "bactivory"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "Bacteria consumption")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000114> "bacterial feeding")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000114> <http://purl.obolibrary.org/obo/ECOCORE_00000011>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000115> (broadcast spawn)
@@ -1452,6 +1492,10 @@ SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000163> <http://purl.obolib
 # Managed by DOSDP pattern: trophic_organism_by_food_taxon
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000164> "sanguivore"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "blood consumer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "blood eater")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000164> "hematophage")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000164> <http://purl.obolibrary.org/obo/ECOCORE_00000088>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000165> (hematophagy)

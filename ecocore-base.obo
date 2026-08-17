@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: ecocore/releases/2026-08-11/ecocore-base.owl
+data-version: ecocore/releases/2026-08-17/ecocore-base.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
 property_value: dc:type IAO:8000001
-property_value: owl:versionInfo "2026-08-11" xsd:string
+property_value: owl:versionInfo "2026-08-17" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/3.0/
 
 [Term]
@@ -136,22 +136,28 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-4366-3088" xsd:string
 
 [Term]
 id: ECOCORE:00000015
-name: Fungi consumer
+name: fungivore
 def: "A heterotrophic organism capable of Fungi consumption that acquires food and energy by consuming Fungi." []
+synonym: "fungal feeder" EXACT []
+synonym: "Fungi consumer" EXACT []
+synonym: "mycophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000016 ! Fungi consumption
+intersection_of: RO:0002215 ECOCORE:00000016 ! fungivory
 intersection_of: RO:0002470 NCBITaxon:4751
-relationship: RO:0002215 ECOCORE:00000016 ! Fungi consumption
+relationship: RO:0002215 ECOCORE:00000016 ! fungivory
 relationship: RO:0002470 NCBITaxon:4751
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 property_value: IAO:0000117 "http://orcid.org/0000-0002-4366-3088" xsd:string
 
 [Term]
 id: ECOCORE:00000016
-name: Fungi consumption
+name: fungivory
 def: "A heterotrophic process during which a living entity acquires food and energy by consuming Fungi." []
 comment: In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.
+synonym: "fungal feeding" EXACT []
+synonym: "Fungi consumption" EXACT []
+synonym: "mycophagy" EXACT []
 is_a: ECOCORE:00000011 ! heterotrophy
 intersection_of: ECOCORE:00000011 ! heterotrophy
 intersection_of: RO:0002233 NCBITaxon:4751
@@ -178,10 +184,13 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-4366-3088" xsd:string
 
 [Term]
 id: ECOCORE:00000019
-name: herbivory organism
+name: herbivore
 def: "A heterotrophic organism that is capable of herbivory." []
 comment: There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore
+synonym: "herbivory organism" EXACT []
+synonym: "phytophage" EXACT []
 synonym: "plant eater" NARROW []
+synonym: "primary consumer" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000020 ! herbivory
@@ -202,9 +211,11 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-4366-3088" xsd:string
 
 [Term]
 id: ECOCORE:00000021
-name: Metazoa consumption
+name: carnivory
 def: "A heterotrophic process during which a living entity acquires food and energy by consuming Metazoa." []
 comment: In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.
+synonym: "Metazoa consumption" EXACT []
+synonym: "zoophagy" EXACT []
 is_a: ECOCORE:00000011 ! heterotrophy
 intersection_of: ECOCORE:00000011 ! heterotrophy
 intersection_of: RO:0002233 NCBITaxon:33208
@@ -387,6 +398,7 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000045
 name: symbiotroph
 def: "A heterotrophic organism that is capable of symbiotrophy." []
+synonym: "symbiotrophy organism" EXACT []
 is_a: CARO:0001010
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
@@ -425,8 +437,9 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000050
-name: deposit feeding organism
+name: deposit feeder
 def: "A heterotrophic organism that is capable of deposit feeding." []
+synonym: "deposit feeding organism" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000182 ! deposit feeding
@@ -444,20 +457,21 @@ property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000052
 name: subsurface deposit feeder
 def: "Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water. The organism lives beneath the surface of the bottom sediment and retrieves food particles without coming into direct contact with the sediment surface." []
-is_a: ECOCORE:00000050 ! deposit feeding organism
+is_a: ECOCORE:00000050 ! deposit feeder
 property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000053
 name: surface deposit feeder
 def: "Organism that acquires nutrition by consuming particles of organic matter that have settled to the bottom of a body of water. The organism lives on or in the bottom sediment and uses a part of its body to retrieve the food particles directly from the surface." []
-is_a: ECOCORE:00000050 ! deposit feeding organism
+is_a: ECOCORE:00000050 ! deposit feeder
 property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000054
-name: decomposition organism
+name: decomposer
 def: "A heterotrophic organism that is capable of decomposition." []
+synonym: "decomposition organism" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000058 ! decomposition
@@ -468,10 +482,10 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000055
 name: detritivore
 def: "A decomposer which obtains nutrition by consuming detritus." []
-is_a: ECOCORE:00000054 ! decomposition organism
-intersection_of: RO:0002215 ECOCORE:00000057 ! detritus consumption
+is_a: ECOCORE:00000054 ! decomposer
+intersection_of: RO:0002215 ECOCORE:00000057 ! detritivory
 intersection_of: RO:0002470 ENVO:01001103
-relationship: RO:0002215 ECOCORE:00000057 ! detritus consumption
+relationship: RO:0002215 ECOCORE:00000057 ! detritivory
 relationship: RO:0002470 ENVO:01001103
 property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 
@@ -479,13 +493,14 @@ property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000056
 name: saprotroph
 def: "A decomposer that obtains nutrition through extracellular digestion of decaying organic matter" []
-is_a: ECOCORE:00000054 ! decomposition organism
+is_a: ECOCORE:00000054 ! decomposer
 property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000057
-name: detritus consumption
+name: detritivory
 def: "A heterotrophic process during which a living entity acquires food and energy by consuming detritus." []
+synonym: "detritus consumption" EXACT []
 is_a: ECOCORE:00000058 ! decomposition
 is_a: ENVO:02500000
 intersection_of: ECOCORE:00000011 ! heterotrophy
@@ -561,7 +576,7 @@ id: ECOCORE:00000083
 name: graminivore
 def: "An herbivore that primarily consumes grasses." []
 synonym: "grass eater" EXACT []
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 property_value: IAO:0000119 "https://en.wikipedia.org/wiki/Graminivore" xsd:string
 
@@ -571,7 +586,7 @@ name: folivore
 def: "An herbivore that primarily consumes leaves" []
 synonym: "leaf eater" EXACT []
 synonym: "phyllophage" EXACT []
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 relationship: RO:0002470 PO:0025034
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 property_value: IAO:0000119 "https://en.wikipedia.org/wiki/Folivore" xsd:string
@@ -585,7 +600,7 @@ synonym: "rhizophage" EXACT []
 synonym: "root eater" EXACT []
 synonym: "root feeder" EXACT []
 synonym: "root herbivore" EXACT []
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 relationship: RO:0002470 PO:0009005
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
@@ -595,7 +610,7 @@ name: algivore
 def: "An herbivore that primarily consumes algae" []
 synonym: "algae eater" EXACT []
 synonym: "algophage" EXACT []
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -607,21 +622,24 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000088
-name: Metazoa consumer
+name: carnivore
 def: "A heterotrophic organism capable of Metazoa consumption that acquires food and energy by consuming Metazoa." []
+synonym: "Metazoa consumer" EXACT []
+synonym: "zoophage" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
 intersection_of: ECOCORE:00000010 ! heterotroph
-intersection_of: RO:0002215 ECOCORE:00000021 ! Metazoa consumption
+intersection_of: RO:0002215 ECOCORE:00000021 ! carnivory
 intersection_of: RO:0002470 NCBITaxon:33208
-relationship: RO:0002215 ECOCORE:00000021 ! Metazoa consumption
+relationship: RO:0002215 ECOCORE:00000021 ! carnivory
 relationship: RO:0002470 NCBITaxon:33208
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000089
-name: predation organism
+name: predator
 def: "A heterotrophic organism that is capable of predation." []
-is_a: ECOCORE:00000088 ! Metazoa consumer
+synonym: "predation organism" EXACT []
+is_a: ECOCORE:00000088 ! carnivore
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000102 ! predation
 relationship: RO:0002215 ECOCORE:00000102 ! predation
@@ -629,9 +647,11 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000090
-name: scavenging organism
+name: scavenger
 def: "A heterotrophic organism that is capable of scavenging." []
-is_a: ECOCORE:00000088 ! Metazoa consumer
+synonym: "necrophage" EXACT []
+synonym: "scavenging organism" EXACT []
+is_a: ECOCORE:00000088 ! carnivore
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000103 ! scavenging
 relationship: RO:0002215 ECOCORE:00000103 ! scavenging
@@ -639,9 +659,11 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000091
-name: insectivory organism
+name: insectivore
 def: "A heterotrophic organism that is capable of insectivory." []
-is_a: ECOCORE:00000089 ! predation organism
+synonym: "entomophage" EXACT []
+synonym: "insectivory organism" EXACT []
+is_a: ECOCORE:00000089 ! predator
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000108 ! insectivory
 relationship: RO:0002215 ECOCORE:00000108 ! insectivory
@@ -651,21 +673,21 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000092
 name: secondary consumer
 def: "A predator that eats primary consumers or herbivores" []
-is_a: ECOCORE:00000089 ! predation organism
+is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000093
 name: tertiary consumer
 def: "A predator that eats secondary consumers" []
-is_a: ECOCORE:00000089 ! predation organism
+is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000094
 name: quaternary consumer
 def: "A predator that eats tertiary consumers" []
-is_a: ECOCORE:00000089 ! predation organism
+is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -673,14 +695,14 @@ id: ECOCORE:00000095
 name: apex predator
 def: "a predator residing at the top of a food chain upon which no other creatures prey." []
 synonym: "top predator" EXACT []
-is_a: ECOCORE:00000089 ! predation organism
+is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000096
 name: ambush predator
 def: "a predator that captures or traps prey by stealth or strategy, rather than by speed or strength." []
-is_a: ECOCORE:00000089 ! predation organism
+is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -696,7 +718,7 @@ name: bacterivore
 def: "a heterotroph that consumes bacteria" []
 synonym: "bacterial feeder" EXACT []
 is_a: ECOCORE:00000010 ! heterotroph
-relationship: RO:0002215 ECOCORE:00000114 ! Bacteria consumption
+relationship: RO:0002215 ECOCORE:00000114 ! bactivory
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -708,8 +730,10 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000100
-name: seed consumption
+name: seed predation
 def: "A heterotrophic process during which a living entity acquires food and energy by consuming seed." []
+synonym: "granivory" EXACT []
+synonym: "seed consumption" EXACT []
 is_a: ECOCORE:00000020 ! herbivory
 intersection_of: ECOCORE:00000011 ! heterotrophy
 intersection_of: RO:0002233 PO:0009010
@@ -728,7 +752,7 @@ id: ECOCORE:00000102
 name: predation
 def: "A carnivorous process during which a living entity acquires food and energy by consuming other animals while they are stil alive. Predation leads directly to the imminent death of the prey organism(s)." []
 comment: The definition of predation can be controversial.
-is_a: ECOCORE:00000021 ! Metazoa consumption
+is_a: ECOCORE:00000021 ! carnivory
 property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -736,7 +760,7 @@ id: ECOCORE:00000103
 name: scavenging
 def: "A carnivorous process during which a living entity acquires food and energy by consuming dead or decaying animal matter." []
 synonym: "necrophagy" EXACT []
-is_a: ECOCORE:00000021 ! Metazoa consumption
+is_a: ECOCORE:00000021 ! carnivory
 property_value: IAO:0000117 "https://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -815,8 +839,10 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000114
-name: Bacteria consumption
+name: bactivory
 def: "A heterotrophic process during which a living entity acquires food and energy by consuming Bacteria." []
+synonym: "Bacteria consumption" EXACT []
+synonym: "bacterial feeding" EXACT []
 is_a: ECOCORE:00000011 ! heterotrophy
 intersection_of: ECOCORE:00000011 ! heterotrophy
 intersection_of: RO:0002233 NCBITaxon:2
@@ -975,7 +1001,7 @@ synonym: "carpophage" EXACT []
 synonym: "fructivore" EXACT []
 synonym: "fruit eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1470764
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 relationship: RO:0002470 PO:0009001
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
@@ -985,7 +1011,7 @@ name: palynivore
 def: "An herbivore that primarily consumes pollen" []
 synonym: "pollen eater" EXACT []
 xref: https://www.wikidata.org/entity/Q3805698
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1002,7 +1028,7 @@ def: "An herbivore that primarily consumes nectar" []
 synonym: "nectar eater" EXACT []
 synonym: "nectivore" EXACT []
 xref: https://www.wikidata.org/entry/Q120880
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1027,7 +1053,7 @@ name: granivore
 def: "An herbivore that primarily consumes seeds" []
 synonym: "seed eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1974986
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 relationship: RO:0002470 PO:0009010
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
@@ -1036,7 +1062,7 @@ id: ECOCORE:00000144
 name: xylophage
 def: "An herbivore that primarily consumes wood" []
 xref: https://www.wikidata.org/entity/Q2072826
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 relationship: RO:0002470 ENVO:00002040
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
@@ -1047,7 +1073,7 @@ def: "An herbivore that primarily consumes plant exudates - gums, saps, and resi
 synonym: "gumivore" EXACT []
 synonym: "gummivore" EXACT []
 xref: https://www.wikidata.org/entity/Q17020010
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 property_value: IAO:0000119 "J.G. Fleagle 1988 Primate Adaptations and Evolution. Academic Press. NY" xsd:string
 
@@ -1139,7 +1165,7 @@ name: piscivore
 def: "A predator that primarily eats fish" []
 synonym: "fish eater" EXACT []
 xref: https://www.wikidata.org/entity/Q1420208
-is_a: ECOCORE:00000089 ! predation organism
+is_a: ECOCORE:00000089 ! predator
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1194,9 +1220,12 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000164
-name: blood consumer
+name: sanguivore
 def: "A heterotrophic organism capable of hematophagy that acquires food and energy by consuming blood." []
-is_a: ECOCORE:00000088 ! Metazoa consumer
+synonym: "blood consumer" EXACT []
+synonym: "blood eater" EXACT []
+synonym: "hematophage" EXACT []
+is_a: ECOCORE:00000088 ! carnivore
 intersection_of: ECOCORE:00000010 ! heterotroph
 intersection_of: RO:0002215 ECOCORE:00000165 ! hematophagy
 intersection_of: RO:0002470 UBERON:0000178
@@ -1208,7 +1237,7 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000165
 name: hematophagy
 def: "A carnivorous process during which a living entity acquires food and energy from consuming blood." []
-is_a: ECOCORE:00000021 ! Metazoa consumption
+is_a: ECOCORE:00000021 ! carnivory
 relationship: RO:0002233 UBERON:0000178
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
@@ -1232,7 +1261,7 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000168
 name: herbivorous grazer
 def: "an herbivore that primarily consumes grasses, leaves, and other soft plant material" []
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 property_value: IAO:0000117 "https://orcid.org/0000-0002-9943-2342" xsd:string
 
@@ -1240,14 +1269,14 @@ property_value: IAO:0000117 "https://orcid.org/0000-0002-9943-2342" xsd:string
 id: ECOCORE:00000169
 name: herbivorous browser
 def: "An herbivore that primarily consumes twigs, leaves, and bark of trees and shrubs." []
-is_a: ECOCORE:00000019 ! herbivory organism
+is_a: ECOCORE:00000019 ! herbivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
 id: ECOCORE:00000170
 name: microcarnivore
 def: "a carnivore that primarily eats organisms less than 1 cm in their longest dimension" []
-is_a: ECOCORE:00000088 ! Metazoa consumer
+is_a: ECOCORE:00000088 ! carnivore
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 property_value: IAO:0000117 "https://orcid.org/0000-0002-9943-2342" xsd:string
 
@@ -1281,7 +1310,7 @@ property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 id: ECOCORE:00000176
 name: coprophage
 def: "a decomposer which obtains nutrition by consuming feces" []
-is_a: ECOCORE:00000054 ! decomposition organism
+is_a: ECOCORE:00000054 ! decomposer
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]

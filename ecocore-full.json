@@ -10,9 +10,9 @@
         "val" : "An ontology of core ecological entities"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-08-11"
+        "val" : "2026-08-17"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2026-08-11/ecocore-full.json"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2026-08-17/ecocore-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -19093,12 +19093,22 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000015",
-      "lbl" : "Fungi consumer",
+      "lbl" : "fungivore",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism capable of Fungi consumption that acquires food and energy by consuming Fungi."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Fungi consumer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "fungal feeder"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mycophage"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19109,13 +19119,23 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000016",
-      "lbl" : "Fungi consumption",
+      "lbl" : "fungivory",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic process during which a living entity acquires food and energy by consuming Fungi."
         },
         "comments" : [ "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Fungi consumption"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "fungal feeding"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mycophagy"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19173,7 +19193,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000019",
-      "lbl" : "herbivory organism",
+      "lbl" : "herbivore",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -19181,6 +19201,15 @@
         },
         "comments" : [ "There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore" ],
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "herbivory organism"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "phytophage"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary consumer"
+        }, {
           "pred" : "hasNarrowSynonym",
           "val" : "plant eater"
         } ],
@@ -19218,13 +19247,20 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000021",
-      "lbl" : "Metazoa consumption",
+      "lbl" : "carnivory",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic process during which a living entity acquires food and energy by consuming Metazoa."
         },
         "comments" : [ "In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet." ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Metazoa consumption"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "zoophagy"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19552,12 +19588,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000045",
-      "lbl" : "symbiotrophy organism",
+      "lbl" : "symbiotroph",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "heterotroph that acquires nutrition from a symbiont"
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "symbiotrophy organism"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19621,12 +19661,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000050",
-      "lbl" : "deposit feeding organism",
+      "lbl" : "deposit feeder",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism that is capable of deposit feeding."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "deposit feeding organism"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19673,12 +19717,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000054",
-      "lbl" : "decomposition organism",
+      "lbl" : "decomposer",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism that is capable of decomposition."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "decomposition organism"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19712,12 +19760,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000057",
-      "lbl" : "detritus consumption",
+      "lbl" : "detritivory",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic process during which a living entity acquires food and energy by consuming detritus."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "detritus consumption"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19982,12 +20034,19 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000088",
-      "lbl" : "Metazoa consumer",
+      "lbl" : "carnivore",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism capable of Metazoa consumption that acquires food and energy by consuming Metazoa."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Metazoa consumer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "zoophage"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -19995,12 +20054,16 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000089",
-      "lbl" : "predation organism",
+      "lbl" : "predator",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism that is capable of predation."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "predation organism"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -20008,12 +20071,19 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000090",
-      "lbl" : "scavenging organism",
+      "lbl" : "scavenger",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism that is capable of scavenging."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "necrophage"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "scavenging organism"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -20021,12 +20091,19 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000091",
-      "lbl" : "insectivory organism",
+      "lbl" : "insectivore",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism that is capable of insectivory."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "entomophage"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "insectivory organism"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -20146,12 +20223,19 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000100",
-      "lbl" : "seed consumption",
+      "lbl" : "seed predation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic process during which a living entity acquires food and energy by consuming seed."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "granivory"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "seed consumption"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -20347,12 +20431,19 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000114",
-      "lbl" : "Bacteria consumption",
+      "lbl" : "bactivory",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic process during which a living entity acquires food and energy by consuming Bacteria."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Bacteria consumption"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "bacterial feeding"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
@@ -21085,12 +21176,22 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000164",
-      "lbl" : "blood consumer",
+      "lbl" : "sanguivore",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A heterotrophic organism capable of hematophagy that acquires food and energy by consuming blood."
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "blood consumer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blood eater"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hematophage"
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"

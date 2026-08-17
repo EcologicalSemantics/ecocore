@@ -18,10 +18,10 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecocore/ecocore-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2026-08-11/ecocore-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2026-08-17/ecocore-full.owl"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <rdfs:comment>An ontology of core ecological entities</rdfs:comment>
-        <owl:versionInfo>2026-08-11</owl:versionInfo>
+        <owl:versionInfo>2026-08-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -39465,7 +39465,10 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>A heterotrophic organism capable of Fungi consumption that acquires food and energy by consuming Fungi.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
-        <rdfs:label>Fungi consumer</rdfs:label>
+        <oboInOwl:hasExactSynonym>Fungi consumer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fungal feeder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mycophage</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">fungivore</rdfs:label>
     </owl:Class>
     
 
@@ -39494,8 +39497,11 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming Fungi.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>Fungi consumption</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fungal feeding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mycophagy</oboInOwl:hasExactSynonym>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a fungi-heavy diet: this is a functional defintion, referencing the act of eating, primarily, a fungi-based diet.</rdfs:comment>
-        <rdfs:label>Fungi consumption</rdfs:label>
+        <rdfs:label xml:lang="en">fungivory</rdfs:label>
     </owl:Class>
     
 
@@ -39567,9 +39573,12 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>A heterotrophic organism that is capable of herbivory.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>herbivory organism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>phytophage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>primary consumer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>plant eater</oboInOwl:hasNarrowSynonym>
         <rdfs:comment>There is some debate over whether herbivores should be restricted to plants and macroalgae or generalsed to more photoautotrophs. We welcome input on our issue tracker: https://github.com/EcologicalSemantics/ecocore</rdfs:comment>
-        <rdfs:label>herbivory organism</rdfs:label>
+        <rdfs:label xml:lang="en">herbivore</rdfs:label>
     </owl:Class>
     
 
@@ -39613,8 +39622,10 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming Metazoa.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>http://orcid.org/0000-0002-4366-3088</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>Metazoa consumption</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zoophagy</oboInOwl:hasExactSynonym>
         <rdfs:comment>In this class, we make no commitment to whether the organism belongs to a taxon which has adapted to a carnivorous diet: this is a functional defintion, referencing the act of eating, primarily, an animal-based diet.</rdfs:comment>
-        <rdfs:label>Metazoa consumption</rdfs:label>
+        <rdfs:label xml:lang="en">carnivory</rdfs:label>
     </owl:Class>
     
 
@@ -39938,8 +39949,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         <obo:IAO_0000115>A heterotrophic organism that is capable of symbiotrophy.</obo:IAO_0000115>
         <obo:IAO_0000115>heterotroph that acquires nutrition from a symbiont</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>symbiotrophy organism</oboInOwl:hasExactSynonym>
         <rdfs:label>symbiotroph</rdfs:label>
-        <rdfs:label>symbiotrophy organism</rdfs:label>
+        <rdfs:label xml:lang="en">symbiotroph</rdfs:label>
     </owl:Class>
     
 
@@ -40023,7 +40035,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic organism that is capable of deposit feeding.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>deposit feeding organism</rdfs:label>
+        <oboInOwl:hasExactSynonym>deposit feeding organism</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">deposit feeder</rdfs:label>
     </owl:Class>
     
 
@@ -40084,7 +40097,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic organism that is capable of decomposition.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>decomposition organism</rdfs:label>
+        <oboInOwl:hasExactSynonym>decomposition organism</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">decomposer</rdfs:label>
     </owl:Class>
     
 
@@ -40161,7 +40175,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming detritus.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>detritus consumption</rdfs:label>
+        <oboInOwl:hasExactSynonym>detritus consumption</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">detritivory</rdfs:label>
     </owl:Class>
     
 
@@ -40493,7 +40508,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic organism capable of Metazoa consumption that acquires food and energy by consuming Metazoa.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>Metazoa consumer</rdfs:label>
+        <oboInOwl:hasExactSynonym>Metazoa consumer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zoophage</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">carnivore</rdfs:label>
     </owl:Class>
     
 
@@ -40521,7 +40538,8 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic organism that is capable of predation.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>predation organism</rdfs:label>
+        <oboInOwl:hasExactSynonym>predation organism</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">predator</rdfs:label>
     </owl:Class>
     
 
@@ -40549,7 +40567,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic organism that is capable of scavenging.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>scavenging organism</rdfs:label>
+        <oboInOwl:hasExactSynonym>necrophage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>scavenging organism</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">scavenger</rdfs:label>
     </owl:Class>
     
 
@@ -40577,7 +40597,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic organism that is capable of insectivory.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>insectivory organism</rdfs:label>
+        <oboInOwl:hasExactSynonym>entomophage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>insectivory organism</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">insectivore</rdfs:label>
     </owl:Class>
     
 
@@ -40735,7 +40757,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming seed.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>seed consumption</rdfs:label>
+        <oboInOwl:hasExactSynonym>granivory</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>seed consumption</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">seed predation</rdfs:label>
     </owl:Class>
     
 
@@ -40912,7 +40936,9 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic process during which a living entity acquires food and energy by consuming Bacteria.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>Bacteria consumption</rdfs:label>
+        <oboInOwl:hasExactSynonym>Bacteria consumption</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bacterial feeding</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">bactivory</rdfs:label>
     </owl:Class>
     
 
@@ -41808,7 +41834,10 @@ For example, A and B may be gene products and binding of B by A positively regul
         </rdfs:subClassOf>
         <obo:IAO_0000115>A heterotrophic organism capable of hematophagy that acquires food and energy by consuming blood.</obo:IAO_0000115>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>blood consumer</rdfs:label>
+        <oboInOwl:hasExactSynonym>blood consumer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>blood eater</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hematophage</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">sanguivore</rdfs:label>
     </owl:Class>
     
 

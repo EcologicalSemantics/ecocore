@@ -24,11 +24,6 @@ annotationProperties:
 vars:
   food_taxon: "'taxon'"
 
-name:
-  text: "%s consumption"
-  vars:
-    - food_taxon
-
 def:
   text: "A heterotrophic process during which a living entity acquires food and energy by consuming %s."
   vars:
