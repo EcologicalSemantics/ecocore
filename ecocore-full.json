@@ -10,9 +10,9 @@
         "val" : "An ontology of core ecological entities"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-08-17"
+        "val" : "2026-08-31"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2026-08-17/ecocore-full.json"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2026-08-31/ecocore-full.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -19304,16 +19304,21 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000024",
-      "lbl" : "area to mass ratio",
+      "lbl" : "obsolete area to mass ratio",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Quotient (or ratio) of surface area of an organism divided by the mass of the same organism"
         },
+        "comments" : [ "Deprecated: term moved to PATO or OBA. See GitHub issue #137." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000025",
@@ -19350,16 +19355,21 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000027",
-      "lbl" : "primary diet",
+      "lbl" : "obsolete primary diet",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "Type of food comprising the majority of the diet of an organism"
         },
+        "comments" : [ "Deprecated: term moved to PATO or OBA. See GitHub issue #137." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000028",
@@ -19441,107 +19451,147 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000034",
-      "lbl" : "copepodid stage 2",
+      "lbl" : "obsolete copepodid stage 2",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "The second post-naupliar life stage of a copepod"
         },
+        "comments" : [ "Deprecated: term moved to UBERON. See GitHub issue #136." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to UBERON. See GitHub issue #136."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000035",
-      "lbl" : "copepodid stage 3",
+      "lbl" : "obsolete copepodid stage 3",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "The third post-naupliar life stage of a copepod"
         },
+        "comments" : [ "Deprecated: term moved to UBERON. See GitHub issue #136." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to UBERON. See GitHub issue #136."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000036",
-      "lbl" : "copepodid stage 4",
+      "lbl" : "obsolete copepodid stage 4",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "The fourth post-naupliar life stage of a copepod"
         },
+        "comments" : [ "Deprecated: term moved to UBERON. See GitHub issue #136." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to UBERON. See GitHub issue #136."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000037",
-      "lbl" : "copepodid stage 5",
+      "lbl" : "obsolete copepodid stage 5",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "The fifth post-naupliar life stage of a copepod"
         },
+        "comments" : [ "Deprecated: term moved to UBERON. See GitHub issue #136." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to UBERON. See GitHub issue #136."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000038",
-      "lbl" : "copepodid stage 6",
+      "lbl" : "obsolete copepodid stage 6",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "The sixth post-naupliar life stage of a copepod"
         },
+        "comments" : [ "Deprecated: term moved to UBERON. See GitHub issue #136." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to UBERON. See GitHub issue #136."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000039",
-      "lbl" : "cursorial",
+      "lbl" : "obsolete cursorial",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for running"
         },
+        "comments" : [ "Deprecated: term moved to PATO or OBA. See GitHub issue #137." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000040",
-      "lbl" : "fossorial",
+      "lbl" : "obsolete fossorial",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for digging and living underground"
         },
+        "comments" : [ "Deprecated: term moved to PATO or OBA. See GitHub issue #137." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000041",
-      "lbl" : "arboreal",
+      "lbl" : "obsolete arboreal",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "An evolutionary quality inhering in a bearer by virtue of the bearer's morphological and physiological adaptation for living in trees"
         },
+        "comments" : [ "Deprecated: term moved to PATO or OBA. See GitHub issue #137." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000042",
@@ -19917,16 +19967,44 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000078",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        } ],
+        "deprecated" : true
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000079",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        } ],
+        "deprecated" : true
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000080",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        } ],
+        "deprecated" : true
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000081",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        } ],
+        "deprecated" : true
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000083",
       "lbl" : "graminivore",
@@ -20823,19 +20901,24 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000142",
-      "lbl" : "anecic",
+      "lbl" : "obsolete anecic",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "An organismal quality inhering in a bearer by virtue of the bearer's ability to burrow more than 20 cm deep into the soil and make permanent, vertical burrows."
         },
+        "comments" : [ "Deprecated: term moved to PATO or OBA. See GitHub issue #137." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Deprecated: term moved to PATO or OBA. See GitHub issue #137."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "http://orcid.org/0000-0002-2908-3327"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
           "val" : "https://orcid.org/0000-0002-1434-9495"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000143",
@@ -21516,6 +21599,404 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "coral-dinoflagellate symbiosis"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000191",
+      "lbl" : "ecological succession",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A process during which the species composition and community structure of an ecosystem change directionally over time following a disturbance or the colonization of a new habitat."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "community succession"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "succession"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "primary succession"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "secondary succession"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "seral progression"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000192",
+      "lbl" : "biogeochemical cycling",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A process involving the cyclical transformation and movement of chemical elements or compounds through living organisms and the abiotic components of an ecosystem."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "biogeochemical cycle"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "elemental cycling"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "geochemical cycling"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nutrient cycling"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000193",
+      "lbl" : "mutualism",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A symbiotic process in which all participating organisms derive a net fitness benefit from the interaction."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mutual symbiosis"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mutualistic symbiosis"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "facultative mutualism"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "obligate mutualism"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000194",
+      "lbl" : "wildfire succession",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ecological succession process in which species assemblages in a fire-disturbed area are sequentially replaced over time, driven by differences in fire tolerance, post-fire dispersal ability, and growth strategy."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "fire succession"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "post-fire succession"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pyric succession"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "fire-driven community change"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pyrogenic succession"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000195",
+      "lbl" : "gap dynamics",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ecological succession process in which localized disturbances create openings in a plant canopy, initiating cycles of light-mediated recruitment, competition, and regeneration."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "canopy gap dynamics"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "forest gap regeneration"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "treefall gap dynamics"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "disturbance gap dynamics"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "gap-phase regeneration"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "windthrow gap dynamics"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000196",
+      "lbl" : "flood pulse",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ecological process in which periodic flooding of a floodplain connects river channels to terrestrial habitats, driving lateral exchange of water, dissolved nutrients, organic matter, and organisms between aquatic and terrestrial ecosystem compartments."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "flood pulse dynamics"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "lateral hydrological connectivity pulse"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "aquatic-terrestrial coupling"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "floodplain connectivity"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "river-floodplain exchange"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000197",
+      "lbl" : "redox dynamics",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A biogeochemical cycling process characterized by cyclical changes in the oxidation-reduction potential of an environment, regulating the speciation and bioavailability of nutrients and the metabolic activity of microbial communities."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "oxidation-reduction dynamics"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "redox cycling"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "redox oscillation"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "anaerobic-aerobic cycling"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "oxidation-reduction potential dynamics"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "redox fluctuation"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000198",
+      "lbl" : "methane cycling",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A biogeochemical cycling process encompassing the microbial production of methane (methanogenesis) and its oxidation (methanotrophy) within an ecosystem, linking anaerobic decomposition to atmospheric greenhouse gas fluxes."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "CH4 cycling"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "methane biogeochemical cycle"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "methanogenesis-methanotrophy cycle"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "methane flux dynamics"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "methane turnover"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000199",
+      "lbl" : "iron cycling",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A biogeochemical cycling process involving the microbial and abiotic transformation of iron between oxidized (Fe3+) and reduced (Fe2+) forms, influencing phosphorus availability, organic matter decomposition, and trace metal dynamics in soils and sediments."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "ferrous-ferric cycling"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "iron biogeochemical cycle"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "iron redox cycling"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Fe cycling"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "dissimilatory iron reduction"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "iron transformation"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000200",
+      "lbl" : "pollination",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A mutualistic process during which pollen is transferred from the anther to the stigma of a flower by a biotic vector, enabling plant reproduction while providing nutritional rewards to the pollinator."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "animal pollination"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "biotic pollination"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "zoophily"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "chiropterophily"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "entomophily"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "ornithophily"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000201",
+      "lbl" : "seed dispersal",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ecological process during which seeds or other plant propagules are transported away from the parent plant by biotic or abiotic vectors, reducing sibling competition and enabling colonization of new sites."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "plant dispersal"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "propagule dispersal"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "seed transport"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "anemochory"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "endozoochory"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "epizoochory"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "hydrochory"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "zoochory"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000202",
+      "lbl" : "water filtration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ecosystem process during which biological communities, including filter-feeding invertebrates, riparian vegetation, and microbial biofilms, remove suspended particles, excess nutrients, and contaminants from water, contributing to water quality regulation."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "biological water filtration"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "biotic water purification"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ecosystem water purification"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "biofiltration"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "natural water treatment"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "water purification"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000203",
+      "lbl" : "carbon sequestration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ecosystem process in which autotrophic production outpaces heterotrophic respiration, resulting in the net removal of atmospheric CO2 and its storage in biological reservoirs over ecologically relevant timeframes."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "biological carbon sequestration"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "carbon sink"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ecosystem carbon storage"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "blue carbon sequestration"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "net ecosystem production"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "terrestrial carbon sequestration"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
@@ -174768,10 +175249,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002215",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000009"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000024",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000025",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000022"
@@ -174779,10 +175256,6 @@
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000026",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0032502"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000027",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000028",
       "pred" : "is_a",
@@ -174807,54 +175280,6 @@
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000033",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000029"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000034",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000034",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000035"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000035",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000035",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000036"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000036",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000036",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000037"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000037",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000037",
-      "pred" : "http://purl.obolibrary.org/obo/BFO_0000063",
-      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000038"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000038",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0000105"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000039",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000040",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000041",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000042",
       "pred" : "is_a",
@@ -175260,10 +175685,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000142",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0001995"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000143",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000019"
@@ -175495,6 +175916,58 @@
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000190",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000057",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_252141"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000191",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000192",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000193",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000022"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000194",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000191"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000195",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000191"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000196",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000197",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000192"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000198",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000192"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000199",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000192"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000200",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000193"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000201",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000202",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000203",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_3000001",
       "pred" : "is_a",

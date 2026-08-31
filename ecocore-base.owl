@@ -11,11 +11,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ecocore/ecocore-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2026-08-17/ecocore-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ecocore/releases/2026-08-31/ecocore-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <rdfs:comment>An ontology of core ecological entities</rdfs:comment>
-        <owl:versionInfo>2026-08-17</owl:versionInfo>
+        <owl:versionInfo>2026-08-31</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -111,12 +111,6 @@
     <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000063 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000063"/>
     
 
 
@@ -697,10 +691,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>Quotient (or ratio) of surface area of an organism divided by the mass of the same organism</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>area to mass ratio</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete area to mass ratio</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -732,10 +728,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>Type of food comprising the majority of the diet of an organism</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>primary diet</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete primary diet</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -809,16 +807,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The second post-naupliar life stage of a copepod</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to UBERON. See GitHub issue #136.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>copepodid stage 2</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to UBERON. See GitHub issue #136.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete copepodid stage 2</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -826,16 +820,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The third post-naupliar life stage of a copepod</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to UBERON. See GitHub issue #136.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>copepodid stage 3</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to UBERON. See GitHub issue #136.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete copepodid stage 3</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -843,16 +833,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The fourth post-naupliar life stage of a copepod</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to UBERON. See GitHub issue #136.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>copepodid stage 4</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to UBERON. See GitHub issue #136.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete copepodid stage 4</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -860,16 +846,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The fifth post-naupliar life stage of a copepod</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to UBERON. See GitHub issue #136.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>copepodid stage 5</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to UBERON. See GitHub issue #136.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete copepodid stage 5</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -877,10 +859,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000105"/>
         <obo:IAO_0000115>The sixth post-naupliar life stage of a copepod</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to UBERON. See GitHub issue #136.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>copepodid stage 6</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to UBERON. See GitHub issue #136.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete copepodid stage 6</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -888,10 +872,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>An evolutionary quality inhering in a bearer by virtue of the bearer&apos;s morphological and physiological adaptation for running</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>cursorial</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete cursorial</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -899,10 +885,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>An evolutionary quality inhering in a bearer by virtue of the bearer&apos;s morphological and physiological adaptation for digging and living underground</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>fossorial</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete fossorial</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -910,10 +898,12 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>An evolutionary quality inhering in a bearer by virtue of the bearer&apos;s morphological and physiological adaptation for living in trees</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
-        <rdfs:label>arboreal</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete arboreal</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1390,25 +1380,37 @@
 
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000078 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000078"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000078">
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000079 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000079"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000079">
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000080 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000080"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000080">
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000081 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000081"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000081">
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
     
 
 
@@ -2521,11 +2523,13 @@
     <!-- http://purl.obolibrary.org/obo/ECOCORE_00000142 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001995"/>
         <obo:IAO_0000115>An organismal quality inhering in a bearer by virtue of the bearer&apos;s ability to burrow more than 20 cm deep into the soil and make permanent, vertical burrows.</obo:IAO_0000115>
+        <obo:IAO_0000116>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</obo:IAO_0000116>
         <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-1434-9495</obo:IAO_0000117>
-        <rdfs:label>anecic</rdfs:label>
+        <rdfs:comment>Deprecated: term moved to PATO or OBA. See GitHub issue #137.</rdfs:comment>
+        <rdfs:label xml:lang="en">obsolete anecic</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3275,6 +3279,221 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process during which the species composition and community structure of an ecosystem change directionally over time following a disturbance or the colonization of a new habitat.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>community succession</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>succession</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>primary succession</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>secondary succession</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>seral progression</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">ecological succession</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process involving the cyclical transformation and movement of chemical elements or compounds through living organisms and the abiotic components of an ecosystem.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>biogeochemical cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>elemental cycling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>geochemical cycling</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nutrient cycling</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">biogeochemical cycling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000022"/>
+        <obo:IAO_0000115>A symbiotic process in which all participating organisms derive a net fitness benefit from the interaction.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>mutual symbiosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mutualistic symbiosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>facultative mutualism</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>obligate mutualism</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">mutualism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000191"/>
+        <obo:IAO_0000115>An ecological succession process in which species assemblages in a fire-disturbed area are sequentially replaced over time, driven by differences in fire tolerance, post-fire dispersal ability, and growth strategy.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>fire succession</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>post-fire succession</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pyric succession</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>fire-driven community change</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>pyrogenic succession</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">wildfire succession</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000191"/>
+        <obo:IAO_0000115>An ecological succession process in which localized disturbances create openings in a plant canopy, initiating cycles of light-mediated recruitment, competition, and regeneration.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>canopy gap dynamics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>forest gap regeneration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>treefall gap dynamics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>disturbance gap dynamics</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>gap-phase regeneration</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>windthrow gap dynamics</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">gap dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>An ecological process in which periodic flooding of a floodplain connects river channels to terrestrial habitats, driving lateral exchange of water, dissolved nutrients, organic matter, and organisms between aquatic and terrestrial ecosystem compartments.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>flood pulse dynamics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lateral hydrological connectivity pulse</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>aquatic-terrestrial coupling</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>floodplain connectivity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>river-floodplain exchange</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">flood pulse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000192"/>
+        <obo:IAO_0000115>A biogeochemical cycling process characterized by cyclical changes in the oxidation-reduction potential of an environment, regulating the speciation and bioavailability of nutrients and the metabolic activity of microbial communities.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>oxidation-reduction dynamics</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>redox cycling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>redox oscillation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>anaerobic-aerobic cycling</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxidation-reduction potential dynamics</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>redox fluctuation</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">redox dynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000192"/>
+        <obo:IAO_0000115>A biogeochemical cycling process encompassing the microbial production of methane (methanogenesis) and its oxidation (methanotrophy) within an ecosystem, linking anaerobic decomposition to atmospheric greenhouse gas fluxes.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>CH4 cycling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>methane biogeochemical cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>methanogenesis-methanotrophy cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>methane flux dynamics</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>methane turnover</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">methane cycling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000192"/>
+        <obo:IAO_0000115>A biogeochemical cycling process involving the microbial and abiotic transformation of iron between oxidized (Fe3+) and reduced (Fe2+) forms, influencing phosphorus availability, organic matter decomposition, and trace metal dynamics in soils and sediments.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>ferrous-ferric cycling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>iron biogeochemical cycle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>iron redox cycling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Fe cycling</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dissimilatory iron reduction</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>iron transformation</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">iron cycling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECOCORE_00000193"/>
+        <obo:IAO_0000115>A mutualistic process during which pollen is transferred from the anther to the stigma of a flower by a biotic vector, enabling plant reproduction while providing nutritional rewards to the pollinator.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>animal pollination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>biotic pollination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zoophily</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>chiropterophily</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>entomophily</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ornithophily</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">pollination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>An ecological process during which seeds or other plant propagules are transported away from the parent plant by biotic or abiotic vectors, reducing sibling competition and enabling colonization of new sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>plant dispersal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>propagule dispersal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>seed transport</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>anemochory</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>endozoochory</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>epizoochory</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hydrochory</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>zoochory</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">seed dispersal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>An ecosystem process during which biological communities, including filter-feeding invertebrates, riparian vegetation, and microbial biofilms, remove suspended particles, excess nutrients, and contaminants from water, contributing to water quality regulation.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>biological water filtration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>biotic water purification</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ecosystem water purification</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>biofiltration</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>natural water treatment</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>water purification</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">water filtration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ECOCORE_00000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_00000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>An ecosystem process in which autotrophic production outpaces heterotrophic respiration, resulting in the net removal of atmospheric CO2 and its storage in biological reservoirs over ecologically relevant timeframes.</obo:IAO_0000115>
+        <obo:IAO_0000117>http://orcid.org/0000-0002-2908-3327</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>biological carbon sequestration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>carbon sink</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ecosystem carbon storage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>blue carbon sequestration</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>net ecosystem production</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>terrestrial carbon sequestration</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">carbon sequestration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ECOCORE_3000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECOCORE_3000001">
@@ -3477,12 +3696,6 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002577 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/RO_0002577"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000105 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105"/>
     
 
 
