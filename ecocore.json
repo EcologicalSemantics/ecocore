@@ -10,9 +10,9 @@
         "val" : "An ontology of core ecological entities"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-08-31"
+        "val" : "2026-10-08"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2026-08-31/ecocore.json"
+      "version" : "http://purl.obolibrary.org/obo/ecocore/releases/2026-10-08/ecocore.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -21997,6 +21997,55 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "terrestrial carbon sequestration"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000204",
+      "lbl" : "dissolved organic matter mineralization",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A decomposition process during which a living entity acquires food and energy by enzymatically transforming dissolved organic molecules into inorganic mineral forms, completing biogeochemical nutrient cycles in aquatic and soil systems."
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "DOC mineralization"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "DOM mineralization"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "DOM remineralization"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "dissolved organic carbon mineralization"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "http://orcid.org/0000-0002-2908-3327"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/ECOCORE_00000205",
+      "lbl" : "trophic cascade",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ecosystem process in which changes in consumer abundance or behavior at one trophic level propagate indirectly through multiple trophic links, altering the biomass, behavior, and community composition of organisms at non-adjacent trophic levels."
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "indirect trophic effect"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "top-down trophic cascade"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "trophic cascading effect"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
@@ -175919,11 +175968,11 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000191",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001795"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000192",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001795"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000193",
       "pred" : "is_a",
@@ -175939,7 +175988,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000196",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001795"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000197",
       "pred" : "is_a",
@@ -175959,15 +176008,23 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000201",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001795"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000202",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001795"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000203",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001795"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000204",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ECOCORE_00000058"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/ECOCORE_00000205",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/ENVO_01001795"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/ECOCORE_3000001",
       "pred" : "is_a",

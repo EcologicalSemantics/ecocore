@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ecocore/releases/2026-08-31/ecocore-full.owl
+data-version: ecocore/releases/2026-10-08/ecocore-full.owl
 subsetdef: cumbo ""
 subsetdef: developmental_classification ""
 subsetdef: early_development ""
@@ -35,7 +35,7 @@ idspace: terms http://purl.org/dc/terms/
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-full
 property_value: dcterms-license https://creativecommons.org/licenses/by/3.0/
-property_value: owl:versionInfo "2026-08-31" xsd:string
+property_value: owl:versionInfo "2026-10-08" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -352,8 +352,8 @@ name: electron
 def: "Elementary particle not affected by the strong force having a spin 1/2, a negative elementary charge and a rest mass of 0.000548579903(13) u, or 0.51099906(15) MeV." []
 synonym: "beta" RELATED [iupac]
 synonym: "beta" RELATED [IUPAC]
-synonym: "beta(-)" RELATED [chebi]
 synonym: "beta(-)" RELATED [ChEBI]
+synonym: "beta(-)" RELATED [chebi]
 synonym: "beta-particle" RELATED [IUPAC]
 synonym: "beta-particle" RELATED [iupac]
 synonym: "e" RELATED [IUPAC]
@@ -364,8 +364,8 @@ synonym: "e-" RELATED [KEGG_COMPOUND]
 synonym: "e-" RELATED [kegg.compound]
 synonym: "electron" EXACT [ChEBI, KEGG_COMPOUND]
 synonym: "electron" RELATED [chebi, kegg.compound]
-synonym: "Elektron" RELATED [ChEBI]
 synonym: "Elektron" RELATED [chebi]
+synonym: "Elektron" RELATED [ChEBI]
 synonym: "negatron" RELATED [IUPAC]
 synonym: "negatron" RELATED [iupac]
 xref: KEGG:C05359
@@ -419,10 +419,10 @@ name: inorganic acid
 def: "A Bronsted acid derived from one or more inorganic compounds. Inorganic acids (also known as mineral acids) form hydrons and conjugate base ions when dissolved in water." []
 synonym: "inorganic acids" RELATED [chebi]
 synonym: "inorganic acids" RELATED [ChEBI]
-synonym: "mineral acid" RELATED [chebi]
 synonym: "mineral acid" RELATED [ChEBI]
-synonym: "mineral acids" RELATED [chebi]
+synonym: "mineral acid" RELATED [chebi]
 synonym: "mineral acids" RELATED [ChEBI]
+synonym: "mineral acids" RELATED [chebi]
 xref: Wikipedia:Mineral_acid
 is_a: CHEBI:39141 ! Bronsted acid
 
@@ -430,10 +430,10 @@ is_a: CHEBI:39141 ! Bronsted acid
 id: CHEBI:138675
 name: gas molecular entity
 def: "Any main group molecular entity that is gaseous at standard temperature and pressure (STP; 0degreeC and 100 kPa)." []
-synonym: "gas molecular entities" RELATED [ChEBI]
 synonym: "gas molecular entities" RELATED [chebi]
-synonym: "gaseous molecular entities" RELATED [ChEBI]
+synonym: "gas molecular entities" RELATED [ChEBI]
 synonym: "gaseous molecular entities" RELATED [chebi]
+synonym: "gaseous molecular entities" RELATED [ChEBI]
 synonym: "gaseous molecular entity" RELATED [ChEBI]
 synonym: "gaseous molecular entity" RELATED [chebi]
 xref: Wikipedia:https\://en.wikipedia.org/wiki/Gas
@@ -478,12 +478,12 @@ name: acceptor
 def: "A molecular entity that can accept an electron, a pair of electrons, an atom or a group from another molecular entity." []
 synonym: "A" RELATED [kegg.compound]
 synonym: "A" RELATED [KEGG_COMPOUND]
-synonym: "accepteur" RELATED [ChEBI]
 synonym: "accepteur" RELATED [chebi]
+synonym: "accepteur" RELATED [ChEBI]
 synonym: "Acceptor" EXACT [KEGG_COMPOUND]
 synonym: "Acceptor" RELATED [kegg.compound]
-synonym: "Akzeptor" RELATED [chebi]
 synonym: "Akzeptor" RELATED [ChEBI]
+synonym: "Akzeptor" RELATED [chebi]
 synonym: "Hydrogen-acceptor" RELATED [KEGG_COMPOUND]
 synonym: "Hydrogen-acceptor" RELATED [kegg.compound]
 synonym: "Oxidized donor" RELATED [kegg.compound]
@@ -787,26 +787,26 @@ synonym: "carbohidrato" RELATED [IUPAC]
 synonym: "carbohidrato" RELATED [iupac]
 synonym: "carbohidratos" RELATED [IUPAC]
 synonym: "carbohidratos" RELATED [iupac]
-synonym: "glucide" RELATED [ChEBI]
 synonym: "glucide" RELATED [chebi]
-synonym: "glucides" RELATED [chebi]
+synonym: "glucide" RELATED [ChEBI]
 synonym: "glucides" RELATED [ChEBI]
+synonym: "glucides" RELATED [chebi]
 synonym: "glucido" RELATED [ChEBI]
 synonym: "glucido" RELATED [chebi]
 synonym: "glucidos" RELATED [chebi]
 synonym: "glucidos" RELATED [ChEBI]
-synonym: "hydrates de carbone" RELATED [chebi]
 synonym: "hydrates de carbone" RELATED [ChEBI]
-synonym: "Kohlenhydrat" RELATED [chebi]
+synonym: "hydrates de carbone" RELATED [chebi]
 synonym: "Kohlenhydrat" RELATED [ChEBI]
+synonym: "Kohlenhydrat" RELATED [chebi]
 synonym: "Kohlenhydrate" RELATED [ChEBI]
 synonym: "Kohlenhydrate" RELATED [chebi]
 synonym: "saccharide" RELATED [iupac]
 synonym: "saccharide" RELATED [IUPAC]
 synonym: "saccharides" RELATED [iupac]
 synonym: "saccharides" RELATED [IUPAC]
-synonym: "saccharidum" RELATED [ChEBI]
 synonym: "saccharidum" RELATED [chebi]
+synonym: "saccharidum" RELATED [ChEBI]
 xref: Wikipedia:Carbohydrate
 is_a: CHEBI:78616 ! carbohydrates and carbohydrate derivatives
 
@@ -947,10 +947,10 @@ relationship: RO:0018034 CHEBI:52090 ! is conjugate acid of methoxide
 id: CHEBI:17891
 name: donor
 def: "A molecular entity that can transfer (\"donate\") an electron, a pair of electrons, an atom or a group to another molecular entity." []
-synonym: "Donator" RELATED [chebi]
 synonym: "Donator" RELATED [ChEBI]
-synonym: "donneur" RELATED [ChEBI]
+synonym: "Donator" RELATED [chebi]
 synonym: "donneur" RELATED [chebi]
+synonym: "donneur" RELATED [ChEBI]
 synonym: "Donor" EXACT [KEGG_COMPOUND]
 synonym: "Donor" RELATED [kegg.compound]
 xref: KEGG:C01351
@@ -1092,12 +1092,12 @@ synonym: "Anion" EXACT [ChEBI]
 synonym: "Anion" RELATED [chebi]
 synonym: "anion" EXACT [ChEBI]
 synonym: "anion" RELATED [chebi]
-synonym: "Anionen" RELATED [chebi]
 synonym: "Anionen" RELATED [ChEBI]
-synonym: "aniones" RELATED [ChEBI]
+synonym: "Anionen" RELATED [chebi]
 synonym: "aniones" RELATED [chebi]
-synonym: "anions" RELATED [iupac]
+synonym: "aniones" RELATED [ChEBI]
 synonym: "anions" RELATED [IUPAC]
+synonym: "anions" RELATED [iupac]
 is_a: CHEBI:24870 ! ion
 
 [Term]
@@ -1167,8 +1167,8 @@ is_a: CHEBI:36963 ! organooxygen compound
 [Term]
 id: CHEBI:23019
 name: carbonyl group
-synonym: ">C=O" RELATED [iupac]
 synonym: ">C=O" RELATED [IUPAC]
+synonym: ">C=O" RELATED [iupac]
 synonym: "carbonyl group" EXACT [ChEBI, UniProt]
 synonym: "carbonyl group" RELATED [chebi, uniprot_ft]
 is_a: CHEBI:51422 ! organodiyl group
@@ -1211,24 +1211,24 @@ id: CHEBI:23367
 name: molecular entity
 namespace: chebi_ontology
 def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." [fake:2]
-synonym: "entidad molecular" RELATED [iupac]
 synonym: "entidad molecular" RELATED [IUPAC]
-synonym: "entidades moleculares" RELATED [iupac]
+synonym: "entidad molecular" RELATED [iupac]
 synonym: "entidades moleculares" RELATED [IUPAC]
+synonym: "entidades moleculares" RELATED [iupac]
 synonym: "entite moleculaire" RELATED [IUPAC]
 synonym: "entite moleculaire" RELATED [iupac]
 synonym: "molecular entities" RELATED [iupac]
 synonym: "molecular entities" RELATED [IUPAC]
-synonym: "molekulare Entitaet" RELATED [chebi]
 synonym: "molekulare Entitaet" RELATED [ChEBI]
+synonym: "molekulare Entitaet" RELATED [chebi]
 is_a: CHEBI:24431 ! chemical entity
 
 [Term]
 id: CHEBI:23888
 name: drug
 def: "Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances." []
-synonym: "drugs" RELATED [ChEBI]
 synonym: "drugs" RELATED [chebi]
+synonym: "drugs" RELATED [ChEBI]
 synonym: "medicine" RELATED [ChEBI]
 synonym: "medicine" RELATED [chebi]
 is_a: CHEBI:52217 ! pharmaceutical
@@ -1237,16 +1237,16 @@ is_a: CHEBI:52217 ! pharmaceutical
 id: CHEBI:23924
 name: enzyme inhibitor
 def: "A compound or agent that combines with an enzyme in such a manner as to prevent the normal substrate-enzyme combination and the catalytic reaction." []
-synonym: "enzyme inhibitors" RELATED [chebi]
 synonym: "enzyme inhibitors" RELATED [ChEBI]
+synonym: "enzyme inhibitors" RELATED [chebi]
 synonym: "inhibidor enzimatico" RELATED [chebi]
 synonym: "inhibidor enzimatico" RELATED [ChEBI]
-synonym: "inhibidores enzimaticos" RELATED [ChEBI]
 synonym: "inhibidores enzimaticos" RELATED [chebi]
+synonym: "inhibidores enzimaticos" RELATED [ChEBI]
 synonym: "inhibiteur enzymatique" RELATED [ChEBI]
 synonym: "inhibiteur enzymatique" RELATED [chebi]
-synonym: "inhibiteurs enzymatiques" RELATED [chebi]
 synonym: "inhibiteurs enzymatiques" RELATED [ChEBI]
+synonym: "inhibiteurs enzymatiques" RELATED [chebi]
 is_a: CHEBI:35222 ! inhibitor
 is_a: CHEBI:52206 ! biochemical role
 
@@ -1279,8 +1279,8 @@ synonym: "grupos" RELATED [iupac]
 synonym: "grupos" RELATED [IUPAC]
 synonym: "Gruppe" RELATED [ChEBI]
 synonym: "Gruppe" RELATED [chebi]
-synonym: "Rest" RELATED [ChEBI]
 synonym: "Rest" RELATED [chebi]
+synonym: "Rest" RELATED [ChEBI]
 is_a: CHEBI:24431 ! chemical entity
 relationship: has_part CHEBI:33250 ! atom
 
@@ -1293,8 +1293,8 @@ is_a: CHEBI:33675 ! p-block molecular entity
 id: CHEBI:24532
 name: organic heterocyclic compound
 def: "A cyclic compound having as ring members atoms of carbon and at least of one other element." []
-synonym: "organic heterocycle" RELATED [chebi]
 synonym: "organic heterocycle" RELATED [ChEBI]
+synonym: "organic heterocycle" RELATED [chebi]
 synonym: "organic heterocyclic compounds" RELATED [ChEBI]
 synonym: "organic heterocyclic compounds" RELATED [chebi]
 is_a: CHEBI:33285 ! heteroorganic entity
@@ -1340,16 +1340,16 @@ is_a: CHEBI:22728 ! benzopyrrole
 id: CHEBI:24833
 name: oxoacid
 def: "A compound which contains oxygen, at least one other element, and at least one hydrogen bound to oxygen, and which produces a conjugate base by loss of positive hydrogen ion(s) (hydrons)." []
-synonym: "oxacids" RELATED [chebi]
 synonym: "oxacids" RELATED [ChEBI]
-synonym: "oxiacids" RELATED [chebi]
+synonym: "oxacids" RELATED [chebi]
 synonym: "oxiacids" RELATED [ChEBI]
-synonym: "oxo acid" RELATED [ChEBI]
+synonym: "oxiacids" RELATED [chebi]
 synonym: "oxo acid" RELATED [chebi]
+synonym: "oxo acid" RELATED [ChEBI]
 synonym: "oxy-acids" RELATED [chebi]
 synonym: "oxy-acids" RELATED [ChEBI]
-synonym: "oxyacids" RELATED [ChEBI]
 synonym: "oxyacids" RELATED [chebi]
+synonym: "oxyacids" RELATED [ChEBI]
 is_a: CHEBI:24651 ! hydroxides
 relationship: has_role CHEBI:39141 ! Bronsted acid
 
@@ -1365,8 +1365,8 @@ is_a: CHEBI:36914 ! inorganic ion
 id: CHEBI:24835
 name: inorganic molecular entity
 def: "A molecular entity that contains no carbon." []
-synonym: "anorganische Verbindungen" RELATED [chebi]
 synonym: "anorganische Verbindungen" RELATED [ChEBI]
+synonym: "anorganische Verbindungen" RELATED [chebi]
 synonym: "inorganic compounds" RELATED [chebi]
 synonym: "inorganic compounds" RELATED [ChEBI]
 synonym: "inorganic entity" RELATED [ChEBI]
@@ -1410,12 +1410,12 @@ synonym: "Ion" EXACT [ChEBI]
 synonym: "Ion" RELATED [chebi]
 synonym: "ion" EXACT [ChEBI]
 synonym: "ion" RELATED [chebi]
-synonym: "Ionen" RELATED [ChEBI]
 synonym: "Ionen" RELATED [chebi]
-synonym: "iones" RELATED [ChEBI]
+synonym: "Ionen" RELATED [ChEBI]
 synonym: "iones" RELATED [chebi]
-synonym: "ions" RELATED [ChEBI]
+synonym: "iones" RELATED [ChEBI]
 synonym: "ions" RELATED [chebi]
+synonym: "ions" RELATED [ChEBI]
 is_a: CHEBI:23367 ! molecular entity
 
 [Term]
@@ -1501,16 +1501,16 @@ is_a: CHEBI:33259 ! elemental molecular entity
 id: CHEBI:25367
 name: molecule
 def: "Any polyatomic entity that is an electrically neutral entity consisting of more than one atom." []
-synonym: "molecula" RELATED [iupac]
 synonym: "molecula" RELATED [IUPAC]
+synonym: "molecula" RELATED [iupac]
 synonym: "molecule" EXACT [IUPAC]
 synonym: "molecule" RELATED [iupac]
-synonym: "molecules" RELATED [IUPAC]
 synonym: "molecules" RELATED [iupac]
-synonym: "Molekuel" RELATED [chebi]
+synonym: "molecules" RELATED [IUPAC]
 synonym: "Molekuel" RELATED [ChEBI]
-synonym: "neutral molecular compounds" RELATED [IUPAC]
+synonym: "Molekuel" RELATED [chebi]
 synonym: "neutral molecular compounds" RELATED [iupac]
+synonym: "neutral molecular compounds" RELATED [IUPAC]
 is_a: CHEBI:36357 ! polyatomic entity
 
 [Term]
@@ -1526,8 +1526,8 @@ relationship: has_role CHEBI:33280 ! molecular messenger
 id: CHEBI:25384
 name: monocarboxylic acid
 def: "An oxoacid containing a single carboxy group." []
-synonym: "monocarboxylic acids" RELATED [chebi]
 synonym: "monocarboxylic acids" RELATED [ChEBI]
+synonym: "monocarboxylic acids" RELATED [chebi]
 is_a: CHEBI:33575 ! carboxylic acid
 relationship: is_conjugate_acid_of CHEBI:35757 ! monocarboxylic acid anion
 relationship: RO:0018034 CHEBI:35757 ! is conjugate acid of monocarboxylic acid anion
@@ -1536,24 +1536,24 @@ relationship: RO:0018034 CHEBI:35757 ! is conjugate acid of monocarboxylic acid 
 id: CHEBI:25512
 name: neurotransmitter
 def: "An endogenous compound that is used to transmit information across the synapse between a neuron and another cell." []
-synonym: "neurotransmitters" RELATED [ChEBI]
 synonym: "neurotransmitters" RELATED [chebi]
+synonym: "neurotransmitters" RELATED [ChEBI]
 xref: Wikipedia:Neurotransmitter
 is_a: CHEBI:33280 ! molecular messenger
 
 [Term]
 id: CHEBI:25555
 name: nitrogen atom
-synonym: "7N" RELATED [IUPAC]
 synonym: "7N" RELATED [iupac]
+synonym: "7N" RELATED [IUPAC]
 synonym: "azote" RELATED [IUPAC]
 synonym: "azote" RELATED [iupac]
-synonym: "N" RELATED [iupac]
 synonym: "N" RELATED [IUPAC]
-synonym: "nitrogen" RELATED [ChEBI]
+synonym: "N" RELATED [iupac]
 synonym: "nitrogen" RELATED [chebi]
-synonym: "nitrogeno" RELATED [chebi]
+synonym: "nitrogen" RELATED [ChEBI]
 synonym: "nitrogeno" RELATED [ChEBI]
+synonym: "nitrogeno" RELATED [chebi]
 synonym: "Stickstoff" RELATED [ChEBI]
 synonym: "Stickstoff" RELATED [chebi]
 xref: WebElements:N
@@ -1564,18 +1564,18 @@ relationship: has_role CHEBI:33937 ! macronutrient
 [Term]
 id: CHEBI:25585
 name: nonmetal atom
-synonym: "Nichtmetall" RELATED [chebi]
 synonym: "Nichtmetall" RELATED [ChEBI]
+synonym: "Nichtmetall" RELATED [chebi]
 synonym: "Nichtmetalle" RELATED [ChEBI]
 synonym: "Nichtmetalle" RELATED [chebi]
-synonym: "no metal" RELATED [ChEBI]
 synonym: "no metal" RELATED [chebi]
+synonym: "no metal" RELATED [ChEBI]
 synonym: "no metales" RELATED [ChEBI]
 synonym: "no metales" RELATED [chebi]
-synonym: "non-metal" RELATED [ChEBI]
 synonym: "non-metal" RELATED [chebi]
-synonym: "non-metaux" RELATED [chebi]
+synonym: "non-metal" RELATED [ChEBI]
 synonym: "non-metaux" RELATED [ChEBI]
+synonym: "non-metaux" RELATED [chebi]
 synonym: "nonmetal" RELATED [chebi]
 synonym: "nonmetal" RELATED [ChEBI]
 synonym: "nonmetals" RELATED [ChEBI]
@@ -1586,8 +1586,8 @@ is_a: CHEBI:33250 ! atom
 id: CHEBI:25696
 name: organic anion
 def: "Any organic ion with a net negative charge." []
-synonym: "organic anions" RELATED [chebi]
 synonym: "organic anions" RELATED [ChEBI]
+synonym: "organic anions" RELATED [chebi]
 is_a: CHEBI:22563 ! anion
 is_a: CHEBI:25699 ! organic ion
 
@@ -1595,16 +1595,16 @@ is_a: CHEBI:25699 ! organic ion
 id: CHEBI:25697
 name: organic cation
 def: "Any organic ion with a net positive charge." []
-synonym: "organic cations" RELATED [ChEBI]
 synonym: "organic cations" RELATED [chebi]
+synonym: "organic cations" RELATED [ChEBI]
 is_a: CHEBI:25699 ! organic ion
 is_a: CHEBI:36916 ! cation
 
 [Term]
 id: CHEBI:25699
 name: organic ion
-synonym: "organic ions" RELATED [chebi]
 synonym: "organic ions" RELATED [ChEBI]
+synonym: "organic ions" RELATED [chebi]
 is_a: CHEBI:24870 ! ion
 is_a: CHEBI:50860 ! organic molecular entity
 
@@ -1647,18 +1647,18 @@ is_a: CHEBI:37577 ! heteroatomic molecular entity
 [Term]
 id: CHEBI:25805
 name: oxygen atom
-synonym: "8O" RELATED [IUPAC]
 synonym: "8O" RELATED [iupac]
+synonym: "8O" RELATED [IUPAC]
 synonym: "O" RELATED [iupac]
 synonym: "O" RELATED [IUPAC]
 synonym: "oxigeno" RELATED [ChEBI]
 synonym: "oxigeno" RELATED [chebi]
-synonym: "oxygen" RELATED [ChEBI]
 synonym: "oxygen" RELATED [chebi]
-synonym: "oxygene" RELATED [ChEBI]
+synonym: "oxygen" RELATED [ChEBI]
 synonym: "oxygene" RELATED [chebi]
-synonym: "Sauerstoff" RELATED [ChEBI]
+synonym: "oxygene" RELATED [ChEBI]
 synonym: "Sauerstoff" RELATED [chebi]
+synonym: "Sauerstoff" RELATED [ChEBI]
 xref: KEGG:C00007
 xref: WebElements:O
 is_a: CHEBI:25585 ! nonmetal atom
@@ -1851,16 +1851,16 @@ synonym: "C" RELATED [iupac, kegg.compound]
 synonym: "Carbon" EXACT [KEGG_COMPOUND]
 synonym: "Carbon" RELATED [kegg.compound]
 synonym: "Carbon" RELATED [KEGG_COMPOUND]
-synonym: "carbon" RELATED [chebi]
 synonym: "carbon" RELATED [ChEBI]
+synonym: "carbon" RELATED [chebi]
 synonym: "carbone" RELATED [chebi]
 synonym: "carbone" RELATED [ChEBI]
 synonym: "carbonium" RELATED [chebi]
 synonym: "carbonium" RELATED [ChEBI]
 synonym: "carbono" RELATED [ChEBI]
 synonym: "carbono" RELATED [chebi]
-synonym: "Kohlenstoff" RELATED [chebi]
 synonym: "Kohlenstoff" RELATED [ChEBI]
+synonym: "Kohlenstoff" RELATED [chebi]
 xref: KEGG:C06265
 xref: WebElements:C
 is_a: CHEBI:25585 ! nonmetal atom
@@ -1968,8 +1968,8 @@ synonym: "a carboxylate" RELATED [uniprot_ft]
 synonym: "a carboxylate" RELATED [UniProt]
 synonym: "carboxylic acid anions" RELATED [chebi]
 synonym: "carboxylic acid anions" RELATED [ChEBI]
-synonym: "carboxylic anions" RELATED [ChEBI]
 synonym: "carboxylic anions" RELATED [chebi]
+synonym: "carboxylic anions" RELATED [ChEBI]
 is_a: CHEBI:25696 ! organic anion
 is_a: CHEBI:35406 ! oxoanion
 relationship: is_conjugate_base_of CHEBI:33575 ! carboxylic acid
@@ -2093,8 +2093,8 @@ is_a: CHEBI:50906 ! role
 id: CHEBI:33233
 name: fundamental particle
 def: "A particle not known to have substructure." []
-synonym: "elementary particles" RELATED [chebi]
 synonym: "elementary particles" RELATED [ChEBI]
+synonym: "elementary particles" RELATED [chebi]
 is_a: CHEBI:36342 ! subatomic particle
 
 [Term]
@@ -2162,12 +2162,12 @@ relationship: RO:0018034 CHEBI:64775 ! is conjugate acid of organic anionic grou
 id: CHEBI:33249
 name: organyl group
 def: "Any organic substituent group, regardless of functional type, having one free valence at a carbon atom." []
-synonym: "groupe organyle" RELATED [iupac]
 synonym: "groupe organyle" RELATED [IUPAC]
-synonym: "grupo organilo" RELATED [IUPAC]
+synonym: "groupe organyle" RELATED [iupac]
 synonym: "grupo organilo" RELATED [iupac]
-synonym: "grupos organilo" RELATED [IUPAC]
+synonym: "grupo organilo" RELATED [IUPAC]
 synonym: "grupos organilo" RELATED [iupac]
+synonym: "grupos organilo" RELATED [IUPAC]
 is_a: CHEBI:51447 ! organic univalent group
 
 [Term]
@@ -2178,12 +2178,12 @@ synonym: "atome" RELATED [IUPAC]
 synonym: "atome" RELATED [iupac]
 synonym: "atomo" RELATED [IUPAC]
 synonym: "atomo" RELATED [iupac]
-synonym: "atoms" RELATED [ChEBI]
 synonym: "atoms" RELATED [chebi]
-synonym: "atomus" RELATED [ChEBI]
+synonym: "atoms" RELATED [ChEBI]
 synonym: "atomus" RELATED [chebi]
-synonym: "element" RELATED [ChEBI]
+synonym: "atomus" RELATED [ChEBI]
 synonym: "element" RELATED [chebi]
+synonym: "element" RELATED [ChEBI]
 synonym: "elements" RELATED [ChEBI]
 synonym: "elements" RELATED [chebi]
 is_a: CHEBI:24431 ! chemical entity
@@ -2200,16 +2200,16 @@ synonym: "Kern" RELATED [chebi]
 synonym: "Kern" RELATED [ChEBI]
 synonym: "noyau" RELATED [IUPAC]
 synonym: "noyau" RELATED [iupac]
-synonym: "noyau atomique" RELATED [chebi]
 synonym: "noyau atomique" RELATED [ChEBI]
+synonym: "noyau atomique" RELATED [chebi]
 synonym: "nuclei" RELATED [ChEBI]
 synonym: "nuclei" RELATED [chebi]
-synonym: "nucleo" RELATED [iupac]
 synonym: "nucleo" RELATED [IUPAC]
+synonym: "nucleo" RELATED [iupac]
 synonym: "nucleo atomico" RELATED [ChEBI]
 synonym: "nucleo atomico" RELATED [chebi]
-synonym: "nucleus atomi" RELATED [chebi]
 synonym: "nucleus atomi" RELATED [ChEBI]
+synonym: "nucleus atomi" RELATED [chebi]
 is_a: CHEBI:36347 ! nuclear particle
 relationship: has_part CHEBI:33253 ! nucleon
 
@@ -2223,8 +2223,8 @@ synonym: "nucleons" RELATED [chebi]
 synonym: "nucleons" RELATED [ChEBI]
 synonym: "Nukleon" RELATED [ChEBI]
 synonym: "Nukleon" RELATED [chebi]
-synonym: "Nukleonen" RELATED [ChEBI]
 synonym: "Nukleonen" RELATED [chebi]
+synonym: "Nukleonen" RELATED [ChEBI]
 is_a: CHEBI:36339 ! baryon
 is_a: CHEBI:36347 ! nuclear particle
 
@@ -2311,8 +2311,8 @@ is_a: CHEBI:78295 ! food component
 id: CHEBI:33285
 name: heteroorganic entity
 def: "A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms." []
-synonym: "heteroorganic entities" RELATED [chebi]
 synonym: "heteroorganic entities" RELATED [ChEBI]
+synonym: "heteroorganic entities" RELATED [chebi]
 synonym: "organoelement compounds" RELATED [chebi]
 synonym: "organoelement compounds" RELATED [ChEBI]
 is_a: CHEBI:50860 ! organic molecular entity
@@ -2368,16 +2368,16 @@ relationship: has_part CHEBI:22313 ! alkaline earth metal atom
 id: CHEBI:33300
 name: pnictogen
 def: "Any p-block element atom that is in group 15 of the periodic table: nitrogen, phosphorus, arsenic, antimony and bismuth." []
-synonym: "group 15 elements" RELATED [chebi]
 synonym: "group 15 elements" RELATED [ChEBI]
-synonym: "group V elements" RELATED [chebi]
+synonym: "group 15 elements" RELATED [chebi]
 synonym: "group V elements" RELATED [ChEBI]
+synonym: "group V elements" RELATED [chebi]
 synonym: "nitrogenoideos" RELATED [ChEBI]
 synonym: "nitrogenoideos" RELATED [chebi]
-synonym: "nitrogenoides" RELATED [chebi]
 synonym: "nitrogenoides" RELATED [ChEBI]
-synonym: "pnictogene" RELATED [ChEBI]
+synonym: "nitrogenoides" RELATED [chebi]
 synonym: "pnictogene" RELATED [chebi]
+synonym: "pnictogene" RELATED [ChEBI]
 synonym: "pnictogenes" RELATED [chebi]
 synonym: "pnictogenes" RELATED [ChEBI]
 is_a: CHEBI:33560 ! p-block element atom
@@ -2386,8 +2386,8 @@ is_a: CHEBI:33560 ! p-block element atom
 id: CHEBI:33302
 name: pnictogen molecular entity
 def: "A p-block molecular entity containing any pnictogen." []
-synonym: "pnictogen molecular entities" RELATED [ChEBI]
 synonym: "pnictogen molecular entities" RELATED [chebi]
+synonym: "pnictogen molecular entities" RELATED [ChEBI]
 synonym: "pnictogen molecular entity" EXACT [ChEBI]
 synonym: "pnictogen molecular entity" RELATED [chebi]
 is_a: CHEBI:33675 ! p-block molecular entity
@@ -2397,22 +2397,22 @@ relationship: has_part CHEBI:33300 ! pnictogen
 id: CHEBI:33303
 name: chalcogen
 def: "Any p-block element belonging to the group 16 family of the periodic table." []
-synonym: "anfigeno" RELATED [ChEBI]
 synonym: "anfigeno" RELATED [chebi]
+synonym: "anfigeno" RELATED [ChEBI]
 synonym: "anfigenos" RELATED [chebi]
 synonym: "anfigenos" RELATED [ChEBI]
 synonym: "calcogeno" RELATED [chebi]
 synonym: "calcogeno" RELATED [ChEBI]
 synonym: "calcogenos" RELATED [chebi]
 synonym: "calcogenos" RELATED [ChEBI]
-synonym: "chalcogene" RELATED [chebi]
 synonym: "chalcogene" RELATED [ChEBI]
+synonym: "chalcogene" RELATED [chebi]
 synonym: "chalcogenes" RELATED [ChEBI]
 synonym: "chalcogenes" RELATED [chebi]
-synonym: "Chalkogen" RELATED [chebi]
 synonym: "Chalkogen" RELATED [ChEBI]
-synonym: "Chalkogene" RELATED [chebi]
+synonym: "Chalkogen" RELATED [chebi]
 synonym: "Chalkogene" RELATED [ChEBI]
+synonym: "Chalkogene" RELATED [chebi]
 synonym: "group 16 elements" RELATED [ChEBI]
 synonym: "group 16 elements" RELATED [chebi]
 synonym: "group VI elements" RELATED [chebi]
@@ -2437,14 +2437,14 @@ id: CHEBI:33306
 name: carbon group element atom
 synonym: "carbon group element" RELATED [chebi]
 synonym: "carbon group element" RELATED [ChEBI]
-synonym: "carbon group elements" RELATED [ChEBI]
 synonym: "carbon group elements" RELATED [chebi]
+synonym: "carbon group elements" RELATED [ChEBI]
 synonym: "carbonoides" RELATED [ChEBI]
 synonym: "carbonoides" RELATED [chebi]
-synonym: "cristallogene" RELATED [chebi]
 synonym: "cristallogene" RELATED [ChEBI]
-synonym: "cristallogenes" RELATED [ChEBI]
+synonym: "cristallogene" RELATED [chebi]
 synonym: "cristallogenes" RELATED [chebi]
+synonym: "cristallogenes" RELATED [ChEBI]
 synonym: "group IV elements" RELATED [chebi]
 synonym: "group IV elements" RELATED [ChEBI]
 is_a: CHEBI:33560 ! p-block element atom
@@ -2455,8 +2455,8 @@ name: carboxylic ester
 def: "An ester of a carboxylic acid, R(1)C(=O)OR(2), where R(1) = H or organyl and R(2) = organyl." []
 synonym: "a carboxylic ester" RELATED [UniProt]
 synonym: "a carboxylic ester" RELATED [uniprot_ft]
-synonym: "carboxylic acid esters" RELATED [chebi]
 synonym: "carboxylic acid esters" RELATED [ChEBI]
+synonym: "carboxylic acid esters" RELATED [chebi]
 synonym: "Carboxylic ester" EXACT [KEGG_COMPOUND]
 synonym: "Carboxylic ester" RELATED [kegg.compound]
 xref: KEGG:C02391
@@ -2470,10 +2470,10 @@ name: main group element atom
 def: "An atom belonging to one of the main groups (found in the s- and p- blocks) of the periodic table." []
 synonym: "Hauptgruppenelement" RELATED [chebi]
 synonym: "Hauptgruppenelement" RELATED [ChEBI]
-synonym: "Hauptgruppenelemente" RELATED [ChEBI]
 synonym: "Hauptgruppenelemente" RELATED [chebi]
-synonym: "main group element" RELATED [chebi]
+synonym: "Hauptgruppenelemente" RELATED [ChEBI]
 synonym: "main group element" RELATED [ChEBI]
+synonym: "main group element" RELATED [chebi]
 is_a: CHEBI:33250 ! atom
 
 [Term]
@@ -2592,24 +2592,24 @@ name: p-block element atom
 def: "Any main group element atom belonging to the p-block of the periodic table." []
 synonym: "p-block element" RELATED [ChEBI]
 synonym: "p-block element" RELATED [chebi]
-synonym: "p-block elements" RELATED [ChEBI]
 synonym: "p-block elements" RELATED [chebi]
+synonym: "p-block elements" RELATED [ChEBI]
 is_a: CHEBI:33318 ! main group element atom
 
 [Term]
 id: CHEBI:33575
 name: carboxylic acid
 def: "A carbon oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid." []
-synonym: "acide carboxylique" RELATED [iupac]
 synonym: "acide carboxylique" RELATED [IUPAC]
-synonym: "acides carboxyliques" RELATED [iupac]
+synonym: "acide carboxylique" RELATED [iupac]
 synonym: "acides carboxyliques" RELATED [IUPAC]
-synonym: "acido carboxilico" RELATED [IUPAC]
+synonym: "acides carboxyliques" RELATED [iupac]
 synonym: "acido carboxilico" RELATED [iupac]
+synonym: "acido carboxilico" RELATED [IUPAC]
 synonym: "acidos carboxilicos" RELATED [IUPAC]
 synonym: "acidos carboxilicos" RELATED [iupac]
-synonym: "Carbonsaeure" RELATED [ChEBI]
 synonym: "Carbonsaeure" RELATED [chebi]
+synonym: "Carbonsaeure" RELATED [ChEBI]
 synonym: "Carbonsaeuren" RELATED [ChEBI]
 synonym: "Carbonsaeuren" RELATED [chebi]
 synonym: "Karbonsaeure" RELATED [chebi]
@@ -2630,8 +2630,8 @@ name: main group molecular entity
 def: "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table." []
 synonym: "main group compounds" RELATED [chebi]
 synonym: "main group compounds" RELATED [ChEBI]
-synonym: "main group molecular entities" RELATED [chebi]
 synonym: "main group molecular entities" RELATED [ChEBI]
+synonym: "main group molecular entities" RELATED [chebi]
 is_a: CHEBI:23367 ! molecular entity
 relationship: has_part CHEBI:33318 ! main group element atom
 
@@ -2694,8 +2694,8 @@ name: aromatic compound
 def: "A cyclically conjugated molecular entity with a stability (due to delocalization) significantly greater than that of a hypothetical localized structure (e.g. Kekule structure) is said to possess aromatic character." []
 synonym: "aromatics" RELATED [chebi]
 synonym: "aromatics" RELATED [ChEBI]
-synonym: "aromatische Verbindungen" RELATED [chebi]
 synonym: "aromatische Verbindungen" RELATED [ChEBI]
+synonym: "aromatische Verbindungen" RELATED [chebi]
 is_a: CHEBI:33595 ! cyclic compound
 
 [Term]
@@ -2725,10 +2725,10 @@ is_a: CHEBI:5686 ! heterocyclic compound
 id: CHEBI:33674
 name: s-block molecular entity
 def: "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element." []
-synonym: "s-block compounds" RELATED [ChEBI]
 synonym: "s-block compounds" RELATED [chebi]
-synonym: "s-block molecular entities" RELATED [ChEBI]
+synonym: "s-block compounds" RELATED [ChEBI]
 synonym: "s-block molecular entities" RELATED [chebi]
+synonym: "s-block molecular entities" RELATED [ChEBI]
 synonym: "s-block molecular entity" EXACT [ChEBI]
 synonym: "s-block molecular entity" RELATED [chebi]
 is_a: CHEBI:33579 ! main group molecular entity
@@ -2742,8 +2742,8 @@ synonym: "p-block compounds" RELATED [ChEBI]
 synonym: "p-block compounds" RELATED [chebi]
 synonym: "p-block molecular entities" RELATED [chebi]
 synonym: "p-block molecular entities" RELATED [ChEBI]
-synonym: "p-block molecular entitiy" RELATED [ChEBI]
 synonym: "p-block molecular entitiy" RELATED [chebi]
+synonym: "p-block molecular entitiy" RELATED [ChEBI]
 is_a: CHEBI:33579 ! main group molecular entity
 relationship: has_part CHEBI:33560 ! p-block element atom
 
@@ -2954,8 +2954,8 @@ name: organic hydroxy compound
 def: "An organic compound having at least one hydroxy group attached to a carbon atom." []
 synonym: "organic alcohol" RELATED [chebi]
 synonym: "organic alcohol" RELATED [ChEBI]
-synonym: "organic hydroxy compounds" RELATED [chebi]
 synonym: "organic hydroxy compounds" RELATED [ChEBI]
+synonym: "organic hydroxy compounds" RELATED [chebi]
 is_a: CHEBI:24651 ! hydroxides
 is_a: CHEBI:50860 ! organic molecular entity
 
@@ -2972,8 +2972,8 @@ is_a: CHEBI:72695 ! organic molecule
 id: CHEBI:33833
 name: heteroarene
 def: "A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2)." []
-synonym: "hetarenes" RELATED [iupac]
 synonym: "hetarenes" RELATED [IUPAC]
+synonym: "hetarenes" RELATED [iupac]
 is_a: CHEBI:24532 ! organic heterocyclic compound
 is_a: CHEBI:33659 ! organic aromatic compound
 
@@ -3005,12 +3005,12 @@ is_a: CHEBI:33822 ! organic hydroxy compound
 id: CHEBI:33893
 name: reagent
 def: "A substance used in a chemical reaction to detect, measure, examine, or produce other substances." []
-synonym: "reactif" RELATED [IUPAC]
 synonym: "reactif" RELATED [iupac]
+synonym: "reactif" RELATED [IUPAC]
 synonym: "reactivo" RELATED [iupac]
 synonym: "reactivo" RELATED [IUPAC]
-synonym: "reagents" RELATED [ChEBI]
 synonym: "reagents" RELATED [chebi]
+synonym: "reagents" RELATED [ChEBI]
 is_a: CHEBI:33232 ! application
 
 [Term]
@@ -3168,8 +3168,8 @@ is_a: CHEBI:51143 ! nitrogen molecular entity
 id: CHEBI:35406
 name: oxoanion
 def: "An oxoanion is an anion derived from an oxoacid by loss of hydron(s) bound to oxygen." []
-synonym: "oxoacid anions" RELATED [ChEBI]
 synonym: "oxoacid anions" RELATED [chebi]
+synonym: "oxoacid anions" RELATED [ChEBI]
 synonym: "oxoanion" EXACT [ChEBI]
 synonym: "oxoanion" RELATED [chebi]
 synonym: "oxoanions" RELATED [ChEBI]
@@ -3255,15 +3255,15 @@ name: cardiovascular drug
 def: "A drug that affects the rate or intensity of cardiac contraction, blood vessel diameter or blood volume." []
 synonym: "cardiovascular agent" RELATED [chebi]
 synonym: "cardiovascular agent" RELATED [ChEBI]
-synonym: "cardiovascular drugs" RELATED [ChEBI]
 synonym: "cardiovascular drugs" RELATED [chebi]
+synonym: "cardiovascular drugs" RELATED [ChEBI]
 is_a: CHEBI:23888 ! drug
 
 [Term]
 id: CHEBI:35605
 name: carbon oxoacid
-synonym: "carbon oxoacids" RELATED [ChEBI]
 synonym: "carbon oxoacids" RELATED [chebi]
+synonym: "carbon oxoacids" RELATED [ChEBI]
 synonym: "oxoacids of carbon" RELATED [chebi]
 synonym: "oxoacids of carbon" RELATED [ChEBI]
 is_a: CHEBI:24833 ! oxoacid
@@ -3284,10 +3284,10 @@ is_a: CHEBI:23888 ! drug
 id: CHEBI:35620
 name: vasodilator agent
 def: "A drug used to cause dilation of the blood vessels." []
-synonym: "vasodilator" RELATED [chebi]
 synonym: "vasodilator" RELATED [ChEBI]
-synonym: "vasodilator agents" RELATED [ChEBI]
+synonym: "vasodilator" RELATED [chebi]
 synonym: "vasodilator agents" RELATED [chebi]
+synonym: "vasodilator agents" RELATED [ChEBI]
 is_a: CHEBI:35554 ! cardiovascular drug
 
 [Term]
@@ -3412,8 +3412,8 @@ is_a: CHEBI:47882 ! cyclic polypyrrole
 id: CHEBI:36338
 name: lepton
 def: "Lepton is a fermion that does not experience the strong force (strong interaction). The term is derived from the Greek lambdaepsilonpitauomicronsigma (small, thin)." []
-synonym: "leptons" RELATED [ChEBI]
 synonym: "leptons" RELATED [chebi]
+synonym: "leptons" RELATED [ChEBI]
 is_a: CHEBI:33233 ! fundamental particle
 is_a: CHEBI:36340 ! fermion
 
@@ -3421,8 +3421,8 @@ is_a: CHEBI:36340 ! fermion
 id: CHEBI:36339
 name: baryon
 def: "Baryon is a fermion that does experience the strong force (strong interaction). The term is derived from the Greek betaalpharhoupsilonsigma (heavy)." []
-synonym: "baryons" RELATED [chebi]
 synonym: "baryons" RELATED [ChEBI]
+synonym: "baryons" RELATED [chebi]
 is_a: CHEBI:36340 ! fermion
 is_a: CHEBI:36344 ! hadron
 
@@ -3430,8 +3430,8 @@ is_a: CHEBI:36344 ! hadron
 id: CHEBI:36340
 name: fermion
 def: "Particle of half-integer spin quantum number following Fermi-Dirac statistics. Fermions are named after Enrico Fermi." []
-synonym: "fermions" RELATED [chebi]
 synonym: "fermions" RELATED [ChEBI]
+synonym: "fermions" RELATED [chebi]
 is_a: CHEBI:36342 ! subatomic particle
 
 [Term]
@@ -3445,8 +3445,8 @@ is_a: CHEBI:36342 ! subatomic particle
 id: CHEBI:36342
 name: subatomic particle
 def: "A particle smaller than an atom." []
-synonym: "subatomic particles" RELATED [chebi]
 synonym: "subatomic particles" RELATED [ChEBI]
+synonym: "subatomic particles" RELATED [chebi]
 xref: Wikipedia:Subatomic_particle
 is_a: BFO:0000040 ! material entity
 
@@ -3454,8 +3454,8 @@ is_a: BFO:0000040 ! material entity
 id: CHEBI:36343
 name: composite particle
 def: "A subatomic particle known to have substructure (i.e. consisting of smaller particles)." []
-synonym: "composite particles" RELATED [ChEBI]
 synonym: "composite particles" RELATED [chebi]
+synonym: "composite particles" RELATED [ChEBI]
 is_a: CHEBI:36342 ! subatomic particle
 
 [Term]
@@ -3485,8 +3485,8 @@ relationship: has_part CHEBI:24433 ! group
 id: CHEBI:36358
 name: polyatomic ion
 def: "An ion consisting of more than one atom." []
-synonym: "polyatomic ions" RELATED [chebi]
 synonym: "polyatomic ions" RELATED [ChEBI]
+synonym: "polyatomic ions" RELATED [chebi]
 is_a: CHEBI:24870 ! ion
 is_a: CHEBI:36357 ! polyatomic entity
 
@@ -3511,8 +3511,8 @@ relationship: has_part CHEBI:23019 ! carbonyl group
 id: CHEBI:36587
 name: organic oxo compound
 def: "Organic compounds containing an oxygen atom, =O, doubly bonded to carbon or another element." []
-synonym: "organic oxo compounds" RELATED [chebi]
 synonym: "organic oxo compounds" RELATED [ChEBI]
+synonym: "organic oxo compounds" RELATED [chebi]
 is_a: CHEBI:72695 ! organic molecule
 relationship: has_part CHEBI:46629 ! oxo group
 
@@ -3556,10 +3556,10 @@ synonym: "cationes" RELATED [ChEBI]
 synonym: "cationes" RELATED [chebi]
 synonym: "cations" RELATED [ChEBI]
 synonym: "cations" RELATED [chebi]
-synonym: "Kation" RELATED [chebi]
 synonym: "Kation" RELATED [ChEBI]
-synonym: "Kationen" RELATED [ChEBI]
+synonym: "Kation" RELATED [chebi]
 synonym: "Kationen" RELATED [chebi]
+synonym: "Kationen" RELATED [ChEBI]
 xref: KEGG:C01373
 is_a: CHEBI:24870 ! ion
 
@@ -3606,8 +3606,8 @@ id: CHEBI:37176
 name: mononuclear parent hydride
 synonym: "mononuclear hydride" RELATED [ChEBI]
 synonym: "mononuclear hydride" RELATED [chebi]
-synonym: "mononuclear hydrides" RELATED [IUPAC]
 synonym: "mononuclear hydrides" RELATED [iupac]
+synonym: "mononuclear hydrides" RELATED [IUPAC]
 is_a: CHEBI:33692 ! hydrides
 
 [Term]
@@ -3628,16 +3628,16 @@ name: acid
 def: "An acid is a molecular entity capable of donating a hydron (Bronsted acid) or capable of forming a covalent bond with an electron pair (Lewis acid)." []
 synonym: "Acid" EXACT [KEGG_COMPOUND]
 synonym: "Acid" RELATED [kegg.compound]
-synonym: "acide" RELATED [IUPAC]
 synonym: "acide" RELATED [iupac]
-synonym: "acido" RELATED [ChEBI]
+synonym: "acide" RELATED [IUPAC]
 synonym: "acido" RELATED [chebi]
-synonym: "acids" RELATED [ChEBI]
+synonym: "acido" RELATED [ChEBI]
 synonym: "acids" RELATED [chebi]
+synonym: "acids" RELATED [ChEBI]
 synonym: "Saeure" RELATED [ChEBI]
 synonym: "Saeure" RELATED [chebi]
-synonym: "Saeuren" RELATED [chebi]
 synonym: "Saeuren" RELATED [ChEBI]
+synonym: "Saeuren" RELATED [chebi]
 xref: KEGG:C00174
 is_a: CHEBI:51086 ! chemical role
 
@@ -3645,8 +3645,8 @@ is_a: CHEBI:51086 ! chemical role
 id: CHEBI:37577
 name: heteroatomic molecular entity
 def: "A molecular entity consisting of two or more chemical elements." []
-synonym: "chemical compound" RELATED [ChEBI]
 synonym: "chemical compound" RELATED [chebi]
+synonym: "chemical compound" RELATED [ChEBI]
 synonym: "heteroatomic molecular entities" RELATED [ChEBI]
 synonym: "heteroatomic molecular entities" RELATED [chebi]
 is_a: CHEBI:36357 ! polyatomic entity
@@ -3699,8 +3699,8 @@ name: organonitrogen heterocyclic compound
 def: "Any organonitrogen compound containing a cyclic component with nitrogen and at least one other element as ring member atoms." []
 synonym: "heterocyclic organonitrogen compounds" RELATED [ChEBI]
 synonym: "heterocyclic organonitrogen compounds" RELATED [chebi]
-synonym: "organonitrogen heterocyclic compounds" RELATED [ChEBI]
 synonym: "organonitrogen heterocyclic compounds" RELATED [chebi]
+synonym: "organonitrogen heterocyclic compounds" RELATED [ChEBI]
 is_a: CHEBI:24532 ! organic heterocyclic compound
 is_a: CHEBI:35352 ! organonitrogen compound
 
@@ -3867,8 +3867,8 @@ name: Bronsted acid
 def: "A molecular entity capable of donating a hydron to an acceptor (Bronsted base)." []
 synonym: "acide de Bronsted" RELATED [iupac]
 synonym: "acide de Bronsted" RELATED [IUPAC]
-synonym: "Bronsted-Saeure" RELATED [chebi]
 synonym: "Bronsted-Saeure" RELATED [ChEBI]
+synonym: "Bronsted-Saeure" RELATED [chebi]
 synonym: "donneur d'hydron" RELATED [iupac]
 synonym: "donneur d'hydron" RELATED [IUPAC]
 synonym: "hydron donor" RELATED [iupac]
@@ -3880,14 +3880,14 @@ is_a: CHEBI:37527 ! acid
 id: CHEBI:39142
 name: Bronsted base
 def: "A molecular entity capable of accepting a hydron from a donor (Bronsted acid)." []
-synonym: "accepteur d'hydron" RELATED [iupac]
 synonym: "accepteur d'hydron" RELATED [IUPAC]
+synonym: "accepteur d'hydron" RELATED [iupac]
 synonym: "base de Bronsted" RELATED [iupac]
 synonym: "base de Bronsted" RELATED [IUPAC]
-synonym: "Bronsted-Base" RELATED [chebi]
 synonym: "Bronsted-Base" RELATED [ChEBI]
-synonym: "hydron acceptor" RELATED [IUPAC]
+synonym: "Bronsted-Base" RELATED [chebi]
 synonym: "hydron acceptor" RELATED [iupac]
+synonym: "hydron acceptor" RELATED [IUPAC]
 is_a: CHEBI:15339 ! acceptor
 is_a: CHEBI:22695 ! base
 
@@ -3911,8 +3911,8 @@ synonym: "HYDROXY GROUP" EXACT [PDBeChem]
 synonym: "HYDROXY GROUP" RELATED [pdb-ccd]
 synonym: "hydroxy group" EXACT [UniProt]
 synonym: "hydroxy group" RELATED [uniprot_ft]
-synonym: "hydroxyl" RELATED [chebi]
 synonym: "hydroxyl" RELATED [ChEBI]
+synonym: "hydroxyl" RELATED [chebi]
 synonym: "hydroxyl group" RELATED [ChEBI]
 synonym: "hydroxyl group" RELATED [chebi]
 xref: PDBeChem:OH
@@ -3932,8 +3932,8 @@ relationship: is_conjugate_base_of CHEBI:26836 ! sulfuric acid
 [Term]
 id: CHEBI:46629
 name: oxo group
-synonym: "=O" RELATED [iupac]
 synonym: "=O" RELATED [IUPAC]
+synonym: "=O" RELATED [iupac]
 synonym: "OXO GROUP" EXACT [PDBeChem]
 synonym: "OXO GROUP" RELATED [pdb-ccd]
 xref: PDBeChem:O
@@ -3956,8 +3956,8 @@ name: solvent
 def: "A liquid that can dissolve other substances (solutes) without any change in their chemical composition." []
 synonym: "Loesungsmittel" RELATED [chebi]
 synonym: "Loesungsmittel" RELATED [ChEBI]
-synonym: "solvant" RELATED [ChEBI]
 synonym: "solvant" RELATED [chebi]
+synonym: "solvant" RELATED [ChEBI]
 synonym: "solvents" RELATED [chebi]
 synonym: "solvents" RELATED [ChEBI]
 xref: Wikipedia:Solvent
@@ -3969,14 +3969,14 @@ id: CHEBI:46883
 name: carboxy group
 synonym: "-C(O)OH" RELATED [iupac]
 synonym: "-C(O)OH" RELATED [IUPAC]
-synonym: "-CO2H" RELATED [ChEBI]
 synonym: "-CO2H" RELATED [chebi]
-synonym: "-COOH" RELATED [iupac]
+synonym: "-CO2H" RELATED [ChEBI]
 synonym: "-COOH" RELATED [IUPAC]
+synonym: "-COOH" RELATED [iupac]
 synonym: "CARBOXY GROUP" EXACT [PDBeChem]
 synonym: "CARBOXY GROUP" RELATED [pdb-ccd]
-synonym: "carboxyl group" RELATED [ChEBI]
 synonym: "carboxyl group" RELATED [chebi]
+synonym: "carboxyl group" RELATED [ChEBI]
 xref: PDBeChem:FMT
 is_a: CHEBI:33249 ! organyl group
 
@@ -4045,8 +4045,8 @@ is_a: CHEBI:26835 ! sulfur molecular entity
 id: CHEBI:48354
 name: polar solvent
 def: "A solvent that is composed of polar molecules. Polar solvents can dissolve ionic compounds or ionisable covalent compounds." []
-synonym: "polar solvents" RELATED [chebi]
 synonym: "polar solvents" RELATED [ChEBI]
+synonym: "polar solvents" RELATED [chebi]
 is_a: CHEBI:46787 ! solvent
 
 [Term]
@@ -4093,8 +4093,8 @@ is_a: CHEBI:52210 ! pharmacological role
 [Term]
 id: CHEBI:49637
 name: hydrogen atom
-synonym: "1H" RELATED [IUPAC]
 synonym: "1H" RELATED [iupac]
+synonym: "1H" RELATED [IUPAC]
 synonym: "H" RELATED [iupac]
 synonym: "H" RELATED [IUPAC]
 synonym: "hidrogeno" RELATED [ChEBI]
@@ -4210,12 +4210,12 @@ is_a: CHEBI:23888 ! drug
 id: CHEBI:50860
 name: organic molecular entity
 def: "Any molecular entity that contains carbon." []
-synonym: "organic compounds" RELATED [chebi]
 synonym: "organic compounds" RELATED [ChEBI]
+synonym: "organic compounds" RELATED [chebi]
 synonym: "organic entity" RELATED [chebi]
 synonym: "organic entity" RELATED [ChEBI]
-synonym: "organic molecular entities" RELATED [ChEBI]
 synonym: "organic molecular entities" RELATED [chebi]
+synonym: "organic molecular entities" RELATED [ChEBI]
 is_a: CHEBI:33582 ! carbon group molecular entity
 relationship: has_part CHEBI:27594 ! carbon atom
 
@@ -4229,20 +4229,20 @@ is_a: PATO:0000001 ! quality
 id: CHEBI:50910
 name: neurotoxin
 def: "A poison that interferes with the functions of the nervous system." []
-synonym: "agente neurotoxico" RELATED [ChEBI]
 synonym: "agente neurotoxico" RELATED [chebi]
-synonym: "nerve poison" RELATED [chebi]
+synonym: "agente neurotoxico" RELATED [ChEBI]
 synonym: "nerve poison" RELATED [ChEBI]
+synonym: "nerve poison" RELATED [chebi]
 synonym: "nerve poisons" RELATED [ChEBI]
 synonym: "nerve poisons" RELATED [chebi]
-synonym: "neurotoxic agent" RELATED [ChEBI]
 synonym: "neurotoxic agent" RELATED [chebi]
-synonym: "neurotoxic agents" RELATED [chebi]
+synonym: "neurotoxic agent" RELATED [ChEBI]
 synonym: "neurotoxic agents" RELATED [ChEBI]
-synonym: "neurotoxicant" RELATED [chebi]
+synonym: "neurotoxic agents" RELATED [chebi]
 synonym: "neurotoxicant" RELATED [ChEBI]
-synonym: "neurotoxins" RELATED [chebi]
+synonym: "neurotoxicant" RELATED [chebi]
 synonym: "neurotoxins" RELATED [ChEBI]
+synonym: "neurotoxins" RELATED [chebi]
 xref: Wikipedia:Neurotoxin
 is_a: CHEBI:52209 ! aetiopathogenetic role
 is_a: CHEBI:64909 ! poison
@@ -4306,8 +4306,8 @@ is_a: CHEBI:23888 ! drug
 id: CHEBI:51422
 name: organodiyl group
 def: "Any organic substituent group, regardless of functional type, having two free valences at carbon atom(s)." []
-synonym: "organodiyl groups" RELATED [chebi]
 synonym: "organodiyl groups" RELATED [ChEBI]
+synonym: "organodiyl groups" RELATED [chebi]
 is_a: CHEBI:51446 ! organic divalent group
 
 [Term]
@@ -4347,10 +4347,10 @@ is_a: CHEBI:24432 ! biological role
 id: CHEBI:52209
 name: aetiopathogenetic role
 def: "A role played by the molecular entity or part thereof which causes the development of a pathological process." []
-synonym: "etiopathogenetic agent" RELATED [ChEBI]
 synonym: "etiopathogenetic agent" RELATED [chebi]
-synonym: "etiopathogenetic role" RELATED [chebi]
+synonym: "etiopathogenetic agent" RELATED [ChEBI]
 synonym: "etiopathogenetic role" RELATED [ChEBI]
+synonym: "etiopathogenetic role" RELATED [chebi]
 is_a: CHEBI:24432 ! biological role
 
 [Term]
@@ -4378,10 +4378,10 @@ name: pharmaceutical
 def: "Any substance introduced into a living organism with therapeutic or diagnostic purpose." []
 synonym: "farmaco" RELATED [chebi]
 synonym: "farmaco" RELATED [ChEBI]
-synonym: "medicament" RELATED [ChEBI]
 synonym: "medicament" RELATED [chebi]
-synonym: "pharmaceuticals" RELATED [ChEBI]
+synonym: "medicament" RELATED [ChEBI]
 synonym: "pharmaceuticals" RELATED [chebi]
+synonym: "pharmaceuticals" RELATED [ChEBI]
 is_a: CHEBI:33232 ! application
 
 [Term]
@@ -4435,14 +4435,14 @@ name: heterocyclic compound
 def: "A cyclic compound having as ring members atoms of at least two different elements." []
 synonym: "compuesto heterociclico" RELATED [iupac]
 synonym: "compuesto heterociclico" RELATED [IUPAC]
-synonym: "compuestos heterociclicos" RELATED [iupac]
 synonym: "compuestos heterociclicos" RELATED [IUPAC]
+synonym: "compuestos heterociclicos" RELATED [iupac]
 synonym: "heterocycle" RELATED [ChEBI]
 synonym: "heterocycle" RELATED [chebi]
 synonym: "Heterocyclic compound" EXACT [KEGG_COMPOUND]
 synonym: "Heterocyclic compound" RELATED [kegg.compound]
-synonym: "heterocyclic compounds" RELATED [chebi]
 synonym: "heterocyclic compounds" RELATED [ChEBI]
+synonym: "heterocyclic compounds" RELATED [chebi]
 is_a: CHEBI:33595 ! cyclic compound
 
 [Term]
@@ -4733,16 +4733,16 @@ is_a: CHEBI:24433 ! group
 id: CHEBI:64767
 name: anionic group
 def: "A group that carries an overall negative charge." []
-synonym: "anionic groups" RELATED [chebi]
 synonym: "anionic groups" RELATED [ChEBI]
+synonym: "anionic groups" RELATED [chebi]
 is_a: CHEBI:24433 ! group
 
 [Term]
 id: CHEBI:64769
 name: organic cationic group
 def: "A cationic group that contains carbon." []
-synonym: "organic cationic groups" RELATED [ChEBI]
 synonym: "organic cationic groups" RELATED [chebi]
+synonym: "organic cationic groups" RELATED [ChEBI]
 is_a: CHEBI:64766 ! cationic group
 relationship: is_conjugate_acid_of CHEBI:33247 ! organic group
 relationship: RO:0018034 CHEBI:33247 ! is conjugate acid of organic group
@@ -4751,8 +4751,8 @@ relationship: RO:0018034 CHEBI:33247 ! is conjugate acid of organic group
 id: CHEBI:64775
 name: organic anionic group
 def: "An anionic group that contains carbon." []
-synonym: "organic anionic groups" RELATED [chebi]
 synonym: "organic anionic groups" RELATED [ChEBI]
+synonym: "organic anionic groups" RELATED [chebi]
 is_a: CHEBI:64767 ! anionic group
 relationship: is_conjugate_base_of CHEBI:33247 ! organic group
 relationship: RO:0018033 CHEBI:33247 ! is conjugate base of organic group
@@ -4774,24 +4774,24 @@ relationship: is_conjugate_base_of CHEBI:33708 ! amino-acid residue
 id: CHEBI:64909
 name: poison
 def: "Any substance that causes disturbance to organisms by chemical reaction or other activity on the molecular scale, when a sufficient quantity is absorbed by the organism." []
-synonym: "poisonous agent" RELATED [ChEBI]
 synonym: "poisonous agent" RELATED [chebi]
-synonym: "poisonous agents" RELATED [chebi]
+synonym: "poisonous agent" RELATED [ChEBI]
 synonym: "poisonous agents" RELATED [ChEBI]
+synonym: "poisonous agents" RELATED [chebi]
 synonym: "poisonous substance" RELATED [ChEBI]
 synonym: "poisonous substance" RELATED [chebi]
 synonym: "poisonous substances" RELATED [ChEBI]
 synonym: "poisonous substances" RELATED [chebi]
 synonym: "poisons" RELATED [ChEBI]
 synonym: "poisons" RELATED [chebi]
-synonym: "toxic agent" RELATED [chebi]
 synonym: "toxic agent" RELATED [ChEBI]
+synonym: "toxic agent" RELATED [chebi]
 synonym: "toxic agents" RELATED [chebi]
 synonym: "toxic agents" RELATED [ChEBI]
-synonym: "toxic substance" RELATED [chebi]
 synonym: "toxic substance" RELATED [ChEBI]
-synonym: "toxic substances" RELATED [ChEBI]
+synonym: "toxic substance" RELATED [chebi]
 synonym: "toxic substances" RELATED [chebi]
+synonym: "toxic substances" RELATED [ChEBI]
 xref: Wikipedia:Poison
 is_a: CHEBI:24432 ! biological role
 
@@ -4845,22 +4845,22 @@ relationship: is_conjugate_acid_of CHEBI:50994 ! primary amino compound
 id: CHEBI:67079
 name: anti-inflammatory agent
 def: "Any compound that has anti-inflammatory effects." []
-synonym: "anti-inflammatory agents" RELATED [chebi]
 synonym: "anti-inflammatory agents" RELATED [ChEBI]
+synonym: "anti-inflammatory agents" RELATED [chebi]
 synonym: "antiinflammatory agent" RELATED [chebi]
 synonym: "antiinflammatory agent" RELATED [ChEBI]
-synonym: "antiinflammatory agents" RELATED [chebi]
 synonym: "antiinflammatory agents" RELATED [ChEBI]
+synonym: "antiinflammatory agents" RELATED [chebi]
 is_a: CHEBI:33232 ! application
 
 [Term]
 id: CHEBI:72695
 name: organic molecule
 def: "Any molecule that consists of at least one carbon atom as part of the electrically neutral entity." []
-synonym: "organic compound" RELATED [ChEBI]
 synonym: "organic compound" RELATED [chebi]
-synonym: "organic compounds" RELATED [ChEBI]
+synonym: "organic compound" RELATED [ChEBI]
 synonym: "organic compounds" RELATED [chebi]
+synonym: "organic compounds" RELATED [ChEBI]
 synonym: "organic molecules" RELATED [chebi]
 synonym: "organic molecules" RELATED [ChEBI]
 is_a: CHEBI:25367 ! molecule
@@ -4910,26 +4910,26 @@ is_a: CHEBI:25212 ! metabolite
 id: CHEBI:75767
 name: animal metabolite
 def: "Any eukaryotic metabolite produced during a metabolic reaction in animals that include diverse creatures from sponges, insects to mammals." []
-synonym: "animal metabolites" RELATED [ChEBI]
 synonym: "animal metabolites" RELATED [chebi]
+synonym: "animal metabolites" RELATED [ChEBI]
 is_a: CHEBI:75763 ! eukaryotic metabolite
 
 [Term]
 id: CHEBI:75768
 name: mammalian metabolite
 def: "Any animal metabolite produced during a metabolic reaction in mammals." []
-synonym: "mammalian metabolites" RELATED [ChEBI]
 synonym: "mammalian metabolites" RELATED [chebi]
+synonym: "mammalian metabolites" RELATED [ChEBI]
 is_a: CHEBI:75767 ! animal metabolite
 
 [Term]
 id: CHEBI:75771
 name: mouse metabolite
 def: "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>)." []
-synonym: "mouse metabolites" RELATED [ChEBI]
 synonym: "mouse metabolites" RELATED [chebi]
-synonym: "Mus musculus metabolite" RELATED [ChEBI]
+synonym: "mouse metabolites" RELATED [ChEBI]
 synonym: "Mus musculus metabolite" RELATED [chebi]
+synonym: "Mus musculus metabolite" RELATED [ChEBI]
 synonym: "Mus musculus metabolites" RELATED [chebi]
 synonym: "Mus musculus metabolites" RELATED [ChEBI]
 is_a: CHEBI:75768 ! mammalian metabolite
@@ -4938,12 +4938,12 @@ is_a: CHEBI:75768 ! mammalian metabolite
 id: CHEBI:75772
 name: Saccharomyces cerevisiae metabolite
 def: "Any  fungal metabolite produced during a metabolic reaction in Baker's yeast (<em>Saccharomyces cerevisiae </em>)." []
-synonym: "baker's yeast metabolite" RELATED [chebi]
 synonym: "baker's yeast metabolite" RELATED [ChEBI]
+synonym: "baker's yeast metabolite" RELATED [chebi]
 synonym: "baker's yeast metabolites" RELATED [ChEBI]
 synonym: "baker's yeast metabolites" RELATED [chebi]
-synonym: "baker's yeast secondary metabolite" RELATED [ChEBI]
 synonym: "baker's yeast secondary metabolite" RELATED [chebi]
+synonym: "baker's yeast secondary metabolite" RELATED [ChEBI]
 synonym: "baker's yeast secondary metabolites" RELATED [chebi]
 synonym: "baker's yeast secondary metabolites" RELATED [ChEBI]
 synonym: "S. cerevisiae metabolite" RELATED [chebi]
@@ -5184,8 +5184,8 @@ synonym: "E.coli metabolite" RELATED [ChEBI]
 synonym: "E.coli metabolite" RELATED [chebi]
 synonym: "E.coli metabolites" RELATED [chebi]
 synonym: "E.coli metabolites" RELATED [ChEBI]
-synonym: "Escherichia coli metabolites" RELATED [chebi]
 synonym: "Escherichia coli metabolites" RELATED [ChEBI]
+synonym: "Escherichia coli metabolites" RELATED [chebi]
 is_a: CHEBI:76969 ! bacterial metabolite
 
 [Term]
@@ -5196,8 +5196,8 @@ synonym: "H. sapiens metabolite" RELATED [chebi]
 synonym: "H. sapiens metabolite" RELATED [ChEBI]
 synonym: "H. sapiens metabolites" RELATED [chebi]
 synonym: "H. sapiens metabolites" RELATED [ChEBI]
-synonym: "Homo sapiens metabolite" RELATED [ChEBI]
 synonym: "Homo sapiens metabolite" RELATED [chebi]
+synonym: "Homo sapiens metabolite" RELATED [ChEBI]
 synonym: "Homo sapiens metabolites" RELATED [ChEBI]
 synonym: "Homo sapiens metabolites" RELATED [chebi]
 is_a: CHEBI:75768 ! mammalian metabolite
@@ -5232,8 +5232,8 @@ is_a: CHEBI:76807 ! EC 3.5.1.* (non-peptide linear amide C-N hydrolase) inhibito
 id: CHEBI:77974
 name: food packaging gas
 def: "A food additive that is a (generally inert) gas which is used to envelop foodstuffs during packing and so protect them from unwanted chemical reactions such as food spoilage or oxidation during subsequent transport and storage. The term includes propellant gases, used to expel foods from a container." []
-synonym: "food packaging gases" RELATED [ChEBI]
 synonym: "food packaging gases" RELATED [chebi]
+synonym: "food packaging gases" RELATED [ChEBI]
 xref: Wikipedia:Packaging_gas
 is_a: CHEBI:64047 ! food additive
 
@@ -5249,10 +5249,10 @@ is_a: CHEBI:76414 ! propellant
 id: CHEBI:78295
 name: food component
 def: "A physiological role played by any substance that is distributed in foodstuffs. It includes materials derived from plants or animals, such as vitamins or minerals, as well as environmental contaminants." []
-synonym: "dietary component" RELATED [chebi]
 synonym: "dietary component" RELATED [ChEBI]
-synonym: "dietary components" RELATED [chebi]
+synonym: "dietary component" RELATED [chebi]
 synonym: "dietary components" RELATED [ChEBI]
+synonym: "dietary components" RELATED [chebi]
 synonym: "food components" RELATED [chebi]
 synonym: "food components" RELATED [ChEBI]
 is_a: CHEBI:52211 ! physiological role
@@ -11057,7 +11057,7 @@ synonym: "primary succession" RELATED []
 synonym: "secondary succession" RELATED []
 synonym: "seral progression" RELATED []
 synonym: "succession" EXACT []
-is_a: BFO:0000015 ! process
+is_a: ENVO:01001795 ! ecosystem process
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -11068,7 +11068,7 @@ synonym: "biogeochemical cycle" EXACT []
 synonym: "elemental cycling" EXACT []
 synonym: "geochemical cycling" RELATED []
 synonym: "nutrient cycling" RELATED []
-is_a: BFO:0000015 ! process
+is_a: ENVO:01001795 ! ecosystem process
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -11116,7 +11116,7 @@ synonym: "flood pulse dynamics" EXACT []
 synonym: "floodplain connectivity" RELATED []
 synonym: "lateral hydrological connectivity pulse" EXACT []
 synonym: "river-floodplain exchange" RELATED []
-is_a: BFO:0000015 ! process
+is_a: ENVO:01001795 ! ecosystem process
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -11182,7 +11182,7 @@ synonym: "plant dispersal" EXACT []
 synonym: "propagule dispersal" EXACT []
 synonym: "seed transport" EXACT []
 synonym: "zoochory" RELATED []
-is_a: BFO:0000015 ! process
+is_a: ENVO:01001795 ! ecosystem process
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -11195,7 +11195,7 @@ synonym: "biotic water purification" EXACT []
 synonym: "ecosystem water purification" EXACT []
 synonym: "natural water treatment" RELATED []
 synonym: "water purification" RELATED []
-is_a: BFO:0000015 ! process
+is_a: ENVO:01001795 ! ecosystem process
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -11208,7 +11208,28 @@ synonym: "carbon sink" EXACT []
 synonym: "ecosystem carbon storage" EXACT []
 synonym: "net ecosystem production" RELATED []
 synonym: "terrestrial carbon sequestration" RELATED []
-is_a: BFO:0000015 ! process
+is_a: ENVO:01001795 ! ecosystem process
+property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
+
+[Term]
+id: ECOCORE:00000204
+name: dissolved organic matter mineralization
+def: "A decomposition process during which a living entity acquires food and energy by enzymatically transforming dissolved organic molecules into inorganic mineral forms, completing biogeochemical nutrient cycles in aquatic and soil systems." []
+synonym: "dissolved organic carbon mineralization" RELATED []
+synonym: "DOC mineralization" EXACT []
+synonym: "DOM mineralization" EXACT []
+synonym: "DOM remineralization" RELATED []
+is_a: ECOCORE:00000058 ! decomposition
+property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
+
+[Term]
+id: ECOCORE:00000205
+name: trophic cascade
+def: "An ecosystem process in which changes in consumer abundance or behavior at one trophic level propagate indirectly through multiple trophic links, altering the biomass, behavior, and community composition of organisms at non-adjacent trophic levels." []
+synonym: "indirect trophic effect" RELATED []
+synonym: "top-down trophic cascade" RELATED []
+synonym: "trophic cascading effect" RELATED []
+is_a: ENVO:01001795 ! ecosystem process
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]

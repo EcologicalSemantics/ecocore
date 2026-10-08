@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: ecocore/releases/2026-08-31/ecocore-base.owl
+data-version: ecocore/releases/2026-10-08/ecocore-base.owl
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: terms http://purl.org/dc/terms/ 
 remark: An ontology of core ecological entities
 ontology: ecocore/ecocore-base
 property_value: dc:type IAO:8000001
-property_value: owl:versionInfo "2026-08-31" xsd:string
+property_value: owl:versionInfo "2026-10-08" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/3.0/
 
 [Term]
@@ -1451,7 +1451,7 @@ synonym: "primary succession" RELATED []
 synonym: "secondary succession" RELATED []
 synonym: "seral progression" RELATED []
 synonym: "succession" EXACT []
-is_a: BFO:0000015
+is_a: ENVO:01001795
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1462,7 +1462,7 @@ synonym: "biogeochemical cycle" EXACT []
 synonym: "elemental cycling" EXACT []
 synonym: "geochemical cycling" RELATED []
 synonym: "nutrient cycling" RELATED []
-is_a: BFO:0000015
+is_a: ENVO:01001795
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1510,7 +1510,7 @@ synonym: "flood pulse dynamics" EXACT []
 synonym: "floodplain connectivity" RELATED []
 synonym: "lateral hydrological connectivity pulse" EXACT []
 synonym: "river-floodplain exchange" RELATED []
-is_a: BFO:0000015
+is_a: ENVO:01001795
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1576,7 +1576,7 @@ synonym: "plant dispersal" EXACT []
 synonym: "propagule dispersal" EXACT []
 synonym: "seed transport" EXACT []
 synonym: "zoochory" RELATED []
-is_a: BFO:0000015
+is_a: ENVO:01001795
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1589,7 +1589,7 @@ synonym: "biotic water purification" EXACT []
 synonym: "ecosystem water purification" EXACT []
 synonym: "natural water treatment" RELATED []
 synonym: "water purification" RELATED []
-is_a: BFO:0000015
+is_a: ENVO:01001795
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
@@ -1602,7 +1602,28 @@ synonym: "carbon sink" EXACT []
 synonym: "ecosystem carbon storage" EXACT []
 synonym: "net ecosystem production" RELATED []
 synonym: "terrestrial carbon sequestration" RELATED []
-is_a: BFO:0000015
+is_a: ENVO:01001795
+property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
+
+[Term]
+id: ECOCORE:00000204
+name: dissolved organic matter mineralization
+def: "A decomposition process during which a living entity acquires food and energy by enzymatically transforming dissolved organic molecules into inorganic mineral forms, completing biogeochemical nutrient cycles in aquatic and soil systems." []
+synonym: "dissolved organic carbon mineralization" RELATED []
+synonym: "DOC mineralization" EXACT []
+synonym: "DOM mineralization" EXACT []
+synonym: "DOM remineralization" RELATED []
+is_a: ECOCORE:00000058 ! decomposition
+property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
+
+[Term]
+id: ECOCORE:00000205
+name: trophic cascade
+def: "An ecosystem process in which changes in consumer abundance or behavior at one trophic level propagate indirectly through multiple trophic links, altering the biomass, behavior, and community composition of organisms at non-adjacent trophic levels." []
+synonym: "indirect trophic effect" RELATED []
+synonym: "top-down trophic cascade" RELATED []
+synonym: "trophic cascading effect" RELATED []
+is_a: ENVO:01001795
 property_value: IAO:0000117 "http://orcid.org/0000-0002-2908-3327" xsd:string
 
 [Term]
