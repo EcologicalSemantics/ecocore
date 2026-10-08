@@ -11,3 +11,4 @@ http://purl.obolibrary.org/obo/ENVO_01000063 # planktonic material
 http://purl.obolibrary.org/obo/ENVO_00002040 # wood
 http://purl.obolibrary.org/obo/ENVO_01000349 # root material
 http://purl.obolibrary.org/obo/ENVO_01001189 # algal material
+http://purl.obolibrary.org/obo/ENVO_01001795 # ecosystem process

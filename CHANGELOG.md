@@ -33,6 +33,18 @@ Releases are tagged `vYYYY-MM-DD` and published on [GitHub Releases](https://git
 - Fixed 6 terms (ECOCORE:183-190 minus ECOCORE:187) missing rdfs:label (IRI was used as label in releases)
 - Fixed DOSDP prototype crash in 4 patterns: replaced quoted multi-word class names in `vars:` constraints with class-key form (e.g. `"'trophic process'"` → `"'trophic_process'"`)
 
+## [v2026-10-08]
+
+### New terms
+- Dissolved organic matter mineralization (ECOCORE:00000204; closes #171)
+- Trophic cascade (ECOCORE:00000205; closes #172)
+
+### Hierarchy changes
+- Re-parented 6 ecosystem-level process terms from BFO:0000015 to ENVO:01001795 (ecosystem process): ecological succession, biogeochemical cycling, flood pulse, seed dispersal, water filtration, carbon sequestration
+
+### Infrastructure
+- Added ENVO:01001795 (ecosystem process) to envo_terms.txt import seed
+
 ## Unreleased
 
 ---

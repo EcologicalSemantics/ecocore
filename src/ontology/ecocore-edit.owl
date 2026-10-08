@@ -223,6 +223,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000200>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000201>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000202>))
 Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000203>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ECOCORE_00000205>))
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000183> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000184> "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000185> "http://orcid.org/0000-0002-2908-3327")
@@ -787,6 +789,17 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000059> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000059> "saprotrophy")
 SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000059> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000204> (dissolved organic matter mineralization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000204> "A decomposition process during which a living entity acquires food and energy by enzymatically transforming dissolved organic molecules into inorganic mineral forms, completing biogeochemical nutrient cycles in aquatic and soil systems.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000204> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000204> "dissolved organic matter mineralization"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000204> "DOM mineralization")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000204> "DOC mineralization")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000204> "dissolved organic carbon mineralization")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000204> "DOM remineralization")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000204> <http://purl.obolibrary.org/obo/ECOCORE_00000058>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000060> (symbiotrophy)
 
@@ -1681,7 +1694,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000191> "primary succession")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000191> "secondary succession")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000191> "seral progression")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000191> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000191> <http://purl.obolibrary.org/obo/ENVO_01001795>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000192> (biogeochemical cycling)
 
@@ -1692,7 +1705,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000192> "elemental cycling")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000192> "nutrient cycling")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000192> "geochemical cycling")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000192> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000192> <http://purl.obolibrary.org/obo/ENVO_01001795>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000193> (mutualism)
 
@@ -1740,7 +1753,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000196> "floodplain connectivity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000196> "river-floodplain exchange")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000196> "aquatic-terrestrial coupling")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000196> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000196> <http://purl.obolibrary.org/obo/ENVO_01001795>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000197> (redox dynamics)
 
@@ -1806,7 +1819,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSyno
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000201> "hydrochory")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000201> "endozoochory")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000201> "epizoochory")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000201> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000201> <http://purl.obolibrary.org/obo/ENVO_01001795>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000202> (water filtration)
 
@@ -1819,7 +1832,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000202> "biofiltration")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000202> "water purification")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000202> "natural water treatment")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000202> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000202> <http://purl.obolibrary.org/obo/ENVO_01001795>)
 
 # Class: <http://purl.obolibrary.org/obo/ECOCORE_00000203> (carbon sequestration)
 
@@ -1832,7 +1845,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000203> "blue carbon sequestration")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000203> "terrestrial carbon sequestration")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000203> "net ecosystem production")
-SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000203> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000203> <http://purl.obolibrary.org/obo/ENVO_01001795>)
+
+# Class: <http://purl.obolibrary.org/obo/ECOCORE_00000205> (trophic cascade)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ECOCORE_00000205> "An ecosystem process in which changes in consumer abundance or behavior at one trophic level propagate indirectly through multiple trophic links, altering the biomass, behavior, and community composition of organisms at non-adjacent trophic levels.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/ECOCORE_00000205> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ECOCORE_00000205> "trophic cascade"@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000205> "trophic cascading effect")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000205> "top-down trophic cascade")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> <http://purl.obolibrary.org/obo/ECOCORE_00000205> "indirect trophic effect")
+SubClassOf(<http://purl.obolibrary.org/obo/ECOCORE_00000205> <http://purl.obolibrary.org/obo/ENVO_01001795>)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000111> "editor preferred term")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000112> "example of usage")
