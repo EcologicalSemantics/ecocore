@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate SPARQL reports
-        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' sparql_reports IMP=false PAT=false MIR=false
+        run: cd src/ontology && make ROBOT_ENV='ROBOT_JAVA_ARGS=-Xmx6G' test IMP=false PAT=false MIR=false
 
       - name: Upload reports as artifacts
         uses: actions/upload-artifact@v4
